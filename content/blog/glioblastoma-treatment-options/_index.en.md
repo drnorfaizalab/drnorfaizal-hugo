@@ -38,7 +38,7 @@ MRI with contrast shows a ring-enhancing mass with central necrosis. Surgery or 
 
 ## The Stupp Protocol (Standard Treatment)
 
-1. **Surgery** — maximal safe resection. I use intraoperative MRI, 5-ALA fluorescence, and neuromonitoring. For tumours near speech or motor areas, I perform awake craniotomy.
+1. **Surgery** — maximal safe resection using intraoperative MRI, 5-ALA fluorescence, and neuromonitoring. Awake craniotomy for tumours near speech or motor areas.
 2. **Concurrent radiotherapy + temozolomide** — 6 weeks of daily radiation with chemotherapy.
 3. **Adjuvant temozolomide** — 6 months of chemotherapy cycles.
 
