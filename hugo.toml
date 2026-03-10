@@ -58,12 +58,12 @@ theme = "drnorfaizal"
   # Sitemap
   enableSitemap = true
   
-  # Theme colors (batik-inspired palette)
-  primary_color = "#1a472a"
+  # Theme colors
+  primary_color = "#002147"
   secondary_color = "#d4a574"
   accent_color = "#e63946"
   background_light = "#f8f9fa"
-  text_dark = "#1a1a1a"
+  text_dark = "#0d1f3c"
 
 # Markup configuration
 [markup]
