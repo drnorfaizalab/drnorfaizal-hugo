@@ -30,9 +30,9 @@
 
       <div class="flex" style="align-items:center; gap:1rem;">
         <div class="lang-switcher">
-          <a href="{{ .Permalink }}" {{ if eq .Lang "en" }}class="active"{{ end }}>EN</a>
-          {{ range .AllTranslations }}
-            <a href="{{ .Permalink }}" {{ if eq .Lang "bm" }}class="active"{{ end }}>BM</a>
+          <a href="{{ .Permalink }}" class="active">{{ .Lang | upper }}</a>
+          {{ range .Translations }}
+            <a href="{{ .Permalink }}">{{ .Lang | upper }}</a>
           {{ end }}
         </div>
 
