@@ -10,8 +10,6 @@ author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/blog/oxford-journey.png"
 ---
 
-# My Oxford Journey: Why Precision Neurosurgery Changes Everything
-
 There is a moment that every surgeon remembers: the first time you understand that what you are doing is not merely technical work. That the instrument in your hand, held at a particular angle, exerting a particular pressure, is the difference between a life reclaimed and a life diminished. For me, that moment crystallised not in Malaysia, but in Oxford — in an operating theatre at the John Radcliffe Hospital, watching a consultant neurosurgeon navigate a eloquent cortex tumour with a patience and economy of movement that seemed to slow time itself.
 
 I returned to Malaysia changed. That is the only word that fits. This is the story of what changed, and why it matters to every patient I see today.
