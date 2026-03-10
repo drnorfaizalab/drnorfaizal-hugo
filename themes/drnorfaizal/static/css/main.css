@@ -375,7 +375,7 @@ section.section-alt {
 header {
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 1000;
   background: white;
   box-shadow: var(--shadow-sm);
   transition: var(--transition);
@@ -452,6 +452,7 @@ nav {
     background: white;
     padding: var(--spacing-lg);
     box-shadow: var(--shadow-lg);
+    z-index: 1000;
   }
   
   .nav-menu.active {
@@ -480,7 +481,7 @@ nav {
   padding: 0.5rem 0;
   list-style: none;
   margin: 0;
-  z-index: 200;
+  z-index: 1100;
   border-top: 3px solid var(--secondary);
 }
 
