@@ -1,0 +1,13 @@
+{{- $pages := where .Site.RegularPages "Type" "not in" (slice "page") -}}
+[
+  {{- range $i, $page := $pages -}}
+  {{- if $i -}},{{- end -}}
+  {
+    "title": {{ $page.Title | jsonify }},
+    "url": {{ $page.RelPermalink | jsonify }},
+    "summary": {{ with $page.Description }}{{ . | jsonify }}{{ else }}{{ $page.Summary | jsonify }}{{ end }},
+    "type": {{ $page.Type | jsonify }},
+    "tags": {{ $page.Params.tags | jsonify }}
+  }
+  {{- end -}}
+]

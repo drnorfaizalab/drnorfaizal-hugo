@@ -463,6 +463,48 @@ nav {
   }
 }
 
+/* Dropdown Nav */
+.nav-dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  min-width: 220px;
+  background: white;
+  border-radius: 6px;
+  box-shadow: var(--shadow-lg);
+  padding: 0.5rem 0;
+  list-style: none;
+  margin: 0;
+  z-index: 200;
+  border-top: 3px solid var(--secondary);
+}
+
+.dropdown-menu li { margin: 0; }
+
+.dropdown-menu a {
+  display: block;
+  padding: 0.6rem 1.25rem;
+  font-size: 0.9rem;
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.dropdown-menu a:hover {
+  background: var(--gray-200);
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.nav-dropdown:hover .dropdown-menu,
+.nav-dropdown:focus-within .dropdown-menu {
+  display: block;
+}
+
 /* Language Switcher */
 .lang-switcher {
   display: flex;
@@ -718,9 +760,43 @@ textarea {
 .fade-in { animation: fadeIn 0.6s ease-out; }
 .slide-up { animation: slideUp 0.6s ease-out; }
 
+/* WhatsApp Float Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 999;
+  background: #25d366;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+.whatsapp-float:hover {
+  background: #128c7e;
+  transform: scale(1.1);
+  box-shadow: var(--shadow-xl);
+  text-decoration: none;
+}
+
+/* Content Styles */
+.content h2 { margin-top: var(--spacing-xl); }
+.content h3 { margin-top: var(--spacing-lg); color: var(--primary); }
+.content table { width: 100%; border-collapse: collapse; margin-bottom: var(--spacing-lg); }
+.content th { background: var(--primary); color: white; padding: 0.75rem 1rem; text-align: left; font-family: var(--font-body); }
+.content td { padding: 0.75rem 1rem; border-bottom: 1px solid var(--gray-200); }
+.content tr:hover td { background: var(--gray-200); }
+.content blockquote { border-left: 4px solid var(--secondary); padding: 1rem 1.5rem; background: var(--gray-200); border-radius: 0 6px 6px 0; }
+
 /* Print Styles */
 @media print {
-  header, footer, .no-print { display: none; }
+  header, footer, .no-print, .whatsapp-float { display: none; }
   body { background: white; color: black; }
   a { color: var(--primary); }
 }

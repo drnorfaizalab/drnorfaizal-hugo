@@ -1,0 +1,25 @@
+nav_specialties: "Specialties"
+nav_blog: "Blog"
+nav_appointment: "Appointment"
+nav_about: "About"
+nav_contact: "Contact"
+nav_patients: "For Patients"
+nav_book_now: "Book Now"
+
+footer_quick_links: "Quick Links"
+footer_contact: "Contact"
+footer_rights: "All rights reserved."
+
+btn_learn_more: "Learn More"
+btn_book_consultation: "Book Consultation"
+btn_read_more: "Read More"
+btn_download: "Download"
+btn_back_home: "Back to Home"
+
+page_not_found: "Page Not Found"
+page_not_found_desc: "Sorry, the page you are looking for does not exist."
+
+appointment_title: "Ready to Consult?"
+appointment_desc: "Contact us to schedule an appointment."
+
+updated: "Updated"

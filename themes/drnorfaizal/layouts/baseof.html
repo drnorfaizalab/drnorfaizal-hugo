@@ -56,7 +56,8 @@
     </main>
     
     {{ partial "footer.html" . }}
-    
+    {{ partial "whatsapp.html" . }}
+
     <!-- Google Analytics -->
     {{ if and (not hugo.IsServer) .Site.Params.google_analytics_id }}
         {{ template "_internal/google_analytics.html" . }}
@@ -69,10 +70,12 @@
     <!-- Structured Data -->
     {{ if .IsHome }}
         {{ partial "schema/organization.html" . }}
+        {{ partial "schema/local-business.html" . }}
     {{ else if eq .Type "blog" }}
         {{ partial "schema/article.html" . }}
-    {{ else if eq .Type "specialties" }}
+    {{ else if eq .Type "specialty" }}
         {{ partial "schema/medical-service.html" . }}
     {{ end }}
+    {{ partial "schema/faq.html" . }}
 </body>
 </html>

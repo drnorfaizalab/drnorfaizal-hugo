@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Physician",
+  "name": "{{ .Site.Params.author }}",
+  "url": "{{ .Site.BaseURL }}",
+  "description": "{{ .Site.Params.description }}",
+  "medicalSpecialty": ["Neurosurgery", "Neurooncology", "Pain Management"],
+  "hasCredential": [
+    { "@type": "EducationalOccupationalCredential", "credentialCategory": "Fellowship", "recognizedBy": { "@type": "CollegeOrUniversity", "name": "University of Oxford" } }
+  ],
+  "worksFor": {
+    "@type": "Hospital",
+    "name": "{{ .Site.Params.clinic_name }}",
+    "address": { "@type": "PostalAddress", "addressLocality": "{{ .Site.Params.clinic_address }}", "addressCountry": "MY" }
+  },
+  "telephone": "{{ .Site.Params.clinic_phone }}",
+  "email": "{{ .Site.Params.clinic_email }}"
+}
+</script>
