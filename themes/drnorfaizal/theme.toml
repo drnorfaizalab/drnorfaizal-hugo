@@ -1,0 +1,16 @@
+name = "drnorfaizal"
+license = "MIT"
+licenselink = "https://github.com/drnorfaizal/theme-license"
+description = "Professional medical theme for Dr Nor Faizal - Neurooncology specialist. Batik-inspired, bilingual (BM/EN), optimized for SEO and conversion."
+homepage = "https://drnorfaizal.com"
+tags = ["professional", "medical", "responsive", "bilingual", "seo", "conversion"]
+features = ["bilingual", "dark-mode", "analytics", "responsive"]
+min_version = "0.100.0"
+
+[author]
+name = "Dr Nor Faizal Ahmad Bahuri"
+homepage = "https://drnorfaizal.com"
+
+[module]
+[[module.imports]]
+path = "github.com/gohugoio/gohugo-mod-bootstrap-scss/v5"

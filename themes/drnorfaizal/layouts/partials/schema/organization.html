@@ -1,0 +1,15 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "{{ .Site.Params.author }}",
+  "url": "{{ .Site.BaseURL }}",
+  "description": "{{ .Site.Params.description }}",
+  "medicalSpecialty": ["Neurosurgery", "Neurooncology", "Pain Management"],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "{{ .Site.Params.clinic_address }}"
+  },
+  "telephone": "{{ .Site.Params.clinic_phone }}"
+}
+</script>

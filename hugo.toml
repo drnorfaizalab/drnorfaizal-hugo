@@ -1,0 +1,100 @@
+baseURL = "https://drnorfaizal.com/"
+languageCode = "en-us"
+title = "Dr Nor Faizal - Neurooncology & Pain Management Specialist"
+theme = "drnorfaizal"
+
+# Multi-language configuration
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    homePageTitle = "Brain & Spinal Tumour Surgery Specialist | Dr Nor Faizal"
+    
+  [languages.bm]
+    languageName = "Bahasa Melayu"
+    weight = 2
+    homePageTitle = "Pakar Bedah Saraf & Kanser Otak | Dr Nor Faizal"
+
+# Output formats
+[outputs]
+  home = ["HTML", "JSON", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+
+# Output locations
+[outputFormats]
+  [outputFormats.JSON]
+    mediaType = "application/json"
+    baseName = "index"
+
+# Params for templates and navigation
+[params]
+  # Metadata
+  author = "Dr Nor Faizal Ahmad Bahuri"
+  description = "Oxford-trained Neurosurgeon & Interventional Pain Specialist. Expert in brain & spinal tumour surgery, neurooncology, and minimally invasive pain management."
+  
+  # Contact Information
+  clinic_name = "KPJ Tawakkal Specialist Hospital"
+  clinic_address = "Kuala Lumpur"
+  clinic_phone = "+60 3 XXXX XXXX"
+  clinic_whatsapp = "+60 XXX XXX XXXX"
+  clinic_email = "contact@drnorfaizal.com"
+  
+  # Social Media
+  social_tiktok = "drnorfaizalbahuri"
+  social_instagram = "drnorfaizalbahuri"
+  social_youtube = "drnorfaizalbahuri"
+  social_linkedin = "drnorfaizalbahuri"
+  social_facebook = "drnorfaizalbahuri"
+  
+  # Analytics
+  google_analytics_id = "G-XXXXXXXXXX"
+  cloudflare_analytics_token = ""
+  
+  # SEO
+  defaultMetaDescription = "Expert neurooncology and pain management specialist. Brain & spinal tumour surgery. Oxford-trained. Precision care."
+  keywords = "neurosurgeon, neurooncology, brain tumour, spinal tumour, pain management, Malaysia"
+  
+  # Sitemap
+  enableSitemap = true
+  
+  # Theme colors (batik-inspired palette)
+  primary_color = "#1a472a"
+  secondary_color = "#d4a574"
+  accent_color = "#e63946"
+  background_light = "#f8f9fa"
+  text_dark = "#1a1a1a"
+
+# Markup configuration
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+
+# Permalinks
+[permalinks]
+  blog = "/blog/:slug/"
+  guides = "/guides/:slug/"
+  specialties = "/kepakaran/:slug/"
+  patients = "/pasien/:slug/"
+
+# Taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  specialty = "specialties"
+
+# Privacy
+[privacy]
+  [privacy.googleAnalytics]
+    respectDoNotTrack = true
+    anonymizeIP = true
+
+# Security headers
+[security]
+  [security.funcs]
+    getenv = ['^HUGO_', '^CLOUDFLARE_']

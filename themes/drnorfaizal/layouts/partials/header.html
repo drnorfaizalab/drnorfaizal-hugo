@@ -1,0 +1,37 @@
+<header>
+  <div class="container">
+    <nav class="flex-between">
+      <a href="{{ "/" | relLangURL }}" class="nav-brand">
+        Dr Nor Faizal
+      </a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="{{ "/kepakaran" | relLangURL }}">{{ if eq .Lang "bm" }}Kepakaran{{ else }}Specialties{{ end }}</a></li>
+        <li><a href="{{ "/blog" | relLangURL }}">{{ if eq .Lang "bm" }}Blog{{ else }}Blog{{ end }}</a></li>
+        <li><a href="{{ "/temujanji" | relLangURL }}">{{ if eq .Lang "bm" }}Temujanji{{ else }}Appointment{{ end }}</a></li>
+        <li><a href="{{ "/tentang" | relLangURL }}">{{ if eq .Lang "bm" }}Tentang{{ else }}About{{ end }}</a></li>
+      </ul>
+
+      <div class="flex" style="align-items:center; gap:1rem;">
+        {{ if .IsTranslated }}
+        <div class="lang-switcher">
+          {{ range .AllTranslations }}
+            <a href="{{ .Permalink }}" {{ if eq .Lang $.Lang }}class="active"{{ end }}>
+              {{ .Lang | upper }}
+            </a>
+          {{ end }}
+          <a href="{{ .Permalink }}" {{ if not .IsTranslated }}class="active"{{ end }}>
+            {{ .Lang | upper }}
+          </a>
+        </div>
+        {{ end }}
+
+        <button class="btn btn-cta" onclick="location.href='{{ "/temujanji" | relLangURL }}'" style="font-size:0.875rem; padding:0.5rem 1.25rem;">
+          {{ if eq .Lang "bm" }}Temujanji{{ else }}Book Now{{ end }}
+        </button>
+
+        <button class="nav-mobile-toggle" id="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+      </div>
+    </nav>
+  </div>
+</header>

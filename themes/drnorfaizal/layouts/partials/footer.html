@@ -1,0 +1,49 @@
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Dr Nor Faizal</h4>
+        <p style="opacity:0.8; margin-bottom:1rem;">{{ .Site.Params.description }}</p>
+        <ul class="social-links">
+          {{ with .Site.Params.social_instagram }}
+          <li><a href="https://instagram.com/{{ . }}" target="_blank" rel="noopener" aria-label="Instagram">IG</a></li>
+          {{ end }}
+          {{ with .Site.Params.social_tiktok }}
+          <li><a href="https://tiktok.com/@{{ . }}" target="_blank" rel="noopener" aria-label="TikTok">TT</a></li>
+          {{ end }}
+          {{ with .Site.Params.social_youtube }}
+          <li><a href="https://youtube.com/@{{ . }}" target="_blank" rel="noopener" aria-label="YouTube">YT</a></li>
+          {{ end }}
+          {{ with .Site.Params.social_linkedin }}
+          <li><a href="https://linkedin.com/in/{{ . }}" target="_blank" rel="noopener" aria-label="LinkedIn">LI</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>{{ if eq .Lang "bm" }}Pautan{{ else }}Quick Links{{ end }}</h4>
+        <ul>
+          <li><a href="{{ "/kepakaran" | relLangURL }}">{{ if eq .Lang "bm" }}Kepakaran{{ else }}Specialties{{ end }}</a></li>
+          <li><a href="{{ "/blog" | relLangURL }}">Blog</a></li>
+          <li><a href="{{ "/temujanji" | relLangURL }}">{{ if eq .Lang "bm" }}Temujanji{{ else }}Appointments{{ end }}</a></li>
+          <li><a href="{{ "/tentang" | relLangURL }}">{{ if eq .Lang "bm" }}Tentang Saya{{ else }}About{{ end }}</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>{{ if eq .Lang "bm" }}Hubungi{{ else }}Contact{{ end }}</h4>
+        <ul>
+          {{ with .Site.Params.clinic_name }}<li>{{ . }}</li>{{ end }}
+          {{ with .Site.Params.clinic_address }}<li>{{ . }}</li>{{ end }}
+          {{ with .Site.Params.clinic_phone }}<li><a href="tel:{{ . }}">{{ . }}</a></li>{{ end }}
+          {{ with .Site.Params.clinic_email }}<li><a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. {{ if eq .Lang "bm" }}Hak cipta terpelihara.{{ else }}All rights reserved.{{ end }}</p>
+      <p style="margin-top:0.5rem; font-size:0.8rem; opacity:0.6;">Discipline · Simplicity · Elegance</p>
+    </div>
+  </div>
+</footer>

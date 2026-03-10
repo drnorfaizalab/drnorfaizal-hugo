@@ -1,0 +1,101 @@
+{{ define "main" }}
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-content container">
+    <h1 class="slide-up">{{ if eq .Lang "bm" }}Pakar Bedah Saraf & Kanser Otak{{ else }}Brain & Spinal Tumour Surgery Specialist{{ end }}</h1>
+    <p class="fade-in">{{ if eq .Lang "bm" }}Pakar bedah saraf berkelayakan Oxford. Neurooncologi, pembedahan otak &amp; saraf tunjang, pengurusan kesakitan.{{ else }}Oxford-trained Neurosurgeon. Neurooncology, brain &amp; spinal tumour surgery, interventional pain management.{{ end }}</p>
+    <div class="hero-cta">
+      <a href="{{ "/temujanji" | relLangURL }}" class="btn btn-cta">
+        {{ if eq .Lang "bm" }}Buat Temujanji{{ else }}Book Consultation{{ end }}
+      </a>
+      <a href="{{ "/kepakaran" | relLangURL }}" class="btn btn-secondary" style="color:white; border-color:white;">
+        {{ if eq .Lang "bm" }}Kepakaran Saya{{ else }}My Specialties{{ end }}
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Trust Badges -->
+<section style="padding: 2rem 0; background: white;">
+  <div class="container">
+    <div class="grid grid-3 text-center" style="gap:1rem;">
+      <div>
+        <h3 style="font-size:2.5rem; color:var(--secondary);">Oxford</h3>
+        <p style="color:var(--gray-600);">{{ if eq .Lang "bm" }}Latihan Pakar{{ else }}Fellowship Trained{{ end }}</p>
+      </div>
+      <div>
+        <h3 style="font-size:2.5rem; color:var(--secondary);">15+</h3>
+        <p style="color:var(--gray-600);">{{ if eq .Lang "bm" }}Tahun Pengalaman{{ else }}Years Experience{{ end }}</p>
+      </div>
+      <div>
+        <h3 style="font-size:2.5rem; color:var(--secondary);">KPJ</h3>
+        <p style="color:var(--gray-600);">{{ .Site.Params.clinic_name }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Specialties -->
+<section class="section-alt">
+  <div class="container">
+    <h2 class="text-center" style="margin-bottom:0.5rem;">{{ if eq .Lang "bm" }}Bidang Kepakaran{{ else }}Areas of Expertise{{ end }}</h2>
+    <p class="text-center text-gray" style="margin-bottom:3rem;">{{ if eq .Lang "bm" }}Perkhidmatan neurosurgikal komprehensif{{ else }}Comprehensive neurosurgical services{{ end }}</p>
+
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="badge" style="margin-bottom:1rem;">Neurooncology</div>
+        <h3 class="card-title">{{ if eq .Lang "bm" }}Bedah Kanser Otak &amp; Saraf Tunjang{{ else }}Brain &amp; Spinal Tumour Surgery{{ end }}</h3>
+        <p>{{ if eq .Lang "bm" }}Pembedahan tepat untuk meningioma, glioma, medulloblastoma dan lebih banyak lagi.{{ else }}Precision surgery for meningioma, glioma, medulloblastoma, and more.{{ end }}</p>
+        <a href="{{ "/kepakaran/neurooncology" | relLangURL }}" class="btn btn-secondary" style="margin-top:1rem;">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
+      </div>
+
+      <div class="card">
+        <div class="badge" style="margin-bottom:1rem;">Pain Management</div>
+        <h3 class="card-title">{{ if eq .Lang "bm" }}Pengurusan Kesakitan Intervensional{{ else }}Interventional Pain Management{{ end }}</h3>
+        <p>{{ if eq .Lang "bm" }}Rawatan kesakitan kronik menggunakan teknik minimally invasive.{{ else }}Chronic pain treatment using minimally invasive techniques.{{ end }}</p>
+        <a href="{{ "/kepakaran/pain-management" | relLangURL }}" class="btn btn-secondary" style="margin-top:1rem;">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
+      </div>
+
+      <div class="card">
+        <div class="badge" style="margin-bottom:1rem;">Neurosurgery</div>
+        <h3 class="card-title">{{ if eq .Lang "bm" }}Pembedahan Saraf Am{{ else }}General Neurosurgery{{ end }}</h3>
+        <p>{{ if eq .Lang "bm" }}Cakera herniated, stenosis tulang belakang, kecederaan saraf tunjang dan keadaan neurologi lain.{{ else }}Herniated discs, spinal stenosis, spine injuries, and other neurological conditions.{{ end }}</p>
+        <a href="{{ "/kepakaran" | relLangURL }}" class="btn btn-secondary" style="margin-top:1rem;">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Snippet -->
+<section>
+  <div class="container">
+    <div class="flex" style="align-items:center; gap:3rem; flex-wrap:wrap;">
+      <div style="flex:1; min-width:280px;">
+        <h2>{{ if eq .Lang "bm" }}Tentang Dr Nor Faizal{{ else }}About Dr Nor Faizal{{ end }}</h2>
+        <p>{{ if eq .Lang "bm" }}Pakar bedah saraf berkelayakan Oxford dengan kepakaran dalam neurooncologi dan pengurusan kesakitan. Berkhidmat di KPJ Tawakkal Specialist Hospital, Kuala Lumpur.{{ else }}Oxford-trained neurosurgeon with expertise in neurooncology and interventional pain management. Practising at KPJ Tawakkal Specialist Hospital, Kuala Lumpur.{{ end }}</p>
+        <p><em>Discipline · Simplicity · Elegance</em></p>
+        <a href="{{ "/tentang" | relLangURL }}" class="btn btn-primary">{{ if eq .Lang "bm" }}Kenali Saya{{ else }}Meet Dr Nor Faizal{{ end }}</a>
+      </div>
+      <div style="flex:1; min-width:280px; background:var(--gray-200); border-radius:8px; height:300px; display:flex; align-items:center; justify-content:center;">
+        <p style="color:var(--gray-600);">[ Photo ]</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Banner -->
+<section style="background: var(--primary); color:white; padding:3rem 1.5rem; text-align:center;">
+  <div class="container">
+    <h2 style="color:white;">{{ if eq .Lang "bm" }}Buat Temujanji Hari Ini{{ else }}Schedule Your Consultation Today{{ end }}</h2>
+    <p style="opacity:0.9; font-size:1.125rem; margin-bottom:2rem;">{{ if eq .Lang "bm" }}Hubungi klinik kami untuk temu janji atau pertanyaan.{{ else }}Contact our clinic for appointments or enquiries.{{ end }}</p>
+    <div class="hero-cta">
+      <a href="{{ "/temujanji" | relLangURL }}" class="btn btn-cta">{{ if eq .Lang "bm" }}Buat Temujanji{{ else }}Book Appointment{{ end }}</a>
+      {{ with .Site.Params.clinic_phone }}
+      <a href="tel:{{ . }}" class="btn btn-secondary" style="color:white; border-color:white;">{{ . }}</a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}
