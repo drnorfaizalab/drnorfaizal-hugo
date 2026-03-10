@@ -5,16 +5,6 @@ draft: false
 type: "page"
 ---
 
-# Buat Temujanji
-
-**Dr Nor Faizal Ahmad Bahuri**
-Pakar Bedah Saraf Perunding & Pakar Kesakitan Interventional
-Hospital Pakar KPJ Tawakkal, Kuala Lumpur
-
-*Disiplin · Kesederhanaan · Keindahan*
-
----
-
 ## Mengambil Keputusan Untuk Mendapatkan Bantuan Adalah Langkah Pertama
 
 Sama ada anda berhadapan dengan diagnosis baharu, gejala neurologi yang berterusan, kesakitan kronik, atau hanya ingin mendapat pendapat pakar sebelum membuat keputusan rawatan — konsultasi ini adalah tempat yang tepat untuk bermula. Dr Nor Faizal menerima pesakit yang dirujuk mahupun yang datang sendiri untuk konsultasi pesakit luar, penilaian mendesak, dan pendapat kedua.
@@ -25,11 +15,11 @@ Anda tidak perlu mempunyai diagnosis yang disahkan. Anda tidak perlu telah berju
 
 ## Lokasi Klinik
 
-**Hospital Pakar KPJ Tawakkal**
+**Hospital Pakar Tawakkal**
 Jalan Pahang, Kuala Lumpur
 Wilayah Persekutuan Kuala Lumpur, Malaysia
 
-KPJ Tawakkal adalah salah satu hospital pakar yang mapan di Kuala Lumpur, menawarkan pengimejan diagnostik menyeluruh (MRI, CT, PET-CT), dewan bedah saraf yang dilengkapi pemantauan intraoperatif, dan pasukan onkologi pelbagai disiplin. Hospital ini mudah dicapai dengan pengangkutan awam dan menyediakan kemudahan tempat letak kereta bagi pesakit yang datang dengan kenderaan persendirian.
+KPJ Tawakkal adalah salah satu hospital pakar di tegah Kuala Lumpur, menawarkan pengimejan diagnostik menyeluruh (MRI, CT, PET-CT), dewan bedah saraf yang dilengkapi pemantauan intraoperatif, dan pasukan onkologi pelbagai disiplin. Hospital ini mudah dicapai dengan pengangkutan awam dan menyediakan kemudahan tempat letak kereta bagi pesakit yang datang dengan kenderaan persendirian.
 
 ---
 
@@ -40,17 +30,17 @@ Anda boleh membuat temujanji melalui mana-mana saluran berikut:
 ### Melalui Telefon
 Hubungi klinik secara terus semasa waktu konsultasi. Staf klinik kami akan membantu anda menjadualkan temujanji, mengesahkan sebarang persediaan yang diperlukan, dan menjawab soalan pentadbiran umum.
 
-**Telefon Klinik:** *(sila hubungi talian utama KPJ Tawakkal dan minta klinik Dr Nor Faizal)*
+**Telefon Klinik:** +60340267777 sambungan 5099
 
 ### Melalui WhatsApp
 Untuk kemudahan, pertanyaan temujanji juga boleh dihantar melalui WhatsApp. Sila sertakan nama, nombor telefon, dan penerangan ringkas tentang keadaan anda supaya pasukan klinik dapat membantu dengan lebih cekap.
 
 **WhatsApp:** *(nombor tersedia melalui KPJ Tawakkal)*
 
-### Melalui E-mel
-Untuk permintaan temujanji yang tidak mendesak, penghantaran dokumen, atau penyelarasan rujukan, anda boleh menghubungi klinik melalui e-mel. Sila beri masa satu hingga dua hari bekerja untuk mendapat respons.
+### Melalui Atas Talian
+[Buat Temu Janji](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 
-**E-mel:** *(e-mel klinik tersedia di halaman hubungi)*
+Untuk permintaan temujanji yang tidak mendesak, penghantaran dokumen, atau penyelarasan rujukan, anda boleh membuat temujanji atas talian. Sila beri masa satu hingga dua hari bekerja untuk mendapat respons.
 
 ### Datang Terus (Walk-In)
 Pesakit yang datang terus diterima tertakluk kepada ketersediaan klinik. Untuk mengelakkan waktu menunggu, tempahan awal sangat disyorkan, terutamanya untuk konsultasi pesakit baharu yang biasanya memerlukan masa yang lebih lama.
