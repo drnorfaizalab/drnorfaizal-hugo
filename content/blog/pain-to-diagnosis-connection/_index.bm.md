@@ -7,7 +7,7 @@ type: "blog"
 categories: ["Pengurusan Kesakitan", "Diagnosis"]
 tags: ["kesakitan kronik", "sakit kepala", "diagnosis", "kesakitan neuropatik", "bendera merah"]
 author: "Dr Nor Faizal Ahmad Bahuri"
-image: "/images/blog/pain-diagnosis.jpg"
+image: "/images/blog/pain-diagnosis.png"
 ---
 
 # Kesakitan sebagai Pintu Masuk Diagnosis: Apabila Sakit Kepala Anda Lebih daripada Sekadar Tekanan

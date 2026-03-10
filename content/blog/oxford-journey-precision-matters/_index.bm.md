@@ -7,7 +7,7 @@ type: "blog"
 categories: ["Peribadi", "Kecemerlangan Perubatan"]
 tags: ["Oxford", "latihan pembedahan saraf", "pembedahan tepat", "pakar bedah saraf Malaysia", "felo"]
 author: "Dr Nor Faizal Ahmad Bahuri"
-image: "/images/blog/oxford-journey.jpg"
+image: "/images/blog/oxford-journey.png"
 ---
 
 # Perjalanan Oxford Saya: Mengapa Pembedahan Saraf yang Tepat Mengubah Segalanya
