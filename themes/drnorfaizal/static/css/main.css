@@ -581,9 +581,27 @@ nav {
   .hero h1 {
     font-size: 2rem;
   }
-  
+
   .hero p {
     font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 768px) {
+  article header h1 {
+    font-size: 1.75rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  article header .text-gray {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 1rem;
   }
 }
 
