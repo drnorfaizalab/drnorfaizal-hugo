@@ -8,7 +8,7 @@ type: "blog"
 categories: ["Neurooncology", "Brain Tumours"]
 tags: ["meningioma", "brain tumour", "neurosurgery", "craniotomy"]
 author: "Dr Nor Faizal Ahmad Bahuri"
-image: "/images/blog/meningioma-guide.jpg"
+image: "/images/blog/meningioma-guide.png"
 ---
 
 # Meningioma Brain Tumour: The Complete Patient Guide

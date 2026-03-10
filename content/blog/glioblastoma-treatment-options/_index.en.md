@@ -7,7 +7,7 @@ type: "blog"
 categories: ["Neurooncology", "Brain Tumours"]
 tags: ["glioblastoma", "GBM", "brain cancer", "chemotherapy", "temozolomide"]
 author: "Dr Nor Faizal Ahmad Bahuri"
-image: "/images/blog/glioblastoma-treatment.jpg"
+image: "/images/blog/glioblastoma-treatment.png"
 ---
 
 # Glioblastoma (GBM): Understanding Your Treatment Options

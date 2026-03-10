@@ -7,7 +7,7 @@ type: "blog"
 categories: ["Personal", "Medical Excellence"]
 tags: ["Oxford", "neurosurgery training", "precision surgery", "Malaysia neurosurgeon", "fellowship"]
 author: "Dr Nor Faizal Ahmad Bahuri"
-image: "/images/blog/oxford-journey.jpg"
+image: "/images/blog/oxford-journey.png"
 ---
 
 # My Oxford Journey: Why Precision Neurosurgery Changes Everything

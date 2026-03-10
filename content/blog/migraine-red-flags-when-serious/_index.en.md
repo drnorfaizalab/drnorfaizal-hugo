@@ -7,7 +7,7 @@ type: "blog"
 categories: ["Pain Management", "Neurology"]
 tags: ["migraine", "headache", "red flags", "brain tumour", "thunderclap headache"]
 author: "Dr Nor Faizal Ahmad Bahuri"
-image: "/images/blog/migraine-red-flags.jpg"
+image: "/images/blog/migraine-red-flags.png"
 ---
 
 # Migraine vs Brain Tumour: Red Flags You Should Not Ignore
