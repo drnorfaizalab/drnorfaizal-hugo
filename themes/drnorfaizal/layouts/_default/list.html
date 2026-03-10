@@ -6,6 +6,8 @@
       {{ with .Description }}<p class="text-gray" style="font-size:1.125rem;">{{ . }}</p>{{ end }}
     </header>
 
+    {{ with .Content }}<div class="content" style="margin-bottom:3rem;">{{ . }}</div>{{ end }}
+
     {{ if .Pages }}
     <div class="grid grid-3">
       {{ range .Pages }}
