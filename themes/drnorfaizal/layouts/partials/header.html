@@ -15,14 +15,6 @@
             <li><a href="{{ "/kepakaran/emergency-neurosurgery" | relLangURL }}">{{ if eq .Lang "bm" }}Neurosurgi Kecemasan{{ else }}Emergency Neurosurgery{{ end }}</a></li>
           </ul>
         </li>
-        <li class="nav-dropdown">
-          <a href="{{ "/pasien" | relLangURL }}">{{ if eq .Lang "bm" }}Pesakit{{ else }}Patients{{ end }} &#9662;</a>
-          <ul class="dropdown-menu">
-            <li><a href="{{ "/pasien/symptom-checklist" | relLangURL }}">{{ if eq .Lang "bm" }}Senarai Gejala{{ else }}Symptom Checklist{{ end }}</a></li>
-            <li><a href="{{ "/pasien/faq" | relLangURL }}">{{ if eq .Lang "bm" }}Soalan Lazim{{ else }}FAQ{{ end }}</a></li>
-            <li><a href="{{ "/pasien/guides" | relLangURL }}">{{ if eq .Lang "bm" }}Panduan Pesakit{{ else }}Patient Guides{{ end }}</a></li>
-          </ul>
-        </li>
         <li><a href="{{ "/blog" | relLangURL }}">Blog</a></li>
         <li><a href="{{ "/pakar" | relLangURL }}">{{ if eq .Lang "bm" }}Tentang{{ else }}About{{ end }}</a></li>
         <li><a href="{{ "/hubungi" | relLangURL }}">{{ if eq .Lang "bm" }}Hubungi{{ else }}Contact{{ end }}</a></li>
@@ -36,7 +28,7 @@
           {{ end }}
         </div>
 
-        <a href="{{ "/temujanji" | relLangURL }}" class="btn btn-cta" style="font-size:0.875rem; padding:0.5rem 1.25rem;">
+        <a href="https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri" target="_blank" rel="noopener" class="btn btn-cta" style="font-size:0.875rem; padding:0.5rem 1.25rem;">
           {{ if eq .Lang "bm" }}Temujanji{{ else }}Book Now{{ end }}
         </a>
 

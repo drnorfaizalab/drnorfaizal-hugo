@@ -125,4 +125,4 @@ He chose neurosurgery because it demands everything: technical precision, scient
 
 Dr Nor Faizal sees patients at **KPJ Tawakkal Specialist Hospital, Kuala Lumpur**. Whether you are seeking a first opinion, a second opinion, or specialist pain management, his clinic is available to you.
 
-[Book a Consultation](/en/temujanji/) | [Contact the Clinic](/en/hubungi/)
+[Book a Consultation](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Contact the Clinic](/en/hubungi/)

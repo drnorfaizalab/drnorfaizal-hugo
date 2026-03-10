@@ -19,7 +19,7 @@ sections:
     subtitle: "Neuro-onkologi tepat untuk meningioma, glioma, medulloblastoma, dan lain-lain"
   - type: "cta"
     button_text: "Buat Temujanji"
-    button_link: "/temujanji"
+    button_link: "https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri"
 
 ---
 
@@ -159,7 +159,7 @@ J: Ada tumor yang mempunyai risiko kekambuhan yang lebih tinggi. Susulan pengime
 
 Jika anda telah didiagnosis dengan tumor otak atau tulang belakang, atau mengesyaki anda mungkin mempunyai gejala yang memerlukan pemeriksaan:
 
-**[Buat Temujanji Penilaian →](/temujanji)**
+**[Buat Temujanji Penilaian →](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)**
 
 Saya akan menjalankan penilaian neurologi menyeluruh, menyemak pengimejan anda, dan berbincang tentang pilihan rawatan yang sesuai dengan kes anda.
 

@@ -19,7 +19,7 @@ sections:
     subtitle: "Precision neurooncology for meningioma, glioma, medulloblastoma, and more"
   - type: "cta"
     button_text: "Schedule Consultation"
-    button_link: "/temujanji"
+    button_link: "https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri"
 
 ---
 
@@ -159,7 +159,7 @@ A: Some tumours have higher recurrence risk than others. Regular imaging follow-
 
 If you've been diagnosed with a brain or spinal tumour, or suspect you may have symptoms warranting investigation:
 
-**[Schedule Your Evaluation →](/temujanji)**
+**[Schedule Your Evaluation →](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)**
 
 I'll conduct a comprehensive neurological assessment, review your imaging, and discuss treatment options tailored to your specific case.
 

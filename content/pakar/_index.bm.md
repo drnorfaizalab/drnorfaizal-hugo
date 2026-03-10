@@ -125,4 +125,4 @@ Beliau memilih bedah saraf kerana ia menuntut segalanya: ketepatan teknikal, cel
 
 Dr Nor Faizal menerima pesakit di **Hospital Pakar KPJ Tawakkal, Kuala Lumpur**. Sama ada anda mencari pendapat pertama, pendapat kedua, atau pengurusan kesakitan pakar, kliniknya ada untuk anda.
 
-[Buat Temujanji](/bm/temujanji/) | [Hubungi Klinik](/bm/hubungi/)
+[Buat Temujanji](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Hubungi Klinik](/bm/hubungi/)
