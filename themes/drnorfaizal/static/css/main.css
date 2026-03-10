@@ -452,6 +452,7 @@ nav {
     background: white;
     padding: var(--spacing-lg);
     box-shadow: var(--shadow-lg);
+    z-index: 1000;
   }
   
   .nav-menu.active {
