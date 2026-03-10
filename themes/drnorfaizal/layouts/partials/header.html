@@ -15,7 +15,13 @@
             <li><a href="{{ "/kepakaran/emergency-neurosurgery" | relLangURL }}">{{ if eq .Lang "bm" }}Neurosurgi Kecemasan{{ else }}Emergency Neurosurgery{{ end }}</a></li>
           </ul>
         </li>
-        <li><a href="{{ "/blog" | relLangURL }}">Blog</a></li>
+        <li class="nav-dropdown">
+          <a href="{{ "/blog" | relLangURL }}">Blog &#9662;</a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ "/blog/pasien" | relLangURL }}">{{ if eq .Lang "bm" }}Maklumat Pesakit{{ else }}Patient Info{{ end }}</a></li>
+            <li><a href="{{ "/blog/media" | relLangURL }}">Media</a></li>
+          </ul>
+        </li>
         <li><a href="{{ "/pakar" | relLangURL }}">{{ if eq .Lang "bm" }}Tentang{{ else }}About{{ end }}</a></li>
         <li><a href="{{ "/hubungi" | relLangURL }}">{{ if eq .Lang "bm" }}Hubungi{{ else }}Contact{{ end }}</a></li>
       </ul>

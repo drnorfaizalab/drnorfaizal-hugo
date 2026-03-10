@@ -162,4 +162,4 @@ Sila lengkapkan borang di bawah dan pasukan klinik akan bertindak balas dalam ma
 
 ---
 
-[Buat Temujanji](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Baca Soalan Lazim](/bm/pasien/faq/) | [Mengenai Dr Nor Faizal](/bm/pakar/)
+[Buat Temujanji](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Baca Soalan Lazim](/bm/blog/pasien/faq/) | [Mengenai Dr Nor Faizal](/bm/pakar/)

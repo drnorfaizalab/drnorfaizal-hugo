@@ -249,7 +249,7 @@ If you are uncertain about your symptoms, or if something feels wrong that you c
 
 Dr Nor Faizal sees patients at KPJ Tawakkal Specialist Hospital, Kuala Lumpur. Whether you have identified a Red Flag symptom requiring urgent review, a Yellow Flag symptom that needs specialist evaluation, or simply want expert reassurance and advice about your neurological health — the clinic is here for you.
 
-[Book an Appointment](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Contact the Clinic](/en/hubungi/) | [Read the FAQ](/en/pasien/faq/)
+[Book an Appointment](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Contact the Clinic](/en/hubungi/) | [Read the FAQ](/en/blog/pasien/faq/)
 
 ---
 

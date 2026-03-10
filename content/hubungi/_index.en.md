@@ -162,4 +162,4 @@ Please complete the form below and the clinic team will respond within one to tw
 
 ---
 
-[Book a Consultation](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Read the FAQ](/en/pasien/faq/) | [About Dr Nor Faizal](/en/pakar/)
+[Book a Consultation](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Read the FAQ](/en/blog/pasien/faq/) | [About Dr Nor Faizal](/en/pakar/)

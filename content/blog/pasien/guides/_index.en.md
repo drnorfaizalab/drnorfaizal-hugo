@@ -16,13 +16,13 @@ Each guide covers the condition itself, how it is diagnosed, what treatment opti
 
 ### Available Guides
 
-**[Meningioma: Understanding Your Diagnosis](/pasien/guides/meningioma-guide/)**
+**[Meningioma: Understanding Your Diagnosis](/blog/pasien/guides/meningioma-guide/)**
 A complete guide to meningioma — WHO grades, treatment options including surgery and radiosurgery, surgical preparation, recovery timeline, and long-term follow-up.
 
-**[Chronic Migraine & Headache: When to Seek Specialist Care](/pasien/guides/chronic-migraine-headache/)**
+**[Chronic Migraine & Headache: When to Seek Specialist Care](/blog/pasien/guides/chronic-migraine-headache/)**
 Understanding migraine types, red flag symptoms, when headache requires neurosurgical assessment, and the full range of medical and interventional treatments available.
 
-**[Spinal & Back Pain: From Symptoms to Specialist Care](/pasien/guides/spinal-back-pain/)**
+**[Spinal & Back Pain: From Symptoms to Specialist Care](/blog/pasien/guides/spinal-back-pain/)**
 A guide to common spinal conditions including herniated discs, spinal stenosis, and spondylolisthesis — covering conservative management, interventional options, and when surgery is indicated.
 
 ---

@@ -261,4 +261,4 @@ You do not have to face this alone, and asking for help is a sign of strength, n
 
 ---
 
-[Book a Consultation](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Contact the Clinic](/en/hubungi/) | [Symptom Checklist](/en/pasien/symptom-checklist/)
+[Book a Consultation](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Contact the Clinic](/en/hubungi/) | [Symptom Checklist](/en/blog/pasien/symptom-checklist/)

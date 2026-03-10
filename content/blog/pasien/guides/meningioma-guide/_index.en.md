@@ -162,4 +162,4 @@ If you have been diagnosed with a meningioma or have concerns about your imaging
 
 **Dr Nor Faizal** is an Oxford-trained neurosurgeon with subspecialty expertise in brain tumour surgery, including meningiomas at all locations and grades.
 
-[Book a Consultation](/contact) | [Back to Patient Guides](/pasien/guides)
+[Book a Consultation](/contact) | [Back to Patient Guides](/blog/pasien/guides)

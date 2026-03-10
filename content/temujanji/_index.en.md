@@ -170,4 +170,4 @@ To request an appointment, please provide the following information through your
 
 All information shared with Dr Nor Faizal's clinic is treated with strict medical confidentiality in accordance with Malaysian medical ethics guidelines and applicable privacy legislation. Your medical records and personal information will not be shared with third parties without your explicit consent, except where required by law.
 
-[Contact the Clinic](/en/hubungi/) | [Read the FAQ](/en/pasien/faq/)
+[Contact the Clinic](/en/hubungi/) | [Read the FAQ](/en/blog/pasien/faq/)

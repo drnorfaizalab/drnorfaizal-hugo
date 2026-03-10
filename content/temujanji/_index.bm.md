@@ -160,4 +160,4 @@ Untuk meminta temujanji, sila berikan maklumat berikut melalui saluran hubungi p
 
 Semua maklumat yang dikongsi dengan klinik Dr Nor Faizal dirawat dengan kerahsiaan perubatan yang ketat selaras dengan garis panduan etika perubatan Malaysia dan perundangan privasi yang berkaitan. Rekod perubatan dan maklumat peribadi anda tidak akan dikongsi dengan pihak ketiga tanpa persetujuan nyata anda, kecuali di mana dikehendaki oleh undang-undang.
 
-[Hubungi Klinik](/bm/hubungi/) | [Baca Soalan Lazim](/bm/pasien/faq/)
+[Hubungi Klinik](/bm/hubungi/) | [Baca Soalan Lazim](/bm/blog/pasien/faq/)
