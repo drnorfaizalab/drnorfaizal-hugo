@@ -372,7 +372,7 @@ section.section-alt {
    HEADER & NAVIGATION
    ========================================================================== */
 
-header {
+.site-header {
   position: sticky;
   top: 0;
   z-index: 100;
@@ -381,7 +381,7 @@ header {
   transition: var(--transition);
 }
 
-header.scrolled {
+.site-header.scrolled {
   box-shadow: var(--shadow-md);
 }
 
