@@ -12,7 +12,6 @@ weight: 1
 keywords: "neurooncology, brain tumour surgery, meningioma, glioma, medulloblastoma, spinal tumour, Malaysia, neurosurgeon"
 
 # Content
-image: "/images/neurooncology-hero.jpg"
 sections:
   - type: "hero"
     title: "Advanced Brain & Spinal Tumour Surgery"

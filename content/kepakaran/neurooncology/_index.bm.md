@@ -12,7 +12,6 @@ weight: 1
 keywords: "neuro-onkologi, pembedahan tumor otak, meningioma, glioma, medulloblastoma, tumor tulang belakang, Malaysia, pakar bedah saraf"
 
 # Content
-image: "/images/neurooncology-hero.jpg"
 sections:
   - type: "hero"
     title: "Pembedahan Tumor Otak & Tulang Belakang Peringkat Tinggi"
