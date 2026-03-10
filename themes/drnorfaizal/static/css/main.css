@@ -5,14 +5,14 @@
 
 :root {
   /* Color Palette */
-  --primary: #1a472a;        /* Deep forest green (batik) */
+  --primary: #002147;        /* Oxford Blue */
   --secondary: #d4a574;      /* Warm gold */
   --accent: #e63946;         /* Medical red */
   --success: #2a9d8f;        /* Surgical teal */
   --warning: #f4a261;        /* Caution orange */
   --danger: #e63946;         /* Emergency red */
   --light: #f8f9fa;          /* Off-white */
-  --dark: #1a1a1a;           /* Near black */
+  --dark: #0d1f3c;           /* Complementary deep navy */
   --gray-200: #e9ecef;
   --gray-400: #adb5bd;
   --gray-600: #495057;
@@ -533,7 +533,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, var(--primary) 0%, #2d5f3f 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, #003a7a 100%);
   color: white;
   position: relative;
   overflow: hidden;
