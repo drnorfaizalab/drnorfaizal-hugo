@@ -1,6 +1,6 @@
 ---
 title: "Dr Nor Faizal | Pakar Bedah Saraf Terlatih dari Universiti Oxford"
-description: "Kenali Dr Nor Faizal Ahmad Bahuri — pakar bedah saraf terlatih dari Oxford, pakar neuro-onkologi, dan pakar kesakitan interventional di Tawakkal Specialist Hospital, Kuala Lumpur."
+description: "Kenali Dr Nor Faizal Ahmad Bahuri — pakar bedah saraf terlatih dari Oxford merawat sakit kronik, sakit kepala dan muka, bedah ketumbuhan otak di Tawakkal Specialist Hospital, Kuala Lumpur."
 draft: false
 type: "page"
 ---
