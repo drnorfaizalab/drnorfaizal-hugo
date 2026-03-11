@@ -3,8 +3,15 @@
 <!-- Hero Section -->
 <section class="hero">
   <div class="hero-content container">
-    <h1 class="slide-up">{{ if eq .Lang "bm" }}Pakar Bedah Saraf & Kanser Otak{{ else }}Brain & Spinal Tumour Surgery Specialist{{ end }}</h1>
-    <p class="fade-in">{{ if eq .Lang "bm" }}Pakar bedah saraf berkelayakan Oxford. Neurooncologi, pembedahan otak &amp; saraf tunjang, pengurusan kesakitan.{{ else }}Oxford-trained Neurosurgeon. Neurooncology, brain &amp; spinal tumour surgery, interventional pain management.{{ end }}</p>
+    <div class="hero-specialties slide-up">
+      <a href="{{ "/kepakaran/pain-management" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "bm" }}Sakit{{ else }}Pain{{ end }}</a>
+      <span class="hero-specialty-sep">·</span>
+      <a href="{{ "/kepakaran/headache-migraine-facial-pain" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "bm" }}Kepala{{ else }}Head{{ end }}</a>
+      <span class="hero-specialty-sep">·</span>
+      <a href="{{ "/kepakaran/neurooncology" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "bm" }}Otak{{ else }}Brain{{ end }}</a>
+    </div>
+    <h1 class="slide-up">{{ if eq .Lang "bm" }}Pakar Saraf & Bedah Saraf{{ else }}Neurologist & Neurosurgeon{{ end }}</h1>
+    <p class="fade-in">{{ if eq .Lang "bm" }}Pakar bedah saraf berkelayakan Oxford. Kepakaran dalam pengurusan kesakitan, sakit kepala &amp; migrain, dan bedah tumor otak &amp; saraf tunjang.{{ else }}Oxford-trained Neurosurgeon specialising in interventional pain management, headache &amp; migraine disorders, and brain &amp; spinal tumour surgery.{{ end }}</p>
     <div class="hero-cta">
       <a href="https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri" target="_blank" rel="noopener" class="btn btn-cta">
         {{ if eq .Lang "bm" }}Buat Temujanji{{ else }}Book Consultation{{ end }}
