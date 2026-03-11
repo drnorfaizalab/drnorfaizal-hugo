@@ -837,6 +837,23 @@ textarea {
   text-decoration: none;
 }
 
+/* About Section Profile Photo */
+.about-photo {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: top center;
+  max-height: 480px;
+  display: block;
+  box-shadow: var(--shadow-lg);
+}
+
+@media (max-width: 768px) {
+  .about-photo {
+    max-height: 300px;
+  }
+}
+
 /* Content Styles */
 .content h2 { margin-top: var(--spacing-xl); }
 .content h3 { margin-top: var(--spacing-lg); color: var(--primary); }
