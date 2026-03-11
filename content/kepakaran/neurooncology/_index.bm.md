@@ -138,18 +138,23 @@ Jika anda mengalami gejala-gejala ini, dapatkan penilaian neurologi dengan seger
 ## Soalan Lazim
 
 **S: Adakah semua tumor otak memerlukan pembedahan?**
+
 J: Tidak semestinya. Rawatan bergantung kepada jenis tumor, gred, lokasi, dan faktor pesakit. Ada yang dipantau sahaja, ada yang memerlukan pembedahan, radioterapi, kemoterapi, atau gabungan semua ini.
 
 **S: Adakah pembedahan akan menjejaskan pemikiran atau personaliti saya?**
+
 J: Teknik bedah saraf direka untuk meminimumkan kesan kepada fungsi otak. Pemantauan saraf semasa pembedahan membantu memelihara fungsi otak. Sesetengah pesakit mengalami kekeliruan sementara selepas pembedahan, tetapi kebanyakan mereka pulih sepenuhnya.
 
 **S: Berapa lama tempoh tinggal di hospital?**
+
 J: Biasanya 2-4 hari. Pesakit digalakkan bergerak awal bagi mengelakkan komplikasi.
 
 **S: Bagaimana pula dengan kemoterapi dan radioterapi selepas pembedahan?**
+
 J: Bergantung kepada jenis dan gred tumor. Pasukan onkologi dan onkologi radiasi anda akan berbincang berdasarkan keputusan patologi.
 
 **S: Bolehkah tumor otak kambuh semula?**
+
 J: Ada tumor yang mempunyai risiko datang kembali yang lebih tinggi. Susulan pengimejan berkala adalah penting untuk mengesan kekambuhan awal.
 
 ---
