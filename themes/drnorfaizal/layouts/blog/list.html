@@ -1,4 +1,35 @@
 {{ define "main" }}
+{{ if .Content }}
+{{/* Individual blog post rendered as branch bundle */}}
+<article style="padding: 4rem 0;">
+  <div class="container container-sm">
+    <header style="margin-bottom: 2rem; border-bottom: 1px solid var(--gray-200); padding-bottom: 2rem;">
+      {{ with .Params.type }}<span class="badge" style="margin-bottom:1rem; display:inline-block;">{{ . | title }}</span>{{ end }}
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="text-gray" style="font-size:1.125rem;">{{ . }}</p>{{ end }}
+      {{ if not .Date.IsZero }}
+      <p class="text-gray" style="font-size:0.875rem; margin-top:1rem;">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+        {{ if .Lastmod }}· {{ if eq .Lang "bm" }}Dikemaskini{{ else }}Updated{{ end }} {{ .Lastmod.Format "2 January 2006" }}{{ end }}
+      </p>
+      {{ end }}
+    </header>
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+
+    <div style="margin-top:3rem; padding:2rem; background:var(--gray-200); border-radius:8px; text-align:center;">
+      <h3>{{ if eq .Lang "bm" }}Ingin Berunding?{{ else }}Ready to Consult?{{ end }}</h3>
+      <p>{{ if eq .Lang "bm" }}Hubungi kami untuk temujanji.{{ else }}Contact us to schedule an appointment.{{ end }}</p>
+      <a href="https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:1rem;">
+        {{ if eq .Lang "bm" }}Buat Temujanji{{ else }}Book Consultation{{ end }}
+      </a>
+    </div>
+  </div>
+</article>
+{{ else }}
+{{/* Blog listing page */}}
 <section style="padding: 1.5rem 0;">
   <div class="container">
     <header style="margin-bottom: 1.5rem; text-align:center; padding: 1rem 0;">
@@ -80,4 +111,5 @@
   });
 })();
 </script>
+{{ end }}
 {{ end }}
