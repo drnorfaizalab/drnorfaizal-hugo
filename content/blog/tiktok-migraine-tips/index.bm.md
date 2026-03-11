@@ -13,7 +13,7 @@ author: "Dr Nor Faizal Ahmad Bahuri"
 
 Tidak semua sakit kepala adalah sama. Dalam TikTok ringkas ini, Dr Nor Faizal menerangkan tiga tanda amaran yang memerlukan lawatan segera — bukan sekadar ubat tahan sakit lagi.
 
-{{< tiktok url="https://www.tiktok.com/@drnorfaizalbahuri/video/TIKTOK_VIDEO_ID_HERE" >}}
+{{< tiktok url="https://vt.tiktok.com/ZSukqRTfN/" >}}
 
 ## Tiga tanda bahaya dijelaskan
 
