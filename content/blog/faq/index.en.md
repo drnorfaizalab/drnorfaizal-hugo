@@ -2,7 +2,8 @@
 title: "Frequently Asked Questions | Dr Nor Faizal"
 description: "Answers to common questions about brain tumours, neurosurgery, pain management, appointments, and what to expect when seeing Dr Nor Faizal."
 draft: false
-type: "page"
+slug: "faq"
+type: "blog"
 ---
 
 # Frequently Asked Questions

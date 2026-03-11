@@ -2,7 +2,8 @@
 title: "Neurological Symptom Checklist | When to See a Neurosurgeon"
 description: "Use this checklist to assess your neurological symptoms. Red flag symptoms that require urgent evaluation, yellow flags to monitor, and green flags explained."
 draft: false
-type: "page"
+slug: "symptom-checklist"
+type: "blog"
 ---
 
 # Neurological Symptom Checklist
