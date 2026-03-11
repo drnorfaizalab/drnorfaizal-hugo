@@ -1,22 +1,13 @@
 ---
-title: "Hubungi Dr Nor Faizal | Hospital Pakar KPJ Tawakkal"
-description: "Butiran hubungi klinik bedah saraf Dr Nor Faizal di Hospital Pakar KPJ Tawakkal, Kuala Lumpur. Telefon, WhatsApp, e-mel, dan arah laluan."
+title: "Hubungi Dr Nor Faizal | Hospital Pakar Tawakkal"
+description: "Butiran hubungi klinik bedah saraf Dr Nor Faizal di Hospital Pakar Tawakkal, Kuala Lumpur. Telefon, WhatsApp, e-mel, dan arah laluan."
 draft: false
 type: "page"
 ---
 
-# Hubungi Klinik
-
-**Dr Nor Faizal Ahmad Bahuri**
-Pakar Bedah Saraf Perunding & Pakar Kesakitan Interventional
-
-*Disiplin · Kesederhanaan · Keindahan*
-
----
-
 ## Alamat Klinik
 
-**Hospital Pakar KPJ Tawakkal**
+**Hospital Pakar Tawakkal**
 Jalan Pahang
 Kuala Lumpur
 Wilayah Persekutuan, Malaysia
@@ -29,13 +20,14 @@ Hospital Pakar KPJ Tawakkal adalah sebuah hospital pakar yang sudah lama berdiri
 
 | Kaedah Hubungan | Butiran |
 |---|---|
-| **Telefon Klinik** | *(hubungi penerimaan utama KPJ Tawakkal dan minta klinik Dr Nor Faizal)* |
-| **WhatsApp** | *(tersedia melalui klinik — sila bertanya)* |
-| **E-mel** | *(e-mel klinik — sila gunakan borang hubungi di bawah)* |
+| **Temujanji Atas Talian** | [Buat Temujanji](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)| 
+| **Telefon Klinik** | *+60340267777 sambungan 5099* |
+| **WhatsApp** | *+60122895061* |
+| **E-mel** | *drnfaizal@kpjtawakkal.com* |
 
 Untuk **pertanyaan umum, tempahan temujanji, dan penyelarasan rujukan**, pasukan klinik tersedia semasa waktu konsultasi.
 
-Untuk **kecemasan perubatan**, pergi serta-merta ke Jabatan Kecemasan yang terdekat atau hubungi **999**. Jangan tunggu temujanji klinik.
+Untuk kes **kecemasan**, sila pergi serta-merta ke Jabatan Kecemasan yang terdekat atau hubungi **999**. Jangan tunggu temujanji klinik.
 
 ---
 
@@ -43,12 +35,12 @@ Untuk **kecemasan perubatan**, pergi serta-merta ke Jabatan Kecemasan yang terde
 
 | Hari | Waktu |
 |---|---|
-| Isnin | 9:00 PG – 5:00 PTG |
-| Selasa | 9:00 PG – 5:00 PTG |
-| Rabu | 9:00 PG – 5:00 PTG |
-| Khamis | 9:00 PG – 5:00 PTG |
-| Jumaat | 9:00 PG – 5:00 PTG |
-| Sabtu | 9:00 PG – 1:00 TGH |
+| Isnin | 9:00 PG – 4:00 PTG |
+| Selasa | 9:00 PG – 4:00 PTG |
+| Rabu | 9:00 PG – 4:00 PTG |
+| Khamis | 9:00 PG – 4:00 PTG |
+| Jumaat | 9:00 PG – 4:00 PTG |
+| Sabtu | 9:00 PG – 12:00 TGH |
 | Ahad | Tutup |
 | Hari Cuti Umum | Tutup |
 
@@ -83,7 +75,7 @@ Hospital Pakar KPJ Tawakkal adalah destinasi yang diiktiraf untuk Grab, AirAsia 
 
 Dr Nor Faizal mengekalkan kehadiran dalam talian profesional untuk tujuan pendidikan kesihatan dan kesedaran awam. Ikuti saluran klinik untuk kemas kini mengenai topik bedah saraf, kandungan pendidikan pesakit, dan berita klinik.
 
-- **Facebook:** *(pautan — akan hadir tidak lama lagi)*
+- **[Facebook](https://www.facebook.com/drnorfaizalbahuri)**
 - **Instagram:** *(pautan — akan hadir tidak lama lagi)*
 - **LinkedIn:** *(pautan — akan hadir tidak lama lagi)*
 - **YouTube:** *(pautan — akan hadir tidak lama lagi)*
