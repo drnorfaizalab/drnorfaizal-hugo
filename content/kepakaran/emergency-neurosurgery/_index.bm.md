@@ -1,10 +1,10 @@
 ---
-title: "Bedah Saraf Kecemasan | Dr Nor Faizal"
+title: "Kecemasan Neurologi | Dr Nor Faizal"
 description: "Penjagaan bedah saraf kecemasan untuk kecederaan otak traumatik, kecederaan saraf tunjang akut, pendarahan intrakranial, dan keadaan neurologi mendesak."
 date: 2025-03-10
 draft: false
 type: "specialty"
-weight: 3
+weight: 4
 keywords: "bedah saraf kecemasan, kecederaan otak traumatik, pendarahan intrakranial, kecederaan saraf tunjang, pembedahan otak kecemasan, Malaysia"
 ---
 

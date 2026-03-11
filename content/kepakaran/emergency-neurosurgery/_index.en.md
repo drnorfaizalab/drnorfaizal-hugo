@@ -1,10 +1,10 @@
 ---
-title: "Emergency Neurosurgery | Dr Nor Faizal"
+title: "Neurological Emergency | Dr Nor Faizal"
 description: "Emergency neurosurgical care for traumatic brain injury, acute spinal cord injury, intracranial haemorrhage, and urgent neurological conditions."
 date: 2025-03-10
 draft: false
 type: "specialty"
-weight: 3
+weight: 4
 keywords: "emergency neurosurgery, traumatic brain injury, intracranial haemorrhage, spinal cord injury, emergency brain surgery, Malaysia"
 ---
 
