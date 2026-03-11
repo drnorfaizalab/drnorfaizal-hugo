@@ -4,20 +4,20 @@
 <section class="hero">
   <div class="hero-content container">
     <div class="hero-specialties slide-up">
-      <a href="{{ "/kepakaran/pain-management" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "bm" }}Sakit{{ else }}Pain{{ end }}</a>
+      <a href="{{ "/kepakaran/pain-management" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "bm" }}Sakit Kronik{{ else }}Chronic Pain{{ end }}</a>
       <span class="hero-specialty-sep">·</span>
-      <a href="{{ "/kepakaran/headache-migraine-facial-pain" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "bm" }}Kepala{{ else }}Head{{ end }}</a>
+      <a href="{{ "/kepakaran/headache-migraine-facial-pain" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "bm" }}Migraine{{ else }}Migraine{{ end }}</a>
       <span class="hero-specialty-sep">·</span>
-      <a href="{{ "/kepakaran/neurooncology" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "bm" }}Otak{{ else }}Brain{{ end }}</a>
+      <a href="{{ "/kepakaran/neurooncology" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "bm" }}Tumor Otak{{ else }}Brain Tumour{{ end }}</a>
     </div>
-    <h1 class="slide-up">{{ if eq .Lang "bm" }}Pakar Saraf & Bedah Saraf{{ else }}Neurologist & Neurosurgeon{{ end }}</h1>
-    <p class="fade-in">{{ if eq .Lang "bm" }}Pakar bedah saraf berkelayakan Oxford. Kepakaran dalam pengurusan kesakitan, sakit kepala &amp; migrain, dan bedah tumor otak &amp; saraf tunjang.{{ else }}Oxford-trained Neurosurgeon specialising in interventional pain management, headache &amp; migraine disorders, and brain &amp; spinal tumour surgery.{{ end }}</p>
+    <h1 class="slide-up">{{ if eq .Lang "bm" }}Consultant Neurosurgeon & Interventional Pain Specialist{{ else }}Pakar Runding Bedah Saraf & Intervensi Kesakitan{{ end }}</h1>
+    <p class="fade-in">{{ if eq .Lang "bm" }}Kepakaran Oxford. Ketepatan Disiplin. Penyelesaian Elegan untuk Tumor Otak, Migrain, dan Kesakitan Kronik.{{ else }}Oxford Trained. Disciplined Precision. Elegant Solutions for Brain Tumors, Migraines, and Chronic Pain.{{ end }}</p>
     <div class="hero-cta">
       <a href="https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri" target="_blank" rel="noopener" class="btn btn-cta">
         {{ if eq .Lang "bm" }}Buat Temujanji{{ else }}Book Consultation{{ end }}
       </a>
       <a href="{{ "/kepakaran" | relLangURL }}" class="btn btn-secondary" style="color:white; border-color:white;">
-        {{ if eq .Lang "bm" }}Kepakaran Saya{{ else }}My Specialties{{ end }}
+        {{ if eq .Lang "bm" }}Kepakaran{{ else }}Explore Expertise{{ end }}
       </a>
     </div>
   </div>
@@ -28,11 +28,11 @@
   <div class="container">
     <div class="grid grid-3 text-center" style="gap:1rem;">
       <div>
-        <h3 style="font-size:2.5rem; color:var(--secondary);">Oxford</h3>
-        <p style="color:var(--gray-600);">{{ if eq .Lang "bm" }}Latihan Pakar{{ else }}Fellowship Trained{{ end }}</p>
+        <h3 style="font-size:2.5rem; color:var(--secondary);">Oxford Standards</h3>
+        <p style="color:var(--gray-600);">{{ if eq .Lang "bm" }}Keunggulan Akademik{{ else }}Academic Excellence{{ end }}</p>
       </div>
       <div>
-        <h3 style="font-size:2.5rem; color:var(--secondary);">15+</h3>
+        <h3 style="font-size:2.5rem; color:var(--secondary);">18+</h3>
         <p style="color:var(--gray-600);">{{ if eq .Lang "bm" }}Tahun Pengalaman{{ else }}Years Experience{{ end }}</p>
       </div>
       <div>
@@ -51,21 +51,21 @@
 
     <div class="grid grid-3">
       <div class="card">
-        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Sakit{{ else }}Pain{{ end }}</div>
+        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Sakit Kronik{{ else }}Chronic Pain{{ end }}</div>
         <h3 class="card-title">{{ if eq .Lang "bm" }}Intervensi Kesakitan{{ else }}Interventional Pain Management{{ end }}</h3>
-        <p>{{ if eq .Lang "bm" }}Rawatan kesakitan kronik menggunakan teknik minimally invasive yang tepat sasaran.{{ else }}Targeted minimally invasive treatment for chronic and neuropathic pain.{{ end }}</p>
+        <p>{{ if eq .Lang "bm" }}Rawatan sakit kronik menggunakan teknik minimal invasive yang tepat ke sasaran.{{ else }}Targeted minimally invasive treatment for chronic and neuropathic pain.{{ end }}</p>
         <a href="{{ "/kepakaran/pain-management" | relLangURL }}" class="btn btn-secondary" style="margin-top:1rem;">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
       </div>
 
       <div class="card">
-        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Kepala{{ else }}Head{{ end }}</div>
+        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Migraine{{ else }}Migraine{{ end }}</div>
         <h3 class="card-title">{{ if eq .Lang "bm" }}Sakit Kepala &amp; Sakit Muka{{ else }}Headache &amp; Facial Pain{{ end }}</h3>
-        <p>{{ if eq .Lang "bm" }}Diagnosis dan rawatan pakar untuk migrain kronik, sakit kepala kluster, dan neuralgia trigeminal.{{ else }}Specialist care for chronic migraine, cluster headache, and trigeminal neuralgia.{{ end }}</p>
+        <p>{{ if eq .Lang "bm" }}Diagnosis dan rawatan pakar untuk migraine, sakit kepala, dan Trigeminal Neuralgia.{{ else }}Specialist care for chronic migraine, cluster headache, and trigeminal neuralgia.{{ end }}</p>
         <a href="{{ "/kepakaran/headache-migraine-facial-pain" | relLangURL }}" class="btn btn-secondary" style="margin-top:1rem;">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
       </div>
 
       <div class="card">
-        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Otak{{ else }}Brain{{ end }}</div>
+        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Tumor Otak{{ else }}Brain Tumour{{ end }}</div>
         <h3 class="card-title">{{ if eq .Lang "bm" }}Bedah Kanser Otak &amp; Saraf Tunjang{{ else }}Brain &amp; Spinal Tumour Surgery{{ end }}</h3>
         <p>{{ if eq .Lang "bm" }}Pembedahan tepat untuk meningioma, glioma, medulloblastoma dan lebih banyak lagi.{{ else }}Precision surgery for meningioma, glioma, medulloblastoma, and more.{{ end }}</p>
         <a href="{{ "/kepakaran/neurooncology" | relLangURL }}" class="btn btn-secondary" style="margin-top:1rem;">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
@@ -79,8 +79,8 @@
   <div class="container">
     <div class="flex" style="align-items:center; gap:3rem; flex-wrap:wrap;">
       <div style="flex:1; min-width:280px;">
-        <h2>{{ if eq .Lang "bm" }}Tentang Dr Nor Faizal{{ else }}About Dr Nor Faizal{{ end }}</h2>
-        <p>{{ if eq .Lang "bm" }}Pakar bedah saraf berkelayakan Oxford dengan kepakaran dalam neurooncologi dan pengurusan kesakitan. Berkhidmat di KPJ Tawakkal Specialist Hospital, Kuala Lumpur.{{ else }}Oxford-trained neurosurgeon with expertise in neurooncology and interventional pain management. Practising at KPJ Tawakkal Specialist Hospital, Kuala Lumpur.{{ end }}</p>
+        <h2>{{ if eq .Lang "bm" }}Dr Nor Faizal{{ else }}About Dr Nor Faizal{{ end }}</h2>
+        <p>{{ if eq .Lang "bm" }}Oxford trained, precision driven. In service of those who seek the highest standard of care.{{ else }}Oxford-trained neurosurgeon with expertise in neurooncology and interventional pain management. Practising at KPJ Tawakkal Specialist Hospital, Kuala Lumpur.{{ end }}</p>
         <p><em>Discipline · Simplicity · Elegance</em></p>
         <a href="{{ "/tentang" | relLangURL }}" class="btn btn-primary">{{ if eq .Lang "bm" }}Kenali Saya{{ else }}Meet Dr Nor Faizal{{ end }}</a>
       </div>
