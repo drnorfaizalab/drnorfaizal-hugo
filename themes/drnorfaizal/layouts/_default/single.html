@@ -4,7 +4,7 @@
     <header style="margin-bottom: 2rem; border-bottom: 1px solid var(--gray-200); padding-bottom: 2rem;">
       {{ with .Params.type }}<span class="badge" style="margin-bottom:1rem; display:inline-block;">{{ . | title }}</span>{{ end }}
       <h1>{{ .Title }}</h1>
-      {{ with .Description }}<p class="text-gray" style="font-size:1.125rem;">{{ . }}</p>{{ end }}
+      {{ with .Description }}<p class="text-gray">{{ . }}</p>{{ end }}
       {{ if not .Date.IsZero }}
       <p class="text-gray" style="font-size:0.875rem; margin-top:1rem;">
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
