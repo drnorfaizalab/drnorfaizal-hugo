@@ -66,17 +66,20 @@ Sertai komuniti digital Dr Nor Faizal untuk mendapatkan informasi terkini mengen
 Sebagai sebahagian daripada misi Dr Nor Faizal untuk memartabatkan pendidikan neurosains di Malaysia, beliau menerima jemputan bagi kerjasama berikut:
 
 ### 1. Pertanyaan Media & Ulasan Pakar
+
 Wartawan dan penerbit media yang memerlukan ulasan pakar mengenai tumor otak, pengurusan sakit, atau inovasi bedah saraf boleh menghubungi kami melalui e-mel. Respons profesional akan diberikan dalam masa dua (2) hari bekerja.
 
 ### 2. Jemputan Ucaptama (Keynote Speaking)
+
 Dr Nor Faizal aktif berkongsi ilmu di peringkat global dan domestik bagi acara CME, persidangan perubatan, dan forum kesihatan awam. Topik kepakaran termasuk:
-* *Awake Craniotomy* & Pemantauan Intraoperatif.
+
 * Pengurusan Sakit Intervensional (Interventional Pain Management).
 * Kepimpinan dalam Bidang Pembedahan & Etika Perubatan.
 
 ### 3. Kolaborasi Penyelidikan & Industri
+
 Kami mengalu-alukan kerjasama daripada institusi akademik dan rakan industri bagi penyelidikan klinikal neuro-onkologi dan pembangunan teknik pembedahan invasif minimum.
 
 ---
 
-[Mengenai Dr Nor Faizal](/bm/pakar/) | [Soalan Lazim (FAQ)](/bm/blog/pasien/faq/) | [Laman Utama](/)
+[Mengenai Dr Nor Faizal](/pakar/) | [Soalan Lazim (FAQ)](/blog/pasien/faq/) | [Laman Utama](/)
