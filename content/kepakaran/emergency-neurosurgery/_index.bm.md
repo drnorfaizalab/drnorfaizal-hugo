@@ -4,7 +4,7 @@ description: "Penjagaan bedah saraf kecemasan untuk kecederaan otak traumatik, k
 date: 2025-03-10
 draft: false
 type: "specialty"
-weight: 4
+weight: 3
 keywords: "bedah saraf kecemasan, kecederaan otak traumatik, pendarahan intrakranial, kecederaan saraf tunjang, pembedahan otak kecemasan, Malaysia"
 ---
 
