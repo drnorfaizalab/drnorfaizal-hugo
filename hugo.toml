@@ -35,11 +35,11 @@ theme = "drnorfaizal"
   description = "Oxford-trained Neurosurgeon & Interventional Pain Specialist. Expert in brain & spinal tumour surgery, neurooncology, and minimally invasive pain management."
   
   # Contact Information
-  clinic_name = "KPJ Tawakkal Specialist Hospital"
+  clinic_name = "Tawakkal Specialist Hospital"
   clinic_address = "Kuala Lumpur"
   clinic_phone = "+603-4026 7777 ext 5099"
   clinic_whatsapp = "+60122895061"
-  clinic_email = "contact@drnorfaizal.com"
+  clinic_email = "drnfaizal@kpjtawakkal.com"
   
   # Social Media
   social_tiktok = "drnorfaizalbahuri"
@@ -49,7 +49,7 @@ theme = "drnorfaizal"
   social_facebook = "drnorfaizalbahuri"
   
   # Analytics
-  google_analytics_id = "G-XXXXXXXXXX"
+  google_analytics_id = "G-KBGPKYML9T"
   cloudflare_analytics_token = ""
   
   # SEO
