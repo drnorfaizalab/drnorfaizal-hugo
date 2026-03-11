@@ -76,29 +76,21 @@ Hospital Pakar KPJ Tawakkal adalah destinasi yang diiktiraf untuk Grab, AirAsia 
 Dr Nor Faizal mengekalkan kehadiran dalam talian profesional untuk tujuan pendidikan kesihatan dan kesedaran awam. Ikuti saluran klinik untuk kemas kini mengenai topik bedah saraf, kandungan pendidikan pesakit, dan berita klinik.
 
 - **[Facebook](https://www.facebook.com/drnorfaizalbahuri)**
-- **Instagram:** *(pautan — akan hadir tidak lama lagi)*
-- **LinkedIn:** *(pautan — akan hadir tidak lama lagi)*
-- **YouTube:** *(pautan — akan hadir tidak lama lagi)*
+- **[Instagram](https://www.instagram.com/drnorfaizalbahuri)**
+- **[LinkedIn](https://www.linkedin.com/in/drnorfaizalbahuri)**
+- **[YouTube](https://www.youtube.com/@drnorfaizalbahuri)**
 
 *Saluran media sosial adalah untuk tujuan pendidikan dan maklumat sahaja. Pertanyaan perubatan dan permintaan temujanji hendaklah diarahkan melalui butiran hubungi klinik di atas. Mesej media sosial tidak dipantau untuk perkara perubatan yang mendesak.*
 
 ---
 
-## Untuk Pertanyaan Media
+## Untuk Pertanyaan Media dan Jemputan Berucap
 
 Wartawan, editor, dan pengeluar media yang mencari ulasan pakar mengenai bedah saraf, neuro-onkologi, tumor otak, pengurusan kesakitan interventional, atau topik berkaitan dialu-alukan untuk menghubungi klinik secara terus.
 
-Dr Nor Faizal boleh ditemui untuk temu bual, ulasan pakar, dan sumbangan media mengenai perkara dalam bidang kepakaran klinikalnya. Sila hantar pertanyaan media melalui e-mel dengan nama, organisasi, penerbitan atau saluran siaran, dan penerangan ringkas tentang topik atau soalan anda.
+Dr Nor Faizal boleh ditemui untuk temu bual, ulasan pakar, dan sumbangan media mengenai perkara dalam bidang kepakaran klinikalnya. Sila hantar pertanyaan media melalui e-mel dengan nama, organisasi, penerbitan atau saluran siaran, dan penerangan ringkas tentang topik atau soalan anda. Respons kepada pertanyaan media biasanya diberikan dalam masa dua hari bekerja.
 
-**Hubungi Media:** *(e-mel klinik — sila gunakan borang hubungi di bawah)*
-
-Respons kepada pertanyaan media biasanya diberikan dalam masa dua hari bekerja.
-
----
-
-## Untuk Jemputan Berucap
-
-Dr Nor Faizal menerima jemputan untuk berucap di persidangan perubatan, acara pendidikan perubatan berterusan (CME), ceramah grand round hospital, dan forum kesihatan awam mengenai topik termasuk:
+Dr Nor Faizal juga menerima jemputan untuk berucap di persidangan perubatan, acara pendidikan perubatan berterusan (CME), ceramah grand round hospital, dan forum kesihatan awam mengenai topik termasuk:
 
 - Pembedahan tumor otak dan neuro-onkologi
 - Kraniotomi sedar dan pemantauan neurofisiologi intraoperatif
@@ -107,8 +99,6 @@ Dr Nor Faizal menerima jemputan untuk berucap di persidangan perubatan, acara pe
 - Pengurusan pelbagai disiplin tumor sistem saraf pusat
 
 Jemputan hendaklah menyertakan nama acara, tarikh, format, audiens, dan topik yang dicadangkan. Sila berikan masa yang mencukupi untuk penjadualan, terutamanya untuk penglibatan antarabangsa.
-
-**Pertanyaan Berucap:** *(sila gunakan borang hubungi di bawah atau e-mel klinik)*
 
 ---
 
@@ -120,37 +110,6 @@ Dr Nor Faizal mengalu-alukan pertanyaan daripada institusi akademik, kumpulan pe
 - Penyertaan kajian pelbagai pusat
 - Pengarangan bersama siri kes dan laporan kes
 - Latihan kemahiran pembedahan dan pertanyaan persekutuan
-
-**Hubungi Kerjasama Penyelidikan:** *(sila gunakan borang hubungi di bawah atau e-mel klinik)*
-
----
-
-## Borang Hubungi
-
-Sila lengkapkan borang di bawah dan pasukan klinik akan bertindak balas dalam masa satu hingga dua hari bekerja. Untuk perkara klinikal yang mendesak, sila hubungi secara terus.
-
----
-
-**Nama** *(wajib)*
-[Medan teks]
-
-**Alamat E-mel** *(wajib)*
-[Medan e-mel]
-
-**Nombor Telefon** *(wajib)*
-[Medan telefon]
-
-**Perkara** *(wajib)*
-[Senarai juntai: Permintaan Temujanji / Pertanyaan Umum / Pendapat Kedua / Pertanyaan Media / Jemputan Berucap / Kerjasama Penyelidikan / Lain-lain]
-
-**Mesej** *(wajib)*
-[Kawasan teks — sila huraikan pertanyaan anda secara ringkas]
-
-[Butang Hantar]
-
----
-
-*Semua maklumat yang diserahkan melalui borang ini dirawat dengan kerahsiaan yang ketat selaras dengan garis panduan etika perubatan Malaysia. Borang ini adalah untuk pertanyaan umum dan permintaan temujanji sahaja dan tidak mewujudkan hubungan pesakit-doktor. Untuk kecemasan perubatan, hubungi 999 atau pergi serta-merta ke Jabatan Kecemasan yang terdekat.*
 
 ---
 
