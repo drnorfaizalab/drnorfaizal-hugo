@@ -1,6 +1,6 @@
 ---
-title: "Pembedahan Neuro-onkologi: Pakar Tumor Otak & Tulang Belakang"
-description: "Pembedahan tumor otak & tulang belakang peringkat tinggi. Pakar meningioma, glioma, medulloblastoma. Neuro-onkologi tepat dengan teknik invasif minimum."
+title: "Pakar Bedah Tumor Otak & Saraf Tunjang"
+description: "Pembedahan tumor otak & saraf tunjang peringkat tinggi. Pakar meningioma, glioma, medulloblastoma, spinal cord deformities. Ketepatan maximum dengan teknik invasif minimum."
 date: 2025-03-10
 lastmod: 2025-03-10
 draft: false
@@ -9,12 +9,12 @@ type: "specialty"
 weight: 1
 
 # SEO
-keywords: "neuro-onkologi, pembedahan tumor otak, meningioma, glioma, medulloblastoma, tumor tulang belakang, Malaysia, pakar bedah saraf"
+keywords: "neuro-onkologi, pembedahan tumor otak, meningioma, glioma, medulloblastoma, tumor saraf tunjang, Malaysia, pakar bedah saraf"
 
 # Content
 sections:
   - type: "hero"
-    title: "Pembedahan Tumor Otak & Tulang Belakang Peringkat Tinggi"
+    title: "Pembedahan Tumor Otak & Saraf Tunjang Peringkat Tinggi"
     subtitle: "Neuro-onkologi tepat untuk meningioma, glioma, medulloblastoma, dan lain-lain"
   - type: "cta"
     button_text: "Buat Temujanji"
@@ -100,7 +100,7 @@ Jika anda mengalami gejala-gejala ini, dapatkan penilaian neurologi dengan seger
 
 **Imbasan CT** (untuk butiran tulang jika diperlukan)
 
-**PET/SPECT** (untuk penggredaan dan prognosis)
+**PET/SPECT** (untuk kenal pasti gred penyakit dan prognosis)
 
 **Ujian Molekul** (untuk gred dan prognosis)
 
@@ -150,13 +150,13 @@ J: Biasanya 2-4 hari. Pesakit digalakkan bergerak awal bagi mengelakkan komplika
 J: Bergantung kepada jenis dan gred tumor. Pasukan onkologi dan onkologi radiasi anda akan berbincang berdasarkan keputusan patologi.
 
 **S: Bolehkah tumor otak kambuh semula?**
-J: Ada tumor yang mempunyai risiko kekambuhan yang lebih tinggi. Susulan pengimejan berkala adalah penting untuk mengesan kekambuhan awal.
+J: Ada tumor yang mempunyai risiko datang kembali yang lebih tinggi. Susulan pengimejan berkala adalah penting untuk mengesan kekambuhan awal.
 
 ---
 
 ## Langkah Seterusnya
 
-Jika anda telah didiagnosis dengan tumor otak atau tulang belakang, atau mengesyaki anda mungkin mempunyai gejala yang memerlukan pemeriksaan:
+Jika anda telah didiagnosis dengan tumor otak atau saraf tunjang, atau mengesyaki anda mungkin mempunyai gejala yang memerlukan pemeriksaan:
 
 **[Buat Temujanji Penilaian →](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)**
 
