@@ -13,7 +13,7 @@ author: "Dr Nor Faizal Ahmad Bahuri"
 
 Dalam video ini, Dr Nor Faizal menerangkan perkara asas berkaitan diagnosis dan rawatan tumor otak — dalam bahasa mudah, tanpa istilah teknikal yang rumit.
 
-{{< youtube id="YOUTUBE_VIDEO_ID_HERE" title="Memahami Tumor Otak — Dr Nor Faizal" >}}
+{{< youtube "rYOBz4pxLIA" >}}
 
 ## Apa yang dicakupi dalam video ini
 
