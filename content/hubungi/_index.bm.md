@@ -1,6 +1,6 @@
 ---
 title: "Hubungi Dr Nor Faizal | Hospital Pakar Tawakkal"
-description: "Butiran hubungi klinik bedah saraf Dr Nor Faizal di Hospital Pakar Tawakkal, Kuala Lumpur. Telefon, WhatsApp, e-mel, dan arah laluan."
+description: "Butiran Klinik Dr Nor Faizal di Hospital Pakar Tawakkal, Kuala Lumpur. Telefon, WhatsApp, e-mel, dan arah laluan."
 draft: false
 type: "page"
 ---
