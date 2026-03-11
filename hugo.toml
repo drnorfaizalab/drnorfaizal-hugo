@@ -9,6 +9,7 @@ theme = "drnorfaizal"
     languageName = "English"
     weight = 1
     homePageTitle = "Brain & Spinal Tumour Surgery Specialist | Dr Nor Faizal"
+    disabled = true
     
   [languages.bm]
     languageName = "Bahasa Melayu"
