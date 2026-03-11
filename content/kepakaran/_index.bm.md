@@ -1,5 +1,5 @@
 ---
 title: "Kepakaran Bedah Saraf | Dr Nor Faizal"
-description: "Penjagaan bedah saraf yang komprehensif — neuro-onkologi, pengurusan kesakitan intervensional, sakit kepala & sakit muka, dan kecemasan neurologi. Pakar terlatih Oxford di Malaysia."
+description: "Sakit. Kepala. Otak. Tiga perkataan. Satu doktor. Pakar bedah saraf terlatih Oxford yang pakar dalam pengurusan kesakitan interventional, sakit kepala & sakit muka, dan pembedahan tumor otak di Malaysia."
 draft: false
 ---
