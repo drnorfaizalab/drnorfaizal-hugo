@@ -347,6 +347,17 @@ pre code {
   gap: var(--spacing-md);
 }
 
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  .flex > * {
+    width: 100%;
+    min-width: 0 !important;
+  }
+}
+
 .flex-center {
   display: flex;
   align-items: center;
