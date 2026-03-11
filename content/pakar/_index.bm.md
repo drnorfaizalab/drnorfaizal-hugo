@@ -1,5 +1,5 @@
 ---
-title: "Sakit. Kepala. Otak. | Dr Nor Faizal Ahmad Bahuri"
+title: "Dr Nor Faizal Ahmad Bahuri | DPhil (Oxon), MS (UM), MBBS (Malaya)"
 description: "Pakar Bedah Saraf & Rawatan Sakit Intervensional. Ketepatan Oxford, Sentuhan Peribadi. Merawat spektrum penderitaan neurologi di Hospital Pakar Tawakkal, Kuala Lumpur."
 draft: false
 type: "page"
@@ -40,22 +40,18 @@ Beliau membudayakan standard kecemerlangan Oxford ini dalam setiap rawatan di Ma
 
 ## Bidang Kepakaran Utama
 
-### 1. Sakit: Pengurusan Sakit Intervensional
-Sakit kronik boleh melumpuhkan hidup. Dr Nor Faizal menawarkan solusi melangkaui ubat-ubatan konvensional melalui teknik **Invasif Minimum**. Fokus beliau termasuk:
-* Sakit saraf (Neuropathic pain) & Degenerasi tulang belakang.
-* Sakit kanser & *Failed Back Surgery Syndrome*.
-* Rawatan canggih: Perangsangan saraf tunjang (Spinal Cord Stimulation), suntikan epidural, dan *Radiofrequency Ablation*.
-
-### 2. Kepala: Migrain & Sakit Muka
+### 1. Tumor Otak
+Di sinilah kepakaran teknikal bertemu dengan seni pembedahan. Dr Nor Faizal merawat pelbagai jenis tumor otak (Glioma, Meningioma, Pituitari) dengan integrasi teknologi terkini.
+### 2. Migrain & Sakit Muka
 Sakit kepala bukan sekadar gangguan kecil; ia adalah pencuri masa. Beliau membawa ketepatan bedah saraf untuk merawat:
 * Migrain kronik, sakit kepala kluster, dan *Trigeminal Neuralgia*.
 * Rawatan khusus: Blok saraf, suntikan toksin botulinum (Botox), dan pembedahan dekompresi vaskular mikro (MVD).
 
-### 3. Otak: Neuro-Onkologi & Tumor
-Di sinilah kepakaran teknikal bertemu dengan seni pembedahan. Dr Nor Faizal merawat pelbagai jenis tumor otak (Glioma, Meningioma, Pituitari) dengan integrasi teknologi terkini:
-* **Awake Craniotomy:** Memantau fungsi pertuturan dan pergerakan secara "live" semasa pembedahan.
-* **Keyhole Surgery:** Akses melalui bukaan kecil untuk pemulihan yang lebih pantas.
-* **Multidisciplinary Care:** Kerjasama rapat dengan pakar onkologi untuk rawatan menyeluruh.
+### 3. Pengurusan Sakit Kronik
+Sakit kronik boleh melumpuhkan hidup. Dr Nor Faizal menawarkan solusi melangkaui ubat-ubatan konvensional melalui teknik **Invasif Minimum**. Fokus beliau termasuk:
+* Sakit saraf (Neuropathic pain) & Degenerasi tulang belakang.
+* Sakit kanser & *Failed Back Surgery Syndrome*.
+* Rawatan canggih: Perangsangan saraf tunjang (Spinal Cord Stimulation), suntikan epidural, dan *Radiofrequency Ablation*.
 
 ---
 
@@ -74,4 +70,4 @@ Dr Nor Faizal Ahmad Bahuri kini bertugas di **Hospital Pakar Tawakkal, Kuala Lum
 Sama ada anda sedang bergelut dengan kesakitan yang tidak kunjung sembuh atau memerlukan pendapat kedua mengenai diagnosis tumor otak, kepakaran beliau sedia membantu.
 
 * **Buat Temujanji:** [Klik di Sini](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
-* **Hubungi Klinik:** [Klik di Sini](/bm/hubungi/)
+* **Hubungi Klinik:** [Klik di Sini](/hubungi/)
