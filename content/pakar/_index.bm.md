@@ -80,15 +80,12 @@ Pengalaman operatifnya merangkumi glioma (gred rendah dan tinggi), meningioma, m
 
 Ini adalah puncak. Taruhannya tertinggi di sini. Begitu juga standardnya.
 
----
+Dr Nor Faizal menawarkan terapi invasif minimum yang jauh melampaui ubatan konvensional: perangsangan saraf tunjang, blok saraf, suntikan steroid epidural, ablasi frekuensi radio, dan penyampaian ubat intrateka. Setiap rawatan dipilih berasaskan penilaian menyeluruh dan perbincangan realistik tentang hasil yang dijangkakan.
 
-## Apa Yang Membezakan Pendekatan Pembedahannya
+**Kraniotomi dan operasi otak**
+Untuk tumor yang terletak berhampiran kawasan otak yang penting — kawasan yang bertanggungjawab untuk pertuturan, bahasa, dan pergerakan — operasi otak membolehkan pasukan pembedahan memantau fungsi secara masa nyata semasa pembuangan tumor, memaksimumkan reseksi sambil meminimumkan defisit neurologi. Teknik ini memerlukan bukan sahaja kemahiran pembedahan, tetapi keupayaan untuk membina kepercayaan yang cukup dengan pesakit.
 
-**Kraniotomi Sedar (Awake Craniotomy)**
-Untuk tumor yang terletak berhampiran kawasan otak yang penting — kawasan yang bertanggungjawab untuk pertuturan, bahasa, dan pergerakan — operasi otak secara sedar membolehkan pasukan pembedahan memantau fungsi secara masa nyata semasa pembuangan tumor, memaksimumkan reseksi sambil meminimumkan defisit neurologi. Teknik ini memerlukan bukan sahaja kemahiran pembedahan, tetapi keupayaan untuk membina kepercayaan yang cukup dengan pesakit.
-
-**Pemantauan Neurofisiologi Intraoperatif**
-Penggunaan pemantauan neurofisiologi masa nyata — termasuk potensi tercetus motor dan potensi tercetus deria somatosensori — membolehkan Dr Nor Faizal beroperasi dengan jaring keselamatan berterusan, mengurangkan risiko kecederaan neurologi tidak sengaja semasa reseksi tumor kompleks dan prosedur saraf tunjang.
+Sakit kepala kronik, migrain yang tidak bertindak balas kepada ubat, dan sakit muka yang teruk — termasuk neuralgia trigeminal — memerlukan penilaian yang melampaui rawatan am.
 
 **Pendekatan Invasif Minimum**
 Di mana lokasi tumor, keadaan pesakit, dan matlamat pembedahan selaras, Dr Nor Faizal menggunakan pendekatan pembedahan invasif minimum: kraniotomi lubang kunci, teknik endoskopik, dan sistem mimina retraktor semasa pembedahan tulang belakang. Akses yang lebih kecil bermakna gangguan tisu yang lebih sedikit, pemulihan yang lebih cepat, dan kadar komplikasi yang lebih rendah.
@@ -96,9 +93,9 @@ Di mana lokasi tumor, keadaan pesakit, dan matlamat pembedahan selaras, Dr Nor F
 **Pemikiran Onkologi Bersepadu**
 Pembedahan adalah satu komponen pengurusan tumor otak, bukan keseluruhannya. Dr Nor Faizal menyelaras rapat dengan onkologis radiasi dan onkologis perubatan untuk memastikan setiap pesakit mendapat manfaat daripada pelan rawatan pelbagai disiplin yang koheren.
 
----
+Tumor otak memerlukan pakar bedah yang memahami bukan sahaja teknik pembedahan, tetapi biologi tumor, anatomi fungsi yang terlibat, dan matlamat kualiti hidup pesakit.
 
-## Pendekatan Terhadap Komunikasi Bersama Pesakit
+Pengalaman operatif Dr Nor Faizal merangkumi glioma (gred rendah dan tinggi), meningioma, metastasis otak, tumor pituitari, neuroma akustik, ependimoma, dan lesi pangkal tengkorak. Teknik yang digunakan:
 
 Diagnosis tumor otak — atau bahkan syak wasangkanya — adalah antara pengalaman paling menakutkan yang boleh dihadapi oleh seseorang pesakit. Kesakitan yang tidak didiagnosis selama bertahun-tahun membawa bebannya sendiri. Dr Nor Faizal percaya bahawa komunikasi yang jujur dan tidak tergesa-gesa bukan sekadar ihsan — ia adalah tanggungjawab klinikal.
 
@@ -106,19 +103,15 @@ Beliau mengambil masa untuk menerangkan diagnosis dalam bahasa mudah, menetapkan
 
 ---
 
-## Minat Penyelidikan dan Penerbitan
+## Falsafah Rawatan
 
-Dr Nor Faizal mengekalkan minat aktif dalam penyelidikan klinikal, dengan tumpuan khusus pada hasil pembedahan dalam neuro-onkologi, penerapan pemantauan intraoperatif dalam pembedahan kranial dan tulang belakang yang kompleks, dan peranan teknik kesakitan interventional dalam pengurusan kesakitan kanser.
+**Disiplin.** Setiap kes mendapat perhatian sepenuhnya — dalam persediaan, dalam pembedahan, dalam susulan.
 
-Beliau telah menyumbang kepada penerbitan yang dikaji semula dan membentangkan di persidangan bedah saraf kebangsaan dan serantau. Senarai penuh penerbitan dan sumbangan akademik tersedia atas permintaan.
+**Kesederhanaan.** Diagnosis disampaikan dalam bahasa yang jelas. Pilihan rawatan diterangkan tanpa kerumitan yang tidak perlu.
 
----
+**Kehalusan.** Hasil terbaik terhasil apabila ketepatan diterapkan dengan kerugian paling minimum kepada pesakit.
 
-## Komitmen Pengajaran dan Public Speaking
-
-Dr Nor Faizal komited untuk meningkatkan standard penjagaan bedah saraf di Malaysia melalui pendidikan dan perkongsian ilmu. Beliau mengambil bahagian dalam pengajaran pembedahan pascasiswazah, menyumbang kepada bengkel kemahiran pembedahan, dan menerima jemputan untuk bercakap di persidangan perubatan mengenai topik dalam bidang kepakarannya.
-
-Penganjur persidangan yang ingin melibatkan Dr Nor Faizal sebagai pembicara atau penyumbang akademik dialu-alukan untuk menghubungi beliau.
+Komunikasi yang jujur dan tidak tergesa-gesa bukan sekadar ihsan — ia adalah tanggungjawab klinikal. Pesakit berhak memahami situasi mereka sepenuhnya. Dalam membuat keputusan paling penting dalam hidup mereka, mereka tidak perlu berseorangan.
 
 ---
 
@@ -126,12 +119,14 @@ Penganjur persidangan yang ingin melibatkan Dr Nor Faizal sebagai pembicara atau
 
 Bedah saraf memilih beliau sebelum beliau sepenuhnya memilih bidang tersebut. Sebagai seorang pelajar perubatan, beliau terpukau oleh fakta yang mudah namun menggerunkan mengenai otak: organ yang sedang dipelajarinya untuk dirawat adalah organ yang sama yang melakukan pembelajaran itu — bahawa setiap fikiran, setiap ketakutan, setiap detik pengalaman manusia mempunyai substrat dalam tisu yang boleh cedera, sakit, dan kadangkala pulih. Pemerhatian itu tidak pernah meninggalkan beliau.
 
-Beliau memilih bedah saraf kerana ia menuntut segalanya: ketepatan teknikal, pendekatan saintifik, kecerdasan emosi, dan disiplin untuk mengekalkan prestasi sepanjang tempoh kerjaya. Beliau tidak menyesali pilihan itu.
+Beliau juga komited dalam pengajaran pascasiswazah dan perkongsian ilmu melalui bengkel kemahiran dan ucaptama di persidangan perubatan.
 
 ---
 
 ## Mulakan Konsultasi Anda
 
-Dr Nor Faizal menerima pesakit di **Hospital Pakar Tawakkal, Kuala Lumpur**. Sama ada anda mencari pendapat pertama, pendapat kedua, atau pengurusan kesakitan pakar, kliniknya ada untuk anda.
+Dr Nor Faizal menerima pesakit di **Hospital Pakar Tawakkal KPJ, Kuala Lumpur**.
+
+Sama ada anda membawa sakit kronik yang lama, sakit kepala yang berulang, atau diagnosis tumor otak — kliniknya ada untuk anda.
 
 [Buat Temujanji](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Hubungi Klinik](/bm/hubungi/)
