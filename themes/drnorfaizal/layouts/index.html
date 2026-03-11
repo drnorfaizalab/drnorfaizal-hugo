@@ -4,11 +4,11 @@
 <section class="hero">
   <div class="hero-content container">
     <div class="hero-specialties slide-up">
-      <a href="{{ "/kepakaran/neurooncology" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "bm" }}Tumor Otak{{ else }}Brain Tumour{{ end }}</a>
+      <a href="{{ "/kepakaran/neurooncology" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "bm" }}Otak{{ else }}Brain{{ end }}</a>
       <span class="hero-specialty-sep">·</span>
-      <a href="{{ "/kepakaran/headache-migraine-facial-pain" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "bm" }}Migraine{{ else }}Migraine{{ end }}</a>
+      <a href="{{ "/kepakaran/headache-migraine-facial-pain" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "bm" }}Kepala{{ else }}Head{{ end }}</a>
       <span class="hero-specialty-sep">·</span>
-      <a href="{{ "/kepakaran/pain-management" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "bm" }}Sakit Kronik{{ else }}Chronic Pain{{ end }}</a>
+      <a href="{{ "/kepakaran/pain-management" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "bm" }}Sakit{{ else }}Pain{{ end }}</a>
       
     </div>
     <h1 class="slide-up">{{ if eq .Lang "bm" }}Consultant Neurosurgeon & Interventional Pain Specialist{{ else }}Pakar Runding Bedah Saraf & Intervensi Kesakitan{{ end }}</h1>
@@ -29,7 +29,7 @@
   <div class="container">
     <div class="grid grid-3 text-center" style="gap:1rem;">
       <div>
-        <h3 style="font-size:2.5rem; color:var(--secondary);">Oxford Standards</h3>
+        <h3 style="font-size:2.5rem; color:var(--secondary);">Oxford</h3>
         <p style="color:var(--gray-600);">{{ if eq .Lang "bm" }}Keunggulan Akademik{{ else }}Academic Excellence{{ end }}</p>
       </div>
       <div>
@@ -48,26 +48,26 @@
 <section class="section-alt">
   <div class="container">
     <h2 class="text-center" style="margin-bottom:0.5rem;">{{ if eq .Lang "bm" }}Bidang Kepakaran{{ else }}Areas of Expertise{{ end }}</h2>
-    <p class="text-center text-gray" style="margin-bottom:3rem;">{{ if eq .Lang "bm" }}Tumor Otak. Migraine. Sakit Kronik.{{ else }}Pain. Head. Brain.{{ end }}</p>
+    <p class="text-center text-gray" style="margin-bottom:3rem;">{{ if eq .Lang "bm" }}Otak. Kepala. Sakit.{{ else }}Brain. Head. Pain.{{ end }}</p>
 
     <div class="grid grid-3">
       <div class="card">
-        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Tumor Otak{{ else }}Brain Tumour{{ end }}</div>
-        <h3 class="card-title">{{ if eq .Lang "bm" }}Kanser Otak &amp; Saraf Tunjang{{ else }}Brain &amp; Spinal Tumour Surgery{{ end }}</h3>
+        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Otak{{ else }}Brain{{ end }}</div>
+        <h3 class="card-title">{{ if eq .Lang "bm" }}Kanser Otak{{ else }}Brain Tumour{{ end }}</h3>
         <p>{{ if eq .Lang "bm" }}Pembedahan tepat untuk meningioma, glioma, medulloblastoma dan lebih banyak lagi.{{ else }}Precision surgery for meningioma, glioma, medulloblastoma, and more.{{ end }}</p>
         <a href="{{ "/kepakaran/neurooncology" | relLangURL }}" class="btn btn-secondary" style="margin-top:1rem;">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
       </div>
 
       <div class="card">
-        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Migraine{{ else }}Migraine{{ end }}</div>
+        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Kepala{{ else }}Head{{ end }}</div>
         <h3 class="card-title">{{ if eq .Lang "bm" }}Migraine &amp; Sakit Muka{{ else }}Migraine &amp; Facial Pain{{ end }}</h3>
         <p>{{ if eq .Lang "bm" }}Diagnosis dan rawatan pakar untuk migraine, sakit kepala, dan Trigeminal Neuralgia.{{ else }}Specialist care for chronic migraine, cluster headache, and trigeminal neuralgia.{{ end }}</p>
         <a href="{{ "/kepakaran/headache-migraine-facial-pain" | relLangURL }}" class="btn btn-secondary" style="margin-top:1rem;">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
       </div>
 
       <div class="card">
-        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Sakit Kronik{{ else }}Chronic Pain{{ end }}</div>
-        <h3 class="card-title">{{ if eq .Lang "bm" }}Pengurusan Kesakitan{{ else }}Interventional Pain Management{{ end }}</h3>
+        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Sakit{{ else }}Pain{{ end }}</div>
+        <h3 class="card-title">{{ if eq .Lang "bm" }}Pengurusan Kesakitan Kronik{{ else }}Interventional Pain Management{{ end }}</h3>
         <p>{{ if eq .Lang "bm" }}Rawatan sakit kronik menggunakan teknik minimal invasif yang tepat ke sasaran.{{ else }}Targeted minimally invasive treatment for chronic and neuropathic pain.{{ end }}</p>
         <a href="{{ "/kepakaran/pain-management" | relLangURL }}" class="btn btn-secondary" style="margin-top:1rem;">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
       </div>
