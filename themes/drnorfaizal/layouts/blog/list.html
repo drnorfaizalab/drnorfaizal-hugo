@@ -66,7 +66,7 @@
           {{ if $isGuide }}
           <span class="badge" style="background:#e8f4e8; color:#2d6a2d; border:none;">{{ if eq $.Lang "bm" }}Panduan Pesakit{{ else }}Patient Guide{{ end }}</span>
           {{ else }}
-          {{ range first 1 .Params.categories }}<span class="badge" style="display:inline-block;">{{ . | title }}</span>{{ end }}
+          {{ with .Params.categories }}{{ range first 1 . }}<span class="badge" style="display:inline-block;">{{ . | title }}</span>{{ end }}{{ end }}
           {{ end }}
           {{ if .Params.pdf_available }}<span style="font-size:0.75rem; color:#666; padding:0.2rem 0.5rem; border:1px solid #ddd; border-radius:1rem;">PDF</span>{{ end }}
         </div>
