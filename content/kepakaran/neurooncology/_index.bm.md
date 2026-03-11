@@ -1,5 +1,5 @@
 ---
-title: "Pakar Bedah Tumor Otak & Saraf Tunjang"
+title: "Pakar Bedah Tumor Otak & Saraf Tunjang | Dr Nor Faizal"
 description: "Pembedahan tumor otak & saraf tunjang peringkat tinggi. Pakar meningioma, glioma, medulloblastoma, spinal cord deformities. Ketepatan maximum dengan teknik invasif minimum."
 date: 2025-03-10
 lastmod: 2025-03-10
