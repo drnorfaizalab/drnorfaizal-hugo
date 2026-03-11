@@ -25,7 +25,7 @@ Beliau kembali ke Malaysia membawa standard itu bersamanya.
 
 - **MBBS** — Sarjana Muda Perubatan dan Pembedahan dari Universiti Malaya, Kuala Lumpur, Malaysia.
 - **Master of Surgery (UM)** — Latihan pembedahan pasca siswazah dengan pengkhususan dalam bedah saraf dari Universiti Malaya, Kuala Lumpur, Malaysia.
-- **Doctor of Philosophy, Dphil(Oxon)** — Latihan pakar lanjutan dan kajian neuroscience di Universiti Oxford, United Kingdom.
+- **Doctor of Philosophy, Dphil (Oxon)** — Latihan pakar lanjutan dan kajian neuroscience di Universiti Oxford, United Kingdom.
 
 Latihannya merangkumi lebih dari satu dekad pendidikan pembedahan yang berdedikasi, berstruktur di sekeliling persekitaran klinikal yang paling ketat yang ada di Malaysia dan United Kingdom. Reputasi akademiknya diiktiraf oleh universiti terbaik dunia.
 
