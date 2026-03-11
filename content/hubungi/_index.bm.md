@@ -1,116 +1,82 @@
 ---
 title: "Hubungi Dr Nor Faizal | Hospital Pakar Tawakkal"
-description: "Butiran Klinik Dr Nor Faizal di Hospital Pakar Tawakkal, Kuala Lumpur. Telefon, WhatsApp, e-mel, dan arah laluan."
+description: "Hubungi klinik pakar Dr Nor Faizal di Kuala Lumpur. Dapatkan akses kepada pakar bedah saraf bagi rawatan tumor otak, migrain, dan pengurusan sakit kronik."
 draft: false
 type: "page"
 ---
 
-## Alamat Klinik
+## Pusat Kecemerlangan Bedah Saraf
 
-**Hospital Pakar Tawakkal**
-Jalan Pahang
-Kuala Lumpur
-Wilayah Persekutuan, Malaysia
-
-Hospital Pakar KPJ Tawakkal adalah sebuah hospital pakar yang sudah lama berdiri di jantung Kuala Lumpur, menyediakan perkhidmatan bedah saraf menyeluruh, pengimejan diagnostik, dan perkhidmatan onkologi pelbagai disiplin. Hospital ini dilengkapi dengan pengimejan MRI dan CT canggih, dewan bedah saraf khusus, dan kemudahan penjagaan rapi.
+**Hospital Pakar KPJ Tawakkal** merupakan mercu tanda perubatan di jantung Kuala Lumpur. Di sinilah Dr Nor Faizal menggabungkan teknologi diagnostik terkini dengan seni pembedahan yang halus untuk memberikan hasil terbaik buat pesakit beliau.
 
 ---
 
-## Butiran Hubungi Klinik
+## Saluran Perhubungan Utama
 
-| Kaedah Hubungan | Butiran |
-|---|---|
-| **Temujanji Atas Talian** | [Buat Temujanji](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)| 
-| **Telefon Klinik** | *+60340267777 sambungan 5099* |
-| **WhatsApp** | *+60122895061* |
-| **E-mel** | *drnfaizal@kpjtawakkal.com* |
+Pasukan pengurusan klinik kami bersedia membantu anda dengan profesionalisme tinggi bagi urusan temujanji dan rujukan perubatan.
 
-Untuk **pertanyaan umum, tempahan temujanji, dan penyelarasan rujukan**, pasukan klinik tersedia semasa waktu konsultasi.
+| Kaedah | Butiran Perhubungan |
+| :--- | :--- |
+| **Temujanji Digital** | [Tempah Slot Anda](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) |
+| **Talian Klinik** | [+603 4026 7777](tel:+60340267777) (Ext: **5099**) |
+| **WhatsApp Rasmi** | [+6012 289 5061](https://wa.me/60122895061) |
+| **E-mel Rasmi** | [drnfaizal@kpjtawakkal.com](mailto:drnfaizal@kpjtawakkal.com) |
 
-Untuk kes **kecemasan**, sila pergi serta-merta ke Jabatan Kecemasan yang terdekat atau hubungi **999**. Jangan tunggu temujanji klinik.
-
----
-
-## Waktu Klinik
-
-| Hari | Waktu |
-|---|---|
-| Isnin | 9:00 PG – 4:00 PTG |
-| Selasa | 9:00 PG – 4:00 PTG |
-| Rabu | 9:00 PG – 4:00 PTG |
-| Khamis | 9:00 PG – 4:00 PTG |
-| Jumaat | 9:00 PG – 4:00 PTG |
-| Sabtu | 9:00 PG – 12:00 TGH |
-| Ahad | Tutup |
-| Hari Cuti Umum | Tutup |
-
-*Waktu klinik mungkin berubah. Sila hubungi terlebih dahulu untuk mengesahkan ketersediaan, terutamanya untuk temujanji Sabtu.*
-
-Komitmen dewan bedah dan tugas panggilan mungkin kadangkala menjejaskan ketersediaan klinik. Pasukan klinik akan memaklumkan jika ada perubahan pada hari temujanji anda.
+> **Nota Penting:** Untuk kes **Kecemasan Neurologi** (seperti sawan mengejut, hilang penglihatan, atau lemah anggota badan), sila terus ke Jabatan Kecemasan (A&E) yang terdekat atau hubungi **999** dengan segera.
 
 ---
 
-## Cara Ke Klinik
+## Jadual Konsultasi
 
-### Dengan Kereta
-Hospital Pakar KPJ Tawakkal terletak di sepanjang Jalan Pahang, salah satu jalan utama Kuala Lumpur, boleh dicapai dari pusat bandar dan lebuh raya utama termasuk MRR2, Lebuh Raya DUKE, dan Lebuh Raya KL-Karak. Tempat letak kereta berbayar tersedia di dalam kawasan hospital dan di kemudahan berbilang tingkat yang berdekatan.
+| Hari | Waktu Klinik |
+| :--- | :--- |
+| **Isnin – Jumaat** | 9:00 PG – 4:00 PTG |
+| **Sabtu** | 9:00 PG – 12:00 TGH |
+| **Ahad & Cuti Umum** | Tutup |
 
-### Dengan Pengangkutan Awam
-Hospital boleh dicapai dari beberapa hab transit Kuala Lumpur. Sambungan LRT dan bas terdekat di koridor Jalan Pahang menyediakan akses dari pusat bandar, Chow Kit, dan kawasan sekitarnya. Sila rujuk perancang perjalanan Rapid KL atau Google Maps untuk laluan pengangkutan awam terkini dari lokasi anda.
-
-### Dengan Teksi atau Perkhidmatan e-Hailing
-Hospital Pakar KPJ Tawakkal adalah destinasi yang diiktiraf untuk Grab, AirAsia Ride, dan perkhidmatan teksi konvensional di seluruh Kuala Lumpur. Cukup masukkan "KPJ Tawakkal Specialist Hospital" sebagai destinasi anda.
-
----
-
-## Peta
-
-*(Peta — Hospital Pakar KPJ Tawakkal, Jalan Pahang, Kuala Lumpur)*
-
-[Lihat di Google Maps](https://maps.google.com/?q=KPJ+Tawakkal+Specialist+Hospital+Kuala+Lumpur)
+*Jadual mungkin tertakluk kepada komitmen dewan bedah. Kami menyarankan anda membuat pengesahan slot 24 jam lebih awal.*
 
 ---
 
-## Media Sosial
+## Akses & Lokasi
 
-Dr Nor Faizal mengekalkan kehadiran dalam talian profesional untuk tujuan pendidikan kesihatan dan kesedaran awam. Ikuti saluran klinik untuk kemas kini mengenai topik bedah saraf, kandungan pendidikan pesakit, dan berita klinik.
+**Alamat:** Jalan Pahang, Kuala Lumpur, Wilayah Persekutuan.
 
-- **[Facebook](https://www.facebook.com/drnorfaizalbahuri)**
-- **[Instagram](https://www.instagram.com/drnorfaizalbahuri)**
-- **[LinkedIn](https://www.linkedin.com/in/drnorfaizalbahuri)**
-- **[YouTube](https://www.youtube.com/@drnorfaizalbahuri)**
+* **Kenderaan Peribadi:** Mudah diakses melalui MRR2, DUKE, dan Lebuhraya KL-Karak. Kemudahan parkir bertingkat disediakan.
+* **Pengangkutan Awam:** Berhampiran dengan hub transit utama dan koridor bas Jalan Pahang/Chow Kit.
+* **E-Hailing:** Carian destinasi: **"KPJ Tawakkal Specialist Hospital"**.
 
-*Saluran media sosial adalah untuk tujuan pendidikan dan maklumat sahaja. Pertanyaan perubatan dan permintaan temujanji hendaklah diarahkan melalui butiran hubungi klinik di atas. Mesej media sosial tidak dipantau untuk perkara perubatan yang mendesak.*
-
----
-
-## Untuk Pertanyaan Media dan Jemputan Berucap
-
-Wartawan, editor, dan pengeluar media yang mencari ulasan pakar mengenai bedah saraf, neuro-onkologi, tumor otak, pengurusan kesakitan interventional, atau topik berkaitan dialu-alukan untuk menghubungi klinik secara terus.
-
-Dr Nor Faizal boleh ditemui untuk temu bual, ulasan pakar, dan sumbangan media mengenai perkara dalam bidang kepakaran klinikalnya. Sila hantar pertanyaan media melalui e-mel dengan nama, organisasi, penerbitan atau saluran siaran, dan penerangan ringkas tentang topik atau soalan anda. Respons kepada pertanyaan media biasanya diberikan dalam masa dua hari bekerja.
-
-Dr Nor Faizal juga menerima jemputan untuk berucap di persidangan perubatan, acara pendidikan perubatan berterusan (CME), ceramah grand round hospital, dan forum kesihatan awam mengenai topik termasuk:
-
-- Pembedahan tumor otak dan neuro-onkologi
-- Kraniotomi sedar dan pemantauan neurofisiologi intraoperatif
-- Pengurusan kesakitan interventional
-- Pembedahan tulang belakang invasif minimum
-- Pengurusan pelbagai disiplin tumor sistem saraf pusat
-
-Jemputan hendaklah menyertakan nama acara, tarikh, format, audiens, dan topik yang dicadangkan. Sila berikan masa yang mencukupi untuk penjadualan, terutamanya untuk penglibatan antarabangsa.
+[Peta Lokasi: Google Maps](https://maps.google.com)
 
 ---
 
-## Untuk Kerjasama Akademik dan Penyelidikan
+## Jejak Digital & Edukasi
 
-Dr Nor Faizal mengalu-alukan pertanyaan daripada institusi akademik, kumpulan penyelidikan, dan rakan industri mengenai:
+Sertai komuniti digital Dr Nor Faizal untuk mendapatkan informasi terkini mengenai kesihatan saraf dan kualiti hidup melalui lensa disiplin dan ketepatan.
 
-- Kerjasama penyelidikan klinikal dalam neuro-onkologi dan hasil pembedahan
-- Penyertaan kajian pelbagai pusat
-- Pengarangan bersama siri kes dan laporan kes
-- Latihan kemahiran pembedahan dan pertanyaan persekutuan
+* **Facebook:** [@drnorfaizalbahuri](https://www.facebook.com/drnorfaizalbahuri)
+* **Instagram:** [@drnorfaizalbahuri](https://www.instagram.com/drnorfaizalbahuri)
+* **LinkedIn:** [Dr Nor Faizal Ahmad Bahuri](https://www.linkedin.com/in/drnorfaizalbahuri)
+* **YouTube:** [@drnorfaizalbahuri](https://www.youtube.com/@drnorfaizalbahuri)
 
 ---
 
-[Buat Temujanji](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Baca Soalan Lazim](/bm/blog/pasien/faq/) | [Mengenai Dr Nor Faizal](/bm/pakar/)
+## Media, Konsultasi & Kolaborasi Akademik
+
+Sebagai sebahagian daripada misi Dr Nor Faizal untuk memartabatkan pendidikan neurosains di Malaysia, beliau menerima jemputan bagi kerjasama berikut:
+
+### 1. Pertanyaan Media & Ulasan Pakar
+Wartawan dan penerbit media yang memerlukan ulasan pakar mengenai tumor otak, pengurusan sakit, atau inovasi bedah saraf boleh menghubungi kami melalui e-mel. Respons profesional akan diberikan dalam masa dua (2) hari bekerja.
+
+### 2. Jemputan Ucaptama (Keynote Speaking)
+Dr Nor Faizal aktif berkongsi ilmu di peringkat global dan domestik bagi acara CME, persidangan perubatan, dan forum kesihatan awam. Topik kepakaran termasuk:
+* *Awake Craniotomy* & Pemantauan Intraoperatif.
+* Pengurusan Sakit Intervensional (Interventional Pain Management).
+* Kepimpinan dalam Bidang Pembedahan & Etika Perubatan.
+
+### 3. Kolaborasi Penyelidikan & Industri
+Kami mengalu-alukan kerjasama daripada institusi akademik dan rakan industri bagi penyelidikan klinikal neuro-onkologi dan pembangunan teknik pembedahan invasif minimum.
+
+---
+
+[Mengenai Dr Nor Faizal](/bm/pakar/) | [Soalan Lazim (FAQ)](/bm/blog/pasien/faq/) | [Laman Utama](/)
