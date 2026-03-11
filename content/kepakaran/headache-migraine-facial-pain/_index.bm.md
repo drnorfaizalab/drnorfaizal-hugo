@@ -6,7 +6,7 @@ lastmod: 2026-03-11
 draft: false
 
 type: "specialty"
-weight: 3
+weight: 2
 
 keywords: "pakar sakit kepala, rawatan migrain, neuralgia trigeminal, sakit kepala kronik, sakit muka, pakar bedah saraf Malaysia, neuralgia oksipital, sakit kepala kluster"
 

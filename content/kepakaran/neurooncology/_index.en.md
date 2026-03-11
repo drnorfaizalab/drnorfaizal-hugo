@@ -6,7 +6,7 @@ lastmod: 2025-03-10
 draft: false
 
 type: "specialty"
-weight: 1
+weight: 3
 
 # SEO
 keywords: "neurooncology, brain tumour surgery, meningioma, glioma, medulloblastoma, spinal tumour, Malaysia, neurosurgeon"

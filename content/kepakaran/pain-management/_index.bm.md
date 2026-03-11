@@ -4,7 +4,7 @@ description: "Pakar pengurusan kesakitan interventional untuk sakit belakang kro
 date: 2025-03-10
 draft: false
 type: "specialty"
-weight: 2
+weight: 1
 keywords: "pengurusan kesakitan, kesakitan kronik, kesakitan interventional, kesakitan neuropatik, sakit belakang, Malaysia, pakar bedah saraf"
 ---
 

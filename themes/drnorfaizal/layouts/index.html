@@ -40,35 +40,28 @@
 <section class="section-alt">
   <div class="container">
     <h2 class="text-center" style="margin-bottom:0.5rem;">{{ if eq .Lang "bm" }}Bidang Kepakaran{{ else }}Areas of Expertise{{ end }}</h2>
-    <p class="text-center text-gray" style="margin-bottom:3rem;">{{ if eq .Lang "bm" }}Perkhidmatan neurosurgikal komprehensif{{ else }}Comprehensive neurosurgical services{{ end }}</p>
+    <p class="text-center text-gray" style="margin-bottom:3rem;">{{ if eq .Lang "bm" }}Sakit. Kepala. Otak.{{ else }}Pain. Head. Brain.{{ end }}</p>
 
-    <div class="grid grid-4">
+    <div class="grid grid-3">
       <div class="card">
-        <div class="badge" style="margin-bottom:1rem;">Neurooncology</div>
-        <h3 class="card-title">{{ if eq .Lang "bm" }}Bedah Kanser Otak &amp; Saraf Tunjang{{ else }}Brain &amp; Spinal Tumour Surgery{{ end }}</h3>
-        <p>{{ if eq .Lang "bm" }}Pembedahan tepat untuk meningioma, glioma, medulloblastoma dan lebih banyak lagi.{{ else }}Precision surgery for meningioma, glioma, medulloblastoma, and more.{{ end }}</p>
-        <a href="{{ "/kepakaran/neurooncology" | relLangURL }}" class="btn btn-secondary" style="margin-top:1rem;">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
-      </div>
-
-      <div class="card">
-        <div class="badge" style="margin-bottom:1rem;">Pain Intervention</div>
+        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Sakit{{ else }}Pain{{ end }}</div>
         <h3 class="card-title">{{ if eq .Lang "bm" }}Intervensi Kesakitan{{ else }}Interventional Pain Management{{ end }}</h3>
         <p>{{ if eq .Lang "bm" }}Rawatan kesakitan kronik menggunakan teknik minimally invasive yang tepat sasaran.{{ else }}Targeted minimally invasive treatment for chronic and neuropathic pain.{{ end }}</p>
         <a href="{{ "/kepakaran/pain-management" | relLangURL }}" class="btn btn-secondary" style="margin-top:1rem;">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
       </div>
 
       <div class="card">
-        <div class="badge" style="margin-bottom:1rem;">Headache &amp; Facial Pain</div>
+        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Kepala{{ else }}Head{{ end }}</div>
         <h3 class="card-title">{{ if eq .Lang "bm" }}Sakit Kepala &amp; Sakit Muka{{ else }}Headache &amp; Facial Pain{{ end }}</h3>
         <p>{{ if eq .Lang "bm" }}Diagnosis dan rawatan pakar untuk migrain kronik, sakit kepala kluster, dan neuralgia trigeminal.{{ else }}Specialist care for chronic migraine, cluster headache, and trigeminal neuralgia.{{ end }}</p>
         <a href="{{ "/kepakaran/headache-migraine-facial-pain" | relLangURL }}" class="btn btn-secondary" style="margin-top:1rem;">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
       </div>
 
       <div class="card">
-        <div class="badge" style="margin-bottom:1rem;">Neurological Emergency</div>
-        <h3 class="card-title">{{ if eq .Lang "bm" }}Kecemasan Neurologi{{ else }}Neurological Emergency{{ end }}</h3>
-        <p>{{ if eq .Lang "bm" }}Penjagaan kecemasan untuk kecederaan otak traumatik, pendarahan intrakranial dan kecederaan saraf tunjang akut.{{ else }}Emergency care for traumatic brain injury, intracranial haemorrhage, and acute spinal cord injury.{{ end }}</p>
-        <a href="{{ "/kepakaran/emergency-neurosurgery" | relLangURL }}" class="btn btn-secondary" style="margin-top:1rem;">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
+        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Otak{{ else }}Brain{{ end }}</div>
+        <h3 class="card-title">{{ if eq .Lang "bm" }}Bedah Kanser Otak &amp; Saraf Tunjang{{ else }}Brain &amp; Spinal Tumour Surgery{{ end }}</h3>
+        <p>{{ if eq .Lang "bm" }}Pembedahan tepat untuk meningioma, glioma, medulloblastoma dan lebih banyak lagi.{{ else }}Precision surgery for meningioma, glioma, medulloblastoma, and more.{{ end }}</p>
+        <a href="{{ "/kepakaran/neurooncology" | relLangURL }}" class="btn btn-secondary" style="margin-top:1rem;">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
       </div>
     </div>
   </div>

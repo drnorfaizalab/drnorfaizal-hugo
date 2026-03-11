@@ -6,7 +6,7 @@ lastmod: 2025-03-10
 draft: false
 
 type: "specialty"
-weight: 1
+weight: 3
 
 # SEO
 keywords: "neuro-onkologi, pembedahan tumor otak, meningioma, glioma, medulloblastoma, tumor saraf tunjang, Malaysia, pakar bedah saraf"
