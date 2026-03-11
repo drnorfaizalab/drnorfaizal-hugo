@@ -13,14 +13,7 @@
       </ul>
 
       <div class="flex" style="align-items:center; gap:1rem;">
-        <div class="lang-switcher">
-          <a href="{{ .Permalink }}" class="active">{{ .Lang | upper }}</a>
-          {{ range .Translations }}
-            <a href="{{ .Permalink }}">{{ .Lang | upper }}</a>
-          {{ end }}
-        </div>
-
-        <a href="https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri" target="_blank" rel="noopener" class="btn btn-cta" style="font-size:0.875rem; padding:0.5rem 1.25rem;">
+<a href="https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri" target="_blank" rel="noopener" class="btn btn-cta" style="font-size:0.875rem; padding:0.5rem 1.25rem;">
           {{ if eq .Lang "bm" }}Temujanji{{ else }}Book Now{{ end }}
         </a>
 
