@@ -1,11 +1,11 @@
 ---
 title: "Buat Temujanji | Dr Nor Faizal"
-description: "Jadualkan konsultasi bersama Dr Nor Faizal di Hospital Pakar KPJ Tawakkal, Kuala Lumpur. Konsultasi tumor otak, pengurusan kesakitan, dan pembedahan tulang belakang."
+description: "Jadualkan konsultasi bersama Dr Nor Faizal di Hospital Pakar Tawakkal, Kuala Lumpur. Konsultasi tumor otak, pengurusan kesakitan, dan pembedahan tulang belakang."
 draft: false
 type: "page"
 ---
 
-## Mengambil Keputusan Untuk Mendapatkan Bantuan Adalah Langkah Pertama
+## Mengambil Langkah Pertama Untuk Mendapatkan Bantuan
 
 Sama ada anda berhadapan dengan diagnosis baharu, gejala neurologi yang berterusan, kesakitan kronik, atau hanya ingin mendapat pendapat pakar sebelum membuat keputusan rawatan — konsultasi ini adalah tempat yang tepat untuk bermula. Dr Nor Faizal menerima pesakit yang dirujuk mahupun yang datang sendiri untuk konsultasi pesakit luar, penilaian mendesak, dan pendapat kedua.
 
@@ -35,9 +35,9 @@ Hubungi klinik secara terus semasa waktu konsultasi. Staf klinik kami akan memba
 ### Melalui WhatsApp
 Untuk kemudahan, pertanyaan temujanji juga boleh dihantar melalui WhatsApp. Sila sertakan nama, nombor telefon, dan penerangan ringkas tentang keadaan anda supaya pasukan klinik dapat membantu dengan lebih cekap.
 
-**WhatsApp:** *(nombor tersedia melalui KPJ Tawakkal)*
+**WhatsApp:** *+60122895061*
 
-### Melalui Atas Talian
+### Temujanji
 [Buat Temu Janji](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 
 Untuk permintaan temujanji yang tidak mendesak, penghantaran dokumen, atau penyelarasan rujukan, anda boleh membuat temujanji atas talian. Sila beri masa satu hingga dua hari bekerja untuk mendapat respons.
@@ -86,11 +86,11 @@ Anda tidak akan ditergesa-gesa. Anda tidak akan pulang tanpa memahami apa yang b
 
 ## Jenis Konsultasi Yang Tersedia
 
-### Konsultasi Pesakit Luar Biasa
+### Konsultasi Pesakit Luar
 Untuk pesakit dengan gejala neurologi, kesakitan kronik, keadaan tulang belakang, atau syak tumor otak atau tulang belakang yang memerlukan penilaian pakar. Sesuai untuk pesakit baharu dan pesakit yang kembali untuk semakan.
 
-### Konsultasi Mendesak
-Untuk pesakit dengan gejala neurologi yang cepat meningkat, sawan permulaan baharu, atau lesi yang baru didiagnosis dalam pengimejan yang memerlukan penilaian pakar segera. Sila nyatakan kemendesakan keadaan anda semasa menghubungi klinik — pasukan akan berusaha sepenuhnya untuk menempatkan anda dengan segera.
+### Konsultasi Kecemasan
+Untuk pesakit dengan gejala neurologi yang cepat meningkat, sawan permulaan baharu, atau lesi yang baru didiagnosis dalam pengimejan yang memerlukan penilaian pakar segera. Sila nyatakan kecemasan anda semasa menghubungi klinik — pasukan akan berusaha sepenuhnya untuk menempatkan anda dengan segera.
 
 ### Pendapat Kedua
 Pesakit yang telah menerima diagnosis atau cadangan pembedahan daripada pakar lain dialu-alukan untuk mendapatkan pendapat kedua. Dr Nor Faizal akan menyemak semua rekod, pengimejan, dan laporan patologi yang ada, dan memberikan penilaian bebas. Semua maklumat yang dikongsi dirawat dengan kerahsiaan yang ketat.
@@ -133,9 +133,9 @@ Datang dengan persediaan membantu anda memanfaatkan sepenuhnya masa bersama Dr N
 
 ---
 
-## Telemesyuarat dan Pendapat Kedua Jauh
+## Teleconsultation dan Pendapat Kedua Secara Atas Talian
 
-Untuk pesakit yang berada di luar Kuala Lumpur, atau mereka yang tidak dapat hadir secara peribadi untuk konsultasi awal, Dr Nor Faizal menawarkan **perkhidmatan pendapat kedua jauh**. Pesakit boleh menghantar rekod klinikal, laporan pengimejan, dan ringkasan sejarah mereka untuk disemak, diikuti dengan konsultasi video yang dijadualkan.
+Untuk pesakit yang berada di luar Kuala Lumpur, atau mereka yang tidak dapat hadir secara peribadi untuk konsultasi awal, Dr Nor Faizal menawarkan **perkhidmatan teleconsultation**. Pesakit boleh menghantar rekod klinikal, laporan pengimejan, dan ringkasan sejarah mereka untuk disemak, diikuti dengan konsultasi video yang dijadualkan.
 
 Perkhidmatan ini adalah untuk tujuan nasihat dan pendapat kedua. Penilaian pembedahan yang muktamad memerlukan konsultasi secara peribadi. Sila hubungi klinik untuk butiran tentang mengatur konsultasi jauh.
 
