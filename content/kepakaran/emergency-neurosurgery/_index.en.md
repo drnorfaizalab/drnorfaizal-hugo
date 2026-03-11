@@ -4,7 +4,7 @@ description: "Emergency neurosurgical care for traumatic brain injury, acute spi
 date: 2025-03-10
 draft: false
 type: "specialty"
-weight: 4
+weight: 3
 keywords: "emergency neurosurgery, traumatic brain injury, intracranial haemorrhage, spinal cord injury, emergency brain surgery, Malaysia"
 ---
 

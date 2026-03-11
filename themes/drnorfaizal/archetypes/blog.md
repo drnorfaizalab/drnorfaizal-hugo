@@ -13,7 +13,7 @@ type: "blog"
 image: "/images/blog-featured-image.jpg"
 imageAlt: "Image description for accessibility"
 author: "Dr Nor Faizal Ahmad Bahuri"
-categories: ["neurooncology"]  # or: pain-management, spinal-oncology
+categories: ["neurooncology"]  # or: pain-management, emergency-neurosurgery
 tags: ["brain-tumour", "surgery", "outcomes"]  # relevant keywords
 
 # Content settings
