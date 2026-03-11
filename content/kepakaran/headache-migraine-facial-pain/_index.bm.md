@@ -1,5 +1,5 @@
 ---
-title: "Pakar Sakit Kepala, Migrain & Sakit Muka | Dr Nor Faizal"
+title: "Pakar Migrain & Sakit Muka | Dr Nor Faizal"
 description: "Penilaian dan rawatan pakar untuk sakit kepala kronik, migrain, dan neuralgia trigeminal. Pakar bedah saraf terlatih Oxford menawarkan diagnosis tepat dan pengurusan intervensional di Malaysia."
 date: 2026-03-11
 lastmod: 2026-03-11
@@ -12,7 +12,7 @@ keywords: "pakar sakit kepala, rawatan migrain, neuralgia trigeminal, sakit kepa
 
 sections:
   - type: "hero"
-    title: "Sakit Kepala, Migrain & Sakit Muka"
+    title: "Migrain & Sakit Muka"
     subtitle: "Diagnosis tepat dan rawatan untuk gangguan sakit kepala kronik dan sindrom sakit kranio-fasial"
   - type: "cta"
     button_text: "Buat Temujanji"

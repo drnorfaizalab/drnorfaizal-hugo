@@ -1,10 +1,13 @@
 ---
-title: "Pengurusan Kesakitan Interventional | Dr Nor Faizal"
-description: "Pakar pengurusan kesakitan interventional untuk sakit belakang kronik, kesakitan neuropatik, dan sindrom kesakitan kompleks. Pakar bedah saraf terlatih Oxford di Malaysia."
+title: "Pengurusan Kesakitan Kronik | Dr Nor Faizal"
+description: "Pakar pengurusan kesakitan kronik untuk sakit belakang, kesakitan neuropatik, dan sindrom kesakitan kompleks. Pakar bedah saraf terlatih Oxford di Malaysia."
 date: 2025-03-10
+lastmod: 2026-03-11
 draft: false
+
 type: "specialty"
-weight: 1
+weight: 3
+
 keywords: "pengurusan kesakitan, kesakitan kronik, kesakitan interventional, kesakitan neuropatik, sakit belakang, Malaysia, pakar bedah saraf"
 ---
 

@@ -4,7 +4,7 @@ description: "Expert interventional pain management for chronic back pain, neuro
 date: 2025-03-10
 draft: false
 type: "specialty"
-weight: 1
+weight: 3
 keywords: "pain management, chronic pain, interventional pain, neuropathic pain, back pain, Malaysia, neurosurgeon"
 ---
 

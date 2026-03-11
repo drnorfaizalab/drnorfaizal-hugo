@@ -6,7 +6,7 @@ lastmod: 2025-03-10
 draft: false
 
 type: "specialty"
-weight: 3
+weight: 1
 
 # SEO
 keywords: "neuro-onkologi, pembedahan tumor otak, meningioma, glioma, medulloblastoma, tumor saraf tunjang, Malaysia, pakar bedah saraf"
@@ -58,16 +58,15 @@ Lokasi yang mencabar; memerlukan pendekatan khusus.
 
 ## Teknik Pembedahan
 
-### Kraniotomi Sedar (Awake Craniotomy)
+### Kraniotomi
 Untuk tumor berhampiran kawasan otak penting (kawasan pertuturan, motor, penglihatan):
-- Pesakit kekal sedar semasa pembedahan
 - Pemantauan neurologi masa nyata
 - Mengekalkan fungsi otak sambil membuang tumor
 - Membolehkan pemotongan maksimum secara selamat
 
 ### Navigasi Stereotaktik Tanpa Bingkai (Frameless Stereotactic Navigation)
 Pembedahan berpandukan imej 3D untuk ketepatan tinggi:
-- Penjejakan masa nyata instrumen pembedahan
+- Penjejakan masa nyata dengan instrumen pembedahan
 - Mengurangkan tahap invasif
 - Hasil lebih baik untuk kes kompleks
 
