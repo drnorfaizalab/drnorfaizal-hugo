@@ -22,9 +22,9 @@ sections:
 
 ---
 
-## Apakah Neuro-onkologi?
+## Apakah Bedah Tumor Otak?
 
-Neuro-onkologi adalah bidang pembedahan yang menumpukan pada diagnosis dan rawatan tumor otak serta saraf tunjang. Sebagai pakar bedah saraf yang terlatih di Oxford, saya menggabungkan teknik pembedahan terkini dengan pendekatan yang tepat dan teratur bagi memastikan hasil terbaik untuk pesakit yang menghadapi tumor neurologi yang kompleks.
+Neuro Oncology adalah bidang pembedahan otak yang menumpukan pada diagnosis dan rawatan tumor otak serta saraf tunjang. Sebagai pakar bedah saraf yang terlatih dari Oxford, saya menggabungkan teknik pembedahan terkini dengan pendekatan yang tepat dan teratur bagi memastikan hasil terbaik untuk pesakit yang menghadapi tumor neurologi yang kompleks.
 
 ## Tumor Otak Yang Dirawat
 

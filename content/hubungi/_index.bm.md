@@ -1,6 +1,6 @@
 ---
 title: "Hubungi Dr Nor Faizal"
-description: "Hubungi klinik pakar Dr Nor Faizal di Kuala Lumpur. Dapatkan akses kepada pakar bedah saraf bagi rawatan tumor otak, migrain, dan pengurusan sakit kronik."
+description: "Dapatkan akses kepada pakar bedah saraf bagi rawatan tumor otak, migrain, dan pengurusan sakit kronik."
 draft: false
 type: "page"
 show_appointment_button: true
