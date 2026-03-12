@@ -29,4 +29,4 @@ Sebab bagi saya, **precision** bukan pilihan — **ia satu kewajipan.**
 
 ---
 
-Nak tahu lebih lanjut pasal pengurusan saraf atau tumor otak tanpa rasa 'overwhelmed'? Ikut saya di social media atau terus buat appointment."
+Nak tahu lebih lanjut pasal pengurusan saraf atau tumor otak tanpa rasa 'overwhelmed'? Ikut saya di social media atau terus buat appointment.
