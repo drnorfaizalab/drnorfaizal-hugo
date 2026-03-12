@@ -1,13 +1,13 @@
 ---
 title: "Kepakaran Bedah Saraf | Dr Nor Faizal"
-description: "Dr Nor Faizal adalah seorang pakar bedah saraf terlatih dari Oxford Universiti yang menguasai pembedahan tumor otak, rawatan migraine adn pengurusan kesakitan kronik di Malaysia."
+description: "Dr Nor Faizal adalah seorang pakar bedah saraf terlatih dari Oxford Universiti yang menguasai pembedahan tumor otak, rawatan migraine dann pengurusan kesakitan kronik di Malaysia."
 draft: false
 type: "services"
 ---
 
 ## Ketepatan
 
-Dalam dunia bedah saraf, **ketepatan** bukan sekadar matlamat—**ia adalah kewajipan**. Dr Nor Faizal Ahmad Bahuri membina amalan klinikal beliau di atas spektrum yang menyeluruh, memastikan setiap tahap penderitaan neurologi ditangani dengan standard tertinggi dunia.
+Dalam dunia bedah saraf, **ketepatan** bukan sekadar matlamat — **ia adalah kewajipan**. Dr Nor Faizal Ahmad Bahuri membina amalan klinikal beliau di atas spektrum yang menyeluruh, memastikan setiap tahap penderitaan neurologi ditangani dengan standard tertinggi dunia.
 
 ---
 
