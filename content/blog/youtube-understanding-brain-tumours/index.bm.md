@@ -12,7 +12,7 @@ show_appointment_button: true
 
 ## Tonton: Salur Darah Yang Menekan Saraf
 
-Dalam video ini, Dr Nor Faizal menunjukkan cara pembedahan ***microvascular decompression*** dimana salur darah menekan saraf muka. Kondisi ini menyebabkan pesakit mengalami sakit muka dan terlalu sensitif kepada tekanan, dan sentuhan.
+Dalam video ini, saya tunjukkan cara pembedahan ***microvascular decompression*** dimana saya ubah posisi salur darah yang menekan saraf muka. Kondisi ini menyebabkan pesakit mengalami sakit muka terlampau dan terlalu sensitif kepada tekanan, dan sentuhan.
 
 {{< youtube "rYOBz4pxLIA" >}}
 
@@ -31,5 +31,5 @@ Simptom berikut memerlukan penilaian neurologi segera:
 
 ## Buat Temujanji
 
-Jika anda mempunyai kebimbangan setelah menonton video ini, pasukan Dr Nor Faizal sedia membantu.
+Jika anda atau keluarga yang mengalami kesakitan muka sebegini, buat appointment untuk dapatkan pandangan saya.
 
