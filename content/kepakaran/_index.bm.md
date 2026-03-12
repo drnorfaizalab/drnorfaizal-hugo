@@ -3,6 +3,7 @@ title: "Kepakaran Bedah Saraf | Dr Nor Faizal"
 description: "Dr Nor Faizal adalah seorang pakar bedah saraf terlatih dari Oxford Universiti yang menguasai pembedahan tumor otak, rawatan migraine dann pengurusan kesakitan kronik di Malaysia."
 draft: false
 type: "services"
+show_appointment_button: true
 ---
 
 ## Ketepatan
