@@ -7,3 +7,5 @@ categories: ["newspapers","surat khabar"]
 tags: ["bedah saraf", "stroke berdarah", "stroke", "pembedahan kecemasan"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 ---
+
+[Link ke artikel](https://www.bernama.com/bm/news.php?id=2431333)
