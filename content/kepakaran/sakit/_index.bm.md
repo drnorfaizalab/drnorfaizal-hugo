@@ -5,13 +5,13 @@ date: 2025-03-10
 lastmod: 2026-03-11
 draft: false
 
-type: "specialty"
+type: "Sakit"
 weight: 3
 
 keywords: "pengurusan kesakitan, kesakitan kronik, kesakitan interventional, kesakitan neuropatik, sakit belakang, Malaysia, pakar bedah saraf"
 ---
 
-# Pengurusan Kesakitan Interventional
+# Pengurusan Kesakitan Kronik
 
 Kesakitan kronik bukan sekadar gejala — ia adalah satu keadaan perubatan tersendiri. Apabila kesakitan berterusan melebihi tempoh pemulihan yang dijangkakan, mengganggu kehidupan harian, dan tidak bertindak balas terhadap rawatan konvensional, ia memerlukan pendekatan pakar. Sebagai pakar bedah saraf dengan latihan subspesialiti di Oxford, Dr Nor Faizal membawa perspektif neurologi dalam pengurusan kesakitan yang jauh melampaui sekadar menekan gejala semata-mata.
 
