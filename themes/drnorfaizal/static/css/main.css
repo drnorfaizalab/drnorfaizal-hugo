@@ -249,7 +249,7 @@ pre code {
 }
 
 .btn-cta:hover {
-  background: darken(#e63946, 10%);
+  background: #c1121f;
   box-shadow: 0 0 0 4px rgba(230, 57, 70, 0.2);
 }
 
