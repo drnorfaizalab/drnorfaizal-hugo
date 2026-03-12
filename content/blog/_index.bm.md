@@ -14,7 +14,7 @@ Matlamat saya mudah: **Memberi kefahaman di mana adanya kebimbangan.** Melalui p
 
 ## Mengapa Membaca Di Sini?
 
-Setiap artikel ditulis dan disemak sendiri oleh saya. Ada beberapah bahan yang saya bawa dari media sosial untuk kupasan yang lebih telisi. Saya akan cuba elakkan penggunaan perkataan perubatan yang teknikal dan fokus kepada **20% maklumat yang memberi 80% nilai** kepada kesihatan anda.
+Setiap artikel ditulis dan disemak sendiri oleh saya. Ada beberapah bahan yang saya bawa dari media sosial untuk kupasan yang lebih teliti. Saya akan cuba elakkan penggunaan perkataan perubatan yang teknikal dan fokus kepada **20% maklumat yang memberi 80% nilai** kepada kesihatan anda.
 
 ---
 
