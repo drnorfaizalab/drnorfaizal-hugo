@@ -99,3 +99,9 @@ theme = "drnorfaizal"
 [security]
   [security.funcs]
     getenv = ['^HUGO_', '^CLOUDFLARE_']
+
+[[menus.main]]
+  name = "For Doctors"
+  url = "/for-doctors/"
+  weight = 45   # Insert between existing nav items
+  identifier = "for-doctors"
