@@ -203,6 +203,10 @@ pre code {
   white-space: nowrap;
 }
 
+.btn:hover {
+  text-decoration: none;
+}
+
 .btn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
@@ -260,7 +264,6 @@ pre code {
   padding: 1rem 3rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  display: inline-block;
 }
 
 .btn-appointment:hover {
