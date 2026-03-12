@@ -1,5 +1,5 @@
 ---
-title: "Hubungi Dr Nor Faizal | Hospital Pakar Tawakkal"
+title: "Hubungi Dr Nor Faizal"
 description: "Hubungi klinik pakar Dr Nor Faizal di Kuala Lumpur. Dapatkan akses kepada pakar bedah saraf bagi rawatan tumor otak, migrain, dan pengurusan sakit kronik."
 draft: false
 type: "page"
@@ -8,7 +8,7 @@ show_appointment_button: true
 
 ## Pusat Kecemerlangan Bedah Saraf
 
-**Hospital Pakar KPJ Tawakkal** merupakan mercu tanda perubatan di jantung Kuala Lumpur. Di sinilah Dr Nor Faizal menggabungkan teknologi diagnostik terkini dengan seni pembedahan yang halus untuk memberikan hasil terbaik buat pesakit beliau.
+**Hospital Pakar KPJ Tawakkal** merupakan mercu tanda perubatan di tengah Kuala Lumpur. Di sinilah Dr Nor Faizal menggabungkan teknologi diagnostik terkini dengan seni pembedahan yang halus untuk memberikan hasil terbaik buat pesakit beliau.
 
 ---
 
@@ -41,13 +41,11 @@ Pasukan pengurusan klinik kami bersedia membantu anda dengan profesionalisme tin
 
 ## Akses & Lokasi
 
-**Alamat:** Jalan Pahang, Kuala Lumpur, Wilayah Persekutuan.
+[Peta Lokasi: Google Maps](https://maps.google.com)
 
 * **Kenderaan Peribadi:** Mudah diakses melalui MRR2, DUKE, dan Lebuhraya KL-Karak. Kemudahan parkir bertingkat disediakan.
 * **Pengangkutan Awam:** Berhampiran dengan hub transit utama dan koridor bas Jalan Pahang/Chow Kit.
-* **E-Hailing:** Carian destinasi: **"KPJ Tawakkal Specialist Hospital"**.
-
-[Peta Lokasi: Google Maps](https://maps.google.com)
+* **E-Hailing:** Carian destinasi: **"Tawakkal Specialist Hospital"**.
 
 ---
 
@@ -82,5 +80,3 @@ Dr Nor Faizal aktif berkongsi ilmu di peringkat global dan domestik bagi acara C
 Kami mengalu-alukan kerjasama daripada institusi akademik dan rakan industri bagi penyelidikan klinikal neuro-onkologi dan pembangunan teknik pembedahan invasif minimum.
 
 ---
-
-[Mengenai Dr Nor Faizal](/pakar/) | [Soalan Lazim (FAQ)](/blog/pasien/faq/) | [Laman Utama](/)
