@@ -4,9 +4,6 @@ description: "Ketepatan Oxford, Sentuhan Peribadi. Merawat pesakit saraf di Hosp
 draft: false
 type: "page"
 show_appointment_button: true
-# appointment_url: "https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri"
-# appointment_label: "Buat Temujanji Sekarang"
-# appointment_note: ""
 ---
 
 ## Otak. Kepala. Sakit.
@@ -17,14 +14,11 @@ Sering kali saya ditanya: ***Mengapa seorang pakar bedah saraf yang merawat tumo
 
 ### Tiga Teras Kepakaran:
 
-1. **Otak:** ***Ketepatan Tanpa Kompromi***
-Di puncak kepakaran saya adalah anatomi otak. Merawat tumor dan kes neuro-onkologi bukan sekadar prosedur teknikal; **ia adalah amanah** untuk memelihara memori, personaliti, dan fungsi yang menjadikan kita manusia. Di sini, kepintaran teknologi bertemu dengan Discipline yang mutlak.
+1. **Otak:** ***Ketepatan Tanpa Kompromi*** | Di puncak kepakaran saya adalah anatomi otak. Merawat tumor dan kes neuro-onkologi bukan sekadar prosedur teknikal; **ia adalah amanah** untuk memelihara memori, personaliti, dan fungsi yang menjadikan kita manusia. Di sini, kepintaran teknologi bertemu dengan Discipline yang mutlak.
 
-2. **Kepala:** ***Mengembalikan Kehidupan***
-Sakit kepala kronik dan migrain sering dipandang remeh, namun ia adalah ***"pencuri masa."*** Saya menggunakan lensa bedah saraf untuk melihat di sebalik tabir kesakitan anda — **mencari penyelesaian definitif bagi neuralgia dan migrain yang gagal dirawat oleh ubat-ubatan biasa.**
+2. **Kepala:** ***Mengembalikan Kehidupan*** | Sakit kepala kronik dan migrain sering dipandang remeh, namun ia adalah ***"pencuri masa."*** Saya menggunakan lensa bedah saraf untuk melihat di sebalik tabir kesakitan anda — **mencari penyelesaian definitif bagi neuralgia dan migrain yang gagal dirawat oleh ubat-ubatan biasa.**
 
-3. **Sakit:** ***Kebebasan Daripada Penderitaan***
-Kesakitan berpanjangan tidak seharusnya menjadi takdir anda. Melalui teknik intervensional invasif minimum, saya menerapkan ketepatan seorang pakar bedah otak untuk merawat sakit tulang belakang dan saraf. Matlamat saya: **menghentikan sakit pada punca asalnya agar anda kembali hidup dengan maruah.**
+3. **Sakit:** ***Kebebasan Daripada Penderitaan*** | Kesakitan berpanjangan tidak seharusnya menjadi takdir anda. Melalui teknik intervensional invasif minimum, saya menerapkan ketepatan seorang pakar bedah otak untuk merawat sakit tulang belakang dan saraf. Matlamat saya: **menghentikan sakit pada punca asalnya agar anda kembali hidup dengan maruah.**
 
 ---
 
@@ -32,11 +26,11 @@ Kesakitan berpanjangan tidak seharusnya menjadi takdir anda. Melalui teknik inte
 
 Bedah saraf bagi saya adalah **amanah yang berat**. Di belakang setiap diagnosis, ada sebuah keluarga yang mengharap. Bagi memastikan hasil terbaik, saya memegang teguh tiga prinsip ini:
 
-**Discipline:** Ketelitian tanpa kompromi dalam setiap fasa—daripada persediaan hinggalah pelaksanaan.
+> **Discipline:** Ketelitian tanpa kompromi dalam setiap fasa—daripada persediaan hinggalah pelaksanaan.
 
-**Simplicity:** Menghapuskan kerumitan perubatan. Saya memastikan anda faham diagnosis anda dan jelas dengan pelan rawatan kita.
+> **Simplicity:** Menghapuskan kerumitan perubatan. Saya memastikan anda faham diagnosis anda dan jelas dengan pelan rawatan kita.
 
-**Elegance:** Mencapai hasil pemulihan yang sempurna melalui gangguan saraf yang minima. Inilah seni ketepatan.
+> **Elegance:** Mencapai hasil pemulihan yang sempurna melalui gangguan saraf yang minima. Inilah seni ketepatan.
 
 ---
 
