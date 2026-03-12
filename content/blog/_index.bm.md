@@ -10,11 +10,11 @@ show_appointment_button: true
 
 Selamat datang ke portal perkongsian ilmu Dr Nor Faizal. Di sini, saya kupas kerumitan sains neurologi dan diterjemahkan kepada bahan yang mudah difaham oleh masyarakat.
 
+### Mengapa Membaca Di Sini?
+
+Setiap artikel ditulis dan disemak sendiri oleh saya. Ada beberapa bahan yang saya bawa dari media sosial untuk kupasan yang lebih teliti. Saya akan cuba elakkan penggunaan perkataan perubatan yang teknikal dan fokus kepada **20% maklumat yang memberi 80% nilai** kepada kesihatan anda.
+
 Matlamat saya mudah: **Memberi kefahaman di mana adanya kebimbangan.** Melalui penulisan yang berteraskan prinsip *Simplicity is the Way*, saya akan bantu anda memahami pennyakit dan perjalanan rawatan saraf hinggalah ke tahap pemulihan.
-
-## Mengapa Membaca Di Sini?
-
-Setiap artikel ditulis dan disemak sendiri oleh saya. Ada beberapah bahan yang saya bawa dari media sosial untuk kupasan yang lebih teliti. Saya akan cuba elakkan penggunaan perkataan perubatan yang teknikal dan fokus kepada **20% maklumat yang memberi 80% nilai** kepada kesihatan anda.
 
 ---
 

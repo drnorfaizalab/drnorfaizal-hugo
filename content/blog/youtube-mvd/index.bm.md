@@ -2,7 +2,7 @@
 title: "Video: Microvascular Decompression untuk Trigeminal Neuralgia"
 description: "Dr Nor Faizal melakukan operasi memisahkan salur darah yang menekan saraf Trigeminal."
 date: 2026-03-01
-type: "blog"
+type: "YouTube"
 social_platform: "youtube"
 categories: ["Sakit Muka", "Patient Education"]
 tags: ["Trigeminal Neuralgia", "bedah saraf", "pendidikan pesakit", "video", "youtube"]
