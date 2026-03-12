@@ -4,4 +4,5 @@ description: "Kemunculan media, penerbitan akademik, penglibatan ucapan, dan sum
 draft: false
 aliases:
   - /bm/media/
+type: blog-index
 ---
