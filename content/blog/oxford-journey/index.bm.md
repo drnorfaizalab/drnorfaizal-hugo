@@ -13,7 +13,7 @@ show_appointment_button: true
 
 ## Oxford Bukan Sekadar Nama.
 
-Masa saya di Oxford, ada satu benda yang **"lekat"** sampai sekarang: **Disiplin**. Ramai ingat pakar bedah ni kerja dia asyik nak bedah je. Tapi kat Univesiti Ocford, saya belajar benda paling mahal: **Bila kita tak patut buat pembedahan.** Bedah otak ni bukan pasal teknikal semata-mata. Ia pasal judgment.
+Masa saya di Oxford, ada satu benda yang **"lekat"** sampai sekarang: **Disiplin**. Ramai ingat pakar bedah ni kerja dia asyik nak bedah je. Tapi kat Univesiti Oxford, saya belajar benda paling mahal: **Bila, kita tak patut buat pembedahan.** Bedah otak ni bukan pasal teknikal semata-mata. Ia pasal judgment.
 
 3 Prinsip saya bawa balik ke Malaysia:
 
