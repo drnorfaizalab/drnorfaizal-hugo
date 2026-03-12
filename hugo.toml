@@ -1,6 +1,6 @@
 baseURL = "https://drnorfaizal.com/"
 languageCode = "en-us"
-title = "Dr Nor Faizal - Brain Tumour & Pain Management Specialist"
+title = "Dr Nor Faizal - Consultant Neurosurgeon & Pain Management Specialist"
 theme = "drnorfaizal"
 
 # Multi-language configuration
@@ -8,7 +8,7 @@ theme = "drnorfaizal"
   [languages.en]
     languageName = "English"
     weight = 1
-    homePageTitle = "Brain & Spinal Tumour Surgery Specialist | Dr Nor Faizal"
+    homePageTitle = "Consultant Neurosurgeon | Dr Nor Faizal | Brain - Head - Pain"
     disabled = true
     
   [languages.bm]
