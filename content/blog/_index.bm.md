@@ -1,19 +1,20 @@
 ---
-title: "Blog Dr Nor Faizal"
-description: "Wacana Ilmu Bedah Saraf. Kupasan pakar mengenai rawatan tumor otak, migraine dan sakit kronik oleh Dr Nor Faizal Ahmad Bahuri."
+title: "Wacana Ilmu Bedah Saraf"
+description: "Kupasan Dr Nor Faizal Ahmad Bahuri mengenai rawatan tumor otak, migraine dan sakit kronik."
 draft: false
 type: "blog-index"
+show_appointment_button: true
 ---
 
-## Wacana Ilmu: Di Sebalik Ketepatan Bedah Saraf
+## Di Sebalik Ketepatan Bedah Saraf
 
-Selamat datang ke portal perkongsian ilmu Dr Nor Faizal. Di sini, kerumitan sains neurologi diterjemahkan kepada naratif yang mudah, berwibawa, dan penuh empati.
+Selamat datang ke portal perkongsian ilmu Dr Nor Faizal. Di sini, saya kupas kerumitan sains neurologi dan diterjemahkan kepada bahan yang mudah difaham oleh masyarakat.
 
-Matlamat saya mudah: **Memberi kefahaman di mana adanya kebimbangan.** Melalui penulisan yang berteraskan prinsip *Simplicity is the Way*, saya membantu anda memahami perjalanan rawatan saraf daripada fasa kesakitan hinggalah ke gerbang pemulihan.
+Matlamat saya mudah: **Memberi kefahaman di mana adanya kebimbangan.** Melalui penulisan yang berteraskan prinsip *Simplicity is the Way*, saya akan bantu anda memahami pennyakit dan perjalanan rawatan saraf hinggalah ke tahap pemulihan.
 
 ## Mengapa Membaca Di Sini?
 
-Setiap artikel ditulis dan disemak sendiri oleh Dr Nor Faizal Ahmad Bahuri. Saya cuba mengelakkan penggunaan jargon perubatan yang mengelirukan, sebaliknya fokus kepada **20% maklumat yang memberi 80% nilai** kepada keputusan kesihatan anda.
+Setiap artikel ditulis dan disemak sendiri oleh saya. Ada beberapah bahan yang saya bawa dari media sosial untuk kupasan yang lebih telisi. Saya akan cuba elakkan penggunaan perkataan perubatan yang teknikal dan fokus kepada **20% maklumat yang memberi 80% nilai** kepada kesihatan anda.
 
 ---
 
