@@ -3,6 +3,7 @@ title: "Hubungi Dr Nor Faizal | Hospital Pakar Tawakkal"
 description: "Hubungi klinik pakar Dr Nor Faizal di Kuala Lumpur. Dapatkan akses kepada pakar bedah saraf bagi rawatan tumor otak, migrain, dan pengurusan sakit kronik."
 draft: false
 type: "page"
+show_appointment_button: true
 ---
 
 ## Pusat Kecemerlangan Bedah Saraf

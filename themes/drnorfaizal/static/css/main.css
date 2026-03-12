@@ -249,6 +249,35 @@ pre code {
   box-shadow: 0 0 0 4px rgba(230, 57, 70, 0.2);
 }
 
+/* Appointment Button */
+.btn-appointment {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+  border-radius: 4px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 1rem 3rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.btn-appointment:hover {
+  background: #c1121f;
+  border-color: #c1121f;
+  color: white;
+  box-shadow: 0 0 0 4px rgba(230, 57, 70, 0.25);
+  transform: translateY(-2px);
+}
+
+.appointment-btn-wrapper {
+  margin-top: 3rem;
+  padding: 2.5rem 1rem;
+  text-align: center;
+  border-top: 1px solid var(--gray-200);
+}
+
 /* Cards */
 .card {
   background: white;

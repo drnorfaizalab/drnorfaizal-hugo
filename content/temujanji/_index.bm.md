@@ -3,6 +3,9 @@ title: "Buat Temujanji | Dr Nor Faizal"
 description: "Langkah pertama menuju pemulihan. Jadualkan konsultasi bersama Dr Nor Faizal di Hospital Pakar Tawakkal, Kuala Lumpur untuk pengurusan sakit kronik, migrain, dan tumor otak."
 draft: false
 type: "page"
+show_appointment_button: true
+# appointment_url: "https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri"
+# appointment_label: "Buat Temujanji Sekarang"
 ---
 
 ## Langkah Pertama Menuju Pemulihan

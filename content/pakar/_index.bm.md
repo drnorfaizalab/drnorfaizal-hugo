@@ -1,73 +1,69 @@
 ---
 title: "Dr Nor Faizal Ahmad Bahuri | DPhil (Oxon), MS (UM), MBBS (Malaya)"
-description: "Pakar Bedah Saraf & Rawatan Sakit Intervensional. Ketepatan Oxford, Sentuhan Peribadi. Merawat spektrum penderitaan neurologi di Hospital Pakar Tawakkal, Kuala Lumpur."
+description: "Ketepatan Oxford, Sentuhan Peribadi. Merawat pesakit saraf di Hospital Pakar Tawakkal, Kuala Lumpur."
 draft: false
 type: "page"
+show_appointment_button: true
+# appointment_url: "https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri"
+# appointment_label: "Buat Temujanji Sekarang"
+# appointment_note: ""
 ---
 
-## Sakit. Kepala. Otak.
+## Otak. Kepala. Sakit.
 
-Tiga perkataan. Satu pengkhususan. Satu misi.
+Di dewan bedah, setiap milimeter adalah sempadan antara harapan dan kehilangan. Itulah dunia yang membentuk jiwa dan disiplin saya sepanjang empat tahun di Universiti Oxford.
 
-Ianya bermula dengan **Sakit**—sebab utama pesakit melangkah masuk ke klinik. Kemudian ia naik ke **Kepala**—di mana migrain dan neuralgia merampas kualiti hidup. Di kemuncaknya adalah **Otak**—wilayah di mana tumor menuntut ketepatan luar biasa dan jiwa yang tenang.
+Sering kali saya ditanya: ***Mengapa seorang pakar bedah saraf yang merawat tumor kompleks turut memfokuskan kepada pengurusan sakit?*** Jawapannya mudah: **Kerana kualiti hidup adalah hak setiap manusia.** Kesakitan yang tidak terubat adalah penjara, dan saya di sini untuk membuka pintunya.
 
-Dr Nor Faizal Bin Ahmad Bahuri adalah pakar bedah saraf yang menguasai ketiga-tiga spektrum ini. Dari rundingan pertama tentang sakit yang kronik, sehinggalah ke dewan bedah untuk pembedahan tumor yang paling halus—beliau adalah jambatan di antara penderitaan dan pemulihan.
+### Tiga Teras Kepakaran:
+
+1. **Otak:** ***Ketepatan Tanpa Kompromi***
+Di puncak kepakaran saya adalah anatomi otak. Merawat tumor dan kes neuro-onkologi bukan sekadar prosedur teknikal; **ia adalah amanah** untuk memelihara memori, personaliti, dan fungsi yang menjadikan kita manusia. Di sini, kepintaran teknologi bertemu dengan Discipline yang mutlak.
+
+2. **Kepala:** ***Mengembalikan Kehidupan***
+Sakit kepala kronik dan migrain sering dipandang remeh, namun ia adalah ***"pencuri masa."*** Saya menggunakan lensa bedah saraf untuk melihat di sebalik tabir kesakitan anda — **mencari penyelesaian definitif bagi neuralgia dan migrain yang gagal dirawat oleh ubat-ubatan biasa.**
+
+3. **Sakit:** ***Kebebasan Daripada Penderitaan***
+Kesakitan berpanjangan tidak seharusnya menjadi takdir anda. Melalui teknik intervensional invasif minimum, saya menerapkan ketepatan seorang pakar bedah otak untuk merawat sakit tulang belakang dan saraf. Matlamat saya: **menghentikan sakit pada punca asalnya agar anda kembali hidup dengan maruah.**
 
 ---
 
-## Ketepatan yang Ditempa di Oxford
+## Standard Oxford, Jiwa Malaysia
 
-Bedah saraf bukan sekadar kerjaya; ***ia adalah amanah yang berat***. Setiap pesakit yang duduk di hadapan Dr Nor Faizal membawa harapan sebuah keluarga. Beliau memegang prinsip bahawa setiap keputusan klinikal mesti berteraskan tiga rukun utama:
+Bedah saraf bagi saya adalah **amanah yang berat**. Di belakang setiap diagnosis, ada sebuah keluarga yang mengharap. Bagi memastikan hasil terbaik, saya memegang teguh tiga prinsip ini:
 
-* **Disiplin:** Ketegasan dalam latihan, persediaan, dan pelaksanaan tanpa kompromi.
-* **Kesederhanaan:** Menukarkan kerumitan perubatan kepada bahasa yang mudah difahami dan pelan rawatan yang jelas.
-* **Kehalusan:** Keyakinan bahawa hasil terbaik lahir daripada ketepatan (precision) yang meminimumkan gangguan pada tubuh manusia.
+**Discipline:** Ketelitian tanpa kompromi dalam setiap fasa—daripada persediaan hinggalah pelaksanaan.
+
+**Simplicity:** Menghapuskan kerumitan perubatan. Saya memastikan anda faham diagnosis anda dan jelas dengan pelan rawatan kita.
+
+**Elegance:** Mencapai hasil pemulihan yang sempurna melalui gangguan saraf yang minima. Inilah seni ketepatan.
 
 ---
 
-## Kelayakan & Standard Global
+## Jejak Kecemerlangan Global
 
-Dr Nor Faizal menyempurnakan ijazah kedoktoran (DPhil) di **Hospital John Radcliffe, Universiti Oxford**, salah satu pusat neurosains terulung di dunia. Di bawah bimbingan perintis dunia seperti Profesor Tipu Aziz dan Profesor Alexander Green, beliau mengasah kepakaran di mana "cukup baik" tidak pernah memadai.
-
-Beliau membudayakan standard kecemerlangan Oxford ini dalam setiap rawatan di Malaysia.
+Ijazah kedoktoran (DPhil) saya dari **Universiti Oxford** adalah bukti komitmen saya terhadap kecemerlangan. Di bawah bimbingan mentor dunia seperti Profesor Tipu Aziz dan Profesor Alexander Green, saya diasah dengan prinsip bahawa dalam bedah saraf, ***"cukup baik"*** itu tidak pernah memadai.
 
 ### Latar Belakang Akademik:
-* **MBBS** — Universiti Malaya (UM)
-* **Master of Surgery (Neurosurgery)** — Universiti Malaya (UM)
+
 * **Doctor of Philosophy (DPhil)** — Universiti Oxford, United Kingdom
+* **Master of Surgery (Surgeri Am)** — Universiti Malaya
+* **MBBS** — Universiti Malaya (UM)
 
 ---
 
-## Bidang Kepakaran Utama
+## Fokus Klinikal
 
-### 1. Tumor Otak
-Di sinilah kepakaran teknikal bertemu dengan seni pembedahan. Dr Nor Faizal merawat pelbagai jenis tumor otak (Glioma, Meningioma, Pituitari) dengan integrasi teknologi terkini.
-### 2. Migrain & Sakit Muka
-Sakit kepala bukan sekadar gangguan kecil; ia adalah pencuri masa. Beliau membawa ketepatan bedah saraf untuk merawat:
-* Migrain kronik, sakit kepala kluster, dan *Trigeminal Neuralgia*.
-* Rawatan khusus: Blok saraf, suntikan toksin botulinum (Botox), dan pembedahan dekompresi vaskular mikro (MVD).
+1. **Tumor Otak:** Integrasi teknologi terkini untuk Glioma, Meningioma, dan tumor Pituitari.
 
-### 3. Pengurusan Sakit Kronik
-Sakit kronik boleh melumpuhkan hidup. Dr Nor Faizal menawarkan solusi melangkaui ubat-ubatan konvensional melalui teknik **Invasif Minimum**. Fokus beliau termasuk:
-* Sakit saraf (Neuropathic pain) & Degenerasi tulang belakang.
-* Sakit kanser & *Failed Back Surgery Syndrome*.
-* Rawatan canggih: Perangsangan saraf tunjang (Spinal Cord Stimulation), suntikan epidural, dan *Radiofrequency Ablation*.
+2. **Migrain & Sakit Muka:** Kepakaran khusus dalam Trigeminal Neuralgia dan pembedahan dekompresi vaskular (MVD).
+
+3. **Pengurusan Sakit Kronik:** Penyelesaian moden seperti ***Spinal Cord Stimulation*** dan ***Radiofrequency Ablation*** untuk saraf dan tulang belakang.
 
 ---
 
-## Falsafah Rawatan: "Human-First"
+## Langkah Pertama Anda
 
-Pembedahan hanyalah satu bahagian daripada penyembuhan. Dr Nor Faizal percaya bahawa komunikasi yang jujur dan empati adalah tanggungjawab klinikal yang utama. Beliau meluangkan masa untuk memastikan setiap pesakit faham—kerana dalam membuat keputusan paling penting dalam hidup, anda tidak seharusnya berseorangan.
+Sama ada anda membawa diagnosis tumor yang mencabar atau beban kesakitan yang sudah bertahun menghantui, saya sedia mendengar. Di klinik saya, anda bukan sekadar satu fail perubatan—anda adalah keutamaan saya.
 
-> "Disiplin dalam persediaan. Kesederhanaan dalam bicara. Kehalusan dalam tindakan."
-
----
-
-## Mulakan Langkah Pemulihan Anda
-
-Dr Nor Faizal Ahmad Bahuri kini bertugas di **Hospital Pakar Tawakkal, Kuala Lumpur**.
-
-Sama ada anda sedang bergelut dengan kesakitan yang tidak kunjung sembuh atau memerlukan pendapat kedua mengenai diagnosis tumor otak, kepakaran beliau sedia membantu.
-
-* **Buat Temujanji:** [Klik di Sini](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
-* **Hubungi Klinik:** [Klik di Sini](/hubungi/)
+**Jom kita mulakan perjalanan pemulihan anda hari ini.**
