@@ -8,4 +8,6 @@ tags: ["bedah saraf", "stroke berdarah", "stroke", "pembedahan kecemasan"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 ---
 
+{{< iframe "https://www.bernama.com/bm/news.php?id=2431333" "600" "400" >}}
+
 [Link ke artikel](https://www.bernama.com/bm/news.php?id=2431333)
