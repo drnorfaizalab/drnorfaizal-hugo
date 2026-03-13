@@ -1,6 +1,6 @@
 ---
 title: "Dr Nor Faizal Ahmad Bahuri | DPhil (Oxon), MS (UM), MBBS (Malaya)"
-description: "Ketepatan Oxford, Sentuhan Peribadi. Merawat pesakit saraf di Hospital Pakar Tawakkal, Kuala Lumpur."
+description: "Pakar Perunding Bedah Saraf dan Pakar Pengurusan Kesakitan Kronik, lulusan Universiti Oxford. Pakar dalam rawatan tumor otak, sakit kepala, dan pengurusan kesakitan kronik di Tawakkal Specialist Hospital, Kuala Lumpur."
 draft: false
 type: "page"
 show_appointment_button: true
