@@ -35,19 +35,17 @@ fi
 # This ensures your 300 million potential readers see the LATEST version immediately
 if [ -n "$CF_API_TOKEN" ] && [ -n "$CF_ZONE_ID" ]; then
     echo "🧹 Purging Cloudflare Edge Cache..."
-    PURGE_RESPONSE=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE_ID/purge_cache" \
-        -H "Authorization: Bearer $CF_API_TOKEN" \
+    # Using 'Bearer' with a capital B and ensuring no trailing spaces
+    PURGE_RESPONSE=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/purge_cache" \
+        -H "Authorization: Bearer ${CF_API_TOKEN}" \
         -H "Content-Type: application/json" \
         --data '{"purge_everything":true}')
     
     if echo "$PURGE_RESPONSE" | grep -q '"success":true'; then
         echo "✅ Cache Purged Successfully."
     else
-        echo "⚠️  Cache Purge Failed. Check your API Token permissions."
-        echo "$PURGE_RESPONSE"
+        echo "⚠️  Cache Purge Failed. Error: $(echo $PURGE_RESPONSE | jq -r '.errors[0].message' 2>/dev/null || echo $PURGE_RESPONSE)"
     fi
-else
-    echo "ℹ️  Skipping Cache Purge: Credentials not set in .env"
 fi
 
 echo "🏁 Process Complete. Your clinical authority has compounded."
