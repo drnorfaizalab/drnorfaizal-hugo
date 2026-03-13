@@ -1,57 +1,57 @@
 ---
-title: "Hubungi Dr Nor Faizal"
-description: "Dapatkan akses kepada pakar bedah saraf bagi rawatan tumor otak, migrain, dan pengurusan sakit kronik."
+title: "Contact Dr Nor Faizal"
+description: "Connect with a consultant neurosurgeon for brain tumor treatment, migraine relief, and chronic pain management."
 draft: false
 type: "page"
 show_appointment_button: true
 ---
 
-## Pusat Kecemerlangan Bedah Saraf
+## Center for Neurosurgical Excellence
 
-**Hospital Pakar KPJ Tawakkal** merupakan mercu tanda perubatan di tengah Kuala Lumpur. Di sinilah Dr Nor Faizal menggabungkan teknologi diagnostik terkini dengan seni pembedahan yang halus untuk memberikan hasil terbaik buat pesakit beliau.
+**KPJ Tawakkal Specialist Hospital** is a premier medical landmark in the heart of Kuala Lumpur. This is where Dr Nor Faizal integrates cutting-edge diagnostic technology with the fine art of surgery to deliver optimal clinical outcomes for his patients.
 
 ---
 
-## Saluran Perhubungan Utama
+## Primary Contact Channels
 
-Pasukan pengurusan klinik kami bersedia membantu anda dengan profesionalisme tinggi bagi urusan temujanji dan rujukan perubatan.
+Our clinic management team is dedicated to assisting you with the highest level of professionalism for all appointments and medical referrals.
 
-| Kaedah | Butiran Perhubungan |
+| Method | Contact Details |
 | :--- | :--- |
-| **Temujanji Digital** | [Tempah Slot Anda](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) |
-| **Talian Klinik** | [+603 4026 7777](tel:+60340267777) (Ext: **5099**) |
-| **WhatsApp Rasmi** | [+6012 289 5061](https://wa.me/60122895061) |
-| **E-mel Rasmi** | [drnfaizal@kpjtawakkal.com](mailto:drnfaizal@kpjtawakkal.com) |
+| **Digital Appointment** | [Book Your Slot](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) |
+| **Clinic Line** | [+603 4026 7777](tel:+60340267777) (Ext: **5099**) |
+| **Official WhatsApp** | [+6012 289 5061](https://wa.me/60122895061) |
+| **Official Email** | [drnfaizal@kpjtawakkal.com](mailto:drnfaizal@kpjtawakkal.com) |
 
-> **Nota Penting:** Untuk kes **Kecemasan Neurologi** (seperti sawan mengejut, hilang penglihatan, atau lemah anggota badan), sila terus ke Jabatan Kecemasan (A&E) yang terdekat atau hubungi **999** dengan segera.
+> **Important Note:** For **Neurological Emergencies** (such as sudden seizures, acute vision loss, or sudden limb weakness), please proceed immediately to the nearest Emergency Department (A&E) or call **999** for urgent assistance.
 
 ---
 
-## Jadual Konsultasi
+## Consultation Schedule
 
-| Hari | Waktu Klinik |
+| Day | Clinic Hours |
 | :--- | :--- |
-| **Isnin – Jumaat** | 9:00 PG – 4:00 PTG |
-| **Sabtu** | 9:00 PG – 12:00 TGH |
-| **Ahad & Cuti Umum** | Tutup |
+| **Monday – Friday** | 9:00 AM – 4:00 PM |
+| **Saturday** | 9:00 AM – 12:00 PM |
+| **Sunday & Public Holidays** | Closed |
 
-*Jadual mungkin tertakluk kepada komitmen dewan bedah. Kami menyarankan anda membuat pengesahan slot 24 jam lebih awal.*
-
----
-
-## Akses & Lokasi
-
-[Peta Lokasi: Google Maps](https://maps.google.com)
-
-* **Kenderaan Peribadi:** Mudah diakses melalui MRR2, DUKE, dan Lebuhraya KL-Karak. Kemudahan parkir bertingkat disediakan.
-* **Pengangkutan Awam:** Berhampiran dengan hub transit utama dan koridor bas Jalan Pahang/Chow Kit.
-* **E-Hailing:** Carian destinasi: **"Tawakkal Specialist Hospital"**.
+*Schedule may be subject to surgical theater commitments. We recommend confirming your appointment 24 hours in advance.*
 
 ---
 
-## Jejak Digital & Edukasi
+## Access & Location
 
-Sertai komuniti digital Dr Nor Faizal untuk mendapatkan informasi terkini mengenai kesihatan saraf dan kualiti hidup melalui lensa disiplin dan ketepatan.
+[Location Map: Google Maps](https://maps.google.com)
+
+* **Private Vehicle:** Easily accessible via the MRR2, DUKE, and KL-Karak Highway. Multi-storey parking facilities are available on-site.
+* **Public Transport:** Conveniently located near major transit hubs and the Jalan Pahang/Chow Kit bus corridors.
+* **E-Hailing:** Search destination: **"Tawakkal Specialist Hospital"**.
+
+---
+
+## Digital Presence & Education
+
+Join Dr Nor Faizal’s digital community for the latest insights on neurological health and quality of life, viewed through a lens of discipline and precision.
 
 * **Facebook:** [@drnorfaizalbahuri](https://www.facebook.com/drnorfaizalbahuri)
 * **Instagram:** [@drnorfaizalbahuri](https://www.instagram.com/drnorfaizalbahuri)
@@ -60,23 +60,23 @@ Sertai komuniti digital Dr Nor Faizal untuk mendapatkan informasi terkini mengen
 
 ---
 
-## Media, Konsultasi & Kolaborasi Akademik
+## Media, Consultations & Academic Collaboration
 
-Sebagai sebahagian daripada misi Dr Nor Faizal untuk memartabatkan pendidikan neurosains di Malaysia, beliau menerima jemputan bagi kerjasama berikut:
+As part of Dr Nor Faizal’s mission to elevate neuroscience education in Malaysia, he welcomes invitations for the following professional engagements:
 
-### 1. Pertanyaan Media & Ulasan Pakar
+### 1. Media Inquiries & Expert Commentary
 
-Wartawan dan penerbit media yang memerlukan ulasan pakar mengenai tumor otak, pengurusan sakit, atau inovasi bedah saraf boleh menghubungi kami melalui e-mel. Respons profesional akan diberikan dalam masa dua (2) hari bekerja.
+Journalists and media producers requiring expert commentary on brain tumors, pain management, or neurosurgical innovation may contact us via email. A professional response will be provided within two (2) working days.
 
-### 2. Jemputan Ucaptama (Keynote Speaking)
+### 2. Keynote Speaking Invitations
 
-Dr Nor Faizal aktif berkongsi ilmu di peringkat global dan domestik bagi acara CME, persidangan perubatan, dan forum kesihatan awam. Topik kepakaran termasuk:
+Dr Nor Faizal actively shares his expertise at domestic and international CME events, medical conferences, and public health forums. Key topics include:
 
-* Pengurusan Sakit Intervensional (Interventional Pain Management).
-* Kepimpinan dalam Bidang Pembedahan & Etika Perubatan.
+* Interventional Pain Management.
+* Surgical Leadership & Medical Ethics.
 
-### 3. Kolaborasi Penyelidikan & Industri
+### 3. Research & Industry Collaboration
 
-Kami mengalu-alukan kerjasama daripada institusi akademik dan rakan industri bagi penyelidikan klinikal neuro-onkologi dan pembangunan teknik pembedahan invasif minimum.
+We welcome inquiries from academic institutions and industry partners regarding clinical neuro-oncology research and the development of minimally invasive surgical techniques.
 
 ---
