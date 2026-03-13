@@ -1,0 +1,11 @@
+# Gemini Code Assist Configuration
+project:
+  name: "DrFaizal-Web-Pipeline"
+  ignore:
+    - "public/**"
+    - "resources/**"
+    - "node_modules/**"
+capabilities:
+  web_search: true
+  file_edit: true
+  shell_execution: true # Allows Gemini to run your deploy script
