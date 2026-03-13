@@ -3,50 +3,53 @@ languageCode = "en-us"
 title = "Dr Nor Faizal - Consultant Neurosurgeon & Pain Management Specialist"
 theme = "drnorfaizal"
 
-# Params for templates and navigation
+# -----------------------------------------------------------------------------
+# SERVICES
+# -----------------------------------------------------------------------------
+[services]
+  [services.googleAnalytics]
+    ID = "G-KBGPKYML9T"
+
+# -----------------------------------------------------------------------------
+# SITE PARAMETERS
+# -----------------------------------------------------------------------------
 [params]
-  # Metadata
+  # -- Identity & SEO --
   author = "Dr Nor Faizal Ahmad Bahuri"
   description = "Oxford-trained Neurosurgeon & Interventional Pain Specialist. Expert in brain & spinal tumour surgery, neurooncology, and minimally invasive pain management."
+  defaultMetaDescription = "Expert neurooncology and pain management specialist. Brain & spinal tumour surgery. Oxford-trained. Precision care."
+  keywords = "neurosurgeon, neurooncology, brain tumour, spinal tumour, pain management, Malaysia"
   
-  # Contact Information
+  # -- Contact Information --
   clinic_name = "Tawakkal Specialist Hospital"
   clinic_address = "Jalan Pahang Barat, Kuala Lumpur, Malaysia"
   clinic_phone = "+603-4026 7777 ext 5099"
   clinic_whatsapp = "+60122895061"
   clinic_email = "drnfaizal@kpjtawakkal.com"
   
-  # Social Media
+  # -- Social Media --
   social_tiktok = "drnorfaizalbahuri"
   social_instagram = "drnorfaizalbahuri"
   social_youtube = "drnorfaizalbahuri"
   social_linkedin = "drnorfaizalbahuri"
   social_facebook = "drnorfaizalbahuri"
   
-  # Analytics
-  google_analytics_id = "G-KBGPKYML9T"
-  cloudflare_analytics_token = ""
-  
-  # SEO
-  defaultMetaDescription = "Expert neurooncology and pain management specialist. Brain & spinal tumour surgery. Oxford-trained. Precision care."
-  keywords = "neurosurgeon, neurooncology, brain tumour, spinal tumour, pain management, Malaysia"
-  
-  # Sitemap
+  # -- Theme & Design --
   enableSitemap = true
-  
-  # Theme colors
   primary_color = "#002147"
   secondary_color = "#d4a574"
   accent_color = "#e63946"
   background_light = "#f8f9fa"
   text_dark = "#0d1f3c"
 
-# Multi-language configuration & Menus
+# -----------------------------------------------------------------------------
+# LANGUAGES & MENUS
+# -----------------------------------------------------------------------------
 [languages]
   [languages.en]
     languageName = "English"
     weight = 1
-    homePageTitle = "Consultant Neurosurgeon | Dr Nor Faizal | Brain - Head - Pain"
+    homePageTitle = "Consultant Neurosurgeon & Pain Specialist | Dr Nor Faizal | Brain - Head - Pain"
     
     [[languages.en.menus.main]]
       identifier = "home"
@@ -62,7 +65,7 @@ theme = "drnorfaizal"
 
     [[languages.en.menus.main]]
       identifier = "expertise"
-      name = "Experties"
+      name = "Expertise"
       url = "/expertise/"
       weight = 30
 
@@ -93,7 +96,7 @@ theme = "drnorfaizal"
   [languages.bm]
     languageName = "Bahasa"
     weight = 2
-    homePageTitle = "Pakar Bedah Saraf & Kanser Otak | Dr Nor Faizal"
+    homePageTitle = "Pakar Bedah Saraf & Otak, Pain Specialist | Dr Nor Faizal | Otak - Kepala - Sakit"
 
     [[languages.bm.menus.main]]
       identifier = "home"
@@ -137,14 +140,11 @@ theme = "drnorfaizal"
       url = "/contact/"
       weight = 60
 
-# System & Build Configuration
+# -----------------------------------------------------------------------------
+# BUILD & TECHNICAL
+# -----------------------------------------------------------------------------
 [permalinks]
-  # Format: folder_name = "/desired-url-path/:slug/"
   blog = "/blog/:slug/"
-  kepakaran = "/expertise/:slug/"    # Binds content/kepakaran/ to domain.com/expertise/
-  pesakit = "/patients/:slug/"        # Binds content/pesakit/ to domain.com/patients/
-  
-  # Taxonomies
   categories = "/category/:slug/"
   tags = "/tag/:slug/"
 
@@ -153,7 +153,7 @@ theme = "drnorfaizal"
   tag = "tags"
 
 [outputs]
-  home = ["HTML", "JSON", "RSS"]
+  home = ["HTML", "JSON", "RSS", "Sitemap", "ROBOTS"]
   page = ["HTML"]
   section = ["HTML", "RSS"]
 
@@ -169,7 +169,6 @@ theme = "drnorfaizal"
 
 [privacy.googleAnalytics]
   respectDoNotTrack = true
-  anonymizeIP = true
 
 [security.funcs]
   getenv = ['^HUGO_', '^CLOUDFLARE_']

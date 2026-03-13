@@ -94,11 +94,11 @@ create_specialty() {
         return 1
     fi
     
-    hugo new content "kepakaran/$SLUG/_index.en.md"
-    print_success "Created: content/kepakaran/$SLUG/_index.en.md"
+    hugo new content "expertise/$SLUG/_index.en.md"
+    print_success "Created: content/expertise/$SLUG/_index.en.md"
     
-    hugo new content "kepakaran/$SLUG/_index.bm.md"
-    print_success "Created: content/kepakaran/$SLUG/_index.bm.md"
+    hugo new content "expertise/$SLUG/_index.bm.md"
+    print_success "Created: content/expertise/$SLUG/_index.bm.md"
     
     print_info "Type set to 'specialty' - customize as needed"
 }
@@ -113,11 +113,11 @@ create_guide() {
         return 1
     fi
     
-    hugo new content "pasien/guides/$SLUG/_index.en.md"
-    print_success "Created: content/pasien/guides/$SLUG/_index.en.md"
+    hugo new content "patients/guides/$SLUG/_index.en.md"
+    print_success "Created: content/patients/guides/$SLUG/_index.en.md"
     
-    hugo new content "pasien/guides/$SLUG/_index.bm.md"
-    print_success "Created: content/pasien/guides/$SLUG/_index.bm.md"
+    hugo new content "patients/guides/$SLUG/_index.bm.md"
+    print_success "Created: content/patients/guides/$SLUG/_index.bm.md"
     
     print_info "Add PDF download link in front matter"
 }
@@ -239,8 +239,8 @@ show_stats() {
     
     echo "Content breakdown:"
     echo "  Blog posts: $(find content/blog -name "_index.*.md" 2>/dev/null | wc -l)"
-    echo "  Specialty pages: $(find content/kepakaran -name "_index.*.md" 2>/dev/null | wc -l)"
-    echo "  Patient guides: $(find content/pasien/guides -name "_index.*.md" 2>/dev/null | wc -l)"
+    echo "  Specialty pages: $(find content/expertise -name "_index.*.md" 2>/dev/null | wc -l)"
+    echo "  Patient guides: $(find content/patients/guides -name "_index.*.md" 2>/dev/null | wc -l)"
 }
 
 # Main loop

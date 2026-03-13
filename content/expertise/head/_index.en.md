@@ -5,7 +5,7 @@ date: 2026-03-11
 lastmod: 2026-03-11
 draft: false
 
-type: "specialty"
+type: "Head"
 weight: 2
 
 keywords: "headache specialist, migraine treatment, trigeminal neuralgia, chronic headache, facial pain, neurosurgeon Malaysia, occipital neuralgia, cluster headache"
