@@ -3,6 +3,7 @@ title: "Contact Dr Nor Faizal | KPJ Tawakkal Specialist Hospital"
 description: "Contact details for Dr Nor Faizal's neurosurgery clinic at KPJ Tawakkal Specialist Hospital, Kuala Lumpur. Phone, WhatsApp, email, and directions."
 draft: false
 type: "page"
+show_appointment_button: true
 ---
 
 # Contact the Clinic

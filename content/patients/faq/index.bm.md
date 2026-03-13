@@ -2,8 +2,8 @@
 title: "Soalan Lazim | Dr Nor Faizal"
 description: "Jawapan kepada soalan lazim tentang tumor otak, bedah saraf, pengurusan kesakitan, temujanji, dan apa yang boleh dijangkakan semasa berjumpa Dr Nor Faizal."
 draft: false
-slug: "faq"
-type: "blog"
+type: "page"
+show_appointment_button: true
 ---
 
 # Soalan Lazim

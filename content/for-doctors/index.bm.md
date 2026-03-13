@@ -34,7 +34,7 @@ credentials:
     detail: "John Radcliffe Hospital — Neurosciences"
   - degree: "MS"
     institution: "Universiti Malaya"
-    detail: "Master of Surgery (Neurosurgery)"
+    detail: "Master of Surgery (General Surgery)"
   - degree: "MBBS"
     institution: "Universiti Malaya"
     detail: "Bachelor of Medicine and Surgery"

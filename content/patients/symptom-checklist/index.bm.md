@@ -2,8 +2,8 @@
 title: "Senarai Semak Gejala Neurologi | Bila Perlu Berjumpa Pakar Bedah Saraf"
 description: "Gunakan senarai semak ini untuk menilai gejala neurologi anda. Gejala tanda merah yang memerlukan penilaian segera, tanda kuning untuk dipantau, dan tanda hijau dijelaskan."
 draft: false
-slug: "symptom-checklist"
-type: "blog"
+type: "page"
+show_appointment_button: true
 ---
 
 # Senarai Semak Gejala Neurologi

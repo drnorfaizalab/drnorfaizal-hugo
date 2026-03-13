@@ -3,6 +3,7 @@ title: "Pain. Head. Brain. | Dr Nor Faizal Ahmad Bahuri"
 description: "Pain. Head. Brain. Three words. One doctor. Dr Nor Faizal Ahmad Bahuri — Oxford-trained neurosurgeon treating the full spectrum of neurological suffering at KPJ Tawakkal, Kuala Lumpur."
 draft: false
 type: "page"
+show_appointment_button: true
 ---
 
 # Dr Nor Faizal Ahmad Bahuri

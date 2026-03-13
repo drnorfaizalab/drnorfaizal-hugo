@@ -6,14 +6,19 @@
       </a>
 
       <ul class="nav-menu" id="nav-menu">
-        <li><a href="{{ "/kepakaran" | relLangURL }}">{{ if eq .Lang "bm" }}Kepakaran{{ else }}Specialties{{ end }}</a></li>
-        <li><a href="{{ "/blog" | relLangURL }}">Blog</a></li>
-        <li><a href="{{ "/blog/media/" | relLangURL }}">Media</a></li>
-        <li><a href="{{ "/pakar" | relLangURL }}">{{ if eq .Lang "bm" }}Tentang{{ else }}About{{ end }}</a></li>
-        <li><a href="{{ "/hubungi" | relLangURL }}">{{ if eq .Lang "bm" }}Hubungi{{ else }}Contact{{ end }}</a></li>
+        {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+        {{ end }}
       </ul>
 
       <div style="display:flex; align-items:center; gap:1rem;">
+        {{ if .IsTranslated }}
+        <div class="lang-switch" style="font-size: 0.8rem; font-weight: 500;">
+          {{ range .AllTranslations }}
+          <a href="{{ .Permalink }}" style="margin-right: 0.5rem; text-decoration: none; color: inherit; opacity: {{ if eq .Lang $.Lang }}1{{ else }}0.5{{ end }};">{{ .Language.LanguageName }}</a>
+          {{ end }}
+        </div>
+        {{ end }}
 <a href="https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri" target="_blank" rel="noopener" class="btn btn-cta" style="font-size:0.875rem; padding:0.5rem 1.25rem;">
           {{ if eq .Lang "bm" }}Temujanji{{ else }}Book Now{{ end }}
         </a>

@@ -3,31 +3,6 @@ languageCode = "en-us"
 title = "Dr Nor Faizal - Consultant Neurosurgeon & Pain Management Specialist"
 theme = "drnorfaizal"
 
-# Multi-language configuration
-[languages]
-  [languages.en]
-    languageName = "English"
-    weight = 1
-    homePageTitle = "Consultant Neurosurgeon | Dr Nor Faizal | Brain - Head - Pain"
-    disabled = true
-    
-  [languages.bm]
-    languageName = "Bahasa Melayu"
-    weight = 2
-    homePageTitle = "Pakar Bedah Saraf & Kanser Otak | Dr Nor Faizal"
-
-# Output formats
-[outputs]
-  home = ["HTML", "JSON", "RSS"]
-  page = ["HTML"]
-  section = ["HTML", "RSS"]
-
-# Output locations
-[outputFormats]
-  [outputFormats.JSON]
-    mediaType = "application/json"
-    baseName = "index"
-
 # Params for templates and navigation
 [params]
   # Metadata
@@ -36,7 +11,7 @@ theme = "drnorfaizal"
   
   # Contact Information
   clinic_name = "Tawakkal Specialist Hospital"
-  clinic_address = "Kuala Lumpur"
+  clinic_address = "Jalan Pahang Barat, Kuala Lumpur, Malaysia"
   clinic_phone = "+603-4026 7777 ext 5099"
   clinic_whatsapp = "+60122895061"
   clinic_email = "drnfaizal@kpjtawakkal.com"
@@ -66,42 +41,135 @@ theme = "drnorfaizal"
   background_light = "#f8f9fa"
   text_dark = "#0d1f3c"
 
-# Markup configuration
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-  
-  [markup.highlight]
-    style = "monokai"
-    lineNos = false
+# Multi-language configuration & Menus
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    homePageTitle = "Consultant Neurosurgeon | Dr Nor Faizal | Brain - Head - Pain"
+    
+    [[languages.en.menus.main]]
+      identifier = "home"
+      name = "Home"
+      url = "/"
+      weight = 10
 
-# Permalinks
+    [[languages.en.menus.main]]
+      identifier = "about"
+      name = "About"
+      url = "/about/"
+      weight = 20
+
+    [[languages.en.menus.main]]
+      identifier = "specialties"
+      name = "Specialties"
+      url = "/expertise/"
+      weight = 30
+
+    [[languages.en.menus.main]]
+      identifier = "patients"
+      name = "Patients"
+      url = "/patients/"
+      weight = 40
+
+    [[languages.en.menus.main]]
+      identifier = "for-doctors"
+      name = "For Doctors"
+      url = "/for-doctors/"
+      weight = 45
+
+    [[languages.en.menus.main]]
+      identifier = "blog"
+      name = "Blog"
+      url = "/blog/"
+      weight = 50
+
+    [[languages.en.menus.main]]
+      identifier = "contact"
+      name = "Contact"
+      url = "/contact/"
+      weight = 60
+
+  [languages.bm]
+    languageName = "Bahasa"
+    weight = 2
+    homePageTitle = "Pakar Bedah Saraf & Kanser Otak | Dr Nor Faizal"
+
+    [[languages.bm.menus.main]]
+      identifier = "home"
+      name = "Utama"
+      url = "/"
+      weight = 10
+
+    [[languages.bm.menus.main]]
+      identifier = "about"
+      name = "Tentang"
+      url = "/about/"
+      weight = 20
+
+    [[languages.bm.menus.main]]
+      identifier = "specialties"
+      name = "Kepakaran"
+      url = "/expertise/"
+      weight = 30
+
+    [[languages.bm.menus.main]]
+      identifier = "patients"
+      name = "Pesakit"
+      url = "/patients/"
+      weight = 40
+
+    [[languages.bm.menus.main]]
+      identifier = "for-doctors"
+      name = "Untuk Doktor"
+      url = "/for-doctors/"
+      weight = 45
+
+    [[languages.bm.menus.main]]
+      identifier = "blog"
+      name = "Blog"
+      url = "/blog/"
+      weight = 50
+
+    [[languages.bm.menus.main]]
+      identifier = "contact"
+      name = "Hubungi"
+      url = "/contact/"
+      weight = 60
+
+# System & Build Configuration
 [permalinks]
+  # Format: folder_name = "/desired-url-path/:slug/"
   blog = "/blog/:slug/"
-  guides = "/guides/:slug/"
-  specialties = "/kepakaran/:slug/"
-  patients = "/pasien/:slug/"
+  kepakaran = "/expertise/:slug/"    # Binds content/kepakaran/ to domain.com/expertise/
+  pesakit = "/patients/:slug/"        # Binds content/pesakit/ to domain.com/patients/
+  
+  # Taxonomies
+  categories = "/category/:slug/"
+  tags = "/tag/:slug/"
 
-# Taxonomies
 [taxonomies]
   category = "categories"
   tag = "tags"
-  specialty = "specialties"
 
-# Privacy
-[privacy]
-  [privacy.googleAnalytics]
-    respectDoNotTrack = true
-    anonymizeIP = true
+[outputs]
+  home = ["HTML", "JSON", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
 
-# Security headers
-[security]
-  [security.funcs]
-    getenv = ['^HUGO_', '^CLOUDFLARE_']
+[outputFormats.JSON]
+  mediaType = "application/json"
+  baseName = "index"
 
-[[menus.main]]
-  name = "For Doctors"
-  url = "/for-doctors/"
-  weight = 45   # Insert between existing nav items
-  identifier = "for-doctors"
+[markup.goldmark.renderer]
+  unsafe = true
+[markup.highlight]
+  style = "monokai"
+  lineNos = false
+
+[privacy.googleAnalytics]
+  respectDoNotTrack = true
+  anonymizeIP = true
+
+[security.funcs]
+  getenv = ['^HUGO_', '^CLOUDFLARE_']
