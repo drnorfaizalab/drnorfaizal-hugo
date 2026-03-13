@@ -5,7 +5,7 @@ date: 2025-03-10
 lastmod: 2025-03-10
 draft: false
 
-type: "specialty"
+type: "Brain"
 weight: 1
 
 # SEO
