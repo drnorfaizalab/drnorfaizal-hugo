@@ -61,8 +61,8 @@ theme = "drnorfaizal"
       weight = 20
 
     [[languages.en.menus.main]]
-      identifier = "specialties"
-      name = "Specialties"
+      identifier = "expertise"
+      name = "Experties"
       url = "/expertise/"
       weight = 30
 
@@ -108,7 +108,7 @@ theme = "drnorfaizal"
       weight = 20
 
     [[languages.bm.menus.main]]
-      identifier = "specialties"
+      identifier = "expertise"
       name = "Kepakaran"
       url = "/expertise/"
       weight = 30
