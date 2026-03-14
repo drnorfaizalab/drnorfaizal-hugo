@@ -1,11 +1,22 @@
-# Gemini Code Assist Configuration
+# .gemini/config.yaml
+
 project:
-  name: "DrFaizal-Web-Pipeline"
+  name: "DrFaizal-Clinical-Web"
+  # Keeps the AI focused only on your source files
   ignore:
     - "public/**"
     - "resources/**"
-    - "node_modules/**"
+    - "static/images/**" # AI doesn't need to 'read' raw images
+
 capabilities:
+  # Allows Gemini to help you deploy
+  shell_execution: true
+  # Allows Gemini to research medical trends
   web_search: true
+  # Allows Gemini to refine your Markdown
   file_edit: true
-  shell_execution: true # Allows Gemini to run your deploy script
+
+# Advanced: You can define specific 'Review' rules here
+actions:
+  - name: "Medical Review"
+    prompt: "Check this .md file for anatomical accuracy and ensure the Bahasa translation is professional."
