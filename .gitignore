@@ -1,8 +1,15 @@
+# Secrets (CRITICAL: Do not track these)
+.env
+*.key
+credentials.json
+
+# Build Outputs (Temporary files)
 public/
 resources/
 .hugo_build.lock
 node_modules/
+
+# Operating System files
 .DS_Store
 Thumbs.db
 *.log
-.env
