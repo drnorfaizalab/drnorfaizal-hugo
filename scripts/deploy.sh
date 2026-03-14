@@ -1,13 +1,25 @@
 #!/bin/bash
 
 # 1. Load Secrets
-# Ensures your Cloudflare tokens are active for this session
 if [ -f .env ]; then
   export $(grep -v '^#' .env | xargs)
 else
-  echo "❌ Error: .env file not found. Please create it with CF_ZONE_ID and CF_API_TOKEN."
+  echo "❌ Error: .env file not found."
   exit 1
 fi
+
+# --- NEW SAFETY INTERLOCK ---
+# 1b. Check if .env is being tracked by Git
+if git ls-files --error-unmatch .env >/dev/null 2>&1; then
+    echo "🚨 SECURITY ALERT: .env is being tracked by Git!"
+    echo "Removing .env from Git cache (keeping local file)..."
+    git rm --cached .env
+    echo ".env added to Git ignore list. Please commit this change."
+    exit 1
+fi
+# -----------------------------
+
+# 2. Clean & Build...
 
 # 2. Clean & Build
 echo "🏗️  Starting Hugo Build (Minified)..."
