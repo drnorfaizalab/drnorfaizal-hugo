@@ -16,6 +16,10 @@ capabilities:
   # Allows Gemini to refine your Markdown
   file_edit: true
 
+actions:
+  - name: "Publish"
+    prompt: "Execute my Editor and Translator SOP from GEMINI.md on the active file and prepare for deployment."
+
 # Advanced: You can define specific 'Review' rules here
 actions:
   - name: "Medical Review"
