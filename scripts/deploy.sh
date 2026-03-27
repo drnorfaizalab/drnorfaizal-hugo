@@ -44,20 +44,17 @@ else
 fi
 
 # 4. Cloudflare Cache Purge
-# This ensures your 300 million potential readers see the LATEST version immediately
-# 4. Cloudflare Cache Purge (Global Key Method)
-if [ -n "$CF_API_KEY" ] && [ -n "$CF_ZONE_ID" ]; then
-    echo "🧹 Purging Cloudflare Edge Cache (Global Key)..."
+if [ -n "$CF_API_TOKEN" ] && [ -n "$CF_ZONE_ID" ]; then
+    echo "🧹 Purging Cloudflare Edge Cache..."
     PURGE_RESPONSE=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/purge_cache" \
-        -H "X-Auth-Email: ${CF_EMAIL}" \
-        -H "X-Auth-Key: ${CF_API_KEY}" \
+        -H "Authorization: Bearer ${CF_API_TOKEN}" \
         -H "Content-Type: application/json" \
         --data '{"purge_everything":true}')
-    
+
     if echo "$PURGE_RESPONSE" | grep -q '"success":true'; then
         echo "✅ Cache Purged Successfully."
     else
-        echo "⚠️  Cache Purge Failed. Error: $PURGE_RESPONSE"
+        echo "⚠️  Cache Purge Failed. Response: $PURGE_RESPONSE"
     fi
 fi
 
