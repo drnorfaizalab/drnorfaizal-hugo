@@ -1031,3 +1031,337 @@ html.dark-mode .social-embed-tiktok-container,
 html.dark-mode .social-embed-instagram-container {
   background: #111;
 }
+
+/* ==========================================================================
+   HOMEPAGE — LAYOUT HELPERS
+   ========================================================================== */
+
+/* Ghost button — transparent on dark backgrounds */
+.btn-ghost {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  text-decoration: none;
+}
+
+/* Trust Badges */
+.section-trust {
+  padding: 2rem 0;
+  background: white;
+}
+
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  text-align: center;
+}
+
+.trust-item {
+  padding: 0.5rem;
+}
+
+.trust-stat {
+  font-size: 2.5rem;
+  color: var(--secondary);
+  margin-bottom: 0.25rem;
+}
+
+.trust-label {
+  color: var(--gray-600);
+  margin: 0;
+}
+
+/* Section typography helpers */
+.section-title {
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  margin-bottom: 3rem;
+}
+
+.section-header {
+  margin-bottom: 2.5rem;
+}
+
+.section-footer-cta {
+  margin-top: 2.5rem;
+}
+
+/* Card helpers */
+.card-badge {
+  margin-bottom: 1rem;
+}
+
+.card-btn {
+  margin-top: 1rem;
+}
+
+/* About layout */
+.about-flex {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 280px;
+}
+
+/* CTA Banner */
+.section-cta {
+  background: var(--primary);
+  color: white;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.section-cta-title {
+  color: white;
+}
+
+.section-cta-subtitle {
+  opacity: 0.9;
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+}
+
+/* ==========================================================================
+   HOMEPAGE — TESTIMONIAL
+   ========================================================================== */
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--spacing-lg);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  max-width: 760px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: var(--shadow-lg);
+  border-left: 5px solid var(--secondary);
+}
+
+.star-rating {
+  color: var(--secondary);
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.testimonial-quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  line-height: 1.7;
+  color: var(--dark);
+  margin-bottom: 1.5rem;
+  font-family: var(--font-display);
+}
+
+.testimonial-footer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.badge-review {
+  background: var(--success);
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+}
+
+.testimonial-cta {
+  margin-top: 2rem;
+}
+
+.testimonial-cta p {
+  margin-bottom: 1rem;
+}
+
+/* ==========================================================================
+   HOMEPAGE — BLOG PREVIEW
+   ========================================================================== */
+
+.blog-preview-card {
+  background: white;
+  border-radius: 8px;
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  transition: var(--transition);
+  border-top: 3px solid var(--secondary);
+}
+
+.blog-preview-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.blog-preview-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.blog-preview-date {
+  font-size: 0.8rem;
+  color: var(--gray-600);
+}
+
+.badge-sm {
+  font-size: 0.7rem;
+  padding: 0.15rem 0.6rem;
+}
+
+.blog-preview-title {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+  color: var(--primary);
+}
+
+.blog-preview-desc {
+  font-size: 0.95rem;
+  color: var(--gray-600);
+  flex: 1;
+  line-height: 1.5;
+}
+
+.blog-preview-link {
+  display: inline-block;
+  margin-top: 1.25rem;
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.blog-preview-link:hover {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+/* ==========================================================================
+   HOMEPAGE — FOLLOW SECTION
+   ========================================================================== */
+
+.follow-section {
+  background: var(--dark);
+  padding: 4rem 1.5rem;
+}
+
+.follow-heading {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.follow-subtitle {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.125rem;
+  max-width: 580px;
+  margin: 0 auto 3rem;
+}
+
+.social-follow-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.social-follow-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.25rem 1.75rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  text-decoration: none;
+  transition: var(--transition);
+  min-width: 130px;
+  color: white;
+}
+
+.social-follow-card:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-3px);
+  text-decoration: none;
+  color: white;
+}
+
+.social-follow-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: white;
+}
+
+.social-follow-handle {
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.social-follow-tiktok:hover   { border-color: #fe2c55; }
+.social-follow-instagram:hover { border-color: #e1306c; }
+.social-follow-youtube:hover  { border-color: #ff0000; }
+.social-follow-linkedin:hover { border-color: #0a66c2; }
+
+.follow-wa-divider {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.follow-wa-text {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+}
+
+/* WhatsApp CTA button */
+.btn-whatsapp {
+  background: #25d366;
+  color: white;
+  border: 2px solid #25d366;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: var(--spacing-sm) var(--spacing-xl);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-whatsapp:hover {
+  background: #128c7e;
+  border-color: #128c7e;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 0 0 4px rgba(37, 211, 102, 0.25);
+  text-decoration: none;
+}

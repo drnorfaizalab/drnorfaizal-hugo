@@ -9,7 +9,6 @@
       <a href="{{ "/expertise/head" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "bm" }}Kepala{{ else }}Head{{ end }}</a>
       <span class="hero-specialty-sep">·</span>
       <a href="{{ "/expertise/pain" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "bm" }}Sakit{{ else }}Pain{{ end }}</a>
-      
     </div>
     <h1 class="slide-up">{{ if eq .Lang "bm" }}Pakar Runding Bedah Saraf & Intervensi Kesakitan{{ else }}Consultant Neurosurgeon & Interventional Pain Specialist{{ end }}</h1>
     <p class="fade-in">{{ if eq .Lang "bm" }}Kepakaran Oxford. Ketelitian Klinikal.<br>Pakar Bedah Saraf, Migrain, dan Kesakitan Kronik.{{ else }}Oxford Trained. Disciplined Precision. Elegant Solutions for Brain Tumors, Migraines, and Chronic Pain.{{ end }}</p>
@@ -17,7 +16,7 @@
       <a href="https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri" target="_blank" rel="noopener" class="btn btn-cta">
         {{ if eq .Lang "bm" }}Buat Temujanji{{ else }}Book Consultation{{ end }}
       </a>
-      <a href="{{ "/expertise" | relLangURL }}" class="btn btn-secondary" style="color:white; border-color:white;">
+      <a href="{{ "/expertise" | relLangURL }}" class="btn btn-ghost">
         {{ if eq .Lang "bm" }}Teroka Kepakaran{{ else }}Explore Expertise{{ end }}
       </a>
     </div>
@@ -25,20 +24,20 @@
 </section>
 
 <!-- Trust Badges -->
-<section style="padding: 2rem 0; background: white;">
+<section class="section-trust">
   <div class="container">
-    <div class="grid grid-3 text-center" style="gap:1rem;">
-      <div>
-        <h3 style="font-size:2.5rem; color:var(--secondary);">Oxford</h3>
-        <p style="color:var(--gray-600);">{{ if eq .Lang "bm" }}Keunggulan Akademik{{ else }}Academic Excellence{{ end }}</p>
+    <div class="trust-grid">
+      <div class="trust-item">
+        <h3 class="trust-stat">Oxford</h3>
+        <p class="trust-label">{{ if eq .Lang "bm" }}Keunggulan Akademik{{ else }}Academic Excellence{{ end }}</p>
       </div>
-      <div>
-        <h3 style="font-size:2.5rem; color:var(--secondary);">18+</h3>
-        <p style="color:var(--gray-600);">{{ if eq .Lang "bm" }}Tahun Pengalaman{{ else }}Years Experience{{ end }}</p>
+      <div class="trust-item">
+        <h3 class="trust-stat">18+</h3>
+        <p class="trust-label">{{ if eq .Lang "bm" }}Tahun Pengalaman{{ else }}Years Experience{{ end }}</p>
       </div>
-      <div>
-        <h3 style="font-size:2.5rem; color:var(--secondary);">KPJ</h3>
-        <p style="color:var(--gray-600);">{{ .Site.Params.clinic_name }}</p>
+      <div class="trust-item">
+        <h3 class="trust-stat">KPJ</h3>
+        <p class="trust-label">{{ .Site.Params.clinic_name }}</p>
       </div>
     </div>
   </div>
@@ -47,29 +46,29 @@
 <!-- Specialties -->
 <section class="section-alt">
   <div class="container">
-    <h2 class="text-center" style="margin-bottom:0.5rem;">{{ if eq .Lang "bm" }}Bidang Kepakaran{{ else }}Areas of Expertise{{ end }}</h2>
-    <p class="text-center text-gray" style="margin-bottom:3rem;">{{ if eq .Lang "bm" }}Otak | Kepala | Sakit{{ else }}Brain | Head | Pain{{ end }}</p>
+    <h2 class="section-title text-center">{{ if eq .Lang "bm" }}Bidang Kepakaran{{ else }}Areas of Expertise{{ end }}</h2>
+    <p class="section-subtitle text-center text-gray">{{ if eq .Lang "bm" }}Otak | Kepala | Sakit{{ else }}Brain | Head | Pain{{ end }}</p>
 
     <div class="grid grid-3">
       <div class="card">
-        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Otak{{ else }}Brain{{ end }}</div>
+        <div class="badge card-badge">{{ if eq .Lang "bm" }}Otak{{ else }}Brain{{ end }}</div>
         <h3 class="card-title">{{ if eq .Lang "bm" }}Kanser Otak{{ else }}Brain Tumour{{ end }}</h3>
         <p>{{ if eq .Lang "bm" }}Pembedahan tepat untuk meningioma, glioma, medulloblastoma dan lebih banyak lagi.{{ else }}Precision surgery for meningioma, glioma, medulloblastoma, and more.{{ end }}</p>
-        <a href="{{ "/expertise/brain" | relLangURL }}" class="btn btn-secondary" style="margin-top:1rem;">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
+        <a href="{{ "/expertise/brain" | relLangURL }}" class="btn btn-secondary card-btn">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
       </div>
 
       <div class="card">
-        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Kepala{{ else }}Head{{ end }}</div>
+        <div class="badge card-badge">{{ if eq .Lang "bm" }}Kepala{{ else }}Head{{ end }}</div>
         <h3 class="card-title">{{ if eq .Lang "bm" }}Migraine &amp; Sakit Muka{{ else }}Migraine &amp; Facial Pain{{ end }}</h3>
         <p>{{ if eq .Lang "bm" }}Diagnosis dan rawatan pakar untuk migraine, sakit kepala, dan Trigeminal Neuralgia.{{ else }}Specialist care for chronic migraine, cluster headache, and trigeminal neuralgia.{{ end }}</p>
-        <a href="{{ "/expertise/head" | relLangURL }}" class="btn btn-secondary" style="margin-top:1rem;">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
+        <a href="{{ "/expertise/head" | relLangURL }}" class="btn btn-secondary card-btn">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
       </div>
 
       <div class="card">
-        <div class="badge" style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Sakit{{ else }}Pain{{ end }}</div>
+        <div class="badge card-badge">{{ if eq .Lang "bm" }}Sakit{{ else }}Pain{{ end }}</div>
         <h3 class="card-title">{{ if eq .Lang "bm" }}Pengurusan Kesakitan Kronik{{ else }}Interventional Pain Management{{ end }}</h3>
         <p>{{ if eq .Lang "bm" }}Rawatan sakit kronik menggunakan teknik minimal invasif yang tepat ke sasaran.{{ else }}Targeted minimally invasive treatment for chronic and neuropathic pain.{{ end }}</p>
-        <a href="{{ "/expertise/pain" | relLangURL }}" class="btn btn-secondary" style="margin-top:1rem;">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
+        <a href="{{ "/expertise/pain" | relLangURL }}" class="btn btn-secondary card-btn">{{ if eq .Lang "bm" }}Baca Lagi{{ else }}Learn More{{ end }}</a>
       </div>
     </div>
   </div>
@@ -78,29 +77,141 @@
 <!-- About Snippet -->
 <section>
   <div class="container">
-    <div class="flex" style="align-items:center; gap:3rem; flex-wrap:wrap;">
-      <div style="flex:1; min-width:280px;">
-        <h2>{{ if eq .Lang "bm" }}Dr Nor Faizal{{ else }}Dr Nor Faizal{{ end }}</h2>
+    <div class="about-flex">
+      <div class="about-text">
+        <h2>Dr Nor Faizal</h2>
         <p>{{ if eq .Lang "bm" }}Oxford trained, precision driven. In service of those who seek the highest standard of care.{{ else }}Oxford-trained neurosurgeon with expertise in neurooncology and interventional pain management. Practising at KPJ Tawakkal Specialist Hospital, Kuala Lumpur.{{ end }}</p>
         <p><em>Discipline · Simplicity · Elegance</em></p>
         <a href="{{ "/about" | relLangURL }}" class="btn btn-primary">{{ if eq .Lang "bm" }}Kenali Dr Nor Faizal{{ else }}Meet Dr Nor Faizal{{ end }}</a>
       </div>
-      <div style="flex:1; min-width:280px;">
+      <div class="about-image">
         <img src="/profile.jpg" alt="Dr Nor Faizal Ahmad Bahuri" class="about-photo">
       </div>
     </div>
   </div>
 </section>
 
-<!-- CTA Banner -->
-<section style="background: var(--primary); color:white; padding:3rem 1.5rem; text-align:center;">
+<!-- Patient Testimonial -->
+<section>
   <div class="container">
-    <h2 style="color:white;">{{ if eq .Lang "bm" }}Buat Temujanji Hari Ini{{ else }}Schedule Your Consultation Today{{ end }}</h2>
-    <p style="opacity:0.9; font-size:1.125rem; margin-bottom:2rem;">{{ if eq .Lang "bm" }}Hubungi klinik kami untuk temu janji atau pertanyaan.{{ else }}Contact our clinic for appointments or enquiries.{{ end }}</p>
+    <div class="section-header text-center">
+      <h2>{{ if eq .Lang "bm" }}Kata Pesakit{{ else }}What Patients Say{{ end }}</h2>
+      <p class="text-gray">{{ if eq .Lang "bm" }}Pengalaman sebenar dari mereka yang telah dipercayai Dr Nor Faizal.{{ else }}Real experiences from those who've trusted Dr Nor Faizal with their care.{{ end }}</p>
+    </div>
+
+    <div class="testimonial-grid">
+      {{ range .Site.Data.testimonials }}
+      <div class="testimonial-card">
+        <div class="star-rating">{{ range seq .stars }}★{{ end }}</div>
+        <p class="testimonial-quote">"{{ if eq $.Lang "bm" }}{{ .bm }}{{ else }}{{ .en }}{{ end }}"</p>
+        <div class="testimonial-footer">
+          <strong>{{ .name }}</strong>
+          <span class="badge badge-review">✓ {{ if eq $.Lang "bm" }}Ulasan Google{{ else }}Google Review{{ end }}</span>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="testimonial-cta text-center">
+      <p class="text-gray">{{ if eq .Lang "bm" }}Ada pengalaman bersama Dr Nor Faizal?{{ else }}Had a consultation with Dr Nor Faizal?{{ end }}</p>
+
+      <a href="https://g.page/r/CShzHRdXckauEBM/review" target="_blank" rel="noopener" class="btn btn-secondary">
+        {{ if eq .Lang "bm" }}Tinggalkan Ulasan Google{{ else }}Leave a Google Review{{ end }}
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Latest Thinking — Blog Preview -->
+<section class="section-alt">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2>{{ if eq .Lang "bm" }}Pemikiran Dr Nor Faizal{{ else }}From the Mind of Dr Nor Faizal{{ end }}</h2>
+      <p class="text-gray">{{ if eq .Lang "bm" }}Sains. Kejelasan. Tanpa bising.{{ else }}Brain science. Clinical clarity. No noise.{{ end }}</p>
+    </div>
+
+    <div class="grid grid-3">
+      {{ $blog := .Site.GetPage "blog" }}
+      {{ if $blog }}
+        {{ range first 3 ($blog.RegularPages.ByDate.Reverse) }}
+        <div class="blog-preview-card">
+          <div class="blog-preview-meta">
+            <span class="blog-preview-date">{{ .Date.Format "2 Jan 2006" }}</span>
+            {{ with index .Params.categories 0 }}<span class="badge badge-sm">{{ . }}</span>{{ end }}
+          </div>
+          <h3 class="blog-preview-title">{{ .Title }}</h3>
+          {{ with .Params.description }}<p class="blog-preview-desc">{{ . | truncate 120 }}</p>{{ end }}
+          <a href="{{ .RelPermalink }}" class="blog-preview-link">{{ if eq $.Lang "bm" }}Baca →{{ else }}Read →{{ end }}</a>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="section-footer-cta text-center">
+      <a href="{{ "/blog" | relLangURL }}" class="btn btn-primary">{{ if eq .Lang "bm" }}Semua Artikel{{ else }}Read All Articles{{ end }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- Follow the Thinking — Social + WhatsApp -->
+<section class="follow-section">
+  <div class="container text-center">
+    <h2 class="follow-heading">{{ if eq .Lang "bm" }}Ikuti Pemikirannya{{ else }}Follow the Thinking{{ end }}</h2>
+    <p class="follow-subtitle">{{ if eq .Lang "bm" }}Pembedahan otak. Sains kesakitan. Apa yang buku teks tidak ajar anda.{{ else }}Brain surgery. Pain science. What the textbooks don't teach you.{{ end }}</p>
+
+    <div class="social-follow-grid">
+      {{ with .Site.Params.social_tiktok }}
+      <a href="https://tiktok.com/@{{ . }}" target="_blank" rel="noopener" class="social-follow-card social-follow-tiktok">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.74a4.85 4.85 0 01-1.01-.05z"/></svg>
+        <span class="social-follow-name">TikTok</span>
+        <span class="social-follow-handle">@{{ . }}</span>
+      </a>
+      {{ end }}
+      {{ with .Site.Params.social_instagram }}
+      <a href="https://instagram.com/{{ . }}" target="_blank" rel="noopener" class="social-follow-card social-follow-instagram">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        <span class="social-follow-name">Instagram</span>
+        <span class="social-follow-handle">@{{ . }}</span>
+      </a>
+      {{ end }}
+      {{ with .Site.Params.social_youtube }}
+      <a href="https://youtube.com/@{{ . }}" target="_blank" rel="noopener" class="social-follow-card social-follow-youtube">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+        <span class="social-follow-name">YouTube</span>
+        <span class="social-follow-handle">@{{ . }}</span>
+      </a>
+      {{ end }}
+      {{ with .Site.Params.social_linkedin }}
+      <a href="https://linkedin.com/in/{{ . }}" target="_blank" rel="noopener" class="social-follow-card social-follow-linkedin">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        <span class="social-follow-name">LinkedIn</span>
+        <span class="social-follow-handle">@{{ . }}</span>
+      </a>
+      {{ end }}
+    </div>
+
+    <div class="follow-wa-divider">
+      <p class="follow-wa-text">{{ if eq .Lang "bm" }}Atau langkau algoritma. Mesej terus.{{ else }}Or skip the algorithm. Message me directly.{{ end }}</p>
+      {{ with .Site.Params.whatsapp }}
+      <a href="https://wa.me/{{ strings.TrimPrefix "+" . }}?text={{ if eq $.Lang "bm" }}Hai%20Dr%20Nor%20Faizal%2C%20saya%20ingin%20bertanya%20tentang%20konsultasi.{{ else }}Hi%20Dr%20Nor%20Faizal%2C%20I%27d%20like%20to%20enquire%20about%20a%20consultation.{{ end }}"
+         target="_blank" rel="noopener" class="btn btn-whatsapp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        {{ if eq .Lang "bm" }}Mesej WhatsApp{{ else }}Message on WhatsApp{{ end }}
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- CTA Banner -->
+<section class="section-cta">
+  <div class="container text-center">
+    <h2 class="section-cta-title">{{ if eq .Lang "bm" }}Buat Temujanji Hari Ini{{ else }}Schedule Your Consultation Today{{ end }}</h2>
+    <p class="section-cta-subtitle">{{ if eq .Lang "bm" }}Hubungi klinik kami untuk temu janji atau pertanyaan.{{ else }}Contact our clinic for appointments or enquiries.{{ end }}</p>
     <div class="hero-cta">
       <a href="https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri" target="_blank" rel="noopener" class="btn btn-cta">{{ if eq .Lang "bm" }}Buat Temujanji{{ else }}Book Appointment{{ end }}</a>
       {{ with .Site.Params.clinic_phone }}
-      <a href="tel:{{ . }}" class="btn btn-secondary" style="color:white; border-color:white;">{{ . }}</a>
+      <a href="tel:{{ . }}" class="btn btn-ghost">{{ . }}</a>
       {{ end }}
     </div>
   </div>
