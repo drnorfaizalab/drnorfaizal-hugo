@@ -7,12 +7,21 @@
   /* Hide global WhatsApp button on this page */
   .whatsapp-float { display: none !important; }
 
-  .fd-hero {
-    border-bottom: 1px solid var(--color-border, #e5e0d8);
-    padding: 4rem 0 3rem;
-    margin-bottom: 0;
+  /* ── Page wrapper ── */
+  .fd-page {
+    padding-bottom: 6rem;
   }
 
+  /* ── Section scaffold ── */
+  .fd-section {
+    padding: 5rem 0;
+    border-top: 1px solid var(--color-border, #e5e0d8);
+  }
+  .fd-section:first-child {
+    border-top: none;
+  }
+
+  /* ── Eyebrow ── */
   .fd-eyebrow {
     display: inline-flex;
     align-items: center;
@@ -22,7 +31,7 @@
     letter-spacing: 0.16em;
     text-transform: uppercase;
     color: var(--color-accent, #8b4513);
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.5rem;
     font-family: var(--font-mono, 'DM Mono', monospace);
   }
   .fd-eyebrow::before {
@@ -33,43 +42,101 @@
     background: currentColor;
   }
 
+  /* ── Hero ── */
+  .fd-hero {
+    padding: 5rem 0 3rem;
+  }
+  .fd-hero-layout {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 4rem;
+    align-items: start;
+  }
   .fd-hero h1 {
     margin-bottom: 1.25rem;
+    line-height: 1.1;
   }
-
   .fd-hero-sub {
     font-size: 1.05rem;
-    line-height: 1.75;
-    max-width: 60ch;
-    margin-bottom: 2.5rem;
+    line-height: 1.8;
+    max-width: 58ch;
+    margin-bottom: 2.25rem;
     opacity: 0.8;
   }
-
   .fd-hero-actions {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    margin-bottom: 3rem;
   }
 
-  /* Credentials block — styled like existing credential/stat blocks */
-  .fd-credentials {
-    margin-top: 3rem;
-    border-top: 1px solid var(--color-border, #e5e0d8);
-    padding-top: 2rem;
+  /* ── Quick contact card ── */
+  .fd-quick-card {
+    background: var(--color-surface-alt, #f0ece4);
+    border: 1px solid var(--color-border, #e5e0d8);
+    border-top: 3px solid var(--color-accent, #8b4513);
+    padding: 2rem;
+    position: sticky;
+    top: 5rem;
   }
-  .fd-credentials-label {
-    font-size: 0.65rem;
+  .fd-qc-label {
+    font-size: 0.62rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     font-family: var(--font-mono, 'DM Mono', monospace);
     opacity: 0.5;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--color-border, #e5e0d8);
+  }
+  .fd-qc-line {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  .fd-qc-icon {
+    font-size: 1rem;
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+    width: 1.4rem;
+    text-align: center;
+  }
+  .fd-qc-info {}
+  .fd-qc-line a { text-decoration: none; font-weight: 500; }
+  .fd-qc-note { font-size: 0.75rem; opacity: 0.55; display: block; margin-top: 0.1rem; }
+  .fd-qc-wa-btn {
+    display: block;
+    margin-top: 1.5rem;
+    background: #25d366;
+    color: white;
+    text-align: center;
+    padding: 0.85rem 1rem;
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    transition: opacity 0.2s;
+  }
+  .fd-qc-wa-btn:hover { opacity: 0.88; color: white; }
+
+  /* ── Credentials block ── */
+  .fd-credentials {
+    margin-top: 3.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border, #e5e0d8);
+  }
+  .fd-credentials-label {
+    font-size: 0.62rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-family: var(--font-mono, 'DM Mono', monospace);
+    opacity: 0.45;
     margin-bottom: 1rem;
   }
   .fd-cred-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 0;
+    grid-template-columns: repeat(4, 1fr);
     border: 1px solid var(--color-border, #e5e0d8);
   }
   .fd-cred-item {
@@ -95,43 +162,17 @@
     opacity: 0.65;
   }
 
-  /* Quick contact panel */
-  .fd-quick-contact {
-    background: var(--color-surface-alt, #f0ece4);
-    border-left: 3px solid var(--color-accent, #8b4513);
-    padding: 1.5rem 2rem;
-    margin-top: 2.5rem;
-  }
-  .fd-qc-label {
-    font-size: 0.65rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    font-family: var(--font-mono, 'DM Mono', monospace);
-    opacity: 0.5;
-    margin-bottom: 0.75rem;
-  }
-  .fd-qc-line {
-    display: flex;
-    align-items: center;
-    gap: 0.65rem;
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
-    opacity: 0.85;
-  }
-  .fd-qc-line a { text-decoration: none; font-weight: 500; }
-  .fd-qc-note { font-size: 0.75rem; opacity: 0.55; }
-
-  /* Section label — matches existing site pattern */
+  /* ── Section label ── */
   .fd-section-label {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    font-size: 0.65rem;
+    font-size: 0.62rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     font-family: var(--font-mono, 'DM Mono', monospace);
     color: var(--color-accent, #8b4513);
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
   }
   .fd-section-label::after {
     content: '';
@@ -140,7 +181,16 @@
     background: var(--color-border, #e5e0d8);
   }
 
-  /* Specialty / accept cards */
+  /* ── Section intro text ── */
+  .fd-section-intro {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    max-width: 72ch;
+    opacity: 0.8;
+    margin-bottom: 0;
+  }
+
+  /* ── Specialty / accept cards ── */
   .fd-accept-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -148,7 +198,7 @@
     margin-top: 2.5rem;
   }
   .fd-accept-card {
-    padding: 2.25rem;
+    padding: 2.5rem;
     border-right: 1px solid var(--color-border, #e5e0d8);
   }
   .fd-accept-card:last-child { border-right: none; }
@@ -160,28 +210,28 @@
     margin-bottom: 1rem;
   }
   .fd-accept-title {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     font-weight: 400;
-    margin-bottom: 0.85rem;
+    margin-bottom: 1rem;
     line-height: 1.2;
     font-family: var(--font-serif, 'Cormorant Garamond', Georgia, serif);
   }
   .fd-accept-body {
     font-size: 0.875rem;
-    line-height: 1.75;
+    line-height: 1.8;
     opacity: 0.75;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.75rem;
   }
   .fd-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.35rem;
+    gap: 0.4rem;
   }
   .fd-tag {
     font-family: var(--font-mono, 'DM Mono', monospace);
     font-size: 0.6rem;
     letter-spacing: 0.05em;
-    padding: 0.28rem 0.6rem;
+    padding: 0.3rem 0.65rem;
     border: 1px solid var(--color-border, #e5e0d8);
     background: var(--color-bg, #f7f4ef);
     opacity: 0.85;
@@ -193,42 +243,50 @@
     opacity: 1;
   }
 
-  /* Urgency band */
+  /* ── Urgency band (full-width, outside container) ── */
   .fd-urgency {
     background: var(--color-ink, #0f0f0f);
     color: white;
-    padding: 2.5rem 0;
-    margin: 4rem -2rem;
+    padding: 3.5rem 0;
   }
   .fd-urgency-inner {
-    padding: 0 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md, 1.5rem);
     display: flex;
     align-items: center;
     gap: 3rem;
     flex-wrap: wrap;
   }
+  .fd-urgency-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+    opacity: 0.9;
+  }
+  .fd-urgency-text { flex: 1; min-width: 260px; }
   .fd-urgency h3 {
     color: white;
     font-size: 1.5rem;
     font-weight: 300;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.5rem;
     font-family: var(--font-serif, 'Cormorant Garamond', Georgia, serif);
   }
-  .fd-urgency p { font-size: 0.875rem; opacity: 0.7; max-width: 52ch; }
-  .fd-urgency-cta { margin-left: auto; display: flex; flex-direction: column; gap: 0.5rem; }
+  .fd-urgency p { font-size: 0.9rem; opacity: 0.7; max-width: 54ch; line-height: 1.7; }
+  .fd-urgency-cta { margin-left: auto; display: flex; flex-direction: column; gap: 0.5rem; flex-shrink: 0; }
   .fd-urgency-btn {
     display: inline-block;
     background: var(--color-accent, #8b4513);
     color: white;
-    padding: 0.8rem 1.75rem;
+    padding: 0.9rem 2rem;
     font-size: 0.78rem;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
     transition: opacity 0.2s;
+    white-space: nowrap;
   }
-  .fd-urgency-btn:hover { opacity: 0.85; }
+  .fd-urgency-btn:hover { opacity: 0.85; color: white; }
   .fd-urgency-phone {
     font-family: var(--font-mono, 'DM Mono', monospace);
     font-size: 0.72rem;
@@ -237,43 +295,42 @@
   }
   .fd-urgency-phone a { color: white; text-decoration: none; }
 
-  /* Process steps */
+  /* ── Process steps ── */
   .fd-steps {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 2.5rem;
-    border-top: 1px solid var(--color-border, #e5e0d8);
+    gap: 0;
+    margin-top: 3rem;
+    border: 1px solid var(--color-border, #e5e0d8);
   }
   .fd-step {
-    padding: 2rem 1.75rem 2rem 0;
+    padding: 2.5rem 2rem;
     border-right: 1px solid var(--color-border, #e5e0d8);
-    padding-right: 1.75rem;
-    margin-right: 0;
   }
-  .fd-step:last-child { border-right: none; padding-right: 0; }
+  .fd-step:last-child { border-right: none; }
   .fd-step-num {
     font-family: var(--font-serif, 'Cormorant Garamond', Georgia, serif);
     font-size: 3.5rem;
     font-weight: 300;
     line-height: 1;
-    opacity: 0.12;
-    margin-bottom: 0.85rem;
+    opacity: 0.1;
+    margin-bottom: 1rem;
   }
-  .fd-step-title { font-weight: 500; font-size: 0.9rem; margin-bottom: 0.6rem; }
-  .fd-step-body { font-size: 0.84rem; line-height: 1.7; opacity: 0.7; }
+  .fd-step-title { font-weight: 600; font-size: 0.9rem; margin-bottom: 0.75rem; line-height: 1.4; }
+  .fd-step-body { font-size: 0.84rem; line-height: 1.75; opacity: 0.7; }
 
-  /* Template block */
+  /* ── Referral template ── */
   .fd-template-wrap {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    margin-top: 2.5rem;
+    gap: 4rem;
+    margin-top: 3rem;
     align-items: start;
   }
   .fd-template-box {
     background: white;
     border: 1px solid var(--color-border, #e5e0d8);
-    padding: 2rem;
+    padding: 2.25rem;
   }
   .fd-template-header {
     font-family: var(--font-mono, 'DM Mono', monospace);
@@ -281,25 +338,25 @@
     letter-spacing: 0.14em;
     text-transform: uppercase;
     opacity: 0.45;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.5rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--color-border, #e5e0d8);
   }
   .fd-template-text {
     font-family: var(--font-mono, 'DM Mono', monospace);
     font-size: 0.78rem;
-    line-height: 1.85;
+    line-height: 1.9;
     white-space: pre-wrap;
     opacity: 0.8;
   }
   .fd-copy-btn {
-    margin-top: 1.25rem;
+    margin-top: 1.5rem;
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
     background: transparent;
     border: 1px solid var(--color-border, #e5e0d8);
-    padding: 0.6rem 1.1rem;
+    padding: 0.65rem 1.25rem;
     font-family: var(--font-mono, 'DM Mono', monospace);
     font-size: 0.65rem;
     letter-spacing: 0.1em;
@@ -311,54 +368,77 @@
   .fd-copy-btn:hover { opacity: 1; background: var(--color-ink, #0f0f0f); color: white; border-color: var(--color-ink, #0f0f0f); }
   .fd-copy-btn.copied { background: #15803d; color: white; border-color: #15803d; opacity: 1; }
 
-  /* Checklist */
-  .fd-checklist-title { font-size: 1.4rem; font-family: var(--font-serif, 'Cormorant Garamond', Georgia, serif); font-weight: 300; margin-bottom: 0.35rem; }
-  .fd-checklist-sub { font-size: 0.85rem; opacity: 0.55; margin-bottom: 1.5rem; }
+  /* ── Checklist ── */
+  .fd-checklist-title {
+    font-size: 1.5rem;
+    font-family: var(--font-serif, 'Cormorant Garamond', Georgia, serif);
+    font-weight: 300;
+    margin-bottom: 0.35rem;
+  }
+  .fd-checklist-sub { font-size: 0.875rem; opacity: 0.55; margin-bottom: 1.75rem; }
   .fd-check-item {
     display: flex;
     gap: 1rem;
     align-items: flex-start;
-    padding: 0.8rem 0;
+    padding: 0.9rem 0;
     border-bottom: 1px solid var(--color-border, #e5e0d8);
   }
   .fd-check-item:last-child { border-bottom: none; }
   .fd-check-box {
     width: 1rem; height: 1rem;
     border: 1.5px solid var(--color-border, #e5e0d8);
-    flex-shrink: 0; margin-top: 0.15rem;
+    flex-shrink: 0; margin-top: 0.2rem;
   }
   .fd-check-label { font-weight: 500; font-size: 0.88rem; display: block; margin-bottom: 0.15rem; }
-  .fd-check-detail { font-size: 0.82rem; opacity: 0.65; line-height: 1.5; }
+  .fd-check-detail { font-size: 0.82rem; opacity: 0.65; line-height: 1.55; }
 
-  /* Contacts */
+  /* ── Contact section ── */
+  .fd-contact-layout {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 4rem;
+    margin-top: 3rem;
+    align-items: start;
+  }
   .fd-contact-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.25rem;
-    margin-top: 2.5rem;
+    gap: 1rem;
   }
   .fd-channel {
     background: var(--color-surface-alt, #f0ece4);
     border: 1px solid var(--color-border, #e5e0d8);
-    padding: 1.5rem;
+    padding: 1.75rem;
     transition: border-color 0.2s;
   }
   .fd-channel:hover { border-color: var(--color-accent, #8b4513); }
-  .fd-channel-icon { font-size: 1.35rem; margin-bottom: 0.6rem; }
+  .fd-channel-icon { font-size: 1.5rem; margin-bottom: 0.75rem; }
   .fd-channel-label {
     font-family: var(--font-mono, 'DM Mono', monospace);
     font-size: 0.6rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
     opacity: 0.5;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.35rem;
   }
-  .fd-channel-value { font-size: 0.9rem; font-weight: 500; }
+  .fd-channel-value { font-size: 0.95rem; font-weight: 500; }
   .fd-channel-value a { text-decoration: none; }
-  .fd-channel-note { font-size: 0.77rem; opacity: 0.55; margin-top: 0.2rem; }
+  .fd-channel-note { font-size: 0.78rem; opacity: 0.55; margin-top: 0.3rem; line-height: 1.5; }
 
-  /* Hours table */
-  .fd-hours { margin-top: 2rem; }
+  /* ── Hours block ── */
+  .fd-hours-card {
+    background: var(--color-surface-alt, #f0ece4);
+    border: 1px solid var(--color-border, #e5e0d8);
+    padding: 2rem;
+  }
+  .fd-hours-heading {
+    font-size: 1.1rem;
+    font-family: var(--font-serif, 'Cormorant Garamond', Georgia, serif);
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--color-border, #e5e0d8);
+  }
   .fd-hours-label {
     font-family: var(--font-mono, 'DM Mono', monospace);
     font-size: 0.62rem;
@@ -370,26 +450,32 @@
   .fd-hours-row {
     display: flex;
     justify-content: space-between;
-    padding: 0.6rem 0;
+    padding: 0.65rem 0;
     border-bottom: 1px solid var(--color-border, #e5e0d8);
     font-size: 0.875rem;
   }
   .fd-hours-row:last-child { border-bottom: none; }
   .fd-hours-day { opacity: 0.65; }
-  .fd-hours-time { font-weight: 500; }
+  .fd-hours-time { font-weight: 500; color: var(--color-accent, #8b4513); }
 
-  /* Why refer */
+  /* ── Why refer ── */
   .fd-why-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
-    margin-top: 2.5rem;
+    gap: 3rem;
+    margin-top: 3rem;
   }
-  .fd-why-item { border-top: 2px solid var(--color-ink, #0f0f0f); padding-top: 1.25rem; }
-  .fd-why-title { font-size: 1.15rem; font-weight: 400; margin-bottom: 0.65rem; font-family: var(--font-serif, 'Cormorant Garamond', Georgia, serif); }
-  .fd-why-body { font-size: 0.875rem; line-height: 1.75; opacity: 0.7; }
+  .fd-why-item { border-top: 2px solid var(--color-ink, #0f0f0f); padding-top: 1.5rem; }
+  .fd-why-title {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0.75rem;
+    font-family: var(--font-serif, 'Cormorant Garamond', Georgia, serif);
+    line-height: 1.3;
+  }
+  .fd-why-body { font-size: 0.875rem; line-height: 1.8; opacity: 0.7; }
 
-  /* WhatsApp float */
+  /* ── WhatsApp float ── */
   .fd-wa-float {
     position: fixed;
     bottom: 1.75rem;
@@ -400,10 +486,10 @@
     gap: 0.65rem;
     background: #25d366;
     color: white;
-    padding: 0.8rem 1.4rem;
+    padding: 0.85rem 1.5rem;
     text-decoration: none;
-    font-size: 0.8rem;
-    font-weight: 400;
+    font-size: 0.82rem;
+    font-weight: 500;
     letter-spacing: 0.04em;
     box-shadow: 0 4px 18px rgba(37,211,102,0.35);
     transition: transform 0.2s, box-shadow 0.2s;
@@ -411,137 +497,176 @@
   .fd-wa-float:hover { transform: translateY(-2px); box-shadow: 0 8px 26px rgba(37,211,102,0.45); color: white; }
   .fd-wa-float svg { width: 1.15rem; height: 1.15rem; fill: white; flex-shrink: 0; }
 
-  /* Responsive */
+  /* ── Responsive ── */
+  @media (max-width: 1024px) {
+    .fd-hero-layout { grid-template-columns: 1fr; gap: 2.5rem; }
+    .fd-quick-card { position: static; }
+    .fd-contact-layout { grid-template-columns: 1fr; gap: 2.5rem; }
+  }
   @media (max-width: 900px) {
     .fd-accept-grid { grid-template-columns: 1fr; }
     .fd-accept-card { border-right: none; border-bottom: 1px solid var(--color-border, #e5e0d8); }
+    .fd-accept-card:last-child { border-bottom: none; }
     .fd-steps { grid-template-columns: 1fr 1fr; }
-    .fd-step { border-right: none; padding-right: 0; border-bottom: 1px solid var(--color-border, #e5e0d8); }
-    .fd-template-wrap { grid-template-columns: 1fr; }
-    .fd-contact-grid { grid-template-columns: 1fr; }
-    .fd-why-grid { grid-template-columns: 1fr; }
+    .fd-step { border-right: none; border-bottom: 1px solid var(--color-border, #e5e0d8); }
+    .fd-step:nth-child(odd) { border-right: 1px solid var(--color-border, #e5e0d8); }
+    .fd-step:last-child { border-bottom: none; }
+    .fd-template-wrap { grid-template-columns: 1fr; gap: 2.5rem; }
+    .fd-why-grid { grid-template-columns: 1fr; gap: 2rem; }
     .fd-cred-grid { grid-template-columns: 1fr 1fr; }
-    .fd-urgency { margin: 3rem -1.5rem; }
     .fd-urgency-cta { margin-left: 0; width: 100%; }
   }
   @media (max-width: 600px) {
+    .fd-section { padding: 3.5rem 0; }
+    .fd-hero { padding: 3.5rem 0 2rem; }
     .fd-steps { grid-template-columns: 1fr; }
+    .fd-step { border-right: none; }
+    .fd-step:nth-child(odd) { border-right: none; }
     .fd-cred-grid { grid-template-columns: 1fr; }
     .fd-cred-item { border-right: none; border-bottom: 1px solid var(--color-border, #e5e0d8); }
+    .fd-contact-grid { grid-template-columns: 1fr; }
     .fd-wa-float span { display: none; }
   }
 </style>
 
-{{/* ── HERO ── */}}
-<section class="fd-hero">
-  <div class="fd-eyebrow">{{ .Params.page_eyebrow }}</div>
-  <h1>Referring a <em>Patient</em><br>to Dr Nor Faizal</h1>
-  <p class="fd-hero-sub">{{ .Params.page_subtitle }}</p>
-  <div class="fd-hero-actions">
-    <a href="https://wa.me/{{ .Params.whatsapp_number }}?text=Referral%20Enquiry%3A%20" class="btn btn-primary">
-      &#128172; {{ .Params.whatsapp_label }}
-    </a>
-    <a href="#how-to-refer" class="btn btn-secondary">How It Works ↓</a>
-  </div>
+<div class="fd-page">
 
-  {{/* Credentials */}}
-  <div class="fd-credentials">
-    <div class="fd-credentials-label">Qualifications</div>
-    <div class="fd-cred-grid">
-      {{ range .Params.credentials }}
-      <div class="fd-cred-item">
-        <span class="fd-cred-degree">{{ .degree }}</span>
-        <span class="fd-cred-inst">{{ .institution }}</span>
-        <span class="fd-cred-detail">{{ .detail }}</span>
+  {{/* ── HERO ── */}}
+  <div class="container">
+    <section class="fd-hero">
+      <div class="fd-hero-layout">
+
+        {{/* Left: heading + CTA */}}
+        <div class="fd-hero-main">
+          <div class="fd-eyebrow">{{ .Params.page_eyebrow }}</div>
+          <h1>Referring a <em>Patient</em><br>to Dr Nor Faizal</h1>
+          <p class="fd-hero-sub">{{ .Params.page_subtitle }}</p>
+          <div class="fd-hero-actions">
+            <a href="https://wa.me/{{ .Params.whatsapp_number }}?text=Referral%20Enquiry%3A%20" class="btn btn-primary">
+              &#128172; {{ .Params.whatsapp_label }}
+            </a>
+            <a href="#how-to-refer" class="btn btn-secondary">How It Works ↓</a>
+          </div>
+        </div>
+
+        {{/* Right: quick contact card */}}
+        <div>
+          <div class="fd-quick-card">
+            <div class="fd-qc-label">Direct Referral Contact</div>
+            <div class="fd-qc-line">
+              <span class="fd-qc-icon">&#128172;</span>
+              <div class="fd-qc-info">
+                <a href="https://wa.me/{{ .Params.whatsapp_number }}">+{{ .Params.whatsapp_number }}</a>
+                <span class="fd-qc-note">WhatsApp — fastest response</span>
+              </div>
+            </div>
+            <div class="fd-qc-line">
+              <span class="fd-qc-icon">&#128222;</span>
+              <div class="fd-qc-info">
+                <a href="tel:{{ .Params.clinic_phone }}">{{ .Params.clinic_phone }}</a>
+                <span class="fd-qc-note">Ext {{ .Params.clinic_ext }} &mdash; clinic direct line</span>
+              </div>
+            </div>
+            <div class="fd-qc-line">
+              <span class="fd-qc-icon">&#9993;</span>
+              <div class="fd-qc-info">
+                <a href="mailto:{{ .Site.Params.clinic_email }}">{{ .Site.Params.clinic_email }}</a>
+                <span class="fd-qc-note">Referral letters &amp; imaging</span>
+              </div>
+            </div>
+            <a href="https://wa.me/{{ .Params.whatsapp_number }}?text=Referral%20Enquiry%3A%20" class="fd-qc-wa-btn">
+              &#128172;&nbsp; WhatsApp a Referral Now
+            </a>
+          </div>
+        </div>
+
       </div>
-      {{ end }}
-    </div>
+
+      {{/* Credentials */}}
+      <div class="fd-credentials">
+        <div class="fd-credentials-label">Qualifications</div>
+        <div class="fd-cred-grid">
+          {{ range .Params.credentials }}
+          <div class="fd-cred-item">
+            <span class="fd-cred-degree">{{ .degree }}</span>
+            <span class="fd-cred-inst">{{ .institution }}</span>
+            <span class="fd-cred-detail">{{ .detail }}</span>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
   </div>
 
-  {{/* Quick contact */}}
-  <div class="fd-quick-contact">
-    <div class="fd-qc-label">Direct Referral Contact</div>
-    <div class="fd-qc-line">
-      &#128172;
-      <a href="https://wa.me/{{ .Params.whatsapp_number }}">+{{ .Params.whatsapp_number }}</a>
-      <span class="fd-qc-note">(WhatsApp preferred)</span>
-    </div>
-    <div class="fd-qc-line">
-      &#128222;
-      <a href="tel:{{ .Params.clinic_phone }}">{{ .Params.clinic_phone }}</a>
-      <span class="fd-qc-note">ext {{ .Params.clinic_ext }}</span>
-    </div>
-    <div class="fd-qc-line">
-      &#9993;
-      <a href="mailto:{{ .Site.Params.clinic_email }}">{{ .Site.Params.clinic_email }}</a>
-    </div>
-  </div>
-</section>
+  {{/* ── CASES ACCEPTED ── */}}
+  <div class="container">
+    <section class="fd-section">
+      <div class="fd-section-label">Referral Scope</div>
+      <h2>Cases <em>Accepted</em></h2>
+      <p class="fd-section-intro">Dr Nor Faizal operates across three clinical domains. Complex and refractory cases are especially welcomed &mdash; the difficult cases are where subspecialty expertise matters most.</p>
 
-{{/* ── CASES ACCEPTED ── */}}
-<section>
-  <div class="fd-section-label">Referral Scope</div>
-  <h2>Cases <em>Accepted</em></h2>
-  <p>Dr Nor Faizal operates across three clinical domains. Complex and refractory cases are especially welcomed — the difficult cases are where subspecialty expertise matters most.</p>
-
-  <div class="fd-accept-grid">
-    {{ range .Params.specialties }}
-    <div class="fd-accept-card">
-      <div class="fd-accept-num">{{ .number }} — {{ .category }}</div>
-      <div class="fd-accept-title">{{ .title }}</div>
-      <p class="fd-accept-body">{{ .body }}</p>
-      <div class="fd-tags">
-        {{ range .conditions }}
-        <span class="fd-tag{{ if .urgent }} fd-tag--urgent{{ end }}">{{ .label }}</span>
+      <div class="fd-accept-grid">
+        {{ range .Params.specialties }}
+        <div class="fd-accept-card">
+          <div class="fd-accept-num">{{ .number }} &mdash; {{ .category }}</div>
+          <div class="fd-accept-title">{{ .title }}</div>
+          <p class="fd-accept-body">{{ .body }}</p>
+          <div class="fd-tags">
+            {{ range .conditions }}
+            <span class="fd-tag{{ if .urgent }} fd-tag--urgent{{ end }}">{{ .label }}</span>
+            {{ end }}
+          </div>
+        </div>
         {{ end }}
       </div>
-    </div>
-    {{ end }}
+    </section>
   </div>
-</section>
 
-{{/* ── URGENCY BAND ── */}}
-<div class="fd-urgency">
-  <div class="fd-urgency-inner">
-    <span style="font-size:2.5rem;flex-shrink:0">&#9888;</span>
-    <div>
-      <h3>For Urgent Neurological Cases</h3>
-      <p>If your patient presents with rapid neurological deterioration, new seizure with mass on imaging, cauda equina syndrome, or thunderclap headache — please refer directly to the Emergency Department at KPJ Tawakkal or contact the clinic immediately. Urgent cases are triaged and accommodated as a priority.</p>
-    </div>
-    <div class="fd-urgency-cta">
-      <a href="https://wa.me/{{ .Params.whatsapp_number }}?text=URGENT%20Referral%3A%20" class="fd-urgency-btn">Urgent WhatsApp</a>
-      <div class="fd-urgency-phone">A&amp;E: <a href="tel:{{ .Params.clinic_phone }}">{{ .Params.clinic_phone }}</a></div>
+  {{/* ── URGENCY BAND (full-width) ── */}}
+  <div class="fd-urgency">
+    <div class="fd-urgency-inner">
+      <span class="fd-urgency-icon">&#9888;</span>
+      <div class="fd-urgency-text">
+        <h3>For Urgent Neurological Cases</h3>
+        <p>If your patient presents with rapid neurological deterioration, new seizure with mass on imaging, cauda equina syndrome, or thunderclap headache &mdash; please refer directly to the Emergency Department at KPJ Tawakkal or contact the clinic immediately. Urgent cases are triaged and accommodated as a priority.</p>
+      </div>
+      <div class="fd-urgency-cta">
+        <a href="https://wa.me/{{ .Params.whatsapp_number }}?text=URGENT%20Referral%3A%20" class="fd-urgency-btn">Urgent WhatsApp</a>
+        <div class="fd-urgency-phone">A&amp;E: <a href="tel:{{ .Params.clinic_phone }}">{{ .Params.clinic_phone }}</a></div>
+      </div>
     </div>
   </div>
-</div>
 
-{{/* ── HOW TO REFER ── */}}
-<section id="how-to-refer">
-  <div class="fd-section-label">Referral Process</div>
-  <h2>How to <em>Refer</em></h2>
-  <p>The referral process is designed to be as frictionless as possible. Most referrals are accommodated within a few days; urgent cases within 24–48 hours.</p>
+  {{/* ── HOW TO REFER ── */}}
+  <div class="container">
+    <section class="fd-section" id="how-to-refer">
+      <div class="fd-section-label">Referral Process</div>
+      <h2>How to <em>Refer</em></h2>
+      <p class="fd-section-intro">The referral process is designed to be as frictionless as possible. Most referrals are accommodated within a few days; urgent cases within 24&ndash;48 hours.</p>
 
-  <div class="fd-steps">
-    {{ range .Params.process_steps }}
-    <div class="fd-step">
-      <div class="fd-step-num">{{ .number }}</div>
-      <div class="fd-step-title">{{ .title }}</div>
-      <p class="fd-step-body">{{ .body }}</p>
-    </div>
-    {{ end }}
+      <div class="fd-steps">
+        {{ range .Params.process_steps }}
+        <div class="fd-step">
+          <div class="fd-step-num">{{ .number }}</div>
+          <div class="fd-step-title">{{ .title }}</div>
+          <p class="fd-step-body">{{ .body }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </section>
   </div>
-</section>
 
-{{/* ── REFERRAL TEMPLATE ── */}}
-<section>
-  <div class="fd-section-label">Ready-to-Use</div>
-  <h2>Referral <em>Template</em></h2>
-  <p>Copy and adapt the template below for your WhatsApp message or referral letter. All fields are optional — a brief clinical summary is sufficient to initiate a referral.</p>
+  {{/* ── REFERRAL TEMPLATE ── */}}
+  <div class="container">
+    <section class="fd-section">
+      <div class="fd-section-label">Ready-to-Use</div>
+      <h2>Referral <em>Template</em></h2>
+      <p class="fd-section-intro">Copy and adapt the template below for your WhatsApp message or referral letter. All fields are optional &mdash; a brief clinical summary is sufficient to initiate a referral.</p>
 
-  <div class="fd-template-wrap">
-    <div class="fd-template-box">
-      <div class="fd-template-header">WhatsApp / Email Referral Template</div>
-      <div class="fd-template-text" id="fd-referral-template">Dear Dr Faizal,
+      <div class="fd-template-wrap">
+        <div class="fd-template-box">
+          <div class="fd-template-header">WhatsApp / Email Referral Template</div>
+          <div class="fd-template-text" id="fd-referral-template">Dear Dr Faizal,
 
 I would like to refer the following patient for your assessment:
 
@@ -570,95 +695,106 @@ Urgency:
 Contact for patient: [Phone number]
 
 Thank you.</div>
-      <button class="fd-copy-btn" onclick="fdCopyTemplate()" id="fd-copy-btn">
-        <span>&#128203;</span> Copy Template
-      </button>
-    </div>
+          <button type="button" class="fd-copy-btn" onclick="fdCopyTemplate()" id="fd-copy-btn">
+            <span>&#128203;</span> Copy Template
+          </button>
+        </div>
 
-    <div>
-      <div class="fd-checklist-title">What to Prepare</div>
-      <p class="fd-checklist-sub">Documents to share with Dr Faizal before or at the consultation.</p>
-      {{ range .Params.checklist }}
-      <div class="fd-check-item">
-        <div class="fd-check-box"></div>
         <div>
-          <span class="fd-check-label">{{ .title }}</span>
-          <span class="fd-check-detail">{{ .detail }}</span>
+          <div class="fd-checklist-title">What to Prepare</div>
+          <p class="fd-checklist-sub">Documents to share with Dr Faizal before or at the consultation.</p>
+          {{ range .Params.checklist }}
+          <div class="fd-check-item">
+            <div class="fd-check-box"></div>
+            <div>
+              <span class="fd-check-label">{{ .title }}</span>
+              <span class="fd-check-detail">{{ .detail }}</span>
+            </div>
+          </div>
+          {{ end }}
         </div>
       </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-
-{{/* ── CONTACT ── */}}
-<section>
-  <div class="fd-section-label">Get In Touch</div>
-  <h2>Referral <em>Contacts</em></h2>
-  <p>All referral channels go directly to the clinic team. WhatsApp is the fastest route for routine referrals. For urgent cases, call directly.</p>
-
-  <div class="fd-contact-grid">
-    <div class="fd-channel">
-      <div class="fd-channel-icon">&#128172;</div>
-      <div class="fd-channel-label">WhatsApp (Preferred)</div>
-      <div class="fd-channel-value"><a href="https://wa.me/{{ .Params.whatsapp_number }}">+{{ .Params.whatsapp_number }}</a></div>
-      <div class="fd-channel-note">Fastest response. Routine &amp; urgent referrals.</div>
-    </div>
-    <div class="fd-channel">
-      <div class="fd-channel-icon">&#128222;</div>
-      <div class="fd-channel-label">Clinic Direct Line</div>
-      <div class="fd-channel-value"><a href="tel:{{ .Params.clinic_phone }}">{{ .Params.clinic_phone }}</a></div>
-      <div class="fd-channel-note">Ext {{ .Params.clinic_ext }}. Mon–Fri 9am–4pm, Sat 9am–12pm.</div>
-    </div>
-    <div class="fd-channel">
-      <div class="fd-channel-icon">&#9993;</div>
-      <div class="fd-channel-label">Email</div>
-      <div class="fd-channel-value"><a href="mailto:{{ .Site.Params.clinic_email }}">{{ .Site.Params.clinic_email }}</a></div>
-      <div class="fd-channel-note">For referral letters &amp; imaging reports.</div>
-    </div>
-    <div class="fd-channel">
-      <div class="fd-channel-icon">&#127760;</div>
-      <div class="fd-channel-label">Online Booking</div>
-      <div class="fd-channel-value"><a href="{{ .Params.booking_url }}" target="_blank" rel="noopener">KPJ Health Portal</a></div>
-      <div class="fd-channel-note">Self-referral or patient-initiated booking.</div>
-    </div>
+    </section>
   </div>
 
-  <div class="fd-hours">
-    <div class="fd-hours-label">Clinic Hours</div>
-    {{ range .Params.clinic_hours }}
-    <div class="fd-hours-row">
-      <span class="fd-hours-day">{{ .day }}</span>
-      <span class="fd-hours-time">{{ .hours }}</span>
-    </div>
-    {{ end }}
-  </div>
-</section>
+  {{/* ── CONTACT ── */}}
+  <div class="container">
+    <section class="fd-section">
+      <div class="fd-section-label">Get In Touch</div>
+      <h2>Referral <em>Contacts</em></h2>
+      <p class="fd-section-intro">All referral channels go directly to the clinic team. WhatsApp is the fastest route for routine referrals. For urgent cases, call directly.</p>
 
-{{/* ── WHY REFER ── */}}
-<section>
-  <div class="fd-section-label">For Your Confidence</div>
-  <h2>Why Colleagues <em>Refer</em> to Dr Nor Faizal</h2>
+      <div class="fd-contact-layout">
+        <div class="fd-contact-grid">
+          <div class="fd-channel">
+            <div class="fd-channel-icon">&#128172;</div>
+            <div class="fd-channel-label">WhatsApp (Preferred)</div>
+            <div class="fd-channel-value"><a href="https://wa.me/{{ .Params.whatsapp_number }}">+{{ .Params.whatsapp_number }}</a></div>
+            <div class="fd-channel-note">Fastest response. Routine &amp; urgent referrals.</div>
+          </div>
+          <div class="fd-channel">
+            <div class="fd-channel-icon">&#128222;</div>
+            <div class="fd-channel-label">Clinic Direct Line</div>
+            <div class="fd-channel-value"><a href="tel:{{ .Params.clinic_phone }}">{{ .Params.clinic_phone }}</a></div>
+            <div class="fd-channel-note">Ext {{ .Params.clinic_ext }}. Mon&ndash;Fri 9am&ndash;4pm, Sat 9am&ndash;12pm.</div>
+          </div>
+          <div class="fd-channel">
+            <div class="fd-channel-icon">&#9993;</div>
+            <div class="fd-channel-label">Email</div>
+            <div class="fd-channel-value"><a href="mailto:{{ .Site.Params.clinic_email }}">{{ .Site.Params.clinic_email }}</a></div>
+            <div class="fd-channel-note">For referral letters &amp; imaging reports.</div>
+          </div>
+          <div class="fd-channel">
+            <div class="fd-channel-icon">&#127760;</div>
+            <div class="fd-channel-label">Online Booking</div>
+            <div class="fd-channel-value"><a href="{{ .Params.booking_url }}" target="_blank" rel="noopener">KPJ Health Portal</a></div>
+            <div class="fd-channel-note">Self-referral or patient-initiated booking.</div>
+          </div>
+        </div>
 
-  <div class="fd-why-grid">
-    {{ range .Params.why_refer }}
-    <div class="fd-why-item">
-      <div class="fd-why-title">{{ .title }}</div>
-      <p class="fd-why-body">{{ .body }}</p>
-    </div>
-    {{ end }}
+        <div class="fd-hours-card">
+          <div class="fd-hours-heading">Clinic Hours</div>
+          {{ range .Params.clinic_hours }}
+          <div class="fd-hours-row">
+            <span class="fd-hours-day">{{ .day }}</span>
+            <span class="fd-hours-time">{{ .hours }}</span>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
   </div>
-</section>
 
-{{/* ── MARKDOWN BODY (template + location from .Content) ── */}}
-{{- if .Content -}}
-<section>
-  <div class="fd-section-label">Additional Information</div>
-  <div class="prose">
-    {{- .Content -}}
+  {{/* ── WHY REFER ── */}}
+  <div class="container">
+    <section class="fd-section">
+      <div class="fd-section-label">For Your Confidence</div>
+      <h2>Why Colleagues <em>Refer</em> to Dr Nor Faizal</h2>
+
+      <div class="fd-why-grid">
+        {{ range .Params.why_refer }}
+        <div class="fd-why-item">
+          <div class="fd-why-title">{{ .title }}</div>
+          <p class="fd-why-body">{{ .body }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </section>
   </div>
-</section>
-{{- end -}}
+
+  {{/* ── MARKDOWN BODY ── */}}
+  {{- if .Content -}}
+  <div class="container">
+    <section class="fd-section">
+      <div class="fd-section-label">Additional Information</div>
+      <div class="prose">
+        {{- .Content -}}
+      </div>
+    </section>
+  </div>
+  {{- end -}}
+
+</div>{{/* end .fd-page */}}
 
 {{/* ── WHATSAPP FLOAT ── */}}
 <a href="https://wa.me/{{ .Params.whatsapp_number }}?text=Referral%20Enquiry%3A%20" class="fd-wa-float" target="_blank" rel="noopener" aria-label="WhatsApp referral enquiry">
