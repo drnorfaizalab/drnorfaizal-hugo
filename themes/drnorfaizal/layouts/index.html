@@ -85,7 +85,7 @@
         <a href="{{ "/about" | relLangURL }}" class="btn btn-primary">{{ if eq .Lang "bm" }}Kenali Dr Nor Faizal{{ else }}Meet Dr Nor Faizal{{ end }}</a>
       </div>
       <div class="about-image">
-        <img src="/profile.jpg" alt="Dr Nor Faizal Ahmad Bahuri" class="about-photo">
+        <img src="/profile.jpg" alt="Dr Nor Faizal Ahmad Bahuri" class="about-photo" width="853" height="1280" fetchpriority="high">
       </div>
     </div>
   </div>
@@ -141,7 +141,7 @@
           </div>
           <h3 class="blog-preview-title">{{ .Title }}</h3>
           {{ with .Params.description }}<p class="blog-preview-desc">{{ . | truncate 120 }}</p>{{ end }}
-          <a href="{{ .RelPermalink }}" class="blog-preview-link">{{ if eq $.Lang "bm" }}Baca →{{ else }}Read →{{ end }}</a>
+          <a href="{{ .RelPermalink }}" class="blog-preview-link" aria-label="{{ if eq $.Lang "bm" }}Baca: {{ .Title }}{{ else }}Read: {{ .Title }}{{ end }}">{{ if eq $.Lang "bm" }}Baca →{{ else }}Read →{{ end }}</a>
         </div>
         {{ end }}
       {{ end }}
