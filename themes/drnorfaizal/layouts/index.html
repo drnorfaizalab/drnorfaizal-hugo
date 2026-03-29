@@ -169,7 +169,7 @@
   </div>
 </section>
 
-<!-- Latest Thinking — Blog Preview -->
+<!-- Latest Thinking — Insights Carousel -->
 <section class="section-alt">
   <div class="container">
     <div class="section-header text-center">
@@ -177,22 +177,75 @@
       <p class="text-gray">{{ if eq .Lang "bm" }}Sains otak. Pandangan klinikal. Terus terang.{{ else }}Brain science. Clinical insight. Straight talk.{{ end }}</p>
     </div>
 
-    <div class="grid grid-3">
-      {{ $blog := .Site.GetPage "blog" }}
-      {{ if $blog }}
-        {{ range first 3 ($blog.RegularPages.ByDate.Reverse) }}
-        <div class="blog-preview-card">
-          <div class="blog-preview-meta">
-            <span class="blog-preview-date">{{ .Date.Format "2 Jan 2006" }}</span>
-            {{ with index .Params.categories 0 }}<span class="badge badge-sm">{{ . }}</span>{{ end }}
+    {{ $insights := .Site.GetPage "insights" }}
+    {{ if $insights }}
+    {{ $latestInsights := first 3 ($insights.RegularPages.ByDate.Reverse) }}
+    <div class="insight-preview-carousel-wrap">
+      <button type="button" class="carousel-btn insight-carousel-prev" aria-label="{{ if eq .Lang "bm" }}Renungan sebelumnya{{ else }}Previous insight{{ end }}">&#8249;</button>
+      <div class="insight-preview-carousel" id="insightCarousel">
+        {{ range $latestInsights }}
+        <div class="insight-preview-card">
+          {{ with .Resources.GetMatch "hero.*" }}
+          <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="insight-preview-img" loading="lazy">
+          {{ end }}
+          <div class="insight-preview-body">
+            <div class="blog-preview-meta">
+              <span class="blog-preview-date">{{ .Date.Format "2 Jan 2006" }}</span>
+              {{ with index .Params.categories 0 }}<span class="badge badge-sm">{{ . }}</span>{{ end }}
+            </div>
+            <h3 class="blog-preview-title">{{ .Title }}</h3>
+            {{ with .Params.description }}<p class="blog-preview-desc">{{ . | truncate 140 }}</p>{{ end }}
+            <a href="{{ .RelPermalink }}" class="blog-preview-link" aria-label="{{ if eq $.Lang "bm" }}Baca: {{ .Title }}{{ else }}Read: {{ .Title }}{{ end }}">{{ if eq $.Lang "bm" }}Baca →{{ else }}Read →{{ end }}</a>
           </div>
-          <h3 class="blog-preview-title">{{ .Title }}</h3>
-          {{ with .Params.description }}<p class="blog-preview-desc">{{ . | truncate 120 }}</p>{{ end }}
-          <a href="{{ .RelPermalink }}" class="blog-preview-link" aria-label="{{ if eq $.Lang "bm" }}Baca: {{ .Title }}{{ else }}Read: {{ .Title }}{{ end }}">{{ if eq $.Lang "bm" }}Baca →{{ else }}Read →{{ end }}</a>
         </div>
         {{ end }}
+      </div>
+      <button type="button" class="carousel-btn insight-carousel-next" aria-label="{{ if eq .Lang "bm" }}Renungan seterusnya{{ else }}Next insight{{ end }}">&#8250;</button>
+    </div>
+
+    <div class="carousel-dots" id="insightDots">
+      {{ range $i, $p := $latestInsights }}
+      <button type="button" class="carousel-dot{{ if eq $i 0 }} active{{ end }}" aria-label="{{ if eq $.Lang "bm" }}Renungan {{ add $i 1 }}{{ else }}Insight {{ add $i 1 }}{{ end }}"></button>
       {{ end }}
     </div>
+
+    <script>
+    (function () {
+      var carousel = document.getElementById('insightCarousel');
+      var dots = document.querySelectorAll('#insightDots .carousel-dot');
+      var prevBtn = document.querySelector('.insight-carousel-prev');
+      var nextBtn = document.querySelector('.insight-carousel-next');
+      if (!carousel) return;
+
+      function cardWidth() {
+        var card = carousel.querySelector('.insight-preview-card');
+        return card ? card.offsetWidth : 0;
+      }
+
+      prevBtn.addEventListener('click', function () {
+        carousel.scrollBy({ left: -cardWidth(), behavior: 'smooth' });
+      });
+
+      nextBtn.addEventListener('click', function () {
+        carousel.scrollBy({ left: cardWidth(), behavior: 'smooth' });
+      });
+
+      dots.forEach(function (dot, i) {
+        dot.addEventListener('click', function () {
+          carousel.scrollTo({ left: i * cardWidth(), behavior: 'smooth' });
+        });
+      });
+
+      carousel.addEventListener('scroll', function () {
+        var w = cardWidth();
+        var index = w ? Math.round(carousel.scrollLeft / w) : 0;
+        dots.forEach(function (d, i) {
+          d.classList.toggle('active', i === index);
+        });
+      }, { passive: true });
+    })();
+    </script>
+    {{ end }}
 
     <div class="section-footer-cta text-center">
       <a href="{{ "/insights/" | relLangURL }}" class="btn btn-primary">{{ if eq .Lang "bm" }}Semua Renungan{{ else }}All Insights{{ end }}</a>

@@ -228,6 +228,16 @@ ENGLISH POST:
 """
 
 
+def strip_code_fence(text: str) -> str:
+    """Remove wrapping ```markdown or ``` fences Claude sometimes adds."""
+    text = text.strip()
+    if text.startswith("```"):
+        text = text[text.index("\n") + 1:]
+    if text.endswith("```"):
+        text = text[:text.rindex("```")].rstrip()
+    return text
+
+
 def call_claude(client: anthropic.Anthropic, prompt: str) -> str:
     """Streaming API call — avoids timeout on long posts, returns full text."""
     with client.messages.stream(
@@ -239,7 +249,7 @@ def call_claude(client: anthropic.Anthropic, prompt: str) -> str:
         for text in stream.text_stream:
             print(text, end="", flush=True)
         print()  # newline after streaming
-        return stream.get_final_message().content[0].text
+        return strip_code_fence(stream.get_final_message().content[0].text)
 
 
 def process_draft(slug: str, dry_run: bool = False) -> None:

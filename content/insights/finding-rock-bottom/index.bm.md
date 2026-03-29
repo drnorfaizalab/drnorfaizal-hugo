@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "Mencari Titik Terbawah"
 date: 2026-03-30T00:15:21+08:00
@@ -76,4 +75,3 @@ Dan bila anda dah sedia nak uruskan bahagian yang perubatan *boleh* bantu — ke
 *Kalau anda sedang bergelut dengan kesakitan kronik atau masalah neurologi dan perlukan seseorang yang nampak gambaran penuh, bukan sekadar imbasan — hubungi saya.*
 
 **[Buat Temujanji →](/contact)**
-```
