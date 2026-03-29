@@ -99,18 +99,65 @@
       <p class="text-gray">{{ if eq .Lang "bm" }}Pengalaman sebenar dari mereka yang telah dipercayai Dr Nor Faizal.{{ else }}Real experiences from those who've trusted Dr Nor Faizal with their care.{{ end }}</p>
     </div>
 
-    <div class="testimonial-grid">
-      {{ range .Site.Data.testimonials }}
-      <div class="testimonial-card">
-        <div class="star-rating">{{ range seq .stars }}★{{ end }}</div>
-        <p class="testimonial-quote">"{{ if and (eq $.Lang "bm") .bm }}{{ .bm }}{{ else }}{{ .en }}{{ end }}"</p>
-        <div class="testimonial-footer">
-          <strong>{{ .name }}</strong>
-          <span class="badge badge-review">✓ {{ if eq $.Lang "bm" }}Ulasan Google{{ else }}Google Review{{ end }}</span>
+    <div class="testimonial-carousel-wrap">
+      <button type="button" class="carousel-btn carousel-prev" aria-label="Previous testimonial">&#8249;</button>
+      <div class="testimonial-carousel" id="testimonialCarousel">
+        {{ range .Site.Data.testimonials }}
+        <div class="testimonial-card">
+          <div class="star-rating">{{ range seq .stars }}★{{ end }}</div>
+          <p class="testimonial-quote">"{{ if and (eq $.Lang "bm") .bm }}{{ .bm }}{{ else }}{{ .en }}{{ end }}"</p>
+          <div class="testimonial-footer">
+            <strong>{{ .name }}</strong>
+            <span class="badge badge-review">✓ {{ if eq $.Lang "bm" }}Ulasan Google{{ else }}Google Review{{ end }}</span>
+          </div>
         </div>
+        {{ end }}
       </div>
+      <button type="button" class="carousel-btn carousel-next" aria-label="Next testimonial">&#8250;</button>
+    </div>
+
+    <div class="carousel-dots" id="testimonialDots">
+      {{ range $i, $t := .Site.Data.testimonials }}
+      <button type="button" class="carousel-dot{{ if eq $i 0 }} active{{ end }}" aria-label="Testimonial {{ add $i 1 }}"></button>
       {{ end }}
     </div>
+
+    <script>
+    (function () {
+      var carousel = document.getElementById('testimonialCarousel');
+      var dots = document.querySelectorAll('#testimonialDots .carousel-dot');
+      var prevBtn = document.querySelector('.carousel-prev');
+      var nextBtn = document.querySelector('.carousel-next');
+      if (!carousel) return;
+
+      function cardWidth() {
+        var card = carousel.querySelector('.testimonial-card');
+        return card ? card.offsetWidth : 0;
+      }
+
+      prevBtn.addEventListener('click', function () {
+        carousel.scrollBy({ left: -cardWidth(), behavior: 'smooth' });
+      });
+
+      nextBtn.addEventListener('click', function () {
+        carousel.scrollBy({ left: cardWidth(), behavior: 'smooth' });
+      });
+
+      dots.forEach(function (dot, i) {
+        dot.addEventListener('click', function () {
+          carousel.scrollTo({ left: i * cardWidth(), behavior: 'smooth' });
+        });
+      });
+
+      carousel.addEventListener('scroll', function () {
+        var w = cardWidth();
+        var index = w ? Math.round(carousel.scrollLeft / w) : 0;
+        dots.forEach(function (d, i) {
+          d.classList.toggle('active', i === index);
+        });
+      }, { passive: true });
+    })();
+    </script>
 
     <div class="testimonial-cta text-center">
       <p class="text-gray">{{ if eq .Lang "bm" }}Ada pengalaman bersama Dr Nor Faizal?{{ else }}Had a consultation with Dr Nor Faizal?{{ end }}</p>
