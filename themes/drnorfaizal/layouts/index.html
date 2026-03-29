@@ -184,10 +184,11 @@
       <button type="button" class="carousel-btn insight-carousel-prev" aria-label="{{ if eq .Lang "bm" }}Renungan sebelumnya{{ else }}Previous insight{{ end }}">&#8249;</button>
       <div class="insight-preview-carousel" id="insightCarousel">
         {{ range $latestInsights }}
+        {{ $imgSrc := "/images/insights/insights-default.jpg" }}
+        {{ with .Resources.GetMatch "hero.*" }}{{ $imgSrc = .RelPermalink }}{{ end }}
+        {{ if and (eq $imgSrc "/images/insights/insights-default.jpg") .Params.image }}{{ $imgSrc = .Params.image }}{{ end }}
         <div class="insight-preview-card">
-          {{ with .Resources.GetMatch "hero.*" }}
-          <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="insight-preview-img" loading="lazy">
-          {{ end }}
+          <img src="{{ $imgSrc }}" alt="{{ .Title }}" class="insight-preview-img" loading="lazy">
           <div class="insight-preview-body">
             <div class="blog-preview-meta">
               <span class="blog-preview-date">{{ .Date.Format "2 Jan 2006" }}</span>

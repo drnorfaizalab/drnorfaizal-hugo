@@ -8,6 +8,7 @@ categories: ["Sakit Muka", "Patient Education"]
 tags: ["Trigeminal Neuralgia", "bedah saraf", "pendidikan pesakit", "video", "youtube"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 show_appointment_button: true
+image: "/images/insights/insights-default.jpg"
 ---
 
 ## Tonton: Salur Darah Yang Menekan Saraf

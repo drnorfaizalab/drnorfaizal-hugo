@@ -16,6 +16,7 @@ tags: ["disiplin", "Oxford", "pembedahan saraf", "mindset"]
 
 # Content settings
 toc: true  # Table of contents
+image: "/images/insights/IMG_3621.JPG"
 ---
 
 ## Ilusi Seorang Genius

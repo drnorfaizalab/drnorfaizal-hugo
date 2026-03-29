@@ -7,7 +7,7 @@ type: "blog"
 categories: ["Pengurusan Kesakitan", "Neurologi"]
 tags: ["migrain", "sakit kepala", "bendera merah", "tumor otak", "sakit kepala thunderclap"]
 author: "Dr Nor Faizal Ahmad Bahuri"
-image: "/images/blog/migraine-red-flags.png"
+image: "/images/insights/migraine-red-flags.png"
 ---
 
 # Migrain vs Tumor Otak: Bendera Merah yang Tidak Harus Anda Abaikan

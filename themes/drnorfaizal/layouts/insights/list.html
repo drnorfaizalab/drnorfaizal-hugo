@@ -55,8 +55,11 @@
       {{/* --- Social platform indicator --- */}}
       {{ $platform := .Params.social_platform | default "" }}
 
+      {{ $imgSrc := "/images/insights/insights-default.jpg" }}
+      {{ with .Resources.GetMatch "hero.*" }}{{ $imgSrc = .RelPermalink }}{{ end }}
+      {{ if and (eq $imgSrc "/images/insights/insights-default.jpg") .Params.image }}{{ $imgSrc = .Params.image }}{{ end }}
       <div class="card blog-card" data-type="{{ $section }}">
-        {{ with .Params.image }}<img src="{{ . }}" alt="{{ $.Title }}" class="insight-card-img">{{ end }}
+        <img src="{{ $imgSrc }}" alt="{{ .Title }}" class="insight-card-img" loading="lazy">
         <div class="insight-card-meta">
           <span class="badge">{{ $badgeLabel }}</span>
           {{ if eq $platform "youtube" }}

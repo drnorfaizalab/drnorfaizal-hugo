@@ -6,7 +6,7 @@ author: "Dr Nor Faizal Ahmad Bahuri"
 categories: ["Kehidupan & Renungan"]
 tags: ["ketahanan", "kesihatan-mental", "tujuan-hidup", "keluarga", "burnout"]
 description: "Bila hidup tarik segala-galanya — kesihatan, kewangan, hala tuju — langkah pertama ke depan bermula dengan berhenti seketika. Dr Nor Faizal tentang jatuh tersungkur, berkumpul semula, dan orang-orang yang pegang kita teguh."
-image: "hero.jpg"
+image: "/images/insights/insights-default.jpg"
 imageAlt: "Satu detik senyap untuk merenung — seorang lelaki berhenti seketika untuk mengumpul diri sebelum melangkah ke hadapan"
 seo:
   focusKeyword: "mencari diri sendiri bila sesat dalam hidup"

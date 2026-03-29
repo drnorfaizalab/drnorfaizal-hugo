@@ -7,6 +7,7 @@ social_platform: "instagram"
 categories: ["Behind the Scenes", "Patient Education"]
 tags: ["bedah saraf", "instagram", "di sebalik tabir", "bilik bedah", "kehidupan perubatan"]
 author: "Dr Nor Faizal Ahmad Bahuri"
+image: "/images/insights/photo-output.jpg"
 ---
 
 ## Di Sebalik Skrab — Bedah Saraf Dari Dekat

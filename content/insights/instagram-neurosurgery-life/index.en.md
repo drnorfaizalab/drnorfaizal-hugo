@@ -7,6 +7,7 @@ social_platform: "instagram"
 categories: ["Behind the Scenes", "Patient Education"]
 tags: ["neurosurgery", "instagram", "behind the scenes", "operating theatre", "medical life"]
 author: "Dr Nor Faizal Ahmad Bahuri"
+image: "/images/insights/photo-output.jpg"
 ---
 
 ## Behind the Scrubs — Neurosurgery Up Close

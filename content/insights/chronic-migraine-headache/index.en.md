@@ -8,6 +8,7 @@ categories: ["Patient Guides"]
 tags: ["migraine", "headache", "chronic pain", "neuro-oncology", "red flags"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 pdf_available: false
+image: "/images/insights/IMG_3620.JPG"
 ---
 
 # Clinical Management of Chronic Migraine & Headache

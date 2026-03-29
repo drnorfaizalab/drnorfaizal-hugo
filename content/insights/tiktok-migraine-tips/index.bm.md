@@ -7,6 +7,7 @@ social_platform: "tiktok"
 categories: ["Headache & Migraine", "Patient Education"]
 tags: ["migrain", "sakit kepala", "tanda bahaya", "neurologi", "tiktok", "video"]
 author: "Dr Nor Faizal Ahmad Bahuri"
+image: "/images/insights/insights-default.jpg"
 ---
 
 ## 3 Tanda Bahaya Migrain — Tonton Sebelum Anda Abaikan Sakit Kepala Itu

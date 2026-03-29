@@ -6,7 +6,7 @@ author: "Dr Nor Faizal Ahmad Bahuri"
 categories: ["Life & Reflection"]
 tags: ["resilience", "mental-health", "purpose", "family", "burnout"]
 description: "When life strips everything away — health, finances, direction — the way forward starts with a pause. Dr Nor Faizal on rock bottom, regrouping, and the people who hold you steady."
-image: "hero.jpg"
+image: "/images/insights/insights-default.jpg"
 imageAlt: "A quiet moment of reflection — a man pausing to gather himself before moving forward"
 seo:
   focusKeyword: "finding yourself when lost in life"

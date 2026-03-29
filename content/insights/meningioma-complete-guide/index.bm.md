@@ -8,7 +8,7 @@ type: "blog"
 categories: ["Neuro-onkologi", "Ketumbuhan Otak"]
 tags: ["meningioma", "ketumbuhan otak", "pembedahan saraf", "kraniotomi", "Simpson Grade"]
 author: "Dr Nor Faizal Ahmad Bahuri"
-image: "/images/blog/meningioma-guide.png"
+image: "/images/insights/meningioma-guide.png"
 ---
 
 # Meningioma: Panduan Lengkap Untuk Anda

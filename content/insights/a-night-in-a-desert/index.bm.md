@@ -5,6 +5,7 @@ date: 2026-03-29
 draft: false
 categories: ["Personal"]
 tags: ["mindset", "Oxford", "neurosurgery"]
+image: "/images/insights/20250629_Cine0404T01.JPG"
 ---
 
 48 bulan. Tiada rehat sebenar. Kemudian saya pergi ke Sahara — bukan untuk lari, tapi sebab saya perlu berhenti dan dengar diri sendiri semula.

@@ -7,6 +7,7 @@ social_platform: "youtube"
 categories: ["Neurooncology", "Patient Education"]
 tags: ["brain tumour", "neurosurgery", "patient education", "video", "youtube"]
 author: "Dr Nor Faizal Ahmad Bahuri"
+image: "/images/insights/insights-default.jpg"
 ---
 
 ## Watch: Brain Tumours Explained

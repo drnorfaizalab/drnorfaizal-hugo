@@ -8,7 +8,7 @@ type: "blog"
 categories: ["Neurooncology", "Brain Tumours"]
 tags: ["meningioma", "brain tumour", "neurosurgery", "craniotomy", "Simpson Grade"]
 author: "Dr Nor Faizal Ahmad Bahuri"
-image: "/images/blog/meningioma-guide.png"
+image: "/images/insights/meningioma-guide.png"
 ---
 
 # Meningioma: A Comprehensive Clinical Guide for Patients

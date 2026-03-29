@@ -7,7 +7,7 @@ type: "blog"
 categories: ["Pengurusan Kesakitan", "Diagnosis"]
 tags: ["kesakitan kronik", "sakit kepala", "diagnosis", "kesakitan neuropatik", "tanda bahaya"]
 author: "Dr Nor Faizal Ahmad Bahuri"
-image: "/images/blog/pain-diagnosis.png"
+image: "/images/insights/pain-diagnosis.png"
 ---
 
 # Sakit Anda Mungkin Petunjuk Diagnosis

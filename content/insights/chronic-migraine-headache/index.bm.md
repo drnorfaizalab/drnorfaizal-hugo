@@ -8,6 +8,7 @@ categories: ["Panduan Pesakit"]
 tags: ["migrain", "sakit kepala", "sakit kronik", "tanda bahaya", "rawatan migrain"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 pdf_available: false
+image: "/images/insights/IMG_3620.JPG"
 ---
 
 # Migrain Kronik & Sakit Kepala: Bila Anda Perlu Risau?

@@ -7,7 +7,7 @@ type: "blog"
 categories: ["Personal", "Medical Excellence"]
 tags: ["Oxford", "neurosurgery training", "precision surgery", "Malaysia neurosurgeon", "fellowship"]
 author: "Dr Nor Faizal Ahmad Bahuri"
-image: "/images/blog/oxford-journey.png"
+image: "/images/insights/oxford-journey.png"
 ---
 
 There is a moment every surgeon remembers: the first time you understand that this is not merely technical work. That the instrument in your hand, held at a particular angle, is the difference between a life reclaimed and a life diminished. For me, that moment crystallised in Oxford — watching a consultant navigate an eloquent cortex tumour with a patience and economy of movement that seemed to slow time itself.

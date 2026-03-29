@@ -16,6 +16,7 @@ tags: ["discipline", "Oxford", "neurosurgery", "mindset"]
 
 # Content settings
 toc: true  # Table of contents
+image: "/images/insights/IMG_3621.JPG"
 ---
 
 ## The Illusion of Genius
