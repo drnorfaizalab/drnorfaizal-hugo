@@ -1,0 +1,64 @@
+# ============================================================
+#  DR FAIZAL — INSIGHT DRAFT
+#  Fill in every field. Leave a field blank if unsure.
+#  Run:  python new_insight.py --process --slug finding-rock-bottom
+#  to let Claude process this into polished EN + BM posts.
+# ============================================================
+
+metadata:
+  title_en: "Finding Rock Bottom"           # English title (punchy, human, < 70 chars)
+  title_bm: ""           # Bahasa title (leave blank — Claude will suggest)
+  date: "2026-03-29"         # Publication date (YYYY-MM-DD)
+  author: "Dr Nor Faizal Ahmad Bahuri"
+  categories:
+    - ""                 # e.g. Pain Management | Neuro-Oncology | Headache | Spine
+  tags:
+    - ""                 # e.g. migraine, spinal-cord-stimulation, brain-tumour
+  summary_en: ""         # 1–2 sentence teaser for EN (leave blank — Claude will write)
+  summary_bm: ""         # 1–2 sentence teaser for BM (leave blank — Claude will write)
+
+  # SEO
+  seo_focus_keyword: ""  # Single keyword phrase, e.g. "chronic back pain Malaysia"
+  canonical_url: ""      # Leave blank unless republishing from elsewhere
+
+  # Social / OG
+  og_image: ""           # Filename in this folder, e.g. hero.jpg
+  og_image_alt: ""       # Describe the image for accessibility
+
+  # Referral / CTA
+  cta_type: "appointment"     # appointment | whatsapp | download | none
+  cta_label_en: "Book a Consultation"
+  cta_label_bm: "Buat Temujanji"
+
+# ------------------------------------------------------------
+#  YOUR RAW THOUGHTS
+#  Write freely — bullet points, fragments, Manglish, BM, EN.
+#  Claude will restructure and polish. Do NOT over-write here.
+# ------------------------------------------------------------
+
+raw_thoughts: |
+  This is about finding self when we are lost in life.
+
+  Everyone will encounter this phase in life. Either as a challenge in finance, health, relationship, or purpose.
+
+  We have to take a break. Step back. Pause. Let other things go and keep what is the most precious to you. As for me, my family first. 
+
+  Family won't give up on each other. They connect and build one another, covers each others weakness and uses the strength as a unit. 
+
+  If you are lost, take a break. Huddle, regroup. restrategise. You need oxygen to move forward. Then execute the plan to the details. 
+
+# ------------------------------------------------------------
+#  PHOTOS IN THIS FOLDER
+#  List filenames and describe each one briefly.
+# ------------------------------------------------------------
+
+photos:
+  - file: ""
+    caption_en: ""
+    caption_bm: ""
+
+# ------------------------------------------------------------
+#  INTERNAL NOTES (not published)
+# ------------------------------------------------------------
+notes: |
+  (optional: draft deadline, source papers, procedure codes, etc.)

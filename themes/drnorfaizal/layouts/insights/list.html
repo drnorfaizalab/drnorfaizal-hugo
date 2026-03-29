@@ -32,10 +32,10 @@
     </div>
 
     <div class="grid grid-3" id="blog-grid">
-      {{ range .Pages }}
+      {{ range .Pages.ByDate.Reverse }}
 
       {{/* --- Classify each post into Brain / Head / Pain / Story --- */}}
-      {{ $combined := printf "%s %s" (delimit .Params.categories " ") (delimit .Params.tags " ") | lower }}
+      {{ $combined := printf "%s %s" (delimit (default slice .Params.categories) " ") (delimit (default slice .Params.tags) " ") | lower }}
       {{ $section := "brain" }}
       {{ if or (strings.Contains $combined "personal") (strings.Contains $combined "philosoph") (strings.Contains $combined "oxford") (strings.Contains $combined "mindset") (strings.Contains $combined "behind the scenes") }}
         {{ $section = "story" }}

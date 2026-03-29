@@ -1,0 +1,9 @@
+{{/* cta shortcode
+  Usage: {{< cta type="appointment" label="Book Now" url="/contact" >}}
+  type: appointment | contact (controls button style; currently all use btn-cta)
+*/}}
+{{ $label := .Get "label" | default "Book Appointment" }}
+{{ $url   := .Get "url"   | default "/contact" }}
+<div class="shortcode-cta text-center" style="margin: 2rem 0;">
+  <a href="{{ $url | relLangURL }}" class="btn btn-cta">{{ $label }}</a>
+</div>

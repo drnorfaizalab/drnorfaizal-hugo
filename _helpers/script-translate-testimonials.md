@@ -1,7 +1,7 @@
 # Script: translate_testimonials.py
 
 **File:** `scripts/translate_testimonials.py`
-**Purpose:** Auto-translate missing Bahasa Malaysia (`bm`) fields in `data/testimonials.yaml` using Google Translate.
+**Purpose:** Auto-translate missing Bahasa Malaysia (`bm`) fields in `data/testimonials.yaml` using the Claude API.
 
 ---
 
@@ -19,7 +19,7 @@ Run from the project root (`drnorfaizal-hugo/`).
 
 1. Opens `data/testimonials.yaml`
 2. Scans every entry for a missing `bm` field
-3. Translates the `en` field from English → Bahasa Malaysia via Google Translate
+3. Translates the `en` field from English → Bahasa Malaysia via Claude
 4. Writes the translated `bm` field back into the YAML file
 5. Skips entries that already have a `bm` value — safe to re-run
 
@@ -27,10 +27,14 @@ Run from the project root (`drnorfaizal-hugo/`).
 
 ## Requirements
 
-Install Python dependencies once:
-
 ```bash
-pip install pyyaml deep-translator
+pip install anthropic python-dotenv pyyaml
+```
+
+Add your API key to `.env` at the project root:
+
+```env
+ANTHROPIC_API_KEY=sk-ant-...
 ```
 
 ---
@@ -53,7 +57,7 @@ python scripts/translate_testimonials.py
 # Done. 1 translation(s) added to data/testimonials.yaml
 ```
 
-The carousel on the homepage will pick up the new entry automatically — dots and cards update without any code changes.
+The carousel on the homepage will pick up the new entry automatically.
 
 ---
 
@@ -70,6 +74,7 @@ The carousel on the homepage will pick up the new entry automatically — dots a
 
 ## Notes
 
-- Google Translate is used via the `deep-translator` library — no API key required for basic use.
-- Always skim the translated `bm` text after running — machine translation can be imprecise for medical language.
+- Claude translates in modern, conversational Bahasa — not formal government language.
+- Medical terms without a natural Bahasa equivalent are kept in English.
 - The script never overwrites an existing `bm` field, so manual translations are safe.
+- Always skim the translated `bm` text after running — review for tone and accuracy.
