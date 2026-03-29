@@ -10,8 +10,6 @@ weight: 1
 type: "blog"
 
 # Post-specific metadata
-image: "/images/blog-featured-image.jpg"
-imageAlt: "Image description for accessibility"
 author: "Dr Nor Faizal Ahmad Bahuri"
 categories: ["Philosophy", "Medical Excellence", "Personal"]
 tags: ["discipline", "Oxford", "neurosurgery", "mindset"]

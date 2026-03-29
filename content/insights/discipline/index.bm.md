@@ -10,8 +10,6 @@ weight: 1
 type: "blog"
 
 # Post-specific metadata
-image: "/images/blog-featured-image.jpg"
-imageAlt: "Dr Nor Faizal memakai baju scrub batik"
 author: "Dr Nor Faizal Ahmad Bahuri"
 categories: ["Falsafah", "Kecemerlangan Perubatan", "Peribadi"]
 tags: ["disiplin", "Oxford", "pembedahan saraf", "mindset"]
