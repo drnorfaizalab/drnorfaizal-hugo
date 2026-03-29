@@ -19,6 +19,8 @@ theme = "drnorfaizal"
   description = "Oxford-trained Neurosurgeon & Interventional Pain Specialist. Expert in brain & spinal tumour surgery, neurooncology, and minimally invasive pain management."
   defaultMetaDescription = "Expert neurooncology and pain management specialist. Brain & spinal tumour surgery. Oxford-trained. Precision care."
   keywords = "neurosurgeon, neurooncology, brain tumour, spinal tumour, pain management, Malaysia"
+
+  # -- Language-specific Identity & SEO: see [languages.en.params] and [languages.bm.params] --
   
   # -- Contact Information --
   clinic_name = "Tawakkal Specialist Hospital"
@@ -50,7 +52,12 @@ theme = "drnorfaizal"
     languageName = "English"
     weight = 1
     homePageTitle = "Consultant Neurosurgeon & Pain Specialist | Dr Nor Faizal | Brain - Head - Pain"
-    
+
+    [languages.en.params]
+      description = "Oxford-trained Consultant Neurosurgeon & Interventional Pain Specialist practising in Kuala Lumpur. Expert in brain tumours, spinal surgery, and chronic pain management."
+      defaultMetaDescription = "Expert neurosurgeon in brain & spinal tumour surgery, neurooncology, and interventional pain management. Oxford-trained. Practising at KPJ Tawakkal, Kuala Lumpur."
+      keywords = "neurosurgeon Malaysia, neurooncology, brain tumour surgery, spinal surgery, interventional pain management, chronic pain, Kuala Lumpur"
+
     [[languages.en.menus.main]]
       identifier = "about"
       name = "About"
@@ -84,7 +91,12 @@ theme = "drnorfaizal"
   [languages.bm]
     languageName = "Bahasa"
     weight = 2
-    homePageTitle = "Pakar Bedah Saraf & Otak, Pain Specialist | Dr Nor Faizal | Otak - Kepala - Sakit"
+    homePageTitle = "Pakar Runding Bedah Saraf & Intervensi Kesakitan | Dr Nor Faizal | Otak - Kepala - Kesakitan"
+
+    [languages.bm.params]
+      description = "Pakar Runding Bedah Saraf & Intervensi Kesakitan berkelayakan Oxford, berkhidmat di Kuala Lumpur. Pakar dalam pembedahan tumor otak, tulang belakang, dan pengurusan kesakitan kronik."
+      defaultMetaDescription = "Pakar bedah saraf dalam pembedahan tumor otak & tulang belakang, neuro-onkologi, dan intervensi kesakitan. Berkelayakan Oxford. Berkhidmat di KPJ Tawakkal, Kuala Lumpur."
+      keywords = "pakar bedah saraf Malaysia, neuro-onkologi, pembedahan tumor otak, pembedahan tulang belakang, intervensi kesakitan, kesakitan kronik, Kuala Lumpur"
 
     [[languages.bm.menus.main]]
       identifier = "about"
@@ -106,7 +118,7 @@ theme = "drnorfaizal"
 
     [[languages.bm.menus.main]]
       identifier = "insights"
-      name = "Insights"
+      name = "Renungan"
       url = "/insights/"
       weight = 40
 
