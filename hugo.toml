@@ -52,46 +52,34 @@ theme = "drnorfaizal"
     homePageTitle = "Consultant Neurosurgeon & Pain Specialist | Dr Nor Faizal | Brain - Head - Pain"
     
     [[languages.en.menus.main]]
-      identifier = "home"
-      name = "Home"
-      url = "/"
-      weight = 10
-
-    [[languages.en.menus.main]]
       identifier = "about"
       name = "About"
       url = "/about/"
-      weight = 20
+      weight = 10
 
     [[languages.en.menus.main]]
       identifier = "expertise"
       name = "Expertise"
       url = "/expertise/"
-      weight = 30
+      weight = 20
 
     [[languages.en.menus.main]]
       identifier = "patients"
       name = "Patients"
       url = "/patients/"
+      weight = 30
+
+    [[languages.en.menus.main]]
+      identifier = "insights"
+      name = "Insights"
+      url = "/insights/"
       weight = 40
-
-    [[languages.en.menus.main]]
-      identifier = "for-doctors"
-      name = "For Doctors"
-      url = "/for-doctors/"
-      weight = 45
-
-    [[languages.en.menus.main]]
-      identifier = "blog"
-      name = "Blog"
-      url = "/blog/"
-      weight = 50
 
     [[languages.en.menus.main]]
       identifier = "contact"
       name = "Contact"
       url = "/contact/"
-      weight = 60
+      weight = 50
 
   [languages.bm]
     languageName = "Bahasa"
@@ -99,52 +87,40 @@ theme = "drnorfaizal"
     homePageTitle = "Pakar Bedah Saraf & Otak, Pain Specialist | Dr Nor Faizal | Otak - Kepala - Sakit"
 
     [[languages.bm.menus.main]]
-      identifier = "home"
-      name = "Utama"
-      url = "/"
-      weight = 10
-
-    [[languages.bm.menus.main]]
       identifier = "about"
       name = "Tentang"
       url = "/about/"
-      weight = 20
+      weight = 10
 
     [[languages.bm.menus.main]]
       identifier = "expertise"
       name = "Kepakaran"
       url = "/expertise/"
-      weight = 30
+      weight = 20
 
     [[languages.bm.menus.main]]
       identifier = "patients"
       name = "Pesakit"
       url = "/patients/"
+      weight = 30
+
+    [[languages.bm.menus.main]]
+      identifier = "insights"
+      name = "Insights"
+      url = "/insights/"
       weight = 40
-
-    [[languages.bm.menus.main]]
-      identifier = "for-doctors"
-      name = "Untuk Doktor"
-      url = "/for-doctors/"
-      weight = 45
-
-    [[languages.bm.menus.main]]
-      identifier = "blog"
-      name = "Blog"
-      url = "/blog/"
-      weight = 50
 
     [[languages.bm.menus.main]]
       identifier = "contact"
       name = "Hubungi"
       url = "/contact/"
-      weight = 60
+      weight = 50
 
 # -----------------------------------------------------------------------------
 # BUILD & TECHNICAL
 # -----------------------------------------------------------------------------
 [permalinks]
-  blog = "/blog/:slug/"
+  insights = "/insights/:slug/"
   categories = "/category/:slug/"
   tags = "/tag/:slug/"
 
