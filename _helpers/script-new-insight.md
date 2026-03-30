@@ -1,7 +1,7 @@
 # Script: new_insight.py
 
 **File:** `scripts/new_insight.py`
-**Purpose:** Full pipeline for creating bilingual Hugo insights posts — from raw draft to polished EN + BM markdown via Claude.
+**Purpose:** Pipeline for creating bilingual Hugo insights posts — from raw draft to polished EN + BM markdown via Claude Code (no API key required).
 
 ---
 
@@ -14,14 +14,14 @@ python scripts/new_insight.py
 # Direct — pass the slug
 python scripts/new_insight.py my-topic-slug
 
-# Process an existing draft through Claude
-python scripts/new_insight.py --process --slug my-topic-slug
+# Optimize photos in a slug folder only
+python scripts/new_insight.py --photos --slug my-topic-slug
 
-# Process all drafts that have draft.yaml but no index.en.md
+# Optimize photos + print ready-to-paste prompts for Claude Code
+python scripts/new_insight.py --prepare --slug my-topic-slug
+
+# List all drafts that have draft.yaml but no index.en.md
 python scripts/new_insight.py --all
-
-# Preview output without saving files
-python scripts/new_insight.py --process --slug my-topic-slug --dry-run
 ```
 
 Run from the project root (`drnorfaizal-hugo/`).
@@ -55,20 +55,26 @@ Open `draft.yaml` in VS Code. Fill in:
 
 Drop any photos into the same folder alongside `draft.yaml`.
 
-### Step 3 — Process through Claude
+### Step 3 — Optimize photos + get prompts
 
 ```bash
-python scripts/new_insight.py --process --slug why-your-headache-needs-an-mri
+python scripts/new_insight.py --prepare --slug why-your-headache-needs-an-mri
 ```
 
-Claude produces:
+This will:
 
-- `index.en.md` — polished English post (400–700 words)
-- `index.bm.md` — natural Bahasa Melayu translation
+1. **Optimize all photos** in the slug folder in-place — resize to max 1200px wide, compress (JPEG quality 82, PNG optimize, WebP quality 82), replace originals.
+2. **Print two prompts** to the terminal — ready to paste into Claude Code.
 
-### Step 4 — Review and publish
+### Step 4 — Generate posts via Claude Code
 
-Open both files, tweak anything Claude missed. When satisfied:
+Paste **Prompt 1** into Claude Code → get `index.en.md` content → save the file.
+
+Then paste **Prompt 2** into Claude Code (replacing the `<PASTE index.en.md CONTENT HERE>` placeholder with the output from Prompt 1) → get `index.bm.md` content → save the file.
+
+### Step 5 — Review and publish
+
+Open both files, tweak anything that needs adjusting. When satisfied:
 
 ```bash
 git add content/insights/why-your-headache-needs-an-mri/
@@ -83,16 +89,30 @@ git push
 ### Install dependencies
 
 ```bash
-pip install anthropic python-dotenv pyyaml
+pip install pyyaml Pillow  # YAML parser + image processing
 ```
 
-### API key
+No API key needed — content generation runs through your Claude Code session.
 
-Add to `.env` at the project root:
+---
 
-```env
-ANTHROPIC_API_KEY=sk-ant-...
+## Photo Optimization
+
+Run standalone at any time (before or independent of `--prepare`):
+
+```bash
+python scripts/new_insight.py --photos --slug my-topic-slug
 ```
+
+| Setting | Value |
+| ------- | ----- |
+| Max width | 1200 px (aspect ratio preserved) |
+| JPEG quality | 82 (progressive, optimize) |
+| PNG | optimize=True |
+| WebP quality | 82, method=6 |
+| Formats handled | `.jpg` `.jpeg` `.png` `.webp` |
+
+Originals are replaced in-place. Run before committing.
 
 ---
 
@@ -117,6 +137,6 @@ ANTHROPIC_API_KEY=sk-ant-...
 
 ## Notes
 
-- You can re-run `--process` to regenerate — it overwrites `index.en.md` and `index.bm.md`.
+- Re-running `--prepare` regenerates the prompts; it does not overwrite existing markdown files — you save those manually.
 - `raw_thoughts` is your voice — write messily, Claude will restructure it.
-- Outputs stream to terminal in real time so you can watch progress.
+- `--all` lists pending slugs with the exact commands to run, it does not auto-process them.

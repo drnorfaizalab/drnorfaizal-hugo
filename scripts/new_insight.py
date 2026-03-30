@@ -9,32 +9,24 @@ Usage:
 Workflow:
   1. Creates content/insights/<slug>/ directory
   2. Writes a pre-filled YAML template → draft.yaml
-  3. You fill in the template (thoughts, photos, metadata)
-  4. Run again with --process flag to:
-     a. Claude polishes it → index.en.md
-     b. Claude translates it → index.bm.md
+  3. Fill in the template (thoughts, photos, metadata)
+  4. Run again with --prepare flag to:
+     a. Optimize photos in the folder (resize + compress) in-place
+     b. Print ready-to-paste prompts for Claude Code
 
 Flags:
-  --process   Process an existing draft.yaml through Claude
+  --prepare   Optimize photos + print prompts to paste into Claude Code
+  --photos    Optimize photos in the slug folder only
   --slug      Specify slug directly (or pass as positional arg)
-  --all       Process ALL drafts that have draft.yaml but no index.en.md
+  --all       List all drafts that still need index.en.md
 """
 
-import os
 import sys
 import re
 import argparse
 import textwrap
 from datetime import datetime
 from pathlib import Path
-from dotenv import load_dotenv
-
-# ── Dependencies ──────────────────────────────────────────────────────────────
-try:
-    import anthropic
-except ImportError:
-    print("❌  anthropic package not found. Run: pip install anthropic python-dotenv")
-    sys.exit(1)
 
 try:
     import yaml
@@ -43,26 +35,23 @@ except ImportError:
     sys.exit(1)
 
 # ── Config ────────────────────────────────────────────────────────────────────
-load_dotenv(Path(__file__).parent.parent / ".env")
-
-HUGO_ROOT = Path(__file__).parent.parent   # script lives in scripts/, root is one up
+HUGO_ROOT    = Path(__file__).parent.parent
 INSIGHTS_DIR = HUGO_ROOT / "content" / "insights"
-CLAUDE_MODEL = "claude-opus-4-6"
 
-# System prompt that encodes Dr FAB's brand voice
-SYSTEM_PROMPT = """\
+DIVIDER = "=" * 72
+
+# Brand voice context prepended to every prompt
+CONTEXT = """\
 You are the editorial voice of Dr Nor Faizal Ahmad Bahuri — Consultant Neurosurgeon \
 & Interventional Pain Specialist at KPJ Tawakkal Specialist Hospital, Kuala Lumpur. \
 Oxford DPhil. He writes in batik scrubs, not white coats.
 
-Brand voice principles:
+Brand voice:
 - Human first, credentials second
 - Warm authority — never clinical distance, never corporate speak
 - Specific and precise — he names the procedure, the nerve, the moment
 - Storytelling that earns trust before asking for anything
 - 80/20 thinking: cut the noise, keep only what matters
-- Bahasa Melayu version: modern, conversational BM — not formal or stiff. \
-  Think educated Malaysian friend, not government pamphlet.
 
 He treats: brain & spine tumours, chronic headaches, migraines, chronic pain, \
 interventional pain procedures. His patients are Malaysians and Indonesians seeking \
@@ -70,7 +59,6 @@ the highest standard of specialist care."""
 
 
 def slugify(text: str) -> str:
-    """Convert freeform text to a URL-safe slug."""
     text = text.lower().strip()
     text = re.sub(r"[^\w\s-]", "", text)
     text = re.sub(r"[\s_]+", "-", text)
@@ -82,8 +70,8 @@ DRAFT_TEMPLATE = """\
 # ============================================================
 #  DR FAIZAL — INSIGHT DRAFT
 #  Fill in every field. Leave a field blank if unsure.
-#  Run:  python new_insight.py --process --slug {slug}
-#  to let Claude process this into polished EN + BM posts.
+#  Run:  python new_insight.py --prepare --slug {slug}
+#  to optimize photos and get prompts to paste into Claude Code.
 # ============================================================
 
 metadata:
@@ -153,7 +141,7 @@ def create_draft(slug: str) -> Path:
     draft_path = post_dir / "draft.yaml"
     if draft_path.exists():
         print(f"⚠️   draft.yaml already exists at {draft_path}")
-        print("     Edit it, then run with --process to generate the posts.")
+        print("     Edit it, then run --prepare to get the Claude Code prompts.")
         return draft_path
 
     content = DRAFT_TEMPLATE.format(
@@ -165,24 +153,78 @@ def create_draft(slug: str) -> Path:
     print(f"\n📝  Next steps:")
     print(f"     1. Open and fill in:  {draft_path}")
     print(f"     2. Add any photos to: {post_dir}/")
-    print(f"     3. Run:  python new_insight.py --process --slug {slug}")
+    print(f"     3. Run:  python new_insight.py --prepare --slug {slug}")
     return draft_path
 
 
-# ── STEP 2: Process draft through Claude ──────────────────────────────────────
+# ── STEP 2: Optimize photos in slug folder ────────────────────────────────────
+
+IMAGE_EXTS   = {".jpg", ".jpeg", ".png", ".webp"}
+MAX_WIDTH    = 1200  # px — wider images are downscaled
+JPEG_QUALITY = 82    # 0–95; 82 is visually lossless for web
+_RESAMPLE    = 1     # Pillow resampling filter: 1 = high-quality downscale
+
+
+def process_photos(post_dir: Path) -> list:
+    """Find images in post_dir, compress + resize in-place. Returns processed paths."""
+    try:
+        from PIL import Image
+    except ImportError:
+        print("❌  Pillow not found. Run: pip install Pillow")
+        return []
+
+    images = [p for p in post_dir.iterdir() if p.suffix.lower() in IMAGE_EXTS]
+    if not images:
+        print("   No images found in folder — skipping photo step.")
+        return []
+
+    processed = []
+    for img_path in sorted(images):
+        before_kb = img_path.stat().st_size // 1024
+        with Image.open(img_path) as img:
+            ext = img_path.suffix.lower()
+
+            if img.width > MAX_WIDTH:
+                new_h = int(img.height * MAX_WIDTH / img.width)
+                img = img.resize((MAX_WIDTH, new_h), _RESAMPLE)
+
+            if ext in {".jpg", ".jpeg"}:
+                if img.mode in ("RGBA", "P"):
+                    img = img.convert("RGB")
+                img.save(img_path, "JPEG", quality=JPEG_QUALITY,
+                         optimize=True, progressive=True)
+            elif ext == ".png":
+                img.save(img_path, "PNG", optimize=True)
+            elif ext == ".webp":
+                img.save(img_path, "WEBP", quality=JPEG_QUALITY, method=6)
+
+        after_kb = img_path.stat().st_size // 1024
+        saved_pct = round((1 - after_kb / before_kb) * 100) if before_kb else 0
+        print(f"   📸  {img_path.name}: {before_kb} KB → {after_kb} KB  ({saved_pct}% smaller)")
+        processed.append(img_path)
+
+    print(f"   ✅  {len(processed)} photo(s) processed.")
+    return processed
+
+
+# ── STEP 3: Print prompts for Claude Code ─────────────────────────────────────
 
 EN_PROMPT = """\
-You are given a YAML draft written by Dr Nor Faizal. Your job:
+{context}
 
-1. Write a polished, publication-ready Hugo Markdown file (index.en.md).
-2. Use the YAML front matter format shown below.
-3. The body should be warm, authoritative, story-led. Avoid bullet-point dumps.
-4. Suggested word count: 400–700 words for a standard insight post.
-5. Embed a clear CTA at the end that matches cta_type in the draft.
-6. Include suggested photo placements as Hugo shortcodes: {{< figure src="filename" alt="..." caption="..." >}}
-7. Output ONLY the complete Markdown file — no preamble, no commentary.
+---
 
-Hugo front matter format to use:
+Your job: write a polished, publication-ready Hugo Markdown file (index.en.md).
+
+Instructions:
+1. Use the Hugo front matter format shown below — fill every field.
+2. Body: warm, authoritative, story-led. Avoid bullet-point dumps.
+3. Word count: 400–700 words for a standard insight post.
+4. End with a clear CTA matching cta_type in the draft.
+5. Photo placements as Hugo shortcodes: {{{{< figure src="filename" alt="..." caption="..." >}}}}
+6. Output ONLY the complete Markdown file — no preamble, no commentary.
+
+Hugo front matter format:
 ---
 title: "..."
 date: YYYY-MM-DDTHH:MM:SS+08:00
@@ -202,140 +244,99 @@ cta:
 ---
 
 DRAFT YAML:
-{draft_yaml}
-"""
+{draft_yaml}"""
 
 BM_PROMPT = """\
-You are given:
-1. A YAML draft by Dr Nor Faizal
-2. The finished English Markdown post
+{context}
 
-Your job: Write the Bahasa Melayu version as index.bm.md.
+---
+
+Your job: write the Bahasa Melayu version of this post as index.bm.md.
 
 Rules:
 - Modern, conversational BM — educated Malaysian friend tone, NOT formal/government
 - Translate concepts faithfully; adapt idioms naturally (don't translate literally)
-- Medical terms: use BM equivalent where natural, keep English term in parentheses where needed
+- Medical terms: use BM equivalent where natural, keep English in parentheses where needed
 - Same story arc and CTA as the English version
-- Same Hugo front matter structure, with title/summary in BM
-- Output ONLY the complete Markdown file.
+- Same Hugo front matter structure, title/description in BM
+- Output ONLY the complete Markdown file — no preamble, no commentary.
 
 DRAFT YAML:
 {draft_yaml}
 
-ENGLISH POST:
-{english_post}
-"""
+ENGLISH POST (index.en.md):
+{english_post}"""
 
 
-def strip_code_fence(text: str) -> str:
-    """Remove wrapping ```markdown or ``` fences Claude sometimes adds."""
-    text = text.strip()
-    if text.startswith("```"):
-        text = text[text.index("\n") + 1:]
-    if text.endswith("```"):
-        text = text[:text.rindex("```")].rstrip()
-    return text
-
-
-def call_claude(client: anthropic.Anthropic, prompt: str) -> str:
-    """Streaming API call — avoids timeout on long posts, returns full text."""
-    with client.messages.stream(
-        model=CLAUDE_MODEL,
-        max_tokens=4096,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": prompt}],
-    ) as stream:
-        for text in stream.text_stream:
-            print(text, end="", flush=True)
-        print()  # newline after streaming
-        return strip_code_fence(stream.get_final_message().content[0].text)
-
-
-def process_draft(slug: str, dry_run: bool = False) -> None:
+def prepare_draft(slug: str) -> None:
     post_dir = INSIGHTS_DIR / slug
     draft_path = post_dir / "draft.yaml"
 
     if not draft_path.exists():
         print(f"❌  No draft.yaml found at {draft_path}")
-        print(f"     Run without --process first to create one.")
+        print(f"     Run without --prepare first to create one.")
         sys.exit(1)
 
-    draft_yaml = draft_path.read_text(encoding="utf-8")
+    # ── Photos ───────────────────────────────────────────────────────────────
+    print(f"🖼️   Optimizing photos in {post_dir}…")
+    process_photos(post_dir)
 
-    # Strip comment lines for cleaner context sent to Claude
+    # ── Clean the YAML (strip comments, stamp timestamp) ─────────────────────
+    raw_yaml = draft_path.read_text(encoding="utf-8")
     clean_yaml = "\n".join(
-        line for line in draft_yaml.splitlines()
+        line for line in raw_yaml.splitlines()
         if not line.strip().startswith("#")
     )
-
-    # Stamp with processing time so same-day posts are ordered granularly
     now_ts = datetime.now().strftime("%Y-%m-%dT%H:%M:%S+08:00")
     clean_yaml = re.sub(r'date:\s*"?[\d\-T:+]+"?', f'date: "{now_ts}"', clean_yaml)
 
-    api_key = os.getenv("ANTHROPIC_API_KEY")
-    if not api_key:
-        print("❌  ANTHROPIC_API_KEY not found in environment / .env file")
-        sys.exit(1)
+    # ── Print PROMPT 1 (English) ──────────────────────────────────────────────
+    print(f"\n{DIVIDER}")
+    print("PROMPT 1 OF 2 — Paste this into Claude Code to generate index.en.md")
+    print(DIVIDER)
+    print(EN_PROMPT.format(context=CONTEXT, draft_yaml=clean_yaml))
+    print(DIVIDER)
 
-    client = anthropic.Anthropic(api_key=api_key)
+    # ── Print PROMPT 2 (BM version) ──────────────────────────────────────────
+    print(f"\n{DIVIDER}")
+    print("PROMPT 2 OF 2 — After saving index.en.md, paste this to generate index.bm.md")
+    print("               Replace <PASTE EN POST HERE> with the output from Prompt 1.")
+    print(DIVIDER)
+    print(BM_PROMPT.format(
+        context=CONTEXT,
+        draft_yaml=clean_yaml,
+        english_post="<PASTE index.en.md CONTENT HERE>",
+    ))
+    print(DIVIDER)
 
-    # ── English post ──────────────────────────────────────────────────────────
-    print("🤖  Generating English post (index.en.md)…")
-    en_post = call_claude(client, EN_PROMPT.format(draft_yaml=clean_yaml))
-
-    en_path = post_dir / "index.en.md"
-    if not dry_run:
-        en_path.write_text(en_post, encoding="utf-8")
-        print(f"✅  Saved: {en_path}")
-    else:
-        print("── DRY RUN — English post preview ──")
-        print(en_post[:800], "\n[...truncated]")
-
-    # ── Bahasa Melayu post ────────────────────────────────────────────────────
-    print("🤖  Generating Bahasa Melayu post (index.bm.md)…")
-    bm_post = call_claude(
-        client, BM_PROMPT.format(draft_yaml=clean_yaml, english_post=en_post)
-    )
-
-    bm_path = post_dir / "index.bm.md"
-    if not dry_run:
-        bm_path.write_text(bm_post, encoding="utf-8")
-        print(f"✅  Saved: {bm_path}")
-    else:
-        print("── DRY RUN — BM post preview ──")
-        print(bm_post[:800], "\n[...truncated]")
-
-    if not dry_run:
-        print(f"\n🎉  Done! Posts are ready to review:")
-        print(f"     EN: {en_path}")
-        print(f"     BM: {bm_path}")
-        print(f"\n💡  Preview locally:  hugo server -D")
-        print(f"     Deploy:           git add . && git commit -m 'insight: {slug}' && git push")
+    print(f"\n📋  Done. Copy each prompt above into Claude Code in order.")
+    print(f"     Save the outputs as:")
+    print(f"       {post_dir}/index.en.md")
+    print(f"       {post_dir}/index.bm.md")
+    print(f"\n💡  Preview:  hugo server -D")
+    print(f"    Deploy:   git add . && git commit -m 'insight: {slug}' && git push")
 
 
-# ── STEP 3: Batch process all pending drafts ──────────────────────────────────
+# ── STEP 4: List all pending drafts ───────────────────────────────────────────
 
-def process_all() -> None:
+def list_pending() -> None:
     if not INSIGHTS_DIR.exists():
         print(f"❌  Insights directory not found: {INSIGHTS_DIR}")
         sys.exit(1)
 
     pending = []
-    for draft_path in INSIGHTS_DIR.glob("*/draft.yaml"):
+    for draft_path in sorted(INSIGHTS_DIR.glob("*/draft.yaml")):
         slug = draft_path.parent.name
-        en_path = draft_path.parent / "index.en.md"
-        if not en_path.exists():
+        if not (draft_path.parent / "index.en.md").exists():
             pending.append(slug)
 
     if not pending:
-        print("✅  No pending drafts found.")
+        print("✅  No pending drafts — all have index.en.md.")
         return
 
-    print(f"📋  Found {len(pending)} pending draft(s): {', '.join(pending)}")
+    print(f"📋  {len(pending)} draft(s) waiting for --prepare:\n")
     for slug in pending:
-        print(f"\n── Processing: {slug} ──")
-        process_draft(slug)
+        print(f"     python new_insight.py --prepare --slug {slug}")
 
 
 # ── CLI ───────────────────────────────────────────────────────────────────────
@@ -348,25 +349,35 @@ def main():
         Examples:
           python new_insight.py                              # interactive slug prompt
           python new_insight.py my-migraine-insight         # create draft
-          python new_insight.py --process --slug my-topic   # process draft → EN + BM
-          python new_insight.py --all                       # process all pending drafts
-          python new_insight.py --process --slug my-topic --dry-run
+          python new_insight.py --photos --slug my-topic    # compress photos only
+          python new_insight.py --prepare --slug my-topic   # compress photos + print prompts
+          python new_insight.py --all                       # list all pending drafts
         """),
     )
-    parser.add_argument("slug", nargs="?", help="Post slug (URL-safe, e.g. my-topic)")
-    parser.add_argument("--process", action="store_true", help="Process draft through Claude")
-    parser.add_argument("--all", action="store_true", help="Process all pending drafts")
-    parser.add_argument("--dry-run", action="store_true", help="Preview output without saving")
+    parser.add_argument("slug",      nargs="?", help="Post slug (URL-safe, e.g. my-topic)")
+    parser.add_argument("--prepare", action="store_true", help="Optimize photos + print Claude Code prompts")
+    parser.add_argument("--photos",  action="store_true", help="Optimize photos in slug folder only")
+    parser.add_argument("--all",     action="store_true", help="List all pending drafts")
     args = parser.parse_args()
 
     if args.all:
-        process_all()
+        list_pending()
         return
 
-    if args.process:
+    if args.photos:
         if not args.slug:
-            args.slug = input("Enter the slug to process: ").strip()
-        process_draft(slugify(args.slug), dry_run=args.dry_run)
+            args.slug = input("Enter the slug: ").strip()
+        post_dir = INSIGHTS_DIR / slugify(args.slug)
+        if not post_dir.exists():
+            print(f"❌  Folder not found: {post_dir}")
+            sys.exit(1)
+        process_photos(post_dir)
+        return
+
+    if args.prepare:
+        if not args.slug:
+            args.slug = input("Enter the slug to prepare: ").strip()
+        prepare_draft(slugify(args.slug))
         return
 
     # Default: create a new draft

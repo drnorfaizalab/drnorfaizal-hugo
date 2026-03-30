@@ -26,9 +26,9 @@ Penat itu nampak. Yang saya tak pernah mengaku sepenuhnya: **beban emosi** yang 
 
 Kecewa yang tak pernah diluahkan. Geseran yang terus saya telan. Politik senyap dalam unit pembedahan — dinamik pengurusan, persaingan rakan sejawat, benda yang semua orang rasa tapi tak ada siapa sebut. Semua tu saya bawa. Tak ada yang diproses.
 
-Morocco jadi tempat ia mula terangkat. Sahara, khususnya.
+Morocco jadi tempat mencari diri. Sahara, khususnya.
 
-Orang Berber harungi gurun berpandukan bintang sebab **tiada apa buatan manusia untuk dijadikan penanda** — tiada tanda jalan, tiada isyarat. Hanya yang kekal. Hanya yang tetap. Duduk di bawah langit yang sama, saya rasa benda-benda yang saya anggap mendesak tadi perlahan-lahan berhenti terasa begitu.
+Orang Berber harungi gurun berpandukan bintang sebab **tiada apa buatan manusia untuk dijadikan penanda** — tiada tanda jalan, tiada isyarat. Hanya gunakan bintang yang tetap tanpa rasa sesat. Bila duduk di bawah langit yang sama, saya rasa benda-benda yang saya anggap mendesak tadi perlahan-lahan berhenti terasa begitu. Akhirnya tenang.
 
 ---
 
