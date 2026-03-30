@@ -7,7 +7,7 @@ type: "blog"
 categories: ["Neuro-onkologi", "Tumor Otak"]
 tags: ["glioblastoma", "GBM", "kanser otak", "kemoterapi", "temozolomide"]
 author: "Dr Nor Faizal Ahmad Bahuri"
-image: "/images/insights/insights-default.jpg"
+image: "/images/insights/glioblastoma-treatment.png"
 ---
 
 # Glioblastoma (GBM): Memahami Pilihan Rawatan Anda
