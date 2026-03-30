@@ -1,0 +1,39 @@
+# Fill in every field. Run the script again when done to generate the post.
+
+slug: "simple-steps-during-headache-attack"
+date: "2026-03-31"
+author: "Dr Nor Faizal Ahmad Bahuri"
+
+# Titles
+title_en: ""
+title_bm: ""   # leave blank — Gemini will suggest
+
+# Categories and tags
+categories:
+  - ""   # e.g. Pain Management | Neuro-Oncology | Headache | Spine
+tags:
+  - ""   # e.g. migraine, spinal-cord-stimulation, brain-tumour
+
+# SEO
+seo_focus_keyword: ""   # e.g. "chronic back pain Malaysia"
+
+# CTA
+cta_type: "appointment"   # appointment | whatsapp | download | none
+
+# ── YOUR RAW THOUGHTS ──────────────────────────────────────────────────────────
+# Write freely — bullet points, fragments, Manglish, BM, EN.
+# Gemini will restructure and polish.
+raw_thoughts: |
+  5 simple steps you can do when having an migraine attack
+
+  safety is the most important steps in getting or giving treatment.
+
+  1. go to a safe space. park you car safely if you are driving, go to a quiet space wh you feel overwhelm.
+  2. regulate breathing using box breathing method.
+  3. take simple analgesia like paracetamol.
+  4. cold compress neck and forehead if necessary.
+  5. Call for help.
+
+  be safe and call for help. 
+
+  take action. simple 5 steps.
