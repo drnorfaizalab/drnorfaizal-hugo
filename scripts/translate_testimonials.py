@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
 translate_testimonials.py — Translate missing 'bm' fields in data/testimonials.yaml
-using the Claude API.
+using the Gemini API.
 
 Usage:
     python scripts/translate_testimonials.py
 
 Requirements:
-    pip install anthropic python-dotenv pyyaml
-    ANTHROPIC_API_KEY set in environment or .env file
+    pip install google-generativeai python-dotenv pyyaml
+    GEMINI_API_KEY set in environment or .env file
 """
 
 import os
@@ -17,18 +17,18 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 try:
-    import anthropic
+    import google.generativeai as genai
     import yaml
 except ImportError:
-    sys.exit("Missing dependencies: pip install anthropic python-dotenv pyyaml")
+    sys.exit("Missing dependencies: pip install google-generativeai python-dotenv pyyaml")
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
 PROJECT_ROOT = Path(__file__).parent.parent
 load_dotenv(PROJECT_ROOT / ".env")
 
-YAML_PATH  = PROJECT_ROOT / "data" / "testimonials.yaml"
-CLAUDE_MODEL = "claude-opus-4-6"
+YAML_PATH    = PROJECT_ROOT / "data" / "testimonials.yaml"
+GEMINI_MODEL = "gemini-3.flash-preview"
 
 SYSTEM_PROMPT = """\
 You are a bilingual translator for Dr. Nor Faizal Ahmad Bahuri, an Oxford-trained \
@@ -41,20 +41,15 @@ terms in English where there is no natural Bahasa equivalent. Return ONLY \
 the translated text, no explanation or commentary."""
 
 
-def translate(client: anthropic.Anthropic, text: str) -> str:
-    message = client.messages.create(
-        model=CLAUDE_MODEL,
-        max_tokens=512,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": text}],
-    )
-    return message.content[0].text.strip()
+def translate(model: genai.GenerativeModel, text: str) -> str:
+    response = model.generate_content(text)
+    return response.text.strip()
 
 
 def main():
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        sys.exit("ANTHROPIC_API_KEY not found in environment or .env file.")
+        sys.exit("GEMINI_API_KEY not found in environment or .env file.")
 
     if not YAML_PATH.exists():
         sys.exit(f"File not found: {YAML_PATH}")
@@ -62,13 +57,17 @@ def main():
     with open(YAML_PATH, "r", encoding="utf-8") as f:
         testimonials = yaml.safe_load(f)
 
-    client = anthropic.Anthropic(api_key=api_key)
+    genai.configure(api_key=api_key)
+    model = genai.GenerativeModel(
+        model_name=GEMINI_MODEL,
+        system_instruction=SYSTEM_PROMPT,
+    )
     changed = 0
 
     for t in testimonials:
         if not t.get("bm") and t.get("en"):
             print(f"Translating: {t['name']}...")
-            t["bm"] = translate(client, t["en"])
+            t["bm"] = translate(model, t["en"])
             changed += 1
 
     if changed:

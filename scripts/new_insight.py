@@ -12,10 +12,10 @@ Workflow:
   3. Fill in the template (thoughts, photos, metadata)
   4. Run again with --prepare flag to:
      a. Optimize photos in the folder (resize + compress) in-place
-     b. Print ready-to-paste prompts for Claude Code
+     b. Print ready-to-paste prompts for Gemini
 
 Flags:
-  --prepare   Optimize photos + print prompts to paste into Claude Code
+  --prepare   Optimize photos + print prompts to paste into Gemini
   --photos    Optimize photos in the slug folder only
   --slug      Specify slug directly (or pass as positional arg)
   --all       List all drafts that still need index.en.md
@@ -71,7 +71,7 @@ DRAFT_TEMPLATE = """\
 #  DR FAIZAL — INSIGHT DRAFT
 #  Fill in every field. Leave a field blank if unsure.
 #  Run:  python new_insight.py --prepare --slug {slug}
-#  to optimize photos and get prompts to paste into Claude Code.
+#  to optimize photos and get prompts to paste into Gemini.
 # ============================================================
 
 metadata:
@@ -141,7 +141,7 @@ def create_draft(slug: str) -> Path:
     draft_path = post_dir / "draft.yaml"
     if draft_path.exists():
         print(f"⚠️   draft.yaml already exists at {draft_path}")
-        print("     Edit it, then run --prepare to get the Claude Code prompts.")
+        print("     Edit it, then run --prepare to get the Gemini prompts.")
         return draft_path
 
     content = DRAFT_TEMPLATE.format(
@@ -207,7 +207,7 @@ def process_photos(post_dir: Path) -> list:
     return processed
 
 
-# ── STEP 3: Print prompts for Claude Code ─────────────────────────────────────
+# ── STEP 3: Print prompts for Gemini ─────────────────────────────────────
 
 EN_PROMPT = """\
 {context}
@@ -292,14 +292,14 @@ def prepare_draft(slug: str) -> None:
 
     # ── Print PROMPT 1 (English) ──────────────────────────────────────────────
     print(f"\n{DIVIDER}")
-    print("PROMPT 1 OF 2 — Paste this into Claude Code to generate index.en.md")
+    print("PROMPT 1 OF 2 — Paste this into Gemini to generate index.en.md")
     print(DIVIDER)
     print(EN_PROMPT.format(context=CONTEXT, draft_yaml=clean_yaml))
     print(DIVIDER)
 
     # ── Print PROMPT 2 (BM version) ──────────────────────────────────────────
     print(f"\n{DIVIDER}")
-    print("PROMPT 2 OF 2 — After saving index.en.md, paste this to generate index.bm.md")
+    print("PROMPT 2 OF 2 — After saving index.en.md, paste this into Gemini to generate index.bm.md")
     print("               Replace <PASTE EN POST HERE> with the output from Prompt 1.")
     print(DIVIDER)
     print(BM_PROMPT.format(
@@ -309,7 +309,7 @@ def prepare_draft(slug: str) -> None:
     ))
     print(DIVIDER)
 
-    print(f"\n📋  Done. Copy each prompt above into Claude Code in order.")
+    print(f"\n📋  Done. Copy each prompt above into Gemini in order.")
     print(f"     Save the outputs as:")
     print(f"       {post_dir}/index.en.md")
     print(f"       {post_dir}/index.bm.md")
@@ -355,7 +355,7 @@ def main():
         """),
     )
     parser.add_argument("slug",      nargs="?", help="Post slug (URL-safe, e.g. my-topic)")
-    parser.add_argument("--prepare", action="store_true", help="Optimize photos + print Claude Code prompts")
+    parser.add_argument("--prepare", action="store_true", help="Optimize photos + print Gemini prompts")
     parser.add_argument("--photos",  action="store_true", help="Optimize photos in slug folder only")
     parser.add_argument("--all",     action="store_true", help="List all pending drafts")
     args = parser.parse_args()

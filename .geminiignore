@@ -1,0 +1,28 @@
+# --- Hugo Specific ---
+# Ignore the generated site output (usually large and redundant)
+public/
+resources/
+.hugo_build.lock
+
+# --- Version Control & Environment ---
+.git/
+.gitignore
+.github/
+
+# --- Dependency Management ---
+# If you are using Hugo Modules or custom scripts
+node_modules/
+.gitmodules
+dist
+
+# --- OS & IDE Metadata ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Large Media (Optional) ---
+# If you have a large 'static' folder with high-res medical photos/videos
+# you may want to ignore them to keep the context window focused on code/content.
+static/images/high-res/
+assets/videos/

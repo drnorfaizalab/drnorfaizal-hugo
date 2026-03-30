@@ -260,7 +260,7 @@ while true; do
         8) commit_and_push ;;
         9) git log --oneline -15 ;;
         10) list_content ;;
-        11) print_info "Running link checker..."; hugo --printMemoryStats ;;
+        11) print_info "Install a link checker (e.g. 'pip install linkchecker') — not configured." ;;
         12) show_stats ;;
         0) print_success "Goodbye!"; exit 0 ;;
         *) print_error "Invalid option" ;;

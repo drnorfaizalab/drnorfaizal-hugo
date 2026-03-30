@@ -1,5 +1,8 @@
 #!/bin/bash
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR/.."
+
 # 1. Load Secrets
 if [ -f .env ]; then
   export $(grep -v '^#' .env | xargs)
@@ -18,8 +21,6 @@ if git ls-files --error-unmatch .env >/dev/null 2>&1; then
     exit 1
 fi
 # -----------------------------
-
-# 2. Clean & Build...
 
 # 2. Clean & Build
 echo "🏗️  Starting Hugo Build (Minified)..."
