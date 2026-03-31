@@ -6,7 +6,10 @@ author: "Dr Nor Faizal Ahmad Bahuri"
 categories: ["Reflections"]
 tags: ["burnout", "mental health", "doctor's perspective", "hope"]
 description: "A neurosurgeon's reflection on facing hard truths, mental fatigue, and the first step towards healing—both for patients and for the doctors who treat them."
+type: "blog"
 show_appointment_button: true
+image: "/images/insights/insights-default.jpg"
+keywords: ["finding hope difficult times", "doctor mental health Malaysia", "burnout recovery", "neurosurgeon perspective mental health", "patient support Malaysia"]
 seo:
   focusKeyword: "finding hope in difficult times"
 cta:

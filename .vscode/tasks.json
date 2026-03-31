@@ -1,0 +1,95 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "📡 Curator — Daily Brief",
+      "type": "shell",
+      "command": "node ${workspaceFolder}/tools/curator.js daily",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "label": "📊 Curator — Weekly Plan",
+      "type": "shell",
+      "command": "node ${workspaceFolder}/tools/curator.js weekly",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "label": "📡 Curator — Daily Brief (dry run)",
+      "type": "shell",
+      "command": "node ${workspaceFolder}/tools/curator.js daily --dry-run",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "label": "🤖 AI Router (interactive)",
+      "type": "shell",
+      "command": "node ${workspaceFolder}/tools/ai-router.js",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": false
+      },
+      "runOptions": { "runOn": "default" }
+    },
+    {
+      "label": "🔵 Claude — Code task",
+      "type": "shell",
+      "command": "node ${workspaceFolder}/tools/ai-router.js --claude \"${input:claudePrompt}\"",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "label": "🟢 Gemini — Content task",
+      "type": "shell",
+      "command": "node ${workspaceFolder}/tools/ai-router.js --gemini \"${input:geminiPrompt}\"",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "label": "🟢 Gemini — Content with file",
+      "type": "shell",
+      "command": "node ${workspaceFolder}/tools/ai-router.js --gemini \"${input:geminiPrompt}\" --file \"${file}\"",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "claudePrompt",
+      "type": "promptString",
+      "description": "Claude: what code task?"
+    },
+    {
+      "id": "geminiPrompt",
+      "type": "promptString",
+      "description": "Gemini: what content task?"
+    }
+  ]
+}

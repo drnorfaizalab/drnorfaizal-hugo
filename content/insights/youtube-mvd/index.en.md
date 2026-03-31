@@ -8,6 +8,9 @@ categories: ["Neurooncology", "Patient Education"]
 tags: ["brain tumour", "neurosurgery", "patient education", "video", "youtube"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/insights-default.jpg"
+keywords: ["brain tumour explained Malaysia", "brain tumour symptoms", "neurosurgery education Malaysia", "patient education brain tumour"]
+seo:
+  focusKeyword: "brain tumour symptoms Malaysia"
 ---
 
 ## Watch: Brain Tumours Explained

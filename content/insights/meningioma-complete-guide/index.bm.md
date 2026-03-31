@@ -9,6 +9,9 @@ categories: ["Neuro-onkologi", "Ketumbuhan Otak"]
 tags: ["meningioma", "ketumbuhan otak", "pembedahan saraf", "kraniotomi", "Simpson Grade"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/meningioma-guide.png"
+keywords: ["rawatan meningioma Malaysia", "pembedahan meningioma Kuala Lumpur", "tumor otak Malaysia", "kraniotomi", "Simpson grade meningioma"]
+seo:
+  focusKeyword: "rawatan meningioma Malaysia"
 ---
 
 # Meningioma: Panduan Lengkap Untuk Anda

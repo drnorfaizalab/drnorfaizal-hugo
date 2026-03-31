@@ -17,6 +17,9 @@ tags: ["disiplin", "Oxford", "pembedahan saraf", "mindset"]
 # Content settings
 toc: true  # Table of contents
 image: "/images/insights/IMG_3621.JPG"
+keywords: ["disiplin pembedahan saraf", "pakar bedah saraf Oxford Malaysia", "kecemerlangan perubatan", "mindset pakar bedah", "latihan pembedahan saraf"]
+seo:
+  focusKeyword: "disiplin dalam pembedahan saraf"
 ---
 
 ## Ilusi Seorang Genius

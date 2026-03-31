@@ -8,6 +8,9 @@ categories: ["Headache & Migraine", "Patient Education"]
 tags: ["migrain", "sakit kepala", "tanda bahaya", "neurologi", "tiktok", "video"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/insights-default.jpg"
+keywords: ["tanda amaran migrain Malaysia", "bendera merah sakit kepala", "neurologi Malaysia", "tips migrain", "video sakit kepala"]
+seo:
+  focusKeyword: "tanda amaran migrain Malaysia"
 ---
 
 ## 3 Tanda Bahaya Migrain — Tonton Sebelum Anda Abaikan Sakit Kepala Itu

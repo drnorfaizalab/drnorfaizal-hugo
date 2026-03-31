@@ -9,6 +9,9 @@ tags: ["spinal", "back pain", "neurosurgery", "neuropathic pain"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 pdf_available: true
 image: "/images/insights/insights-default.jpg"
+keywords: ["back pain specialist Malaysia", "spinal surgery Kuala Lumpur", "herniated disc treatment", "spinal stenosis Malaysia", "neurosurgeon back pain Malaysia"]
+seo:
+  focusKeyword: "spinal back pain specialist Malaysia"
 ---
 
 # Spinal & Back Pain Guide

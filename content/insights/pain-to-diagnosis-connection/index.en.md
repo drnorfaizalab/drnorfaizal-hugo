@@ -8,6 +8,9 @@ categories: ["Pain Management", "Diagnosis"]
 tags: ["chronic pain", "headache", "diagnosis", "neuropathic pain", "red flags", "neurosurgery"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/pain-diagnosis.png"
+keywords: ["chronic pain diagnosis Malaysia", "headache specialist Kuala Lumpur", "neuropathic pain Malaysia", "pain management specialist", "neurological evaluation Malaysia"]
+seo:
+  focusKeyword: "chronic pain diagnosis Malaysia"
 ---
 
 # Pain as a Diagnostic Gateway: When Your Headache Is More Than Stress

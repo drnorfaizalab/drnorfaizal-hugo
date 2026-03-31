@@ -9,6 +9,9 @@ tags: ["Trigeminal Neuralgia", "bedah saraf", "pendidikan pesakit", "video", "yo
 author: "Dr Nor Faizal Ahmad Bahuri"
 show_appointment_button: true
 image: "/images/insights/insights-default.jpg"
+keywords: ["microvascular decompression Malaysia", "rawatan trigeminal neuralgia", "sakit muka rawatan", "pendidikan pesakit bedah saraf", "pembedahan saraf video Malaysia"]
+seo:
+  focusKeyword: "microvascular decompression trigeminal neuralgia Malaysia"
 ---
 
 ## Tonton: Salur Darah Yang Menekan Saraf

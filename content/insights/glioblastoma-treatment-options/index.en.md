@@ -8,6 +8,9 @@ categories: ["Neurooncology", "Brain Tumours"]
 tags: ["glioblastoma", "GBM", "brain cancer", "chemotherapy", "temozolomide"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/glioblastoma-treatment.png"
+keywords: ["glioblastoma treatment Malaysia", "GBM brain cancer", "Stupp protocol", "brain tumour surgery Kuala Lumpur", "glioblastoma prognosis"]
+seo:
+  focusKeyword: "glioblastoma treatment options Malaysia"
 ---
 
 # Glioblastoma (GBM): Understanding Your Treatment Options

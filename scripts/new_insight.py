@@ -71,6 +71,12 @@ tags:
 
 # SEO
 seo_focus_keyword: ""   # e.g. "chronic back pain Malaysia"
+keywords:
+  - ""   # e.g. "brain tumour Malaysia", "neurosurgeon Kuala Lumpur"
+  - ""   # 4-6 keywords total; include "Malaysia" for local SEO
+
+# OG image (relative to /static)
+image: "/images/insights/insights-default.jpg"   # replace with post-specific image if available
 
 # CTA
 cta_type: "appointment"   # appointment | whatsapp | download | none
@@ -121,15 +127,18 @@ Rules:
 4. End with a CTA matching cta_type.
 5. Output the COMPLETE Markdown file only — no preamble, no commentary.
 
-Front matter format:
+Front matter format (use exactly this structure):
 ---
 title: "..."
 date: YYYY-MM-DDTHH:MM:SS+08:00
 draft: false
+type: "blog"
 author: "Dr Nor Faizal Ahmad Bahuri"
 categories: [...]
 tags: [...]
-description: "..."
+description: "..."   # 150-160 chars, compelling, keyword-rich
+image: "..."         # use value from draft; og:image and twitter:image
+keywords: [...]      # 4-6 English SEO keywords; include "Malaysia" for local SEO
 show_appointment_button: true
 seo:
   focusKeyword: "..."
@@ -149,8 +158,30 @@ Rules:
 - Translate concepts faithfully; adapt idioms naturally
 - Medical terms: BM equivalent where natural, English in parentheses where needed
 - Same story arc and CTA as the English version
-- Same Hugo front matter structure, title/description in BM
+- Same Hugo front matter structure; translate title, description, and keywords into BM
+- keywords: 4-6 BM SEO keywords (e.g. "rawatan tumor otak Malaysia"); include "Malaysia"
 - Output the COMPLETE Markdown file only — no preamble, no commentary.
+
+Front matter format (use exactly this structure):
+---
+title: "..."          # BM title
+date: YYYY-MM-DDTHH:MM:SS+08:00
+draft: false
+type: "blog"
+author: "Dr Nor Faizal Ahmad Bahuri"
+categories: [...]     # BM category names
+tags: [...]           # BM tags
+description: "..."    # BM description, 150-160 chars
+image: "..."          # same image path as English version
+keywords: [...]       # 4-6 BM SEO keywords
+show_appointment_button: true
+seo:
+  focusKeyword: "..."  # BM focus keyword
+cta:
+  type: appointment
+  label: "Buat Janji Temu"
+  url: "/hubungi"
+---
 """
 
 

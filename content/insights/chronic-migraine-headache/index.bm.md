@@ -9,6 +9,9 @@ tags: ["migrain", "sakit kepala", "sakit kronik", "tanda bahaya", "rawatan migra
 author: "Dr Nor Faizal Ahmad Bahuri"
 pdf_available: false
 image: "/images/insights/IMG_3620.JPG"
+keywords: ["rawatan migrain kronik Malaysia", "pakar sakit kepala Kuala Lumpur", "pengurusan migrain", "tanda bahaya migrain", "pakar bedah saraf sakit kepala Malaysia"]
+seo:
+  focusKeyword: "rawatan migrain kronik Malaysia"
 ---
 
 # Migrain Kronik & Sakit Kepala: Bila Anda Perlu Risau?

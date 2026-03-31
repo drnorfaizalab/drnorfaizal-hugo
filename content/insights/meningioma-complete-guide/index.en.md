@@ -9,6 +9,9 @@ categories: ["Neurooncology", "Brain Tumours"]
 tags: ["meningioma", "brain tumour", "neurosurgery", "craniotomy", "Simpson Grade"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/meningioma-guide.png"
+keywords: ["meningioma treatment Malaysia", "meningioma surgery Kuala Lumpur", "brain tumour Malaysia", "craniotomy", "Simpson grade meningioma"]
+seo:
+  focusKeyword: "meningioma treatment Malaysia"
 ---
 
 # Meningioma: A Comprehensive Clinical Guide for Patients

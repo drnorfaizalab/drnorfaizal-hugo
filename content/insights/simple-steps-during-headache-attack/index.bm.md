@@ -3,9 +3,12 @@ title: "Bila Sakit Kepala Menyerang: 5 Langkah Mudah Untuk Kawal Keadaan"
 date: 2026-03-31T02:27:22+08:00
 draft: false
 author: "Dr Nor Faizal Ahmad Bahuri"
+type: "blog"
 categories: ["Sakit Kepala"]
 tags: ["migrain", "sakit kepala", "penjagaan-diri"]
 description: "Sakit kepala yang datang tiba-tiba boleh membuatkan kita keliru. Sebagai pakar bedah neuro, ini adalah lima langkah penting yang saya nasihatkan pesakit saya untuk keselamatan dan kelegaan segera."
+image: "/images/insights/insights-default.jpg"
+keywords: ["apa nak buat bila migrain", "kelegaan serangan sakit kepala", "pengurusan migrain Malaysia", "pakar sakit kepala Malaysia", "pertolongan cemas migrain"]
 seo:
   focusKeyword: "apa nak buat bila sakit kepala"
 cta:

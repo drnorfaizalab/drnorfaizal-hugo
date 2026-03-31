@@ -17,6 +17,9 @@ tags: ["discipline", "Oxford", "neurosurgery", "mindset"]
 # Content settings
 toc: true  # Table of contents
 image: "/images/insights/IMG_3621.JPG"
+keywords: ["discipline neurosurgery", "Oxford neurosurgeon Malaysia", "medical excellence", "surgeon mindset", "neurosurgery training"]
+seo:
+  focusKeyword: "discipline in neurosurgery"
 ---
 
 ## The Illusion of Genius

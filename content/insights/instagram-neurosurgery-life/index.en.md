@@ -8,6 +8,9 @@ categories: ["Behind the Scenes", "Patient Education"]
 tags: ["neurosurgery", "instagram", "behind the scenes", "operating theatre", "medical life"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/photo-output.jpg"
+keywords: ["neurosurgeon daily life Malaysia", "operating theatre neurosurgery", "brain surgery Malaysia", "neurosurgeon Instagram", "behind the scenes neurosurgery"]
+seo:
+  focusKeyword: "day in life neurosurgeon Malaysia"
 ---
 
 ## Behind the Scrubs — Neurosurgery Up Close

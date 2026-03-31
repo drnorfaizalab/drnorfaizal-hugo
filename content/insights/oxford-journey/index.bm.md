@@ -9,6 +9,9 @@ tags: ["Oxford", "latihan pembedahan saraf", "pembedahan tepat", "pakar bedah sa
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/oxford-journey.png"
 show_appointment_button: true
+keywords: ["pakar bedah saraf Oxford Malaysia", "latihan pembedahan saraf Oxford", "felo pembedahan saraf", "pakar bedah saraf Malaysia", "pembedahan saraf tepat"]
+seo:
+  focusKeyword: "pakar bedah saraf Oxford Malaysia"
 ---
 
 ## Oxford Bukan Sekadar Nama.

@@ -9,6 +9,9 @@ tags: ["migraine", "headache", "chronic pain", "neuro-oncology", "red flags"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 pdf_available: false
 image: "/images/insights/IMG_3620.JPG"
+keywords: ["chronic migraine treatment Malaysia", "headache specialist Kuala Lumpur", "migraine management", "neurosurgeon headache Malaysia", "migraine red flags"]
+seo:
+  focusKeyword: "chronic migraine treatment Malaysia"
 ---
 
 # Clinical Management of Chronic Migraine & Headache

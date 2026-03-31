@@ -8,6 +8,9 @@ categories: ["Behind the Scenes", "Patient Education"]
 tags: ["bedah saraf", "instagram", "di sebalik tabir", "bilik bedah", "kehidupan perubatan"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/photo-output.jpg"
+keywords: ["kehidupan harian pakar bedah saraf Malaysia", "bilik bedah otak", "pembedahan saraf Malaysia", "pakar bedah saraf Instagram", "di sebalik tabir pembedahan saraf"]
+seo:
+  focusKeyword: "kehidupan pakar bedah saraf Malaysia"
 ---
 
 ## Di Sebalik Skrab — Bedah Saraf Dari Dekat

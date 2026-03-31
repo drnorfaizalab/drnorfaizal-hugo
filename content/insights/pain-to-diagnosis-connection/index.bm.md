@@ -8,6 +8,9 @@ categories: ["Pengurusan Kesakitan", "Diagnosis"]
 tags: ["kesakitan kronik", "sakit kepala", "diagnosis", "kesakitan neuropatik", "tanda bahaya"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/pain-diagnosis.png"
+keywords: ["diagnosis kesakitan kronik Malaysia", "pakar sakit kepala Kuala Lumpur", "kesakitan neuropatik Malaysia", "pakar pengurusan kesakitan", "penilaian neurologi Malaysia"]
+seo:
+  focusKeyword: "diagnosis kesakitan kronik Malaysia"
 ---
 
 # Sakit Anda Mungkin Petunjuk Diagnosis

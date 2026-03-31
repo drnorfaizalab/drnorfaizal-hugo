@@ -6,7 +6,10 @@ author: "Dr Nor Faizal Ahmad Bahuri"
 categories: ["Refleksi"]
 tags: ["kelelahan", "kesihatan mental", "perspektif doktor", "harapan"]
 description: "Refleksi seorang pakar bedah neuro tentang realiti yang sukar diterima, keletihan mental, dan langkah pertama menuju pemulihan—baik untuk pesakit, mahupun untuk doktor."
+type: "blog"
 show_appointment_button: true
+image: "/images/insights/insights-default.jpg"
+keywords: ["mencari harapan waktu sukar", "kesihatan mental doktor Malaysia", "pemulihan keletihan", "sokongan pesakit Malaysia", "pakar bedah saraf perspektif kesihatan mental"]
 seo:
   focusKeyword: "mencari harapan di waktu sukar"
 cta:

@@ -8,6 +8,9 @@ categories: ["Pain Management", "Neurology"]
 tags: ["migraine", "headache", "red flags", "brain tumour", "thunderclap headache"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/migraine-red-flags.png"
+keywords: ["migraine red flags", "headache warning signs Malaysia", "thunderclap headache", "brain tumour headache", "headache specialist Malaysia"]
+seo:
+  focusKeyword: "migraine red flags Malaysia"
 ---
 
 # Migraine vs Brain Tumour: Red Flags You Should Not Ignore

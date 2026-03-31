@@ -1,0 +1,23 @@
+{
+  "name": "ai-router-drnorfaizal",
+  "version": "1.0.0",
+  "description": "Claude + Gemini router for drnorfaizal.com — code vs content",
+  "type": "module",
+  "main": "ai-router.js",
+  "scripts": {
+    "start": "node ai-router.js",
+    "claude": "node ai-router.js --claude",
+    "gemini": "node ai-router.js --gemini",
+    "curate:daily": "node curator.js daily",
+    "curate:weekly": "node curator.js weekly",
+    "curate:daily:dry": "node curator.js daily --dry-run",
+    "curate:weekly:dry": "node curator.js weekly --dry-run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@google/generative-ai": "^0.21.0",
+    "@notionhq/client": "^2.2.15",
+    "@tryfabric/martian": "^1.2.4",
+    "dotenv": "^17.3.1"
+  }
+}

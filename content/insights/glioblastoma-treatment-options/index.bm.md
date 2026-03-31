@@ -8,6 +8,9 @@ categories: ["Neuro-onkologi", "Tumor Otak"]
 tags: ["glioblastoma", "GBM", "kanser otak", "kemoterapi", "temozolomide"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/glioblastoma-treatment.png"
+keywords: ["rawatan glioblastoma Malaysia", "kanser otak GBM", "protokol Stupp", "pembedahan tumor otak Kuala Lumpur", "prognosis glioblastoma"]
+seo:
+  focusKeyword: "rawatan glioblastoma Malaysia"
 ---
 
 # Glioblastoma (GBM): Memahami Pilihan Rawatan Anda

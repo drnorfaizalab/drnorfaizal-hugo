@@ -8,6 +8,9 @@ categories: ["Headache & Migraine", "Patient Education"]
 tags: ["migraine", "headache", "red flags", "neurology", "tiktok", "video"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/insights-default.jpg"
+keywords: ["migraine warning signs Malaysia", "headache red flags", "neurology Malaysia", "migraine tips", "headache video"]
+seo:
+  focusKeyword: "migraine warning signs Malaysia"
 ---
 
 ## 3 Migraine Red Flags — Watch Before You Dismiss That Headache

@@ -3,9 +3,14 @@ title: "Satu Malam di Padang Pasir"
 description: "48 bulan dalam pembedahan. Kemudian Sahara — bukan untuk lari, tapi untuk kembali mendengar diri sendiri."
 date: 2026-03-29
 draft: false
+type: "blog"
+author: "Dr Nor Faizal Ahmad Bahuri"
 categories: ["Personal"]
 tags: ["mindset", "Oxford", "neurosurgery"]
 image: "/images/insights/insights-default.jpg"
+keywords: ["kelelahan doktor", "kesihatan mental pakar bedah saraf", "kesejahteraan doktor Malaysia", "padang pasir Sahara", "pakar bedah saraf Malaysia"]
+seo:
+  focusKeyword: "kesihatan mental pakar bedah saraf Malaysia"
 ---
 
 48 bulan. Tiada rehat sebenar. Kemudian saya pergi ke Sahara — bukan untuk lari, tapi sebab saya perlu berhenti dan dengar diri sendiri semula.

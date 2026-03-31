@@ -3,9 +3,14 @@ title: "A Night in the Desert"
 description: "48 months of surgical practice. Then the Sahara — not to escape, but to return to something true."
 date: 2026-03-29
 draft: false
+type: "blog"
+author: "Dr Nor Faizal Ahmad Bahuri"
 categories: ["Personal"]
 tags: ["mindset", "Oxford", "neurosurgery"]
+keywords: ["doctor burnout", "neurosurgeon mental health", "physician wellbeing Malaysia", "Sahara desert reflection", "Malaysia neurosurgeon"]
 image: "/images/insights/insights-default.jpg"
+seo:
+  focusKeyword: "neurosurgeon mental health Malaysia"
 ---
 
 48 months. No real pause. Then I went to the Sahara — not to escape, but because I needed to stop and listen to myself again.
