@@ -1,6 +1,6 @@
 # AI Tools — drnorfaizal.com
 
-Three focused CLI tools — each with a single AI and a single purpose.
+Two focused CLI tools — Gemini for content and curation.
 
 ## Setup
 
@@ -17,23 +17,6 @@ GEMINI_API_KEY=AIza...
 NOTION_API_KEY=secret_...
 NOTION_CURATOR_PAGE_ID=<page-id>
 NOTION_RAW_IDEAS_DB_ID=<database-id>
-```
-
----
-
-## ai-code.js
-
-Claude for code troubleshooting — debug, refactor, review.
-
-**Model:** Claude Sonnet 4
-
-```bash
-# Direct mode
-node ai-code.js "fix the nav menu bug"
-node ai-code.js "refactor this function" --file path/to/file.js
-
-# Interactive mode
-node ai-code.js
 ```
 
 ---
@@ -88,7 +71,6 @@ node ai-curate.js weekly --dry-run
 ## npm scripts
 
 ```bash
-npm run code                  # Interactive Claude code session
 npm run compose               # Interactive Gemini compose session
 npm run curate:daily          # Post daily brief to Notion
 npm run curate:weekly         # Post weekly plan to Notion
