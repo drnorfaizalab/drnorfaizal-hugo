@@ -1,6 +1,6 @@
 # Script: translate_testimonials.py
 
-**File:** `scripts/translate_testimonials.py`
+**File:** `tools/translate_testimonials.py`
 **Purpose:** Auto-translate missing Bahasa Malaysia (`bm`) fields in `data/testimonials.yaml` using the Claude API.
 
 ---
@@ -8,7 +8,7 @@
 ## How to Run
 
 ```bash
-python scripts/translate_testimonials.py
+python tools/translate_testimonials.py
 ```
 
 Run from the project root (`drnorfaizal-hugo/`).
@@ -52,7 +52,7 @@ Edit `data/testimonials.yaml` and add a new entry with only the `en` field:
 Then run the script to auto-generate the `bm` field:
 
 ```bash
-python scripts/translate_testimonials.py
+python tools/translate_testimonials.py
 # Translating: Patient Name...
 # Done. 1 translation(s) added to data/testimonials.yaml
 ```

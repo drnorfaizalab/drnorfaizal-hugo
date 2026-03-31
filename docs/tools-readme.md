@@ -13,7 +13,7 @@ Routes tasks between two AI specialists:
 
 ```bash
 # 1. Install dependencies
-cd ai-router
+cd tools
 npm install
 
 # 2. Set your API keys
@@ -60,15 +60,19 @@ node ai-router.js --gemini "rewrite this in Dr Faizal's voice" --file drafts/pos
 ## Project Structure
 
 ```
-your-project/
-├── ai-router/
-│   ├── ai-router.js      ← main router
+drnorfaizal-hugo/
+├── tools/
+│   ├── ai-code.js
+│   ├── ai-compose.js
+│   ├── ai-curate.js
+│   ├── new_insight.py
+│   ├── new_insight.sh
+│   ├── translate_testimonials.py
+│   ├── deploy.sh
+│   ├── quick-start.sh
 │   ├── package.json
-│   ├── .env.example
 │   └── .env              ← your keys (gitignored)
-├── .vscode/
-│   └── tasks.json        ← copy from .vscode-tasks.json
-└── src/                  ← your website files
+└── content/              ← Hugo site content
 ```
 
 ---
@@ -76,6 +80,6 @@ your-project/
 ## Add to .gitignore
 
 ```
-ai-router/.env
+tools/.env
 node_modules/
 ```

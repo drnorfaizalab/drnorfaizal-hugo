@@ -1,6 +1,6 @@
 # AI Tools — drnorfaizal.com
 
-Two CLI tools for code assistance and content automation.
+Three focused CLI tools — each with a single AI and a single purpose.
 
 ## Setup
 
@@ -16,50 +16,59 @@ ANTHROPIC_API_KEY=sk-ant-...
 GEMINI_API_KEY=AIza...
 NOTION_API_KEY=secret_...
 NOTION_CURATOR_PAGE_ID=<page-id>
+NOTION_RAW_IDEAS_DB_ID=<database-id>
 ```
 
 ---
 
-## ai-router.js
+## ai-code.js
 
-Routes prompts to Claude (code) or Gemini (content) based on keyword detection.
+Claude for code troubleshooting — debug, refactor, review.
 
-**Models:** Claude Sonnet 4 · Gemini 1.5 Pro
+**Model:** Claude Sonnet 4
 
 ```bash
-# Auto-detect
-node ai-router.js "fix the nav menu bug"
-node ai-router.js "write a TikTok hook about spine surgery"
-
-# Force agent
-node ai-router.js --claude "refactor this function" --file path/to/file.js
-node ai-router.js --gemini "translate this caption to Bahasa Malaysia"
+# Direct mode
+node ai-code.js "fix the nav menu bug"
+node ai-code.js "refactor this function" --file path/to/file.js
 
 # Interactive mode
-node ai-router.js
+node ai-code.js
 ```
-
-**Routing logic:**
-- Code keywords (`fix`, `debug`, `deploy`, `html`, `api`, …) → Claude
-- Content keywords (`write`, `caption`, `translate`, `tiktok`, …) → Gemini
-- Ambiguous → prompts you to add `--claude` or `--gemini`
 
 ---
 
-## curator.js
+## ai-compose.js
 
-Generates daily or weekly social media content briefs using Gemini and posts them to Notion.
+Gemini for composing content ideas. All output is automatically saved to the **Raw Ideas Inbox** in Notion.
+
+**Model:** Gemini 2.5 Pro
+
+```bash
+# Direct mode
+node ai-compose.js "write a TikTok hook about spine surgery"
+node ai-compose.js "translate this caption to Bahasa Malaysia" --file caption.md
+
+# Interactive mode
+node ai-compose.js
+```
+
+---
+
+## ai-curate.js
+
+Gemini generates structured daily or weekly content briefs and posts them to Notion (AI Curator Briefings).
 
 **Model:** Gemini 2.5 Pro
 
 ```bash
 # Generate and post to Notion
-node curator.js daily
-node curator.js weekly
+node ai-curate.js daily
+node ai-curate.js weekly
 
 # Preview without posting
-node curator.js daily --dry-run
-node curator.js weekly --dry-run
+node ai-curate.js daily --dry-run
+node ai-curate.js weekly --dry-run
 ```
 
 **Daily brief includes:**
@@ -74,13 +83,13 @@ node curator.js weekly --dry-run
 - Instagram post topic
 - LinkedIn angle
 
-Output is posted as a new child page under `NOTION_CURATOR_PAGE_ID`.
-
 ---
 
 ## npm scripts
 
 ```bash
+npm run code                  # Interactive Claude code session
+npm run compose               # Interactive Gemini compose session
 npm run curate:daily          # Post daily brief to Notion
 npm run curate:weekly         # Post weekly plan to Notion
 npm run curate:daily:dry      # Dry run — print only

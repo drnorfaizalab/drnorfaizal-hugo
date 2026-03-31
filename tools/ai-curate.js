@@ -1,44 +1,28 @@
 #!/usr/bin/env node
 
 /**
- * Curator — drnorfaizal.com
- * Uses Gemini to generate daily/weekly content briefs → posts to Notion
- *
+ * ai-curate — Gemini content briefs → Notion (AI Curator Briefings)
  * Usage:
- *   node curator.js daily
- *   node curator.js weekly
- *   node curator.js daily --dry-run
+ *   node ai-curate.js daily
+ *   node ai-curate.js weekly
+ *   node ai-curate.js daily --dry-run
  */
 
-import { config } from "dotenv";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { Client } from "@notionhq/client";
 import { markdownToBlocks } from "@tryfabric/martian";
-import { readFileSync } from "fs";
-import { resolve, dirname } from "path";
+import path from "path";
 import { fileURLToPath } from "url";
-config({ path: resolve(dirname(fileURLToPath(import.meta.url)), "../.env") });
+import { config } from "dotenv";
 
-// Load .env from project root (one level up from ai-router/)
-const __dirname = dirname(fileURLToPath(import.meta.url));
-try {
-  const env = readFileSync(resolve(__dirname, "../.env"), "utf-8");
-  for (const line of env.split("\n")) {
-    const trimmed = line.trim();
-    if (!trimmed || trimmed.startsWith("#")) continue;
-    const eq = trimmed.indexOf("=");
-    if (eq === -1) continue;
-    const key = trimmed.slice(0, eq).trim();
-    const val = trimmed.slice(eq + 1).trim();
-    if (key && !process.env[key]) process.env[key] = val;
-  }
-} catch {}
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+config({ path: path.resolve(__dirname, "../.env") });
 
 // ─── CONFIG ──────────────────────────────────────────────────────────────────
 
-const GEMINI_MODEL = "gemini-2.5-pro";
+const MODEL = "gemini-2.5-pro";
 
-const SYSTEM_PROMPT = `You are the content curator for Dr Nor Faizal Ahmad Bahuri —
+const SYSTEM = `You are the content curator for Dr Nor Faizal Ahmad Bahuri —
 Oxford-trained Consultant Neurosurgeon & Interventional Pain Specialist, Kuala Lumpur.
 Voice: Human first, credentials second.
 Bilingual: Bahasa Malaysia for reach, English for authority.
@@ -51,12 +35,8 @@ Format output as clean Markdown with headers and bullet points.`;
 
 function dailyPrompt() {
   const today = new Date().toLocaleDateString("en-MY", {
-    weekday: "long",
-    year: "numeric",
-    month: "long",
-    day: "numeric",
+    weekday: "long", year: "numeric", month: "long", day: "numeric",
   });
-
   return `Generate today's content brief for Dr Faizal's social media.
 
 **Date:** ${today}
@@ -80,11 +60,8 @@ Short-form thought for Instagram or Facebook Stories. One sentence.`;
 
 function weeklyPrompt() {
   const weekOf = new Date().toLocaleDateString("en-MY", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
+    year: "numeric", month: "long", day: "numeric",
   });
-
   return `Generate a full week content calendar for Dr Faizal's social media.
 
 **Week of:** ${weekOf}
@@ -102,11 +79,7 @@ Format as a structured day-by-day plan with clear headers.`;
 
 async function generate(type) {
   const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-  const model = genAI.getGenerativeModel({
-    model: GEMINI_MODEL,
-    systemInstruction: SYSTEM_PROMPT,
-  });
-
+  const model = genAI.getGenerativeModel({ model: MODEL, systemInstruction: SYSTEM });
   const prompt = type === "weekly" ? weeklyPrompt() : dailyPrompt();
   const result = await model.generateContent(prompt);
   return result.response.text();
@@ -116,23 +89,16 @@ async function generate(type) {
 
 async function postToNotion(title, markdown) {
   const notion = new Client({ auth: process.env.NOTION_API_KEY });
-  const parentId = process.env.NOTION_CURATOR_PAGE_ID;
-
-  // Convert markdown → Notion blocks using martian
   const blocks = markdownToBlocks(markdown);
 
-  // Notion allows max 100 children per request
   const page = await notion.pages.create({
-    parent: { page_id: parentId },
+    parent: { page_id: process.env.NOTION_CURATOR_PAGE_ID },
     properties: {
-      title: {
-        title: [{ type: "text", text: { content: title } }],
-      },
+      title: { title: [{ type: "text", text: { content: title } }] },
     },
     children: blocks.slice(0, 100),
   });
 
-  // Append remaining blocks if content exceeds 100
   if (blocks.length > 100) {
     await notion.blocks.children.append({
       block_id: page.id,
@@ -151,7 +117,7 @@ async function main() {
   const dryRun = args.includes("--dry-run");
 
   if (!type || !["daily", "weekly"].includes(type)) {
-    console.error("Usage: node curator.js [daily|weekly] [--dry-run]");
+    console.error("Usage: node ai-curate.js [daily|weekly] [--dry-run]");
     process.exit(1);
   }
 
@@ -161,18 +127,13 @@ async function main() {
   }
 
   const dateStr = new Date().toLocaleDateString("en-MY", {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
+    year: "numeric", month: "short", day: "numeric",
   });
-
-  const title =
-    type === "weekly"
-      ? `📊 Weekly Plan — ${dateStr}`
-      : `📡 Daily Brief — ${dateStr}`;
+  const title = type === "weekly"
+    ? `📊 Weekly Plan — ${dateStr}`
+    : `📡 Daily Brief — ${dateStr}`;
 
   console.log(`\n🟢 Generating ${type} brief with Gemini...\n`);
-
   const content = await generate(type);
 
   if (dryRun) {
@@ -183,15 +144,12 @@ async function main() {
   }
 
   if (!process.env.NOTION_API_KEY || !process.env.NOTION_CURATOR_PAGE_ID) {
-    console.error(
-      "❌ Missing NOTION_API_KEY or NOTION_CURATOR_PAGE_ID in .env"
-    );
+    console.error("❌ Missing NOTION_API_KEY or NOTION_CURATOR_PAGE_ID in .env");
     process.exit(1);
   }
 
   console.log("📝 Posting to Notion...");
   const url = await postToNotion(title, content);
-
   console.log(`\n✅ ${title}`);
   console.log(`   ${url}\n`);
 }

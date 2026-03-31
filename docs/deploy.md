@@ -1,6 +1,6 @@
 # Script: deploy.sh
 
-**File:** `scripts/deploy.sh`
+**File:** `tools/deploy.sh`
 **Purpose:** One-command build, commit, push to GitHub, and purge Cloudflare cache.
 
 ---
@@ -8,7 +8,7 @@
 ## How to Run
 
 ```bash
-bash scripts/deploy.sh
+bash tools/deploy.sh
 ```
 
 Run from the project root (`drnorfaizal-hugo/`).
@@ -51,7 +51,7 @@ CF_ZONE_ID=your_cloudflare_zone_id
 
 ```bash
 # After editing content or templates:
-bash scripts/deploy.sh
+bash tools/deploy.sh
 
 # You'll see:
 # 🏗️  Starting Hugo Build (Minified)...

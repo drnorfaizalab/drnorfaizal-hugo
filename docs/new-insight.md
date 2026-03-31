@@ -1,6 +1,6 @@
 # Script: new_insight.py
 
-**File:** `scripts/new_insight.py`
+**File:** `tools/new_insight.py`
 **Purpose:** Pipeline for creating bilingual Hugo insights posts — from raw draft to polished EN + BM markdown via Claude Code (no API key required).
 
 ---
@@ -9,19 +9,19 @@
 
 ```bash
 # Interactive — prompts for a topic/slug
-python scripts/new_insight.py
+python tools/new_insight.py
 
 # Direct — pass the slug
-python scripts/new_insight.py my-topic-slug
+python tools/new_insight.py my-topic-slug
 
 # Optimize photos in a slug folder only
-python scripts/new_insight.py --photos --slug my-topic-slug
+python tools/new_insight.py --photos --slug my-topic-slug
 
 # Optimize photos + print ready-to-paste prompts for Claude Code
-python scripts/new_insight.py --prepare --slug my-topic-slug
+python tools/new_insight.py --prepare --slug my-topic-slug
 
 # List all drafts that have draft.yaml but no index.en.md
-python scripts/new_insight.py --all
+python tools/new_insight.py --all
 ```
 
 Run from the project root (`drnorfaizal-hugo/`).
@@ -33,7 +33,7 @@ Run from the project root (`drnorfaizal-hugo/`).
 ### Step 1 — Create a draft scaffold
 
 ```bash
-python scripts/new_insight.py why-your-headache-needs-an-mri
+python tools/new_insight.py why-your-headache-needs-an-mri
 ```
 
 Creates:
@@ -58,7 +58,7 @@ Drop any photos into the same folder alongside `draft.yaml`.
 ### Step 3 — Optimize photos + get prompts
 
 ```bash
-python scripts/new_insight.py --prepare --slug why-your-headache-needs-an-mri
+python tools/new_insight.py --prepare --slug why-your-headache-needs-an-mri
 ```
 
 This will:
@@ -101,7 +101,7 @@ No API key needed — content generation runs through your Claude Code session.
 Run standalone at any time (before or independent of `--prepare`):
 
 ```bash
-python scripts/new_insight.py --photos --slug my-topic-slug
+python tools/new_insight.py --photos --slug my-topic-slug
 ```
 
 | Setting | Value |

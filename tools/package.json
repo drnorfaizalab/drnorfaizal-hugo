@@ -3,15 +3,13 @@
   "version": "1.0.0",
   "description": "Claude + Gemini router for drnorfaizal.com — code vs content",
   "type": "module",
-  "main": "ai-router.js",
   "scripts": {
-    "start": "node ai-router.js",
-    "claude": "node ai-router.js --claude",
-    "gemini": "node ai-router.js --gemini",
-    "curate:daily": "node curator.js daily",
-    "curate:weekly": "node curator.js weekly",
-    "curate:daily:dry": "node curator.js daily --dry-run",
-    "curate:weekly:dry": "node curator.js weekly --dry-run"
+    "code": "node ai-code.js",
+    "compose": "node ai-compose.js",
+    "curate:daily": "node ai-curate.js daily",
+    "curate:weekly": "node ai-curate.js weekly",
+    "curate:daily:dry": "node ai-curate.js daily --dry-run",
+    "curate:weekly:dry": "node ai-curate.js weekly --dry-run"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",

@@ -1,6 +1,6 @@
 # Script: quick-start.sh
 
-**File:** `scripts/quick-start.sh`
+**File:** `tools/quick-start.sh`
 **Purpose:** Interactive menu for common Hugo development tasks — content creation, local server, builds, git, and site stats.
 
 ---
@@ -8,7 +8,7 @@
 ## How to Run
 
 ```bash
-bash scripts/quick-start.sh
+bash tools/quick-start.sh
 ```
 
 Run from the project root (`drnorfaizal-hugo/`).
@@ -66,4 +66,4 @@ Utilities:
 
 - The script `cd`s to the Hugo project root automatically — safe to run from any directory.
 - Option 8 prompts before staging and before pushing — no accidental commits.
-- For insights posts, prefer the dedicated `scripts/new_insight.py` pipeline over option 1.
+- For insights posts, prefer the dedicated `tools/new_insight.py` pipeline over option 1.
