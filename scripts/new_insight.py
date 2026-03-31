@@ -130,6 +130,7 @@ author: "Dr Nor Faizal Ahmad Bahuri"
 categories: [...]
 tags: [...]
 description: "..."
+show_appointment_button: true
 seo:
   focusKeyword: "..."
 cta:
@@ -186,11 +187,11 @@ def gemini_generate(system: str, prompt: str) -> str:
                 contents=prompt,
             )
             text = response.text.strip()
-        if text.startswith("```"):
-            text = text.split("\n", 1)[-1]
-        if text.endswith("```"):
-            text = text.rsplit("\n", 1)[0]
-        return text.strip()
+            if text.startswith("```"):
+                text = text.split("\n", 1)[-1]
+            if text.endswith("```"):
+                text = text.rsplit("\n", 1)[0]
+            return text.strip()
         except Exception as e:
             if "404" in str(e):
                 print(f"\nModel '{GEMINI_MODEL}' not found.")
@@ -225,6 +226,20 @@ def create_draft(slug: str) -> None:
     print(f"Fill in the draft, then run: python scripts/new_insight.py {slug}")
 
 
+# ── Helpers ───────────────────────────────────────────────────────────────────
+
+def inject_field(md: str, key: str, value: str) -> str:
+    """Insert key: value into front matter if not already present."""
+    if f"{key}:" in md:
+        return md
+    # Insert before closing ---
+    parts = md.split("---", 2)
+    if len(parts) >= 3:
+        parts[1] = parts[1].rstrip() + f"\n{key}: {value}\n"
+        return "---".join(parts)
+    return md
+
+
 # ── Step 2: Generate EN + BM posts via Gemini ─────────────────────────────────
 
 def generate_posts(slug: str) -> None:
@@ -250,6 +265,7 @@ def generate_posts(slug: str) -> None:
         sys.exit(1)
 
     now_ts = datetime.now().strftime("%Y-%m-%dT%H:%M:%S+08:00")
+    show_btn = draft.get("show_appointment_button", True)
 
     prompt_en = f"Date: {now_ts}\n\nDRAFT:\n{draft_text}"
 
@@ -261,6 +277,7 @@ def generate_posts(slug: str) -> None:
     else:
         print("Generating index.en.md ...")
         en_md = gemini_generate(EN_SYSTEM, prompt_en)
+        en_md = inject_field(en_md, "show_appointment_button", str(show_btn).lower())
         en_path.write_text(en_md, encoding="utf-8")
         print(f"Saved: {en_path}")
 
@@ -272,6 +289,7 @@ def generate_posts(slug: str) -> None:
         print("Generating index.bm.md ...")
         prompt_bm = f"DRAFT:\n{draft_text}\n\nENGLISH POST:\n{en_md}"
         bm_md = gemini_generate(BM_SYSTEM, prompt_bm)
+        bm_md = inject_field(bm_md, "show_appointment_button", str(show_btn).lower())
         bm_path.write_text(bm_md, encoding="utf-8")
         print(f"Saved: {bm_path}")
 
