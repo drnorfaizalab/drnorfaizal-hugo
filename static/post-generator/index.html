@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Post Generator — Dr Nor Faizal</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --gold: #b8964a;
+    --gold-light: #d4a850;
+    --gold-dim: #5a4e2a;
+    --bg: #0c0c0a;
+    --bg2: #111109;
+    --bg3: #161410;
+    --border: #252218;
+    --border2: #2e2a1e;
+    --text: #f0ece0;
+    --text2: #8a7e6e;
+    --text3: #5a5248;
+    --text4: #3d3830;
+    --green: #4a7a52;
+    --red: #8a3a2a;
+  }
+
+  html, body {
+    height: 100%;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── LOCK SCREEN ── */
+  #lock-screen {
+    position: fixed;
+    inset: 0;
+    background: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 40px 24px;
+    transition: opacity 0.4s, transform 0.4s;
+  }
+
+  #lock-screen.unlocking {
+    opacity: 0;
+    transform: translateY(-20px);
+    pointer-events: none;
+  }
+
+  .lock-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 6px;
+  }
+
+  .lock-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    color: var(--text);
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .lock-field-wrap {
+    width: 100%;
+    max-width: 320px;
+    position: relative;
+    margin-bottom: 14px;
+  }
+
+  .lock-input {
+    width: 100%;
+    background: var(--bg3);
+    border: 1px solid var(--border2);
+    border-radius: 8px;
+    padding: 15px 50px 15px 18px;
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    outline: none;
+    transition: border-color 0.2s;
+    -webkit-appearance: none;
+    text-align: center;
+  }
+
+  .lock-input:focus { border-color: var(--gold); }
+  .lock-input.error { border-color: var(--red); animation: shake 0.35s ease; }
+
+  @keyframes shake {
+    0%,100% { transform: translateX(0); }
+    20% { transform: translateX(-8px); }
+    40% { transform: translateX(8px); }
+    60% { transform: translateX(-5px); }
+    80% { transform: translateX(5px); }
+  }
+
+  .lock-btn {
+    width: 100%;
+    max-width: 320px;
+    padding: 15px;
+    background: var(--gold);
+    color: var(--bg);
+    border: none;
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .lock-btn:hover { background: var(--gold-light); }
+
+  .lock-error {
+    font-size: 11px;
+    color: var(--red);
+    margin-top: 10px;
+    letter-spacing: 0.05em;
+    height: 16px;
+  }
+
+  .lock-hint {
+    font-size: 10px;
+    color: var(--text4);
+    margin-top: 32px;
+    letter-spacing: 0.1em;
+    text-align: center;
+  }
+
+  /* ── APP SHELL ── */
+  #app {
+    display: none;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  #app.visible { display: flex; }
+
+  /* ── HEADER ── */
+  .header {
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 20px 12px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-left {}
+  .header-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    color: var(--gold);
+    text-transform: uppercase;
+  }
+  .header-sub {
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    color: var(--text4);
+    text-transform: uppercase;
+    margin-top: 1px;
+  }
+
+  .lock-icon-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid var(--border2);
+    background: var(--bg3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    transition: border-color 0.2s;
+  }
+  .lock-icon-btn:hover { border-color: var(--text3); }
+
+  /* ── STEP BAR ── */
+  .step-bar {
+    display: flex;
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .step-pill {
+    flex: 1;
+    padding: 11px 4px;
+    text-align: center;
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text4);
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: 500;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .step-pill.active { color: var(--gold); border-bottom-color: var(--gold); }
+  .step-pill.done { color: var(--text3); border-bottom-color: var(--border2); }
+
+  /* ── CONTENT ── */
+  .content {
+    flex: 1;
+    padding: 24px 20px 100px;
+    max-width: 560px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .step-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 4px;
+    line-height: 1.2;
+  }
+
+  .step-hint {
+    font-size: 12px;
+    color: var(--text3);
+    margin-bottom: 28px;
+    letter-spacing: 0.02em;
+  }
+
+  /* ── FIELDS ── */
+  .field-group { margin-bottom: 22px; }
+
+  .field-label {
+    display: block;
+    font-size: 9px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+
+  .field-label .opt {
+    color: var(--text4);
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    text-transform: none;
+    font-size: 10px;
+  }
+
+  input[type="text"].fab-input,
+  input[type="date"].fab-input,
+  textarea.fab-input {
+    width: 100%;
+    background: var(--bg3);
+    border: 1px solid var(--border2);
+    border-radius: 8px;
+    padding: 13px 15px;
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  input[type="date"].fab-input {
+    color-scheme: dark;
+  }
+
+  input[type="text"].fab-input:focus,
+  input[type="date"].fab-input:focus,
+  textarea.fab-input:focus { border-color: var(--gold); }
+
+  input[type="text"].fab-input::placeholder,
+  textarea.fab-input::placeholder { color: var(--text4); }
+
+  textarea.fab-input {
+    resize: vertical;
+    min-height: 100px;
+    line-height: 1.65;
+  }
+
+  textarea.body-area {
+    min-height: 220px;
+    font-size: 14px;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 0.01em;
+  }
+
+  .char-count {
+    font-size: 10px;
+    color: var(--text4);
+    text-align: right;
+    margin-top: 5px;
+  }
+  .char-count.warn { color: #c06050; }
+
+  .slug-preview {
+    font-size: 11px;
+    color: var(--text4);
+    margin-top: 6px;
+    font-family: 'Courier New', monospace;
+    padding-left: 2px;
+    word-break: break-all;
+  }
+  .slug-preview span { color: var(--text3); }
+
+  /* ── CATEGORY GRID ── */
+  .category-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .cat-btn {
+    padding: 12px 10px;
+    border-radius: 8px;
+    border: 1px solid var(--border2);
+    background: var(--bg3);
+    color: var(--text3);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .cat-btn.selected {
+    border-color: var(--gold);
+    background: #1c1810;
+    color: var(--gold);
+  }
+
+  /* ── TAGS ── */
+  .tags-wrap { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  .tag-chip {
+    padding: 7px 13px;
+    border-radius: 20px;
+    border: 1px solid var(--border2);
+    background: var(--bg3);
+    color: var(--text3);
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: 'DM Sans', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .tag-chip.selected {
+    border-color: var(--gold);
+    background: #1c1810;
+    color: var(--gold-light);
+  }
+
+  /* ── TOGGLE ── */
+  .toggle-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 15px;
+    background: var(--bg3);
+    border: 1px solid var(--border2);
+    border-radius: 8px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .toggle-label { font-size: 14px; color: var(--text2); }
+  .toggle-label small {
+    display: block;
+    font-size: 10px;
+    color: var(--text4);
+    margin-top: 2px;
+    letter-spacing: 0.04em;
+  }
+
+  .toggle-switch {
+    width: 46px;
+    height: 26px;
+    border-radius: 13px;
+    background: var(--border2);
+    position: relative;
+    transition: background 0.25s;
+    flex-shrink: 0;
+  }
+
+  .toggle-switch.on { background: var(--gold); }
+
+  .toggle-knob {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--text);
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    transition: transform 0.25s;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  }
+
+  .toggle-switch.on .toggle-knob { transform: translateX(20px); }
+
+  /* ── BUTTONS ── */
+  .btn-primary {
+    width: 100%;
+    padding: 16px;
+    background: var(--gold);
+    color: var(--bg);
+    border: none;
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.2s, opacity 0.2s;
+    margin-top: 18px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .btn-primary:hover:not(:disabled) { background: var(--gold-light); }
+  .btn-primary:disabled { opacity: 0.25; cursor: not-allowed; }
+  .btn-primary.success { background: var(--green); color: #c8f0cc; }
+
+  .btn-secondary {
+    width: 100%;
+    padding: 13px;
+    background: transparent;
+    color: var(--text3);
+    border: 1px solid var(--border2);
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.2s;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .btn-secondary:hover { border-color: var(--text3); color: var(--text2); }
+
+  .nav-row { display: flex; gap: 10px; margin-top: 10px; }
+  .nav-row .btn-secondary { margin-top: 0; flex: 1; }
+  .nav-row .btn-primary { margin-top: 0; flex: 2; }
+
+  /* ── INSTRUCTIONS BOX ── */
+  .instr-box {
+    background: #0f0e0a;
+    border: 1px solid var(--border2);
+    border-left: 3px solid var(--gold);
+    border-radius: 8px;
+    padding: 16px 18px;
+    margin-bottom: 20px;
+  }
+
+  .instr-box p {
+    font-size: 13px;
+    color: var(--text2);
+    line-height: 1.8;
+    margin: 0;
+  }
+
+  .instr-box strong { color: var(--gold); font-weight: 500; }
+  .instr-box code {
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    background: var(--bg);
+    padding: 1px 5px;
+    border-radius: 3px;
+    color: var(--gold-light);
+  }
+
+  /* ── CODE BLOCK ── */
+  .code-block {
+    background: #080806;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px;
+    font-family: 'Courier New', monospace;
+    font-size: 11.5px;
+    line-height: 1.75;
+    color: var(--text3);
+    white-space: pre-wrap;
+    word-break: break-word;
+    max-height: 300px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 28px 0;
+  }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .step-content { animation: fadeUp 0.25s ease; }
+
+  /* ── GRAIN OVERLAY ── */
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 999;
+    opacity: 0.4;
+  }
+</style>
+</head>
+<body>
+
+<!-- LOCK SCREEN -->
+<div id="lock-screen">
+  <div class="lock-logo">Dr Nor Faizal</div>
+  <div class="lock-name">Post Generator</div>
+  <div class="lock-field-wrap">
+    <input
+      class="lock-input"
+      type="password"
+      id="pass-input"
+      placeholder="Passphrase"
+      autocomplete="current-password"
+      inputmode="text"
+      onkeydown="if(event.key==='Enter')unlock()"
+    >
+  </div>
+  <button class="lock-btn" onclick="unlock()">Enter</button>
+  <div class="lock-error" id="lock-error"></div>
+  <div class="lock-hint">Private tool · drnorfaizal.com</div>
+</div>
+
+<!-- APP -->
+<div id="app">
+  <div class="header">
+    <div class="header-left">
+      <div class="header-logo">Dr Nor Faizal</div>
+      <div class="header-sub">Hugo Post Generator</div>
+    </div>
+    <div class="lock-icon-btn" onclick="lockApp()" title="Lock">🔒</div>
+  </div>
+
+  <div class="step-bar" id="step-bar">
+    <div class="step-pill" data-step="1" onclick="goStep(1)">Meta</div>
+    <div class="step-pill" data-step="2" onclick="goStep(2)">Excerpt</div>
+    <div class="step-pill" data-step="3" onclick="goStep(3)">Body</div>
+    <div class="step-pill" data-step="4" onclick="goStep(4)">Export</div>
+  </div>
+
+  <div class="content" id="app-content"></div>
+</div>
+
+<script>
+// ── CONFIG ──────────────────────────────────────────────────────────────
+// Change this passphrase to whatever you want
+const PASSPHRASE = "drfab2025";
+
+const CATEGORIES = ["Brain", "Head", "Pain", "Story"];
+
+const TAGS = {
+  Brain: ["brain tumour","glioma","meningioma","neurosurgery","craniotomy","neuro-oncology"],
+  Head:  ["headache","migraine","cluster headache","intracranial pressure","neurology","vertigo"],
+  Pain:  ["chronic pain","interventional pain","nerve block","spinal cord stimulation","back pain","neuropathic pain"],
+  Story: ["patient story","reflections","Oxford","surgical training","life in medicine","personal"],
+};
+
+// ── STATE ────────────────────────────────────────────────────────────────
+let step = 1;
+let form = {
+  title: "", date: today(), category: "Pain",
+  tags: [], excerpt: "", author: "Dr Nor Faizal Ahmad Bahuri",
+  body: "", pullquote: "", draft: true,
+};
+
+// ── UTILITIES ────────────────────────────────────────────────────────────
+function today() {
+  return new Date().toISOString().split("T")[0];
+}
+
+function slugify(t) {
+  return t.toLowerCase().trim()
+    .replace(/[^\w\s-]/g,"").replace(/[\s_-]+/g,"-").replace(/^-+|-+$/g,"");
+}
+
+function wordCount(t) {
+  return t.trim().split(/\s+/).filter(Boolean).length;
+}
+
+function generateMD() {
+  const s = form;
+  const tagsYaml = s.tags.length
+    ? "\ntags:\n" + s.tags.map(t => `  - "${t}"`).join("\n") : "";
+  const pq = s.pullquote ? `\npullquote: "${s.pullquote.replace(/"/g,'\\"')}"` : "";
+  return `---
+title: "${s.title}"
+date: ${s.date}
+slug: "${slugify(s.title)}"
+categories:
+  - "${s.category}"${tagsYaml}
+description: "${s.excerpt}"
+author: "${s.author}"${pq}
+draft: ${s.draft}
+---
+
+${s.body}`.trim();
+}
+
+// ── AUTH ─────────────────────────────────────────────────────────────────
+function unlock() {
+  const val = document.getElementById("pass-input").value;
+  const errEl = document.getElementById("lock-error");
+  if (val === PASSPHRASE) {
+    sessionStorage.setItem("fab_auth","1");
+    document.getElementById("lock-screen").classList.add("unlocking");
+    setTimeout(() => {
+      document.getElementById("lock-screen").style.display = "none";
+      document.getElementById("app").classList.add("visible");
+      renderStep();
+    }, 420);
+  } else {
+    errEl.textContent = "Incorrect passphrase";
+    const inp = document.getElementById("pass-input");
+    inp.classList.add("error");
+    inp.value = "";
+    setTimeout(() => { inp.classList.remove("error"); errEl.textContent = ""; }, 1400);
+  }
+}
+
+function lockApp() {
+  sessionStorage.removeItem("fab_auth");
+  location.reload();
+}
+
+// Check session on load
+window.addEventListener("DOMContentLoaded", () => {
+  if (sessionStorage.getItem("fab_auth") === "1") {
+    document.getElementById("lock-screen").style.display = "none";
+    document.getElementById("app").classList.add("visible");
+    renderStep();
+  }
+  document.getElementById("pass-input").focus();
+});
+
+// ── NAVIGATION ──────────────────────────────────────────────────────────
+function goStep(n) {
+  if (n === step) return;
+  if (n > step) {
+    if (step === 1 && !isStep1Valid()) return;
+    if (step === 2 && !isStep2Valid()) return;
+    if (step === 3 && !isStep3Valid()) return;
+  }
+  step = n;
+  renderStep();
+}
+
+function isStep1Valid() { return form.title.trim().length > 3; }
+function isStep2Valid() { return form.excerpt.trim().length > 10; }
+function isStep3Valid() { return form.body.trim().length > 20; }
+
+function updateStepBar() {
+  document.querySelectorAll(".step-pill").forEach(el => {
+    const s = parseInt(el.dataset.step);
+    el.className = "step-pill" + (s === step ? " active" : s < step ? " done" : "");
+    el.textContent = (s < step ? "✓ " : "") + ["Meta","Excerpt","Body","Export"][s-1];
+  });
+}
+
+// ── RENDER ───────────────────────────────────────────────────────────────
+function renderStep() {
+  updateStepBar();
+  const el = document.getElementById("app-content");
+  el.innerHTML = "";
+  const div = document.createElement("div");
+  div.className = "step-content";
+  div.innerHTML = steps[step]();
+  el.appendChild(div);
+  bindEvents();
+  el.scrollTo(0, 0);
+  window.scrollTo(0, 0);
+}
+
+// ── STEP TEMPLATES ───────────────────────────────────────────────────────
+const steps = {
+  1: () => `
+    <div class="step-title">Post Details</div>
+    <div class="step-hint">Title, date, category and tags</div>
+
+    <div class="field-group">
+      <label class="field-label">Post Title</label>
+      <input type="text" class="fab-input" id="f-title" placeholder="e.g. When Headache Is Not Just a Headache" value="${esc(form.title)}">
+      <div class="slug-preview" id="slug-preview">${form.title ? `slug: <span>/insights/${slugify(form.title)}/</span>` : ""}</div>
+    </div>
+
+    <div class="field-group">
+      <label class="field-label">Publish Date</label>
+      <input type="date" class="fab-input" id="f-date" value="${form.date}">
+    </div>
+
+    <div class="field-group">
+      <label class="field-label">Category</label>
+      <div class="category-grid">
+        ${CATEGORIES.map(c => `<button class="cat-btn${form.category===c?" selected":""}" data-cat="${c}" onclick="selectCat('${c}')">${c}</button>`).join("")}
+      </div>
+    </div>
+
+    <div class="field-group">
+      <label class="field-label">Tags</label>
+      <div class="tags-wrap" id="tags-wrap">
+        ${renderTags()}
+      </div>
+    </div>
+
+    <div class="field-group">
+      <div class="toggle-row" onclick="toggleDraft()">
+        <div class="toggle-label">
+          Save as Draft
+          <small>Publish later from VS Code</small>
+        </div>
+        <div class="toggle-switch${form.draft?" on":""}" id="toggle-sw">
+          <div class="toggle-knob"></div>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn-primary" id="btn-next1" ${isStep1Valid()?"":"disabled"} onclick="goStep(2)">Next — Excerpt →</button>
+  `,
+
+  2: () => `
+    <div class="step-title">Excerpt & Hook</div>
+    <div class="step-hint">Shows in search results and social cards</div>
+
+    <div class="field-group">
+      <label class="field-label">Excerpt / Description</label>
+      <textarea class="fab-input" id="f-excerpt" placeholder="A single powerful sentence that makes someone stop scrolling. No jargon. Speak to the patient." rows="3">${esc(form.excerpt)}</textarea>
+      <div class="char-count${form.excerpt.length>160?" warn":""}" id="excerpt-count">${form.excerpt.length}/160 chars${form.excerpt.length>160?" ⚠ too long for SEO":""}</div>
+    </div>
+
+    <div class="field-group">
+      <label class="field-label">Pull Quote <span class="opt">— optional</span></label>
+      <textarea class="fab-input" id="f-pullquote" placeholder="A quotable line for LinkedIn or Instagram. e.g. Pain is not weakness. It is information." rows="2">${esc(form.pullquote)}</textarea>
+    </div>
+
+    <div class="nav-row">
+      <button class="btn-secondary" onclick="goStep(1)">← Back</button>
+      <button class="btn-primary" id="btn-next2" ${isStep2Valid()?"":"disabled"} onclick="goStep(3)">Next — Body →</button>
+    </div>
+  `,
+
+  3: () => `
+    <div class="step-title">Post Body</div>
+    <div class="step-hint">Write in Markdown. ## Heading, **bold**, *italic*.</div>
+
+    <div class="field-group">
+      <textarea class="fab-input body-area" id="f-body" placeholder="## The Overlooked Warning Sign&#10;&#10;Most patients come to me after years of being told their headache is stress. By then...&#10;&#10;## What I Look For&#10;&#10;In the clinic, three questions change everything..." rows="14">${esc(form.body)}</textarea>
+      <div class="char-count" id="body-count">~${wordCount(form.body)} words</div>
+    </div>
+
+    <div class="nav-row">
+      <button class="btn-secondary" onclick="goStep(2)">← Back</button>
+      <button class="btn-primary" id="btn-next3" ${isStep3Valid()?"":"disabled"} onclick="goStep(4)">Generate →</button>
+    </div>
+  `,
+
+  4: () => {
+    const md = generateMD();
+    const fname = slugify(form.title) + ".md";
+    return `
+    <div class="step-title">Ready to Deploy</div>
+    <div class="step-hint">Copy → GitHub Mobile → done</div>
+
+    <div class="instr-box">
+      <p><strong>1.</strong> Tap <strong>Copy Markdown</strong> below</p>
+      <p><strong>2.</strong> Open <strong>GitHub app</strong> → your repo</p>
+      <p><strong>3.</strong> Navigate to <code>content/insights/</code></p>
+      <p><strong>4.</strong> Tap <strong>+</strong> → Create new file</p>
+      <p><strong>5.</strong> Name it: <code>${fname}</code></p>
+      <p><strong>6.</strong> Paste → Commit to <strong>main</strong> → deploy 🚀</p>
+    </div>
+
+    <div class="code-block" id="md-output">${esc(md)}</div>
+
+    <button class="btn-primary" id="btn-copy" onclick="copyMD()">Copy Markdown</button>
+
+    <hr class="divider">
+
+    <button class="btn-secondary" onclick="newPost()">+ Start New Post</button>
+    <button class="btn-secondary" onclick="goStep(3)">← Edit Body</button>
+  `;}
+};
+
+// ── HELPERS ──────────────────────────────────────────────────────────────
+function esc(s) {
+  return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+
+function renderTags() {
+  return (TAGS[form.category]||[]).map(t =>
+    `<button class="tag-chip${form.tags.includes(t)?" selected":""}" onclick="toggleTag('${t.replace(/'/g,"\\'")}')">
+      ${t}
+    </button>`
+  ).join("");
+}
+
+function selectCat(c) {
+  form.category = c;
+  form.tags = [];
+  document.querySelectorAll(".cat-btn").forEach(b => {
+    b.classList.toggle("selected", b.dataset.cat === c);
+  });
+  document.getElementById("tags-wrap").innerHTML = renderTags();
+}
+
+function toggleTag(t) {
+  if (form.tags.includes(t)) form.tags = form.tags.filter(x=>x!==t);
+  else form.tags.push(t);
+  document.querySelectorAll(".tag-chip").forEach(b => {
+    b.classList.toggle("selected", form.tags.includes(b.textContent.trim()));
+  });
+}
+
+function toggleDraft() {
+  form.draft = !form.draft;
+  const sw = document.getElementById("toggle-sw");
+  if (sw) sw.className = "toggle-switch" + (form.draft ? " on" : "");
+}
+
+function copyMD() {
+  const md = generateMD();
+  const btn = document.getElementById("btn-copy");
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(md).then(() => {
+      btn.textContent = "✓ Copied!";
+      btn.classList.add("success");
+      setTimeout(() => { btn.textContent = "Copy Markdown"; btn.classList.remove("success"); }, 2500);
+    });
+  } else {
+    // Fallback for older browsers
+    const ta = document.createElement("textarea");
+    ta.value = md;
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    document.execCommand("copy");
+    document.body.removeChild(ta);
+    btn.textContent = "✓ Copied!";
+    btn.classList.add("success");
+    setTimeout(() => { btn.textContent = "Copy Markdown"; btn.classList.remove("success"); }, 2500);
+  }
+}
+
+function newPost() {
+  form = {
+    title:"", date:today(), category:"Pain",
+    tags:[], excerpt:"", author:"Dr Nor Faizal Ahmad Bahuri",
+    body:"", pullquote:"", draft:true
+  };
+  step = 1;
+  renderStep();
+}
+
+// ── BIND LIVE INPUTS ────────────────────────────────────────────────────
+function bindEvents() {
+  const bind = (id, key, cb) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.addEventListener("input", () => {
+      form[key] = el.value;
+      if (cb) cb(el);
+    });
+  };
+
+  bind("f-title", "title", (el) => {
+    const preview = document.getElementById("slug-preview");
+    if (preview) preview.innerHTML = el.value
+      ? `slug: <span>/insights/${slugify(el.value)}/</span>` : "";
+    const btn = document.getElementById("btn-next1");
+    if (btn) btn.disabled = !isStep1Valid();
+  });
+
+  bind("f-date", "date");
+
+  bind("f-excerpt", "excerpt", (el) => {
+    const cnt = document.getElementById("excerpt-count");
+    if (cnt) {
+      cnt.textContent = `${el.value.length}/160 chars${el.value.length>160?" ⚠ too long for SEO":""}`;
+      cnt.className = "char-count" + (el.value.length > 160 ? " warn" : "");
+    }
+    const btn = document.getElementById("btn-next2");
+    if (btn) btn.disabled = !isStep2Valid();
+  });
+
+  bind("f-pullquote", "pullquote");
+
+  bind("f-body", "body", (el) => {
+    const cnt = document.getElementById("body-count");
+    if (cnt) cnt.textContent = `~${wordCount(el.value)} words`;
+    const btn = document.getElementById("btn-next3");
+    if (btn) btn.disabled = !isStep3Valid();
+  });
+}
+</script>
+</body>
+</html>
