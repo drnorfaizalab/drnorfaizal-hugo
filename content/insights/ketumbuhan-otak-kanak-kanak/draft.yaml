@@ -1,0 +1,52 @@
+# Fill in every field. Run the script again when done to generate the post.
+
+slug: "ketumbuhan-otak-kanak-kanak"
+date: "2026-04-18"
+author: "Dr Nor Faizal Ahmad Bahuri"
+
+# Titles
+title_en: "Brain Tumour in a 10 year old girl"
+title_bm: ""   # leave blank — Gemini will suggest
+
+# Categories and tags
+categories:
+  - "Neuro-Oncology"   # e.g. Pain Management | Neuro-Oncology | Headache | Spine
+tags:
+  - ""   # e.g. migraine, spinal-cord-stimulation, brain-tumour
+
+# SEO
+seo_focus_keyword: "brain tumour, children, paediatric neurosurgeon, kuala lumpur, malaysia, indonesia"   # e.g. "chronic back pain Malaysia"
+keywords:
+  - "brain tumour in children"   # e.g. "brain tumour Malaysia", "neurosurgeon Kuala Lumpur"
+  - "paediatric neurosurgeon"   # 4-6 keywords total; include "Malaysia" for local SEO
+  - "kuala lumpur"
+  - "malaysia"
+  - "indonesia"
+# OG image (relative to /static)
+image: "/images/insights/insights-default.jpg"   # replace with post-specific image if available
+
+# CTA
+cta_type: "appointment"   # appointment | whatsapp | download | none
+show_appointment_button: true
+
+# ── YOUR RAW THOUGHTS ──────────────────────────────────────────────────────────
+# Write freely — bullet points, fragments, Manglish, BM, EN.
+# Gemini will restructure and polish.
+raw_thoughts: |
+  Last week a family come to see me for 2nd opinion for her 10 year old daughter who has 2 episodes of seizure.
+  MRI in another hospital shows a tumour on the left brain. I repeated the scan and now it shows a more aggresiver tumour which I suspect is transforming into malignant tumour.
+  A more dangerous tumour is eating her brain alive and we have to make a difficult decision.
+
+  I offered her surgery. It is a high risk surgery as the tumor sits on the dominant side of the brain.
+  If she is older by several years, I would have done this surgery when she is wide awake: awake craniotomy and tumour excision.
+
+  The family understood the deal: if no surgery, she may has 6 months to live and if they choose surgery, she has a potential 24 months to live after chemo and radiotherapy.
+  The cost is tremendous. However, Let's step back and ponder. We should not put a price tag to a person's live. You can find money but you only have one life. 
+  The family has a full trust in me. 
+
+  The patient underwent a 4 hours long surgery: left temporal lobectomy, amygdala resection and hippocampal sparring.
+  We throw everything into the kitchen sink: image guided surgery, motor cortex monitoring, EMG, phase reversal monitoring and many more. 
+  The operating theater is packed with people and equipments. 2 anaesthetists were on board.
+  Alhamdulillah the surgery went well with gross total resection withouut neurological deficit. 
+  She was able to speak, tolerate orally and ambulating to the toilet the next day.
+  One battle is over. Onto the next one: chemotherapy and radiotherapy for 6 weeks.
