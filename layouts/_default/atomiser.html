@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Content Atomiser — Dr Nor Faizal</title>
+<meta name="robots" content="noindex, nofollow">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #0a0a0a;
+  color: #f0ece0;
+  font-family: 'DM Sans', sans-serif;
+  min-height: 100vh;
+  padding: 0 0 80px;
+}
+
+/* ── Header ── */
+.header {
+  background: #0f0e08;
+  border-bottom: 1px solid #2a2a2a;
+  padding: 18px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.accent-bar {
+  width: 4px; height: 28px;
+  background: linear-gradient(180deg, #c9a84c, #8a6e2f);
+  border-radius: 2px;
+  margin-right: 14px;
+  flex-shrink: 0;
+}
+.h-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 18px; color: #c9a84c; font-weight: 400;
+}
+.h-sub { font-size: 11px; color: #888070; letter-spacing: 0.08em; margin-top: 2px; }
+.h-badge { font-size: 10px; color: #8a6e2f; letter-spacing: 0.1em; text-transform: uppercase; }
+
+/* ── Status pill ── */
+.status-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 11px; letter-spacing: 0.06em;
+  padding: 4px 12px; border-radius: 20px;
+  border: 1px solid #2a2a2a; color: #888070;
+  background: #141414;
+  transition: all 0.3s;
+}
+.status-pill.ok { border-color: #3a6a3a; color: #6aaa6a; background: rgba(58,106,58,0.1); }
+.status-pill.err { border-color: #6a3a3a; color: #aa6a6a; background: rgba(106,58,58,0.1); }
+.status-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: currentColor;
+}
+
+/* ── Container ── */
+.container { max-width: 820px; margin: 0 auto; padding: 40px 24px; }
+
+/* ── Fields ── */
+.field-label {
+  display: block; margin-bottom: 10px;
+  font-size: 11px; color: #c9a84c;
+  letter-spacing: 0.1em; text-transform: uppercase;
+}
+textarea {
+  width: 100%;
+  background: #141414; border: 1px solid #2a2a2a;
+  border-radius: 8px; padding: 16px;
+  color: #f0ece0; font-size: 14px; line-height: 1.75;
+  resize: vertical; font-family: inherit;
+  outline: none; transition: border-color 0.2s;
+}
+textarea:focus { border-color: #8a6e2f; }
+.char-count { text-align: right; font-size: 11px; color: #888070; margin-top: 6px; }
+
+/* ── Error ── */
+.error-box {
+  color: #c0614a; font-size: 13px;
+  margin-top: 10px; padding: 10px 14px;
+  background: rgba(192,97,74,0.08);
+  border-radius: 6px; border: 1px solid rgba(192,97,74,0.2);
+  display: none;
+}
+
+/* ── Buttons ── */
+.btn-main {
+  width: 100%; margin-top: 18px; padding: 15px;
+  background: linear-gradient(135deg, #c9a84c, #8a6e2f);
+  border: none; border-radius: 8px;
+  color: #0d0d0d; font-size: 12px;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  font-weight: 600; cursor: pointer; font-family: inherit;
+  transition: opacity 0.2s;
+}
+.btn-main:disabled {
+  opacity: 0.35; cursor: not-allowed;
+  background: #1a1a1a; color: #555;
+  border: 1px solid #2a2a2a;
+}
+.btn-reset {
+  background: transparent; border: 1px solid #2a2a2a;
+  color: #888070; padding: 8px 16px; border-radius: 4px;
+  font-size: 11px; letter-spacing: 0.08em;
+  cursor: pointer; font-family: inherit;
+}
+.btn-reset:hover { border-color: #888070; }
+.copy-btn {
+  background: transparent; border: 1px solid #2a2a2a;
+  color: #888070; padding: 7px 16px; border-radius: 4px;
+  font-size: 11px; letter-spacing: 0.08em;
+  cursor: pointer; font-family: inherit;
+  transition: all 0.2s;
+}
+.copy-btn:hover { border-color: #888070; color: #f0ece0; }
+.copy-btn.copied { border-color: #c9a84c; color: #c9a84c; background: rgba(201,168,76,0.08); }
+
+/* ── Loading ── */
+.loading-msg {
+  text-align: center; padding: 14px 0 4px;
+  font-size: 12px; color: #8a6e2f;
+  letter-spacing: 0.08em; min-height: 30px;
+}
+
+/* ── Result header ── */
+.result-header {
+  display: flex; justify-content: space-between;
+  align-items: center; margin-bottom: 24px;
+}
+.result-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 20px; color: #c9a84c; font-weight: 400;
+}
+.result-sub { font-size: 12px; color: #888070; margin-top: 3px; }
+
+/* ── Tabs ── */
+.tabs {
+  display: flex; border-bottom: 1px solid #2a2a2a;
+  margin-bottom: 28px; gap: 2px;
+}
+.tab {
+  padding: 11px 20px; background: transparent;
+  border: none; border-bottom: 2px solid transparent;
+  color: #888070; font-size: 12px; letter-spacing: 0.06em;
+  cursor: pointer; font-family: inherit;
+  transition: all 0.2s; margin-bottom: -1px;
+}
+.tab:hover { color: #c9a84c; }
+.tab.active {
+  color: #c9a84c; border-bottom-color: #c9a84c;
+  background: rgba(201,168,76,0.04);
+}
+
+/* ── Cards ── */
+.gold-card {
+  background: linear-gradient(135deg, #1a1508 0%, #0d0d0d 60%);
+  border: 1px solid #5a4a1f; border-radius: 12px;
+  padding: 40px 36px; position: relative; overflow: hidden;
+}
+.gold-card::before {
+  content: '❝'; position: absolute;
+  top: 8px; left: 22px; font-size: 72px;
+  color: #2a2010; font-family: Georgia, serif; line-height: 1;
+}
+.quote-text {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 21px; line-height: 1.6; color: #f0ece0;
+  position: relative; z-index: 1; margin-top: 20px;
+}
+.quote-ctx {
+  font-size: 12px; color: #c9a84c;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  margin-top: 22px;
+}
+.site-tag {
+  position: absolute; bottom: 14px; right: 18px;
+  font-size: 10px; color: #4a3a18; letter-spacing: 0.1em;
+}
+
+.plain-card {
+  background: #161616; border: 1px solid #2a2a2a;
+  border-radius: 10px; padding: 26px;
+}
+.li-hook {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 18px; color: #c9a84c; line-height: 1.5; margin-bottom: 18px;
+}
+.li-body p { font-size: 14px; color: #d0ccc0; line-height: 1.8; margin-bottom: 14px; }
+.li-cta {
+  font-size: 13px; color: #c9a84c;
+  border-top: 1px solid #2a2a2a;
+  padding-top: 16px; margin-top: 6px;
+}
+
+.reel-block {
+  background: #161616; border: 1px solid #2a2a2a;
+  border-radius: 10px; overflow: hidden;
+}
+.reel-label {
+  background: rgba(201,168,76,0.07);
+  border-bottom: 1px solid #2a2a2a;
+  padding: 10px 22px; font-size: 11px; color: #c9a84c;
+  letter-spacing: 0.1em; text-transform: uppercase;
+}
+.reel-inner { padding: 20px 22px; }
+.reel-hook-text {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 20px; color: #f0ece0; line-height: 1.5;
+}
+.reel-body-text p { font-size: 14px; color: #d0ccc0; line-height: 1.85; margin-bottom: 10px; }
+.reel-outro-text { font-size: 13px; color: #c9a84c; font-style: italic; }
+.reel-outro-wrap {
+  padding: 16px 22px;
+  background: rgba(201,168,76,0.04);
+  border-top: 1px solid #2a2a2a;
+}
+
+/* ── Carousel ── */
+.slide-nav { display: flex; gap: 6px; margin-bottom: 16px; flex-wrap: wrap; }
+.slide-btn {
+  background: transparent; border: 1px solid #2a2a2a;
+  color: #888070; padding: 5px 13px; border-radius: 4px;
+  font-size: 10px; letter-spacing: 0.08em;
+  cursor: pointer; font-family: inherit; transition: all 0.2s;
+}
+.slide-btn:hover { border-color: #888070; color: #f0ece0; }
+.slide-btn.active { background: #c9a84c; border-color: #c9a84c; color: #0d0d0d; font-weight: 600; }
+.slide-heading {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 22px; color: #c9a84c; line-height: 1.4; margin-bottom: 14px;
+}
+.slide-body-text { font-size: 14px; color: #d0ccc0; line-height: 1.8; }
+.slide-counter { position: absolute; top: 14px; right: 18px; font-size: 10px; color: #4a3a18; }
+
+.bottom-bar { display: flex; justify-content: space-between; align-items: center; margin-top: 14px; }
+.nav-btns { display: flex; gap: 8px; }
+.nav-btn {
+  background: transparent; border: 1px solid #2a2a2a;
+  color: #888070; padding: 7px 18px; border-radius: 4px;
+  cursor: pointer; font-family: inherit; font-size: 14px;
+  transition: all 0.2s;
+}
+.nav-btn:hover:not(:disabled) { border-color: #888070; color: #f0ece0; }
+.nav-btn:disabled { opacity: 0.25; cursor: default; }
+.copy-row { display: flex; justify-content: flex-end; margin-top: 14px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div style="display:flex;align-items:center">
+    <div class="accent-bar"></div>
+    <div>
+      <div class="h-title">Content Atomiser</div>
+      <div class="h-sub">DR NOR FAIZAL · drnorfaizal.com</div>
+    </div>
+  </div>
+  <div id="server-status" class="status-pill">
+    <div class="status-dot"></div>
+    <span>Checking server...</span>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- Input panel -->
+  <div id="input-panel">
+    <label class="field-label">Paste your Insight article</label>
+    <textarea id="article" rows="14" placeholder="Paste your full article here — the richer the source, the better the atoms extracted..."></textarea>
+    <div class="char-count" id="char-count">0 characters</div>
+    <div class="error-box" id="err-msg"></div>
+    <button class="btn-main" id="atomise-btn" onclick="atomise()" disabled>Atomise →</button>
+    <div class="loading-msg" id="loading-msg"></div>
+  </div>
+
+  <!-- Result panel -->
+  <div id="result-panel" style="display:none">
+    <div class="result-header">
+      <div>
+        <div class="result-title">Your atoms are ready.</div>
+        <div class="result-sub">4 formats extracted — copy each to its platform.</div>
+      </div>
+      <button class="btn-reset" onclick="reset()">← New article</button>
+    </div>
+    <div class="tabs">
+      <button class="tab active" onclick="switchTab('quote')" id="tab-quote">❝ &nbsp;Quote Card</button>
+      <button class="tab" onclick="switchTab('linkedin')" id="tab-linkedin">💼 &nbsp;LinkedIn</button>
+      <button class="tab" onclick="switchTab('reel')" id="tab-reel">🎬 &nbsp;Reel Script</button>
+      <button class="tab" onclick="switchTab('carousel')" id="tab-carousel">📋 &nbsp;Carousel</button>
+    </div>
+    <div id="pane-quote"></div>
+    <div id="pane-linkedin" style="display:none"></div>
+    <div id="pane-reel" style="display:none"></div>
+    <div id="pane-carousel" style="display:none"></div>
+  </div>
+
+</div>
+
+<script>
+const API_URL = 'http://localhost:3131';
+let result = null;
+let activeSlide = 0;
+let allSlides = [];
+
+// ── Server health check ──
+async function checkServer() {
+  const pill = document.getElementById('server-status');
+  try {
+    const res = await fetch(API_URL + '/health');
+    const data = await res.json();
+    if (data.status === 'ok' && data.key_loaded) {
+      pill.className = 'status-pill ok';
+      pill.innerHTML = '<div class="status-dot"></div><span>Server ready</span>';
+    } else {
+      pill.className = 'status-pill err';
+      pill.innerHTML = '<div class="status-dot"></div><span>API key missing</span>';
+    }
+  } catch {
+    pill.className = 'status-pill err';
+    pill.innerHTML = '<div class="status-dot"></div><span>Server offline — run node atomiser-server.js</span>';
+  }
+}
+checkServer();
+setInterval(checkServer, 10000);
+
+// ── Article input ──
+document.getElementById('article').addEventListener('input', function () {
+  const len = this.value.length;
+  document.getElementById('char-count').textContent = len + ' characters';
+  document.getElementById('atomise-btn').disabled = len < 100;
+  hideError();
+});
+
+function showError(msg) {
+  const el = document.getElementById('err-msg');
+  el.textContent = msg; el.style.display = 'block';
+}
+function hideError() {
+  document.getElementById('err-msg').style.display = 'none';
+}
+
+// ── Atomise ──
+async function atomise() {
+  const article = document.getElementById('article').value.trim();
+  if (article.length < 100) return;
+  hideError();
+  document.getElementById('atomise-btn').disabled = true;
+
+  const msgs = ['Reading your article...', 'Extracting atoms...', 'Crafting platform formats...', 'Polishing outputs...'];
+  let mi = 0;
+  const lm = document.getElementById('loading-msg');
+  lm.textContent = msgs[mi];
+  const iv = setInterval(() => { mi = Math.min(mi + 1, msgs.length - 1); lm.textContent = msgs[mi]; }, 2500);
+
+  try {
+    const res = await fetch(API_URL + '/atomise', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ article })
+    });
+    const data = await res.json();
+    if (data.error) throw new Error(data.error);
+    result = data.result;
+    clearInterval(iv); lm.textContent = '';
+    renderAll();
+    document.getElementById('input-panel').style.display = 'none';
+    document.getElementById('result-panel').style.display = 'block';
+  } catch (e) {
+    clearInterval(iv); lm.textContent = '';
+    showError('Error: ' + (e.message || 'Something went wrong. Is the server running?'));
+    document.getElementById('atomise-btn').disabled = false;
+  }
+}
+
+// ── Render ──
+function esc(s) {
+  return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function doCopy(btnId, text) {
+  navigator.clipboard.writeText(text).then(() => {
+    const b = document.getElementById(btnId);
+    if (!b) return;
+    b.textContent = 'COPIED'; b.classList.add('copied');
+    setTimeout(() => { b.textContent = 'COPY'; b.classList.remove('copied'); }, 2000);
+  });
+}
+
+function renderAll() {
+  // Quote Card
+  document.getElementById('pane-quote').innerHTML = `
+    <div class="gold-card">
+      <div class="quote-text">${esc(result.quote_card.quote)}</div>
+      <div class="quote-ctx">— ${esc(result.quote_card.context)}</div>
+      <div class="site-tag">drnorfaizal.com</div>
+    </div>
+    <div class="copy-row">
+      <button class="copy-btn" id="copy-quote" onclick="doCopy('copy-quote',quoteText)">COPY</button>
+    </div>`;
+  window.quoteText = `"${result.quote_card.quote}"\n\n— ${result.quote_card.context}\n\ndrnorfaizal.com`;
+
+  // LinkedIn
+  const liParas = (result.linkedin_essay.body || '').split('\n\n').filter(Boolean).map(p => `<p>${esc(p)}</p>`).join('');
+  window.liText = result.linkedin_essay.hook + '\n\n' + result.linkedin_essay.body + '\n\n' + result.linkedin_essay.cta;
+  document.getElementById('pane-linkedin').innerHTML = `
+    <div class="plain-card">
+      <div class="li-hook">${esc(result.linkedin_essay.hook)}</div>
+      <div class="li-body">${liParas}</div>
+      <div class="li-cta">${esc(result.linkedin_essay.cta)}</div>
+    </div>
+    <div class="copy-row">
+      <button class="copy-btn" id="copy-li" onclick="doCopy('copy-li',liText)">COPY</button>
+    </div>`;
+
+  // Reel
+  const reelLines = (result.reel_script.body || '').split('\n').filter(Boolean).map(l => `<p>${esc(l)}</p>`).join('');
+  window.reelText = 'HOOK:\n' + result.reel_script.hook + '\n\n---\n\n' + result.reel_script.body + '\n\n---\n\nOUTRO:\n' + result.reel_script.outro;
+  document.getElementById('pane-reel').innerHTML = `
+    <div class="reel-block">
+      <div class="reel-label">Opening Hook</div>
+      <div class="reel-inner"><div class="reel-hook-text">${esc(result.reel_script.hook)}</div></div>
+      <div style="border-top:1px solid #2a2a2a">
+        <div class="reel-label" style="background:transparent;color:#666">Script Body</div>
+        <div class="reel-inner"><div class="reel-body-text">${reelLines}</div></div>
+      </div>
+      <div class="reel-outro-wrap"><div class="reel-outro-text">${esc(result.reel_script.outro)}</div></div>
+    </div>
+    <div class="copy-row">
+      <button class="copy-btn" id="copy-reel" onclick="doCopy('copy-reel',reelText)">COPY</button>
+    </div>`;
+
+  // Carousel
+  allSlides = [
+    { heading: result.carousel.title_slide, body: null, isTitle: true },
+    ...(result.carousel.slides || []),
+    { heading: 'Closing', body: result.carousel.closing_slide, isClosing: true }
+  ];
+  window.carText = 'CAROUSEL: ' + result.carousel.title_slide + '\n\n' +
+    (result.carousel.slides || []).map(s => s.number + '. ' + s.heading + '\n' + s.body).join('\n\n') +
+    '\n\nCLOSING:\n' + result.carousel.closing_slide;
+  activeSlide = 0;
+  renderCarousel();
+}
+
+function renderCarousel() {
+  const navBtns = allSlides.map((s, i) => {
+    const lbl = s.isTitle ? 'TITLE' : s.isClosing ? 'CLOSE' : 'SLIDE ' + s.number;
+    return `<button class="slide-btn${i === activeSlide ? ' active' : ''}" onclick="goSlide(${i})">${lbl}</button>`;
+  }).join('');
+  const s = allSlides[activeSlide];
+  document.getElementById('pane-carousel').innerHTML = `
+    <div class="slide-nav">${navBtns}</div>
+    <div class="gold-card" style="min-height:200px">
+      <div class="slide-counter">${activeSlide + 1} / ${allSlides.length}</div>
+      <div class="slide-heading">${esc(s.heading)}</div>
+      ${s.body ? `<div class="slide-body-text">${esc(s.body)}</div>` : ''}
+      <div class="site-tag">drnorfaizal.com</div>
+    </div>
+    <div class="bottom-bar">
+      <div class="nav-btns">
+        <button class="nav-btn" onclick="goSlide(${activeSlide - 1})" ${activeSlide === 0 ? 'disabled' : ''}>←</button>
+        <button class="nav-btn" onclick="goSlide(${activeSlide + 1})" ${activeSlide === allSlides.length - 1 ? 'disabled' : ''}>→</button>
+      </div>
+      <button class="copy-btn" id="copy-car" onclick="doCopy('copy-car',carText)">COPY</button>
+    </div>`;
+}
+
+function goSlide(i) {
+  if (i >= 0 && i < allSlides.length) { activeSlide = i; renderCarousel(); }
+}
+
+function switchTab(name) {
+  ['quote', 'linkedin', 'reel', 'carousel'].forEach(t => {
+    document.getElementById('tab-' + t).classList.remove('active');
+    document.getElementById('pane-' + t).style.display = 'none';
+  });
+  document.getElementById('tab-' + name).classList.add('active');
+  document.getElementById('pane-' + name).style.display = 'block';
+}
+
+function reset() {
+  result = null; activeSlide = 0; allSlides = [];
+  document.getElementById('article').value = '';
+  document.getElementById('char-count').textContent = '0 characters';
+  document.getElementById('atomise-btn').disabled = true;
+  hideError();
+  document.getElementById('result-panel').style.display = 'none';
+  document.getElementById('input-panel').style.display = 'block';
+  switchTab('quote');
+}
+</script>
+</body>
+</html>

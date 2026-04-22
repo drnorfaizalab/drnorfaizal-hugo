@@ -92,9 +92,12 @@ async function postToNotion(title, markdown) {
   const blocks = markdownToBlocks(markdown);
 
   const page = await notion.pages.create({
-    parent: { page_id: process.env.NOTION_CURATOR_PAGE_ID },
+    parent: { database_id: process.env.NOTION_RAW_IDEAS_DB_ID },
     properties: {
-      title: { title: [{ type: "text", text: { content: title } }] },
+      Idea: { title: [{ type: "text", text: { content: title } }] },
+      Status: { select: { name: "Raw" } },
+      Source: { select: { name: "Random" } },
+      "Captured On": { date: { start: new Date().toISOString().split("T")[0] } },
     },
     children: blocks.slice(0, 100),
   });

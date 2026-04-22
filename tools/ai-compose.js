@@ -10,6 +10,7 @@
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { Client } from "@notionhq/client";
+import { markdownToBlocks } from "@tryfabric/martian";
 import readline from "readline";
 import fs from "fs";
 import path from "path";
@@ -56,20 +57,27 @@ async function saveToInbox(prompt, response) {
   if (!dbId) return;
 
   const idea = prompt.length > 100 ? prompt.slice(0, 97) + "..." : prompt;
-  const notes = response.length > 2000 ? response.slice(0, 1997) + "..." : response;
   const today = new Date().toISOString().slice(0, 10);
+  const blocks = markdownToBlocks(response);
 
-  await notion.pages.create({
+  const page = await notion.pages.create({
     parent: { database_id: dbId },
     properties: {
       Idea: { title: [{ type: "text", text: { content: idea } }] },
-      Notes: { rich_text: [{ type: "text", text: { content: notes } }] },
       Status: { select: { name: "Raw" } },
       Format: { select: { name: "Not Sure Yet" } },
       Source: { select: { name: "Random" } },
       "Captured On": { date: { start: today } },
     },
+    children: blocks.slice(0, 100),
   });
+
+  if (blocks.length > 100) {
+    await notion.blocks.children.append({
+      block_id: page.id,
+      children: blocks.slice(100, 200),
+    });
+  }
 }
 
 // ─── CLI ─────────────────────────────────────────────────────────────────────
