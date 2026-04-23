@@ -20,6 +20,7 @@
   /* Typography */
   --font-display: 'Playfair Display', serif;
   --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Monaco', 'Courier New', monospace;
   --font-size-base: 16px;
   --line-height-base: 1.6;
   --letter-spacing: 0.5px;
@@ -163,7 +164,7 @@ blockquote {
 code, pre {
   background: var(--gray-200);
   border-radius: 4px;
-  font-family: 'Monaco', 'Courier New', monospace;
+  font-family: var(--font-mono);
   font-size: 0.875em;
 }
 
@@ -1515,4 +1516,30 @@ html.dark-mode .social-embed-instagram-container {
   transform: translateY(-2px);
   box-shadow: 0 0 0 4px rgba(37, 211, 102, 0.25);
   text-decoration: none;
+}
+
+/* ==========================================================================
+   Monospaced Editorial Labels — IBM Plex Mono
+   Use .label-mono for credential/specialty labels (all-caps, tracked).
+   Use .tag-mono for inline category chips on case study cards.
+   ========================================================================== */
+
+.label-mono {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.tag-mono {
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.25em 0.6em;
+  border: 1px solid currentColor;
+  border-radius: 2px;
+  display: inline-block;
 }
