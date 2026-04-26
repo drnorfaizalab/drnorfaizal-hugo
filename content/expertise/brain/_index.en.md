@@ -1,7 +1,6 @@
 ---
 title: "Neurooncology & Paediatric Neurosurgery | Brain Specialist | Dr Nor Faizal"
 description: "Advanced brain tumour surgery and paediatric neurosurgery. Meningioma, glioma, medulloblastoma, hydrocephalus, craniosynostosis and spina bifida specialist. Oxford-trained neurosurgeon in Malaysia."
-url: "/expertise/brain/"
 date: 2026-03-10
 lastmod: 2026-04-25
 draft: false

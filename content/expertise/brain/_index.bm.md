@@ -1,7 +1,6 @@
 ---
 title: "Pakar Bedah Tumor Otak & Saraf Tunjang Kanak-Kanak | Dr Nor Faizal"
 description: "Pembedahan tumor otak tahap tinggi dan bedah saraf kanak-kanak. Pakar meningioma, glioma, medulloblastoma, hidrosefalus, craniosynostosis & spina bifida."
-url: "/expertise/brain/"
 date: 2026-03-10
 lastmod: 2026-04-25
 draft: false
