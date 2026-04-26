@@ -11,6 +11,7 @@ image: "/images/insights/insights-default.jpg"
 keywords: ["tanda amaran migrain Malaysia", "bendera merah sakit kepala", "neurologi Malaysia", "tips migrain", "video sakit kepala"]
 seo:
   focusKeyword: "tanda amaran migrain Malaysia"
+show_appointment_button: true
 ---
 
 ## 3 Tanda Bahaya Migrain — Tonton Sebelum Anda Abaikan Sakit Kepala Itu

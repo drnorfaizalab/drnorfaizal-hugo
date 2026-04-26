@@ -20,6 +20,7 @@ image: "/images/insights/IMG_3621.JPG"
 keywords: ["discipline neurosurgery", "Oxford neurosurgeon Malaysia", "medical excellence", "surgeon mindset", "neurosurgery training"]
 seo:
   focusKeyword: "discipline in neurosurgery"
+show_appointment_button: true
 ---
 
 ## The Illusion of Genius
@@ -53,4 +54,4 @@ Today, I wear my batik scrubs into the operating theatre as a personal reminder:
 
 Precision in surgery is built on a foundation of unyielding discipline. If you or a loved one are facing a complex neurological condition, you need a medical team that leaves nothing to chance.
 
-[Book a Consultation](/contact) | [Learn More About My Practice](/expertise/)
+[Learn More About My Practice](/expertise/)

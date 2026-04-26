@@ -6,6 +6,7 @@ type: "blog"
 categories: ["newspapers","surat khabar"]
 tags: ["bedah saraf", "stroke berdarah", "stroke", "pembedahan kecemasan"]
 author: "Dr Nor Faizal Ahmad Bahuri"
+show_appointment_button: true
 ---
 
 

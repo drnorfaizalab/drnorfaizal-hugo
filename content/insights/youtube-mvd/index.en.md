@@ -11,6 +11,7 @@ image: "/images/insights/insights-default.jpg"
 keywords: ["brain tumour explained Malaysia", "brain tumour symptoms", "neurosurgery education Malaysia", "patient education brain tumour"]
 seo:
   focusKeyword: "brain tumour symptoms Malaysia"
+show_appointment_button: true
 ---
 
 ## Watch: Brain Tumours Explained

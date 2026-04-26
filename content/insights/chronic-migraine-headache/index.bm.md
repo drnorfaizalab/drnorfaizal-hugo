@@ -12,6 +12,7 @@ image: "/images/insights/IMG_3620.JPG"
 keywords: ["rawatan migrain kronik Malaysia", "pakar sakit kepala Kuala Lumpur", "pengurusan migrain", "tanda bahaya migrain", "pakar bedah saraf sakit kepala Malaysia"]
 seo:
   focusKeyword: "rawatan migrain kronik Malaysia"
+show_appointment_button: true
 ---
 
 # Migrain Kronik & Sakit Kepala: Bila Anda Perlu Risau?

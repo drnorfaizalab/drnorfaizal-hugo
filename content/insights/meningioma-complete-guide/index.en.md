@@ -12,6 +12,7 @@ image: "/images/insights/meningioma-guide.png"
 keywords: ["meningioma treatment Malaysia", "meningioma surgery Kuala Lumpur", "brain tumour Malaysia", "craniotomy", "Simpson grade meningioma"]
 seo:
   focusKeyword: "meningioma treatment Malaysia"
+show_appointment_button: true
 ---
 
 # Meningioma: A Comprehensive Clinical Guide for Patients

@@ -12,6 +12,7 @@ image: "/images/insights/insights-default.jpg"
 keywords: ["back pain specialist Malaysia", "spinal surgery Kuala Lumpur", "herniated disc treatment", "spinal stenosis Malaysia", "neurosurgeon back pain Malaysia"]
 seo:
   focusKeyword: "spinal back pain specialist Malaysia"
+show_appointment_button: true
 ---
 
 # Spinal & Back Pain Guide
@@ -150,4 +151,4 @@ If you have persistent back or neck pain, arm or leg symptoms, or any red flags 
 
 **Dr Nor Faizal** is an Oxford-trained neurosurgeon with expertise in complex spinal conditions, degenerative spine disease, spinal tumours, and minimally invasive spinal surgery.
 
-[Book a Consultation](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Back to Blog](/blog)
+[Back to Blog](/blog)

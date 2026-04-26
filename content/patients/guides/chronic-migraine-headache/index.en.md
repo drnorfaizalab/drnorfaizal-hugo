@@ -5,6 +5,7 @@ date: 2025-03-10
 draft: false
 type: "page"
 pdf_available: true
+show_appointment_button: true
 ---
 
 # Chronic Migraine & Headache Guide
@@ -167,4 +168,4 @@ If you are experiencing frequent, disabling headaches, have noticed a change in 
 
 **Dr Nor Faizal** provides comprehensive evaluation for patients with headache disorders, including assessment for secondary causes and interventional options where appropriate.
 
-[Book a Consultation](/contact) | [Back to Patient Guides](/blog/pasien/guides)
+[Back to Patient Guides](/blog/pasien/guides)

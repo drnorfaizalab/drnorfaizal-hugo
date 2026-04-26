@@ -6,6 +6,7 @@ draft: false
 type: "Pain"
 weight: 3
 keywords: "pain management, chronic pain, interventional pain, neuropathic pain, back pain, Malaysia, neurosurgeon"
+show_appointment_button: true
 ---
 
 # Interventional Pain Management
@@ -150,8 +151,6 @@ A: Absolutely. Many pain conditions — particularly neuropathic pain and centra
 A: This is determined during consultation through a combination of clinical examination, imaging review, and response to previous treatments. Some conditions — such as cauda equina syndrome or large disc herniation with significant weakness — require surgery. Others respond excellently to targeted interventional approaches. Many patients benefit from both.
 
 ---
-
-## Book a Consultation
 
 Chronic pain is not something you have to accept as a permanent part of your life. With accurate diagnosis and the right intervention, meaningful relief is achievable.
 

@@ -11,6 +11,7 @@ image: "/images/insights/oxford-journey.png"
 keywords: ["Oxford neurosurgeon Malaysia", "neurosurgery training Oxford", "precision neurosurgery Malaysia", "Oxford Fellowship neurosurgery", "Malaysia neurosurgeon"]
 seo:
   focusKeyword: "Oxford trained neurosurgeon Malaysia"
+show_appointment_button: true
 ---
 
 There is a moment every surgeon remembers: the first time you understand that this is not merely technical work. That the instrument in your hand, held at a particular angle, is the difference between a life reclaimed and a life diminished. For me, that moment crystallised in Oxford — watching a consultant navigate an eloquent cortex tumour with a patience and economy of movement that seemed to slow time itself.

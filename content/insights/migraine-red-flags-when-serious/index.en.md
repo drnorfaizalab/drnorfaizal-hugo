@@ -11,6 +11,7 @@ image: "/images/insights/migraine-red-flags.png"
 keywords: ["migraine red flags", "headache warning signs Malaysia", "thunderclap headache", "brain tumour headache", "headache specialist Malaysia"]
 seo:
   focusKeyword: "migraine red flags Malaysia"
+show_appointment_button: true
 ---
 
 # Migraine vs Brain Tumour: Red Flags You Should Not Ignore

@@ -11,6 +11,7 @@ image: "/images/insights/pain-diagnosis.png"
 keywords: ["chronic pain diagnosis Malaysia", "headache specialist Kuala Lumpur", "neuropathic pain Malaysia", "pain management specialist", "neurological evaluation Malaysia"]
 seo:
   focusKeyword: "chronic pain diagnosis Malaysia"
+show_appointment_button: true
 ---
 
 # Pain as a Diagnostic Gateway: When Your Headache Is More Than Stress

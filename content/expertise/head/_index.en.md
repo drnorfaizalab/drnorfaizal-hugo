@@ -17,6 +17,7 @@ sections:
   - type: "cta"
     button_text: "Schedule Consultation"
     button_link: "https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri"
+show_appointment_button: true
 
 ---
 
@@ -24,7 +25,7 @@ sections:
 
 The neurosurgeon in Kuala Lumpur who manages headache from first consultation to surgical intervention — when medicine alone is no longer enough.
 
-Oxford DPhil · Consultant Neurosurgeon & Interventional Pain Specialist · Ampang Puteri Specialist Hospital
+Oxford DPhil · Consultant Neurosurgeon & Interventional Pain Specialist · Tawakkal Specialist Hospital & Ampang Puteri Specialist Hospital
 
 ---
 
@@ -325,7 +326,6 @@ If you are living with chronic headache, migraine, or facial pain that is not ad
 
 A thorough clinical assessment, review of your history and imaging, and a clear management plan — tailored to your specific condition.
 
-**[Book a Consultation →](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)**
 
 ---
 

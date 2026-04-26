@@ -1,5 +1,6 @@
 ---
 title: "Neurosurgical Specialties | Dr Nor Faizal"
-description: "Pain. Head. Brain. Three words. One doctor. Oxford-trained neurosurgeon specialising in interventional pain management, headache & facial pain, and brain tumour surgery in Malaysia."
+description: "Brain. Head. Pain. Three words. One doctor. Oxford-trained neurosurgeon specialising in brain tumour surgery, headache & facial pain, and interventional pain management in Malaysia."
 draft: false
+show_appointment_button: true
 ---

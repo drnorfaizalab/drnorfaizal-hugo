@@ -12,6 +12,7 @@ image: "/images/insights/IMG_3620.JPG"
 keywords: ["chronic migraine treatment Malaysia", "headache specialist Kuala Lumpur", "migraine management", "neurosurgeon headache Malaysia", "migraine red flags"]
 seo:
   focusKeyword: "chronic migraine treatment Malaysia"
+show_appointment_button: true
 ---
 
 # Clinical Management of Chronic Migraine & Headache
@@ -144,5 +145,5 @@ If you are experiencing frequent, debilitating headaches or have noted a change 
 
 **Dr Nor Faizal** offers comprehensive diagnostic evaluation and advanced interventional options for headache and pain management.
 
-[Book a Consultation](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Back to Blog](/blog)
+[Back to Blog](/blog)
 

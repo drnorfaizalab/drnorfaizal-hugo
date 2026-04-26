@@ -11,6 +11,7 @@ image: "/images/insights/insights-default.jpg"
 keywords: ["kelelahan doktor", "kesihatan mental pakar bedah saraf", "kesejahteraan doktor Malaysia", "padang pasir Sahara", "pakar bedah saraf Malaysia"]
 seo:
   focusKeyword: "kesihatan mental pakar bedah saraf Malaysia"
+show_appointment_button: true
 ---
 
 48 bulan. Tiada rehat sebenar. Kemudian saya pergi ke Sahara — bukan untuk lari, tapi sebab saya perlu berhenti dan dengar diri sendiri semula.

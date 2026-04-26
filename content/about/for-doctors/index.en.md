@@ -152,6 +152,7 @@ clinic_hours:
     hours: "9:00 AM – 12:00 PM"
   - day: "Sunday & Public Holidays"
     hours: "Closed"
+show_appointment_button: true
 ---
 
 ## Referring a Patient to Dr Nor Faizal

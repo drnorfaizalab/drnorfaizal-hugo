@@ -11,6 +11,7 @@ image: "/images/insights/insights-default.jpg"
 keywords: ["migraine warning signs Malaysia", "headache red flags", "neurology Malaysia", "migraine tips", "headache video"]
 seo:
   focusKeyword: "migraine warning signs Malaysia"
+show_appointment_button: true
 ---
 
 ## 3 Migraine Red Flags — Watch Before You Dismiss That Headache

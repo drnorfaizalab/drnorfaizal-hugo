@@ -11,6 +11,7 @@ image: "/images/insights/glioblastoma-treatment.png"
 keywords: ["glioblastoma treatment Malaysia", "GBM brain cancer", "Stupp protocol", "brain tumour surgery Kuala Lumpur", "glioblastoma prognosis"]
 seo:
   focusKeyword: "glioblastoma treatment options Malaysia"
+show_appointment_button: true
 ---
 
 # Glioblastoma (GBM): Understanding Your Treatment Options

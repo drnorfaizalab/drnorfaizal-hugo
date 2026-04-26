@@ -20,12 +20,13 @@ sections:
     button_text: "Buat Janji Temu"
     button_link: "https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri"
 
+show_appointment_button: true
 ---
 
 # Pembedahan Neuro-onkologi & Bedah Saraf Kanak-Kanak
 
 Pembedahan tumor otak dan saraf tunjang tahap tinggi. Penjagaan pakar bedah saraf khusus untuk kanak-kanak. Neuro-onkologi dengan ketepatan tinggi dan teknik invasif minimum.
-Lulusan Oxford. Hospital Pakar KPJ Tawakkal, Kuala Lumpur.
+Lulusan Oxford. Hospital Pakar Tawakkal & Hospital Pakar Ampang Puteri, Kuala Lumpur.
 
 ---
 

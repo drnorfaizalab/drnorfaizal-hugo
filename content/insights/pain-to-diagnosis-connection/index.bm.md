@@ -11,6 +11,7 @@ image: "/images/insights/pain-diagnosis.png"
 keywords: ["diagnosis kesakitan kronik Malaysia", "pakar sakit kepala Kuala Lumpur", "kesakitan neuropatik Malaysia", "pakar pengurusan kesakitan", "penilaian neurologi Malaysia"]
 seo:
   focusKeyword: "diagnosis kesakitan kronik Malaysia"
+show_appointment_button: true
 ---
 
 # Sakit Anda Mungkin Petunjuk Diagnosis

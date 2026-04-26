@@ -2,6 +2,7 @@
 title: "Patient Guides | Dr Nor Faizal"
 description: "Downloadable patient education guides for brain tumours, headache, and spinal conditions. Written by Oxford-trained neurosurgeon Dr Nor Faizal."
 draft: false
+show_appointment_button: true
 ---
 
 # Patient Guides
@@ -29,4 +30,3 @@ A guide to common spinal conditions including herniated discs, spinal stenosis, 
 
 These guides do not replace a consultation with your doctor. If you have specific concerns about your health or have been given a diagnosis, please contact us to arrange a specialist appointment.
 
-[Book a Consultation](/contact)

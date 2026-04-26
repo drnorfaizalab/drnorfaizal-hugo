@@ -11,6 +11,7 @@ image: "/images/insights/photo-output.jpg"
 keywords: ["neurosurgeon daily life Malaysia", "operating theatre neurosurgery", "brain surgery Malaysia", "neurosurgeon Instagram", "behind the scenes neurosurgery"]
 seo:
   focusKeyword: "day in life neurosurgeon Malaysia"
+show_appointment_button: true
 ---
 
 ## Behind the Scrubs — Neurosurgery Up Close

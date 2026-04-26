@@ -12,6 +12,7 @@ image: "/images/insights/meningioma-guide.png"
 keywords: ["rawatan meningioma Malaysia", "pembedahan meningioma Kuala Lumpur", "tumor otak Malaysia", "kraniotomi", "Simpson grade meningioma"]
 seo:
   focusKeyword: "rawatan meningioma Malaysia"
+show_appointment_button: true
 ---
 
 # Meningioma: Panduan Lengkap Untuk Anda

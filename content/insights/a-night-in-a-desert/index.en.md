@@ -11,6 +11,7 @@ keywords: ["doctor burnout", "neurosurgeon mental health", "physician wellbeing 
 image: "/images/insights/insights-default.jpg"
 seo:
   focusKeyword: "neurosurgeon mental health Malaysia"
+show_appointment_button: true
 ---
 
 48 months. No real pause. Then I went to the Sahara — not to escape, but because I needed to stop and listen to myself again.

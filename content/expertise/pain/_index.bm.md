@@ -9,6 +9,7 @@ type: "Sakit"
 weight: 3
 
 keywords: "pengurusan kesakitan, kesakitan kronik, kesakitan interventional, kesakitan neuropatik, sakit belakang, Malaysia, pakar bedah saraf"
+show_appointment_button: true
 ---
 
 # Pengurusan Kesakitan Kronik

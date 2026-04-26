@@ -20,6 +20,7 @@ image: "/images/insights/IMG_3621.JPG"
 keywords: ["disiplin pembedahan saraf", "pakar bedah saraf Oxford Malaysia", "kecemerlangan perubatan", "mindset pakar bedah", "latihan pembedahan saraf"]
 seo:
   focusKeyword: "disiplin dalam pembedahan saraf"
+show_appointment_button: true
 ---
 
 ## Ilusi Seorang Genius

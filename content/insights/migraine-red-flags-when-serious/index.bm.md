@@ -11,6 +11,7 @@ image: "/images/insights/migraine-red-flags.png"
 keywords: ["tanda bahaya migrain", "amaran sakit kepala Malaysia", "sakit kepala thunderclap", "tumor otak sakit kepala", "pakar sakit kepala Malaysia"]
 seo:
   focusKeyword: "tanda bahaya migrain Malaysia"
+show_appointment_button: true
 ---
 
 # Migrain vs Tumor Otak: Bendera Merah yang Tidak Harus Anda Abaikan

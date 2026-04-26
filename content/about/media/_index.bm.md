@@ -5,4 +5,5 @@ draft: false
 aliases:
   - /bm/media/
 type: blog-index
+show_appointment_button: true
 ---

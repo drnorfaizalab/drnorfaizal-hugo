@@ -11,6 +11,7 @@ image: "/images/insights/photo-output.jpg"
 keywords: ["kehidupan harian pakar bedah saraf Malaysia", "bilik bedah otak", "pembedahan saraf Malaysia", "pakar bedah saraf Instagram", "di sebalik tabir pembedahan saraf"]
 seo:
   focusKeyword: "kehidupan pakar bedah saraf Malaysia"
+show_appointment_button: true
 ---
 
 ## Di Sebalik Skrab — Bedah Saraf Dari Dekat

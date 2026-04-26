@@ -20,6 +20,7 @@ sections:
     button_text: "Schedule Consultation"
     button_link: "https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri"
 
+show_appointment_button: true
 ---
 
 # Neurooncology & Paediatric Neurosurgery

@@ -11,6 +11,7 @@ image: "/images/insights/glioblastoma-treatment.png"
 keywords: ["rawatan glioblastoma Malaysia", "kanser otak GBM", "protokol Stupp", "pembedahan tumor otak Kuala Lumpur", "prognosis glioblastoma"]
 seo:
   focusKeyword: "rawatan glioblastoma Malaysia"
+show_appointment_button: true
 ---
 
 # Glioblastoma (GBM): Memahami Pilihan Rawatan Anda
