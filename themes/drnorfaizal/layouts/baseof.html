@@ -3,37 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.defaultMetaDescription }}{{ end }}">
-    <meta name="keywords" content="{{ with .Keywords }}{{ . }}{{ else }}{{ .Site.Params.keywords }}{{ end }}">
-    <meta name="author" content="{{ .Site.Params.author }}">
-    
-    <!-- Open Graph -->
-    <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
-    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.defaultMetaDescription }}{{ end }}">
-    <meta property="og:url" content="{{ .Permalink }}">
-    <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
-    {{ with .Params.image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
-    
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ .Title }}">
-    <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.defaultMetaDescription }}{{ end }}">
-    {{ with .Params.image }}<meta name="twitter:image" content="{{ . | absURL }}">{{ end }}
-    
-    <!-- Canonical -->
-    <link rel="canonical" href="{{ .Permalink }}">
-    
-    <!-- Alternate Languages -->
+
+    {{ partial "seo-head.html" . }}
+
+    <!-- Alternate Languages (hreflang) -->
     {{ if .IsTranslated }}
         {{ range .AllTranslations }}
             <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
         {{ end }}
     {{ end }}
-    
+
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="{{ "/favicon.svg" | relURL }}">
     <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relURL }}">
-    
+
     <!-- Preload LCP image on homepage -->
     {{ if .IsHome }}<link rel="preload" as="image" href="/profile.jpg" fetchpriority="high">{{ end }}
 
@@ -42,15 +25,12 @@
     {{ range .Site.Params.custom_css }}
         <link rel="stylesheet" href="{{ . | relURL }}">
     {{ end }}
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Playfair+Display:wght@400;700&family=Inter:wght@400;600;700&display=swap" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Playfair+Display:wght@400;700&family=Inter:wght@400;600;700&display=swap"></noscript>
-    
-    <!-- Title -->
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 </head>
 <body>
     {{ partial "header.html" . }}
@@ -71,11 +51,8 @@
     <script src="{{ "/js/main.js" | relURL }}" defer></script>
     <script src="{{ "/js/dark-mode.js" | relURL }}" defer></script>
     
-    <!-- Structured Data -->
-    {{ if .IsHome }}
-        {{ partial "schema/organization.html" . }}
-        {{ partial "schema/local-business.html" . }}
-    {{ else if eq .Type "blog" }}
+    <!-- Structured Data (page-specific) -->
+    {{ if eq .Type "blog" }}
         {{ partial "schema/article.html" . }}
     {{ else if eq .Type "specialty" }}
         {{ partial "schema/medical-service.html" . }}

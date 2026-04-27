@@ -8,6 +8,7 @@ public/
 resources/
 .hugo_build.lock
 node_modules/
+stage/
 
 # Operating System files
 .DS_Store

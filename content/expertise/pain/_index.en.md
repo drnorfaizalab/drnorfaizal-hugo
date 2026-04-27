@@ -1,11 +1,21 @@
 ---
 title: "Interventional Pain Management | Dr Nor Faizal"
+seoTitle: "Interventional Pain Management Malaysia | Chronic Pain Specialist KL"
 description: "Expert interventional pain management for chronic back pain, neuropathic pain, and complex pain syndromes. Oxford-trained neurosurgeon in Malaysia."
 date: 2025-03-10
 draft: false
 type: "Pain"
 weight: 3
-keywords: "pain management, chronic pain, interventional pain, neuropathic pain, back pain, Malaysia, neurosurgeon"
+medicalCondition: "Chronic Pain"
+ogImage: "/images/og-pain.jpg"
+keywords:
+  - interventional pain management Malaysia
+  - chronic pain specialist KL
+  - radiofrequency ablation Malaysia
+  - spinal cord stimulation Malaysia
+  - neuropathic pain treatment
+  - back pain specialist KL
+  - failed back surgery syndrome Malaysia
 show_appointment_button: true
 ---
 
@@ -33,6 +43,8 @@ By approaching pain through a neurosurgical lens, Dr Nor Faizal is able to:
 ---
 
 ## Conditions Treated
+
+→ [Chronic Back Pain specialist guide — RFA, SCS & nerve block](/expertise/chronic-back-pain/)
 
 ### Chronic Back and Neck Pain
 Mechanical low back pain and cervical pain are among the most prevalent causes of disability worldwide. When pain persists beyond three months and is associated with nerve involvement, specialised evaluation is warranted.

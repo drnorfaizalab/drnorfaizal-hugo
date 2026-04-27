@@ -1,5 +1,6 @@
 ---
 title: "Neurooncology & Paediatric Neurosurgery | Brain Specialist | Dr Nor Faizal"
+seoTitle: "Brain Tumour Surgery Malaysia | Neurosurgeon KL"
 description: "Advanced brain tumour surgery and paediatric neurosurgery. Meningioma, glioma, medulloblastoma, hydrocephalus, craniosynostosis and spina bifida specialist. Oxford-trained neurosurgeon in Malaysia."
 date: 2026-03-10
 lastmod: 2026-04-25
@@ -7,9 +8,19 @@ draft: false
 
 type: "Brain"
 weight: 1
+medicalCondition: "Brain Tumour"
+ogImage: "/images/og-brain.jpg"
 
 # SEO
-keywords: "neurooncology, Paediatric neurosurgeon,brain tumour surgery, meningioma, glioma, medulloblastoma, spinal tumour, Malaysia, neurosurgeon"
+keywords:
+  - brain tumour surgery Malaysia
+  - brain tumour surgeon KL
+  - meningioma surgery Malaysia
+  - glioma treatment Malaysia
+  - neurooncology Malaysia
+  - paediatric brain tumour Malaysia
+  - brain cancer surgeon Malaysia
+  - neurosurgeon Malaysia
 
 # Content
 sections:
@@ -32,6 +43,8 @@ Oxford-trained. KPJ Tawakkal Specialist Hospital, Kuala Lumpur.
 
 ## Neurooncology Surgery
 
+→ [Brain Tumour Surgery in Malaysia — full overview](/expertise/brain-tumour-malaysia/)
+
 ### What is Neurooncology?
 
 Neurooncology is the surgical specialty focused on diagnosing and treating tumours of the brain and spinal cord. As an Oxford-trained neurosurgeon, I combine cutting-edge surgical techniques with precision-driven care to achieve the best possible outcomes for patients with complex neurological tumours.
@@ -46,6 +59,8 @@ Benign or malignant tumours arising from the meninges (brain lining).
 - **Approach:** Gross total resection when safely possible
 - **Outcome:** Generally excellent prognosis with surgery
 
+→ [Full Meningioma guide — treatment, surgery & recovery](/expertise/meningioma/)
+
 #### Glioma & Glioblastoma
 
 Tumours arising from glial cells within the brain.
@@ -54,6 +69,8 @@ Tumours arising from glial cells within the brain.
 - **Treatment:** Surgery + Radiation ± Chemotherapy
 - **Surgical Goal:** Maximum resection while preserving function
 
+→ [Full Glioma & Glioblastoma guide](/expertise/glioma-glioblastoma/)
+
 #### Medulloblastoma
 
 Most common malignant paediatric brain tumour.
@@ -61,6 +78,8 @@ Most common malignant paediatric brain tumour.
 - **Presentation:** Headache, vomiting, balance problems
 - **Multimodal Treatment:** Surgery + Chemotherapy + Radiation
 - **Prognosis:** Improved with modern molecular protocols
+
+→ [Brain Tumour in Children — a Malaysian parent's guide](/expertise/paediatric-brain-tumour/)
 
 #### Central Neurocytoma
 

@@ -1,6 +1,8 @@
 ---
 title: "Dr Nor Faizal Ahmad Bahuri | DPhil (Oxon), MS (UM), MBBS (Malaya)"
-description: "Oxford-trained Consultant Neurosurgeon and Interventional Pain Specialist. Specializing in brain tumors, chronic headaches, and precision pain management at Tawakkal Specialist Hospital, Kuala Lumpur."
+seoTitle: "About Dr Nor Faizal | Oxford Neurosurgeon Kuala Lumpur"
+description: "Oxford-trained Consultant Neurosurgeon and Interventional Pain Specialist. Specialising in brain tumours, chronic headaches, and precision pain management at KPJ Tawakkal Specialist Hospital, Kuala Lumpur."
+ogImage: "/images/og-about.jpg"
 draft: false
 type: "page"
 show_appointment_button: true

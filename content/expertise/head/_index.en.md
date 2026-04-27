@@ -1,5 +1,6 @@
 ---
 title: "Headache, Migraine & Facial Pain | Dr Nor Faizal"
+seoTitle: "Migraine & Headache Specialist KL | Trigeminal Neuralgia"
 description: "The neurosurgeon in Kuala Lumpur who manages headache from first consultation to surgical intervention — when medicine alone is no longer enough. Oxford-trained. Interventional. Precise."
 date: 2026-03-11
 lastmod: 2026-04-26
@@ -7,8 +8,18 @@ draft: false
 
 type: "Head"
 weight: 2
+medicalCondition: "Chronic Migraine"
+ogImage: "/images/og-head.jpg"
 
-keywords: "headache specialist, migraine treatment, trigeminal neuralgia, chronic headache, facial pain, neurosurgeon Malaysia, occipital neuralgia, cluster headache"
+keywords:
+  - headache specialist Malaysia
+  - migraine treatment KL
+  - trigeminal neuralgia surgeon Malaysia
+  - chronic headache specialist
+  - facial pain treatment Malaysia
+  - occipital neuralgia KL
+  - cluster headache Malaysia
+  - microvascular decompression Malaysia
 
 sections:
   - type: "hero"
@@ -42,6 +53,9 @@ The full clinical spectrum — from a first consultation through to surgical int
 ---
 
 ## The Three Tiers of Care
+
+→ [Chronic Migraine treatment guide](/expertise/chronic-migraine/)
+→ [Trigeminal Neuralgia guide — MVD surgery & RFA](/expertise/trigeminal-neuralgia/)
 
 ### Tier 1 — Diagnosis & Medical Optimisation
 

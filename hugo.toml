@@ -20,21 +20,45 @@ theme = "drnorfaizal"
   defaultMetaDescription = "Expert neurooncology and pain management specialist. Brain & spinal tumour surgery. Oxford-trained. Precision care."
   keywords = "neurosurgeon, neurooncology, brain tumour, spinal tumour, pain management, Malaysia"
 
+  # -- SEO Head partial params --
+  siteName        = "Dr Nor Faizal Ahmad Bahuri"
+  siteDescription = "Oxford-trained Consultant Neurosurgeon and Interventional Pain Specialist at KPJ Tawakkal Specialist Hospital, Kuala Lumpur. Expert in brain tumour surgery, migraine, and chronic pain management."
+  siteKeywords    = "neurosurgeon Malaysia, brain tumour surgeon KL, pakar bedah saraf Malaysia, brain surgeon Kuala Lumpur, interventional pain specialist Malaysia, migraine specialist KL, Dr Nor Faizal"
+  ogImage         = "/images/og-default.jpg"
+  ogType          = "website"
+  twitterCard     = "summary_large_image"
+  twitterHandle   = "@drnorfaizalab"
+
+  # -- Doctor identity (used in schema) --
+  doctorName      = "Dr Nor Faizal Ahmad Bahuri"
+  doctorTitle     = "Consultant Neurosurgeon & Interventional Pain Specialist"
+  credentials     = "MBBS (Malaya), MS (Universiti Malaya), DPhil (Oxon)"
+  hospital        = "KPJ Tawakkal Specialist Hospital"
+  hospitalAddress = "Jalan Pahang Barat, Pekeliling, 53000 Kuala Lumpur, Malaysia"
+  bookingURL      = "https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri"
+
   # -- Language-specific Identity & SEO: see [languages.en.params] and [languages.bm.params] --
-  
+
   # -- Contact Information --
   clinic_name = "Tawakkal Specialist Hospital"
   clinic_address = "Jalan Pahang Barat, Kuala Lumpur, Malaysia"
   clinic_phone = "+603-4026 7777 ext 5099"
   clinic_whatsapp = "+60122895061"
   clinic_email = "drnfaizal@kpjtawakkal.com"
-  
-  # -- Social Media --
+
+  # -- Social Media (usernames for legacy templates) --
   social_tiktok = "drnorfaizalbahuri"
   social_instagram = "drnorfaizalbahuri"
   social_youtube = "drnorfaizalbahuri"
   social_linkedin = "drnorfaizalbahuri"
   social_facebook = "drnorfaizalbahuri"
+
+  # -- Social Media (full URLs for schema) --
+  linkedin  = "https://www.linkedin.com/in/drnorfaizalbahuri/"
+  instagram = "https://www.instagram.com/drnorfaizalbahuri/"
+  facebook  = "https://www.facebook.com/drnorfaizalbahuri/"
+  tiktok    = "https://www.tiktok.com/@drnorfaizalbahuri"
+  youtube   = "https://www.youtube.com/@drnorfaizalbahuri"
   
   # -- Theme & Design --
   enableSitemap = true

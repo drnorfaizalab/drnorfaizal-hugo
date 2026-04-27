@@ -1,0 +1,226 @@
+{{/*
+  SEO HEAD PARTIAL — drnorfaizal.com
+  Renders: title, meta description, canonical, OG, Twitter Card, JSON-LD schema
+*/}}
+
+{{/* ── 1. TITLE ─────────────────────────────────────────────────── */}}
+{{ if .IsHome }}
+  {{ $title := "Dr Nor Faizal | Neurosurgeon Kuala Lumpur | Brain Tumour & Pain Specialist" }}
+  <title>{{ $title }}</title>
+  <meta property="og:title" content="{{ $title }}" />
+  <meta name="twitter:title" content="{{ $title }}" />
+{{ else }}
+  {{ $pageTitle := .Params.seoTitle | default .Title }}
+  {{ $title := printf "%s | Dr Nor Faizal" $pageTitle }}
+  <title>{{ $title }}</title>
+  <meta property="og:title" content="{{ $title }}" />
+  <meta name="twitter:title" content="{{ $title }}" />
+{{ end }}
+
+{{/* ── 2. META DESCRIPTION ─────────────────────────────────────── */}}
+{{ $desc := .Params.description | default .Site.Params.siteDescription | default .Site.Params.description }}
+{{ if gt (len $desc) 160 }}{{ $desc = substr $desc 0 157 | printf "%s..." }}{{ end }}
+<meta name="description" content="{{ $desc }}" />
+<meta property="og:description" content="{{ $desc }}" />
+<meta name="twitter:description" content="{{ $desc }}" />
+
+{{/* ── 3. KEYWORDS ─────────────────────────────────────────────── */}}
+{{ with .Params.keywords }}
+  {{ if reflect.IsSlice . }}
+    <meta name="keywords" content="{{ delimit . ", " }}" />
+  {{ else }}
+    <meta name="keywords" content="{{ . }}" />
+  {{ end }}
+{{ else }}
+<meta name="keywords" content="{{ .Site.Params.siteKeywords | default .Site.Params.keywords }}" />
+{{ end }}
+
+{{/* ── 4. CANONICAL ────────────────────────────────────────────── */}}
+<link rel="canonical" href="{{ .Permalink }}" />
+
+{{/* ── 5. OPEN GRAPH ───────────────────────────────────────────── */}}
+<meta property="og:type" content="{{ .Params.ogType | default .Site.Params.ogType | default "website" }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="{{ .Site.Params.siteName | default .Site.Params.author }}" />
+<meta property="og:locale" content="en_MY" />
+
+{{ $ogImage := .Params.ogImage | default .Site.Params.ogImage }}
+{{ with $ogImage }}
+<meta property="og:image" content="{{ . | absURL }}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Dr Nor Faizal Ahmad Bahuri — Consultant Neurosurgeon, Kuala Lumpur" />
+{{ end }}
+
+{{/* ── 6. TWITTER CARD ─────────────────────────────────────────── */}}
+<meta name="twitter:card" content="{{ .Site.Params.twitterCard | default "summary_large_image" }}" />
+{{ with .Site.Params.twitterHandle }}<meta name="twitter:site" content="{{ . }}" />{{ end }}
+
+{{/* ── 7. ROBOTS ───────────────────────────────────────────────── */}}
+{{ if .Params.noindex }}
+<meta name="robots" content="noindex, nofollow" />
+{{ else }}
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+{{ end }}
+
+{{/* ── 8. JSON-LD SCHEMA ───────────────────────────────────────── */}}
+
+{{/* 8a. Physician + MedicalBusiness — on every page */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["Physician", "MedicalBusiness"],
+  "@id": "https://drnorfaizal.com/#physician",
+  "name": "Dr Nor Faizal Ahmad Bahuri",
+  "alternateName": ["Dr Faizal Neurosurgeon", "Pakar Bedah Saraf Dr Nor Faizal"],
+  "description": "Oxford-trained Consultant Neurosurgeon and Interventional Pain Specialist specialising in brain tumour surgery, paediatric neurosurgery, chronic migraine, and minimally invasive pain management at KPJ Tawakkal Specialist Hospital, Kuala Lumpur.",
+  "url": "https://drnorfaizal.com/",
+  "image": "https://drnorfaizal.com/profile.jpg",
+  "telephone": "+60340267777",
+  "email": "hello@drnorfaizal.com",
+  "medicalSpecialty": ["Neurological Surgery", "Pain Medicine", "Neuro-Oncology", "Pediatric Surgery"],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Doctorate",
+      "recognizedBy": { "@type": "CollegeOrUniversity", "name": "University of Oxford", "url": "https://www.ox.ac.uk" },
+      "name": "DPhil (Oxon) — Doctor of Philosophy"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Masters",
+      "recognizedBy": { "@type": "CollegeOrUniversity", "name": "Universiti Malaya" },
+      "name": "MS (Universiti Malaya) — Master of Surgery"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Bachelor",
+      "recognizedBy": { "@type": "CollegeOrUniversity", "name": "Universiti Malaya" },
+      "name": "MBBS (Malaya)"
+    }
+  ],
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Oxford", "url": "https://www.ox.ac.uk" },
+  "worksFor": {
+    "@type": "Hospital",
+    "name": "KPJ Tawakkal Specialist Hospital",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jalan Pahang Barat, Pekeliling",
+      "addressLocality": "Kuala Lumpur",
+      "postalCode": "53000",
+      "addressCountry": "MY"
+    },
+    "telephone": "+60340267777",
+    "url": "https://www.kpjhealth.com.my/tawakkal"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jalan Pahang Barat, Pekeliling",
+    "addressLocality": "Kuala Lumpur",
+    "postalCode": "53000",
+    "addressCountry": "MY"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 3.1783, "longitude": 101.7036 },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Wednesday","Friday"], "opens": "09:00", "closes": "17:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Thursday"], "opens": "09:00", "closes": "12:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "13:00" }
+  ],
+  "availableService": [
+    { "@type": "MedicalProcedure", "name": "Brain Tumour Surgery", "procedureType": "https://schema.org/SurgicalProcedure" },
+    { "@type": "MedicalProcedure", "name": "Paediatric Brain Tumour Surgery", "procedureType": "https://schema.org/SurgicalProcedure" },
+    { "@type": "MedicalProcedure", "name": "Awake Craniotomy", "procedureType": "https://schema.org/SurgicalProcedure" },
+    { "@type": "MedicalProcedure", "name": "Meningioma Resection", "procedureType": "https://schema.org/SurgicalProcedure" },
+    { "@type": "MedicalProcedure", "name": "Radiofrequency Ablation for Chronic Pain", "procedureType": "https://schema.org/SurgicalProcedure" },
+    { "@type": "MedicalProcedure", "name": "Microvascular Decompression (MVD)", "procedureType": "https://schema.org/SurgicalProcedure" },
+    { "@type": "MedicalProcedure", "name": "Spinal Cord Stimulation", "procedureType": "https://schema.org/SurgicalProcedure" },
+    { "@type": "MedicalTherapy", "name": "Interventional Pain Management" },
+    { "@type": "MedicalTherapy", "name": "Chronic Migraine Treatment" }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/drnorfaizalbahuri/",
+    "https://www.instagram.com/drnorfaizalbahuri/",
+    "https://www.facebook.com/drnorfaizalbahuri/",
+    "https://www.tiktok.com/@drnorfaizalbahuri",
+    "https://www.youtube.com/@drnorfaizalbahuri",
+    "https://www.kpjhealth.com.my/tawakkal/doctor/dr-nor-faizal-ahmad-bahuri"
+  ]
+}
+</script>
+
+{{/* 8b. WebSite schema — homepage only */}}
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://drnorfaizal.com/#website",
+  "url": "https://drnorfaizal.com/",
+  "name": "Dr Nor Faizal Ahmad Bahuri",
+  "description": "Official website of Dr Nor Faizal Ahmad Bahuri, Consultant Neurosurgeon and Interventional Pain Specialist, Kuala Lumpur.",
+  "publisher": { "@id": "https://drnorfaizal.com/#physician" },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": { "@type": "EntryPoint", "urlTemplate": "https://drnorfaizal.com/insights/?q={search_term_string}" },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{{ end }}
+
+{{/* 8c. BreadcrumbList — all non-home pages */}}
+{{ if not .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://drnorfaizal.com/" }
+    {{ $ancestors := .Ancestors.Reverse }}
+    {{ range $i, $ancestor := $ancestors }}
+    ,{ "@type": "ListItem", "position": {{ add $i 2 }}, "name": "{{ $ancestor.Title }}", "item": "{{ $ancestor.Permalink }}" }
+    {{ end }}
+    ,{ "@type": "ListItem", "position": {{ add (len .Ancestors) 2 }}, "name": "{{ .Title }}", "item": "{{ .Permalink }}" }
+  ]
+}
+</script>
+{{ end }}
+
+{{/* 8d. MedicalWebPage schema — expertise/condition pages */}}
+{{ if eq .Section "expertise" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "{{ .Title }}",
+  "description": "{{ .Params.description | default .Site.Params.siteDescription | default .Site.Params.description }}",
+  "url": "{{ .Permalink }}",
+  "lastReviewed": "{{ now.Format "2006-01-02" }}",
+  "reviewedBy": { "@id": "https://drnorfaizal.com/#physician" },
+  "about": {
+    "@type": "MedicalCondition",
+    "name": "{{ .Params.medicalCondition | default .Title }}"
+  },
+  "specialty": "Neurological Surgery"
+}
+</script>
+{{ end }}
+
+{{/* 8e. MedicalScholarlyArticle schema — Insights posts */}}
+{{ if and (eq .Section "insights") (not .IsSection) }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalScholarlyArticle",
+  "headline": "{{ .Title }}",
+  "description": "{{ .Params.description | default "" }}",
+  "url": "{{ .Permalink }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+  "author": { "@id": "https://drnorfaizal.com/#physician" },
+  "publisher": { "@id": "https://drnorfaizal.com/#physician" },
+  "image": "{{ (.Params.ogImage | default .Site.Params.ogImage) | absURL }}",
+  "mainEntityOfPage": "{{ .Permalink }}"
+}
+</script>
+{{ end }}
