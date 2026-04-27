@@ -43,6 +43,9 @@ Spektrum klinikal penuh — dari perundingan pertama hingga intervensi pembedaha
 
 ## Tiga Peringkat Penjagaan
 
+→ [Panduan rawatan Migrain Kronik](/expertise/chronic-migraine/)
+→ [Panduan Neuralgia Trigeminal — pembedahan MVD & RFA](/expertise/trigeminal-neuralgia/)
+
 ### Peringkat 1 — Diagnosis & Pengoptimuman Perubatan
 
 Titik masuk. Setiap pesakit menerima penilaian sakit kepala yang komprehensif: klasifikasi ICHD-3 penuh, pemeriksaan neurologi, semakan pengimejan, dan diagnosis yang jelas. Kebanyakan pesakit tidak pernah menerimanya.

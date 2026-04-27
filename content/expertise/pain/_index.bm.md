@@ -37,6 +37,8 @@ Dengan mendekati kesakitan melalui kanta bedah saraf, Dr Nor Faizal berupaya:
 
 ## Keadaan Yang Dirawat
 
+→ [Panduan pakar Sakit Belakang Kronik — RFA, SCS & suntikan saraf](/expertise/chronic-back-pain/)
+
 ### Sakit Belakang dan Leher Kronik
 Sakit belakang bawah mekanikal dan sakit leher antara penyebab kecacatan yang paling kerap berlaku di seluruh dunia. Apabila kesakitan berterusan lebih tiga bulan dan dikaitkan dengan penglibatan saraf, penilaian khusus adalah diperlukan.
 

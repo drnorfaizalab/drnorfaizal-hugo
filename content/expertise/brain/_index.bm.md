@@ -32,6 +32,8 @@ Lulusan Oxford. Hospital Pakar Tawakkal & Hospital Pakar Ampang Puteri, Kuala Lu
 
 ## Pembedahan Neuro-onkologi
 
+→ [Panduan lengkap Pembedahan Tumor Otak di Malaysia](/expertise/brain-tumour-malaysia/)
+
 ### Apakah itu Neuro-onkologi?
 
 Neuro-onkologi (Neurooncology) adalah kepakaran pembedahan yang memfokuskan pada diagnosis dan rawatan tumor otak serta saraf tunjang. Sebagai pakar bedah saraf lulusan Oxford, saya menggabungkan teknik pembedahan terkini dengan penjagaan berpandukan ketepatan untuk mencapai hasil terbaik bagi pesakit dengan tumor neurologi yang kompleks.
@@ -46,6 +48,8 @@ Tumor benign (jinak) atau malignan (ganas) yang tumbuh dari selaput otak (mening
 - **Pendekatan:** Reseksi penuh (pembuangan sepenuhnya) jika selamat dilakukan
 - **Hasil:** Secara amnya prognosis yang sangat baik dengan pembedahan
 
+→ [Panduan lengkap Meningioma — rawatan, pembedahan & pemulihan](/expertise/meningioma/)
+
 #### Glioma & Glioblastoma
 
 Tumor yang berpunca daripada sel glia di dalam otak.
@@ -54,6 +58,8 @@ Tumor yang berpunca daripada sel glia di dalam otak.
 - **Rawatan:** Pembedahan + Radioterapi ± Kemoterapi
 - **Matlamat Pembedahan:** Reseksi maksimum sambil memelihara fungsi otak
 
+→ [Panduan lengkap Glioma & Glioblastoma](/expertise/glioma-glioblastoma/)
+
 #### Medulloblastoma
 
 Tumor otak malignan kanak-kanak yang paling kerap ditemui.
@@ -61,6 +67,8 @@ Tumor otak malignan kanak-kanak yang paling kerap ditemui.
 - **Gejala:** Sakit kepala, muntah, masalah keseimbangan
 - **Rawatan Multimodal:** Pembedahan + Kemoterapi + Radioterapi
 - **Prognosis:** Semakin baik dengan protokol molekul moden
+
+→ [Tumor Otak pada Kanak-Kanak — panduan untuk ibu bapa di Malaysia](/expertise/paediatric-brain-tumour/)
 
 #### Central Neurocytoma
 
