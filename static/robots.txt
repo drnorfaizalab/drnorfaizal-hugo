@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://drnorfaizal.com/en/sitemap.xml
-Sitemap: https://drnorfaizal.com/bm/sitemap.xml
+Sitemap: https://drnorfaizal.com/ms/sitemap.xml

@@ -8,7 +8,7 @@
 */}}
 {{ if .Params.show_appointment_button }}
   {{ $url   := .Params.appointment_url   | default "https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri" }}
-  {{ $bm    := eq .Lang "bm" }}
+  {{ $bm    := eq .Lang "ms" }}
   {{ $label := .Params.appointment_label | default (cond $bm "Buat Temujanji Sekarang" "Book Appointment Now") }}
 <div class="appointment-btn-wrapper">
   <a href="{{ $url }}" target="_blank" rel="noopener" class="btn btn-appointment">

@@ -2,13 +2,13 @@
 <section style="min-height:70vh; display:flex; align-items:center; justify-content:center; text-align:center; padding:4rem 1.5rem;">
   <div>
     <p style="font-size:6rem; font-weight:700; color:var(--secondary); line-height:1;">404</p>
-    <h1 style="margin-bottom:1rem;">{{ if eq .Lang "bm" }}Halaman Tidak Dijumpai{{ else }}Page Not Found{{ end }}</h1>
+    <h1 style="margin-bottom:1rem;">{{ if eq .Lang "ms" }}Halaman Tidak Dijumpai{{ else }}Page Not Found{{ end }}</h1>
     <p class="text-gray" style="font-size:1.125rem; margin-bottom:2rem;">
-      {{ if eq .Lang "bm" }}Maaf, halaman yang anda cari tidak wujud.{{ else }}Sorry, the page you are looking for does not exist.{{ end }}
+      {{ if eq .Lang "ms" }}Maaf, halaman yang anda cari tidak wujud.{{ else }}Sorry, the page you are looking for does not exist.{{ end }}
     </p>
     <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
-      <a href="{{ "/" | relLangURL }}" class="btn btn-primary">{{ if eq .Lang "bm" }}Kembali ke Laman Utama{{ else }}Back to Home{{ end }}</a>
-      <a href="https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri" target="_blank" rel="noopener" class="btn btn-secondary">{{ if eq .Lang "bm" }}Buat Temujanji{{ else }}Book Appointment{{ end }}</a>
+      <a href="{{ "/" | relLangURL }}" class="btn btn-primary">{{ if eq .Lang "ms" }}Kembali ke Laman Utama{{ else }}Back to Home{{ end }}</a>
+      <a href="https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri" target="_blank" rel="noopener" class="btn btn-secondary">{{ if eq .Lang "ms" }}Buat Temujanji{{ else }}Book Appointment{{ end }}</a>
     </div>
   </div>
 </section>

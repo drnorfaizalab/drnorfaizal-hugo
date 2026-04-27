@@ -37,7 +37,7 @@ theme = "drnorfaizal"
   hospitalAddress = "Jalan Pahang Barat, Pekeliling, 53000 Kuala Lumpur, Malaysia"
   bookingURL      = "https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri"
 
-  # -- Language-specific Identity & SEO: see [languages.en.params] and [languages.bm.params] --
+  # -- Language-specific Identity & SEO: see [languages.en.params] and [languages.ms.params] --
 
   # -- Contact Information --
   clinic_name = "Tawakkal Specialist Hospital"
@@ -112,41 +112,41 @@ theme = "drnorfaizal"
       url = "/contact/"
       weight = 50
 
-  [languages.bm]
+  [languages.ms]
     languageName = "Bahasa"
     weight = 2
     homePageTitle = "Pakar Runding Bedah Saraf & Intervensi Kesakitan | Dr Nor Faizal | Otak - Kepala - Kesakitan"
 
-    [languages.bm.params]
+    [languages.ms.params]
       description = "Pakar Runding Bedah Saraf & Intervensi Kesakitan berkelayakan Oxford, berkhidmat di Kuala Lumpur. Pakar dalam pembedahan tumor otak, tulang belakang, dan pengurusan kesakitan kronik."
       defaultMetaDescription = "Pakar bedah saraf dalam pembedahan tumor otak & tulang belakang, neuro-onkologi, dan intervensi kesakitan. Berkelayakan Oxford. Berkhidmat di KPJ Tawakkal, Kuala Lumpur."
       keywords = "pakar bedah saraf Malaysia, neuro-onkologi, pembedahan tumor otak, pembedahan tulang belakang, intervensi kesakitan, kesakitan kronik, Kuala Lumpur"
 
-    [[languages.bm.menus.main]]
+    [[languages.ms.menus.main]]
       identifier = "about"
       name = "Tentang"
       url = "/about/"
       weight = 10
 
-    [[languages.bm.menus.main]]
+    [[languages.ms.menus.main]]
       identifier = "expertise"
       name = "Kepakaran"
       url = "/expertise/"
       weight = 20
 
-    [[languages.bm.menus.main]]
+    [[languages.ms.menus.main]]
       identifier = "patients"
       name = "Pesakit"
       url = "/patients/"
       weight = 30
 
-    [[languages.bm.menus.main]]
+    [[languages.ms.menus.main]]
       identifier = "insights"
       name = "Renungan"
       url = "/insights/"
       weight = 40
 
-    [[languages.bm.menus.main]]
+    [[languages.ms.menus.main]]
       identifier = "contact"
       name = "Hubungi"
       url = "/contact/"

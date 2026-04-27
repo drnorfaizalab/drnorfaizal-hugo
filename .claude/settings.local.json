@@ -23,7 +23,8 @@
       "Bash(curl -s -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json; charset=utf-8' -d '{ *)",
       "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\" \"https://www.bing.com/indexnow?url=https://drnorfaizal.com/en/sitemap.xml&key=4893d69bb0df950f452a922648a88280\")",
       "Bash(PYTHONIOENCODING=utf-8 python tools/translate_content.py content/expertise/paediatric-brain-tumour/index.en.md)",
-      "Bash(PYTHONIOENCODING=utf-8 python tools/translate_content.py content/expertise/meningioma/index.en.md)"
+      "Bash(PYTHONIOENCODING=utf-8 python tools/translate_content.py content/expertise/meningioma/index.en.md)",
+      "Bash(grep -E \"^bm$|^ms$\")"
     ],
     "additionalDirectories": [
       "c:\\Users\\drnor\\MyClaude\\drnorfaizal-hugo\\stage\\stage_B_photos"

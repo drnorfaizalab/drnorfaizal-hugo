@@ -11,19 +11,19 @@
     <div style="display:flex; gap:0.5rem; justify-content:center; flex-wrap:wrap; margin-bottom:2rem;">
       <button class="filter-btn active" data-filter="all"
         style="padding:0.4rem 1.1rem; border-radius:2rem; border:1px solid var(--primary,#002147); background:var(--primary,#002147); color:#fff; cursor:pointer; font-size:0.875rem; transition:all 0.2s;">
-        {{ if eq .Lang "bm" }}Semua{{ else }}All{{ end }}
+        {{ if eq .Lang "ms" }}Semua{{ else }}All{{ end }}
       </button>
       <button class="filter-btn" data-filter="articles"
         style="padding:0.4rem 1.1rem; border-radius:2rem; border:1px solid var(--primary,#002147); background:transparent; color:var(--primary,#002147); cursor:pointer; font-size:0.875rem; transition:all 0.2s;">
-        {{ if eq .Lang "bm" }}Renungan{{ else }}Articles{{ end }}
+        {{ if eq .Lang "ms" }}Renungan{{ else }}Articles{{ end }}
       </button>
       <button class="filter-btn" data-filter="patient-guides"
         style="padding:0.4rem 1.1rem; border-radius:2rem; border:1px solid var(--primary,#002147); background:transparent; color:var(--primary,#002147); cursor:pointer; font-size:0.875rem; transition:all 0.2s;">
-        {{ if eq .Lang "bm" }}Panduan Pesakit{{ else }}Patient Guides{{ end }}
+        {{ if eq .Lang "ms" }}Panduan Pesakit{{ else }}Patient Guides{{ end }}
       </button>
       <button class="filter-btn" data-filter="social-media"
         style="padding:0.4rem 1.1rem; border-radius:2rem; border:1px solid var(--primary,#002147); background:transparent; color:var(--primary,#002147); cursor:pointer; font-size:0.875rem; transition:all 0.2s;">
-        {{ if eq .Lang "bm" }}Video & Sosial{{ else }}Videos & Social{{ end }}
+        {{ if eq .Lang "ms" }}Video & Sosial{{ else }}Videos & Social{{ end }}
       </button>
     </div>
 
@@ -62,7 +62,7 @@
             </span>
             {{ end }}
           {{ else if $isGuide }}
-          <span class="badge" style="background:#e8f4e8; color:#2d6a2d; border:none;">{{ if eq $.Lang "bm" }}Panduan Pesakit{{ else }}Patient Guide{{ end }}</span>
+          <span class="badge" style="background:#e8f4e8; color:#2d6a2d; border:none;">{{ if eq $.Lang "ms" }}Panduan Pesakit{{ else }}Patient Guide{{ end }}</span>
           {{ else }}
           {{ with .Params.categories }}{{ range first 1 . }}<span class="badge" style="display:inline-block;">{{ . | title }}</span>{{ end }}{{ end }}
           {{ end }}
@@ -71,7 +71,7 @@
         <h3 class="card-title" style="font-size:1.1rem;">{{ .Title }}</h3>
         {{ with .Description }}<p class="text-gray" style="font-size:0.875rem;">{{ . | truncate 120 }}</p>{{ end }}
         <a href="{{ .Permalink }}" class="btn btn-secondary" style="margin-top:1rem; font-size:0.875rem; padding:0.5rem 1rem;">
-          {{ if eq $.Lang "bm" }}Baca Lagi{{ else }}Read More{{ end }}
+          {{ if eq $.Lang "ms" }}Baca Lagi{{ else }}Read More{{ end }}
         </a>
       </div>
       {{ end }}

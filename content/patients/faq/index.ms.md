@@ -262,4 +262,4 @@ Anda tidak perlu menghadapinya seorang diri, dan meminta bantuan adalah tanda ke
 
 ---
 
-[Buat Temujanji](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Hubungi Klinik](/bm/hubungi/) | [Senarai Semak Gejala](/bm/blog/pasien/symptom-checklist/)
+[Buat Temujanji](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Hubungi Klinik](/ms/hubungi/) | [Senarai Semak Gejala](/ms/blog/pasien/symptom-checklist/)

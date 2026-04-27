@@ -250,7 +250,7 @@ Jika anda tidak pasti tentang gejala anda, atau jika ada sesuatu yang terasa tid
 
 Dr Nor Faizal menerima pesakit di Hospital Pakar KPJ Tawakkal, Kuala Lumpur. Sama ada anda telah mengenal pasti gejala Tanda Merah yang memerlukan semakan segera, gejala Tanda Kuning yang memerlukan penilaian pakar, atau hanya ingin jaminan dan nasihat pakar tentang kesihatan neurologi anda — klinik ini ada untuk anda.
 
-[Buat Temujanji](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Hubungi Klinik](/bm/hubungi/) | [Baca Soalan Lazim](/bm/blog/pasien/faq/)
+[Buat Temujanji](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Hubungi Klinik](/ms/hubungi/) | [Baca Soalan Lazim](/ms/blog/pasien/faq/)
 
 ---
 

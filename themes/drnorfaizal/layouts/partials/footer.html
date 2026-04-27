@@ -34,19 +34,19 @@
       </div>
 
       <div class="footer-section">
-        <h4>{{ if eq .Lang "bm" }}Pautan{{ else }}Quick Links{{ end }}</h4>
+        <h4>{{ if eq .Lang "ms" }}Pautan{{ else }}Quick Links{{ end }}</h4>
         <ul>
-          <li><a href="{{ "/expertise/" | relLangURL }}">{{ if eq .Lang "bm" }}Kepakaran{{ else }}Specialties{{ end }}</a></li>
-          <li><a href="{{ "/insights/" | relLangURL }}">{{ if eq .Lang "bm" }}Renungan{{ else }}Insights{{ end }}</a></li>
-          <li><a href="{{ "/patients/faq/" | relLangURL }}">{{ if eq .Lang "bm" }}Soalan Lazim{{ else }}FAQ{{ end }}</a></li>
-          <li><a href="{{ "/patients/symptom-checklist/" | relLangURL }}">{{ if eq .Lang "bm" }}Senarai Gejala{{ else }}Symptom Checklist{{ end }}</a></li>
-          <li><a href="https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri" target="_blank" rel="noopener">{{ if eq .Lang "bm" }}Temujanji{{ else }}Appointments{{ end }}</a></li>
-          <li><a href="{{ "/about/" | relLangURL }}">{{ if eq .Lang "bm" }}Tentang Saya{{ else }}About{{ end }}</a></li>
+          <li><a href="{{ "/expertise/" | relLangURL }}">{{ if eq .Lang "ms" }}Kepakaran{{ else }}Specialties{{ end }}</a></li>
+          <li><a href="{{ "/insights/" | relLangURL }}">{{ if eq .Lang "ms" }}Renungan{{ else }}Insights{{ end }}</a></li>
+          <li><a href="{{ "/patients/faq/" | relLangURL }}">{{ if eq .Lang "ms" }}Soalan Lazim{{ else }}FAQ{{ end }}</a></li>
+          <li><a href="{{ "/patients/symptom-checklist/" | relLangURL }}">{{ if eq .Lang "ms" }}Senarai Gejala{{ else }}Symptom Checklist{{ end }}</a></li>
+          <li><a href="https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri" target="_blank" rel="noopener">{{ if eq .Lang "ms" }}Temujanji{{ else }}Appointments{{ end }}</a></li>
+          <li><a href="{{ "/about/" | relLangURL }}">{{ if eq .Lang "ms" }}Tentang Saya{{ else }}About{{ end }}</a></li>
         </ul>
       </div>
 
       <div class="footer-section">
-        <h4>{{ if eq .Lang "bm" }}Hubungi{{ else }}Contact{{ end }}</h4>
+        <h4>{{ if eq .Lang "ms" }}Hubungi{{ else }}Contact{{ end }}</h4>
         <ul>
           {{ with .Site.Params.clinic_name }}<li>{{ . }}</li>{{ end }}
           {{ with .Site.Params.clinic_address }}<li>{{ . }}</li>{{ end }}
@@ -57,8 +57,8 @@
     </div>
 
     <div class="footer-bottom">
-      <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. {{ if eq .Lang "bm" }}Hak cipta terpelihara.{{ else }}All rights reserved.{{ end }}</p>
-      <p style="margin-top:0.5rem; font-size:0.8rem; opacity:0.6;">{{ if eq .Lang "bm" }}Disiplin · Kesederhanaan · Keanggunan{{ else }}Discipline · Simplicity · Elegance{{ end }}</p>
+      <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. {{ if eq .Lang "ms" }}Hak cipta terpelihara.{{ else }}All rights reserved.{{ end }}</p>
+      <p style="margin-top:0.5rem; font-size:0.8rem; opacity:0.6;">{{ if eq .Lang "ms" }}Disiplin · Kesederhanaan · Keanggunan{{ else }}Discipline · Simplicity · Elegance{{ end }}</p>
     </div>
   </div>
 </footer>
