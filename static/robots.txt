@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://drnorfaizal.com/sitemap.xml
+Sitemap: https://drnorfaizal.com/en/sitemap.xml
+Sitemap: https://drnorfaizal.com/bm/sitemap.xml

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: {{ .Site.BaseURL }}en/sitemap.xml
+Sitemap: {{ .Site.BaseURL }}bm/sitemap.xml
