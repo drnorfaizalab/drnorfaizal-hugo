@@ -78,8 +78,8 @@ create_blog_post() {
     print_success "Created: content/blog/$SLUG/_index.en.md"
     
     # Create Bahasa Melayu version
-    hugo new content "blog/$SLUG/_index.bm.md"
-    print_success "Created: content/blog/$SLUG/_index.bm.md"
+    hugo new content "blog/$SLUG/_index.ms.md"
+    print_success "Created: content/blog/$SLUG/_index.ms.md"
     
     print_info "Open the files in your editor and add content"
     print_info "Set draft: false when ready to publish"
@@ -98,8 +98,8 @@ create_specialty() {
     hugo new content "expertise/$SLUG/_index.en.md"
     print_success "Created: content/expertise/$SLUG/_index.en.md"
     
-    hugo new content "expertise/$SLUG/_index.bm.md"
-    print_success "Created: content/expertise/$SLUG/_index.bm.md"
+    hugo new content "expertise/$SLUG/_index.ms.md"
+    print_success "Created: content/expertise/$SLUG/_index.ms.md"
     
     print_info "Type set to 'specialty' - customize as needed"
 }
@@ -117,8 +117,8 @@ create_guide() {
     hugo new content "patients/guides/$SLUG/_index.en.md"
     print_success "Created: content/patients/guides/$SLUG/_index.en.md"
     
-    hugo new content "patients/guides/$SLUG/_index.bm.md"
-    print_success "Created: content/patients/guides/$SLUG/_index.bm.md"
+    hugo new content "patients/guides/$SLUG/_index.ms.md"
+    print_success "Created: content/patients/guides/$SLUG/_index.ms.md"
     
     print_info "Add PDF download link in front matter"
 }
@@ -212,7 +212,7 @@ list_content() {
     find content -name "_index.en.md" | wc -l
     
     echo "Bahasa Melayu posts:"
-    find content -name "_index.bm.md" | wc -l
+    find content -name "_index.ms.md" | wc -l
     
     echo ""
     echo "By section:"

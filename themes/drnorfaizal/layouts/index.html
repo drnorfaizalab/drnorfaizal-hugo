@@ -105,7 +105,7 @@
         {{ range .Site.Data.testimonials }}
         <div class="testimonial-card">
           <div class="star-rating">{{ range seq .stars }}★{{ end }}</div>
-          <p class="testimonial-quote">"{{ if and (eq $.Lang "ms") .bm }}{{ .bm }}{{ else }}{{ .en }}{{ end }}"</p>
+          <p class="testimonial-quote">"{{ if and (eq $.Lang "ms") .ms }}{{ .ms }}{{ else }}{{ .en }}{{ end }}"</p>
           <div class="testimonial-footer">
             <strong>{{ .name }}</strong>
             <span class="badge badge-review">✓ {{ if eq $.Lang "ms" }}Ulasan Google{{ else }}Google Review{{ end }}</span>

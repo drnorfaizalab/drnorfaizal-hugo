@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-translate_testimonials.py — Translate missing 'bm' fields in data/testimonials.yaml
+translate_testimonials.py — Translate missing 'ms' fields in data/testimonials.yaml
 using the Gemini API.
 
 Usage:
@@ -66,9 +66,9 @@ def main():
     changed = 0
 
     for t in testimonials:
-        if not t.get("bm") and t.get("en"):
+        if not t.get("ms") and t.get("en"):
             print(f"Translating: {t['name']}...")
-            t["bm"] = translate(client, t["en"])
+            t["ms"] = translate(client, t["en"])
             changed += 1
 
     if changed:
@@ -77,7 +77,7 @@ def main():
                       default_flow_style=False)
         print(f"\nDone. {changed} translation(s) added to {YAML_PATH}")
     else:
-        print("Nothing to translate — all entries already have 'bm'.")
+        print("Nothing to translate — all entries already have 'ms'.")
 
 
 if __name__ == "__main__":

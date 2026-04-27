@@ -4,7 +4,7 @@ new_insight.py — Hugo content pipeline for Dr Nor Faizal
 
 Step 1:  python scripts/new_insight.py <slug>      → creates draft.yaml
 Step 2:  fill in draft.yaml
-Step 3:  python scripts/new_insight.py <slug>      → calls Gemini, saves index.en.md + index.bm.md
+Step 3:  python scripts/new_insight.py <slug>      → calls Gemini, saves index.en.md + index.ms.md
 """
 
 import os
@@ -61,7 +61,7 @@ author: "Dr Nor Faizal Ahmad Bahuri"
 
 # Titles
 title_en: ""
-title_bm: ""   # leave blank — Gemini will suggest
+title_ms: ""   # leave blank — Gemini will suggest
 
 # Categories and tags
 categories:
@@ -151,7 +151,7 @@ cta:
 
 BM_SYSTEM = BRAND_CONTEXT + """
 
-Your job: write the Bahasa Melayu version of this post (index.bm.md).
+Your job: write the Bahasa Melayu version of this post (index.ms.md).
 
 Rules:
 - Modern, conversational BM — educated Malaysian friend tone, NOT formal/government
@@ -313,11 +313,11 @@ def generate_posts(slug: str) -> None:
         print(f"Saved: {en_path}")
 
     # ── Generate Bahasa post ──
-    bm_path = post_dir / "index.bm.md"
+    bm_path = post_dir / "index.ms.md"
     if bm_path.exists():
-        print(f"Skipping index.bm.md (already exists)")
+        print(f"Skipping index.ms.md (already exists)")
     else:
-        print("Generating index.bm.md ...")
+        print("Generating index.ms.md ...")
         prompt_bm = f"DRAFT:\n{draft_text}\n\nENGLISH POST:\n{en_md}"
         bm_md = gemini_generate(BM_SYSTEM, prompt_bm)
         bm_md = inject_field(bm_md, "show_appointment_button", str(show_btn).lower())
