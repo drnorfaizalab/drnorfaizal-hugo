@@ -6,7 +6,19 @@
       "Bash(sed -i 's/seoTitle: \"Meningioma Surgery Malaysia | Treatment \\\\& Recovery | Dr Nor Faizal\"/seoTitle: \"Meningioma Surgery Malaysia | Treatment \\\\& Recovery\"/' \"c:/Users/drnor/MyClaude/drnorfaizal-hugo/content/expertise/meningioma/index.en.md\")",
       "Bash(sed -i 's/seoTitle: \"Glioma \\\\& Glioblastoma Treatment Malaysia | Dr Nor Faizal, Neurosurgeon KL\"/seoTitle: \"Glioma \\\\& Glioblastoma Treatment Malaysia | Neurosurgeon KL\"/' \"c:/Users/drnor/MyClaude/drnorfaizal-hugo/content/expertise/glioma-glioblastoma/index.en.md\")",
       "Bash(sed -i 's/seoTitle: \"Migraine Specialist KL | Chronic Migraine Treatment | Dr Nor Faizal\"/seoTitle: \"Migraine Specialist KL | Chronic Migraine Treatment\"/' \"c:/Users/drnor/MyClaude/drnorfaizal-hugo/content/expertise/chronic-migraine/index.en.md\")",
-      "Bash(sed -i 's/seoTitle: \"Trigeminal Neuralgia Malaysia | MVD Surgery \\\\& RFA | Dr Nor Faizal\"/seoTitle: \"Trigeminal Neuralgia Malaysia | MVD Surgery \\\\& RFA\"/' \"c:/Users/drnor/MyClaude/drnorfaizal-hugo/content/expertise/trigeminal-neuralgia/index.en.md\")"
+      "Bash(sed -i 's/seoTitle: \"Trigeminal Neuralgia Malaysia | MVD Surgery \\\\& RFA | Dr Nor Faizal\"/seoTitle: \"Trigeminal Neuralgia Malaysia | MVD Surgery \\\\& RFA\"/' \"c:/Users/drnor/MyClaude/drnorfaizal-hugo/content/expertise/trigeminal-neuralgia/index.en.md\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://www.google.com/ping?sitemap=https://drnorfaizal.com/sitemap.xml\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://www.bing.com/ping?sitemap=https://drnorfaizal.com/sitemap.xml\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://drnorfaizal.com/sitemap.xml\")",
+      "Bash(curl -s \"https://drnorfaizal.com/sitemap.xml\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://drnorfaizal.com/expertise/brain-tumour-malaysia/\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://drnorfaizal.com/expertise/chronic-migraine/\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://drnorfaizal.com/en/sitemap.xml\")",
+      "Bash(curl -s \"https://drnorfaizal.com/en/sitemap.xml\")",
+      "Read(//c/Users/drnor/MyClaude/**)",
+      "Read(//c/Users/drnor/**)",
+      "Bash(python3 -c \"import secrets; print\\(secrets.token_hex\\(16\\)\\)\")",
+      "Bash(bash tools/deploy.sh)"
     ],
     "additionalDirectories": [
       "c:\\Users\\drnor\\MyClaude\\drnorfaizal-hugo\\stage\\stage_B_photos"
