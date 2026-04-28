@@ -3,22 +3,27 @@
 <!-- Hero Section -->
 <section class="hero">
   <div class="hero-content container">
-    <div class="hero-specialties slide-up">
-      <a href="{{ "/expertise/brain" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "ms" }}Otak{{ else }}Brain{{ end }}</a>
-      <span class="hero-specialty-sep">·</span>
-      <a href="{{ "/expertise/head" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "ms" }}Kepala{{ else }}Head{{ end }}</a>
-      <span class="hero-specialty-sep">·</span>
-      <a href="{{ "/expertise/pain" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "ms" }}Sakit{{ else }}Pain{{ end }}</a>
+    <div class="hero-text">
+      <div class="hero-specialties slide-up">
+        <a href="{{ "/expertise/brain" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "ms" }}Otak{{ else }}Brain{{ end }}</a>
+        <span class="hero-specialty-sep">·</span>
+        <a href="{{ "/expertise/head" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "ms" }}Kepala{{ else }}Head{{ end }}</a>
+        <span class="hero-specialty-sep">·</span>
+        <a href="{{ "/expertise/pain" | relLangURL }}" class="hero-specialty">{{ if eq .Lang "ms" }}Sakit{{ else }}Pain{{ end }}</a>
+      </div>
+      <h1>{{ if eq .Lang "ms" }}Pakar Runding Bedah Saraf & Intervensi Kesakitan{{ else }}Consultant Neurosurgeon & Interventional Pain Specialist{{ end }}</h1>
+      <p class="fade-in">{{ if eq .Lang "ms" }}Terlatih di Oxford. Ketelitian Berdisiplin.<br>Penyelesaian Terbaik untuk Tumor Otak, Migrain, dan Kesakitan Kronik.{{ else }}Oxford Trained. Disciplined Precision. Elegant Solutions for Brain Tumors, Migraines, and Chronic Pain.{{ end }}</p>
+      <div class="hero-cta">
+        <a href="https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri" target="_blank" rel="noopener" class="btn btn-cta">
+          {{ if eq .Lang "ms" }}Buat Temujanji{{ else }}Book Consultation{{ end }}
+        </a>
+        <a href="{{ "/expertise" | relLangURL }}" class="btn btn-ghost">
+          {{ if eq .Lang "ms" }}Teroka Kepakaran{{ else }}Explore Expertise{{ end }}
+        </a>
+      </div>
     </div>
-    <h1>{{ if eq .Lang "ms" }}Pakar Runding Bedah Saraf & Intervensi Kesakitan{{ else }}Consultant Neurosurgeon & Interventional Pain Specialist{{ end }}</h1>
-    <p class="fade-in">{{ if eq .Lang "ms" }}Terlatih di Oxford. Ketelitian Berdisiplin.<br>Penyelesaian Terbaik untuk Tumor Otak, Migrain, dan Kesakitan Kronik.{{ else }}Oxford Trained. Disciplined Precision. Elegant Solutions for Brain Tumors, Migraines, and Chronic Pain.{{ end }}</p>
-    <div class="hero-cta">
-      <a href="https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri" target="_blank" rel="noopener" class="btn btn-cta">
-        {{ if eq .Lang "ms" }}Buat Temujanji{{ else }}Book Consultation{{ end }}
-      </a>
-      <a href="{{ "/expertise" | relLangURL }}" class="btn btn-ghost">
-        {{ if eq .Lang "ms" }}Teroka Kepakaran{{ else }}Explore Expertise{{ end }}
-      </a>
+    <div class="hero-photo slide-up">
+      <img src="/profile.jpg" alt="Dr Nor Faizal Ahmad Bahuri" width="400" height="600">
     </div>
   </div>
 </section>
