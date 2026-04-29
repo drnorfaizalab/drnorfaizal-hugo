@@ -206,7 +206,26 @@
 </script>
 {{ end }}
 
-{{/* 8e. MedicalScholarlyArticle schema — Insights posts */}}
+{{/* 8e. VideoObject schema — pages with a youtube_id */}}
+{{ with .Params.youtube_id }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "{{ $.Title }}",
+  "description": "{{ $.Params.description | default "" }}",
+  "thumbnailUrl": "https://img.youtube.com/vi/{{ . }}/maxresdefault.jpg",
+  "uploadDate": "{{ $.Date.Format "2006-01-02" }}",
+  "contentUrl": "https://www.youtube.com/watch?v={{ . }}",
+  "embedUrl": "https://www.youtube-nocookie.com/embed/{{ . }}",
+  "url": "{{ $.Permalink }}",
+  "author": { "@id": "https://drnorfaizal.com/#physician" },
+  "publisher": { "@id": "https://drnorfaizal.com/#physician" }
+}
+</script>
+{{ end }}
+
+{{/* 8f. MedicalScholarlyArticle schema — Insights posts */}}
 {{ if and (eq .Section "insights") (not .IsSection) }}
 <script type="application/ld+json">
 {
