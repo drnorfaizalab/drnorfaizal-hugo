@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<section style="padding: 3rem 0 2rem;">
+  <div class="container container-sm">
+    <header style="margin-bottom: 2rem; border-bottom: 1px solid var(--gray-200); padding-bottom: 2rem;">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="text-gray">{{ . }}</p>{{ end }}
+    </header>
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+
+{{ partial "career-timeline.html" . }}
+
+{{ partial "appointment-button.html" . }}
+
+{{ end }}

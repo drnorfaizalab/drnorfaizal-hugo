@@ -290,6 +290,8 @@ pre code {
   box-shadow: var(--shadow-md);
   transition: var(--transition);
   border-top: 4px solid var(--secondary);
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
@@ -1141,7 +1143,9 @@ html.dark-mode .social-embed-instagram-container {
 }
 
 .card-btn {
-  margin-top: 1rem;
+  margin-top: auto;
+  padding-top: 1rem;
+  align-self: center;
 }
 
 /* About layout */
@@ -1160,6 +1164,10 @@ html.dark-mode .social-embed-instagram-container {
 .about-image {
   flex: 1;
   min-width: 280px;
+}
+
+.section-cta .hero-cta {
+  justify-content: center;
 }
 
 /* CTA Banner */
@@ -1582,4 +1590,138 @@ html.dark-mode .social-embed-instagram-container {
   border: 1px solid currentColor;
   border-radius: 2px;
   display: inline-block;
+}
+
+/* ==========================================================================
+   CAREER TIMELINE
+   ========================================================================== */
+
+.section-experience {
+  padding: var(--spacing-2xl) 0;
+}
+
+.career-timeline {
+  position: relative;
+  max-width: 680px;
+  margin: var(--spacing-xl) auto 0;
+}
+
+/* vertical line through dots — desktop */
+.career-timeline::before {
+  content: '';
+  position: absolute;
+  left: 132px; /* 120px year col + 8px gap + 4px (half 14px dot) */
+  top: 6px;
+  bottom: 0;
+  width: 2px;
+  background: var(--gray-200);
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 120px 24px 1fr;
+  column-gap: 8px;
+  align-items: start;
+  margin-bottom: 2.25rem;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-year {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-align: right;
+  line-height: 1;
+  padding-top: 3px;
+}
+
+.timeline-dot {
+  display: flex;
+  justify-content: center;
+  padding-top: 2px;
+  position: relative;
+  z-index: 1;
+}
+
+.timeline-dot::after {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--secondary);
+  border: 2px solid var(--light);
+  box-shadow: 0 0 0 2px var(--secondary);
+}
+
+.timeline-item--current .timeline-dot::after {
+  background: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent);
+}
+
+.timeline-badge {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  margin-bottom: 0.2rem;
+}
+
+.timeline-item--current .timeline-badge {
+  color: var(--accent);
+}
+
+.timeline-title {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--primary);
+  line-height: 1.35;
+  margin-bottom: 0.2rem;
+}
+
+.timeline-org {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  line-height: 1.4;
+}
+
+.timeline-detail {
+  font-size: 0.8125rem;
+  color: var(--gray-400);
+  font-style: italic;
+  margin-top: 0.2rem;
+}
+
+/* Mobile — collapse year column, keep dot + content */
+@media (max-width: 640px) {
+  .career-timeline::before {
+    left: 54px; /* 44px year + 6px gap + 4px half-dot */
+  }
+
+  .timeline-item {
+    grid-template-columns: 44px 20px 1fr;
+    column-gap: 6px;
+    margin-bottom: 1.75rem;
+  }
+
+  .timeline-year {
+    font-size: 0.75rem;
+    padding-top: 2px;
+  }
+
+  .timeline-dot::after {
+    width: 10px;
+    height: 10px;
+  }
+
+  .timeline-title {
+    font-size: 0.875rem;
+  }
 }

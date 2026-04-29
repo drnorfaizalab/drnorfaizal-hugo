@@ -1,0 +1,92 @@
+- year: "2002"
+  type: education
+  badge_en: "Education"
+  badge_ms: "Pendidikan"
+  title_en: "MBBS"
+  title_ms: "MBBS"
+  org_en: "Universiti Malaya"
+  org_ms: "Universiti Malaya"
+
+- year: "2004"
+  type: academic
+  badge_en: "Academic"
+  badge_ms: "Akademik"
+  title_en: "Trainee Lecturer"
+  title_ms: "Pensyarah Pelatih"
+  org_en: "Universiti Malaya"
+  org_ms: "Universiti Malaya"
+
+- year: "2008"
+  type: education
+  badge_en: "Education"
+  badge_ms: "Pendidikan"
+  title_en: "Master of Surgery"
+  title_ms: "Master of Surgery"
+  org_en: "Universiti Malaya"
+  org_ms: "Universiti Malaya"
+
+- year: "2010"
+  type: oxford
+  badge_en: "Oxford"
+  badge_ms: "Oxford"
+  title_en: "Graduate Researcher — Neurosciences"
+  title_ms: "Penyelidik Pascasiswazah — Neurosains"
+  org_en: "University of Oxford & John Radcliffe Hospital"
+  org_ms: "Universiti Oxford & Hospital John Radcliffe"
+  detail_en: "Supervised by Professor Tipu Aziz & Professor Alexander Green"
+  detail_ms: "Di bawah seliaan Profesor Tipu Aziz & Profesor Alexander Green"
+
+- year: "2017"
+  type: oxford
+  badge_en: "Oxford"
+  badge_ms: "Oxford"
+  title_en: "DPhil (Doctor of Philosophy)"
+  title_ms: "DPhil (Doktor Falsafah)"
+  org_en: "University of Oxford"
+  org_ms: "Universiti Oxford"
+
+- year: "2018"
+  type: clinical
+  badge_en: "Clinical"
+  badge_ms: "Klinikal"
+  title_en: "Consultant Neurosurgeon & Interventional Pain Specialist"
+  title_ms: "Pakar Runding Bedah Saraf & Pakar Pengurusan Sakit"
+  org_en: "Universiti Malaya Medical Centre & Universiti Malaya Specialist Centre"
+  org_ms: "Pusat Perubatan Universiti Malaya & Universiti Malaya Specialist Centre"
+
+- year: "2018"
+  type: training
+  badge_en: "Fellowship"
+  badge_ms: "Fellowship"
+  title_en: "Fellowship — Interventional Pain Management"
+  title_ms: "Fellowship — Pengurusan Kesakitan Intervensi"
+  org_en: "India Pain and Spine Centre, New Delhi"
+  org_ms: "India Pain and Spine Centre, New Delhi"
+
+- year: "2019"
+  type: training
+  badge_en: "Fellowship"
+  badge_ms: "Fellowship"
+  title_en: "Advanced Paediatric Neurosurgery & Oncology"
+  title_ms: "Advanced Paediatric Neurosurgery & Oncology"
+  org_en: "St Jude Children's Research Hospital, Memphis"
+  org_ms: "St Jude Children's Research Hospital, Memphis"
+
+- year: "2020"
+  type: academic
+  badge_en: "Academic"
+  badge_ms: "Akademik"
+  title_en: "Associate Professor in Neurosurgery"
+  title_ms: "Profesor Madya dalam Bedah Saraf"
+  org_en: "Universiti Malaya"
+  org_ms: "Universiti Malaya"
+
+- year: "2022"
+  type: clinical
+  badge_en: "Current"
+  badge_ms: "Semasa"
+  title_en: "Consultant Neurosurgeon & Interventional Pain Specialist"
+  title_ms: "Pakar Runding Bedah Saraf & Pakar Pengurusan Sakit"
+  org_en: " Tawakkal Specialist Hospital · Ampang Puteri Specialist Hospital"
+  org_ms: "Hospital Pakar Tawakkal · Hospital Pakar Ampang Puteri"
+  current: true

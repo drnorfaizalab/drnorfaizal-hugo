@@ -1,0 +1,23 @@
+<section class="section-experience">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2>{{ if eq .Lang "ms" }}Perjalanan Kerjaya{{ else }}Career Journey{{ end }}</h2>
+      <p class="text-gray">{{ if eq .Lang "ms" }}24 tahun kepakaran — dari Kuala Lumpur ke Oxford dan kembali.{{ else }}24 years of expertise — from Kuala Lumpur to Oxford and back.{{ end }}</p>
+    </div>
+
+    <div class="career-timeline">
+      {{ range .Site.Data.career }}
+      <div class="timeline-item{{ if .current }} timeline-item--current{{ end }}">
+        <div class="timeline-year">{{ .year }}</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-badge">{{ if eq $.Lang "ms" }}{{ .badge_ms }}{{ else }}{{ .badge_en }}{{ end }}</span>
+          <div class="timeline-title">{{ if eq $.Lang "ms" }}{{ .title_ms }}{{ else }}{{ .title_en }}{{ end }}</div>
+          <div class="timeline-org">{{ if eq $.Lang "ms" }}{{ .org_ms }}{{ else }}{{ .org_en }}{{ end }}</div>
+          {{ if .detail_en }}<div class="timeline-detail">{{ if eq $.Lang "ms" }}{{ .detail_ms }}{{ else }}{{ .detail_en }}{{ end }}</div>{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

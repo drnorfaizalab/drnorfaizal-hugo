@@ -48,7 +48,7 @@
   </div>
 </section>
 
-<!-- Specialties -->
+<!-- Expertise -->
 <section class="section-alt">
   <div class="container">
     <h2 class="section-title text-center">{{ if eq .Lang "ms" }}Bidang Kepakaran{{ else }}Areas of Expertise{{ end }}</h2>
@@ -79,25 +79,11 @@
   </div>
 </section>
 
-<!-- About Snippet -->
-<section>
-  <div class="container">
-    <div class="about-flex">
-      <div class="about-text">
-        <h2>Dr Nor Faizal</h2>
-        <p>{{ if eq .Lang "ms" }}Pakar bedah saraf berkelayakan Oxford dengan kepakaran dalam neuro-onkologi dan pengurusan kesakitan secara intervensi. Berkhidmat di Hospital Pakar KPJ Tawakkal, Kuala Lumpur.{{ else }}Oxford-trained neurosurgeon with expertise in neurooncology and interventional pain management. Practising at KPJ Tawakkal Specialist Hospital, Kuala Lumpur.{{ end }}</p>
-        <p><em>{{ if eq .Lang "ms" }}Disiplin · Kesederhanaan · Keanggunan{{ else }}Discipline · Simplicity · Elegance{{ end }}</em></p>
-        <a href="{{ "/about" | relLangURL }}" class="btn btn-primary">{{ if eq .Lang "ms" }}Kenali Dr Nor Faizal{{ else }}Meet Dr Nor Faizal{{ end }}</a>
-      </div>
-      <div class="about-image">
-        <img src="/profile.jpg" alt="Dr Nor Faizal Ahmad Bahuri" class="about-photo" width="853" height="1280" fetchpriority="high">
-      </div>
-    </div>
-  </div>
-</section>
+<!-- Career Timeline -->
+{{ partial "career-timeline.html" . }}
 
-<!-- Patient Testimonial -->
-<section>
+<!-- Patient Testimonials -->
+<section class="section-alt">
   <div class="container">
     <div class="section-header text-center">
       <h2>{{ if eq .Lang "ms" }}Kata Pesakit{{ else }}What Patients Say{{ end }}</h2>
@@ -166,7 +152,6 @@
 
     <div class="testimonial-cta text-center">
       <p class="text-gray">{{ if eq .Lang "ms" }}Ada pengalaman bersama Dr Nor Faizal?{{ else }}Had a consultation with Dr Nor Faizal?{{ end }}</p>
-
       <a href="https://g.page/r/CShzHRdXckauEBM/review" target="_blank" rel="noopener" class="btn btn-secondary">
         {{ if eq .Lang "ms" }}Tinggalkan Ulasan Google{{ else }}Leave a Google Review{{ end }}
       </a>
@@ -174,8 +159,8 @@
   </div>
 </section>
 
-<!-- Latest Thinking — Insights Carousel -->
-<section class="section-alt">
+<!-- Latest Insights -->
+<section>
   <div class="container">
     <div class="section-header text-center">
       <h2>{{ if eq .Lang "ms" }}Dari Minda Dr Nor Faizal{{ else }}From the Mind of Dr Nor Faizal{{ end }}</h2>
@@ -259,7 +244,24 @@
   </div>
 </section>
 
-<!-- Follow the Thinking — Social + WhatsApp -->
+<!-- About Snippet -->
+<section class="section-alt">
+  <div class="container">
+    <div class="about-flex">
+      <div class="about-text">
+        <h2>Dr Nor Faizal</h2>
+        <p>{{ if eq .Lang "ms" }}Pakar bedah saraf berkelayakan Oxford dengan kepakaran dalam neuro-onkologi dan pengurusan kesakitan secara intervensi. Berkhidmat di Hospital Pakar KPJ Tawakkal, Kuala Lumpur.{{ else }}Oxford-trained neurosurgeon with expertise in neurooncology and interventional pain management. Practising at KPJ Tawakkal Specialist Hospital, Kuala Lumpur.{{ end }}</p>
+        <p><em>{{ if eq .Lang "ms" }}Disiplin · Kesederhanaan · Keanggunan{{ else }}Discipline · Simplicity · Elegance{{ end }}</em></p>
+        <a href="{{ "/about" | relLangURL }}" class="btn btn-primary">{{ if eq .Lang "ms" }}Kenali Dr Nor Faizal{{ else }}Meet Dr Nor Faizal{{ end }}</a>
+      </div>
+      <div class="about-image">
+        <img src="/profile.jpg" alt="Dr Nor Faizal Ahmad Bahuri" class="about-photo" width="853" height="1280" fetchpriority="high">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Social + WhatsApp -->
 <section class="follow-section">
   <div class="container text-center">
     <h2 class="follow-heading">{{ if eq .Lang "ms" }}Ikuti Pemikirannya{{ else }}Follow His Thinking{{ end }}</h2>
