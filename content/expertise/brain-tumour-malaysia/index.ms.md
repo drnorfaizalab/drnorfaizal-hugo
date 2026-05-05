@@ -203,7 +203,7 @@ Jika anda atau ahli keluarga telah menerima diagnosis tumor otak — atau mempun
 
 Saya meneliti setiap imbasan MRI secara peribadi sebelum berjumpa pesakit. Datanglah dengan membawa imbasan anda dalam bentuk CD atau USB, surat rujukan jika ada, dan senarai soalan anda. Tiada soalan yang dianggap remeh di klinik saya.
 
-**WhatsApp klinik:** [+6012 289 5061](https://wa.me/60122895061?text=Salam%2C%20saya%20ingin%20membuat%20temujanji%20konsultasi%20berkenaan%20tumor%20otak.)
+**WhatsApp klinik:** [+6011 3723 5061](https://wa.me/601137235061?text=Salam%2C%20saya%20ingin%20membuat%20temujanji%20konsultasi%20berkenaan%20tumor%20otak.)
 **Tempah dalam talian:** [Portal Temujanji KPJ Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Hubungi klinik:** +603-4026 7777 samb. 5099
 

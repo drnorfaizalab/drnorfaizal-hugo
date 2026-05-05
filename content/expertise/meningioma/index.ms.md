@@ -133,7 +133,7 @@ Kedekatan dengan sinus kavernosus, sinus sagital superior, atau salur darah sere
 
 ## Tempah Konsultasi
 
-**WhatsApp klinik:** [+6012 289 5061](https://wa.me/60122895061?text=Salam%2C%20saya%20ingin%20mendapatkan%20konsultasi%20mengenai%20meningioma.)
+**WhatsApp klinik:** [+6011 3723 5061](https://wa.me/601137235061?text=Salam%2C%20saya%20ingin%20mendapatkan%20konsultasi%20mengenai%20meningioma.)
 **Tempah dalam talian:** [Portal Temujanji KPJ Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Hubungi klinik:** +603-4026 7777 samb. 5099
 

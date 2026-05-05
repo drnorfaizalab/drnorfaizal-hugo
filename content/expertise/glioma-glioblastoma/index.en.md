@@ -126,7 +126,7 @@ This is not a straightforward decision and must be individualised. Age, tumour s
 
 If you or a family member has been diagnosed with a glioma — or has symptoms that raise concern — contact the clinic to arrange a consultation and MRI review.
 
-**WhatsApp the clinic:** [+6012 289 5061](https://wa.me/60122895061?text=Hello%2C%20I%20would%20like%20a%20consultation%20regarding%20glioma.)
+**WhatsApp the clinic:** [+6011 3723 5061](https://wa.me/601137235061?text=Hello%2C%20I%20would%20like%20a%20consultation%20regarding%20glioma.)
 **Book online:** [KPJ Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Call the clinic:** +603-4026 7777 ext 5099
 

@@ -32,7 +32,7 @@ Hospital Pakar Tawakkal adalah hospital pakar yang kukuh di tengah-tengah Kuala 
 | :--- | :--- |
 | **Temujanji Digital** | [Tempah Slot Anda](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) |
 | **Talian Klinik** | [+603 4026 7777](tel:+60340267777) (Sambungan: **5099**) |
-| **WhatsApp Rasmi** | [+6012 289 5061](https://wa.me/60122895061) |
+| **WhatsApp Rasmi** | [+6011 3723 5061](https://wa.me/601137235061) |
 | **E-mel Rasmi** | [drnfaizal@kpjtawakkal.com](mailto:drnfaizal@kpjtawakkal.com) |
 
 > **Nota Penting:** Untuk **Kecemasan Neurologi** (seperti sawan tiba-tiba, kehilangan penglihatan mendadak, atau kelemahan anggota badan secara tiba-tiba), sila pergi segera ke Jabatan Kecemasan (A&E) yang berdekatan atau hubungi **999** untuk bantuan segera.

@@ -122,7 +122,7 @@ Age alone is not a contraindication. The evaluation focuses on your pain phenoty
 
 Bring your MRI scans, a list of all treatments you've tried, and a pain diary if you have one. Tell me what you can no longer do because of your pain — that's the outcome we're working toward reversing.
 
-**WhatsApp the clinic:** [+6012 289 5061](https://wa.me/60122895061?text=Hello%2C%20I%20would%20like%20a%20consultation%20for%20chronic%20back%20pain.)
+**WhatsApp the clinic:** [+6011 3723 5061](https://wa.me/601137235061?text=Hello%2C%20I%20would%20like%20a%20consultation%20for%20chronic%20back%20pain.)
 **Book online:** [KPJ Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Call the clinic:** +603-4026 7777 ext 5099
 

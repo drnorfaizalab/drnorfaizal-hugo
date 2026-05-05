@@ -34,7 +34,7 @@ Tawakkal Specialist Hospital is a well-established specialist hospital in the he
 | :--- | :--- |
 | **Digital Appointment** | [Book Your Slot](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) |
 | **Clinic Line** | [+603 4026 7777](tel:+60340267777) (Ext: **5099**) |
-| **Official WhatsApp** | [+6012 289 5061](https://wa.me/60122895061) |
+| **Official WhatsApp** | [+6011 3723 5061](https://wa.me/601137235061) |
 | **Official Email** | [drnfaizal@kpjtawakkal.com](mailto:drnfaizal@kpjtawakkal.com) |
 
 > **Important Note:** For **Neurological Emergencies** (such as sudden seizures, acute vision loss, or sudden limb weakness), please proceed immediately to the nearest Emergency Department (A&E) or call **999** for urgent assistance.

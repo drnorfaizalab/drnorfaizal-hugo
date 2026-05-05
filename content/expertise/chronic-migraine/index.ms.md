@@ -142,7 +142,7 @@ Pakar bedah neuro dan pakar neurologi kedua-duanya menguruskan gangguan sakit ke
 
 Sila bawa diari sakit kepala anda (walaupun nota ringkas di telefon anda), senarai setiap ubat yang pernah anda cuba dan tempohnya, serta imbasan MRI otak terkini jika ada.
 
-**WhatsApp klinik:** [+6012 289 5061](https://wa.me/60122895061?text=Hello%2C%20saya%20berminat%20untuk%20mendapatkan%20konsultasi%20berkenaan%20migrain%20kronik.)
+**WhatsApp klinik:** [+6011 3723 5061](https://wa.me/601137235061?text=Hello%2C%20saya%20berminat%20untuk%20mendapatkan%20konsultasi%20berkenaan%20migrain%20kronik.)
 **Tempah dalam talian:** [Portal Temujanji KPJ Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Hubungi klinik:** +603-4026 7777 samb. 5099
 

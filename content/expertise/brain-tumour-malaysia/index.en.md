@@ -203,7 +203,7 @@ If you or a family member has received a brain tumour diagnosis — or has sympt
 
 I review every MRI personally before seeing a patient. Come prepared with your scans on a CD or USB, your referral letter if you have one, and your questions. There are no foolish questions in my clinic.
 
-**WhatsApp the clinic:** [+6012 289 5061](https://wa.me/60122895061?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation%20for%20brain%20tumour.)
+**WhatsApp the clinic:** [+6011 3723 5061](https://wa.me/601137235061?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation%20for%20brain%20tumour.)
 **Book online:** [KPJ Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Call the clinic:** +603-4026 7777 ext 5099
 

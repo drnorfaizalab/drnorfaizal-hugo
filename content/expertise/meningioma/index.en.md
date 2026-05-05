@@ -133,7 +133,7 @@ Proximity to the cavernous sinus, superior sagittal sinus, or major cerebral ves
 
 ## Book a Consultation
 
-**WhatsApp the clinic:** [+6012 289 5061](https://wa.me/60122895061?text=Hello%2C%20I%20would%20like%20a%20consultation%20regarding%20meningioma.)
+**WhatsApp the clinic:** [+6011 3723 5061](https://wa.me/601137235061?text=Hello%2C%20I%20would%20like%20a%20consultation%20regarding%20meningioma.)
 **Book online:** [KPJ Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Call the clinic:** +603-4026 7777 ext 5099
 

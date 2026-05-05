@@ -180,7 +180,7 @@ Tanya setiap soalan yang anda ada. Bawa buku nota. Bawa pasangan anda, ibu bapa 
 
 ## Tempah Konsultasi
 
-**WhatsApp klinik:** [+6012 289 5061](https://wa.me/60122895061?text=Hello%2C%20saya%20ingin%20menempah%20konsultasi%20untuk%20tumor%20otak%20anak%20saya.)
+**WhatsApp klinik:** [+6011 3723 5061](https://wa.me/601137235061?text=Hello%2C%20saya%20ingin%20menempah%20konsultasi%20untuk%20tumor%20otak%20anak%20saya.)
 **Tempah janji temu online:** [Portal Janji Temu KPJ Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Hubungi klinik:** +603-4026 7777 samb. 5099
 

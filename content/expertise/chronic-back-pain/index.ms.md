@@ -122,7 +122,7 @@ Umur sahaja bukan kontraindikasi. Penilaian memberi tumpuan kepada fenotip kesak
 
 Bawa bersama imbasan MRI anda, senarai semua rawatan yang telah anda cuba, dan diari kesakitan jika ada. Beritahu saya apa yang anda tidak lagi boleh lakukan kerana kesakitan anda — itulah hasil yang kita sedang usahakan untuk pulihkan.
 
-**WhatsApp klinik:** [+6012 289 5061](https://wa.me/60122895061?text=Hello%2C%20saya%20ingin%20membuat%20janji%20temu%20konsultasi%20untuk%20sakit%20belakang%20kronik.)
+**WhatsApp klinik:** [+6011 3723 5061](https://wa.me/601137235061?text=Hello%2C%20saya%20ingin%20membuat%20janji%20temu%20konsultasi%20untuk%20sakit%20belakang%20kronik.)
 **Tempah dalam talian:** [Portal Janji Temu KPJ Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Hubungi klinik:** +603-4026 7777 samb. 5099
 

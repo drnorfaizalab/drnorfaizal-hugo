@@ -180,7 +180,7 @@ Ask every question you have. Bring a notebook. Bring your partner, your parents,
 
 ## Book a Consultation
 
-**WhatsApp the clinic:** [+6012 289 5061](https://wa.me/60122895061?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation%20for%20my%20child%27s%20brain%20tumour.)
+**WhatsApp the clinic:** [+6011 3723 5061](https://wa.me/601137235061?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation%20for%20my%20child%27s%20brain%20tumour.)
 **Book online:** [KPJ Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Call the clinic:** +603-4026 7777 ext 5099
 

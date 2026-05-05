@@ -101,7 +101,7 @@ Datang terus berjumpa pakar bedah saraf jika:
 
 Jika anda tidak pasti sama ada anda memerlukan pakar neurologi atau pakar bedah saraf — datang sahaja. Saya akan memberitahu anda dengan jujur semasa konsultasi sama ada keadaan anda berada dalam skop saya atau sama ada saya patut merujuk anda kepada rakan sekerja yang betul.
 
-**WhatsApp klinik:** [+6012 289 5061](https://wa.me/60122895061?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation.)
+**WhatsApp klinik:** [+6011 3723 5061](https://wa.me/601137235061?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation.)
 **Tempah dalam talian:** [Portal Temujanji KPJ Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Hubungi klinik:** +603-4026 7777 samb. 5099
 
