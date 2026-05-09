@@ -205,7 +205,7 @@ Thank you.
 If your patient presents with **rapid neurological deterioration**, a **new seizure with mass on imaging**, **cauda equina syndrome**, or **thunderclap headache** — please refer directly to the Emergency Department at KPJ Tawakkal or contact the clinic immediately via WhatsApp. Urgent cases are triaged and accommodated as a priority.
 
 **A&E Direct Line:** +603 4026 7777  
-**WhatsApp (Urgent):** [+6011 3723 5061](https://wa.me/601137235061?text=URGENT%20Referral%3A%20)
+**WhatsApp (Urgent):** [+6011-3723 5061](https://wa.me/601137235061?text=URGENT%20Referral%3A%20)
 
 ---
 
