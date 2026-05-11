@@ -1,0 +1,47 @@
+# Fill in every field. Run the script again when done to generate the post.
+
+slug: "jatuh-tangga"
+date: "2026-05-11"
+author: "Dr Nor Faizal Ahmad Bahuri"
+
+# Titles
+title_en: ""
+title_ms: ""   # leave blank — Gemini will suggest
+
+# Categories and tags
+categories:
+  - ""   # e.g. Pain Management | Neuro-Oncology | Headache | Spine
+tags:
+  - ""   # e.g. migraine, spinal-cord-stimulation, brain-tumour
+
+# SEO
+seo_focus_keyword: ""   # e.g. "chronic back pain Malaysia"
+keywords:
+  - ""   # e.g. "brain tumour Malaysia", "neurosurgeon Kuala Lumpur"
+  - ""   # 4-6 keywords total; include "Malaysia" for local SEO
+
+# OG image (relative to /static)
+image: "/images/insights/insights-default.jpg"   # replace with post-specific image if available
+
+# CTA
+cta_type: "appointment"   # appointment | whatsapp | download | none
+show_appointment_button: true
+
+# ── YOUR RAW THOUGHTS ──────────────────────────────────────────────────────────
+# Write freely — bullet points, fragments, Manglish, BM, EN.
+# Gemini will restructure and polish.
+raw_thoughts: |
+  This is the youtube link to insert into the insight.
+  Pukul 3 pagi. Jatuh tangga. Luka di kepala.
+  68 tahun. Tergelincir semasa turun tangga waktu malam.
+  Alhamdulillah — tiada pendarahan otak. Tiada kecederaan serius.
+  Tapi ini peringatan keras.
+  Kulit kepala berdarah banyak — walaupun luka kecil. Sebab itulah ia nampak menakutkan. Tapi yang lebih bahaya adalah apa yang ada di dalam — dan malam tadi, Allah lindungi.
+  Mesej untuk semua:
+  🚫 Jangan pegang telefon semasa naik turun tangga
+  💡 Pastikan tangga ada lampu yang cukup
+  🧦 Elak sarung kaki licin di atas lantai
+  👴🏽 Pegang susur tangga 
+  Satu saat tidak berhati-hati boleh bawa kepada pembedahan.
+  Atau lebih teruk.
+  Jaga diri. Jaga ibu bapa kita.
