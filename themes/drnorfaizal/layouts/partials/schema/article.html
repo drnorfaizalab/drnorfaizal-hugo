@@ -1,14 +1,15 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "{{ .Title }}",
   "description": "{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.defaultMetaDescription }}{{ end }}",
-  "author": {
-    "@type": "Person",
-    "name": "{{ .Site.Params.author }}"
-  },
+  "url": "{{ .Permalink }}",
   "datePublished": "{{ .Date.Format "2006-01-02" }}",
-  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}"
+  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+  "author": { "@id": "https://drnorfaizal.com/#physician" },
+  "publisher": { "@id": "https://drnorfaizal.com/#physician" },
+  "image": "{{ (.Params.ogImage | default .Site.Params.ogImage) | absURL }}",
+  "mainEntityOfPage": "{{ .Permalink }}"
 }
 </script>

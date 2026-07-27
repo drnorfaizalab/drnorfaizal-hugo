@@ -42,7 +42,7 @@
 <meta property="og:type" content="{{ .Params.ogType | default .Site.Params.ogType | default "website" }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:site_name" content="{{ .Site.Params.siteName | default .Site.Params.author }}" />
-<meta property="og:locale" content="en_MY" />
+<meta property="og:locale" content="{{ if eq .Lang "ms" }}ms_MY{{ else }}en_MY{{ end }}" />
 
 {{ $ogImage := .Params.ogImage | default .Site.Params.ogImage }}
 {{ with $ogImage }}
@@ -159,10 +159,11 @@
   "name": "Dr Nor Faizal Ahmad Bahuri",
   "description": "Official website of Dr Nor Faizal Ahmad Bahuri, Consultant Neurosurgeon and Interventional Pain Specialist, Kuala Lumpur.",
   "publisher": { "@id": "https://drnorfaizal.com/#physician" },
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": { "@type": "EntryPoint", "urlTemplate": "https://drnorfaizal.com/insights/?q={search_term_string}" },
-    "query-input": "required name=search_term_string"
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+60340267777",
+    "contactType": "appointment",
+    "availableLanguage": ["English", "Malay"]
   }
 }
 </script>
@@ -230,7 +231,7 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MedicalScholarlyArticle",
+  "@type": "BlogPosting",
   "headline": "{{ .Title }}",
   "description": "{{ .Params.description | default "" }}",
   "url": "{{ .Permalink }}",
