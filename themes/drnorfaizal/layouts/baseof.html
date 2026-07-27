@@ -6,14 +6,31 @@
     <meta name="facebook-domain-verification" content="civ96y41599v498to10my7kaxpmmto" />
 
     {{ if not hugo.IsServer }}
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10969773020"></script>
+    <!-- Google tag (GA4 + Google Ads) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KBGPKYML9T"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
+      gtag('config', 'G-KBGPKYML9T');
       gtag('config', 'AW-10969773020');
     </script>
+    <!-- Meta Pixel -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window,document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '2374840176361494');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=2374840176361494&ev=PageView&noscript=1"
+    /></noscript>
     {{ end }}
 
     {{ partial "seo-head.html" . }}
@@ -54,11 +71,6 @@
     {{ partial "footer.html" . }}
     {{ partial "whatsapp.html" . }}
 
-    <!-- Google Analytics -->
-    {{ if and (not hugo.IsServer) .Site.Params.google_analytics_id }}
-        {{ template "_internal/google_analytics.html" . }}
-    {{ end }}
-    
     <!-- Scripts -->
     <script src="{{ "/js/main.js" | relURL }}" defer></script>
     <script src="{{ "/js/dark-mode.js" | relURL }}" defer></script>
