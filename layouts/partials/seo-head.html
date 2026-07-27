@@ -187,7 +187,7 @@
 </script>
 {{ end }}
 
-{{/* 8d. MedicalWebPage schema — expertise/condition pages */}}
+{{/* 8d. MedicalWebPage + Speakable schema — expertise/condition pages */}}
 {{ if eq .Section "expertise" }}
 <script type="application/ld+json">
 {
@@ -202,7 +202,11 @@
     "@type": "MedicalCondition",
     "name": "{{ .Params.medicalCondition | default .Title }}"
   },
-  "specialty": "Neurological Surgery"
+  "specialty": "Neurological Surgery",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", ".content > p:first-of-type"]
+  }
 }
 </script>
 {{ end }}
