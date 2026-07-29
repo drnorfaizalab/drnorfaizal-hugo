@@ -24,7 +24,7 @@ Soalan yang munasabah. Tengkorak bukan pintu yang boleh diketuk. Untuk sampai ke
 
 Dalam video ini, saya tunjukkan satu kes sebenar dan terangkan bagaimana ia dilakukan, langkah demi langkah.
 
-{{< youtube "NWphhcxHi3s" title="Bagaimana Pembedahan Otak Dilakukan? — Dr Nor Faizal" >}}
+{{< youtube "NWphhcxHi3s" >}}
 
 ## Apa yang video ini kongsikan
 

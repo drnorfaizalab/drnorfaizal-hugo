@@ -24,7 +24,7 @@ It's a fair question. The skull isn't a door you knock on. To reach a tumour, a 
 
 In this video, I walk through a real case and show exactly how that's done.
 
-{{< youtube "NWphhcxHi3s" title="Bagaimana Pembedahan Otak Dilakukan? — Dr Nor Faizal" >}}
+{{< youtube "NWphhcxHi3s" >}}
 
 ## What the video covers
 
