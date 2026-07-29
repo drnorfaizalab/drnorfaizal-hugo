@@ -83,5 +83,6 @@
         {{ partial "schema/medical-service.html" . }}
     {{ end }}
     {{ partial "schema/faq.html" . }}
+    {{ if .Params.video }}{{ partial "schema/video.html" . }}{{ end }}
 </body>
 </html>

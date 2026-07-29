@@ -1,0 +1,19 @@
+{{ with .Params.video }}
+{{ $id := .id }}
+{{ $thumb := .thumbnail | default (printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" $id) }}
+{{ $uploadDate := .uploadDate | default ($.Date.Format "2006-01-02") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": {{ $.Title | jsonify | safeJS }},
+  "description": {{ (.description | default $.Description) | jsonify | safeJS }},
+  "thumbnailUrl": [{{ $thumb | jsonify | safeJS }}],
+  "uploadDate": {{ $uploadDate | jsonify | safeJS }},
+  {{ with .duration }}"duration": {{ . | jsonify | safeJS }},{{ end }}
+  "contentUrl": {{ printf "https://youtu.be/%s" $id | jsonify | safeJS }},
+  "embedUrl": {{ printf "https://www.youtube-nocookie.com/embed/%s" $id | jsonify | safeJS }},
+  "publisher": { "@id": "https://drnorfaizal.com/#physician" }
+}
+</script>
+{{ end }}
