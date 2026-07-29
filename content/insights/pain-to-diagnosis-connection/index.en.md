@@ -1,5 +1,6 @@
 ---
 title: "Pain as a Diagnostic Gateway: When Your Headache Is More Than Stress"
+seoTitle: "When Chronic Pain Is More Than Stress | Diagnosis Guide"
 description: "Chronic pain is often the first signal of an underlying neurological condition. An Oxford-trained neurosurgeon explains when pain requires specialist evaluation."
 date: 2025-03-12
 draft: false
@@ -12,6 +13,17 @@ keywords: ["chronic pain diagnosis Malaysia", "headache specialist Kuala Lumpur"
 seo:
   focusKeyword: "chronic pain diagnosis Malaysia"
 show_appointment_button: true
+faq_schema:
+  - question: "What is the difference between nociceptive and neuropathic pain?"
+    answer: "Nociceptive pain comes from tissue injury or inflammation, has a clear relationship to movement, and responds to standard analgesics. Neuropathic pain comes from a damaged or compressed nerve — it burns, shocks, or radiates, and this pain always has a source that must be identified rather than simply masked with medication."
+  - question: "What are the red flags for back pain that suggest spinal cord compression?"
+    answer: "Red flags include severe pain at night, progressive weakness in the legs, numbness around the saddle area, and new bladder or bowel problems. Saddle numbness combined with leg weakness and loss of bladder or bowel control (cauda equina syndrome) is a surgical emergency requiring immediate care."
+  - question: "How can I tell if my headache is more than stress?"
+    answer: "A tumour-related headache is often progressive, worsening week by week, frequently worse in the morning, and may be accompanied by nausea, vomiting, or new neurological symptoms like weakness or vision changes. A headache that wakes you from sleep also requires prompt attention rather than being dismissed as stress."
+  - question: "Why is treating pain without a diagnosis dangerous?"
+    answer: "Pain treatment given without a clear diagnosis can mask the very symptoms that should trigger investigation, delaying identification of a tumour or spinal cord compression at the stage when intervention is most effective. This creates a false sense of security while the underlying cause progresses silently."
+  - question: "When should chronic pain be referred to a specialist?"
+    answer: "Your GP is the correct first point of contact for most pain. A specialist referral is needed when first-line treatments fail, red flags are present (progressive neurological symptoms, night pain, weight loss), or the diagnosis remains uncertain after initial evaluation."
 ---
 
 # Pain as a Diagnostic Gateway: When Your Headache Is More Than Stress
@@ -67,6 +79,23 @@ In my practice, the first step is always diagnosis. We must understand *why* the
 Pain treatments given without a clear diagnosis are dangerous. They can mask the very symptoms that should trigger investigation, delaying the identification of a tumour or spinal cord compression when intervention is most effective. This creates a false sense of security.
 
 Pain management, done with discipline, asks one question: *Why is this person in pain?* It does not accept "stress" or "ageing" as an answer until all other possibilities have been excluded.
+
+## Frequently asked questions
+
+**What is the difference between nociceptive and neuropathic pain?**
+Nociceptive pain comes from tissue injury or inflammation, has a clear relationship to movement, and responds to standard analgesics. Neuropathic pain comes from a damaged or compressed nerve — it burns, shocks, or radiates, and this pain always has a source that must be identified rather than simply masked with medication.
+
+**What are the red flags for back pain that suggest spinal cord compression?**
+Red flags include severe pain at night, progressive weakness in the legs, numbness around the saddle area, and new bladder or bowel problems. Saddle numbness combined with leg weakness and loss of bladder or bowel control (cauda equina syndrome) is a surgical emergency requiring immediate care.
+
+**How can I tell if my headache is more than stress?**
+A tumour-related headache is often progressive, worsening week by week, frequently worse in the morning, and may be accompanied by nausea, vomiting, or new neurological symptoms like weakness or vision changes. A headache that wakes you from sleep also requires prompt attention rather than being dismissed as stress.
+
+**Why is treating pain without a diagnosis dangerous?**
+Pain treatment given without a clear diagnosis can mask the very symptoms that should trigger investigation, delaying identification of a tumour or spinal cord compression at the stage when intervention is most effective. This creates a false sense of security while the underlying cause progresses silently.
+
+**When should chronic pain be referred to a specialist?**
+Your GP is the correct first point of contact for most pain. A specialist referral is needed when first-line treatments fail, red flags are present (progressive neurological symptoms, night pain, weight loss), or the diagnosis remains uncertain after initial evaluation.
 
 ---
 

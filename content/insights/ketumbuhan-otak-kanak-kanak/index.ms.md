@@ -1,5 +1,6 @@
 ---
 title: "Tumor Otak dan Perjuangan Seorang Kanak-kanak: Catatan Pakar Bedah"
+seoTitle: "Tumor Otak Kanak-kanak: Catatan Pakar Bedah"
 date: 2026-04-18T09:13:55+08:00
 draft: false
 type: "blog"
@@ -16,6 +17,15 @@ cta:
   type: appointment
   label: "Buat Janji Temu"
   url: "/hubungi"
+faq_schema:
+  - question: "Apakah tanda amaran tumor otak pada kanak-kanak?"
+    answer: "Sawan baru atau yang semakin kerap, sakit kepala waktu pagi disertai muntah, cara berjalan yang tidak stabil, perubahan mendadak pada penglihatan atau pertuturan, dan perubahan personaliti atau tingkah laku yang tidak dapat dijelaskan semuanya memerlukan penilaian neurologi dan pengimejan segera. Sawan, seperti dalam kes ini, selalunya tanda pertama yang disedari."
+  - question: "Bolehkah kraniotomi sedar dilakukan pada kanak-kanak?"
+    answer: "Kraniotomi sedar, yang membolehkan pemetaan fungsi otak secara langsung semasa pembedahan, umumnya memerlukan pesakit cukup umur untuk bekerjasama semasa ujian intraoperatif — biasanya dari usia remaja ke atas. Pada kanak-kanak yang lebih muda, pakar bedah bergantung kepada navigasi berpandukan imej dan pemantauan neurofisiologi berterusan (pemantauan korteks motor, EMG, phase reversal) untuk melindungi fungsi otak semasa pembedahan."
+  - question: "Apakah itu gross total resection?"
+    answer: "Gross total resection bermaksud pakar bedah telah membuang semua kesan tumor yang boleh dilihat pada imbasan dan semasa pembedahan. Ia adalah matlamat pembedahan bagi kebanyakan tumor otak, kerana ia meningkatkan hasil rawatan dan mengurangkan risiko berulang awal, walaupun ia perlu diimbangi dengan risiko kepada tisu otak fungsian di sekelilingnya."
+  - question: "Apakah rawatan susulan selepas pembedahan tumor otak pada kanak-kanak?"
+    answer: "Bergantung kepada gred dan patologi tumor, pembedahan selalunya diikuti dengan kemoterapi dan radioterapi untuk menangani sel-sel tumor mikroskopik yang tidak dapat dibuang melalui pembedahan sahaja, terutamanya bagi tumor otak kanak-kanak gred tinggi atau malignan."
 ---
 
 Minggu lepas, sepasang suami isteri datang ke klinik saya, memikul beban yang amat berat di bahu mereka. Mereka datang untuk mendapatkan pandangan kedua bagi anak perempuan mereka yang berusia 10 tahun, yang baru sahaja mengalami dua episod sawan.
@@ -39,3 +49,17 @@ Alhamdulillah, pembedahan berjalan lancar. Kami berjaya mencapai *gross total re
 Namun, kemenangan sebenar tiba pada keesokan harinya. Saya masuk ke biliknya dan mendapati dia sedang duduk, bercakap dengan jelas, makan, malah bangun untuk berjalan sendiri ke tandas. Perasaan lega yang terpancar pada wajah ibu bapanya adalah satu detik yang tidak akan saya lupakan.
 
 Satu pertempuran telah tamat, tetapi perjalanannya masih berterusan. Dia kini akan memulakan rawatan kemoterapi dan radioterapi selama enam minggu, fasa kritikal seterusnya dalam perjuangannya. Keberaniannya adalah satu peringatan yang mendalam tentang mengapa kami melakukan apa yang kami lakukan—demi kanak-kanak sepertinya, dan demi keluarga yang memilih harapan dalam menghadapi dugaan yang paling getir.
+
+## Soalan lazim
+
+**Apakah tanda amaran tumor otak pada kanak-kanak?**
+Sawan baru atau yang semakin kerap, sakit kepala waktu pagi disertai muntah, cara berjalan yang tidak stabil, perubahan mendadak pada penglihatan atau pertuturan, dan perubahan personaliti atau tingkah laku yang tidak dapat dijelaskan semuanya memerlukan penilaian neurologi dan pengimejan segera. Sawan, seperti dalam kes ini, selalunya tanda pertama yang disedari.
+
+**Bolehkah kraniotomi sedar dilakukan pada kanak-kanak?**
+Kraniotomi sedar, yang membolehkan pemetaan fungsi otak secara langsung semasa pembedahan, umumnya memerlukan pesakit cukup umur untuk bekerjasama semasa ujian intraoperatif — biasanya dari usia remaja ke atas. Pada kanak-kanak yang lebih muda, pakar bedah bergantung kepada navigasi berpandukan imej dan pemantauan neurofisiologi berterusan (pemantauan korteks motor, EMG, phase reversal) untuk melindungi fungsi otak semasa pembedahan.
+
+**Apakah itu gross total resection?**
+Gross total resection bermaksud pakar bedah telah membuang semua kesan tumor yang boleh dilihat pada imbasan dan semasa pembedahan. Ia adalah matlamat pembedahan bagi kebanyakan tumor otak, kerana ia meningkatkan hasil rawatan dan mengurangkan risiko berulang awal, walaupun ia perlu diimbangi dengan risiko kepada tisu otak fungsian di sekelilingnya.
+
+**Apakah rawatan susulan selepas pembedahan tumor otak pada kanak-kanak?**
+Bergantung kepada gred dan patologi tumor, pembedahan selalunya diikuti dengan kemoterapi dan radioterapi untuk menangani sel-sel tumor mikroskopik yang tidak dapat dibuang melalui pembedahan sahaja, terutamanya bagi tumor otak kanak-kanak gred tinggi atau malignan.

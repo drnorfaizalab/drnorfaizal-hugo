@@ -1,5 +1,6 @@
 ---
 title: "Sakit Anda Mungkin Petunjuk Diagnosis: Bila Sakit Kepala Bukan Sekadar Stres"
+seoTitle: "Bila Sakit Kepala Bukan Sekadar Stres | Panduan Diagnosis"
 description: "Sakit kronik selalunya isyarat pertama masalah neurologi. Seorang pakar bedah saraf dari Oxford menjelaskan bila anda perlu risau."
 date: 2025-03-12
 draft: false
@@ -12,6 +13,17 @@ keywords: ["diagnosis kesakitan kronik Malaysia", "pakar sakit kepala Kuala Lump
 seo:
   focusKeyword: "diagnosis kesakitan kronik Malaysia"
 show_appointment_button: true
+faq_schema:
+  - question: "Apakah perbezaan antara sakit nosiseptif dan sakit neuropatik?"
+    answer: "Sakit nosiseptif datang daripada kecederaan tisu atau keradangan, berkaitan dengan pergerakan, dan lega dengan ubat tahan sakit biasa. Sakit neuropatik datang daripada saraf yang rosak atau tertekan — rasanya terbakar, renjatan elektrik, atau mencucuk, dan sakit ini sentiasa ada puncanya yang perlu dikenal pasti, bukan sekadar disembunyikan dengan ubat."
+  - question: "Apakah tanda bahaya sakit belakang yang menunjukkan mampatan saraf tunjang?"
+    answer: "Tanda bahaya termasuk sakit yang teruk pada waktu malam, kelemahan progresif pada kaki, kebas di kawasan pelana, dan masalah baru kawalan kencing atau buang air besar. Kebas pelana bersama kelemahan kaki dan hilang kawalan kencing/buang air besar (sindrom cauda equina) adalah kecemasan pembedahan yang memerlukan rawatan segera."
+  - question: "Bagaimana saya tahu sakit kepala saya lebih daripada sekadar stres?"
+    answer: "Sakit kepala berkaitan tumor selalunya progresif, semakin teruk dari minggu ke minggu, kerap lebih teruk pada waktu pagi, dan mungkin disertai loya, muntah, atau gejala neurologi baru seperti kelemahan atau perubahan penglihatan. Sakit kepala yang mengejutkan anda dari tidur juga memerlukan perhatian segera, bukan dianggap sekadar stres."
+  - question: "Kenapa merawat sakit tanpa diagnosis berbahaya?"
+    answer: "Rawatan sakit tanpa diagnosis yang jelas boleh menyembunyikan simptom sebenar yang sepatutnya mendorong siasatan, melambatkan pengesanan tumor atau mampatan saraf tunjang pada peringkat rawatan paling berkesan. Ini mewujudkan rasa selamat yang palsu sementara punca sebenar terus berkembang secara senyap."
+  - question: "Bilakah sakit kronik perlu dirujuk kepada pakar?"
+    answer: "Doktor keluarga (GP) anda adalah tempat rujukan pertama yang betul untuk kebanyakan sakit. Rujukan kepada pakar diperlukan apabila rawatan awal gagal, ada tanda bahaya (gejala neurologi progresif, sakit malam, kehilangan berat badan), atau diagnosis masih tidak pasti selepas penilaian awal."
 ---
 
 # Sakit Anda Mungkin Petunjuk Diagnosis
@@ -67,6 +79,23 @@ Di klinik saya, langkah pertama sentiasa diagnosis. Kita mesti faham *mengapa* a
 Memberi ubat tahan sakit tanpa diagnosis yang jelas boleh jadi bahaya. Ia mungkin 'menyembunyikan' simptom sebenar yang sepatutnya mendorong siasatan lanjut. Ini melambatkan pengesanan tumor atau mampatan saraf pada peringkat di mana rawatan paling berkesan.
 
 Pengurusan kesakitan yang berdisiplin akan bertanya: *Mengapa pesakit ini sakit?* Ia tidak akan menerima "stres" atau "faktor usia" sebagai jawapan sehingga semua kemungkinan lain telah disiasat.
+
+## Soalan lazim
+
+**Apakah perbezaan antara sakit nosiseptif dan sakit neuropatik?**
+Sakit nosiseptif datang daripada kecederaan tisu atau keradangan, berkaitan dengan pergerakan, dan lega dengan ubat tahan sakit biasa. Sakit neuropatik datang daripada saraf yang rosak atau tertekan — rasanya terbakar, renjatan elektrik, atau mencucuk, dan sakit ini sentiasa ada puncanya yang perlu dikenal pasti, bukan sekadar disembunyikan dengan ubat.
+
+**Apakah tanda bahaya sakit belakang yang menunjukkan mampatan saraf tunjang?**
+Tanda bahaya termasuk sakit yang teruk pada waktu malam, kelemahan progresif pada kaki, kebas di kawasan pelana, dan masalah baru kawalan kencing atau buang air besar. Kebas pelana bersama kelemahan kaki dan hilang kawalan kencing/buang air besar (sindrom cauda equina) adalah kecemasan pembedahan yang memerlukan rawatan segera.
+
+**Bagaimana saya tahu sakit kepala saya lebih daripada sekadar stres?**
+Sakit kepala berkaitan tumor selalunya progresif, semakin teruk dari minggu ke minggu, kerap lebih teruk pada waktu pagi, dan mungkin disertai loya, muntah, atau gejala neurologi baru seperti kelemahan atau perubahan penglihatan. Sakit kepala yang mengejutkan anda dari tidur juga memerlukan perhatian segera, bukan dianggap sekadar stres.
+
+**Kenapa merawat sakit tanpa diagnosis berbahaya?**
+Rawatan sakit tanpa diagnosis yang jelas boleh menyembunyikan simptom sebenar yang sepatutnya mendorong siasatan, melambatkan pengesanan tumor atau mampatan saraf tunjang pada peringkat rawatan paling berkesan. Ini mewujudkan rasa selamat yang palsu sementara punca sebenar terus berkembang secara senyap.
+
+**Bilakah sakit kronik perlu dirujuk kepada pakar?**
+Doktor keluarga (GP) anda adalah tempat rujukan pertama yang betul untuk kebanyakan sakit. Rujukan kepada pakar diperlukan apabila rawatan awal gagal, ada tanda bahaya (gejala neurologi progresif, sakit malam, kehilangan berat badan), atau diagnosis masih tidak pasti selepas penilaian awal.
 
 ---
 

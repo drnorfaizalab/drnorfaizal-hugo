@@ -14,6 +14,15 @@ seo:
   focusKeyword: "paediatric brain bleeding Malaysia"
 show_appointment_button: true
 translationKey: "jatuh-pendarahan-otak"
+faq_schema:
+  - question: "Can a child have brain bleeding after a fall with no visible injury?"
+    answer: "Yes. A child's skull is still developing, and the brain can move more freely inside it on impact, which means bleeding can occur inside the skull without any visible cut, bruise, or swelling on the outside. External appearance is not a reliable way to judge how serious a head injury is."
+  - question: "What are the warning signs of brain bleeding after a head injury in children?"
+    answer: "Take a child to hospital immediately if you notice loss of consciousness even briefly, repeated vomiting, unusual drowsiness or difficulty waking, worsening headache, seizures, unequal pupil size or eyes not tracking together, or difficulty speaking or recognising familiar people."
+  - question: "What is the difference between epidural and subdural haematoma?"
+    answer: "An epidural haematoma is bleeding between the skull and the outer covering of the brain (the dura); it can expand rapidly and become life-threatening within hours. A subdural haematoma is bleeding between the dura and the brain surface itself; it develops more slowly but is equally dangerous if left untreated."
+  - question: "When should a child go to the emergency room after a fall?"
+    answer: "Go to hospital immediately if the child is under 2 years old, if the fall was from a height greater than 1 metre, or if any warning signs — vomiting, drowsiness, seizures, or unequal pupils — appear, even if the child seems fine at first."
 ---
 
 ## Falls & Brain Bleeding: The Hidden Danger
@@ -48,6 +57,20 @@ Take your child to hospital immediately if you notice any of the following after
 ## When to Go Straight to A&E
 
 If the head injury involves a child under 2 years old, or if the fall was from a height greater than 1 metre — **go to hospital**, even if the child seems well.
+
+## Frequently asked questions
+
+**Can a child have brain bleeding after a fall with no visible injury?**
+Yes. A child's skull is still developing, and the brain can move more freely inside it on impact, which means bleeding can occur inside the skull without any visible cut, bruise, or swelling on the outside. External appearance is not a reliable way to judge how serious a head injury is.
+
+**What are the warning signs of brain bleeding after a head injury in children?**
+Take a child to hospital immediately if you notice loss of consciousness even briefly, repeated vomiting, unusual drowsiness or difficulty waking, worsening headache, seizures, unequal pupil size or eyes not tracking together, or difficulty speaking or recognising familiar people.
+
+**What is the difference between epidural and subdural haematoma?**
+An epidural haematoma is bleeding between the skull and the outer covering of the brain (the dura); it can expand rapidly and become life-threatening within hours. A subdural haematoma is bleeding between the dura and the brain surface itself; it develops more slowly but is equally dangerous if left untreated.
+
+**When should a child go to the emergency room after a fall?**
+Go to hospital immediately if the child is under 2 years old, if the fall was from a height greater than 1 metre, or if any warning signs — vomiting, drowsiness, seizures, or unequal pupils — appear, even if the child seems fine at first.
 
 ## Book a Consultation
 

@@ -77,12 +77,11 @@
     <script src="{{ "/js/dark-mode.js" | relURL }}" defer></script>
     
     <!-- Structured Data (page-specific) -->
-    {{ if eq .Type "blog" }}
+    {{ if and (eq .Type "blog") (ne .Section "insights") }}
         {{ partial "schema/article.html" . }}
     {{ else if eq .Type "specialty" }}
         {{ partial "schema/medical-service.html" . }}
     {{ end }}
     {{ partial "schema/faq.html" . }}
-    {{ if .Params.video }}{{ partial "schema/video.html" . }}{{ end }}
 </body>
 </html>

@@ -1,5 +1,6 @@
 ---
 title: "Clinical Management of Chronic Migraine: A Neurosurgeon's Perspective"
+seoTitle: "Chronic Migraine Management | Neurosurgeon's Guide"
 description: "A clinical overview of chronic migraine, cluster headaches, and secondary headache pathologies. Guidance on neurosurgical evaluation and evidence-based management."
 date: 2026-03-14
 draft: false
@@ -13,6 +14,17 @@ keywords: ["chronic migraine treatment Malaysia", "headache specialist Kuala Lum
 seo:
   focusKeyword: "chronic migraine treatment Malaysia"
 show_appointment_button: true
+faq_schema:
+  - question: "When is a migraine considered chronic?"
+    answer: "Migraine is classified as chronic when headache symptoms occur on 15 or more days per month for at least 3 months, with at least 8 of those days meeting diagnostic criteria for migraine. Factors that drive this progression include medication overuse, unmanaged sleep apnoea or anxiety, and high baseline attack frequency."
+  - question: "What headache red flags require urgent neurosurgical evaluation?"
+    answer: "Seek urgent evaluation for the SNOOP4 red flags: systemic symptoms (fever, weight loss, cancer history), neurological deficits (weakness, confusion, sensory loss), thunderclap onset (reaching peak intensity within seconds), new headache after age 50, positional headache, papilloedema, progressive worsening, or a sudden change in a long-standing headache pattern."
+  - question: "Can a headache be a sign of a brain tumour?"
+    answer: "Tumours are a rare cause of isolated headache. Tumour-related headache is typically associated with raised intracranial pressure and presents alongside early-morning headache, projectile vomiting, new-onset seizures, or progressive focal neurological deficits — not as an isolated symptom on its own."
+  - question: "What are the modern treatment options for chronic migraine?"
+    answer: "Acute treatment includes triptans and CGRP-antagonist gepants. Preventive options include beta-blockers, anticonvulsants, and tricyclics as first-line therapy, with anti-CGRP monoclonal antibodies and Botox (following the PREEMPT protocol) available for refractory chronic migraine. Interventional options such as occipital nerve blocks or neuromodulation are considered when medication fails."
+  - question: "Is an MRI necessary for migraine diagnosis?"
+    answer: "Routine neuroimaging is not necessary for a classic, stable migraine pattern. An MRI brain is indicated only when red flag symptoms are present, features are atypical, or there is genuine diagnostic ambiguity."
 ---
 
 # Clinical Management of Chronic Migraine & Headache
@@ -136,6 +148,25 @@ Successful management requires the cessation of the offending agent, often neces
 3. Is my current acute medication frequency causing MOH?
 4. Which prophylactic strategy offers the best risk-benefit profile?
 5. Am I eligible for advanced therapies (Botox or CGRP inhibitors)?
+
+---
+
+## Frequently asked questions
+
+**When is a migraine considered chronic?**
+Migraine is classified as chronic when headache symptoms occur on 15 or more days per month for at least 3 months, with at least 8 of those days meeting diagnostic criteria for migraine. Factors that drive this progression include medication overuse, unmanaged sleep apnoea or anxiety, and high baseline attack frequency.
+
+**What headache red flags require urgent neurosurgical evaluation?**
+Seek urgent evaluation for the SNOOP4 red flags: systemic symptoms (fever, weight loss, cancer history), neurological deficits (weakness, confusion, sensory loss), thunderclap onset (reaching peak intensity within seconds), new headache after age 50, positional headache, papilloedema, progressive worsening, or a sudden change in a long-standing headache pattern.
+
+**Can a headache be a sign of a brain tumour?**
+Tumours are a rare cause of isolated headache. Tumour-related headache is typically associated with raised intracranial pressure and presents alongside early-morning headache, projectile vomiting, new-onset seizures, or progressive focal neurological deficits — not as an isolated symptom on its own.
+
+**What are the modern treatment options for chronic migraine?**
+Acute treatment includes triptans and CGRP-antagonist gepants. Preventive options include beta-blockers, anticonvulsants, and tricyclics as first-line therapy, with anti-CGRP monoclonal antibodies and Botox (following the PREEMPT protocol) available for refractory chronic migraine. Interventional options such as occipital nerve blocks or neuromodulation are considered when medication fails.
+
+**Is an MRI necessary for migraine diagnosis?**
+Routine neuroimaging is not necessary for a classic, stable migraine pattern. An MRI brain is indicated only when red flag symptoms are present, features are atypical, or there is genuine diagnostic ambiguity.
 
 ---
 

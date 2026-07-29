@@ -12,6 +12,13 @@ image: "/images/insights/insights-default.jpg"
 seo:
   focusKeyword: "neurosurgeon mental health Malaysia"
 show_appointment_button: true
+faq_schema:
+  - question: "Why did Dr Nor Faizal go to the Sahara Desert?"
+    answer: "After 48 months of surgical practice with no real pause, he travelled to the Sahara not to escape work, but to deliberately stop and process the emotional weight of years of constant output before it became burnout."
+  - question: "What is the difference between burnout and stepping back?"
+    answer: "Burnout happens to you — it is a breakdown that arrives when limits are ignored. Stepping back is a decision made before that point, a deliberate pause chosen while there is still a choice to make."
+  - question: "Why do fallow periods matter for practitioners in demanding fields?"
+    answer: "Constant output leaves no space for the mind to integrate experience. A deliberate period of stillness — not laziness, but intentional pause — allows clarity and better decision-making to follow, rather than depleting a practitioner until they break down involuntarily."
 ---
 
 48 months. No real pause. Then I went to the Sahara — not to escape, but because I needed to stop and listen to myself again.
@@ -65,3 +72,14 @@ I stayed anyway.
 That was the real training. Not the gym. Not the content I consume.
 
 *Sitting in the dark — and choosing to look up.*
+
+## Frequently asked questions
+
+**Why did Dr Nor Faizal go to the Sahara Desert?**
+After 48 months of surgical practice with no real pause, he travelled to the Sahara not to escape work, but to deliberately stop and process the emotional weight of years of constant output before it became burnout.
+
+**What is the difference between burnout and stepping back?**
+Burnout happens to you — it is a breakdown that arrives when limits are ignored. Stepping back is a decision made before that point, a deliberate pause chosen while there is still a choice to make.
+
+**Why do fallow periods matter for practitioners in demanding fields?**
+Constant output leaves no space for the mind to integrate experience. A deliberate period of stillness — not laziness, but intentional pause — allows clarity and better decision-making to follow, rather than depleting a practitioner until they break down involuntarily.

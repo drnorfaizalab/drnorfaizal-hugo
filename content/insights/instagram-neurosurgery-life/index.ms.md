@@ -12,17 +12,24 @@ keywords: ["kehidupan harian pakar bedah saraf Malaysia", "bilik bedah otak", "p
 seo:
   focusKeyword: "kehidupan pakar bedah saraf Malaysia"
 show_appointment_button: true
+faq_schema:
+  - question: "Berapa lama tempoh perancangan pra-operasi sebelum pembedahan otak?"
+    answer: "Perancangan pra-operasi boleh mengambil masa berjam-jam hingga beberapa hari. Ia melibatkan kajian imbasan MRI dan CT, memetakan sempadan tumor, dan merancang laluan pembedahan yang tepat sebelum pesakit memasuki bilik bedah."
+  - question: "Siapa yang berada di bilik bedah semasa prosedur bedah saraf?"
+    answer: "Pasukan biasa termasuk pakar bedah saraf, pakar anestesiologi, jururawat scrub, jururawat peredaran, dan sering sekali pasukan pemantauan neurofisiologi khusus untuk kes berhampiran kawasan otak yang kritikal."
+  - question: "Apakah pemantauan neurofisiologi intraoperatif?"
+    answer: "Ia adalah pemantauan fungsi saraf dan otak secara masa nyata semasa pembedahan, digunakan untuk tumor berhampiran kawasan penting yang mengawal pertuturan, pergerakan, atau penglihatan, untuk melindungi fungsi-fungsi kritikal ini semasa tumor dibuang."
+  - question: "Adakah pemulihan selepas pembedahan otak berakhir sebaik sahaja operasi selesai?"
+    answer: "Tidak. Pembedahan adalah satu bab — pemulihan melalui fisioterapi, terapi pertuturan, dan terapi pekerjaan adalah fasa seterusnya yang sama pentingnya. Matlamat rawatan sentiasa fungsi pesakit, bukan sekadar penyingkiran tumor."
 ---
 
 ## Di Sebalik Skrab — Bedah Saraf Dari Dekat
 
-Ramai pesakit tertanya-tanya apa yang berlaku antara menempah temujanji dan pulang ke rumah selepas pembedahan. Siaran Instagram ini memberikan gambaran tentang irama harian sebuah amalan bedah saraf.
+Ramai pesakit tertanya-tanya apa yang berlaku antara menempah temujanji dan pulang ke rumah selepas pembedahan. Inilah gambaran tentang irama harian sebuah amalan bedah saraf.
 
-{{< instagram url="https://www.instagram.com/p/INSTAGRAM_POST_CODE_HERE/" >}}
+## Di sebalik tabir
 
-## Apa yang anda lihat dalam siaran ini
-
-Daripada perancangan pra-operasi hingga penjagaan pasca-operasi, bedah saraf adalah disiplin yang dibina atas persediaan teliti dan kerja berpasukan. Beberapa perkara yang diilustrasikan dalam siaran:
+Daripada perancangan pra-operasi hingga penjagaan pasca-operasi, bedah saraf adalah disiplin yang dibina atas persediaan teliti dan kerja berpasukan. Inilah rupanya:
 
 ### Perancangan pra-operasi
 Setiap kes bermula jauh sebelum pesakit memasuki bilik bedah. Mengkaji imbasan MRI dan CT, memetakan sempadan tumor, dan merancang laluan pembedahan mengambil masa berjam-jam — kadangkala berhari-hari.
@@ -35,6 +42,20 @@ Untuk tumor berhampiran kawasan otak yang penting (pertuturan, pergerakan, pengl
 
 ### Pemulihan dan rehabilitasi
 Pembedahan adalah satu bab. Pemulihan — fisioterapi, terapi pertuturan, terapi pekerjaan — adalah bab seterusnya. Matlamatnya sentiasa fungsi, bukan sekadar penyingkiran tumor.
+
+## Soalan lazim
+
+**Berapa lama tempoh perancangan pra-operasi sebelum pembedahan otak?**
+Perancangan pra-operasi boleh mengambil masa berjam-jam hingga beberapa hari. Ia melibatkan kajian imbasan MRI dan CT, memetakan sempadan tumor, dan merancang laluan pembedahan yang tepat sebelum pesakit memasuki bilik bedah.
+
+**Siapa yang berada di bilik bedah semasa prosedur bedah saraf?**
+Pasukan biasa termasuk pakar bedah saraf, pakar anestesiologi, jururawat scrub, jururawat peredaran, dan sering sekali pasukan pemantauan neurofisiologi khusus untuk kes berhampiran kawasan otak yang kritikal.
+
+**Apakah pemantauan neurofisiologi intraoperatif?**
+Ia adalah pemantauan fungsi saraf dan otak secara masa nyata semasa pembedahan, digunakan untuk tumor berhampiran kawasan penting yang mengawal pertuturan, pergerakan, atau penglihatan, untuk melindungi fungsi-fungsi kritikal ini semasa tumor dibuang.
+
+**Adakah pemulihan selepas pembedahan otak berakhir sebaik sahaja operasi selesai?**
+Tidak. Pembedahan adalah satu bab — pemulihan melalui fisioterapi, terapi pertuturan, dan terapi pekerjaan adalah fasa seterusnya yang sama pentingnya. Matlamat rawatan sentiasa fungsi pesakit, bukan sekadar penyingkiran tumor.
 
 ## Ikuti perjalanan ini di Instagram
 

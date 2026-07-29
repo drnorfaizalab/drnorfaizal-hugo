@@ -1,20 +1,19 @@
 ---
 title: "Bagaimana Pembedahan Otak Sebenarnya Dilakukan? Di Sebalik Kraniotomi"
+seoTitle: "Kraniotomi: Bagaimana Pembedahan Otak Dilakukan"
 date: 2026-07-29T09:00:00+08:00
 draft: false
 type: "blog"
 author: "Dr Nor Faizal Ahmad Bahuri"
 categories: ["Neuro-onkologi", "Pendidikan Pesakit"]
 tags: ["kraniotomi", "pembedahan-otak", "bedah-saraf", "pendidikan-pesakit", "video"]
-description: "Dr Nor Faizal tunjuk kraniotomi sebenar — bagaimana tengkorak dibuka untuk mencapai otak semasa pembedahan — dan apa yang pesakit serta keluarga perlu tahu sebelum pembedahan."
+description: "Dr Nor Faizal tunjuk kraniotomi sebenar dan apa yang pesakit serta keluarga perlu tahu sebelum pembedahan."
 image: "/images/insights/insights-default.jpg"
 keywords: ["kraniotomi Malaysia", "bagaimana pembedahan otak dilakukan", "pakar bedah saraf Kuala Lumpur", "pembedahan tumor otak Malaysia"]
 show_appointment_button: true
 seo:
   focusKeyword: "bagaimana pembedahan otak dilakukan"
-video:
-  id: "NWphhcxHi3s"
-  thumbnail: "https://i.ytimg.com/vi/NWphhcxHi3s/hqdefault.jpg"
+youtube_id: "NWphhcxHi3s"
 cta:
   type: appointment
   label: "Buat Janji Temu"

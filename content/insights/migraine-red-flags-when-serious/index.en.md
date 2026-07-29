@@ -12,6 +12,17 @@ keywords: ["migraine red flags", "headache warning signs Malaysia", "thunderclap
 seo:
   focusKeyword: "migraine red flags Malaysia"
 show_appointment_button: true
+faq_schema:
+  - question: "What is a thunderclap headache and why is it an emergency?"
+    answer: "A thunderclap headache reaches maximum intensity within one minute — patients describe it as the worst headache of their life. It is treated as subarachnoid haemorrhage until proven otherwise, a condition with 30 to 40% mortality, and requires an emergency CT brain and, if that is negative, a lumbar puncture. Call for help immediately if you experience this."
+  - question: "What is the SNOOP4 framework for headache red flags?"
+    answer: "SNOOP4 stands for Systemic symptoms (fever, weight loss, cancer history), Neurological symptoms (weakness, speech difficulty, visual field defect), Onset as thunderclap, Older patient (new headache after age 50), Progressive worsening, Postural change, Precipitated by Valsalva (coughing, straining), and Papilloedema. Any of these in a headache warrants prompt medical evaluation."
+  - question: "Does a morning headache mean I have a brain tumour?"
+    answer: "Not necessarily, but it is worth investigating. A headache present on waking that improves through the day reflects the physiological rise in intracranial pressure during sleep, and a space-occupying lesion at the pressure limit can make this symptomatic — typically dull, frontal, and accompanied by nausea. This pattern is not universal in brain tumour patients, but when present it should be evaluated."
+  - question: "How do I tell a migraine aura from a dangerous visual symptom?"
+    answer: "A typical migraine aura is a slowly expanding arc of shimmering light lasting 20 to 60 minutes, stereotyped and consistent each time. What is not benign: a persistent visual field defect between headaches, double vision, sudden visual loss, or new visual symptoms outside the typical aura pattern — these warrant imaging without delay."
+  - question: "What is the difference between a primary and a secondary headache?"
+    answer: "Primary headaches — migraine, tension-type, cluster — are the disorder itself, with no underlying structural cause, and represent the vast majority of headaches. Secondary headaches are caused by an underlying condition such as a tumour, vascular event, infection, or raised intracranial pressure, where the pain is a symptom rather than the disease."
 ---
 
 # Migraine vs Brain Tumour: Red Flags You Should Not Ignore
@@ -55,6 +66,23 @@ The migraine visual aura — a slowly expanding arc of shimmering light lasting 
 ## Imaging
 
 For red flag headaches: **MRI brain with gadolinium** — more sensitive than CT for parenchymal lesions, no radiation. **CT without contrast** remains first-line for suspected acute haemorrhage. For suspected SAH: CT angiography to identify an aneurysm. For suspected temporal arteritis: ESR, CRP, and temporal artery biopsy.
+
+## Frequently asked questions
+
+**What is a thunderclap headache and why is it an emergency?**
+A thunderclap headache reaches maximum intensity within one minute — patients describe it as the worst headache of their life. It is treated as subarachnoid haemorrhage until proven otherwise, a condition with 30 to 40% mortality, and requires an emergency CT brain and, if that is negative, a lumbar puncture. Call for help immediately if you experience this.
+
+**What is the SNOOP4 framework for headache red flags?**
+SNOOP4 stands for Systemic symptoms (fever, weight loss, cancer history), Neurological symptoms (weakness, speech difficulty, visual field defect), Onset as thunderclap, Older patient (new headache after age 50), Progressive worsening, Postural change, Precipitated by Valsalva (coughing, straining), and Papilloedema. Any of these in a headache warrants prompt medical evaluation.
+
+**Does a morning headache mean I have a brain tumour?**
+Not necessarily, but it is worth investigating. A headache present on waking that improves through the day reflects the physiological rise in intracranial pressure during sleep, and a space-occupying lesion at the pressure limit can make this symptomatic — typically dull, frontal, and accompanied by nausea. This pattern is not universal in brain tumour patients, but when present it should be evaluated.
+
+**How do I tell a migraine aura from a dangerous visual symptom?**
+A typical migraine aura is a slowly expanding arc of shimmering light lasting 20 to 60 minutes, stereotyped and consistent each time. What is not benign: a persistent visual field defect between headaches, double vision, sudden visual loss, or new visual symptoms outside the typical aura pattern — these warrant imaging without delay.
+
+**What is the difference between a primary and a secondary headache?**
+Primary headaches — migraine, tension-type, cluster — are the disorder itself, with no underlying structural cause, and represent the vast majority of headaches. Secondary headaches are caused by an underlying condition such as a tumour, vascular event, infection, or raised intracranial pressure, where the pain is a symptom rather than the disease.
 
 ## A Calibrated Reassurance
 

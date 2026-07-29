@@ -13,6 +13,18 @@ keywords: ["back pain specialist Malaysia", "spinal surgery Kuala Lumpur", "hern
 seo:
   focusKeyword: "spinal back pain specialist Malaysia"
 show_appointment_button: true
+translationKey: "spinal-back-pain"
+faq_schema:
+  - question: "When is back pain a medical emergency?"
+    answer: "Seek emergency care immediately for cauda equina syndrome — sudden bilateral leg weakness, saddle numbness (inner thighs, perineum), and loss of bladder or bowel control. This is a neurosurgical emergency requiring surgery within hours. Fever with back pain, or severe pain after trauma in elderly or osteoporotic patients, also warrants urgent evaluation."
+  - question: "What is the difference between a herniated disc and spinal stenosis?"
+    answer: "A herniated disc occurs when the inner disc gel ruptures through the outer ring and presses on a nerve root, typically causing radiating arm or leg pain. Spinal stenosis is a narrowing of the spinal canal from disc degeneration, thickened ligaments, and facet arthritis, which more often causes pain and heaviness worsened by walking and relieved by sitting."
+  - question: "Do most herniated discs need surgery?"
+    answer: "No. Most disc herniations resolve over 6 to 12 weeks through the body's own resorption process, with physiotherapy, analgesia, and activity modification as first-line treatment. Surgery is reserved for disabling radiculopathy that fails 6 to 12 weeks of appropriate conservative treatment, progressive neurological deficit, or cauda equina syndrome."
+  - question: "How long is recovery after microdiscectomy surgery?"
+    answer: "Patients typically walk the same day, go home within 1 to 2 days, and return to desk work within 2 to 4 weeks. Recovery is longer for laminectomy (2 to 3 days in hospital, avoid bending or lifting for 4 to 6 weeks) and spinal fusion (3 to 6 months for full bone healing, desk work at 6 to 8 weeks)."
+  - question: "What is the single best way to prevent back pain from recurring?"
+    answer: "Core strengthening is the single most important long-term protective measure, alongside good ergonomics (maintaining a neutral lumbar curve when seated), weight management, smoking cessation, and regular low-impact exercise such as swimming, walking, or cycling."
 ---
 
 # Spinal & Back Pain Guide
@@ -142,6 +154,25 @@ Post-operatively: no heavy lifting until cleared, no driving on opioids, prompt 
 - **Weight management:** Even modest reduction measurably reduces back pain.
 - **Smoking cessation:** Smoking accelerates disc degeneration.
 - **Regular low-impact exercise:** Swimming, walking, cycling maintain spinal health.
+
+---
+
+## Frequently asked questions
+
+**When is back pain a medical emergency?**
+Seek emergency care immediately for cauda equina syndrome — sudden bilateral leg weakness, saddle numbness (inner thighs, perineum), and loss of bladder or bowel control. This is a neurosurgical emergency requiring surgery within hours. Fever with back pain, or severe pain after trauma in elderly or osteoporotic patients, also warrants urgent evaluation.
+
+**What is the difference between a herniated disc and spinal stenosis?**
+A herniated disc occurs when the inner disc gel ruptures through the outer ring and presses on a nerve root, typically causing radiating arm or leg pain. Spinal stenosis is a narrowing of the spinal canal from disc degeneration, thickened ligaments, and facet arthritis, which more often causes pain and heaviness worsened by walking and relieved by sitting.
+
+**Do most herniated discs need surgery?**
+No. Most disc herniations resolve over 6 to 12 weeks through the body's own resorption process, with physiotherapy, analgesia, and activity modification as first-line treatment. Surgery is reserved for disabling radiculopathy that fails 6 to 12 weeks of appropriate conservative treatment, progressive neurological deficit, or cauda equina syndrome.
+
+**How long is recovery after microdiscectomy surgery?**
+Patients typically walk the same day, go home within 1 to 2 days, and return to desk work within 2 to 4 weeks. Recovery is longer for laminectomy (2 to 3 days in hospital, avoid bending or lifting for 4 to 6 weeks) and spinal fusion (3 to 6 months for full bone healing, desk work at 6 to 8 weeks).
+
+**What is the single best way to prevent back pain from recurring?**
+Core strengthening is the single most important long-term protective measure, alongside good ergonomics (maintaining a neutral lumbar curve when seated), weight management, smoking cessation, and regular low-impact exercise such as swimming, walking, or cycling.
 
 ---
 

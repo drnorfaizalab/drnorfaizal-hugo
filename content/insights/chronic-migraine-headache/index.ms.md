@@ -13,6 +13,17 @@ keywords: ["rawatan migrain kronik Malaysia", "pakar sakit kepala Kuala Lumpur",
 seo:
   focusKeyword: "rawatan migrain kronik Malaysia"
 show_appointment_button: true
+faq_schema:
+  - question: "Bilakah migrain dianggap kronik?"
+    answer: "Migrain dianggap kronik apabila sakit kepala berlaku 15 hari atau lebih dalam sebulan, selama sekurang-kurangnya 3 bulan berturut-turut, dengan sekurang-kurangnya 8 hari daripadanya memenuhi kriteria diagnostik migrain. Faktor yang menyebabkan migrain menjadi kronik termasuk penggunaan ubat berlebihan, masalah tidur atau anxiety yang tidak dirawat, dan kekerapan serangan yang tinggi dari awal."
+  - question: "Apakah tanda bahaya sakit kepala yang memerlukan penilaian segera?"
+    answer: "Dapatkan penilaian segera untuk tanda bahaya SNOOP4: simptom sistemik (demam, hilang berat badan, sejarah kanser), defisit neurologi (lemah, keliru, hilang deria), sakit kepala 'thunderclap' (sakit yang terus jadi teruk dalam beberapa saat), sakit kepala baru selepas umur 50, sakit kepala berkaitan posisi, papilloedema, sakit kepala yang semakin teruk, atau perubahan mendadak pada corak sakit kepala yang sedia ada."
+  - question: "Bolehkah sakit kepala jadi tanda tumor otak?"
+    answer: "Tumor jarang menjadi punca sakit kepala yang berdiri sendiri. Sakit kepala akibat tumor biasanya berkaitan dengan tekanan otak tinggi dan disertai sakit kepala waktu pagi, muntah-muntah, sawan buat kali pertama, atau kelemahan neurologi yang semakin teruk — bukan sekadar sakit kepala sahaja."
+  - question: "Apakah pilihan rawatan moden untuk migrain kronik?"
+    answer: "Rawatan akut termasuk triptans dan gepants (penyekat CGRP). Rawatan pencegahan termasuk beta-blocker, anticonvulsant, dan tricyclic sebagai pilihan utama, dengan antibodi monoklonal anti-CGRP dan Botox (mengikut protokol PREEMPT) untuk migrain kronik yang degil. Rawatan intervensi seperti occipital nerve block atau neuromodulation dipertimbangkan jika ubat tidak berkesan."
+  - question: "Adakah imbasan MRI perlu untuk diagnosis migrain?"
+    answer: "Imbasan otak rutin tidak diperlukan untuk corak migrain yang klasik dan stabil. MRI otak hanya perlu jika ada tanda bahaya, ciri-ciri yang tidak lazim, atau keraguan diagnostik yang nyata."
 ---
 
 # Migrain Kronik & Sakit Kepala: Bila Anda Perlu Risau?
@@ -136,6 +147,25 @@ Untuk merawat MOH, anda perlu berhenti mengambil ubat tersebut, selalunya di baw
 3. Adakah saya mungkin ada masalah 'Medication Overuse Headache' (MOH)?
 4. Apakah pilihan rawatan pencegahan terbaik untuk saya?
 5. Adakah saya calon yang sesuai untuk rawatan moden seperti Botox atau suntikan CGRP?
+
+---
+
+## Soalan lazim
+
+**Bilakah migrain dianggap kronik?**
+Migrain dianggap kronik apabila sakit kepala berlaku 15 hari atau lebih dalam sebulan, selama sekurang-kurangnya 3 bulan berturut-turut, dengan sekurang-kurangnya 8 hari daripadanya memenuhi kriteria diagnostik migrain. Faktor yang menyebabkan migrain menjadi kronik termasuk penggunaan ubat berlebihan, masalah tidur atau anxiety yang tidak dirawat, dan kekerapan serangan yang tinggi dari awal.
+
+**Apakah tanda bahaya sakit kepala yang memerlukan penilaian segera?**
+Dapatkan penilaian segera untuk tanda bahaya SNOOP4: simptom sistemik (demam, hilang berat badan, sejarah kanser), defisit neurologi (lemah, keliru, hilang deria), sakit kepala "thunderclap" (sakit yang terus jadi teruk dalam beberapa saat), sakit kepala baru selepas umur 50, sakit kepala berkaitan posisi, papilloedema, sakit kepala yang semakin teruk, atau perubahan mendadak pada corak sakit kepala yang sedia ada.
+
+**Bolehkah sakit kepala jadi tanda tumor otak?**
+Tumor jarang menjadi punca sakit kepala yang berdiri sendiri. Sakit kepala akibat tumor biasanya berkaitan dengan tekanan otak tinggi dan disertai sakit kepala waktu pagi, muntah-muntah, sawan buat kali pertama, atau kelemahan neurologi yang semakin teruk — bukan sekadar sakit kepala sahaja.
+
+**Apakah pilihan rawatan moden untuk migrain kronik?**
+Rawatan akut termasuk triptans dan gepants (penyekat CGRP). Rawatan pencegahan termasuk beta-blocker, anticonvulsant, dan tricyclic sebagai pilihan utama, dengan antibodi monoklonal anti-CGRP dan Botox (mengikut protokol PREEMPT) untuk migrain kronik yang degil. Rawatan intervensi seperti occipital nerve block atau neuromodulation dipertimbangkan jika ubat tidak berkesan.
+
+**Adakah imbasan MRI perlu untuk diagnosis migrain?**
+Imbasan otak rutin tidak diperlukan untuk corak migrain yang klasik dan stabil. MRI otak hanya perlu jika ada tanda bahaya, ciri-ciri yang tidak lazim, atau keraguan diagnostik yang nyata.
 
 ---
 

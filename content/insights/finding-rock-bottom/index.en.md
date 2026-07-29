@@ -16,6 +16,11 @@ cta:
   type: appointment
   label: "Book a Consultation"
   url: "/contact"
+faq_schema:
+  - question: "What is the 'floating' metaphor for coping with a difficult diagnosis?"
+    answer: "When you fall into deep water, panicking and thrashing to find the bottom only exhausts you in the dark. The wiser response is to stop fighting and float — conserving energy, taking a breath, and gaining the clarity to see the shore. Applied to hard news like a diagnosis, this means pausing rather than panicking, which creates the space to regroup with loved ones before moving forward."
+  - question: "Is it a sign of weakness for a doctor to admit mental fatigue?"
+    answer: "No. Acknowledging mental fatigue as a doctor is not weakness — it is the first step in the healing process, the same step patients are advised to take. Accepting a difficult truth, however painful, is where recovery begins, for physicians and patients alike."
 ---
 
 There are moments in every life that feel like hitting rock bottom. A challenge in your health, your work, your relationships—it can feel like being lost in a vast, dark ocean with no land in sight.
@@ -37,3 +42,11 @@ Allow yourself to be held by the water. Conserve your energy. Take a breath. Loo
 Floating gives you the space to huddle with your loved ones, to regroup and re-strategise. It lets you find the oxygen you need to move forward. Only then can you begin to swim, calmly and with purpose. The moment your feet touch something solid—sand, a rock—that is your new beginning. That is the hard surface from which you can push off and start walking towards your promised land.
 
 Whether you are navigating the pain of a diagnosis, the exhaustion of chronic illness, or the weight of a life that feels overwhelming, the path forward begins with a pause. It begins with the courage to float. If you feel lost and are looking for that solid ground to stand on, perhaps we can find it together.
+
+## Frequently asked questions
+
+**What is the 'floating' metaphor for coping with a difficult diagnosis?**
+When you fall into deep water, panicking and thrashing to find the bottom only exhausts you in the dark. The wiser response is to stop fighting and float — conserving energy, taking a breath, and gaining the clarity to see the shore. Applied to hard news like a diagnosis, this means pausing rather than panicking, which creates the space to regroup with loved ones before moving forward.
+
+**Is it a sign of weakness for a doctor to admit mental fatigue?**
+No. Acknowledging mental fatigue as a doctor is not weakness — it is the first step in the healing process, the same step patients are advised to take. Accepting a difficult truth, however painful, is where recovery begins, for physicians and patients alike.

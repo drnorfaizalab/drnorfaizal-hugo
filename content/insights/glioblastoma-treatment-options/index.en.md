@@ -12,6 +12,17 @@ keywords: ["glioblastoma treatment Malaysia", "GBM brain cancer", "Stupp protoco
 seo:
   focusKeyword: "glioblastoma treatment options Malaysia"
 show_appointment_button: true
+faq_schema:
+  - question: "What is glioblastoma (GBM)?"
+    answer: "Glioblastoma is a WHO Grade IV brain tumour, the most aggressive type of primary brain tumour. It grows within the brain tissue itself and infiltrates surrounding brain along microscopic paths, which is why surgery alone cannot cure it. It mainly affects adults in their 60s to 70s and accounts for roughly 15% of primary brain tumours."
+  - question: "What are the symptoms of glioblastoma?"
+    answer: "Common symptoms include new seizures, progressive weakness or speech difficulty, morning headaches with nausea, and personality or cognitive changes often noticed first by family members. Symptoms that develop over weeks rather than years are more concerning for a tumour."
+  - question: "Can glioblastoma be cured by surgery alone?"
+    answer: "No. GBM cells infiltrate the surrounding brain along microscopic paths that cannot be seen or removed even with maximal safe resection, so surgery is combined with radiotherapy and chemotherapy (the Stupp Protocol) rather than used as a standalone cure."
+  - question: "What is the Stupp Protocol for glioblastoma?"
+    answer: "The Stupp Protocol is the standard treatment sequence for GBM: maximal safe surgical resection (using intraoperative MRI, 5-ALA fluorescence, and neuromonitoring), followed by 6 weeks of concurrent radiotherapy and temozolomide chemotherapy, then 6 months of adjuvant temozolomide cycles."
+  - question: "What is the survival outlook for glioblastoma?"
+    answer: "Median survival with treatment is 14 to 16 months, though this varies by individual based on MGMT methylation status, age, and extent of surgical resection. Population statistics describe averages, not what is possible for a specific individual — this is discussed openly with every patient."
 ---
 
 # Glioblastoma (GBM): Understanding Your Treatment Options
@@ -59,6 +70,23 @@ Median survival with treatment is 14–16 months. MGMT methylation, age, and ext
 ## Care Philosophy
 
 Treatment aims to extend life and protect its quality. Palliative care is involved early as a partner — not a last resort.
+
+## Frequently asked questions
+
+**What is glioblastoma (GBM)?**
+Glioblastoma is a WHO Grade IV brain tumour, the most aggressive type of primary brain tumour. It grows within the brain tissue itself and infiltrates surrounding brain along microscopic paths, which is why surgery alone cannot cure it. It mainly affects adults in their 60s to 70s and accounts for roughly 15% of primary brain tumours.
+
+**What are the symptoms of glioblastoma?**
+Common symptoms include new seizures, progressive weakness or speech difficulty, morning headaches with nausea, and personality or cognitive changes often noticed first by family members. Symptoms that develop over weeks rather than years are more concerning for a tumour.
+
+**Can glioblastoma be cured by surgery alone?**
+No. GBM cells infiltrate the surrounding brain along microscopic paths that cannot be seen or removed even with maximal safe resection, so surgery is combined with radiotherapy and chemotherapy (the Stupp Protocol) rather than used as a standalone cure.
+
+**What is the Stupp Protocol for glioblastoma?**
+The Stupp Protocol is the standard treatment sequence for GBM: maximal safe surgical resection (using intraoperative MRI, 5-ALA fluorescence, and neuromonitoring), followed by 6 weeks of concurrent radiotherapy and temozolomide chemotherapy, then 6 months of adjuvant temozolomide cycles.
+
+**What is the survival outlook for glioblastoma?**
+Median survival with treatment is 14 to 16 months, though this varies by individual based on MGMT methylation status, age, and extent of surgical resection. Population statistics describe averages, not what is possible for a specific individual — this is discussed openly with every patient.
 
 ---
 

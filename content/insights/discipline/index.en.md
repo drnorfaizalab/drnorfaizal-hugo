@@ -21,6 +21,11 @@ keywords: ["discipline neurosurgery", "Oxford neurosurgeon Malaysia", "medical e
 seo:
   focusKeyword: "discipline in neurosurgery"
 show_appointment_button: true
+faq_schema:
+  - question: "What matters more in neurosurgery: intelligence or discipline?"
+    answer: "Discipline. At institutions like Oxford, being highly intelligent is the norm, not the differentiator — what actually separates successful surgeons from the rest is the courage to fail and the discipline to keep showing up and repeating the work with precision, day after day."
+  - question: "Is neurosurgery about sudden brilliance or repetition?"
+    answer: "Repetition. Neurosurgery is not a field of medical miracles — it depends on meticulous, careful, highly disciplined repetition. Knowledge and intelligence can be developed over time, but true self-discipline has to come from within."
 ---
 
 ## The Illusion of Genius
@@ -49,6 +54,14 @@ Today, I wear my batik scrubs into the operating theatre as a personal reminder:
 
 > **"Bijak tu common. Disiplin tu rare."**  
 > *(Intelligence is common. Discipline is rare.)*
+
+## Frequently asked questions
+
+**What matters more in neurosurgery: intelligence or discipline?**
+Discipline. At institutions like Oxford, being highly intelligent is the norm, not the differentiator — what actually separates successful surgeons from the rest is the courage to fail and the discipline to keep showing up and repeating the work with precision, day after day.
+
+**Is neurosurgery about sudden brilliance or repetition?**
+Repetition. Neurosurgery is not a field of medical miracles — it depends on meticulous, careful, highly disciplined repetition. Knowledge and intelligence can be developed over time, but true self-discipline has to come from within.
 
 ## Schedule a Consultation
 

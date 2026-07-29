@@ -21,6 +21,11 @@ keywords: ["disiplin pembedahan saraf", "pakar bedah saraf Oxford Malaysia", "ke
 seo:
   focusKeyword: "disiplin dalam pembedahan saraf"
 show_appointment_button: true
+faq_schema:
+  - question: "Apa yang lebih penting dalam pembedahan saraf: kepintaran atau disiplin?"
+    answer: "Disiplin. Di institusi seperti Oxford, menjadi sangat pintar adalah perkara biasa, bukan pembeza — apa yang sebenarnya membezakan pakar bedah yang berjaya daripada yang lain adalah keberanian untuk gagal dan disiplin untuk terus hadir serta mengulangi kerja dengan ketepatan, hari demi hari."
+  - question: "Adakah pembedahan saraf tentang kecemerlangan tiba-tiba atau pengulangan?"
+    answer: "Pengulangan. Pembedahan saraf bukan bidang keajaiban perubatan — ia bergantung kepada pengulangan yang teliti, berhati-hati, dan berdisiplin tinggi. Ilmu dan kepandaian boleh dibina dari masa ke masa, tetapi disiplin diri yang sebenar mesti datang dari dalam."
 ---
 
 ## Ilusi Seorang Genius
@@ -48,6 +53,14 @@ Pembedahan saraf adalah tentang pengulangan—pengulangan yang sangat teliti, be
 Hari ini, saya pakai baju *scrub* batik saya masuk ke dewan bedah sebagai peringatan peribadi: asal usul saya adalah Melayu, tapi disiplin dan pemikiran saya mesti kekal bertaraf dunia.
 
 > **"Bijak tu common. Disiplin tu rare."**
+
+## Soalan lazim
+
+**Apa yang lebih penting dalam pembedahan saraf: kepintaran atau disiplin?**
+Disiplin. Di institusi seperti Oxford, menjadi sangat pintar adalah perkara biasa, bukan pembeza — apa yang sebenarnya membezakan pakar bedah yang berjaya daripada yang lain adalah keberanian untuk gagal dan disiplin untuk terus hadir serta mengulangi kerja dengan ketepatan, hari demi hari.
+
+**Adakah pembedahan saraf tentang kecemerlangan tiba-tiba atau pengulangan?**
+Pengulangan. Pembedahan saraf bukan bidang keajaiban perubatan — ia bergantung kepada pengulangan yang teliti, berhati-hati, dan berdisiplin tinggi. Ilmu dan kepandaian boleh dibina dari masa ke masa, tetapi disiplin diri yang sebenar mesti datang dari dalam.
 
 ## Jadualkan Konsultasi
 

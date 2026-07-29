@@ -13,6 +13,17 @@ keywords: ["rawatan meningioma Malaysia", "pembedahan meningioma Kuala Lumpur", 
 seo:
   focusKeyword: "rawatan meningioma Malaysia"
 show_appointment_button: true
+faq_schema:
+  - question: "Adakah meningioma barah?"
+    answer: "Kebanyakan meningioma (kira-kira 80%) adalah WHO Gred I — jinak, tumbuh perlahan, dan bukan barah dalam erti kata yang ditakuti kebanyakan orang. Ia tumbuh dari selaput otak, bukan dari tisu otak itu sendiri, dan pembedahan yang lengkap selalunya membawa kepada penyembuhan fungsian."
+  - question: "Apakah itu reseksi Simpson Grade?"
+    answer: "Simpson Grade menggambarkan sejauh mana lengkapnya meningioma dibuang semasa pembedahan. Reseksi Simpson Gred I — membuang keseluruhan tumor, lekatannya pada selaput otak, dan mana-mana tulang yang terjejas — mempunyai kadar berulang yang jauh lebih rendah berbanding pembuangan separa (Gred III), sebab itulah ketelitian pembedahan menentukan hasil jangka panjang."
+  - question: "Apakah pilihan rawatan untuk meningioma?"
+    answer: "Pilihan termasuk pemantauan aktif dengan MRI berkala untuk tumor kecil tanpa gejala; pembedahan (kraniotomi) menggunakan neuro-navigation dan pemantauan neurofisiologi intraoperatif untuk tumor bergejala atau yang membesar; dan radiosurgeri stereotaktik (Gamma Knife atau CyberKnife) untuk tumor di lokasi berisiko tinggi atau pesakit yang tak sesuai dibius."
+  - question: "Adakah meningioma penyakit keturunan?"
+    answer: "Kebanyakan kes meningioma berlaku secara rawak (sporadic), tiada punca keturunan. Tapi, dalam kes-kes tertentu, ia mungkin berkait dengan penyakit genetik seperti Neurofibromatosis Type 2 (NF2)."
+  - question: "Bolehkah meningioma kembali selepas pembedahan?"
+    answer: "Risiko ia datang balik bergantung pada Simpson Grade yang dicapai semasa pembedahan asal. Reseksi Gred I ada risiko berulang yang jauh lebih rendah berbanding pembuangan separa Gred III. Sebab itulah pembedahan yang teliti dan lengkap sangat penting."
 ---
 
 # Meningioma: Panduan Lengkap Untuk Anda
@@ -69,6 +80,15 @@ Teknologi seperti Gamma Knife atau CyberKnife adalah alternatif yang sangat baik
 Prognosis untuk meningioma Gred I sangat baik. Selepas pembedahan kraniotomi yang berjaya, pesakit biasanya tinggal di hospital selama 4–5 hari. Anda selalunya boleh kembali bekerja dalam 6–8 minggu.
 
 ## Soalan Lazim (FAQ)
+
+**Adakah meningioma barah?**
+Kebanyakan meningioma (kira-kira 80%) adalah WHO Gred I — jinak, tumbuh perlahan, dan bukan barah dalam erti kata yang ditakuti kebanyakan orang. Ia tumbuh dari selaput otak, bukan dari tisu otak itu sendiri, dan pembedahan yang lengkap selalunya membawa kepada penyembuhan fungsian.
+
+**Apakah itu reseksi Simpson Grade?**
+Simpson Grade menggambarkan sejauh mana lengkapnya meningioma dibuang semasa pembedahan. Reseksi Simpson Gred I — membuang keseluruhan tumor, lekatannya pada selaput otak, dan mana-mana tulang yang terjejas — mempunyai kadar berulang yang jauh lebih rendah berbanding pembuangan separa (Gred III), sebab itulah ketelitian pembedahan menentukan hasil jangka panjang.
+
+**Apakah pilihan rawatan untuk meningioma?**
+Pilihan termasuk pemantauan aktif dengan MRI berkala untuk tumor kecil tanpa gejala; pembedahan (kraniotomi) menggunakan neuro-navigation dan pemantauan neurofisiologi intraoperatif untuk tumor bergejala atau yang membesar; dan radiosurgeri stereotaktik (Gamma Knife atau CyberKnife) untuk tumor di lokasi berisiko tinggi atau pesakit yang tak sesuai dibius.
 
 **Adakah ia penyakit keturunan?**
 Kebanyakan kes meningioma berlaku secara rawak (*sporadic*). Tapi, dalam kes-kes tertentu, ia mungkin berkait dengan penyakit genetik seperti Neurofibromatosis Type 2 (NF2).

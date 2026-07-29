@@ -6,15 +6,13 @@ type: "blog"
 author: "Dr Nor Faizal Ahmad Bahuri"
 categories: ["Neurooncology", "Patient Education"]
 tags: ["craniotomy", "brain-surgery", "neurosurgery", "patient-education", "video"]
-description: "Dr Nor Faizal shows a real craniotomy — how the skull is opened to reach the brain during surgery — and explains what patients and families should know before an operation."
+description: "Dr Nor Faizal shows a real craniotomy — how the skull is opened to reach the brain — and what patients and families should know before an operation."
 image: "/images/insights/insights-default.jpg"
 keywords: ["craniotomy explained Malaysia", "how brain surgery is performed", "neurosurgeon Kuala Lumpur", "brain tumour surgery Malaysia"]
 show_appointment_button: true
 seo:
   focusKeyword: "how brain surgery is performed"
-video:
-  id: "NWphhcxHi3s"
-  thumbnail: "https://i.ytimg.com/vi/NWphhcxHi3s/hqdefault.jpg"
+youtube_id: "NWphhcxHi3s"
 cta:
   type: appointment
   label: "Book a Consultation"

@@ -16,6 +16,17 @@ cta:
   label: "Book a Consultation"
   url: "/contact"
 show_appointment_button: true
+faq_schema:
+  - question: "What should I do first when a headache or migraine attack starts?"
+    answer: "Find a quiet, dim room immediately, or pull over safely if you are driving. Migraine attacks often bring extreme sensitivity to light and sound, so reducing incoming sensory information is the most important first step to let your nervous system calm down."
+  - question: "Does breathing technique actually help during a headache attack?"
+    answer: "Yes. Pain triggers a fight-or-flight response that causes shallow breathing and increased muscle tension, which can worsen the headache. Box breathing — inhaling for a count of four, holding for four, exhaling for four, and holding for four — helps regulate the autonomic nervous system and signal to the body that the immediate danger has passed."
+  - question: "When should I take painkillers during a migraine attack?"
+    answer: "As early as possible. A headache is a cascade of neurological events, so taking a simple analgesic like paracetamol at the first sign of pain is far more effective than waiting until the pain is severe, at which point over-the-counter medication is often too late to work well."
+  - question: "Does a cold compress help with headache pain?"
+    answer: "Yes. A cold compress or ice pack wrapped in a thin towel applied to the forehead and back of the neck helps constrict blood vessels and can numb superficial nerves in the area, including branches of the trigeminal nerve, providing significant localised relief."
+  - question: "When do frequent headaches need more than first aid?"
+    answer: "If headache or migraine attacks are a recurring pattern in your life, first aid measures are not enough — frequent headaches are not normal and are not something to simply accept. This calls for a proper diagnosis to identify the root cause and build a long-term treatment plan."
 ---
 
 It arrives without warning. One moment, you’re driving home from work, focused on the traffic. The next, a blinding, throbbing pain begins its siege behind your eyes. The lights seem too bright, the sounds of the radio too loud. When a severe headache or migraine attack hits, it feels like you’ve lost all control.
@@ -50,6 +61,23 @@ The power of cold is simple but profound. Place a cold compress or an ice pack w
 You do not have to endure this alone. Pain can cloud your judgment. Send a text to a family member or friend, or call for help if you feel unsafe or the pain is escalating uncontrollably. Letting someone know what is happening is not a sign of weakness; it is a crucial safety measure. It ensures someone is aware of your situation and can assist if needed.
 
 These five steps are your first aid for a headache attack—a framework to regain a sense of control when you feel powerless.
+
+## Frequently asked questions
+
+**What should I do first when a headache or migraine attack starts?**
+Find a quiet, dim room immediately, or pull over safely if you are driving. Migraine attacks often bring extreme sensitivity to light and sound, so reducing incoming sensory information is the most important first step to let your nervous system calm down.
+
+**Does breathing technique actually help during a headache attack?**
+Yes. Pain triggers a fight-or-flight response that causes shallow breathing and increased muscle tension, which can worsen the headache. Box breathing — inhaling for a count of four, holding for four, exhaling for four, and holding for four — helps regulate the autonomic nervous system and signal to the body that the immediate danger has passed.
+
+**When should I take painkillers during a migraine attack?**
+As early as possible. A headache is a cascade of neurological events, so taking a simple analgesic like paracetamol at the first sign of pain is far more effective than waiting until the pain is severe, at which point over-the-counter medication is often too late to work well.
+
+**Does a cold compress help with headache pain?**
+Yes. A cold compress or ice pack wrapped in a thin towel applied to the forehead and back of the neck helps constrict blood vessels and can numb superficial nerves in the area, including branches of the trigeminal nerve, providing significant localised relief.
+
+**When do frequent headaches need more than first aid?**
+If headache or migraine attacks are a recurring pattern in your life, first aid measures are not enough — frequent headaches are not normal and are not something to simply accept. This calls for a proper diagnosis to identify the root cause and build a long-term treatment plan.
 
 But if these attacks are a recurring character in your life’s story, first aid isn’t enough. You need a long-term strategy. Frequent headaches are not normal, and they are not something you simply have to accept.
 

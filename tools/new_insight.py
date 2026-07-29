@@ -121,31 +121,60 @@ EN_SYSTEM = BRAND_CONTEXT + """
 Your job: write a polished, publication-ready Hugo Markdown post (index.en.md).
 
 Rules:
-1. Front matter: fill all fields from the draft.
+1. Front matter: fill all fields from the draft. This includes SEO/GEO fields below —
+   they are not optional extras, every post ships with them.
 2. Body: warm, authoritative, story-led. No bullet-point dumps.
-3. Word count: 400–700 words.
-4. End with a CTA matching cta_type.
-5. Output the COMPLETE Markdown file only — no preamble, no commentary.
+3. Word count: 400–700 words for the main body, plus the FAQ section (below).
+4. If raw_thoughts contains a YouTube link (youtube.com or youtu.be, including /shorts/),
+   extract the video ID and:
+   - add `youtube_id: "VIDEO_ID"` to the front matter (drives VideoObject schema — do NOT
+     invent an ID, and do NOT add any other video-related front matter field)
+   - embed `{{< youtube "VIDEO_ID" >}}` in the body where the video is discussed
+5. Title: keep it under ~65 characters where possible. If the natural editorial title
+   (the one used for the on-page H1 and `title` field) runs longer than that, ALSO add a
+   `seoTitle` field with a shorter version (under 60 chars) — `title` stays as-is,
+   `seoTitle` overrides only the <title> tag and Google/social preview.
+6. FAQ (required on every post): write 4-5 question/answer pairs that a patient or GP
+   would plausibly search for or ask an AI assistant about this topic. Each answer is
+   2-4 sentences, self-contained (answerable without reading the rest of the post),
+   medically accurate, and specific — no vague filler. These serve two purposes and
+   both are required:
+   a. `faq_schema` front matter field (list of {question, answer} — exact field name,
+      exact structure, see format below)
+   b. A visible "## Frequently asked questions" section near the end of the body
+      (before the final CTA) with the SAME questions and answers, formatted as
+      **Question?**\\nAnswer. — the schema and the visible text must match, this is
+      what search engines and AI answer engines (Gemini, ChatGPT) actually quote.
+7. End with a CTA matching cta_type.
+8. Output the COMPLETE Markdown file only — no preamble, no commentary.
 
-Front matter format (use exactly this structure):
+Front matter format (use exactly this structure — omit youtube_id/seoTitle if not needed):
 ---
 title: "..."
+seoTitle: "..."      # OPTIONAL — only if title exceeds ~65 chars
 date: YYYY-MM-DDTHH:MM:SS+08:00
 draft: false
 type: "blog"
 author: "Dr Nor Faizal Ahmad Bahuri"
 categories: [...]
 tags: [...]
-description: "..."   # 150-160 chars, compelling, keyword-rich
+description: "..."   # 150-160 chars, compelling, keyword-rich — never longer
 image: "..."         # use value from draft; og:image and twitter:image
 keywords: [...]      # 4-6 English SEO keywords; include "Malaysia" for local SEO
 show_appointment_button: true
 seo:
   focusKeyword: "..."
+youtube_id: "..."    # OPTIONAL — only if draft includes a YouTube link
 cta:
   type: appointment
   label: "Book a Consultation"
   url: "/contact"
+faq_schema:
+  - question: "..."
+    answer: "..."
+  - question: "..."
+    answer: "..."
+  # 4-5 total
 ---
 """
 
@@ -160,27 +189,45 @@ Rules:
 - Same story arc and CTA as the English version
 - Same Hugo front matter structure; translate title, description, and keywords into BM
 - keywords: 4-6 BM SEO keywords (e.g. "rawatan tumor otak Malaysia"); include "Malaysia"
+- If the English post has a `youtube_id` field, carry it over unchanged (same video),
+  and embed the same `{{< youtube "VIDEO_ID" >}}` shortcode in the BM body.
+- Title: keep under ~65 characters where possible. If the natural BM title runs longer,
+  ALSO add a `seoTitle` field with a shorter BM version (under 60 chars) — same rule as
+  the English post.
+- FAQ (required on every post, mirrors the English post's faq_schema exactly in meaning,
+  translated into BM — not a different set of questions):
+  a. `faq_schema` front matter field (list of {question, answer} in BM)
+  b. A visible "## Soalan lazim" section near the end of the body (before the final CTA)
+     with the SAME questions and answers as (a), formatted as **Soalan?**\\nJawapan.
 - Output the COMPLETE Markdown file only — no preamble, no commentary.
 
-Front matter format (use exactly this structure):
+Front matter format (use exactly this structure — omit youtube_id/seoTitle if not needed):
 ---
 title: "..."          # BM title
+seoTitle: "..."       # OPTIONAL — only if title exceeds ~65 chars
 date: YYYY-MM-DDTHH:MM:SS+08:00
 draft: false
 type: "blog"
 author: "Dr Nor Faizal Ahmad Bahuri"
 categories: [...]     # BM category names
 tags: [...]           # BM tags
-description: "..."    # BM description, 150-160 chars
+description: "..."    # BM description, 150-160 chars — never longer
 image: "..."          # same image path as English version
 keywords: [...]       # 4-6 BM SEO keywords
 show_appointment_button: true
 seo:
   focusKeyword: "..."  # BM focus keyword
+youtube_id: "..."     # OPTIONAL — same value as the English post, if present
 cta:
   type: appointment
   label: "Buat Janji Temu"
   url: "/hubungi"
+faq_schema:
+  - question: "..."
+    answer: "..."
+  - question: "..."
+    answer: "..."
+  # 4-5 total, matching the English post's questions
 ---
 """
 

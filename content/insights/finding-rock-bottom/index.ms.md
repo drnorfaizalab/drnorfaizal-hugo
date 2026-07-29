@@ -5,7 +5,7 @@ draft: false
 author: "Dr Nor Faizal Ahmad Bahuri"
 categories: ["Refleksi"]
 tags: ["kelelahan", "kesihatan mental", "perspektif doktor", "harapan"]
-description: "Refleksi seorang pakar bedah neuro tentang realiti yang sukar diterima, keletihan mental, dan langkah pertama menuju pemulihan—baik untuk pesakit, mahupun untuk doktor."
+description: "Refleksi seorang pakar bedah neuro tentang realiti yang sukar, keletihan mental, dan langkah pertama menuju pemulihan—untuk pesakit dan doktor."
 type: "blog"
 show_appointment_button: true
 image: "/images/insights/insights-default.jpg"
@@ -16,6 +16,11 @@ cta:
   type: appointment
   label: "Buat Janji Temu"
   url: "/hubungi"
+faq_schema:
+  - question: "Apakah metafora 'mengapungkan diri' untuk menghadapi diagnosis yang sukar?"
+    answer: "Apabila jatuh ke dalam air yang dalam, meronta dan panik mencari dasar hanya melelahkan diri dalam kegelapan. Tindakan yang lebih bijak adalah berhenti melawan dan mengapungkan diri — menjimatkan tenaga, menarik nafas, dan mendapat kejelasan untuk melihat daratan. Diguna pakai pada berita sukar seperti diagnosis, ini bermakna berhenti seketika berbanding panik, yang memberi ruang untuk berkumpul semula bersama orang tersayang sebelum meneruskan langkah."
+  - question: "Adakah tanda kelemahan bagi seorang doktor untuk mengaku keletihan mental?"
+    answer: "Tidak. Mengakui keletihan mental sebagai seorang doktor bukanlah kelemahan — ia adalah langkah pertama dalam proses penyembuhan, langkah yang sama yang dinasihatkan kepada pesakit. Menerima kebenaran yang sukar, walau sepahit mana pun, adalah permulaan pemulihan, bagi doktor mahupun pesakit."
 ---
 
 Dalam hidup setiap insan, pasti ada saat-saat di mana kita rasa seperti sudah jatuh terduduk. Dugaan kesihatan, kerjaya, atau putus hubungan—rasanya seolah-olah kita sesat di tengah lautan yang gelap dan luas, tanpa daratan yang kelihatan.
@@ -37,3 +42,11 @@ Biarkan diri anda didakap oleh air. Jimatkan tenaga anda. Tarik nafas. Pandang k
 Tindakan terapung ini memberi anda ruang untuk bersama insan tersayang, untuk berkumpul semula dan mengatur strategi baru. Ia membolehkan anda mencari 'oksigen' yang diperlukan untuk terus maju. Hanya selepas itu, barulah anda boleh mula berenang, dengan tenang dan penuh tujuan. Saat kaki anda menyentuh sesuatu yang keras—pasir, batu—itulah permulaan baru anda. Itulah permukaan kukuh untuk anda berpijak dan mula berjalan menuju ke destinasi yang diimpikan.
 
 Sama ada anda sedang menanggung kesakitan akibat diagnosis, keletihan melawan penyakit kronik, atau bebanan hidup yang terasa amat berat, jalan ke hadapan bermula dengan satu langkah. Ia bermula dengan keberanian untuk mengapungkan diri. Jika anda rasa tersesat dan sedang mencari daratan yang kukuh untuk berpijak, mungkin kita boleh mencarinya bersama-sama.
+
+## Soalan lazim
+
+**Apakah metafora 'mengapungkan diri' untuk menghadapi diagnosis yang sukar?**
+Apabila jatuh ke dalam air yang dalam, meronta dan panik mencari dasar hanya melelahkan diri dalam kegelapan. Tindakan yang lebih bijak adalah berhenti melawan dan mengapungkan diri — menjimatkan tenaga, menarik nafas, dan mendapat kejelasan untuk melihat daratan. Diguna pakai pada berita sukar seperti diagnosis, ini bermakna berhenti seketika berbanding panik, yang memberi ruang untuk berkumpul semula bersama orang tersayang sebelum meneruskan langkah.
+
+**Adakah tanda kelemahan bagi seorang doktor untuk mengaku keletihan mental?**
+Tidak. Mengakui keletihan mental sebagai seorang doktor bukanlah kelemahan — ia adalah langkah pertama dalam proses penyembuhan, langkah yang sama yang dinasihatkan kepada pesakit. Menerima kebenaran yang sukar, walau sepahit mana pun, adalah permulaan pemulihan, bagi doktor mahupun pesakit.

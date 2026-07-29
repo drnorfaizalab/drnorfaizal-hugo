@@ -1,6 +1,7 @@
 ---
 title: "Migrain vs Tumor Otak: Bendera Merah yang Tidak Harus Anda Abaikan"
-description: "Kebanyakan sakit kepala adalah benigna, tetapi sesetengahnya adalah gejala keadaan yang serius. Ketahui bendera merah yang membezakan sakit kepala berbahaya daripada migrain biasa."
+seoTitle: "Migrain vs Tumor Otak: Bendera Merah Sakit Kepala"
+description: "Kebanyakan sakit kepala adalah benigna, tetapi sesetengahnya adalah gejala keadaan serius. Ketahui bendera merah yang membezakannya daripada migrain biasa."
 date: 2025-03-13
 draft: false
 type: "blog"
@@ -12,6 +13,17 @@ keywords: ["tanda bahaya migrain", "amaran sakit kepala Malaysia", "sakit kepala
 seo:
   focusKeyword: "tanda bahaya migrain Malaysia"
 show_appointment_button: true
+faq_schema:
+  - question: "Apakah sakit kepala thunderclap dan kenapa ia kecemasan?"
+    answer: "Sakit kepala thunderclap mencapai keamatan maksimum dalam masa satu minit — pesakit menerangkannya sebagai sakit kepala paling teruk dalam hidup mereka. Ia dianggap pendarahan subarachnoid sehingga dibuktikan sebaliknya, keadaan dengan kadar kematian 30 hingga 40%, dan memerlukan CT otak kecemasan serta, jika negatif, pungsi lumbar. Dapatkan bantuan segera jika anda mengalami ini."
+  - question: "Apakah rangka kerja SNOOP4 untuk tanda bahaya sakit kepala?"
+    answer: "SNOOP4 merangkumi gejala Sistemik (demam, penurunan berat badan, sejarah kanser), gejala Neurologi (kelemahan, kesukaran bercakap, kecacatan medan penglihatan), Onset thunderclap, pesakit lebih tua (Older, sakit kepala baru selepas usia 50), Progresif, perubahan Postural, dicetuskan oleh Valsalva (batuk, mengedan), dan Papiloedema. Mana-mana daripada ini memerlukan penilaian perubatan segera."
+  - question: "Adakah sakit kepala pagi bermakna saya ada tumor otak?"
+    answer: "Tidak semestinya, tetapi ia patut disiasat. Sakit kepala semasa terjaga yang bertambah baik sepanjang hari mencerminkan peningkatan fisiologi tekanan intrakranial semasa tidur, dan lesi yang mengambil ruang boleh menjadikan puncak pagi ini bergejala — biasanya tumpul, frontal, disertai loya. Corak ini bukan ciri universal tumor otak, tetapi apabila hadir, ia patut dinilai."
+  - question: "Bagaimana membezakan aura migrain daripada gejala penglihatan yang berbahaya?"
+    answer: "Aura migrain yang biasa adalah lengkung cahaya berkelip yang berkembang perlahan, berlangsung 20 hingga 60 minit, stereotaip dan konsisten setiap kali. Yang tidak benigna: kecacatan medan penglihatan berterusan antara serangan, penglihatan berganda, kehilangan penglihatan mendadak, atau gejala penglihatan yang tidak mengikuti corak aura biasa — ini memerlukan pengimejan tanpa berlengah."
+  - question: "Apakah perbezaan antara sakit kepala primer dan sekunder?"
+    answer: "Sakit kepala primer — migrain, tegang, kluster — adalah penyakit itu sendiri, tiada punca struktural, dan merangkumi majoriti besar kes sakit kepala. Sakit kepala sekunder disebabkan oleh keadaan mendasari seperti tumor, peristiwa vaskular, jangkitan, atau tekanan intrakranial meningkat, di mana kesakitan adalah gejala, bukan penyakit itu sendiri."
 ---
 
 # Migrain vs Tumor Otak: Bendera Merah yang Tidak Harus Anda Abaikan
@@ -57,6 +69,23 @@ Yang tidak benigna: kecacatan medan penglihatan berterusan antara serangan sakit
 ## Pengimejan
 
 Untuk sakit kepala dengan bendera merah: **MRI otak dengan kontras gadolinium** — lebih sensitif daripada CT untuk lesi parenkim. **CT tanpa kontras** untuk pendarahan akut yang disyaki. Untuk SAH yang disyaki: CT angiografi untuk mengenal pasti aneurisme.
+
+## Soalan lazim
+
+**Apakah sakit kepala thunderclap dan kenapa ia kecemasan?**
+Sakit kepala thunderclap mencapai keamatan maksimum dalam masa satu minit — pesakit menerangkannya sebagai sakit kepala paling teruk dalam hidup mereka. Ia dianggap pendarahan subarachnoid sehingga dibuktikan sebaliknya, keadaan dengan kadar kematian 30 hingga 40%, dan memerlukan CT otak kecemasan serta, jika negatif, pungsi lumbar. Dapatkan bantuan segera jika anda mengalami ini.
+
+**Apakah rangka kerja SNOOP4 untuk tanda bahaya sakit kepala?**
+SNOOP4 merangkumi gejala Sistemik (demam, penurunan berat badan, sejarah kanser), gejala Neurologi (kelemahan, kesukaran bercakap, kecacatan medan penglihatan), Onset thunderclap, pesakit lebih tua (Older, sakit kepala baru selepas usia 50), Progresif, perubahan Postural, dicetuskan oleh Valsalva (batuk, mengedan), dan Papiloedema. Mana-mana daripada ini memerlukan penilaian perubatan segera.
+
+**Adakah sakit kepala pagi bermakna saya ada tumor otak?**
+Tidak semestinya, tetapi ia patut disiasat. Sakit kepala semasa terjaga yang bertambah baik sepanjang hari mencerminkan peningkatan fisiologi tekanan intrakranial semasa tidur, dan lesi yang mengambil ruang boleh menjadikan puncak pagi ini bergejala — biasanya tumpul, frontal, disertai loya. Corak ini bukan ciri universal tumor otak, tetapi apabila hadir, ia patut dinilai.
+
+**Bagaimana membezakan aura migrain daripada gejala penglihatan yang berbahaya?**
+Aura migrain yang biasa adalah lengkung cahaya berkelip yang berkembang perlahan, berlangsung 20 hingga 60 minit, stereotaip dan konsisten setiap kali. Yang tidak benigna: kecacatan medan penglihatan berterusan antara serangan, penglihatan berganda, kehilangan penglihatan mendadak, atau gejala penglihatan yang tidak mengikuti corak aura biasa — ini memerlukan pengimejan tanpa berlengah.
+
+**Apakah perbezaan antara sakit kepala primer dan sekunder?**
+Sakit kepala primer — migrain, tegang, kluster — adalah penyakit itu sendiri, tiada punca struktural, dan merangkumi majoriti besar kes sakit kepala. Sakit kepala sekunder disebabkan oleh keadaan mendasari seperti tumor, peristiwa vaskular, jangkitan, atau tekanan intrakranial meningkat, di mana kesakitan adalah gejala, bukan penyakit itu sendiri.
 
 ## Jaminan yang Seimbang
 

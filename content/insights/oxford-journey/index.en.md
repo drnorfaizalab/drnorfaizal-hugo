@@ -12,6 +12,15 @@ keywords: ["Oxford neurosurgeon Malaysia", "neurosurgery training Oxford", "prec
 seo:
   focusKeyword: "Oxford trained neurosurgeon Malaysia"
 show_appointment_button: true
+faq_schema:
+  - question: "What is awake craniotomy?"
+    answer: "Awake craniotomy is a procedure where the patient remains conscious during tumour resection near eloquent brain areas that control language, movement, and memory. Under carefully titrated anaesthesia and local scalp anaesthesia, the patient speaks, moves their limbs, and names objects during surgery, allowing the surgeon to adjust in real time if function begins to falter."
+  - question: "What is intraoperative neurophysiological monitoring?"
+    answer: "It is continuous, real-time electrophysiological surveillance during surgery — evoked potentials, motor-evoked potentials, EMG, EEG — acting as an invisible safety net that alerts the surgical team to neural changes before a clinical deficit occurs."
+  - question: "Why do some patients who expect surgery end up not having it?"
+    answer: "The treatment philosophy learned at Oxford holds that surgery is only performed when truly necessary. Every craniotomy carries risk — haemorrhage, oedema, infection, neurological deficit — so indications must be airtight before the first incision. Some patients who arrive expecting surgery leave with a surveillance plan instead, and vice versa."
+  - question: "Can Malaysian patients get world-class neurosurgical care without travelling abroad?"
+    answer: "Yes. The goal of bringing Oxford training, expertise, and standards home to Malaysia is so that every Malaysian patient deserves world-class neurosurgical care without leaving the country — close to family, in their own language, within a system they understand."
 ---
 
 There is a moment every surgeon remembers: the first time you understand that this is not merely technical work. That the instrument in your hand, held at a particular angle, is the difference between a life reclaimed and a life diminished. For me, that moment crystallised in Oxford — watching a consultant navigate an eloquent cortex tumour with a patience and economy of movement that seemed to slow time itself.
@@ -75,6 +84,20 @@ You do not need to go to London or Singapore to receive care that meets global s
 My practice at KPJ Tawakkal is built on this conviction. Every protocol, every monitoring standard, every surgical decision is informed by training at one of the world's great neurosurgical institutions and by the commitment to bring those standards to every patient who walks through the door.
 
 Oxford taught me what excellence looks like. Malaysia is where I practice it.
+
+## Frequently asked questions
+
+**What is awake craniotomy?**
+Awake craniotomy is a procedure where the patient remains conscious during tumour resection near eloquent brain areas that control language, movement, and memory. Under carefully titrated anaesthesia and local scalp anaesthesia, the patient speaks, moves their limbs, and names objects during surgery, allowing the surgeon to adjust in real time if function begins to falter.
+
+**What is intraoperative neurophysiological monitoring?**
+It is continuous, real-time electrophysiological surveillance during surgery — evoked potentials, motor-evoked potentials, EMG, EEG — acting as an invisible safety net that alerts the surgical team to neural changes before a clinical deficit occurs.
+
+**Why do some patients who expect surgery end up not having it?**
+The treatment philosophy learned at Oxford holds that surgery is only performed when truly necessary. Every craniotomy carries risk — haemorrhage, oedema, infection, neurological deficit — so indications must be airtight before the first incision. Some patients who arrive expecting surgery leave with a surveillance plan instead, and vice versa.
+
+**Can Malaysian patients get world-class neurosurgical care without travelling abroad?**
+Yes. The goal of bringing Oxford training, expertise, and standards home to Malaysia is so that every Malaysian patient deserves world-class neurosurgical care without leaving the country — close to family, in their own language, within a system they understand.
 
 ---
 

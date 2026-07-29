@@ -6,7 +6,7 @@ author: "Dr Nor Faizal Ahmad Bahuri"
 type: "blog"
 categories: ["Sakit Kepala"]
 tags: ["migrain", "sakit kepala", "penjagaan-diri"]
-description: "Sakit kepala yang datang tiba-tiba boleh membuatkan kita keliru. Sebagai pakar bedah neuro, ini adalah lima langkah penting yang saya nasihatkan pesakit saya untuk keselamatan dan kelegaan segera."
+description: "Sakit kepala yang datang tiba-tiba boleh mengelirukan. Sebagai pakar bedah neuro, ini lima langkah penting untuk keselamatan dan kelegaan segera."
 image: "/images/insights/insights-default.jpg"
 keywords: ["apa nak buat bila migrain", "kelegaan serangan sakit kepala", "pengurusan migrain Malaysia", "pakar sakit kepala Malaysia", "pertolongan cemas migrain"]
 seo:
@@ -16,6 +16,17 @@ cta:
   label: "Tempah Sesi Konsultasi"
   url: "/ms/hubungi"
 show_appointment_button: true
+faq_schema:
+  - question: "Apa yang perlu saya buat pertama apabila sakit kepala atau migrain menyerang?"
+    answer: "Cari bilik yang sunyi dan malap dengan segera, atau berhentikan kereta di tempat selamat jika anda sedang memandu. Serangan migrain selalunya membawa sensitiviti melampau terhadap cahaya dan bunyi, jadi mengurangkan maklumat deria yang masuk adalah langkah pertama paling penting untuk membolehkan sistem saraf anda bertenang."
+  - question: "Adakah teknik pernafasan benar-benar membantu semasa serangan sakit kepala?"
+    answer: "Ya. Rasa sakit mencetuskan tindak balas lawan-atau-lari yang menyebabkan pernafasan cetek dan ketegangan otot meningkat, yang boleh memburukkan sakit kepala. Pernafasan kotak — tarik nafas dalam kiraan empat, tahan empat, hembus empat, tahan empat — membantu mengawal selia sistem saraf autonomik dan memberi isyarat kepada badan bahawa bahaya segera telah berlalu."
+  - question: "Bilakah saya patut ambil ubat penahan sakit semasa serangan migrain?"
+    answer: "Seawal mungkin. Sakit kepala adalah rentetan peristiwa neurologi, jadi mengambil ubat penahan sakit ringkas seperti paracetamol pada tanda pertama kesakitan jauh lebih berkesan berbanding menunggu sehingga sakit menjadi teruk, di mana ubat kaunter farmasi selalunya sudah terlambat untuk berkesan."
+  - question: "Adakah tuaman sejuk membantu meredakan sakit kepala?"
+    answer: "Ya. Tuaman sejuk atau pek ais yang dibalut tuala nipis diletakkan di dahi dan belakang leher membantu mengecutkan saluran darah dan boleh memberi kesan kebas pada saraf permukaan di kawasan itu, termasuk cabang saraf trigeminal, memberikan kelegaan setempat yang ketara."
+  - question: "Bilakah sakit kepala yang kerap memerlukan lebih daripada bantuan awal?"
+    answer: "Jika serangan sakit kepala atau migrain adalah corak yang sering berulang dalam hidup anda, langkah bantuan awal sahaja tidak mencukupi — sakit kepala yang kerap bukanlah normal dan bukan sesuatu yang perlu diterima begitu sahaja. Ini memerlukan diagnosis yang betul untuk mengenal pasti punca sebenar dan membina pelan rawatan jangka panjang."
 ---
 
 Ia datang tanpa amaran. Satu saat, anda sedang memandu pulang dari kerja, fokus pada kesesakan lalu lintas. Tiba-tiba, rasa sakit yang mencucuk dan menyakitkan mula menyerang di belakang mata anda. Cahaya terasa terlalu terang, bunyi radio pula terlalu kuat. Apabila serangan sakit kepala yang teruk atau migrain melanda, rasanya seolah-olah anda hilang segala kawalan.
@@ -50,6 +61,23 @@ Kesan sejuk adalah mudah tetapi amat mendalam. Letakkan tuaman sejuk atau pek ai
 Anda tidak perlu menanggungnya seorang diri. Rasa sakit boleh mengaburkan pertimbangan anda. Hantar mesej kepada ahli keluarga atau rakan, atau hubungi seseorang untuk mendapatkan bantuan jika anda rasa tidak selamat atau kesakitan semakin memuncak tanpa kawalan. Memberitahu seseorang tentang apa yang sedang berlaku bukanlah tanda kelemahan; ia adalah langkah keselamatan yang penting. Ia memastikan ada orang yang sedar tentang keadaan anda dan boleh membantu jika perlu.
 
 Lima langkah ini adalah bantuan awal anda untuk serangan sakit kepala—satu kerangka kerja untuk mendapatkan semula rasa kawalan apabila anda merasa tidak berdaya.
+
+## Soalan lazim
+
+**Apa yang perlu saya buat pertama apabila sakit kepala atau migrain menyerang?**
+Cari bilik yang sunyi dan malap dengan segera, atau berhentikan kereta di tempat selamat jika anda sedang memandu. Serangan migrain selalunya membawa sensitiviti melampau terhadap cahaya dan bunyi, jadi mengurangkan maklumat deria yang masuk adalah langkah pertama paling penting untuk membolehkan sistem saraf anda bertenang.
+
+**Adakah teknik pernafasan benar-benar membantu semasa serangan sakit kepala?**
+Ya. Rasa sakit mencetuskan tindak balas lawan-atau-lari yang menyebabkan pernafasan cetek dan ketegangan otot meningkat, yang boleh memburukkan sakit kepala. Pernafasan kotak — tarik nafas dalam kiraan empat, tahan empat, hembus empat, tahan empat — membantu mengawal selia sistem saraf autonomik dan memberi isyarat kepada badan bahawa bahaya segera telah berlalu.
+
+**Bilakah saya patut ambil ubat penahan sakit semasa serangan migrain?**
+Seawal mungkin. Sakit kepala adalah rentetan peristiwa neurologi, jadi mengambil ubat penahan sakit ringkas seperti paracetamol pada tanda pertama kesakitan jauh lebih berkesan berbanding menunggu sehingga sakit menjadi teruk, di mana ubat kaunter farmasi selalunya sudah terlambat untuk berkesan.
+
+**Adakah tuaman sejuk membantu meredakan sakit kepala?**
+Ya. Tuaman sejuk atau pek ais yang dibalut tuala nipis diletakkan di dahi dan belakang leher membantu mengecutkan saluran darah dan boleh memberi kesan kebas pada saraf permukaan di kawasan itu, termasuk cabang saraf trigeminal, memberikan kelegaan setempat yang ketara.
+
+**Bilakah sakit kepala yang kerap memerlukan lebih daripada bantuan awal?**
+Jika serangan sakit kepala atau migrain adalah corak yang sering berulang dalam hidup anda, langkah bantuan awal sahaja tidak mencukupi — sakit kepala yang kerap bukanlah normal dan bukan sesuatu yang perlu diterima begitu sahaja. Ini memerlukan diagnosis yang betul untuk mengenal pasti punca sebenar dan membina pelan rawatan jangka panjang.
 
 Tetapi, jika serangan ini sering berulang dalam hidup anda, bantuan awal sahaja tidak mencukupi. Anda memerlukan strategi jangka panjang. Sakit kepala yang kerap bukanlah sesuatu yang normal, dan ia bukanlah sesuatu yang anda perlu terima sahaja.
 

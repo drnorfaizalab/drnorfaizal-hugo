@@ -16,6 +16,15 @@ cta:
   type: appointment
   label: "Book a Consultation"
   url: "/contact"
+faq_schema:
+  - question: "What are the warning signs of a brain tumour in a child?"
+    answer: "New or worsening seizures, morning headaches with vomiting, unsteady gait, sudden vision or speech changes, and unexplained personality or behavioural changes all warrant prompt neurological evaluation and imaging. Seizures, as in this case, are often the first noticeable sign."
+  - question: "Can awake craniotomy be performed on children?"
+    answer: "Awake craniotomy, which allows real-time mapping of brain function during surgery, generally requires the patient to be old enough to cooperate with intraoperative testing — typically adolescence or older. In younger children, surgeons rely instead on image-guided navigation and continuous neurophysiological monitoring (motor cortex monitoring, EMG, phase reversal) to protect brain function during surgery."
+  - question: "What is a gross total resection?"
+    answer: "A gross total resection means the surgeon has removed all visible traces of the tumour on imaging and under direct visualisation during surgery. It is the surgical goal for most brain tumours, as it improves outcomes and reduces the chance of early recurrence, though it must be balanced against the risk to surrounding functional brain tissue."
+  - question: "What treatment follows brain tumour surgery in children?"
+    answer: "Depending on the tumour grade and pathology, surgery is often followed by chemotherapy and radiotherapy to address microscopic tumour cells that surgery alone cannot remove, particularly for high-grade or malignant paediatric brain tumours."
 ---
 
 Last week, a family walked into my clinic carrying the weight of the world on their shoulders. They were seeking a second opinion for their 10-year-old daughter, who had recently suffered two seizures.
@@ -39,3 +48,17 @@ Alhamdulillah, the surgery went smoothly. We achieved a gross total resection—
 The true victory, however, came the next day. I walked into her room to find her sitting up, speaking clearly, eating, and even getting up to walk to the toilet on her own. The wave of relief that washed over her parents was a moment I will not soon forget.
 
 One battle is over, but her journey continues. She now begins six weeks of chemotherapy and radiotherapy, the next critical phase in her fight. Her courage is a profound reminder of why we do what we do—for children like her, and for families who choose hope in the face of impossible odds.
+
+## Frequently asked questions
+
+**What are the warning signs of a brain tumour in a child?**
+New or worsening seizures, morning headaches with vomiting, unsteady gait, sudden vision or speech changes, and unexplained personality or behavioural changes all warrant prompt neurological evaluation and imaging. Seizures, as in this case, are often the first noticeable sign.
+
+**Can awake craniotomy be performed on children?**
+Awake craniotomy, which allows real-time mapping of brain function during surgery, generally requires the patient to be old enough to cooperate with intraoperative testing — typically adolescence or older. In younger children, surgeons rely instead on image-guided navigation and continuous neurophysiological monitoring (motor cortex monitoring, EMG, phase reversal) to protect brain function during surgery.
+
+**What is a gross total resection?**
+A gross total resection means the surgeon has removed all visible traces of the tumour on imaging and under direct visualisation during surgery. It is the surgical goal for most brain tumours, as it improves outcomes and reduces the chance of early recurrence, though it must be balanced against the risk to surrounding functional brain tissue.
+
+**What treatment follows brain tumour surgery in children?**
+Depending on the tumour grade and pathology, surgery is often followed by chemotherapy and radiotherapy to address microscopic tumour cells that surgery alone cannot remove, particularly for high-grade or malignant paediatric brain tumours.

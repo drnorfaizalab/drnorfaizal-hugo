@@ -12,6 +12,13 @@ keywords: ["kelelahan doktor", "kesihatan mental pakar bedah saraf", "kesejahter
 seo:
   focusKeyword: "kesihatan mental pakar bedah saraf Malaysia"
 show_appointment_button: true
+faq_schema:
+  - question: "Kenapa Dr Nor Faizal pergi ke Padang Pasir Sahara?"
+    answer: "Selepas 48 bulan mengamalkan pembedahan tanpa rehat sebenar, beliau ke Sahara bukan untuk lari daripada kerja, tetapi untuk sengaja berhenti dan memproses beban emosi bertahun-tahun bekerja tanpa henti sebelum ia menjadi burnout."
+  - question: "Apakah perbezaan antara burnout dan berundur diri?"
+    answer: "Burnout terjadi pada diri kita — ia adalah keruntuhan yang datang apabila had diri diabaikan. Berundur diri adalah satu keputusan yang dibuat sebelum titik itu, satu jeda yang sengaja dipilih semasa masih ada pilihan untuk dibuat."
+  - question: "Kenapa tempoh diam penting bagi mereka dalam bidang yang mencabar?"
+    answer: "Pengeluaran yang berterusan tidak meninggalkan ruang bagi minda memproses pengalaman. Tempoh ketenangan yang sengaja — bukan kemalasan, tetapi jeda yang disengajakan — membolehkan kejernihan fikiran dan keputusan yang lebih baik menyusul, berbanding membiarkan seseorang terus bekerja sehingga rebah dengan sendirinya."
 ---
 
 48 bulan. Tiada rehat sebenar. Kemudian saya pergi ke Sahara — bukan untuk lari, tapi sebab saya perlu berhenti dan dengar diri sendiri semula.
@@ -65,3 +72,14 @@ Saya tetap di sana.
 Itulah latihan sebenar. Bukan di gim. Bukan dari kandungan yang saya konsumsi.
 
 *Duduk dalam gelap — dan memilih untuk tengok ke atas.*
+
+## Soalan lazim
+
+**Kenapa Dr Nor Faizal pergi ke Padang Pasir Sahara?**
+Selepas 48 bulan mengamalkan pembedahan tanpa rehat sebenar, beliau ke Sahara bukan untuk lari daripada kerja, tetapi untuk sengaja berhenti dan memproses beban emosi bertahun-tahun bekerja tanpa henti sebelum ia menjadi burnout.
+
+**Apakah perbezaan antara burnout dan berundur diri?**
+Burnout terjadi pada diri kita — ia adalah keruntuhan yang datang apabila had diri diabaikan. Berundur diri adalah satu keputusan yang dibuat sebelum titik itu, satu jeda yang sengaja dipilih semasa masih ada pilihan untuk dibuat.
+
+**Kenapa tempoh diam penting bagi mereka dalam bidang yang mencabar?**
+Pengeluaran yang berterusan tidak meninggalkan ruang bagi minda memproses pengalaman. Tempoh ketenangan yang sengaja — bukan kemalasan, tetapi jeda yang disengajakan — membolehkan kejernihan fikiran dan keputusan yang lebih baik menyusul, berbanding membiarkan seseorang terus bekerja sehingga rebah dengan sendirinya.

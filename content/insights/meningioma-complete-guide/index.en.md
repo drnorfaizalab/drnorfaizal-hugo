@@ -13,6 +13,17 @@ keywords: ["meningioma treatment Malaysia", "meningioma surgery Kuala Lumpur", "
 seo:
   focusKeyword: "meningioma treatment Malaysia"
 show_appointment_button: true
+faq_schema:
+  - question: "Is a meningioma cancer?"
+    answer: "Most meningiomas (around 80%) are WHO Grade I — benign, slow-growing, and not cancer in the sense most people fear. They arise from the meninges, the protective membranes around the brain, rather than from brain tissue itself, and a complete surgical resection often results in a functional cure."
+  - question: "What is a Simpson Grade resection?"
+    answer: "The Simpson Grade describes how completely a meningioma is removed during surgery. A Simpson Grade I resection — complete removal of the tumour, its dural attachment, and any affected bone — carries a significantly lower recurrence rate than a subtotal (Grade III) removal, which is why surgical thoroughness is the primary determinant of long-term outcome."
+  - question: "What are the treatment options for meningioma?"
+    answer: "Options include active surveillance with serial MRI for small, asymptomatic tumours; surgical resection (craniotomy) using neuro-navigation and intraoperative neurophysiological monitoring for symptomatic or growing tumours; and stereotactic radiosurgery (Gamma Knife or CyberKnife) for tumours in surgically high-risk locations or patients unfit for general anaesthesia."
+  - question: "Is meningioma hereditary?"
+    answer: "The vast majority of meningiomas are sporadic, with no inherited cause. However, multiple meningiomas may be associated with genetic conditions such as Neurofibromatosis Type 2 (NF2)."
+  - question: "Can a meningioma come back after surgery?"
+    answer: "Recurrence depends on the Simpson Grade achieved at the initial surgery. A Grade I resection has a significantly lower recurrence rate than a Grade III subtotal removal, which is why surgical thoroughness is paramount."
 ---
 
 # Meningioma: A Comprehensive Clinical Guide for Patients
@@ -69,6 +80,15 @@ Technologies like Gamma Knife or CyberKnife are excellent alternatives for tumou
 The prognosis for a Grade I meningioma is exceptionally high. Following a successful craniotomy, patients typically spend 4–5 days in the hospital. A return to professional life is usually feasible within 6–8 weeks.
 
 ## Frequently Asked Questions
+
+**Is a meningioma cancer?**
+Most meningiomas (around 80%) are WHO Grade I — benign, slow-growing, and not cancer in the sense most people fear. They arise from the meninges, the protective membranes around the brain, rather than from brain tissue itself, and a complete surgical resection often results in a functional cure.
+
+**What is a Simpson Grade resection?**
+The Simpson Grade describes how completely a meningioma is removed during surgery. A Simpson Grade I resection — complete removal of the tumour, its dural attachment, and any affected bone — carries a significantly lower recurrence rate than a subtotal (Grade III) removal, which is why surgical thoroughness is the primary determinant of long-term outcome.
+
+**What are the treatment options for meningioma?**
+Options include active surveillance with serial MRI for small, asymptomatic tumours; surgical resection (craniotomy) using neuro-navigation and intraoperative neurophysiological monitoring for symptomatic or growing tumours; and stereotactic radiosurgery (Gamma Knife or CyberKnife) for tumours in surgically high-risk locations or patients unfit for general anaesthesia.
 
 **Is it hereditary?** 
 The vast majority of meningiomas are sporadic. However, multiple tumours may be associated with genetic conditions such as Neurofibromatosis Type 2 (NF2).
