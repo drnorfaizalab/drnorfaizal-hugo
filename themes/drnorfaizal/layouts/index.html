@@ -23,7 +23,10 @@
       </div>
     </div>
     <div class="hero-photo slide-up">
-      <img src="/profile.jpg" alt="Dr Nor Faizal Ahmad Bahuri" width="400" height="600">
+      <picture>
+        <source srcset="/profile-hero.webp" type="image/webp">
+        <img src="/profile-hero.jpg" alt="Dr Nor Faizal Ahmad Bahuri" width="640" height="960" fetchpriority="high">
+      </picture>
     </div>
   </div>
 </section>
@@ -255,7 +258,10 @@
         <a href="{{ "/about" | relLangURL }}" class="btn btn-primary">{{ if eq .Lang "ms" }}Kenali Dr Nor Faizal{{ else }}Meet Dr Nor Faizal{{ end }}</a>
       </div>
       <div class="about-image">
-        <img src="/profile.jpg" alt="Dr Nor Faizal Ahmad Bahuri" class="about-photo" width="853" height="1280" fetchpriority="high">
+        <picture>
+          <source srcset="/profile-about.webp" type="image/webp">
+          <img src="/profile-about.jpg" alt="Dr Nor Faizal Ahmad Bahuri" class="about-photo" width="853" height="1280" loading="lazy">
+        </picture>
       </div>
     </div>
   </div>

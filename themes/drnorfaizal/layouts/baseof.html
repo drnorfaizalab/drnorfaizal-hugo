@@ -6,28 +6,27 @@
     <meta name="facebook-domain-verification" content="civ96y41599v498to10my7kaxpmmto" />
 
     {{ if not hugo.IsServer }}
-    <!-- Google tag (GA4 + Google Ads) -->
-    <script async data-cfasync="false" src="https://www.googletagmanager.com/gtag/js?id=G-KBGPKYML9T"></script>
+    <!-- Tracking stubs: instant, no network cost. The actual gtag.js /
+         fbevents.js payloads are fetched lazily on first interaction (or a
+         fallback delay) by /js/lazy-tracking.js so they don't compete with
+         the initial render for main-thread time. Queued calls below are
+         processed automatically once those scripts arrive. -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-KBGPKYML9T');
       gtag('config', 'AW-10969773020');
-    </script>
-    <!-- Meta Pixel -->
-    <script>
+
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
       n.callMethod.apply(n,arguments):n.queue.push(arguments)};
       if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window,document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
+      n.queue=[]}(window,document,'script');
       fbq('init', '2374840176361494');
       fbq('track', 'PageView');
     </script>
+    <script defer data-cfasync="false" src="{{ "/js/lazy-tracking.js" | relURL }}"></script>
     <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=2374840176361494&ev=PageView&noscript=1"
     /></noscript>
@@ -47,10 +46,11 @@
     <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relURL }}">
 
     <!-- Preload LCP image on homepage -->
-    {{ if .IsHome }}<link rel="preload" as="image" href="/profile.jpg" fetchpriority="high">{{ end }}
+    {{ if .IsHome }}<link rel="preload" as="image" href="/profile-hero.webp" type="image/webp" fetchpriority="high">{{ end }}
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="{{ "/css/main.css" | relURL }}">
+    {{ $mainCSS := resources.Get "css/main.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $mainCSS.RelPermalink }}" integrity="{{ $mainCSS.Data.Integrity }}">
     {{ range .Site.Params.custom_css }}
         <link rel="stylesheet" href="{{ . | relURL }}">
     {{ end }}

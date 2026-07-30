@@ -10,6 +10,7 @@ import os
 import sys
 import json
 import urllib.request
+import urllib.error
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -38,12 +39,20 @@ def submit(paths: list[str]) -> None:
 
     req = urllib.request.Request(
         ENDPOINT, data=payload, method="POST",
-        headers={"Content-Type": "application/json; charset=utf-8"},
+        headers={
+            "Content-Type": "application/json; charset=utf-8",
+            "Content-Length": str(len(payload)),
+        },
     )
-    with urllib.request.urlopen(req) as resp:
-        print(f"IndexNow response: {resp.status} {resp.reason}")
-        for u in url_list:
-            print(f"  submitted: {u}")
+    try:
+        with urllib.request.urlopen(req) as resp:
+            print(f"IndexNow response: {resp.status} {resp.reason}")
+            for u in url_list:
+                print(f"  submitted: {u}")
+    except urllib.error.HTTPError as e:
+        print(f"IndexNow error: {e.code} {e.reason}")
+        print(e.read().decode("utf-8", errors="replace"))
+        raise
 
 
 if __name__ == "__main__":
