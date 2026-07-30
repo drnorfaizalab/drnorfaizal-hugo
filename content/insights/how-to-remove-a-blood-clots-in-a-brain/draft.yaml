@@ -1,0 +1,64 @@
+# Fill in every field. Run the script again when done to generate the post.
+
+slug: "how-to-remove-a-blood-clots-in-a-brain"
+date: "2026-07-31"
+author: "Dr Nor Faizal Ahmad Bahuri"
+
+# Titles
+title_en: "How to Remove a Blood Clot in the Brain"
+title_ms: ""   # leave blank — Gemini will suggest
+
+# Categories and tags
+categories:
+  - "Neuro-Oncology"
+tags:
+  - "brain-hemorrhage"
+  - "minimally-invasive-surgery"
+  - "stroke"
+  - "hematoma-evacuation"
+
+# SEO
+seo_focus_keyword: "blood clot brain surgery Malaysia"
+keywords:
+  - "blood clot brain removal Malaysia"
+  - "minimally invasive brain surgery"
+  - "hematoma evacuation"
+  - "brain hemorrhage treatment Kuala Lumpur"
+  - "neurosurgeon Malaysia"
+
+# OG image (relative to /static)
+image: "/images/insights/insights-default.jpg"   # replace with post-specific image if available
+
+# CTA
+cta_type: "appointment"   # appointment | whatsapp | download | none
+show_appointment_button: true
+
+# ── YOUR RAW THOUGHTS ──────────────────────────────────────────────────────────
+# Write freely — bullet points, fragments, Manglish, BM, EN.
+# Gemini will restructure and polish.
+raw_thoughts: |
+  Video: https://youtube.com/shorts/GfnDlN8FGJo
+
+  What is this post about?
+  Bagaimana darah beku dalam otak dikeluarkan menggunakan teknik pembedahan minimally invasive.
+  Pendarahan otak atau bekuan darah (hematoma) boleh berlaku akibat strok, kecederaan kepala, atau pecah saluran darah — dan ia boleh menjadi kecemasan yang mengancam nyawa jika tidak dirawat segera.
+
+  Key clinical point / story / insight:
+  Video ini menunjukkan teknik minimally invasive untuk mengeluarkan darah beku dari otak, dengan sayatan yang lebih kecil, masa pemulihan lebih pantas, dan risiko yang lebih rendah berbanding kaedah pembedahan terbuka konvensional.
+
+  Tanda-tanda amaran yang perlu diketahui:
+  - Sakit kepala teruk yang datang secara tiba-tiba
+  - Kelemahan atau kebas pada satu bahagian badan
+  - Pertuturan kabur atau sukar memahami pertuturan
+  - Kesedaran menurun selepas kecederaan kepala
+
+  Why does this matter to my patient or GP?
+  Jangan tunggu — dapatkan rawatan kecemasan segera jika seseorang mengalami tanda-tanda ini. Early recognition of these red flags and timely referral for minimally invasive clot evacuation can be life-saving and improves recovery outcomes compared to delayed open surgery.
+
+  English summary (for reference): This video demonstrates a minimally invasive surgical technique for evacuating a blood clot from the brain, performed by Dr Nor Faizal, Oxford-trained Consultant Neurosurgeon & Interventional Pain Specialist at KPJ Tawakkal Specialist Hospital, Kuala Lumpur. Compared to conventional open surgery, this approach uses a smaller incision, offers faster recovery, and carries lower risk. If you or a loved one shows sudden severe headache, one-sided weakness, slurred speech, or declining consciousness after a head injury, seek emergency care immediately.
+
+  Anything personal or human about this topic?
+  This is a real case demo used for educational purposes — the kind of case that walks into the ER as a true emergency, where minutes matter. Frame it with the gravity and calm authority of someone who has done this many times, not sensationalized.
+
+  What should the reader DO after reading this?
+  If they or a loved one has any of the warning signs, go to the nearest A&E immediately or call 999. Otherwise, book a consultation to discuss brain health concerns.
