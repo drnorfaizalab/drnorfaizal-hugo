@@ -25,7 +25,7 @@ whatsapp_number: "601137235061"
 whatsapp_label: "WhatsApp a Referral"
 clinic_phone: "+603 4026 7777"
 clinic_ext: "5099"
-clinic_email: "clinic@drnorfaizal.com"
+clinic_email: "hello@drnorfaizal.com"
 booking_url: "https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri"
 
 credentials:

@@ -35,7 +35,7 @@ Tawakkal Specialist Hospital is a well-established specialist hospital in the he
 | **Digital Appointment** | [Book Your Slot](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) |
 | **Clinic Line** | [+603 4026 7777](tel:+60340267777) (Ext: **5099**) |
 | **Official WhatsApp** | [+6011-3723 5061](https://wa.me/601137235061) |
-| **Official Email** | [drnfaizal@kpjtawakkal.com](mailto:drnfaizal@kpjtawakkal.com) |
+| **Official Email** | [hello@drnorfaizal.com](mailto:hello@drnorfaizal.com) |
 
 > **Important Note:** For **Neurological Emergencies** (such as sudden seizures, acute vision loss, or sudden limb weakness), please proceed immediately to the nearest Emergency Department (A&E) or call **999** for urgent assistance.
 
@@ -102,7 +102,7 @@ Journalists, editors, and media producers seeking expert comment on neurosurgery
 
 Dr Nor Faizal is available for interviews, expert commentary, and media contributions on matters within his clinical expertise. Please submit media enquiries by email with your name, organisation, publication or broadcast outlet, and a brief description of the topic or question.
 
-**Media Contact:** [drnfaizal@kpjtawakkal.com](mailto:drnfaizal@kpjtawakkal.com)
+**Media Contact:** [hello@drnorfaizal.com](mailto:hello@drnorfaizal.com)
 
 Response to media enquiries is typically provided within two working days.
 
@@ -120,7 +120,7 @@ Dr Nor Faizal accepts invitations to speak at medical conferences, continuing me
 
 Invitations should include the event name, date, format, audience, and proposed topic. Please allow sufficient lead time for scheduling, particularly for international engagements.
 
-**Speaking Enquiries:** [drnfaizal@kpjtawakkal.com](mailto:drnfaizal@kpjtawakkal.com)
+**Speaking Enquiries:** [hello@drnorfaizal.com](mailto:hello@drnorfaizal.com)
 
 ---
 
@@ -133,7 +133,7 @@ Dr Nor Faizal welcomes enquiries from academic institutions, research groups, an
 - Case series and case report co-authorship
 - Surgical skills training and fellowship enquiries
 
-**Research Collaboration Contact:** [drnfaizal@kpjtawakkal.com](mailto:drnfaizal@kpjtawakkal.com)
+**Research Collaboration Contact:** [hello@drnorfaizal.com](mailto:hello@drnorfaizal.com)
 
 ---
 

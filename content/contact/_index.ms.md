@@ -33,7 +33,7 @@ Hospital Pakar Tawakkal adalah hospital pakar yang kukuh di tengah-tengah Kuala 
 | **Temujanji Digital** | [Tempah Slot Anda](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) |
 | **Talian Klinik** | [+603 4026 7777](tel:+60340267777) (Sambungan: **5099**) |
 | **WhatsApp Rasmi** | [+6011-3723 5061](https://wa.me/601137235061) |
-| **E-mel Rasmi** | [drnfaizal@kpjtawakkal.com](mailto:drnfaizal@kpjtawakkal.com) |
+| **E-mel Rasmi** | [hello@drnorfaizal.com](mailto:hello@drnorfaizal.com) |
 
 > **Nota Penting:** Untuk **Kecemasan Neurologi** (seperti sawan tiba-tiba, kehilangan penglihatan mendadak, atau kelemahan anggota badan secara tiba-tiba), sila pergi segera ke Jabatan Kecemasan (A&E) yang berdekatan atau hubungi **999** untuk bantuan segera.
 
@@ -100,7 +100,7 @@ Wartawan, editor, dan penerbit media yang memerlukan ulasan pakar dalam bidang b
 
 Dr Nor Faizal boleh ditemui untuk temu bual, ulasan pakar, dan sumbangan media dalam bidang kepakaran klinikalnya. Sila hantar pertanyaan media melalui e-mel berserta nama, organisasi, penerbitan atau saluran penyiaran, dan penerangan ringkas mengenai topik atau soalan anda.
 
-**Hubungan Media:** [drnfaizal@kpjtawakkal.com](mailto:drnfaizal@kpjtawakkal.com)
+**Hubungan Media:** [hello@drnorfaizal.com](mailto:hello@drnorfaizal.com)
 
 Maklum balas kepada pertanyaan media biasanya diberikan dalam masa dua hari bekerja.
 
@@ -118,7 +118,7 @@ Dr Nor Faizal menerima jemputan untuk berucap di persidangan perubatan, acara Pe
 
 Jemputan hendaklah menyertakan nama acara, tarikh, format, peserta, dan topik yang dicadangkan. Sila berikan masa yang mencukupi untuk penjadualan, terutama bagi penglibatan antarabangsa.
 
-**Pertanyaan Berucap:** [drnfaizal@kpjtawakkal.com](mailto:drnfaizal@kpjtawakkal.com)
+**Pertanyaan Berucap:** [hello@drnorfaizal.com](mailto:hello@drnorfaizal.com)
 
 ---
 
@@ -131,7 +131,7 @@ Dr Nor Faizal mengalu-alukan pertanyaan daripada institusi akademik, kumpulan pe
 - Pengarangan bersama siri kes dan laporan kes
 - Pertanyaan latihan kemahiran pembedahan dan fellowship
 
-**Hubungan Kerjasama Penyelidikan:** [drnfaizal@kpjtawakkal.com](mailto:drnfaizal@kpjtawakkal.com)
+**Hubungan Kerjasama Penyelidikan:** [hello@drnorfaizal.com](mailto:hello@drnorfaizal.com)
 
 ---
 
