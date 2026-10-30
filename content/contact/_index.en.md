@@ -15,6 +15,8 @@ Consultant Neurosurgeon & Interventional Pain Specialist
 
 *Discipline · Simplicity · Elegance*
 
+**Writing from overseas?** See [International Patients]({{< relref "/patients/international" >}}).
+
 ---
 
 ## Clinic Address

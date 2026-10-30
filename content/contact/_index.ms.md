@@ -13,6 +13,8 @@ Pakar Bedah Saraf & Pakar Pengurusan Sakit Intervensional
 
 *Disiplin · Kesederhanaan · Keanggunan*
 
+**Menulis dari luar negara?** Lihat [Pesakit Antarabangsa]({{< relref "/patients/international" >}}).
+
 ---
 
 ## Alamat Klinik
