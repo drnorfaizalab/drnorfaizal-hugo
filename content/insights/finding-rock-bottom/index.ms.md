@@ -15,7 +15,7 @@ seo:
 cta:
   type: appointment
   label: "Buat Janji Temu"
-  url: "/hubungi"
+  url: "/contact"
 faq_schema:
   - question: "Apakah metafora 'mengapungkan diri' untuk menghadapi diagnosis yang sukar?"
     answer: "Apabila jatuh ke dalam air yang dalam, meronta dan panik mencari dasar hanya melelahkan diri dalam kegelapan. Tindakan yang lebih bijak adalah berhenti melawan dan mengapungkan diri — menjimatkan tenaga, menarik nafas, dan mendapat kejelasan untuk melihat daratan. Diguna pakai pada berita sukar seperti diagnosis, ini bermakna berhenti seketika berbanding panik, yang memberi ruang untuk berkumpul semula bersama orang tersayang sebelum meneruskan langkah."

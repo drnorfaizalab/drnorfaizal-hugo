@@ -16,7 +16,7 @@ youtube_id: "GfnDlN8FGJo"
 cta:
   type: appointment
   label: "Buat Janji Temu"
-  url: "/hubungi"
+  url: "/contact"
 faq_schema:
   - question: "Apakah yang menyebabkan darah beku terbentuk di dalam otak?"
     answer: "Darah beku, atau hematoma, di dalam otak selalunya disebabkan oleh strok pendarahan (hemorrhagic stroke), di mana saluran darah pecah. Ia juga boleh berpunca daripada kecederaan kepala yang teruk, aneurisme yang pecah, atau malformasi arteriovenus (AVM). Tekanan darah tinggi adalah faktor risiko utama bagi kejadian ini."

@@ -17,7 +17,7 @@ youtube_id: "NWphhcxHi3s"
 cta:
   type: appointment
   label: "Buat Janji Temu"
-  url: "/hubungi"
+  url: "/contact"
 faq_schema:
   - question: "Apakah itu kraniotomi?"
     answer: "Kraniotomi ialah satu prosedur pembedahan di mana sebahagian tengkorak, dipanggil 'bone flap', dialihkan sementara untuk membolehkan pakar bedah saraf mencapai otak secara terus. Selepas pembedahan di bawahnya selesai — seperti membuang tumor, 'clipping' aneurisma, atau mengeluarkan pendarahan — 'bone flap' tersebut dipasang semula dan diikat dengan plat serta skru."
@@ -73,4 +73,4 @@ Kraniotomi adalah langkah pertama standard bagi kebanyakan pembedahan yang memer
 
 Jika video ini menimbulkan persoalan tentang diagnosis anda sendiri atau orang tersayang, pasukan Dr Nor Faizal sedia membantu.
 
-[Buat janji temu](/hubungi) di KPJ Tawakkal Specialist Hospital, Kuala Lumpur.
+[Buat janji temu](/ms/contact/) di KPJ Tawakkal Specialist Hospital, Kuala Lumpur.
