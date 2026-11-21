@@ -16,7 +16,7 @@ This repo is PUBLIC. Never commit secrets, patient data or `.env`.
 - Deployment is Cloudflare Pages' own Git integration (project `drnorfaizal-hugo`, build `hugo --gc --minify`, output `public`). A push to `main` builds and goes live on drnorfaizal.com within about a minute. There is no GitHub Action deploy.
 - Any other branch gets a preview build at `<hash>.drnorfaizal-hugo.pages.dev`; production is untouched.
 - Cache purge is not automatic. If a deployed change does not show, purge in Cloudflare (drnorfaizal.com > Caching > Configuration > Purge Everything) via Chrome.
-- Do not run `tools/deploy.sh` from cloud sessions. It needs a local `.env` and is for the home laptop only.
+- There is no deploy script; the push is the deploy.
 - Never put API tokens in chat or in the repo.
 
 ## Working rules for Claude

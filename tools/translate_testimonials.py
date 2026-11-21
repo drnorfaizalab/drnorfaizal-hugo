@@ -4,7 +4,7 @@ translate_testimonials.py — Translate missing 'ms' fields in data/testimonials
 using the Gemini API.
 
 Usage:
-    python scripts/translate_testimonials.py
+    python tools/translate_testimonials.py
 
 Requirements:
     pip install google-genai python-dotenv pyyaml

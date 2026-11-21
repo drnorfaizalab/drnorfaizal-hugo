@@ -1,79 +1,43 @@
-# AI Tools — drnorfaizal.com
+# Tools — drnorfaizal.com
 
-Two focused CLI tools — Gemini for content and curation.
+Content automation for the site. All generative tasks use Gemini (`gemini-2.5-pro`).
 
 ## Setup
 
 ```bash
-cd tools/
-npm install
+pip install google-genai python-dotenv pyyaml   # Python tools
+cd tools && npm install                         # Node tools
 ```
 
-Add a `.env` file in the project root (`drnorfaizal-hugo/`):
+Copy `.env.example` to `.env` in the project root (`drnorfaizal-hugo/`) and fill in the keys.
 
-```env
-ANTHROPIC_API_KEY=sk-ant-...
-GEMINI_API_KEY=AIza...
-NOTION_API_KEY=secret_...
-NOTION_CURATOR_PAGE_ID=<page-id>
-NOTION_RAW_IDEAS_DB_ID=<database-id>
-```
+## Tools
 
----
+| Tool | What it does | Guide |
+|---|---|---|
+| `new_insight.py` | Draft → bilingual insight post (EN + BM) | `docs/new-insight.md` |
+| `translate_content.py` | Translate one Hugo Markdown file EN ↔ BM | — |
+| `translate_testimonials.py` | Fill missing BM in `data/testimonials.yaml` | `docs/translate-testimonials.md` |
+| `indexnow_submit.py` | Notify Bing/Yandex of new or updated URLs | — |
+| `atomise.js` | One post or topic → 5 social pieces → Notion Raw Ideas Inbox | `docs/atomise.md` |
+| `ai-compose.js` | Ad-hoc Gemini writing → Notion Raw Ideas Inbox | below |
+| `ai-curate.js` | Daily/weekly content brief → Notion AI Curator Briefings | below |
+| `brand-context.md` | Shared brand voice, read by `translate_content.py` | — |
 
-## ai-compose.js
-
-Gemini for composing content ideas. All output is automatically saved to the **Raw Ideas Inbox** in Notion.
-
-**Model:** Gemini 2.5 Pro
+## Quick commands
 
 ```bash
-# Direct mode
-node ai-compose.js "write a TikTok hook about spine surgery"
-node ai-compose.js "translate this caption to Bahasa Malaysia" --file caption.md
-
-# Interactive mode
-node ai-compose.js
+python tools/new_insight.py <slug>                          # create draft, then run again to generate
+python tools/translate_content.py content/insights/<slug>/index.en.md
+python tools/translate_testimonials.py
+python tools/indexnow_submit.py /insights/<slug>/ /ms/insights/<bm-slug>/
+node tools/atomise.js content/insights/<slug>/index.en.md
+node tools/ai-compose.js "write a TikTok hook about spine surgery"
+node tools/ai-curate.js daily          # or: weekly, --dry-run
 ```
 
----
+npm shortcuts (from `tools/`): `npm run compose`, `npm run curate:daily`, `npm run curate:weekly`, `npm run curate:daily:dry`, `npm run curate:weekly:dry`.
 
-## ai-curate.js
+## Deploy
 
-Gemini generates structured daily or weekly content briefs and posts them to Notion (AI Curator Briefings).
-
-**Model:** Gemini 2.5 Pro
-
-```bash
-# Generate and post to Notion
-node ai-curate.js daily
-node ai-curate.js weekly
-
-# Preview without posting
-node ai-curate.js daily --dry-run
-node ai-curate.js weekly --dry-run
-```
-
-**Daily brief includes:**
-- TikTok/Reel hook (Bahasa Malaysia)
-- Instagram caption (English, 150–200 words)
-- LinkedIn post idea
-- Story/quote for Instagram or Facebook Stories
-
-**Weekly plan includes:**
-- Day-by-day themes (Mon–Sun)
-- TikTok/Reel concept per day
-- Instagram post topic
-- LinkedIn angle
-
----
-
-## npm scripts
-
-```bash
-npm run compose               # Interactive Gemini compose session
-npm run curate:daily          # Post daily brief to Notion
-npm run curate:weekly         # Post weekly plan to Notion
-npm run curate:daily:dry      # Dry run — print only
-npm run curate:weekly:dry     # Dry run — print only
-```
+No deploy script. Push to `main` and Cloudflare Pages builds and publishes in about a minute. If a change doesn't show, purge the cache in Cloudflare (Caching → Configuration → Purge Everything).
