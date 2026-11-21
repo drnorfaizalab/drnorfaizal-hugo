@@ -2,9 +2,9 @@
 """
 new_insight.py — Hugo content pipeline for Dr Nor Faizal
 
-Step 1:  python scripts/new_insight.py <slug>      → creates draft.yaml
+Step 1:  python tools/new_insight.py <slug>      → creates draft.yaml
 Step 2:  fill in draft.yaml
-Step 3:  python scripts/new_insight.py <slug>      → calls Gemini, saves index.en.md + index.ms.md
+Step 3:  python tools/new_insight.py <slug>      → calls Gemini, saves index.en.md + index.ms.md
 """
 
 import os
@@ -301,7 +301,7 @@ def create_draft(slug: str) -> None:
     )
     draft_path.write_text(content, encoding="utf-8")
     print(f"Draft created: {draft_path}")
-    print(f"Fill in the draft, then run: python scripts/new_insight.py {slug}")
+    print(f"Fill in the draft, then run: python tools/new_insight.py {slug}")
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────

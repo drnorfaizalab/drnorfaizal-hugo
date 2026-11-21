@@ -1,7 +1,7 @@
 # Script: translate_testimonials.py
 
 **File:** `tools/translate_testimonials.py`
-**Purpose:** Auto-translate missing Bahasa Malaysia (`bm`) fields in `data/testimonials.yaml` using the Claude API.
+**Purpose:** Fill missing Bahasa Malaysia (`ms`) fields in `data/testimonials.yaml` using Gemini.
 
 ---
 
@@ -18,30 +18,26 @@ Run from the project root (`drnorfaizal-hugo/`).
 ## What It Does
 
 1. Opens `data/testimonials.yaml`
-2. Scans every entry for a missing `bm` field
-3. Translates the `en` field from English → Bahasa Malaysia via Claude
-4. Writes the translated `bm` field back into the YAML file
-5. Skips entries that already have a `bm` value — safe to re-run
+2. Finds every entry with an `en` field but no `ms` field
+3. Translates `en` → modern conversational Bahasa Malaysia via Gemini (`gemini-2.5-pro`)
+4. Writes `ms` back into the YAML
+5. Skips entries that already have `ms` — safe to re-run
 
 ---
 
 ## Requirements
 
 ```bash
-pip install anthropic python-dotenv pyyaml
+pip install google-genai python-dotenv pyyaml
 ```
 
-Add your API key to `.env` at the project root:
-
-```env
-ANTHROPIC_API_KEY=sk-ant-...
-```
+`.env` (project root): `GEMINI_API_KEY=...`
 
 ---
 
 ## Adding a New Testimonial
 
-Edit `data/testimonials.yaml` and add a new entry with only the `en` field:
+Add an entry with only `en`:
 
 ```yaml
 - name: Patient Name
@@ -49,32 +45,22 @@ Edit `data/testimonials.yaml` and add a new entry with only the `en` field:
   stars: 5
 ```
 
-Then run the script to auto-generate the `bm` field:
-
-```bash
-python tools/translate_testimonials.py
-# Translating: Patient Name...
-# Done. 1 translation(s) added to data/testimonials.yaml
-```
-
-The carousel on the homepage will pick up the new entry automatically.
-
----
+Then run the script. The homepage carousel picks up the new entry automatically.
 
 ## testimonials.yaml Structure
 
 ```yaml
-- name: ""          # Display name on the card
-  en: ""            # English version of the review
-  bm: ""            # Bahasa Malaysia version (auto-filled by this script)
-  stars: 5          # Star rating — used to render ★ icons (1–5)
+- name: ""    # display name on the card
+  en: ""      # English review
+  ms: ""      # Bahasa Malaysia (auto-filled)
+  stars: 5    # 1–5
 ```
 
 ---
 
 ## Notes
 
-- Claude translates in modern, conversational Bahasa — not formal government language.
-- Medical terms without a natural Bahasa equivalent are kept in English.
-- The script never overwrites an existing `bm` field, so manual translations are safe.
-- Always skim the translated `bm` text after running — review for tone and accuracy.
+- The script rewrites the whole YAML file (`yaml.dump`), so formatting and line wrapping may change — check the diff.
+- It never overwrites an existing `ms` field.
+- Always skim the BM output for tone and accuracy before committing.
+- Get consent before publishing any testimonial; don't add identifying clinical details.
