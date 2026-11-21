@@ -4,7 +4,7 @@ translate_content.py — Translate Hugo Markdown content between English and Bah
 
 Usage:
     python tools/translate_content.py path/to/index.en.md
-    python tools/translate_content.py path/to/index.bm.md
+    python tools/translate_content.py path/to/index.ms.md
 
 Requirements:
     pip install google-genai python-dotenv
@@ -76,7 +76,7 @@ def translate_markdown(client, content: str, target_lang_name: str) -> str:
 
 def main():
     parser = argparse.ArgumentParser(description="Translate Hugo Markdown files (EN <-> BM)")
-    parser.add_argument("file_path", help="Path to the .en.md or .bm.md file to translate")
+    parser.add_argument("file_path", help="Path to the .en.md or .ms.md file to translate")
     args = parser.parse_args()
 
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -89,13 +89,13 @@ def main():
 
     filename = source_path.name
     if filename.endswith(".en.md"):
-        target_path = source_path.with_name(filename.replace(".en.md", ".bm.md"))
+        target_path = source_path.with_name(filename.replace(".en.md", ".ms.md"))
         target_lang_name = "Bahasa Malaysia (modern, conversational, educated Malaysian tone)"
-    elif filename.endswith(".bm.md"):
-        target_path = source_path.with_name(filename.replace(".bm.md", ".en.md"))
+    elif filename.endswith(".ms.md"):
+        target_path = source_path.with_name(filename.replace(".ms.md", ".en.md"))
         target_lang_name = "English (authoritative, medical precision)"
     else:
-        sys.exit("Error: File must end with '.en.md' or '.bm.md'.")
+        sys.exit("Error: File must end with '.en.md' or '.ms.md'.")
 
     print(f"Reading: {source_path}")
     print(f"Translating to {target_lang_name.split('(')[0].strip()}...")
