@@ -29,7 +29,7 @@ PROJECT_ROOT = Path(__file__).parent.parent
 load_dotenv(PROJECT_ROOT / ".env")
 
 YAML_PATH    = PROJECT_ROOT / "data" / "testimonials.yaml"
-GEMINI_MODEL = "gemini-2.5-pro"
+GEMINI_MODEL = "gemini-3.1-pro-preview"
 
 SYSTEM_PROMPT = """\
 You are a bilingual translator for Dr. Nor Faizal Ahmad Bahuri, an Oxford-trained \

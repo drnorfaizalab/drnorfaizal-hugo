@@ -29,7 +29,7 @@ PROJECT_ROOT = Path(__file__).parent.parent
 load_dotenv(PROJECT_ROOT / ".env")
 
 BRAND_CONTEXT_PATH = PROJECT_ROOT / "tools" / "brand-context.md"
-GEMINI_MODEL = "gemini-2.5-pro"
+GEMINI_MODEL = "gemini-3.1-pro-preview"
 
 def get_system_instruction(target_lang_name: str) -> str:
     brand_context = ""

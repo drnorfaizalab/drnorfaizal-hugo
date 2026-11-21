@@ -1,6 +1,6 @@
 # Tools — drnorfaizal.com
 
-Content automation for the site. All generative tasks use Gemini (`gemini-2.5-pro`). Run every command from the project root (`drnorfaizal-hugo/`).
+Content automation for the site. All generative tasks use Gemini (`gemini-3.1-pro-preview`). Run every command from the project root (`drnorfaizal-hugo/`).
 
 ## Setup
 

@@ -19,7 +19,7 @@ Run from the project root (`drnorfaizal-hugo/`).
 
 1. Opens `data/testimonials.yaml`
 2. Finds every entry with an `en` field but no `ms` field
-3. Translates `en` → modern conversational Bahasa Malaysia via Gemini (`gemini-2.5-pro`)
+3. Translates `en` → modern conversational Bahasa Malaysia via Gemini (`gemini-3.1-pro-preview`)
 4. Writes `ms` back into the YAML
 5. Skips entries that already have `ms` — safe to re-run
 

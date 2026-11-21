@@ -40,7 +40,7 @@ Photos: put them in the same folder and resize to ≤1200 px wide before committ
 python tools/new_insight.py why-your-headache-needs-an-mri
 ```
 
-Same command again. Because `draft.yaml` now exists, the script calls Gemini (`gemini-2.5-pro`) and writes:
+Same command again. Because `draft.yaml` now exists, the script calls Gemini (`gemini-3.1-pro-preview`) and writes:
 
 - `index.en.md` — English post
 - `index.ms.md` — Bahasa Malaysia post, written from the draft and the English post

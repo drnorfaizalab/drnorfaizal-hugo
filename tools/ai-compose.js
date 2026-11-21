@@ -22,7 +22,7 @@ config({ path: path.resolve(__dirname, "../.env") });
 
 // ─── CONFIG ──────────────────────────────────────────────────────────────────
 
-const MODEL = "gemini-2.5-pro";
+const MODEL = "gemini-3.1-pro-preview";
 
 const SYSTEM = `You are the content and language specialist for Dr Nor Faizal Ahmad Bahuri —
 Oxford-trained Consultant Neurosurgeon & Interventional Pain Specialist based in Kuala Lumpur.

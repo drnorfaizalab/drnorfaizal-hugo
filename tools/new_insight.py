@@ -33,7 +33,7 @@ HUGO_ROOT    = Path(__file__).parent.parent
 INSIGHTS_DIR = HUGO_ROOT / "content" / "insights"
 load_dotenv(HUGO_ROOT / ".env")
 
-GEMINI_MODEL = "gemini-2.5-pro"
+GEMINI_MODEL = "gemini-3.1-pro-preview"
 
 BRAND_CONTEXT = """\
 You are the editorial voice of Dr Nor Faizal Ahmad Bahuri — Consultant Neurosurgeon \
