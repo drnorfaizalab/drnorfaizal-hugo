@@ -63,4 +63,4 @@ Dr Nor Faizal shares regular updates on neurosurgery, pain management, and patie
 
 [@drnorfaizalbahuri on Instagram](https://www.instagram.com/drnorfaizalbahuri/)
 
-[Book a consultation](/temujanji/)
+[Book a consultation](/contact/)

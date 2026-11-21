@@ -70,4 +70,4 @@ Kandungan sains saraf berasaskan bukti — dalam bahasa mudah — setiap minggu.
 
 [@drnorfaizalbahuri di TikTok](https://www.tiktok.com/@drnorfaizalbahuri)
 
-[Buat temujanji konsultasi sakit kepala](/temujanji/)
+[Buat temujanji konsultasi sakit kepala](/ms/contact/)

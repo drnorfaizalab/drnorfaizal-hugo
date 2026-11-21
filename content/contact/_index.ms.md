@@ -135,4 +135,4 @@ Dr Nor Faizal mengalu-alukan pertanyaan daripada institusi akademik, kumpulan pe
 
 ---
 
-[Baca Soalan Lazim](/ms/blog/pasien/faq/) | [Mengenai Dr Nor Faizal](/ms/pakar/)
+[Baca Soalan Lazim](/ms/patients/faq/) | [Mengenai Dr Nor Faizal](/ms/about/)

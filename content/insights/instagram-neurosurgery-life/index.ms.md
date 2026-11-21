@@ -63,4 +63,4 @@ Dr Nor Faizal berkongsi kemas kini tetap tentang bedah saraf, pengurusan kesakit
 
 [@drnorfaizalbahuri di Instagram](https://www.instagram.com/drnorfaizalbahuri/)
 
-[Buat temujanji](/temujanji/)
+[Buat temujanji](/ms/contact/)

@@ -76,4 +76,4 @@ Bawa ke hospital dengan segera jika kanak-kanak berusia bawah 2 tahun, jika jatu
 
 Jika anda bimbang tentang kecederaan kepala anak anda atau ada soalan berkaitan, hubungi klinik saya di Hospital Pakar KPJ Tawakkal, Kuala Lumpur.
 
-[Buat Temujanji](/ms/temujanji/)
+[Buat Temujanji](/ms/contact/)

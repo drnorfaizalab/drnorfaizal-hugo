@@ -16,7 +16,7 @@ seo:
 cta:
   type: appointment
   label: "Buat Janji Temu"
-  url: "/hubungi"
+  url: "/contact"
 faq_schema:
   - question: "Apakah tanda amaran tumor otak pada kanak-kanak?"
     answer: "Sawan baru atau yang semakin kerap, sakit kepala waktu pagi disertai muntah, cara berjalan yang tidak stabil, perubahan mendadak pada penglihatan atau pertuturan, dan perubahan personaliti atau tingkah laku yang tidak dapat dijelaskan semuanya memerlukan penilaian neurologi dan pengimejan segera. Sawan, seperti dalam kes ini, selalunya tanda pertama yang disedari."

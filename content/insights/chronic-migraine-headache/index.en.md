@@ -176,5 +176,5 @@ If you are experiencing frequent, debilitating headaches or have noted a change 
 
 **Dr Nor Faizal** offers comprehensive diagnostic evaluation and advanced interventional options for headache and pain management.
 
-[Back to Blog](/blog)
+[Back to Blog](/insights/)
 

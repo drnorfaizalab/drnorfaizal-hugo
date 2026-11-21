@@ -168,4 +168,4 @@ If you are experiencing frequent, disabling headaches, have noticed a change in 
 
 **Dr Nor Faizal** provides comprehensive evaluation for patients with headache disorders, including assessment for secondary causes and interventional options where appropriate.
 
-[Back to Patient Guides](/blog/pasien/guides)
+[Back to Patient Guides](/patients/guides)

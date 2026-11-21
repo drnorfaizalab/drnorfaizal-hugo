@@ -137,4 +137,4 @@ Dr Nor Faizal welcomes enquiries from academic institutions, research groups, an
 
 ---
 
-[Read the FAQ](/en/blog/pasien/faq/) | [About Dr Nor Faizal](/en/pakar/)
+[Read the FAQ](/patients/faq/) | [About Dr Nor Faizal](/about/)

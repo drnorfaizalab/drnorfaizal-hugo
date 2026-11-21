@@ -175,4 +175,4 @@ If you are experiencing persistent back or neck pain, arm or leg symptoms, or an
 
 **Dr Nor Faizal** is an Oxford-trained neurosurgeon with expertise in complex spinal conditions, including degenerative spine disease, spinal tumours, and minimally invasive spinal surgery.
 
-[Back to Patient Guides](/blog/pasien/guides)
+[Back to Patient Guides](/patients/guides)

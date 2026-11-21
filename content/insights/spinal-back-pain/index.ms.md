@@ -182,4 +182,4 @@ Jika anda mengalami sakit belakang atau leher yang berterusan, gejala pada tanga
 
 **Dr Nor Faizal** adalah pakar bedah saraf terlatih Oxford dengan kepakaran dalam keadaan tulang belakang kompleks, penyakit tulang belakang degeneratif, tumor tulang belakang, dan pembedahan tulang belakang invasif minimum.
 
-[Kembali ke Blog](/blog)
+[Kembali ke Blog](/ms/insights/)

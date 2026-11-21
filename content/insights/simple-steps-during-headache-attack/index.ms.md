@@ -14,7 +14,7 @@ seo:
 cta:
   type: appointment
   label: "Tempah Sesi Konsultasi"
-  url: "/ms/hubungi"
+  url: "/contact"
 show_appointment_button: true
 faq_schema:
   - question: "Apa yang perlu saya buat pertama apabila sakit kepala atau migrain menyerang?"

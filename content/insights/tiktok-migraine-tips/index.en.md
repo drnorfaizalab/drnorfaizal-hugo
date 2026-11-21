@@ -70,4 +70,4 @@ Short, evidence-based neuroscience content — in plain language — every week.
 
 [@drnorfaizalbahuri on TikTok](https://www.tiktok.com/@drnorfaizalbahuri)
 
-[Book a headache consultation](/temujanji/)
+[Book a headache consultation](/contact/)

@@ -76,4 +76,4 @@ Go to hospital immediately if the child is under 2 years old, if the fall was fr
 
 If you have concerns about a child's head injury or have questions about paediatric neurosurgery, contact my clinic at KPJ Tawakkal Specialist Hospital, Kuala Lumpur.
 
-[Book an Appointment](/temujanji/)
+[Book an Appointment](/contact/)

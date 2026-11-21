@@ -175,4 +175,4 @@ Jika sakit kepala mengganggu hidup anda, atau jika anda perasan ada perubahan pa
 
 **Dr Nor Faizal** menawarkan diagnosis yang teliti dan pilihan rawatan moden untuk semua jenis sakit kepala dan migrain.
 
-[Tempah Konsultasi](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Kembali ke Blog](/blog)
+[Tempah Konsultasi](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Kembali ke Blog](/ms/insights/)

@@ -16,7 +16,7 @@ seo:
 cta:
   type: appointment
   label: "Buat Janji Temu"
-  url: "/hubungi"
+  url: "/contact"
 youtube_id: "HHjTkKm6J-0"
 faq_schema:
   - question: "Kenapa jatuh dari tangga berbahaya, walaupun tiada luka kepala yang ketara?"

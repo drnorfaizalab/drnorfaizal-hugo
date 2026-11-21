@@ -68,4 +68,4 @@ Diagnosis dibuat berdasarkan corak sakit muka sebelah yang tiba-tiba dan teruk, 
 
 Jika anda atau keluarga yang mengalami kesakitan muka sebegini, buat appointment untuk dapatkan pandangan saya.
 
-[Buat Temujanji](/ms/temujanji/)
+[Buat Temujanji](/ms/contact/)
