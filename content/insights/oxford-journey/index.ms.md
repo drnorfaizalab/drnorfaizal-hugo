@@ -5,7 +5,7 @@ description: "Dari Malaysia ke Oxford dan kembali — renungan peribadi tentang 
 date: 2025-03-14
 draft: false
 type: "blog"
-categories: ["Peribadi", "Kecemerlangan Perubatan"]
+categories: ["Peribadi"]
 tags: ["Oxford", "latihan pembedahan saraf", "pembedahan tepat", "pakar bedah saraf Malaysia", "felo"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/oxford-journey.png"

@@ -4,7 +4,7 @@ description: "Pandangan di sebalik tabir bidang bedah saraf melalui Instagram Dr
 date: 2025-04-10
 type: "blog"
 social_platform: "instagram"
-categories: ["Behind the Scenes", "Patient Education"]
+categories: ["Di Sebalik Tabir", "Pendidikan Pesakit"]
 tags: ["bedah saraf", "instagram", "di sebalik tabir", "bilik bedah", "kehidupan perubatan"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/photo-output.jpg"

@@ -4,7 +4,7 @@ date: 2026-04-18T09:13:55+08:00
 draft: false
 type: "blog"
 author: "Dr Nor Faizal Ahmad Bahuri"
-categories: ["Neuro-Oncology"]
+categories: ["Neurooncology", "Paediatric Neurosurgery"]
 tags: ["Paediatric Brain Tumour", "Brain Surgery", "Neurosurgery Malaysia"]
 description: "A 10-year-old girl faced a life-threatening brain tumour. Dr. Nor Faizal recounts the high-risk surgery and the difficult decisions that offered her new hope."
 image: "/images/insights/insights-default.jpg"

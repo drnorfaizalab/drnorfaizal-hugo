@@ -4,7 +4,7 @@ description: "Panduan pesakit tentang keadaan tulang belakang — slip disc, spi
 date: 2025-03-10
 draft: false
 type: "blog"
-categories: ["Panduan Pesakit"]
+categories: ["Tulang Belakang", "Pendidikan Pesakit"]
 tags: ["tulang belakang", "sakit belakang", "bedah saraf", "sakit neuropatik"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 pdf_available: true

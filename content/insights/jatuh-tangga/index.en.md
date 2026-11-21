@@ -5,7 +5,7 @@ date: 2026-05-11T08:30:08+08:00
 draft: false
 type: "blog"
 author: "Dr Nor Faizal Ahmad Bahuri"
-categories: ["Spine"]
+categories: ["Head Injury", "Patient Education"]
 tags: ["head-injury", "fall-prevention", "elderly-care", "traumatic-brain-injury"]
 description: "A 3 AM call about a 68-year-old who fell down the stairs. Dr Nor Faizal shares why a simple fall can be life-threatening — and how to prevent head injuries at home."
 image: "/images/insights/insights-default.jpg"

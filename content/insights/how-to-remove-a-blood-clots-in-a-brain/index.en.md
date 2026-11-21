@@ -4,7 +4,7 @@ date: 2026-07-31T00:42:10+08:00
 draft: false
 type: "blog"
 author: "Dr Nor Faizal Ahmad Bahuri"
-categories: ["Neuro-Oncology"]
+categories: ["Brain Haemorrhage", "Patient Education"]
 tags: ["brain-hemorrhage", "minimally-invasive-surgery", "stroke", "hematoma-evacuation"]
 description: "A life-threatening blood clot in the brain requires urgent care. Learn how minimally invasive surgery in Malaysia offers a safer, faster path to recovery."
 image: "/images/insights/insights-default.jpg"

@@ -5,7 +5,7 @@ date: 2025-03-10
 lastmod: 2025-03-10
 draft: false
 type: "blog"
-categories: ["Neuro-onkologi", "Ketumbuhan Otak"]
+categories: ["Neuro-onkologi", "Tumor Otak"]
 tags: ["meningioma", "ketumbuhan otak", "pembedahan saraf", "kraniotomi", "Simpson Grade"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/meningioma-guide.png"

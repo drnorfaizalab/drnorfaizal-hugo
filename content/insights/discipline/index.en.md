@@ -11,7 +11,7 @@ type: "blog"
 
 # Post-specific metadata
 author: "Dr Nor Faizal Ahmad Bahuri"
-categories: ["Philosophy", "Medical Excellence", "Personal"]
+categories: ["Reflections", "Personal"]
 tags: ["discipline", "Oxford", "neurosurgery", "mindset"]
 
 # Content settings

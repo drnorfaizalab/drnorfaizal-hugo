@@ -10,7 +10,7 @@ title_bm: ""   # leave blank — Gemini will suggest
 
 # Categories and tags
 categories:
-  - "Neuro-Oncology"   # e.g. Pain Management | Neuro-Oncology | Headache | Spine
+  - "Neurooncology"   # e.g. Neurooncology | Headache & Migraine | Pain Management | Spine
 tags:
   - ""   # e.g. migraine, spinal-cord-stimulation, brain-tumour
 

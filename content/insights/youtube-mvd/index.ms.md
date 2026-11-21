@@ -4,7 +4,7 @@ description: "Dr Nor Faizal melakukan operasi memisahkan salur darah yang meneka
 date: 2026-03-01
 type: "blog"
 social_platform: "youtube"
-categories: ["Sakit Muka", "Patient Education"]
+categories: ["Sakit Muka", "Pendidikan Pesakit"]
 tags: ["Trigeminal Neuralgia", "microvascular decompression", "bedah saraf", "pendidikan pesakit", "video", "youtube"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 show_appointment_button: true

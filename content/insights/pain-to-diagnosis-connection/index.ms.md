@@ -5,7 +5,7 @@ description: "Sakit kronik selalunya isyarat pertama masalah neurologi. Seorang 
 date: 2025-03-12
 draft: false
 type: "blog"
-categories: ["Pengurusan Kesakitan", "Diagnosis"]
+categories: ["Pengurusan Kesakitan", "Pendidikan Pesakit"]
 tags: ["kesakitan kronik", "sakit kepala", "diagnosis", "kesakitan neuropatik", "tanda bahaya"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/pain-diagnosis.png"

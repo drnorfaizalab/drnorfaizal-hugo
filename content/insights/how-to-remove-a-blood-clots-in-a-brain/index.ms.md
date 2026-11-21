@@ -4,7 +4,7 @@ date: 2026-07-31T00:42:10+08:00
 draft: false
 type: "blog"
 author: "Dr Nor Faizal Ahmad Bahuri"
-categories: ["Neuro-Onkologi"]
+categories: ["Pendarahan Otak", "Pendidikan Pesakit"]
 tags: ["pendarahan otak", "pembedahan invasif minimal", "strok", "evakuasi hematoma"]
 description: "Darah beku dalam otak adalah kecemasan yang mengancam nyawa. Ketahui bagaimana pembedahan invasif minimal di Malaysia menawarkan pemulihan yang lebih selamat & cepat."
 image: "/images/insights/insights-default.jpg"

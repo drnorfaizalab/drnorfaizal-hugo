@@ -4,7 +4,7 @@ date: 2026-03-31T02:27:22+08:00
 draft: false
 author: "Dr Nor Faizal Ahmad Bahuri"
 type: "blog"
-categories: ["Sakit Kepala"]
+categories: ["Sakit Kepala & Migrain", "Pendidikan Pesakit"]
 tags: ["migrain", "sakit kepala", "penjagaan-diri"]
 description: "Sakit kepala yang datang tiba-tiba boleh mengelirukan. Sebagai pakar bedah neuro, ini lima langkah penting untuk keselamatan dan kelegaan segera."
 image: "/images/insights/insights-default.jpg"

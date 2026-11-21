@@ -4,7 +4,7 @@ description: "Most headaches are benign, but some are symptoms of serious condit
 date: 2025-03-13
 draft: false
 type: "blog"
-categories: ["Pain Management", "Neurology"]
+categories: ["Headache & Migraine", "Patient Education"]
 tags: ["migraine", "headache", "red flags", "brain tumour", "thunderclap headache"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/migraine-red-flags.png"

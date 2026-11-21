@@ -4,7 +4,7 @@ description: "Dr Nor Faizal berkongsi tiga tanda amaran migrain yang memerlukan 
 date: 2025-04-05
 type: "blog"
 social_platform: "tiktok"
-categories: ["Headache & Migraine", "Patient Education"]
+categories: ["Sakit Kepala & Migrain", "Pendidikan Pesakit"]
 tags: ["migrain", "sakit kepala", "tanda bahaya", "neurologi", "tiktok", "video"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/insights-default.jpg"

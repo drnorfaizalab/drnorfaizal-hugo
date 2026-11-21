@@ -4,7 +4,7 @@ description: "Fahami beza migrain, sakit kepala biasa, dan bila ia jadi tanda ba
 date: 2026-03-14
 draft: false
 type: "blog"
-categories: ["Panduan Pesakit"]
+categories: ["Sakit Kepala & Migrain", "Pendidikan Pesakit"]
 tags: ["migrain", "sakit kepala", "sakit kronik", "tanda bahaya", "rawatan migrain"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 pdf_available: false

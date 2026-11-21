@@ -11,7 +11,7 @@ type: "blog"
 
 # Post-specific metadata
 author: "Dr Nor Faizal Ahmad Bahuri"
-categories: ["Falsafah", "Kecemerlangan Perubatan", "Peribadi"]
+categories: ["Refleksi", "Peribadi"]
 tags: ["disiplin", "Oxford", "pembedahan saraf", "mindset"]
 
 # Content settings

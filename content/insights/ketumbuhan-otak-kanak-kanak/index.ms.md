@@ -5,7 +5,7 @@ date: 2026-04-18T09:13:55+08:00
 draft: false
 type: "blog"
 author: "Dr Nor Faizal Ahmad Bahuri"
-categories: ["Neuro-Onkologi"]
+categories: ["Neuro-onkologi", "Bedah Saraf Kanak-kanak"]
 tags: ["Tumor Otak Kanak-kanak", "Pembedahan Otak", "Pakar Bedah Saraf Malaysia"]
 description: "Seorang gadis 10 tahun berdepan tumor otak yang mengancam nyawa. Dr. Nor Faizal menceritakan pembedahan berisiko tinggi yang memberinya harapan baru."
 image: "/images/insights/insights-default.jpg"

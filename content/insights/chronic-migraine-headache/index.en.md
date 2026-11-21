@@ -5,7 +5,7 @@ description: "A clinical overview of chronic migraine, cluster headaches, and se
 date: 2026-03-14
 draft: false
 type: "blog"
-categories: ["Patient Guides"]
+categories: ["Headache & Migraine", "Patient Education"]
 tags: ["migraine", "headache", "chronic pain", "neuro-oncology", "red flags"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 pdf_available: false

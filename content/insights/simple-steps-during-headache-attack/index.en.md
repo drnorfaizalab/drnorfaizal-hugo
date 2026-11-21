@@ -4,7 +4,7 @@ date: 2026-03-31T02:27:22+08:00
 draft: false
 author: "Dr Nor Faizal Ahmad Bahuri"
 type: "blog"
-categories: ["Headache"]
+categories: ["Headache & Migraine", "Patient Education"]
 tags: ["migraine", "headache", "self-care"]
 description: "A sudden, severe headache can be disorienting. As a neurosurgeon, here are the five crucial steps I advise my patients to take for immediate safety and relief."
 image: "/images/insights/insights-default.jpg"

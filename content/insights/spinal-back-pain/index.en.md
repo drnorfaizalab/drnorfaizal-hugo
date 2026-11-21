@@ -4,7 +4,7 @@ description: "A patient guide to spinal conditions — herniated discs, spinal s
 date: 2025-03-10
 draft: false
 type: "blog"
-categories: ["Patient Guides"]
+categories: ["Spine", "Patient Education"]
 tags: ["spinal", "back pain", "neurosurgery", "neuropathic pain"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 pdf_available: true

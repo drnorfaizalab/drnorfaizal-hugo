@@ -5,7 +5,7 @@ description: "Chronic pain is often the first signal of an underlying neurologic
 date: 2025-03-12
 draft: false
 type: "blog"
-categories: ["Pain Management", "Diagnosis"]
+categories: ["Pain Management", "Patient Education"]
 tags: ["chronic pain", "headache", "diagnosis", "neuropathic pain", "red flags", "neurosurgery"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/pain-diagnosis.png"

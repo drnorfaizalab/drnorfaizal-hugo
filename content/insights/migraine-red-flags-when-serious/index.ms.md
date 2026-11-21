@@ -5,7 +5,7 @@ description: "Kebanyakan sakit kepala adalah benigna, tetapi sesetengahnya adala
 date: 2025-03-13
 draft: false
 type: "blog"
-categories: ["Pengurusan Kesakitan", "Neurologi"]
+categories: ["Sakit Kepala & Migrain", "Pendidikan Pesakit"]
 tags: ["migrain", "sakit kepala", "bendera merah", "tumor otak", "sakit kepala thunderclap"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/migraine-red-flags.png"

@@ -4,7 +4,7 @@ description: "From Malaysia to Oxford and back — a personal reflection on what
 date: 2025-03-14
 draft: false
 type: "blog"
-categories: ["Personal", "Medical Excellence"]
+categories: ["Personal"]
 tags: ["Oxford", "neurosurgery training", "precision surgery", "Malaysia neurosurgeon", "fellowship"]
 author: "Dr Nor Faizal Ahmad Bahuri"
 image: "/images/insights/oxford-journey.png"

@@ -5,7 +5,7 @@ date: 2026-03-29
 draft: false
 type: "blog"
 author: "Dr Nor Faizal Ahmad Bahuri"
-categories: ["Personal"]
+categories: ["Peribadi"]
 tags: ["mindset", "Oxford", "neurosurgery"]
 image: "/images/insights/insights-default.jpg"
 keywords: ["kelelahan doktor", "kesihatan mental pakar bedah saraf", "kesejahteraan doktor Malaysia", "padang pasir Sahara", "pakar bedah saraf Malaysia"]

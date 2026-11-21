@@ -5,7 +5,7 @@ date: 2026-05-11T08:30:08+08:00
 draft: false
 type: "blog"
 author: "Dr Nor Faizal Ahmad Bahuri"
-categories: ["Kecederaan Kepala"]
+categories: ["Kecederaan Kepala", "Pendidikan Pesakit"]
 tags: ["kecederaan-kepala", "pencegahan-jatuh", "penjagaan-warga-emas", "kecederaan-otak-traumatik"]
 description: "Panggilan pukul 3 pagi tentang pesakit 68 tahun yang jatuh tangga. Dr Nor Faizal kongsi mengapa jatuh boleh mengancam nyawa & tip elak kecederaan kepala."
 image: "/images/insights/insights-default.jpg"
