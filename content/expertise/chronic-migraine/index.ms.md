@@ -15,6 +15,15 @@ ogImage: "/images/og-head.jpg"
 date: 2026-04-26
 layout: condition
 lastmod: 2026-11-25
+faq_schema:
+  - question: "Saya telah mencuba empat jenis ubat pencegahan. Adakah pilihan saya sudah habis?"
+    answer: "Tidak. Antibodi CGRP, Botox, dan prosedur intervensi — sekatan saraf, RFA — adalah kategori rawatan berasingan yang berfungsi melalui mekanisme yang berbeza. Kebanyakan pesakit yang gagal dengan ubat pencegahan oral masih belum mencuba semua pilihan ini."
+  - question: "Adakah Botox untuk migrain dilindungi oleh insurans di Malaysia?"
+    answer: "Perlindungan berbeza mengikut polisi dan syarikat insurans. Saya boleh menyediakan dokumentasi klinikal untuk menyokong tuntutan insurans anda. Pasukan klinik boleh membantu dengan surat pra-kelulusan."
+  - question: "Berapa lama kesan ablasi radiofrekuensi untuk migrain bertahan?"
+    answer: "Biasanya 6–18 bulan. Prosedur ini boleh diulang apabila simptom kembali. Selepas beberapa kitaran rawatan, ramai pesakit mendapati selang masa antara prosedur menjadi lebih panjang."
+  - question: "Bolehkah pakar bedah neuro merawat migrain, atau patutkah saya berjumpa pakar neurologi?"
+    answer: "Pakar bedah neuro dan pakar neurologi kedua-duanya menguruskan gangguan sakit kepala. Kelebihan khusus saya ialah keupayaan untuk menawarkan rangkaian rawatan penuh — daripada preskripsi antibodi CGRP hingga melakukan sekatan saraf, RFA, dan neuromodulasi pembedahan — semuanya dalam satu hubungan klinikal yang sama."
 ---
 
 # Rawatan Migrain Kronik di Kuala Lumpur

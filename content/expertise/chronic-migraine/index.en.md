@@ -15,6 +15,15 @@ ogImage: "/images/og-head.jpg"
 date: 2026-04-26
 layout: condition
 lastmod: 2026-11-25
+faq_schema:
+  - question: "I've tried four preventive medications. Am I running out of options?"
+    answer: "No. CGRP antibodies, Botox, and interventional procedures — nerve blocks, RFA — are separate treatment categories that work through different mechanisms. Most patients who have failed oral preventives have not yet tried all these options."
+  - question: "Is Botox for migraine covered by insurance in Malaysia?"
+    answer: "Coverage varies by policy and insurer. I can provide clinical documentation to support your insurance claim. The clinic team can assist with pre-authorisation letters."
+  - question: "How long does radiofrequency ablation last for migraine?"
+    answer: "Typically 6–18 months. The procedure can be repeated when symptoms return. Over multiple treatment cycles, many patients find the intervals between procedures extend."
+  - question: "Can a neurosurgeon treat migraine, or should I see a neurologist?"
+    answer: "Neurosurgeons and neurologists both manage headache disorders. My specific advantage is the ability to offer the full range — from prescribing CGRP antibodies to performing nerve blocks, RFA, and surgical neuromodulation — within a single clinical relationship."
 ---
 
 # Chronic Migraine Treatment in Kuala Lumpur

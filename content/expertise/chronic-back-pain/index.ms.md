@@ -16,6 +16,15 @@ ogImage: "/images/og-pain.jpg"
 date: 2026-04-26
 layout: condition
 lastmod: 2026-11-25
+faq_schema:
+  - question: "Saya telah menjalani pembedahan disektomi dua tahun lalu dan saya masih sakit. Adakah rawatan lain yang boleh dicuba?"
+    answer: "Ya. Sindrom kegagalan pembedahan belakang adalah sebab utama mengapa stimulasi saraf tunjang dibangunkan. Kajian PROCESS menunjukkan SCS lebih berkesan daripada pembedahan ulangan dalam situasi ini. Konsultasi dengan semakan MRI akan menjelaskan sama ada anda calon yang sesuai."
+  - question: "Apakah perbezaan antara ablasi radiofrekuensi dan suntikan steroid?"
+    answer: "Suntikan steroid mengurangkan keradangan — kesannya bersifat sementara (minggu hingga bulan) dan tidak menangani saraf itu sendiri. Ablasi radiofrekuensi melumpuhkan gentian saraf pembawa sakit secara terma — kesannya bertahan 9–18 bulan dan prosedur ini boleh diulang. Untuk sakit sendi faset, RFA adalah intervensi yang lebih tahan lama."
+  - question: "Adakah saya memerlukan bius umum?"
+    answer: "Kebanyakan prosedur dilakukan di bawah bius setempat dengan sedasi ringan. Anda sedar tetapi selesa. Implan SCS biasanya menggunakan bius umum ringan atau sedasi. Anda boleh pulang pada hari yang sama atau keesokan paginya."
+  - question: "Adakah saya terlalu tua untuk stimulasi saraf tunjang?"
+    answer: "Umur sahaja bukan kontraindikasi. Penilaian memberi tumpuan kepada fenotip kesakitan anda, kesediaan psikologi, dan kecergasan kardiorespiratori untuk prosedur pembedahan kecil. Saya telah melakukan implan peranti SCS pada pesakit berusia lewat 70-an dengan hasil yang cemerlang."
 ---
 
 # Sakit Belakang Kronik: Apabila Ubat-Ubatan Tidak Lagi Memadai

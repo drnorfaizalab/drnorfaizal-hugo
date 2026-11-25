@@ -13,6 +13,13 @@ ogImage: "/images/og-brain.jpg"
 date: 2026-04-26
 layout: condition
 lastmod: 2026-11-25
+faq_schema:
+  - question: "Saya ada meningioma 2 cm yang ditemui secara tidak sengaja. GP saya mahu bedah segera. Adakah itu betul?"
+    answer: "Tidak semestinya. Meningioma kecil tanpa simptom pada orang dewasa yang sihat selalunya selamat untuk dipantau dengan MRI setiap 6 bulan untuk tahun pertama, kemudian setiap tahun jika stabil. Keputusan bergantung pada umur, kesihatan, lokasi tumor, dan kadar pertumbuhannya. Saya perlu menyemak imbasan anda sebelum mengesyorkan pembedahan."
+  - question: "Adakah pembedahan akan menyembuhkan saya?"
+    answer: "Untuk meningioma Gred I dengan pembuangan lengkap (Gred Simpson I/II), kadar kesembuhan jangka panjang melebihi 90%. Meningioma Gred II mempunyai kadar berulang yang lebih tinggi — radioterapi tambahan dapat mengurangkannya. Pemeriksaan MRI susulan secara berkala adalah perlu."
+  - question: "Saya diberitahu meningioma saya berdekatan dengan salur darah utama. Adakah ia berbahaya?"
+    answer: "Kedekatan dengan sinus kavernosus, sinus sagital superior, atau salur darah serebrum utama meningkatkan kerumitan pembedahan dengan ketara. Di sinilah pengalaman pakar bedah, bukan sekadar teknik, menjadi penting. Saya akan tunjukkan anatomi salur darah pada imbasan MRI anda dan terangkan dengan tepat apakah risikonya."
 ---
 
 # Meningioma: Rawatan, Pembedahan & Pemulihan di Malaysia

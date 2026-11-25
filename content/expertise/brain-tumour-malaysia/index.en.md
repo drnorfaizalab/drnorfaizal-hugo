@@ -14,6 +14,19 @@ ogImage: "/images/og-brain.jpg"
 date: 2026-04-26
 layout: condition
 lastmod: 2026-11-25
+faq_schema:
+  - question: "My MRI shows a brain tumour. Do I definitely need surgery?"
+    answer: "Not necessarily. Some tumours — small meningiomas, low-grade gliomas in elderly patients, certain acoustic neuromas — can be safely observed with serial imaging. Others require urgent surgery. The decision depends on tumour type, size, rate of growth, symptoms, and your overall health. I'll be honest with you about which category you fall into."
+  - question: "What is the risk of surgery affecting my speech or movement?"
+    answer: "The risk is real but quantifiable. Using neuronavigation, intraoperative monitoring, and awake craniotomy where appropriate, modern neurosurgery minimises this risk significantly. I will give you a specific, honest risk estimate based on your tumour's location before any procedure."
+  - question: "Can I get a second opinion?"
+    answer: "Yes — and I encourage it for any brain tumour diagnosis. A second opinion is not an insult to your current doctor. It is the right thing to do for a decision of this magnitude."
+  - question: "How quickly do I need to decide about surgery?"
+    answer: "It depends entirely on the tumour. A rapidly expanding GBM may warrant surgery within days. A small incidental meningioma can wait weeks for a thorough work-up and second opinion. I will tell you clearly which timeline applies to your situation."
+  - question: "Does insurance cover brain tumour surgery in Malaysia?"
+    answer: "Most major medical insurance plans in Malaysia cover surgical treatment of brain tumours. I recommend contacting your insurer before the consultation so we can plan accordingly. The clinic team can assist with pre-authorisation paperwork."
+  - question: "Is KPJ Tawakkal equipped for complex brain tumour surgery?"
+    answer: "Yes. KPJ Tawakkal Specialist Hospital is equipped with advanced MRI and CT imaging, dedicated neurosurgical theatres with intraoperative navigation, neuromonitoring capabilities, and a dedicated neurological ICU. Complex cases also have access to intraoperative MRI facilities through our specialist network."
 ---
 
 # Brain Tumour Surgery in Malaysia

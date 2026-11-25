@@ -17,6 +17,19 @@ date: 2026-07-27
 layout: condition
 show_appointment_button: true
 lastmod: 2026-11-25
+faq_schema:
+  - question: "Is neuro-oncology different from oncology?"
+    answer: "Yes. Medical oncologists manage systemic chemotherapy and immunotherapy. Neuro-oncologists specialise in tumours of the central nervous system, which behave differently, are harder to reach, and respond to treatment differently from other cancers. Surgical neuro-oncology is the branch that manages surgical access, resection, and biopsy — the foundation that makes subsequent treatment possible."
+  - question: "Do I need to see a neuro-oncologist and a neurosurgeon separately?"
+    answer: "In the ideal system, yes — and this is how it works at KPJ Tawakkal. I manage the surgical component. The neuro-oncology physician manages adjuvant therapy. We coordinate through tumour board and direct communication so you are not left to bridge the gap yourself."
+  - question: "My tumour is inoperable. Is there still a role for surgery?"
+    answer: "Often, yes. Even for tumours where complete resection is not achievable — deep gliomas, brainstem lesions, multiple metastases — surgery in the form of stereotactic biopsy provides the tissue diagnosis that unlocks targeted chemotherapy, immunotherapy, or clinical trial enrolment. No tissue, no targeted treatment."
+  - question: "What is the difference between a malignant and a benign brain tumour?"
+    answer: "Malignancy refers to the tumour's ability to invade surrounding tissue and spread. Benign tumours do not spread, but they are not harmless — a benign meningioma compressing the brainstem is a life-threatening emergency. Location, size, and rate of growth matter as much as malignant potential in determining urgency of treatment."
+  - question: "Can brain tumours recur after surgery?"
+    answer: "Yes. Recurrence rates depend entirely on tumour biology. Grade I meningioma recurs in fewer than 5% of cases after complete resection. Glioblastoma virtually always recurs — the question is when, and how to extend the time to recurrence. This is why long-term MRI surveillance is not optional — it is built into the treatment plan from day one."
+  - question: "Should I seek a second opinion before proceeding with surgery?"
+    answer: "Yes. I encourage it. For any brain tumour surgery — elective or urgent — a second opinion from a neurosurgeon with neuro-oncology experience is entirely appropriate. Come to me for a second opinion. I will tell you honestly what I see."
 ---
 
 # Neuro-Oncology: Brain & Spinal Tumour Care in Malaysia

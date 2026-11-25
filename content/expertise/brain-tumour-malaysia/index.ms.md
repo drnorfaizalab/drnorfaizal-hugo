@@ -14,6 +14,19 @@ ogImage: "/images/og-brain.jpg"
 date: 2026-04-26
 layout: condition
 lastmod: 2026-11-25
+faq_schema:
+  - question: "MRI saya menunjukkan ada tumor otak. Adakah saya pasti memerlukan pembedahan?"
+    answer: "Tidak semestinya. Sesetengah tumor — meningioma kecil, glioma gred rendah pada pesakit warga emas, neuroma akustik tertentu — boleh dipantau dengan selamat melalui imbasan berkala. Ada juga yang memerlukan pembedahan segera. Keputusan bergantung pada jenis tumor, saiz, kadar pertumbuhan, simptom, dan kesihatan keseluruhan anda. Saya akan berterus terang dengan anda mengenai kategori mana yang bersesuaian dengan keadaan anda."
+  - question: "Apakah risiko pembedahan akan menjejaskan pertuturan atau pergerakan saya?"
+    answer: "Risiko itu wujud tetapi boleh diukur. Dengan menggunakan neuronavigasi, pemantauan intraoperatif, dan kraniotomi sedar jika sesuai, pembedahan neuro moden dapat mengurangkan risiko ini dengan ketara. Saya akan memberikan anggaran risiko yang spesifik dan jujur berdasarkan lokasi tumor anda sebelum sebarang prosedur."
+  - question: "Bolehkah saya mendapatkan pendapat kedua?"
+    answer: "Boleh — dan saya menggalakkannya untuk sebarang diagnosis tumor otak. Mendapatkan pendapat kedua bukanlah satu penghinaan kepada doktor semasa anda. Ia adalah tindakan yang wajar untuk keputusan sebesar ini."
+  - question: "Berapa cepat saya perlu membuat keputusan mengenai pembedahan?"
+    answer: "Ia bergantung sepenuhnya pada jenis tumor. GBM yang membesar dengan cepat mungkin memerlukan pembedahan dalam beberapa hari. Meningioma kecil yang ditemui secara tidak sengaja boleh menunggu beberapa minggu untuk pemeriksaan lanjut dan pendapat kedua. Saya akan memberitahu anda dengan jelas garis masa yang mana terpakai untuk situasi anda."
+  - question: "Adakah insurans menanggung kos pembedahan tumor otak di Malaysia?"
+    answer: "Kebanyakan pelan insurans perubatan utama di Malaysia menanggung kos rawatan pembedahan tumor otak. Saya syorkan anda menghubungi syarikat insurans anda sebelum sesi konsultasi supaya kita boleh merancang dengan sewajarnya. Pasukan klinik boleh membantu dengan urusan kertas kerja pra-kelulusan."
+  - question: "Adakah KPJ Tawakkal dilengkapi untuk pembedahan tumor otak yang kompleks?"
+    answer: "Ya. Hospital Pakar KPJ Tawakkal dilengkapi dengan pengimejan MRI dan CT canggih, dewan bedah neuro khas dengan sistem navigasi intraoperatif, keupayaan pemantauan neuro, dan ICU neurologi yang khusus. Untuk kes-kes kompleks, kami juga mempunyai akses kepada kemudahan MRI intraoperatif melalui rangkaian pakar kami."
 ---
 
 # Pembedahan Tumor Otak di Malaysia
