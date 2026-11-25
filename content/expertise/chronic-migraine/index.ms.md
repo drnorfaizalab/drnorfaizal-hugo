@@ -19,6 +19,8 @@ lastmod: 2026-11-25
 
 # Rawatan Migrain Kronik di Kuala Lumpur
 
+**Ringkasnya:** Migrain kronik bermaksud sakit kepala 15 hari atau lebih sebulan selama lebih 3 bulan, dengan sekurang-kurangnya 8 hari mempunyai ciri migrain (kriteria International Headache Society). Rawatan lini pertama ialah ubat-ubatan: ubat pencegahan dan mengelakkan sakit kepala akibat penggunaan ubat berlebihan. Apabila ubat gagal, pilihan intervensi seperti blok saraf dan ablasi radiofrekuensi, serta pembedahan bagi kes terpilih, boleh mengurangkan serangan. Dr Nor Faizal Ahmad Bahuri, pakar bedah saraf dan pakar kesakitan intervensi di Kuala Lumpur, merawat migrain yang tidak bertindak balas terhadap ubat.
+
 Kebanyakan doktor merawat migrain dengan ubat-ubatan. Sebagai seorang pakar bedah neuro yang juga telah dilatih secara khusus dalam pengurusan sakit intervensi di Universiti Malaya, pendekatan saya terhadap migrain merangkumi kedua-dua aspek — perubatan dan pembedahan — yang bermakna saya boleh menawarkan pilihan rawatan yang tidak dapat diberikan oleh kebanyakan pakar neurologi.
 
 Jika anda telah bertahun-tahun mengambil ubat-ubatan pencegahan tetapi masih kerap diserang migrain, halaman ini adalah untuk anda.

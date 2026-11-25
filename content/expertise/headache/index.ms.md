@@ -34,6 +34,8 @@ lastmod: 2026-11-25
 
 # Pakar Sakit Kepala di Kuala Lumpur
 
+**Ringkasnya:** Kebanyakan sakit kepala, termasuk sakit kepala jenis tegang, migrain dan sakit kepala kluster, adalah tidak berbahaya dan dirawat dengan ubat. Sakit kepala memerlukan imbasan segera dan penilaian pakar jika ia datang tiba-tiba dan teruk (thunderclap), bermula selepas umur 50 tahun, semakin teruk, menyebabkan anda terjaga daripada tidur, atau disertai kelemahan, perubahan penglihatan, masalah pertuturan atau sawan, kerana ia mungkin berpunca daripada masalah struktur atau salur darah. Dr Nor Faizal Ahmad Bahuri, pakar bedah saraf dan pakar kesakitan intervensi di Kuala Lumpur, menyiasat sakit kepala sekunder ini dan merawat sakit kepala yang tidak bertindak balas terhadap ubat.
+
 Sakit kepala adalah aduan neurologi yang paling biasa di dunia. Ia juga merupakan salah satu yang paling kurang dinilai dengan betul. Setiap hari, pesakit diberi ubat tahan sakit untuk sakit kepala yang sewajarnya mendapat diagnosis yang tepat — dan kadang-kala, sakit kepala tersebut mempunyai punca yang perlu diberi perhatian serius.
 
 Sebagai pakar bedah saraf dengan latihan tambahan dalam pengurusan kesakitan intervensional, saya menempati kedudukan yang unik dalam penjagaan sakit kepala. Saya boleh menyiasat sakit kepala seperti yang diperlukan oleh seorang pakar bedah saraf — mengeluarkan punca struktur yang tidak boleh dirawat oleh pakar lain — dan saya boleh menguruskan sakit kepala yang tidak bertindak balas dengan teknik intervensional yang melampaui apa yang biasanya ditawarkan oleh doktor am atau pakar neurologi.

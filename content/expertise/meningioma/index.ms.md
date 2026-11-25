@@ -17,6 +17,8 @@ lastmod: 2026-11-25
 
 # Meningioma: Rawatan, Pembedahan & Pemulihan di Malaysia
 
+**Ringkasnya:** Meningioma ialah tumor yang berasal daripada meninges, iaitu selaput yang menyelubungi otak dan saraf tunjang. Ia merupakan tumor otak primer paling lazim dalam kalangan orang dewasa, dan 80–85% adalah tumor gred 1 yang benigna dan tumbuh perlahan. Tumor kecil tanpa gejala selalunya boleh dipantau dengan MRI berkala; tumor yang menyebabkan gejala atau semakin membesar biasanya dirawat dengan pembedahan, kadangkala diikuti radioterapi. Dr Nor Faizal Ahmad Bahuri, pakar perunding bedah saraf lulusan Oxford di KPJ Tawakkal Specialist Hospital, Kuala Lumpur, merawat meningioma benigna dan atipikal, termasuk tumor pangkal tengkorak.
+
 Meningioma adalah tumor otak primer yang paling lazim di kalangan orang dewasa — merangkumi lebih 36% daripada semua tumor otak primer. Kebanyakannya bersifat benigna (bukan kanser). Pertumbuhannya selalunya perlahan. Dan apabila dikesan awal dan diuruskan dengan baik, kebanyakannya boleh sembuh.
 
 Ini adalah keadaan di mana proses membuat keputusan oleh pakar bedah adalah sama pentingnya dengan pembedahan itu sendiri — kerana bukan semua meningioma perlu dibedah dengan segera, dan pembedahan yang salah pada masa yang salah boleh membawa lebih banyak mudarat daripada kebaikan.

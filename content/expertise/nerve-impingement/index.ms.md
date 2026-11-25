@@ -36,6 +36,8 @@ lastmod: 2026-11-25
 
 # Pakar Saraf Tersepit di Malaysia
 
+**Ringkasnya:** Saraf tersepit (nerve impingement) ialah tekanan pada akar saraf tulang belakang, paling kerap akibat cakera tergelincir, taji tulang atau ligamen yang menebal di leher (serviks) atau pinggang (lumbar). Ia menyebabkan sakit menjalar, kebas, kesemutan atau kelemahan pada lengan atau kaki. Kebanyakan kes pulih dengan fisioterapi, ubat dan masa; sakit yang berterusan boleh dirawat dengan suntikan steroid epidural, dan pembedahan seperti mikrodiskektomi dipertimbangkan jika kelemahan semakin teruk atau sakit tidak berkurangan selepas 6–12 minggu rawatan. Hilang kawalan pundi kencing atau usus adalah kecemasan. Dr Nor Faizal Ahmad Bahuri, pakar bedah saraf di KPJ Tawakkal Specialist Hospital, Kuala Lumpur, menawarkan rawatan tanpa pembedahan dan pembedahan.
+
 Saraf tersepit — atau "nerve impingement" dalam bahasa Inggeris — adalah salah satu sebab paling kerap pesakit mencari rawatan pakar untuk sakit leher dan sakit pinggang. Kesakitan yang menembak, kebas yang menjalar ke lengan atau kaki, kelemahan yang menjadikan mengangkat benda mudah terasa tidak pasti — ini bukan gejala yang patut dipandang ringan atau diuruskan dengan ubat tahan sakit sahaja secara berterusan.
 
 Sebagai pakar bedah saraf, saya merawat saraf tersepit dari kedua-dua hujung spektrum pengurusan: saya boleh melakukan prosedur intervensional yang mengelakkan pembedahan, dan apabila pembedahan adalah jawapan yang tepat, saya melakukan prosedur tunjang minimally invasive yang menyahsempit saraf dan memulihkan fungsi.

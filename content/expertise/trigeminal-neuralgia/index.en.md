@@ -18,6 +18,8 @@ lastmod: 2026-11-25
 
 # Trigeminal Neuralgia: Treatment in Malaysia
 
+**In short:** Trigeminal neuralgia is sudden, severe, electric shock-like pain on one side of the face, lasting seconds and triggered by light touch, eating, speaking or brushing teeth. It is often caused by a blood vessel pressing on the trigeminal nerve. First-line treatment is medication, usually carbamazepine. When medication fails or causes side effects, options include microvascular decompression (MVD) surgery, radiofrequency ablation and nerve block. Dr Nor Faizal Ahmad Bahuri offers all of these at KPJ Tawakkal Specialist Hospital, Kuala Lumpur.
+
 Trigeminal neuralgia has been called the "suicide disease" — not by clinicians as clinical terminology, but by the patients who have lived with it. The pain is unlike almost anything else in medicine: sudden, electric, triggered by the lightest touch, and utterly incapacitating.
 
 I treat trigeminal neuralgia from both ends of the spectrum — from medication optimisation through to microvascular decompression surgery — and I believe every patient deserves a clear explanation of all available options, not just the ones their referring doctor happens to know about.

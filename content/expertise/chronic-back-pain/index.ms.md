@@ -20,6 +20,8 @@ lastmod: 2026-11-25
 
 # Sakit Belakang Kronik: Apabila Ubat-Ubatan Tidak Lagi Memadai
 
+**Ringkasnya:** Sakit belakang kronik ialah sakit belakang yang berlarutan lebih daripada 3 bulan. Punca biasa termasuk sendi facet, cakera tulang belakang dan akar saraf yang tertekan. Apabila fisioterapi dan ubat-ubatan gagal, prosedur intervensi seperti blok saraf diagnostik, ablasi radiofrekuensi dan stimulasi saraf tunjang merawat punca kesakitan secara terus, selalunya tanpa pembedahan terbuka. Dr Nor Faizal Ahmad Bahuri, pakar bedah saraf dan pakar kesakitan intervensi di KPJ Tawakkal Specialist Hospital, Kuala Lumpur, menawarkan rawatan ini.
+
 Sakit belakang kronik adalah kondisi hilang upaya yang paling lazim di Malaysia. Lebih 80% orang dewasa akan mengalami sakit belakang yang signifikan pada satu ketika dalam hidup mereka. Bagi kebanyakan orang, ia akan pulih. Namun, bagi sebahagian kecil — mungkin 10–15% — kesakitan berterusan melebihi 3 bulan, menjadi penentu kehidupan seharian, dan tidak beransur pulih walau apa jua rawatan yang dicuba: fisioterapi, ubat NSAID, suntikan blok saraf daripada doktor biasa (GP), malah pembedahan tulang belakang.
 
 Saya seorang pakar bedah saraf yang telah mengkhusus dalam pengurusan kesakitan intervensi. Latihan saya di Universiti Malaya dan penyelidikan DPhil saya di Oxford membentuk satu kepercayaan asas: **kesakitan kronik adalah satu kondisi perubatan, bukan kelemahan perwatakan.** Ia mempunyai mekanisme neurobiologi. Ia mempunyai sasaran yang boleh dirawat. Prosedur yang tepat, untuk pesakit yang tepat, pada tahap anatomi yang tepat, mampu mengubah kehidupan.

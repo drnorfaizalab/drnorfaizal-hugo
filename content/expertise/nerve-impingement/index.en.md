@@ -36,6 +36,8 @@ lastmod: 2026-11-25
 
 # Nerve Impingement (Saraf Tersepit) Specialist in Malaysia
 
+**In short:** Nerve impingement (saraf tersepit) is compression of a spinal nerve root, most often by a herniated disc, bone spur or thickened ligament in the neck (cervical) or lower back (lumbar). It causes shooting pain, numbness, tingling or weakness in the arm or leg. Most cases settle with physiotherapy, medication and time; persistent pain can be treated with epidural steroid injection, and surgery such as microdiscectomy is considered for progressive weakness or pain unresponsive to 6–12 weeks of treatment. Loss of bladder or bowel control is an emergency. Dr Nor Faizal Ahmad Bahuri, a neurosurgeon at KPJ Tawakkal Specialist Hospital, Kuala Lumpur, offers both non-surgical and surgical treatment.
+
 Nerve impingement — or "saraf tersepit" as it is commonly known in Malaysia — is one of the most frequent reasons patients seek specialist care for back and neck pain. The shooting pain, the numbness down the arm or leg, the weakness that makes lifting a glass feel uncertain — these are not symptoms to dismiss or simply manage with painkillers indefinitely.
 
 As a neurosurgeon, I treat nerve impingement from both ends of the management spectrum: I can perform the interventional procedures that avoid surgery, and when surgery is the right answer, I perform the minimally invasive spinal procedures that decompress the nerve and restore function.

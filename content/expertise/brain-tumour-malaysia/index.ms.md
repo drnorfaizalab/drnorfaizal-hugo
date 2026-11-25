@@ -18,6 +18,8 @@ lastmod: 2026-11-25
 
 # Pembedahan Tumor Otak di Malaysia
 
+**Ringkasnya:** Tumor otak ialah pertumbuhan sel yang tidak normal di dalam otak atau lapisan yang menyelaputinya. Ia boleh bersifat primer, bermula di otak (seperti glioma, meningioma atau medulloblastoma), atau sekunder, merebak daripada kanser di bahagian lain seperti paru-paru atau payudara. Rawatan bergantung kepada jenis, gred dan lokasi tumor, dan biasanya menggabungkan pembedahan dengan radioterapi serta kemoterapi apabila perlu. Dr Nor Faizal Ahmad Bahuri, pakar perunding bedah saraf lulusan Oxford di KPJ Tawakkal Specialist Hospital, Kuala Lumpur, merawat tumor otak dewasa dan kanak-kanak.
+
 Diagnosis tumor otak boleh mengubah segalanya dalam sekelip mata. Sebagai pakar bedah neuro, saya telah duduk berhadapan dengan ratusan pesakit dan keluarga mereka pada saat yang genting ini. Apa yang saya pelajari adalah: **apa yang berlaku dalam tempoh 72 jam seterusnya — keputusan yang dibuat, pakar yang ditemui — adalah sangat penting.**
 
 Laman ini ditulis untuk anda. Bukan untuk doktor lain. Ia untuk insan yang baru menerima diagnosis, atau ahli keluarga yang mencari maklumat di tengah malam untuk cuba memahami apa yang akan berlaku seterusnya.

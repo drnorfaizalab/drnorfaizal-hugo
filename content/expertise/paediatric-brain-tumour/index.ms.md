@@ -19,6 +19,8 @@ lastmod: 2026-11-25
 
 # Tumor Otak Kanak-Kanak: Panduan untuk Ibu Bapa di Malaysia
 
+**Ringkasnya:** Tumor otak dan saraf tunjang ialah kanser kanak-kanak kedua paling lazim selepas leukemia, dan tumor pepejal paling lazim dalam kalangan kanak-kanak. Jenis yang biasa termasuk medulloblastoma, astrocytoma dan ependymoma. Banyak daripadanya boleh dirawat dengan baik: kadar kelangsungan hidup medulloblastoma melebihi 70–80% dengan pembedahan, radioterapi dan kemoterapi moden. Diagnosis awal dan pembedahan oleh pakar bedah saraf yang berpengalaman paling mempengaruhi hasil rawatan. Dr Nor Faizal Ahmad Bahuri merawat tumor otak kanak-kanak di KPJ Tawakkal Specialist Hospital, Kuala Lumpur.
+
 Tiada apa yang dapat menyediakan anda untuk saat mendengar anak anda menghidap tumor otak. Dalam lebih 18 tahun amalan pembedahan saraf, saya telah melihat kesan berita ini kepada keluarga. Ketakutan itu menyeluruh. Soalan-soalan datang lebih pantas daripada sesiapa pun yang boleh menjawabnya.
 
 Laman ini adalah cubaan saya untuk menjawab soalan-soalan yang paling penting — dengan jelas, jujur, dan tanpa bahasa klinikal yang kaku yang boleh membuatkan maklumat yang sedia sukar terasa lebih berat.

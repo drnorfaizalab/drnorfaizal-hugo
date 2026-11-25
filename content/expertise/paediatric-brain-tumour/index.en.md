@@ -19,6 +19,8 @@ lastmod: 2026-11-25
 
 # Brain Tumour in Children: A Malaysian Parent's Guide
 
+**In short:** Brain and spinal cord tumours are the second most common childhood cancer after leukaemia and the most common solid tumour in children. Common types include medulloblastoma, astrocytoma and ependymoma. Many are highly treatable: medulloblastoma survival exceeds 70–80% with modern surgery, radiotherapy and chemotherapy. Early diagnosis and surgery by an experienced neurosurgeon most influence outcome. Dr Nor Faizal Ahmad Bahuri treats childhood brain tumours at KPJ Tawakkal Specialist Hospital, Kuala Lumpur.
+
 There is nothing that prepares you for hearing that your child has a brain tumour. In over 18 years of neurosurgical practice, I have seen what this moment does to families. The fear is absolute. The questions come faster than anyone can answer them.
 
 This page is my attempt to answer the most important ones — clearly, honestly, and without the kind of clinical distance that makes already difficult information feel even more overwhelming.

@@ -19,6 +19,8 @@ lastmod: 2026-11-25
 
 # Chronic Migraine Treatment in Kuala Lumpur
 
+**In short:** Chronic migraine means headache on 15 or more days a month for more than 3 months, with at least 8 of those days having migraine features (International Headache Society criteria). First-line care is medical: preventive medication and avoiding medication-overuse headache. When medication fails, interventional options such as nerve blocks and radiofrequency ablation, and surgery in selected cases, can reduce attacks. Dr Nor Faizal Ahmad Bahuri, a neurosurgeon and interventional pain specialist in Kuala Lumpur, treats migraine that has not responded to medication.
+
 Most headache doctors manage migraines with medications. As a neurosurgeon who has also trained specifically in interventional pain management at the University of Malaya, I approach migraine from both directions — medical and surgical — which means I can offer options most neurologists cannot.
 
 If you have been on preventive medications for years and still suffer frequent attacks, this page is for you.

@@ -20,6 +20,8 @@ lastmod: 2026-11-25
 
 # Chronic Back Pain: When Medication Isn't Enough
 
+**In short:** Chronic back pain is back pain lasting more than 3 months. Common sources are the facet joints, the intervertebral discs and compressed nerve roots. When physiotherapy and medication have failed, interventional procedures such as diagnostic nerve blocks, radiofrequency ablation and spinal cord stimulation target the pain source directly, often without open surgery. Dr Nor Faizal Ahmad Bahuri, a neurosurgeon and interventional pain specialist at KPJ Tawakkal Specialist Hospital, Kuala Lumpur, offers these treatments.
+
 Chronic back pain is Malaysia's most common disabling condition. Over 80% of adults will experience significant back pain at some point. For most, it resolves. For a significant minority — perhaps 10–15% — pain persists beyond 3 months, becomes the defining feature of daily life, and resists everything thrown at it: physiotherapy, NSAIDs, nerve blocks from the GP, even back surgery.
 
 I am a neurosurgeon who has specialised in interventional pain management. My training at the University of Malaya and my DPhil research at Oxford inform a fundamental belief: **chronic pain is a medical condition, not a character flaw.** It has neurobiological mechanisms. It has treatable targets. The right procedure, for the right patient, applied at the right anatomical level, changes lives.

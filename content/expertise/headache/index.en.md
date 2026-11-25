@@ -34,6 +34,8 @@ lastmod: 2026-11-25
 
 # Headache Specialist in Kuala Lumpur
 
+**In short:** Most headaches, including tension-type headache, migraine and cluster headache, are benign and treated with medication. A headache needs urgent imaging and specialist review if it is sudden and severe (thunderclap), new after age 50, progressively worsening, wakes you from sleep, or comes with weakness, vision change, speech difficulty or seizure, because it may have a structural or vascular cause. Dr Nor Faizal Ahmad Bahuri, a neurosurgeon and interventional pain specialist in Kuala Lumpur, investigates these secondary headaches and treats headache that has not responded to medication.
+
 Headache is the most common neurological complaint in the world. It is also one of the most under-evaluated. Every day, patients are handed painkillers for headaches that deserve a proper diagnosis — and occasionally, those headaches have causes that matter.
 
 As a neurosurgeon with additional training in interventional pain management, I occupy an unusual position in headache care. I can investigate a headache the way a neurosurgeon must — ruling out structural causes that other specialists cannot treat — and I can manage refractory headache with interventional techniques that go beyond what a GP or neurologist typically offers.

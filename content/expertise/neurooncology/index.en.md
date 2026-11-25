@@ -21,6 +21,8 @@ lastmod: 2026-11-25
 
 # Neuro-Oncology: Brain & Spinal Tumour Care in Malaysia
 
+**In short:** Neuro-oncology is the care of tumours of the brain, spinal cord and their nerves, including glioma, meningioma, brain metastases and spinal tumours. It brings neurosurgery, medical oncology, radiation oncology and neuropathology together, with treatment increasingly guided by the tumour's molecular profile. Dr Nor Faizal Ahmad Bahuri, an Oxford-trained consultant neurosurgeon at KPJ Tawakkal Specialist Hospital, Kuala Lumpur, leads surgical care within this multidisciplinary approach.
+
 Neuro-oncology is not simply brain tumour surgery. It is the discipline that sits at the intersection of neurosurgery, medical oncology, radiation oncology, and neuropathology — bringing these specialties together around a single patient with a single diagnosis that changes their life in an instant.
 
 I have spent the last two decades building a practice centred on this intersection. My DPhil at the University of Oxford thought me to think and act outside the box of surgery and oncology. My clinical training spans high-volume neuro-oncology at the University of Malaya Medical Centre — one of Southeast Asia's busiest neurosurgical centres — to focused specialist practice at KPJ Tawakkal Specialist Hospital in Kuala Lumpur.

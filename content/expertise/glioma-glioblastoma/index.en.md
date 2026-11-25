@@ -18,6 +18,8 @@ lastmod: 2026-11-25
 
 # Glioma & Glioblastoma: Treatment in Malaysia
 
+**In short:** A glioma is a tumour arising from the brain's glial (support) cells. Gliomas are graded 1 to 4 under the 2021 WHO classification, which also uses molecular markers such as IDH mutation status; glioblastoma (GBM) is the most aggressive, grade 4 form. Treatment usually starts with maximal safe surgical removal, followed by radiotherapy and chemotherapy depending on grade and molecular profile. Dr Nor Faizal Ahmad Bahuri, an Oxford-trained consultant neurosurgeon at KPJ Tawakkal Specialist Hospital, Kuala Lumpur, treats low-grade and high-grade gliomas.
+
 Gliomas are the most complex tumours I treat. Unlike meningiomas, which sit on the brain surface and can often be completely excised, gliomas grow *within* brain tissue — infiltrating along white matter tracts, respecting no anatomical boundary, making the surgeon's task fundamentally different.
 
 Understanding glioma requires understanding that this is not one disease. The 2021 WHO classification identifies over 20 distinct glioma entities based on molecular markers. Two patients with what used to be called "glioblastoma" may have entirely different tumour biology, prognosis, and response to treatment.

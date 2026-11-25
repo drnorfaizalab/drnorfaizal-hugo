@@ -18,6 +18,8 @@ lastmod: 2026-11-25
 
 # Brain Tumour Surgery in Malaysia
 
+**In short:** A brain tumour is an abnormal growth of cells in the brain or its coverings. It may be primary, starting in the brain (such as glioma, meningioma or medulloblastoma), or secondary, spreading from cancer elsewhere such as the lung or breast. Treatment depends on tumour type, grade and location, and usually combines surgery with radiotherapy and chemotherapy where needed. Dr Nor Faizal Ahmad Bahuri, an Oxford-trained consultant neurosurgeon at KPJ Tawakkal Specialist Hospital, Kuala Lumpur, treats adult and childhood brain tumours.
+
 A brain tumour diagnosis changes everything in an instant. As a neurosurgeon, I've sat across from hundreds of patients and families at that exact moment. What I've learned is this: **what happens in the next 72 hours — the decisions made, the specialist seen — matters enormously.**
 
 This page is written for you. Not for other doctors. For the person who just received a diagnosis, or the family member searching at midnight trying to understand what comes next.

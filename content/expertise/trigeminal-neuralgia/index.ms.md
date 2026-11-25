@@ -18,6 +18,8 @@ lastmod: 2026-11-25
 
 # Trigeminal Neuralgia: Rawatan di Malaysia
 
+**Ringkasnya:** Trigeminal neuralgia ialah sakit muka sebelah yang tiba-tiba, teruk dan terasa seperti renjatan elektrik, berlangsung beberapa saat dan dicetuskan oleh sentuhan ringan, makan, bercakap atau memberus gigi. Ia sering disebabkan oleh salur darah yang menekan saraf trigeminal. Rawatan lini pertama ialah ubat, biasanya carbamazepine. Apabila ubat gagal atau menyebabkan kesan sampingan, pilihan rawatan termasuk pembedahan dekompresi mikrovaskular (MVD), ablasi radiofrekuensi dan blok saraf. Dr Nor Faizal Ahmad Bahuri menawarkan semua rawatan ini di KPJ Tawakkal Specialist Hospital, Kuala Lumpur.
+
 Trigeminal neuralgia pernah digelar "penyakit bunuh diri" — bukan sebagai istilah klinikal oleh doktor, tetapi oleh pesakit yang pernah melaluinya. Kesakitannya tidak seperti yang lain dalam bidang perubatan: ia datang secara tiba-tiba, seperti renjatan elektrik, dicetuskan oleh sentuhan paling ringan, dan boleh melumpuhkan sepenuhnya.
 
 Saya merawat trigeminal neuralgia dari kedua-dua hujung spektrum — daripada pengoptimuman ubat-ubatan sehinggalah kepada pembedahan dekompresi mikrovaskular — dan saya percaya setiap pesakit berhak mendapat penjelasan yang jelas tentang semua pilihan yang ada, bukan hanya yang diketahui oleh doktor rujukan mereka.

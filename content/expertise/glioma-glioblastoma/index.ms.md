@@ -18,6 +18,8 @@ lastmod: 2026-11-25
 
 # Glioma & Glioblastoma: Rawatan di Malaysia
 
+**Ringkasnya:** Glioma ialah tumor yang berasal daripada sel glial (sel sokongan) otak. Glioma digredkan 1 hingga 4 mengikut klasifikasi WHO 2021, yang turut menggunakan penanda molekul seperti status mutasi IDH; glioblastoma (GBM) ialah bentuk gred 4 yang paling agresif. Rawatan biasanya bermula dengan pembuangan tumor secara maksimum dan selamat melalui pembedahan, diikuti radioterapi dan kemoterapi mengikut gred dan profil molekul. Dr Nor Faizal Ahmad Bahuri, pakar perunding bedah saraf lulusan Oxford di KPJ Tawakkal Specialist Hospital, Kuala Lumpur, merawat glioma gred rendah dan gred tinggi.
+
 Glioma adalah tumor paling kompleks yang saya rawat. Berbeza dengan meningioma, yang terletak di permukaan otak dan selalunya boleh dibuang sepenuhnya, glioma pula tumbuh *di dalam* tisu otak — menyusup di sepanjang laluan jirim putih, tanpa mengikut sempadan anatomi. Ini menjadikan tugas pakar bedah sangat berbeza.
 
 Untuk memahami glioma, kita perlu tahu bahawa ia bukanlah satu jenis penyakit sahaja. Klasifikasi WHO 2021 telah mengenal pasti lebih 20 jenis glioma yang berbeza berdasarkan penanda molekulnya. Dua pesakit yang dahulunya mungkin sama-sama didiagnosis dengan "glioblastoma" kini boleh mempunyai biologi tumor, prognosis, dan tindak balas terhadap rawatan yang berlainan sama sekali.

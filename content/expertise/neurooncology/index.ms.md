@@ -21,6 +21,8 @@ lastmod: 2026-11-25
 
 # Neuro-Onkologi: Rawatan Tumor Otak & Saraf Tunjang di Malaysia
 
+**Ringkasnya:** Neuro-onkologi ialah rawatan tumor otak, saraf tunjang dan saraf berkaitan, termasuk glioma, meningioma, metastasis otak dan tumor saraf tunjang. Ia menggabungkan bedah saraf, onkologi perubatan, onkologi radiasi dan neuropatologi, dengan rawatan yang semakin dipandu oleh profil molekul tumor. Dr Nor Faizal Ahmad Bahuri, pakar perunding bedah saraf lulusan Oxford di KPJ Tawakkal Specialist Hospital, Kuala Lumpur, mengetuai rawatan pembedahan dalam pendekatan pelbagai disiplin ini.
+
 Neuro-onkologi bukan sekadar pembedahan tumor otak. Ia adalah bidang yang menghubungkan pembedahan saraf, onkologi perubatan, onkologi radiasi, dan neuropatologi — menyatukan kepakaran ini untuk merawat seorang pesakit dengan satu diagnosis yang mengubah hidup mereka sekelip mata.
 
 Selama dua dekad, saya telah membina amalan klinikal yang berpusat pada persimpangan ini. DPhil saya di Universiti Oxford mengajar saya untuk berfikir dan bertindak diluar kotak surgeri dan onkologi. Latihan klinikal saya merangkumi neuro-onkologi bervolum tinggi di Pusat Perubatan Universiti Malaya — salah satu pusat pembedahan saraf tersibuk di Asia Tenggara — sehingga ke amalan pakar di Hospital Pakar KPJ Tawakkal, Kuala Lumpur.

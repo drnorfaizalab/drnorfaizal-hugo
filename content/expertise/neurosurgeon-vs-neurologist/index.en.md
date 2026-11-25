@@ -17,6 +17,8 @@ lastmod: 2026-11-25
 
 # Neurosurgeon vs Neurologist: Which Doctor Do You Need?
 
+**In short:** A neurologist diagnoses and treats nervous system conditions with medication and other non-surgical care. A neurosurgeon treats conditions that may need surgery or procedures, such as brain tumours, compressed spinal nerves and brain bleeds. In Malaysia, a GP usually refers most neurological complaints to a neurologist, and refers directly to a neurosurgeon when a structural cause such as a tumour, disc or bleed is suspected. In private practice you can self-refer to either; Dr Nor Faizal Ahmad Bahuri, a consultant neurosurgeon at KPJ Tawakkal Specialist Hospital, Kuala Lumpur, will redirect you if your condition is mainly medical.
+
 This is the most common question I receive from patients who have just been told they need to "see a specialist" for a brain or nerve problem. The terms are similar enough to cause genuine confusion — and the confusion matters, because seeing the wrong specialist first delays the right treatment.
 
 Let me explain this clearly.

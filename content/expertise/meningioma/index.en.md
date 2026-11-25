@@ -17,6 +17,8 @@ lastmod: 2026-11-25
 
 # Meningioma: Treatment, Surgery & Recovery in Malaysia
 
+**In short:** A meningioma is a tumour arising from the meninges, the membranes covering the brain and spinal cord. It is the most common primary brain tumour in adults, and 80–85% are benign, slow-growing grade 1 tumours. Small tumours without symptoms can often be monitored with regular MRI; symptomatic or growing tumours are usually treated with surgery, sometimes followed by radiotherapy. Dr Nor Faizal Ahmad Bahuri, an Oxford-trained consultant neurosurgeon at KPJ Tawakkal Specialist Hospital, Kuala Lumpur, manages benign and atypical meningiomas, including skull base tumours.
+
 Meningioma is the most common primary brain tumour in adults — accounting for over 36% of all primary brain tumours. Most are benign. Most grow slowly. And when found early and managed well, most are curable.
 
 This is a condition where the surgeon's decision-making matters as much as the surgery itself — because not every meningioma needs to be operated on immediately, and operating on the wrong one at the wrong time can cause more harm than good.
