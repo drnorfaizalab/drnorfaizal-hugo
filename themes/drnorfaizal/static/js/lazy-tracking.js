@@ -1,5 +1,5 @@
 /*
- * Loads gtag.js (GA4 + Google Ads) and fbevents.js (Meta Pixel) on first
+ * Loads gtag.js (Google Ads), gtm.js (Tag Manager) and fbevents.js (Meta Pixel) on first
  * user interaction, or after a fallback delay for users who never interact.
  * Keeps the heavy third-party payload off the critical rendering path —
  * queued gtag()/fbq() calls from the head stub are processed automatically
@@ -19,7 +19,10 @@
   function loadAll() {
     if (loaded) return;
     loaded = true;
-    loadScript("https://www.googletagmanager.com/gtag/js?id=G-KBGPKYML9T");
+    loadScript("https://www.googletagmanager.com/gtag/js?id=AW-10969773020");
+    if (window.dataLayer && window.dataLayer.some(function (e) { return e && e.event === "gtm.js"; })) {
+      loadScript("https://www.googletagmanager.com/gtm.js?id=GTM-W49T454G");
+    }
     loadScript("https://connect.facebook.net/en_US/fbevents.js");
     events.forEach(function (evt) {
       window.removeEventListener(evt, loadAll, { passive: true });

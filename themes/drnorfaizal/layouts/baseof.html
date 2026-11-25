@@ -15,9 +15,8 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-KBGPKYML9T');
       gtag('config', 'AW-10969773020');
-      gtag('config', 'G-94W8H5Y8ZG');
+      {{ if hugo.IsProduction }}dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});{{ end }}
 
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -64,6 +63,7 @@
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Playfair+Display:wght@400;700&family=Inter:wght@400;600;700&display=swap"></noscript>
 </head>
 <body>
+    {{ if and hugo.IsProduction (not hugo.IsServer) }}<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W49T454G" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>{{ end }}
     {{ partial "header.html" . }}
     
     <main id="main-content" role="main">
