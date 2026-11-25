@@ -14,6 +14,7 @@ medicalCondition: "Paediatric Brain Tumour"
 ogImage: "/images/og-brain.jpg"
 date: 2026-04-26
 layout: condition
+lastmod: 2026-11-25
 ---
 
 # Tumor Otak Kanak-Kanak: Panduan untuk Ibu Bapa di Malaysia

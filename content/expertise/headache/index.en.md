@@ -29,6 +29,7 @@ faq_schema:
     answer: "Yes, for carefully selected patients. Surgical options include occipital nerve decompression (for occipital neuralgia), microvascular decompression (for trigeminal neuralgia causing facial pain), and radiofrequency ablation of trigeminal or occipital nerve branches. These are not first-line treatments — they are considered after thorough evaluation and failure of conservative and medical therapy."
   - question: "How do I know if my headache is dangerous?"
     answer: "Warning signs that require immediate medical attention: sudden severe headache reaching maximum intensity within seconds ('thunderclap'), headache with fever and neck stiffness, headache following a head injury, headache with one-sided weakness or facial drooping, headache with sudden vision loss, and new headache in a patient over 50 with no prior headache history. These require emergency evaluation."
+lastmod: 2026-11-25
 ---
 
 # Headache Specialist in Kuala Lumpur

@@ -27,6 +27,7 @@ faq_schema:
     answer: "Yes. A cold compress or ice pack wrapped in a thin towel applied to the forehead and back of the neck helps constrict blood vessels and can numb superficial nerves in the area, including branches of the trigeminal nerve, providing significant localised relief."
   - question: "When do frequent headaches need more than first aid?"
     answer: "If headache or migraine attacks are a recurring pattern in your life, first aid measures are not enough — frequent headaches are not normal and are not something to simply accept. This calls for a proper diagnosis to identify the root cause and build a long-term treatment plan."
+lastmod: 2026-11-25
 ---
 
 It arrives without warning. One moment, you’re driving home from work, focused on the traffic. The next, a blinding, throbbing pain begins its siege behind your eyes. The lights seem too bright, the sounds of the radio too loud. When a severe headache or migraine attack hits, it feels like you’ve lost all control.

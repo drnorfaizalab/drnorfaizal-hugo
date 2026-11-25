@@ -12,6 +12,7 @@ keywords:
 ogImage: "/images/og-expertise.jpg"
 date: 2026-04-26
 layout: condition
+lastmod: 2026-11-25
 ---
 
 # Pakar Bedah Saraf vs Pakar Neurologi: Doktor Mana Yang Anda Perlukan?

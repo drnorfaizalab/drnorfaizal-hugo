@@ -21,6 +21,7 @@ faq_schema:
     answer: "When you fall into deep water, panicking and thrashing to find the bottom only exhausts you in the dark. The wiser response is to stop fighting and float — conserving energy, taking a breath, and gaining the clarity to see the shore. Applied to hard news like a diagnosis, this means pausing rather than panicking, which creates the space to regroup with loved ones before moving forward."
   - question: "Is it a sign of weakness for a doctor to admit mental fatigue?"
     answer: "No. Acknowledging mental fatigue as a doctor is not weakness — it is the first step in the healing process, the same step patients are advised to take. Accepting a difficult truth, however painful, is where recovery begins, for physicians and patients alike."
+lastmod: 2026-11-25
 ---
 
 There are moments in every life that feel like hitting rock bottom. A challenge in your health, your work, your relationships—it can feel like being lost in a vast, dark ocean with no land in sight.

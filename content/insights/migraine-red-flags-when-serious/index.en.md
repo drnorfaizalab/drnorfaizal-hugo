@@ -23,6 +23,7 @@ faq_schema:
     answer: "A typical migraine aura is a slowly expanding arc of shimmering light lasting 20 to 60 minutes, stereotyped and consistent each time. What is not benign: a persistent visual field defect between headaches, double vision, sudden visual loss, or new visual symptoms outside the typical aura pattern — these warrant imaging without delay."
   - question: "What is the difference between a primary and a secondary headache?"
     answer: "Primary headaches — migraine, tension-type, cluster — are the disorder itself, with no underlying structural cause, and represent the vast majority of headaches. Secondary headaches are caused by an underlying condition such as a tumour, vascular event, infection, or raised intracranial pressure, where the pain is a symptom rather than the disease."
+lastmod: 2026-11-25
 ---
 
 # Migraine vs Brain Tumour: Red Flags You Should Not Ignore

@@ -27,6 +27,7 @@ faq_schema:
     answer: "Ya. Tuaman sejuk atau pek ais yang dibalut tuala nipis diletakkan di dahi dan belakang leher membantu mengecutkan saluran darah dan boleh memberi kesan kebas pada saraf permukaan di kawasan itu, termasuk cabang saraf trigeminal, memberikan kelegaan setempat yang ketara."
   - question: "Bilakah sakit kepala yang kerap memerlukan lebih daripada bantuan awal?"
     answer: "Jika serangan sakit kepala atau migrain adalah corak yang sering berulang dalam hidup anda, langkah bantuan awal sahaja tidak mencukupi — sakit kepala yang kerap bukanlah normal dan bukan sesuatu yang perlu diterima begitu sahaja. Ini memerlukan diagnosis yang betul untuk mengenal pasti punca sebenar dan membina pelan rawatan jangka panjang."
+lastmod: 2026-11-25
 ---
 
 Ia datang tanpa amaran. Satu saat, anda sedang memandu pulang dari kerja, fokus pada kesesakan lalu lintas. Tiba-tiba, rasa sakit yang mencucuk dan menyakitkan mula menyerang di belakang mata anda. Cahaya terasa terlalu terang, bunyi radio pula terlalu kuat. Apabila serangan sakit kepala yang teruk atau migrain melanda, rasanya seolah-olah anda hilang segala kawalan.

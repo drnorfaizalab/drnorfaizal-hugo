@@ -17,6 +17,7 @@ keywords:
   - back pain specialist KL
   - failed back surgery syndrome Malaysia
 show_appointment_button: true
+lastmod: 2026-11-25
 ---
 
 # Interventional Pain Management

@@ -23,6 +23,7 @@ faq_schema:
     answer: "The Stupp Protocol is the standard treatment sequence for GBM: maximal safe surgical resection (using intraoperative MRI, 5-ALA fluorescence, and neuromonitoring), followed by 6 weeks of concurrent radiotherapy and temozolomide chemotherapy, then 6 months of adjuvant temozolomide cycles."
   - question: "What is the survival outlook for glioblastoma?"
     answer: "Median survival with treatment is 14 to 16 months, though this varies by individual based on MGMT methylation status, age, and extent of surgical resection. Population statistics describe averages, not what is possible for a specific individual — this is discussed openly with every patient."
+lastmod: 2026-11-25
 ---
 
 # Glioblastoma (GBM): Understanding Your Treatment Options

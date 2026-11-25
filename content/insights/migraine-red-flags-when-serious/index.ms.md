@@ -24,6 +24,7 @@ faq_schema:
     answer: "Aura migrain yang biasa adalah lengkung cahaya berkelip yang berkembang perlahan, berlangsung 20 hingga 60 minit, stereotaip dan konsisten setiap kali. Yang tidak benigna: kecacatan medan penglihatan berterusan antara serangan, penglihatan berganda, kehilangan penglihatan mendadak, atau gejala penglihatan yang tidak mengikuti corak aura biasa — ini memerlukan pengimejan tanpa berlengah."
   - question: "Apakah perbezaan antara sakit kepala primer dan sekunder?"
     answer: "Sakit kepala primer — migrain, tegang, kluster — adalah penyakit itu sendiri, tiada punca struktural, dan merangkumi majoriti besar kes sakit kepala. Sakit kepala sekunder disebabkan oleh keadaan mendasari seperti tumor, peristiwa vaskular, jangkitan, atau tekanan intrakranial meningkat, di mana kesakitan adalah gejala, bukan penyakit itu sendiri."
+lastmod: 2026-11-25
 ---
 
 # Migrain vs Tumor Otak: Bendera Merah yang Tidak Harus Anda Abaikan

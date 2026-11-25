@@ -2,7 +2,7 @@
 title: "Disiplin"
 description: "Bijak tu common. Disiplin tu rare. Refleksi seorang pakar bedah saraf tentang harga sebenar sebuah kecemerlangan."
 date: 2026-03-14T08:17:41+08:00
-lastmod: 2026-03-14T08:17:41+08:00
+lastmod: 2026-11-25
 draft: false
 
 # SEO & metadata

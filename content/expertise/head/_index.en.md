@@ -3,7 +3,7 @@ title: "Headache, Migraine & Facial Pain | Dr Nor Faizal"
 seoTitle: "Migraine & Headache Specialist KL | Trigeminal Neuralgia"
 description: "The neurosurgeon in Kuala Lumpur who manages headache from first consultation to surgical intervention — when medicine alone is no longer enough. Oxford-trained. Interventional. Precise."
 date: 2026-03-11
-lastmod: 2026-04-26
+lastmod: 2026-11-25
 draft: false
 
 type: "Head"

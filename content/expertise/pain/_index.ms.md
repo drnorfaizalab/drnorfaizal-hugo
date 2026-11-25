@@ -2,7 +2,7 @@
 title: "Pengurusan Kesakitan Kronik | Dr Nor Faizal"
 description: "Pakar pengurusan kesakitan kronik untuk sakit belakang, kesakitan neuropatik, dan sindrom kesakitan kompleks. Pakar bedah saraf terlatih Oxford di Malaysia."
 date: 2025-03-10
-lastmod: 2026-03-11
+lastmod: 2026-11-25
 draft: false
 
 type: "Sakit"

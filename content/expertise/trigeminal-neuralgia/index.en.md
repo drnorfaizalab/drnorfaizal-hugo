@@ -13,6 +13,7 @@ medicalCondition: "Trigeminal Neuralgia"
 ogImage: "/images/og-head.jpg"
 date: 2026-04-26
 layout: condition
+lastmod: 2026-11-25
 ---
 
 # Trigeminal Neuralgia: Treatment in Malaysia

@@ -23,6 +23,7 @@ faq_schema:
     answer: "Epidural haematoma ialah pendarahan antara tengkorak dan salutan luar otak (dura); ia boleh berkembang dengan cepat dan menjadi merbahaya dalam masa beberapa jam. Subdural haematoma ialah pendarahan antara dura dan permukaan otak; ia berkembang lebih perlahan tetapi sama berbahaya jika tidak dirawat."
   - question: "Bilakah kanak-kanak perlu dibawa ke bilik kecemasan selepas jatuh?"
     answer: "Bawa ke hospital dengan segera jika kanak-kanak berusia bawah 2 tahun, jika jatuh dari ketinggian lebih 1 meter, atau jika sebarang tanda amaran — muntah, mengantuk, sawan, atau pupil tidak seimbang — muncul, walaupun kanak-kanak kelihatan baik pada mulanya."
+lastmod: 2026-11-25
 ---
 
 ## Jatuh & Pendarahan Otak: Bahaya Tersembunyi

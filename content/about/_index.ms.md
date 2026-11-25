@@ -4,6 +4,7 @@ description: "Pakar Perunding Bedah Saraf dan Pakar Pengurusan Kesakitan Kronik,
 draft: false
 type: "page"
 show_appointment_button: true
+lastmod: 2026-11-25
 ---
 
 ## Otak. Kepala. Sakit.

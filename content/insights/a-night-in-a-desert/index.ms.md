@@ -19,6 +19,7 @@ faq_schema:
     answer: "Burnout terjadi pada diri kita — ia adalah keruntuhan yang datang apabila had diri diabaikan. Berundur diri adalah satu keputusan yang dibuat sebelum titik itu, satu jeda yang sengaja dipilih semasa masih ada pilihan untuk dibuat."
   - question: "Kenapa tempoh diam penting bagi mereka dalam bidang yang mencabar?"
     answer: "Pengeluaran yang berterusan tidak meninggalkan ruang bagi minda memproses pengalaman. Tempoh ketenangan yang sengaja — bukan kemalasan, tetapi jeda yang disengajakan — membolehkan kejernihan fikiran dan keputusan yang lebih baik menyusul, berbanding membiarkan seseorang terus bekerja sehingga rebah dengan sendirinya."
+lastmod: 2026-11-25
 ---
 
 48 bulan. Tiada rehat sebenar. Kemudian saya pergi ke Sahara — bukan untuk lari, tapi sebab saya perlu berhenti dan dengar diri sendiri semula.

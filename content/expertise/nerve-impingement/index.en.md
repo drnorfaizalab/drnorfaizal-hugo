@@ -31,6 +31,7 @@ faq_schema:
     answer: "Surgery for a slipped disc (disc herniation causing nerve impingement) is recommended when: the patient has severe pain unresponsive to 6–12 weeks of conservative treatment, there is progressive neurological weakness (foot drop, hand weakness), there is cauda equina syndrome (loss of bladder or bowel control) — which is a surgical emergency, or MRI shows significant nerve root or spinal cord compression correlating with symptoms. Surgery — typically microdiscectomy or laminotomy — has excellent outcomes when the right patient is selected."
   - question: "What is the difference between a neurosurgeon and an orthopaedic surgeon for spine problems in Malaysia?"
     answer: "Both neurosurgeons and orthopaedic surgeons perform spine surgery. Neurosurgeons have additional expertise in the nervous system — the spinal cord and nerve roots — making them specifically trained to manage the neurological consequences of spinal pathology: myelopathy, radiculopathy, and cord injury. For conditions involving nerve compression, spinal cord compression, or complex neurological deficits, a neurosurgeon's dual expertise in both spinal anatomy and neurological function is an advantage."
+lastmod: 2026-11-25
 ---
 
 # Nerve Impingement (Saraf Tersepit) Specialist in Malaysia

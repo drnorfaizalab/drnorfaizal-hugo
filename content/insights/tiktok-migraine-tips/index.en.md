@@ -21,6 +21,7 @@ faq_schema:
     answer: "Any headache accompanied by sudden weakness on one side, slurred speech, double vision, or loss of coordination needs same-day medical assessment, as these can indicate a stroke or other acute neurological event."
   - question: "What are the features of a typical, non-emergency migraine?"
     answer: "Classic migraine features include throbbing, usually one-sided pain lasting 4 to 72 hours, nausea or vomiting, sensitivity to light and sound, relief with rest in a dark quiet room, and a predictable pattern you have experienced before."
+lastmod: 2026-11-25
 ---
 
 ## 3 Migraine Red Flags — Watch Before You Dismiss That Headache

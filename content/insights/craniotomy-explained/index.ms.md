@@ -29,6 +29,7 @@ faq_schema:
     answer: "Ya. Dalam kraniotomi, 'bone flap' diketepikan semasa pembedahan dan kemudian dipasang semula serta diikat dengan plat dan skru titanium selepas prosedur selesai. Ini berbeza dengan kraniektomi, di mana tulang sengaja tidak dipasang semula buat sementara waktu, biasanya untuk menguruskan bengkak otak, dan dipasang semula atau dibina semula dengan implan kemudian."
   - question: "Keadaan apa yang memerlukan kraniotomi?"
     answer: "Kraniotomi adalah langkah pertama standard bagi kebanyakan pembedahan yang memerlukan capaian terus ke otak, termasuk pembuangan tumor otak, 'clipping' atau 'coiling' aneurisma, pengeluaran pendarahan intrakranial, rawatan malformasi arteriovenous, dan pengurusan kecederaan otak traumatik yang teruk."
+lastmod: 2026-11-25
 ---
 
 Salah satu soalan yang paling kerap saya terima — selalunya daripada suami, isteri, atau anak pesakit pada malam sebelum pembedahan — ialah versi soalan ini: "Tapi macam mana doktor *sampai* ke otak sebenarnya?"

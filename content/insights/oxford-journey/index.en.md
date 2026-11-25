@@ -21,6 +21,7 @@ faq_schema:
     answer: "The treatment philosophy learned at Oxford holds that surgery is only performed when truly necessary. Every craniotomy carries risk — haemorrhage, oedema, infection, neurological deficit — so indications must be airtight before the first incision. Some patients who arrive expecting surgery leave with a surveillance plan instead, and vice versa."
   - question: "Can Malaysian patients get world-class neurosurgical care without travelling abroad?"
     answer: "Yes. The goal of bringing Oxford training, expertise, and standards home to Malaysia is so that every Malaysian patient deserves world-class neurosurgical care without leaving the country — close to family, in their own language, within a system they understand."
+lastmod: 2026-11-25
 ---
 
 There is a moment every surgeon remembers: the first time you understand that this is not merely technical work. That the instrument in your hand, held at a particular angle, is the difference between a life reclaimed and a life diminished. For me, that moment crystallised in Oxford — watching a consultant navigate an eloquent cortex tumour with a patience and economy of movement that seemed to slow time itself.

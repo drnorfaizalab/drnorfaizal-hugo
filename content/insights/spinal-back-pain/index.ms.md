@@ -25,6 +25,7 @@ faq_schema:
     answer: "Pesakit biasanya boleh berjalan pada hari yang sama, pulang ke rumah dalam masa 1 hingga 2 hari, dan kembali bekerja di pejabat dalam masa 2 hingga 4 minggu. Pemulihan lebih lama untuk laminectomy (2 hingga 3 hari di hospital, elak membongkok atau mengangkat berat selama 4 hingga 6 minggu) dan fusion tulang belakang (3 hingga 6 bulan untuk penyembuhan tulang sepenuhnya, kembali bekerja pada 6 hingga 8 minggu)."
   - question: "Apakah cara terbaik untuk mengelakkan sakit belakang berulang?"
     answer: "Penguatan otot teras (core strengthening) adalah langkah perlindungan jangka panjang yang paling penting, di samping ergonomik yang baik (mengekalkan lengkung lumbar neutral semasa duduk), pengurusan berat badan, berhenti merokok, dan senaman berimpak rendah secara berkala seperti berenang, berjalan, atau berbasikal."
+lastmod: 2026-11-25
 ---
 
 # Panduan Sakit Tulang Belakang

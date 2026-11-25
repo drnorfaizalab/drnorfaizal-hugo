@@ -2,7 +2,7 @@
 title: "Sakit Kepala, Migrain & Sakit Muka | Dr Nor Faizal"
 description: "Pakar bedah saraf di Kuala Lumpur yang menguruskan sakit kepala dari perundingan pertama hingga intervensi pembedahan — apabila ubat-ubatan sahaja tidak lagi mencukupi. Terlatih Oxford. Intervensional. Tepat."
 date: 2026-03-11
-lastmod: 2026-04-26
+lastmod: 2026-11-25
 draft: false
 
 type: "Kepala"

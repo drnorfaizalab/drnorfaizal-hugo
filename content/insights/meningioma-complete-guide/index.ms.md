@@ -2,7 +2,7 @@
 title: "Meningioma: Panduan Lengkap Untuk Anda"
 description: "Fahami apa itu Meningioma, gred pembedahan, teknologi moden, dan proses pemulihan. Panduan dari Dr. Nor Faizal."
 date: 2025-03-10
-lastmod: 2025-03-10
+lastmod: 2026-11-25
 draft: false
 type: "blog"
 categories: ["Neuro-onkologi", "Tumor Otak"]

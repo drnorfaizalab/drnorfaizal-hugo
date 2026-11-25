@@ -4,6 +4,7 @@ description: "Gunakan senarai semak ini untuk menilai gejala neurologi anda. Gej
 draft: false
 type: "page"
 show_appointment_button: true
+lastmod: 2026-11-25
 ---
 
 # Senarai Semak Gejala Neurologi

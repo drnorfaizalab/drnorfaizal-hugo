@@ -24,6 +24,7 @@ faq_schema:
     answer: "Pain treatment given without a clear diagnosis can mask the very symptoms that should trigger investigation, delaying identification of a tumour or spinal cord compression at the stage when intervention is most effective. This creates a false sense of security while the underlying cause progresses silently."
   - question: "When should chronic pain be referred to a specialist?"
     answer: "Your GP is the correct first point of contact for most pain. A specialist referral is needed when first-line treatments fail, red flags are present (progressive neurological symptoms, night pain, weight loss), or the diagnosis remains uncertain after initial evaluation."
+lastmod: 2026-11-25
 ---
 
 # Pain as a Diagnostic Gateway: When Your Headache Is More Than Stress

@@ -14,6 +14,7 @@ medicalCondition: "Chronic Migraine"
 ogImage: "/images/og-head.jpg"
 date: 2026-04-26
 layout: condition
+lastmod: 2026-11-25
 ---
 
 # Chronic Migraine Treatment in Kuala Lumpur

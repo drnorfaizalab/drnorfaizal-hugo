@@ -6,6 +6,7 @@ draft: false
 type: "page"
 pdf_available: true
 show_appointment_button: true
+lastmod: 2026-11-25
 ---
 
 # Spinal & Back Pain Guide

@@ -26,6 +26,7 @@ faq_schema:
     answer: "Ya, bagi calon yang sesuai, ia adalah pendekatan yang sangat selamat dan berkesan. Berbanding pembedahan terbuka tradisional (kraniotomi), teknik invasif minimal melibatkan hirisan yang lebih kecil, kurang trauma pada tisu otak di sekelilingnya, dan lazimnya membawa kepada risiko jangkitan yang lebih rendah serta masa pemulihan yang lebih cepat."
   - question: "Berapa lamakah tempoh pemulihan selepas pembuangan darah beku secara invasif minimal?"
     answer: "Pemulihan berbeza bagi setiap pesakit, tetapi ia secara amnya jauh lebih cepat berbanding selepas pembedahan terbuka. Pesakit selalunya menghabiskan lebih sedikit masa di ICU dan hospital secara keseluruhan. Fokus pemulihan adalah pada terapi rehabilitasi untuk memulihkan sebarang fungsi yang hilang, seperti pertuturan atau kemahiran motor."
+lastmod: 2026-11-25
 ---
 
 Ia sering bermula dengan apa yang pesakit gambarkan sebagai "sakit kepala paling teruk dalam hidup saya." Satu kesakitan yang datang secara tiba-tiba seperti letupan, menandakan ada sesuatu yang sangat tidak kena. Inilah saatnya saluran darah di dalam otak mungkin telah pecah, menyebabkan pendarahan yang dikenali sebagai pendarahan intraserebrum (intracerebral hemorrhage).

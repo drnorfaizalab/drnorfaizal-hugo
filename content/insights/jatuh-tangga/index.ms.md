@@ -29,6 +29,7 @@ faq_schema:
     answer: "Pastikan tangga cukup terang siang dan malam, pasang susur tangan yang kukuh di kedua-dua belah, pastikan lantai bebas daripada barang yang boleh menyebabkan tersadung, galakkan pemakaian kasut atau selipar tidak licin di dalam rumah, dan ingatkan mereka untuk tidak tergesa-gesa di tangga."
   - question: "Perlukah saya berjumpa doktor walaupun jatuh itu kelihatan ringan?"
     answer: "Ya. Walaupun jatuh kelihatan ringan pada masa itu, pemeriksaan awal tetap penting, terutamanya bagi warga emas atau sesiapa yang mengambil ubat pencair darah, kerana pendarahan intrakranial tidak selalu jelas kelihatan sejurus selepas kecederaan."
+lastmod: 2026-11-25
 ---
 
 Panggilan masuk pukul 3 pagi. Seorang pesakit berusia 68 tahun telah jatuh dari tangga. Beliau berada di wad kecemasan dengan luka di kepala.

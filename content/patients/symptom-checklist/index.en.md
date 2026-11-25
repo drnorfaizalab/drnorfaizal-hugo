@@ -4,6 +4,7 @@ description: "Use this checklist to evaluate your neurological symptoms. Red fla
 draft: false
 type: "page"
 show_appointment_button: true
+lastmod: 2026-11-25
 ---
 
 # Neurological Symptom Checklist

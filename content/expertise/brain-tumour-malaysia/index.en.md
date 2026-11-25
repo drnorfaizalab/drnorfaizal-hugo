@@ -13,6 +13,7 @@ medicalCondition: "Brain Tumour"
 ogImage: "/images/og-brain.jpg"
 date: 2026-04-26
 layout: condition
+lastmod: 2026-11-25
 ---
 
 # Brain Tumour Surgery in Malaysia

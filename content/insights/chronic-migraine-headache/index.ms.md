@@ -24,6 +24,7 @@ faq_schema:
     answer: "Rawatan akut termasuk triptans dan gepants (penyekat CGRP). Rawatan pencegahan termasuk beta-blocker, anticonvulsant, dan tricyclic sebagai pilihan utama, dengan antibodi monoklonal anti-CGRP dan Botox (mengikut protokol PREEMPT) untuk migrain kronik yang degil. Rawatan intervensi seperti occipital nerve block atau neuromodulation dipertimbangkan jika ubat tidak berkesan."
   - question: "Adakah imbasan MRI perlu untuk diagnosis migrain?"
     answer: "Imbasan otak rutin tidak diperlukan untuk corak migrain yang klasik dan stabil. MRI otak hanya perlu jika ada tanda bahaya, ciri-ciri yang tidak lazim, atau keraguan diagnostik yang nyata."
+lastmod: 2026-11-25
 ---
 
 # Migrain Kronik & Sakit Kepala: Bila Anda Perlu Risau?

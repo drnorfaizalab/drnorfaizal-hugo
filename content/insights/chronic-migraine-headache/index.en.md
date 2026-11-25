@@ -25,6 +25,7 @@ faq_schema:
     answer: "Acute treatment includes triptans and CGRP-antagonist gepants. Preventive options include beta-blockers, anticonvulsants, and tricyclics as first-line therapy, with anti-CGRP monoclonal antibodies and Botox (following the PREEMPT protocol) available for refractory chronic migraine. Interventional options such as occipital nerve blocks or neuromodulation are considered when medication fails."
   - question: "Is an MRI necessary for migraine diagnosis?"
     answer: "Routine neuroimaging is not necessary for a classic, stable migraine pattern. An MRI brain is indicated only when red flag symptoms are present, features are atypical, or there is genuine diagnostic ambiguity."
+lastmod: 2026-11-25
 ---
 
 # Clinical Management of Chronic Migraine & Headache

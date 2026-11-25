@@ -25,6 +25,7 @@ faq_schema:
     answer: "Patients typically walk the same day, go home within 1 to 2 days, and return to desk work within 2 to 4 weeks. Recovery is longer for laminectomy (2 to 3 days in hospital, avoid bending or lifting for 4 to 6 weeks) and spinal fusion (3 to 6 months for full bone healing, desk work at 6 to 8 weeks)."
   - question: "What is the single best way to prevent back pain from recurring?"
     answer: "Core strengthening is the single most important long-term protective measure, alongside good ergonomics (maintaining a neutral lumbar curve when seated), weight management, smoking cessation, and regular low-impact exercise such as swimming, walking, or cycling."
+lastmod: 2026-11-25
 ---
 
 # Spinal & Back Pain Guide

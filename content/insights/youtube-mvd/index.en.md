@@ -22,6 +22,7 @@ faq_schema:
     answer: "Yes, for well-selected patients with a confirmed vascular compression, microvascular decompression offers among the highest long-term pain relief rates of any treatment for trigeminal neuralgia, and unlike ablative procedures, it does not intentionally damage the nerve."
   - question: "How is trigeminal neuralgia diagnosed?"
     answer: "Diagnosis is based on the characteristic pattern of sudden, severe, one-sided facial pain, supported by an MRI to look for a blood vessel compressing the trigeminal nerve and to rule out other causes such as a tumour or multiple sclerosis."
+lastmod: 2026-11-25
 ---
 
 ## Watch: The Blood Vessel Compressing the Nerve

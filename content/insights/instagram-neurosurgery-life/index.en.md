@@ -21,6 +21,7 @@ faq_schema:
     answer: "It is real-time monitoring of nerve and brain function during surgery, used for tumours near eloquent areas that control speech, movement, or vision, to protect these critical functions while the tumour is being removed."
   - question: "Does recovery from brain surgery end when the operation is over?"
     answer: "No. Surgery is one chapter — recovery through physiotherapy, speech therapy, and occupational therapy is the next, equally important phase. The goal of treatment is always the patient's function, not just removal of the tumour."
+lastmod: 2026-11-25
 ---
 
 ## Behind the Scrubs — Neurosurgery Up Close

@@ -6,6 +6,7 @@ ogImage: "/images/og-contact.jpg"
 draft: false
 type: "page"
 show_appointment_button: true
+lastmod: 2026-11-25
 ---
 
 # Contact the Clinic

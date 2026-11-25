@@ -6,4 +6,5 @@ aliases:
   - /bm/media/
 type: blog-index
 show_appointment_button: true
+lastmod: 2026-11-25
 ---

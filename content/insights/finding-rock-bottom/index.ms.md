@@ -21,6 +21,7 @@ faq_schema:
     answer: "Apabila jatuh ke dalam air yang dalam, meronta dan panik mencari dasar hanya melelahkan diri dalam kegelapan. Tindakan yang lebih bijak adalah berhenti melawan dan mengapungkan diri — menjimatkan tenaga, menarik nafas, dan mendapat kejelasan untuk melihat daratan. Diguna pakai pada berita sukar seperti diagnosis, ini bermakna berhenti seketika berbanding panik, yang memberi ruang untuk berkumpul semula bersama orang tersayang sebelum meneruskan langkah."
   - question: "Adakah tanda kelemahan bagi seorang doktor untuk mengaku keletihan mental?"
     answer: "Tidak. Mengakui keletihan mental sebagai seorang doktor bukanlah kelemahan — ia adalah langkah pertama dalam proses penyembuhan, langkah yang sama yang dinasihatkan kepada pesakit. Menerima kebenaran yang sukar, walau sepahit mana pun, adalah permulaan pemulihan, bagi doktor mahupun pesakit."
+lastmod: 2026-11-25
 ---
 
 Dalam hidup setiap insan, pasti ada saat-saat di mana kita rasa seperti sudah jatuh terduduk. Dugaan kesihatan, kerjaya, atau putus hubungan—rasanya seolah-olah kita sesat di tengah lautan yang gelap dan luas, tanpa daratan yang kelihatan.

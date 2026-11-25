@@ -2,7 +2,7 @@
 title: "Discipline"
 description: "Intelligence is common. Discipline is rare. A neurosurgeon's reflection on the true cost of excellence."
 date: 2026-03-14T08:17:41+08:00
-lastmod: 2026-03-14T08:17:41+08:00
+lastmod: 2026-11-25
 draft: false
 
 # SEO & metadata

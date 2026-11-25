@@ -2,7 +2,7 @@
 title: "Meningioma: A Comprehensive Clinical Guide for Patients"
 description: "An authoritative guide to Meningioma by Dr. Nor Faizal. Understand the pathology, surgical Simpson grading, advanced neuro-navigation, and the path to recovery."
 date: 2025-03-10
-lastmod: 2025-03-10
+lastmod: 2026-11-25
 draft: false
 type: "blog"
 categories: ["Neurooncology", "Brain Tumours"]

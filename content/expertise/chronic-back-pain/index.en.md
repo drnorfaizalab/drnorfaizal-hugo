@@ -15,6 +15,7 @@ medicalCondition: "Chronic Back Pain"
 ogImage: "/images/og-pain.jpg"
 date: 2026-04-26
 layout: condition
+lastmod: 2026-11-25
 ---
 
 # Chronic Back Pain: When Medication Isn't Enough

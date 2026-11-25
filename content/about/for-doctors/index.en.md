@@ -2,7 +2,7 @@
 title: "Referring a Patient | Dr Nor Faizal Ahmad Bahuri"
 description: "Referral information for GPs and specialists. Dr Nor Faizal accepts referrals for brain tumour surgery, complex interventional pain, and neuro-oncology at KPJ Tawakkal Specialist Hospital, Kuala Lumpur."
 date: 2026-01-01
-lastmod: 2026-03-12
+lastmod: 2026-11-25
 draft: false
 layout: "for-doctors"
 type: "for-doctors"

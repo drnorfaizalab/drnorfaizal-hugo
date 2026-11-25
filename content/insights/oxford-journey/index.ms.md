@@ -22,6 +22,7 @@ faq_schema:
     answer: "Falsafah rawatan yang dibawa pulang dari Oxford menekankan bahawa pembedahan hanya dilakukan apabila benar-benar perlu. Setiap kraniotomi membawa risiko — pendarahan, edema, jangkitan, defisit neurologi — jadi indikasi mesti benar-benar jelas sebelum hirisan pertama dibuat. Sesetengah pesakit yang datang menjangka pembedahan pulang dengan pelan pemantauan sahaja, dan sebaliknya."
   - question: "Bolehkah pesakit Malaysia mendapat rawatan bedah saraf bertaraf dunia tanpa ke luar negara?"
     answer: "Ya. Matlamat membawa latihan, kepakaran, dan standard Oxford pulang ke Malaysia adalah supaya setiap pesakit Malaysia layak mendapat penjagaan bedah saraf bertaraf dunia tanpa perlu meninggalkan negara — dekat dengan keluarga, dalam bahasa mereka sendiri, dalam sistem yang mereka fahami."
+lastmod: 2026-11-25
 ---
 
 Ada satu saat yang diingati oleh setiap pakar bedah: saat pertama kita faham bahawa ini bukan sekadar kerja teknikal. Bahawa alat di tangan kita, dipegang pada sudut tertentu, adalah pembeza antara nyawa yang diselamatkan dan nyawa yang tercalar. Bagi saya, saat itu terpahat di Oxford — melihat seorang konsultan mengendalikan tumor berhampiran korteks penting dengan kesabaran dan penjimatan pergerakan yang seolah-olah memperlahankan masa itu sendiri.

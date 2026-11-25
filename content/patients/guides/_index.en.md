@@ -3,6 +3,7 @@ title: "Patient Guides | Dr Nor Faizal"
 description: "Downloadable patient education guides for brain tumours, headache, and spinal conditions. Written by Oxford-trained neurosurgeon Dr Nor Faizal."
 draft: false
 show_appointment_button: true
+lastmod: 2026-11-25
 ---
 
 # Patient Guides

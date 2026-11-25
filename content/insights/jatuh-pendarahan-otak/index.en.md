@@ -23,6 +23,7 @@ faq_schema:
     answer: "An epidural haematoma is bleeding between the skull and the outer covering of the brain (the dura); it can expand rapidly and become life-threatening within hours. A subdural haematoma is bleeding between the dura and the brain surface itself; it develops more slowly but is equally dangerous if left untreated."
   - question: "When should a child go to the emergency room after a fall?"
     answer: "Go to hospital immediately if the child is under 2 years old, if the fall was from a height greater than 1 metre, or if any warning signs — vomiting, drowsiness, seizures, or unequal pupils — appear, even if the child seems fine at first."
+lastmod: 2026-11-25
 ---
 
 ## Falls & Brain Bleeding: The Hidden Danger

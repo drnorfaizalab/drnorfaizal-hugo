@@ -25,6 +25,7 @@ faq_schema:
     answer: "A gross total resection means the surgeon has removed all visible traces of the tumour on imaging and under direct visualisation during surgery. It is the surgical goal for most brain tumours, as it improves outcomes and reduces the chance of early recurrence, though it must be balanced against the risk to surrounding functional brain tissue."
   - question: "What treatment follows brain tumour surgery in children?"
     answer: "Depending on the tumour grade and pathology, surgery is often followed by chemotherapy and radiotherapy to address microscopic tumour cells that surgery alone cannot remove, particularly for high-grade or malignant paediatric brain tumours."
+lastmod: 2026-11-25
 ---
 
 Last week, a family walked into my clinic carrying the weight of the world on their shoulders. They were seeking a second opinion for their 10-year-old daughter, who had recently suffered two seizures.

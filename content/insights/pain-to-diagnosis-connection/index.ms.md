@@ -24,6 +24,7 @@ faq_schema:
     answer: "Rawatan sakit tanpa diagnosis yang jelas boleh menyembunyikan simptom sebenar yang sepatutnya mendorong siasatan, melambatkan pengesanan tumor atau mampatan saraf tunjang pada peringkat rawatan paling berkesan. Ini mewujudkan rasa selamat yang palsu sementara punca sebenar terus berkembang secara senyap."
   - question: "Bilakah sakit kronik perlu dirujuk kepada pakar?"
     answer: "Doktor keluarga (GP) anda adalah tempat rujukan pertama yang betul untuk kebanyakan sakit. Rujukan kepada pakar diperlukan apabila rawatan awal gagal, ada tanda bahaya (gejala neurologi progresif, sakit malam, kehilangan berat badan), atau diagnosis masih tidak pasti selepas penilaian awal."
+lastmod: 2026-11-25
 ---
 
 # Sakit Anda Mungkin Petunjuk Diagnosis

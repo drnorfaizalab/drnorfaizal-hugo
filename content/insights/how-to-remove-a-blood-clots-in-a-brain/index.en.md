@@ -26,6 +26,7 @@ faq_schema:
     answer: "Yes, for suitable candidates, it is a very safe and effective approach. Compared to traditional open surgery (craniotomy), minimally invasive techniques involve smaller incisions, less trauma to surrounding brain tissue, and typically lead to lower risks of infection and faster recovery times."
   - question: "How long is the recovery after minimally invasive brain clot removal?"
     answer: "Recovery varies for each patient, but it is generally much faster than after open surgery. Patients often spend less time in the ICU and hospital overall. The focus of recovery is on rehabilitation therapy to regain any lost function, such as speech or motor skills."
+lastmod: 2026-11-25
 ---
 
 It often begins with what patients describe as "the worst headache of my life." A sudden, explosive pain that signals something is catastrophically wrong. This is the moment a blood vessel in the brain may have burst, causing a bleed known as an intracerebral hemorrhage.

@@ -28,6 +28,7 @@ faq_schema:
     answer: "Yes. In a craniotomy, the bone flap is set aside during the operation and then replaced and secured with titanium plates and screws once the procedure is complete. This is different from a craniectomy, where the bone is deliberately left out, usually to manage brain swelling, and replaced later or reconstructed with an implant."
   - question: "What conditions require a craniotomy?"
     answer: "A craniotomy is the standard first step for most operations that need direct access to the brain, including removal of brain tumours, clipping or coiling of aneurysms, evacuation of intracranial haemorrhage, treatment of arteriovenous malformations, and management of severe traumatic brain injury."
+lastmod: 2026-11-25
 ---
 
 One of the questions I get asked most, often by a patient's spouse or grown child the night before surgery, is some version of: "But how do you actually *get to* the brain?"

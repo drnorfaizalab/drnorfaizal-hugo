@@ -4,6 +4,7 @@ description: "Answers to frequently asked questions about brain tumors, neurosur
 draft: false
 type: "page"
 show_appointment_button: true
+lastmod: 2026-11-25
 ---
 
 # Frequently Asked Questions (FAQs)

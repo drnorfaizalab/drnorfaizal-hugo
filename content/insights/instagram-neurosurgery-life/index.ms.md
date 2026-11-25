@@ -21,6 +21,7 @@ faq_schema:
     answer: "Ia adalah pemantauan fungsi saraf dan otak secara masa nyata semasa pembedahan, digunakan untuk tumor berhampiran kawasan penting yang mengawal pertuturan, pergerakan, atau penglihatan, untuk melindungi fungsi-fungsi kritikal ini semasa tumor dibuang."
   - question: "Adakah pemulihan selepas pembedahan otak berakhir sebaik sahaja operasi selesai?"
     answer: "Tidak. Pembedahan adalah satu bab — pemulihan melalui fisioterapi, terapi pertuturan, dan terapi pekerjaan adalah fasa seterusnya yang sama pentingnya. Matlamat rawatan sentiasa fungsi pesakit, bukan sekadar penyingkiran tumor."
+lastmod: 2026-11-25
 ---
 
 ## Di Sebalik Skrab — Bedah Saraf Dari Dekat

@@ -29,6 +29,7 @@ faq_schema:
     answer: "Ensure staircases are well-lit day and night, install sturdy handrails on both sides, keep floors clear of clutter, encourage non-slip footwear indoors, and remind them to take their time on stairs rather than rushing."
   - question: "Should I still see a doctor if a fall seems minor?"
     answer: "Yes. Even a fall that seems minor at the time deserves a timely check-up, especially in older adults or anyone on blood thinners, since intracranial bleeding is not always apparent immediately after the injury."
+lastmod: 2026-11-25
 ---
 
 The call came at 3 AM. A 68-year-old patient had fallen down the stairs. He was in the emergency room with a head wound.

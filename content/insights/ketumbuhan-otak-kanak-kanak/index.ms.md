@@ -26,6 +26,7 @@ faq_schema:
     answer: "Gross total resection bermaksud pakar bedah telah membuang semua kesan tumor yang boleh dilihat pada imbasan dan semasa pembedahan. Ia adalah matlamat pembedahan bagi kebanyakan tumor otak, kerana ia meningkatkan hasil rawatan dan mengurangkan risiko berulang awal, walaupun ia perlu diimbangi dengan risiko kepada tisu otak fungsian di sekelilingnya."
   - question: "Apakah rawatan susulan selepas pembedahan tumor otak pada kanak-kanak?"
     answer: "Bergantung kepada gred dan patologi tumor, pembedahan selalunya diikuti dengan kemoterapi dan radioterapi untuk menangani sel-sel tumor mikroskopik yang tidak dapat dibuang melalui pembedahan sahaja, terutamanya bagi tumor otak kanak-kanak gred tinggi atau malignan."
+lastmod: 2026-11-25
 ---
 
 Minggu lepas, sepasang suami isteri datang ke klinik saya, memikul beban yang amat berat di bahu mereka. Mereka datang untuk mendapatkan pandangan kedua bagi anak perempuan mereka yang berusia 10 tahun, yang baru sahaja mengalami dua episod sawan.

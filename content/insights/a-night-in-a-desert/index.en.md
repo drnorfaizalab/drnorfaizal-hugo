@@ -19,6 +19,7 @@ faq_schema:
     answer: "Burnout happens to you — it is a breakdown that arrives when limits are ignored. Stepping back is a decision made before that point, a deliberate pause chosen while there is still a choice to make."
   - question: "Why do fallow periods matter for practitioners in demanding fields?"
     answer: "Constant output leaves no space for the mind to integrate experience. A deliberate period of stillness — not laziness, but intentional pause — allows clarity and better decision-making to follow, rather than depleting a practitioner until they break down involuntarily."
+lastmod: 2026-11-25
 ---
 
 48 months. No real pause. Then I went to the Sahara — not to escape, but because I needed to stop and listen to myself again.

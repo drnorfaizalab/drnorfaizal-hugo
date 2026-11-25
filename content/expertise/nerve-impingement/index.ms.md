@@ -31,6 +31,7 @@ faq_schema:
     answer: "Pembedahan untuk cakera hernia yang menyebabkan saraf tersepit disyorkan apabila: pesakit mengalami kesakitan teruk yang tidak bertindak balas kepada 6–12 minggu rawatan konservatif, terdapat kelemahan neurologi progresif (foot drop, kelemahan tangan), terdapat sindrom kauda equina (kehilangan kawalan pundi kencing atau usus) — yang merupakan kecemasan pembedahan, atau MRI menunjukkan mampatan akar saraf atau saraf tunjang yang ketara berkaitan dengan gejala."
   - question: "Apakah perbezaan antara pakar bedah saraf dan pakar bedah ortopedik untuk masalah tulang belakang di Malaysia?"
     answer: "Kedua-dua pakar bedah saraf dan pakar bedah ortopedik melakukan pembedahan tulang belakang. Pakar bedah saraf mempunyai kepakaran tambahan dalam sistem saraf — saraf tunjang dan akar saraf — menjadikan mereka terlatih khusus untuk menguruskan akibat neurologi patologi tunjang: mielopati, radikulopati, dan kecederaan saraf tunjang. Untuk keadaan yang melibatkan mampatan saraf, mampatan saraf tunjang, atau defisit neurologi kompleks, kepakaran dwi pakar bedah saraf dalam anatomi tunjang dan fungsi neurologi adalah satu kelebihan."
+lastmod: 2026-11-25
 ---
 
 # Pakar Saraf Tersepit di Malaysia

@@ -22,6 +22,7 @@ faq_schema:
     answer: "Ya, bagi pesakit yang dipilih dengan teliti dan disahkan mempunyai mampatan salur darah, microvascular decompression menawarkan antara kadar kelegaan sakit jangka panjang yang paling tinggi berbanding rawatan lain untuk trigeminal neuralgia, dan berbeza dengan prosedur ablatif, ia tidak sengaja merosakkan saraf."
   - question: "Bagaimana trigeminal neuralgia didiagnosis?"
     answer: "Diagnosis dibuat berdasarkan corak sakit muka sebelah yang tiba-tiba dan teruk, disokong oleh imbasan MRI untuk mengesan salur darah yang menekan saraf trigeminal dan menyingkirkan punca lain seperti tumor atau multiple sclerosis."
+lastmod: 2026-11-25
 ---
 
 ## Tonton: Salur Darah Yang Menekan Saraf

@@ -29,6 +29,7 @@ faq_schema:
     answer: "Ya, untuk pesakit yang dipilih dengan teliti. Pilihan pembedahan termasuk dekompresi saraf oksipital (untuk neuralgia oksipital), dekompresi mikrovaskular (untuk neuralgia trigeminal yang menyebabkan sakit muka), dan ablasi frekuensi radio bagi cabang saraf trigeminal atau oksipital. Ini bukan rawatan lini pertama — ia dipertimbangkan selepas penilaian menyeluruh dan kegagalan terapi konservatif dan perubatan."
   - question: "Bagaimana saya tahu sama ada sakit kepala saya berbahaya?"
     answer: "Tanda amaran yang memerlukan perhatian perubatan segera: sakit kepala teruk mendadak yang mencapai keamatan maksimum dalam beberapa saat ('thunderclap'), sakit kepala dengan demam dan leher kaku, sakit kepala selepas kecederaan kepala, sakit kepala dengan kelemahan sebelah badan atau kejatuhan muka, sakit kepala dengan kehilangan penglihatan mendadak, dan sakit kepala baru pada pesakit berusia lebih 50 tahun tanpa sejarah sakit kepala. Ini memerlukan penilaian kecemasan."
+lastmod: 2026-11-25
 ---
 
 # Pakar Sakit Kepala di Kuala Lumpur

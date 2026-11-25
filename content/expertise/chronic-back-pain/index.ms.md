@@ -15,6 +15,7 @@ medicalCondition: "Sakit Belakang Kronik"
 ogImage: "/images/og-pain.jpg"
 date: 2026-04-26
 layout: condition
+lastmod: 2026-11-25
 ---
 
 # Sakit Belakang Kronik: Apabila Ubat-Ubatan Tidak Lagi Memadai

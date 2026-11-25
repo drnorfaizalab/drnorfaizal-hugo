@@ -14,4 +14,5 @@ keywords:
 ogImage: "/images/og-home.jpg"
 draft: false
 show_appointment_button: true
+lastmod: 2026-11-25
 ---

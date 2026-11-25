@@ -21,6 +21,7 @@ faq_schema:
     answer: "Mana-mana sakit kepala yang disertai kelemahan mendadak di satu sisi, percakapan tidak jelas, penglihatan berganda, atau kehilangan koordinasi memerlukan penilaian perubatan pada hari yang sama, kerana ini boleh menandakan strok atau kejadian neurologi akut yang lain."
   - question: "Apakah ciri-ciri migrain biasa yang bukan kecemasan?"
     answer: "Ciri migrain klasik termasuk sakit berdenyut, biasanya satu sisi, berlangsung 4 hingga 72 jam, mual atau muntah, sensitif kepada cahaya dan bunyi, reda dengan berehat di bilik gelap dan sunyi, dan corak yang boleh diramal yang pernah anda alami sebelumnya."
+lastmod: 2026-11-25
 ---
 
 ## 3 Tanda Bahaya Migrain — Tonton Sebelum Anda Abaikan Sakit Kepala Itu

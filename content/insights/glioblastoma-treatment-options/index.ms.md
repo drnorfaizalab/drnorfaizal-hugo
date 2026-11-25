@@ -23,6 +23,7 @@ faq_schema:
     answer: "Protokol Stupp adalah urutan rawatan standard untuk GBM: reseksi pembedahan selamat maksimum (menggunakan MRI intraoperatif, pendarfluor 5-ALA, dan pemantauan neuro), diikuti 6 minggu radioterapi serentak dengan kemoterapi temozolomide, kemudian 6 bulan kitaran temozolomide adjuvan."
   - question: "Apakah jangkaan kelangsungan hidup bagi glioblastoma?"
     answer: "Median kelangsungan hidup dengan rawatan adalah 14 hingga 16 bulan, walaupun ia berbeza mengikut individu berdasarkan status metilasi MGMT, usia, dan tahap reseksi pembedahan. Statistik populasi menggambarkan purata, bukan apa yang mungkin bagi seseorang individu — ini dibincangkan secara terbuka dengan setiap pesakit."
+lastmod: 2026-11-25
 ---
 
 # Glioblastoma (GBM): Memahami Pilihan Rawatan Anda
