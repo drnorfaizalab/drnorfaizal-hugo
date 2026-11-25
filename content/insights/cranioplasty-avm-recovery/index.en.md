@@ -15,6 +15,7 @@ cta:
   label: "Book a Consultation"
   url: "/contact"
 translationKey: "cranioplasty-avm-recovery"
+slug: "cranioplasty-avm-recovery"
 ---
 
 *After emergency surgery saved his life from a ruptured brain blood vessel, a father lived for six months missing part of his skull. His wife stepped up as head of the household while fighting fear and exhaustion, until a custom titanium plate from Korea was finally ready to close the defect.*

@@ -15,6 +15,7 @@ cta:
   label: "Buat Janji Temu"
   url: "/contact"
 translationKey: "cranioplasty-avm-recovery"
+slug: "pemulihan-cranioplasty-avm"
 ---
 
 *Selepas pembedahan kecemasan menyelamatkan nyawa akibat saluran darah otak pecah, seorang bapa terpaksa hidup enam bulan tanpa sebahagian tempurung kepalanya. Isterinya memikul tugas sebagai ketua keluarga sambil menahan rasa takut, sebelum akhirnya plat titanium khas dari Korea siap menutup semula kecacatan itu.*
