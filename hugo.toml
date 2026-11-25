@@ -165,9 +165,15 @@ theme = "drnorfaizal"
   tag = "tags"
 
 [outputs]
-  home = ["HTML", "JSON", "RSS", "Sitemap", "ROBOTS"]
+  home = ["HTML", "JSON", "RSS", "Sitemap", "ROBOTS", "LLMS"]
   page = ["HTML"]
   section = ["HTML", "RSS"]
+
+[outputFormats.LLMS]
+  mediaType = "text/plain"
+  baseName = "llms"
+  isPlainText = true
+  notAlternative = true
 
 [outputFormats.JSON]
   mediaType = "application/json"

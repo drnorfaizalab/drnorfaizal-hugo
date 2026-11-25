@@ -7,6 +7,7 @@
       {{ with .Description }}<p class="text-gray">{{ . }}</p>{{ end }}
       {{ if not .Date.IsZero }}
       <p class="text-gray" style="font-size:0.875rem; margin-top:1rem;">
+        {{ if eq .Lang "ms" }}Oleh{{ else }}By{{ end }} <a href="{{ "about/" | relLangURL }}" rel="author">Dr Nor Faizal Ahmad Bahuri</a>, {{ if eq .Lang "ms" }}Pakar Perunding Bedah Saraf{{ else }}Consultant Neurosurgeon{{ end }} ·
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
         {{ if .Lastmod }}· {{ if eq .Lang "ms" }}Dikemaskini{{ else }}Updated{{ end }} {{ .Lastmod.Format "2 January 2006" }}{{ end }}
       </p>

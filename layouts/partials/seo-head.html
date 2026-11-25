@@ -148,6 +148,36 @@
 }
 </script>
 
+{{/* 8a-2. Person — the named author/reviewer of all content */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://drnorfaizal.com/#person",
+  "name": "Dr Nor Faizal Ahmad Bahuri",
+  "honorificPrefix": "Dr",
+  "honorificSuffix": "DPhil (Oxon), MS (UM), MBBS (Malaya)",
+  "jobTitle": "Consultant Neurosurgeon and Interventional Pain Specialist",
+  "url": "https://drnorfaizal.com/about/",
+  "image": "https://drnorfaizal.com/profile.jpg",
+  "worksFor": { "@id": "https://drnorfaizal.com/#physician" },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "University of Oxford" },
+    { "@type": "CollegeOrUniversity", "name": "Universiti Malaya" }
+  ],
+  "knowsLanguage": ["en", "ms"],
+  "knowsAbout": ["Neurosurgery", "Neuro-oncology", "Brain tumour", "Glioma", "Glioblastoma", "Meningioma", "Paediatric brain tumour", "Cerebral arteriovenous malformation", "Cranioplasty", "Head injury", "Chronic migraine", "Trigeminal neuralgia", "Microvascular decompression", "Interventional pain management", "Spinal cord stimulation", "Nerve impingement", "Chronic back pain"],
+  "sameAs": [
+    "https://www.linkedin.com/in/drnorfaizalbahuri/",
+    "https://www.instagram.com/drnorfaizalbahuri/",
+    "https://www.facebook.com/drnorfaizalbahuri/",
+    "https://www.tiktok.com/@drnorfaizalbahuri",
+    "https://www.youtube.com/@drnorfaizalbahuri",
+    "https://www.kpjhealth.com.my/tawakkal/doctor/dr-nor-faizal-ahmad-bahuri"
+  ]
+}
+</script>
+
 {{/* 8b. WebSite schema — homepage only */}}
 {{ if .IsHome }}
 <script type="application/ld+json">
@@ -196,8 +226,10 @@
   "name": "{{ .Title }}",
   "description": "{{ .Params.description | default .Site.Params.siteDescription | default .Site.Params.description }}",
   "url": "{{ .Permalink }}",
-  "lastReviewed": "{{ now.Format "2006-01-02" }}",
-  "reviewedBy": { "@id": "https://drnorfaizal.com/#physician" },
+  "inLanguage": "{{ .Lang }}",
+  "lastReviewed": "{{ .Lastmod.Format "2006-01-02" }}",
+  "author": { "@id": "https://drnorfaizal.com/#person" },
+  "reviewedBy": { "@id": "https://drnorfaizal.com/#person" },
   "about": {
     "@type": "MedicalCondition",
     "name": "{{ .Params.medicalCondition | default .Title }}"
@@ -241,9 +273,11 @@
   "url": "{{ .Permalink }}",
   "datePublished": "{{ .Date.Format "2006-01-02" }}",
   "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
-  "author": { "@id": "https://drnorfaizal.com/#physician" },
+  "inLanguage": "{{ .Lang }}",
+  {{ with .Params.tags }}"keywords": {{ delimit . ", " | jsonify | safeJS }},{{ end }}
+  "author": { "@id": "https://drnorfaizal.com/#person" },
   "publisher": { "@id": "https://drnorfaizal.com/#physician" },
-  "image": "{{ (.Params.ogImage | default .Site.Params.ogImage) | absURL }}",
+  "image": "{{ (.Params.ogImage | default .Params.image | default .Site.Params.ogImage) | absURL }}",
   "mainEntityOfPage": "{{ .Permalink }}"
 }
 </script>
