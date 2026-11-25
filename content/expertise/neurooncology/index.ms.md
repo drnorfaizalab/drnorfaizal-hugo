@@ -17,6 +17,19 @@ date: 2026-07-27
 layout: condition
 show_appointment_button: true
 lastmod: 2026-11-25
+faq_schema:
+  - question: "Adakah neuro-onkologi berbeza daripada onkologi?"
+    answer: "Ya. Ahli onkologi perubatan mengurus kemoterapi sistemik dan imunoterapi. Pakar neuro-onkologi mengkhusus dalam tumor sistem saraf pusat, yang berkelakuan berbeza, lebih sukar dicapai, dan bertindak balas terhadap rawatan secara berbeza daripada kanser lain. Neuro-onkologi pembedahan adalah cabang yang menguruskan akses pembedahan, reseksi, dan biopsi — asas yang menjadikan rawatan berikutnya mungkin."
+  - question: "Adakah saya perlu berjumpa pakar neuro-onkologi dan pakar bedah saraf secara berasingan?"
+    answer: "Dalam sistem yang ideal, ya — dan begitulah ia berfungsi di KPJ Tawakkal. Saya menguruskan komponen pembedahan. Doktor neuro-onkologi menguruskan terapi adjuvant. Kami menyelaraskan melalui lembaga tumor dan komunikasi langsung supaya anda tidak perlu merapatkan jurang itu sendiri."
+  - question: "Tumor saya tidak boleh dioperasi. Adakah masih ada peranan untuk pembedahan?"
+    answer: "Sering kali, ya. Walaupun untuk tumor di mana reseksi lengkap tidak dapat dicapai — glioma dalam, lesi batang otak, metastasis berganda — pembedahan dalam bentuk biopsi stereotaktik menyediakan diagnosis tisu yang membuka kunci kemoterapi sasaran, imunoterapi, atau pendaftaran ujian klinikal. Tanpa tisu, tiada rawatan sasaran."
+  - question: "Apakah perbezaan antara tumor otak malignan dan benigna?"
+    answer: "Keganasan merujuk kepada keupayaan tumor untuk menyerang tisu sekeliling dan merebak. Tumor benigna tidak merebak, tetapi ia tidak bermakna tidak bahaya — meningioma benigna yang menekan batang otak adalah kecemasan yang mengancam nyawa. Lokasi, saiz, dan kadar pertumbuhan sama pentingnya dengan potensi malignan dalam menentukan ketergesaan rawatan."
+  - question: "Bolehkah tumor otak berulang selepas pembedahan?"
+    answer: "Ya. Kadar kekambuhan bergantung sepenuhnya kepada biologi tumor. Meningioma Gred I berulang dalam kurang daripada 5% kes selepas reseksi lengkap. Glioblastoma hampir selalu berulang — soalannya adalah bila, dan bagaimana memanjangkan masa ke kekambuhan. Inilah sebabnya pengawasan MRI jangka panjang bukan pilihan — ia dibina ke dalam pelan rawatan dari hari pertama."
+  - question: "Patutkah saya mendapatkan pendapat kedua sebelum meneruskan pembedahan?"
+    answer: "Ya. Saya menggalakkannya. Untuk sebarang pembedahan tumor otak — elektif atau segera — pendapat kedua daripada pakar bedah saraf berpengalaman neuro-onkologi adalah wajar sepenuhnya. Datang kepada saya untuk pendapat kedua. Saya akan memberitahu anda dengan jujur apa yang saya lihat."
 ---
 
 # Neuro-Onkologi: Rawatan Tumor Otak & Saraf Tunjang di Malaysia

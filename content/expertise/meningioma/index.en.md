@@ -13,6 +13,13 @@ ogImage: "/images/og-brain.jpg"
 date: 2026-04-26
 layout: condition
 lastmod: 2026-11-25
+faq_schema:
+  - question: "I have a 2 cm incidental meningioma. My GP wants to operate immediately. Is that right?"
+    answer: "Not necessarily. A small, asymptomatic meningioma in an otherwise healthy adult can often be safely observed with 6-monthly MRI for the first year, then annually if stable. The decision depends on your age, health, tumour location, and growth rate. I would want to review your scans before recommending surgery."
+  - question: "Will removing the meningioma cure me?"
+    answer: "For Grade I meningiomas with complete resection (Simpson Grade I/II), long-term cure rates exceed 90%. Grade II meningiomas have higher recurrence — adjuvant radiotherapy reduces this. Regular MRI follow-up is always necessary."
+  - question: "I've been told my meningioma is near a major blood vessel. Is that dangerous?"
+    answer: "Proximity to the cavernous sinus, superior sagittal sinus, or major cerebral vessels significantly increases surgical complexity. This is where surgical experience, not just technique, matters. I will show you the vascular anatomy on your MRI and explain exactly what the risks are."
 ---
 
 # Meningioma: Treatment, Surgery & Recovery in Malaysia

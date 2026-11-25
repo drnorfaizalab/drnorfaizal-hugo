@@ -16,6 +16,15 @@ ogImage: "/images/og-pain.jpg"
 date: 2026-04-26
 layout: condition
 lastmod: 2026-11-25
+faq_schema:
+  - question: "I had a discectomy two years ago and I'm still in pain. Is there anything left to try?"
+    answer: "Yes. Failed back surgery syndrome is exactly what spinal cord stimulation was developed for. The PROCESS trial showed SCS was more effective than reoperation in this situation. A consultation with MRI review will clarify whether you're a candidate."
+  - question: "How is radiofrequency ablation different from a steroid injection?"
+    answer: "A steroid injection reduces inflammation — the effect is temporary (weeks to months) and doesn't address the nerve itself. Radiofrequency ablation thermally disables the pain-carrying nerve fibres — effect lasts 9–18 months and the procedure is repeatable. For facet joint pain, RFA is the more durable intervention."
+  - question: "Will I need general anaesthesia?"
+    answer: "Most procedures are performed under local anaesthesia with light sedation. You're awake but comfortable. SCS implant typically uses light general anaesthesia or sedation. You go home the same day or the following morning."
+  - question: "Am I too old for spinal cord stimulation?"
+    answer: "Age alone is not a contraindication. The evaluation focuses on your pain phenotype, psychological readiness, and cardiorespiratory fitness for a minor surgical procedure. I have implanted SCS devices in patients in their late 70s with excellent results."
 ---
 
 # Chronic Back Pain: When Medication Isn't Enough
