@@ -25,7 +25,7 @@ lastmod: 2026-11-25
 
 Neuro-oncology is not simply brain tumour surgery. It is the discipline that sits at the intersection of neurosurgery, medical oncology, radiation oncology, and neuropathology — bringing these specialties together around a single patient with a single diagnosis that changes their life in an instant.
 
-I have spent the last two decades building a practice centred on this intersection. My DPhil at the University of Oxford thought me to think and act outside the box of surgery and oncology. My clinical training spans high-volume neuro-oncology at the University of Malaya Medical Centre — one of Southeast Asia's busiest neurosurgical centres — to focused specialist practice at KPJ Tawakkal Specialist Hospital in Kuala Lumpur.
+I have spent the last two decades building a practice centred on this intersection. My DPhil at the University of Oxford taught me to think and act outside the box of surgery and oncology. My clinical training spans high-volume neuro-oncology at the University of Malaya Medical Centre — one of Southeast Asia's busiest neurosurgical centres — to focused specialist practice at KPJ Tawakkal Specialist Hospital in Kuala Lumpur.
 
 This page explains what neuro-oncology means in practice, what it means for you as a patient, and how I approach it.
 
