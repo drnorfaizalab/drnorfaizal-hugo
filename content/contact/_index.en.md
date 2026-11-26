@@ -46,16 +46,10 @@ Tawakkal Specialist Hospital is a well-established specialist hospital in the he
 
 | Day | Hours | Hospital |
 |---|---|---|
-| Monday | 9:00 AM – 5:00 PM | Tawakkal Specialist Hospital |
-| Tuesday (Morning) | 9:00 AM – 12:00 PM | Tawakkal Specialist Hospital |
-| Tuesday (Afternoon) | 2:00 PM – 5:00 PM | Ampang Puteri Specialist Hospital |
-| Wednesday | 9:00 AM – 5:00 PM | Tawakkal Specialist Hospital |
-| Thursday (Morning) | 9:00 AM – 12:00 PM | Tawakkal Specialist Hospital |
-| Thursday (Afternoon) | 2:00 PM – 5:00 PM | Ampang Puteri Specialist Hospital |
-| Friday | 9:00 AM – 5:00 PM | Tawakkal Specialist Hospital |
-| Saturday | 9:00 AM – 1:00 PM | Tawakkal Specialist Hospital |
-| Sunday | Closed | — |
-| Public Holidays | Closed | — |
+| Monday – Friday | 9:00 AM – 4:00 PM | KPJ Tawakkal Specialist Hospital |
+| Saturday | 9:00 AM – 12:00 PM | KPJ Tawakkal Specialist Hospital |
+| Sunday & Public Holidays | Closed | — |
+| By appointment | Please call to arrange | KPJ Ampang Puteri Specialist Hospital |
 
 *Clinic hours may vary. Please call ahead to confirm availability, particularly for Saturday appointments.*
 
