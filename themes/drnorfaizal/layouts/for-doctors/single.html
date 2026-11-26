@@ -539,43 +539,43 @@
         {{/* Left: heading + CTA */}}
         <div class="fd-hero-main">
           <div class="fd-eyebrow">{{ .Params.page_eyebrow }}</div>
-          <h1>Referring a <em>Patient</em><br>to Dr Nor Faizal</h1>
+          <h1>{{ T "fd_h1" | safeHTML }}</h1>
           <p class="fd-hero-sub">{{ .Params.page_subtitle }}</p>
           <div class="fd-hero-actions">
-            <a href="https://wa.me/{{ .Params.whatsapp_number }}?text=Referral%20Enquiry%3A%20" class="btn btn-primary">
+            <a href="https://wa.me/{{ .Params.whatsapp_number }}?text={{ T "fd_wa_text" }}" class="btn btn-primary">
               &#128172; {{ .Params.whatsapp_label }}
             </a>
-            <a href="#how-to-refer" class="btn btn-secondary">How It Works ↓</a>
+            <a href="#how-to-refer" class="btn btn-secondary">{{ T "fd_how_it_works" | safeHTML }}</a>
           </div>
         </div>
 
         {{/* Right: quick contact card */}}
         <div>
           <div class="fd-quick-card">
-            <div class="fd-qc-label">Direct Referral Contact</div>
+            <div class="fd-qc-label">{{ T "fd_direct_contact" | safeHTML }}</div>
             <div class="fd-qc-line">
               <span class="fd-qc-icon">&#128172;</span>
               <div class="fd-qc-info">
                 <a href="https://wa.me/{{ .Params.whatsapp_number }}">+{{ .Params.whatsapp_number }}</a>
-                <span class="fd-qc-note">WhatsApp — fastest response</span>
+                <span class="fd-qc-note">{{ T "fd_wa_fastest" | safeHTML }}</span>
               </div>
             </div>
             <div class="fd-qc-line">
               <span class="fd-qc-icon">&#128222;</span>
               <div class="fd-qc-info">
                 <a href="tel:{{ .Params.clinic_phone }}">{{ .Params.clinic_phone }}</a>
-                <span class="fd-qc-note">Ext {{ .Params.clinic_ext }} &mdash; clinic direct line</span>
+                <span class="fd-qc-note">Ext {{ .Params.clinic_ext }} {{ T "fd_clinic_line" | safeHTML }}</span>
               </div>
             </div>
             <div class="fd-qc-line">
               <span class="fd-qc-icon">&#9993;</span>
               <div class="fd-qc-info">
                 <a href="mailto:{{ .Site.Params.clinic_email }}">{{ .Site.Params.clinic_email }}</a>
-                <span class="fd-qc-note">Referral letters &amp; imaging</span>
+                <span class="fd-qc-note">{{ T "fd_letters_imaging" | safeHTML }}</span>
               </div>
             </div>
-            <a href="https://wa.me/{{ .Params.whatsapp_number }}?text=Referral%20Enquiry%3A%20" class="fd-qc-wa-btn">
-              &#128172;&nbsp; WhatsApp a Referral Now
+            <a href="https://wa.me/{{ .Params.whatsapp_number }}?text={{ T "fd_wa_text" }}" class="fd-qc-wa-btn">
+              {{ T "fd_wa_now" | safeHTML }}
             </a>
           </div>
         </div>
@@ -584,7 +584,7 @@
 
       {{/* Credentials */}}
       <div class="fd-credentials">
-        <div class="fd-credentials-label">Qualifications</div>
+        <div class="fd-credentials-label">{{ T "fd_qualifications" | safeHTML }}</div>
         <div class="fd-cred-grid">
           {{ range .Params.credentials }}
           <div class="fd-cred-item">
@@ -601,9 +601,9 @@
   {{/* ── CASES ACCEPTED ── */}}
   <div class="container">
     <section class="fd-section">
-      <div class="fd-section-label">Referral Scope</div>
-      <h2>Cases <em>Accepted</em></h2>
-      <p class="fd-section-intro">Dr Nor Faizal operates across three clinical domains. Complex and refractory cases are especially welcomed &mdash; the difficult cases are where subspecialty expertise matters most.</p>
+      <div class="fd-section-label">{{ T "fd_scope" | safeHTML }}</div>
+      <h2>{{ T "fd_cases_h2" | safeHTML }}</h2>
+      <p class="fd-section-intro">{{ T "fd_cases_intro" | safeHTML }}</p>
 
       <div class="fd-accept-grid">
         {{ range .Params.specialties }}
@@ -627,12 +627,12 @@
     <div class="fd-urgency-inner">
       <span class="fd-urgency-icon">&#9888;</span>
       <div class="fd-urgency-text">
-        <h3>For Urgent Neurological Cases</h3>
-        <p>If your patient presents with rapid neurological deterioration, new seizure with mass on imaging, cauda equina syndrome, or thunderclap headache &mdash; please refer directly to the Emergency Department at KPJ Tawakkal or contact the clinic immediately. Urgent cases are triaged and accommodated as a priority.</p>
+        <h3>{{ T "fd_urgent_h3" | safeHTML }}</h3>
+        <p>{{ T "fd_urgent_body" | safeHTML }}</p>
       </div>
       <div class="fd-urgency-cta">
-        <a href="https://wa.me/{{ .Params.whatsapp_number }}?text=URGENT%20Referral%3A%20" class="fd-urgency-btn">Urgent WhatsApp</a>
-        <div class="fd-urgency-phone">A&amp;E: <a href="tel:{{ .Params.clinic_phone }}">{{ .Params.clinic_phone }}</a></div>
+        <a href="https://wa.me/{{ .Params.whatsapp_number }}?text={{ T "fd_wa_urgent_text" }}" class="fd-urgency-btn">{{ T "fd_urgent_wa" | safeHTML }}</a>
+        <div class="fd-urgency-phone">{{ T "fd_ae" | safeHTML }} <a href="tel:{{ .Params.clinic_phone }}">{{ .Params.clinic_phone }}</a></div>
       </div>
     </div>
   </div>
@@ -640,9 +640,9 @@
   {{/* ── HOW TO REFER ── */}}
   <div class="container">
     <section class="fd-section" id="how-to-refer">
-      <div class="fd-section-label">Referral Process</div>
-      <h2>How to <em>Refer</em></h2>
-      <p class="fd-section-intro">The referral process is designed to be as frictionless as possible. Most referrals are accommodated within a few days; urgent cases within 24&ndash;48 hours.</p>
+      <div class="fd-section-label">{{ T "fd_process" | safeHTML }}</div>
+      <h2>{{ T "fd_how_h2" | safeHTML }}</h2>
+      <p class="fd-section-intro">{{ T "fd_how_intro" | safeHTML }}</p>
 
       <div class="fd-steps">
         {{ range .Params.process_steps }}
@@ -659,50 +659,22 @@
   {{/* ── REFERRAL TEMPLATE ── */}}
   <div class="container">
     <section class="fd-section">
-      <div class="fd-section-label">Ready-to-Use</div>
-      <h2>Referral <em>Template</em></h2>
-      <p class="fd-section-intro">Copy and adapt the template below for your WhatsApp message or referral letter. All fields are optional &mdash; a brief clinical summary is sufficient to initiate a referral.</p>
+      <div class="fd-section-label">{{ T "fd_ready" | safeHTML }}</div>
+      <h2>{{ T "fd_template_h2" | safeHTML }}</h2>
+      <p class="fd-section-intro">{{ T "fd_template_intro" | safeHTML }}</p>
 
       <div class="fd-template-wrap">
         <div class="fd-template-box">
-          <div class="fd-template-header">WhatsApp / Email Referral Template</div>
-          <div class="fd-template-text" id="fd-referral-template">Dear Dr Faizal,
-
-I would like to refer the following patient for your assessment:
-
-Patient: [Name], [Age]y/o, [M/F]
-Referring Doctor: Dr [Your Name], [Clinic/Hospital]
-
-Working Diagnosis:
-[e.g. Suspected glioma / Refractory trigeminal neuralgia / FBSS]
-
-Clinical Summary:
-[2–3 sentences: presenting complaint, duration,
-relevant history, current management, reason for referral]
-
-Investigations available:
-☐ MRI Brain / Spine (Date: ______)
-☐ CT Scan (Date: ______)
-☐ Histopathology report
-☐ Nerve conduction study
-☐ Other: ______
-
-Urgency:
-☐ Routine (within 2 weeks)
-☐ Semi-urgent (within 1 week)
-☐ Urgent (within 48 hrs)
-
-Contact for patient: [Phone number]
-
-Thank you.</div>
+          <div class="fd-template-header">{{ T "fd_template_header" | safeHTML }}</div>
+          <div class="fd-template-text" id="fd-referral-template">{{ T "fd_template_text" }}</div>
           <button type="button" class="fd-copy-btn" onclick="fdCopyTemplate()" id="fd-copy-btn">
-            <span>&#128203;</span> Copy Template
+            {{ T "fd_copy_btn" | safeHTML }}
           </button>
         </div>
 
         <div>
-          <div class="fd-checklist-title">What to Prepare</div>
-          <p class="fd-checklist-sub">Documents to share with Dr Faizal before or at the consultation.</p>
+          <div class="fd-checklist-title">{{ T "fd_prepare" | safeHTML }}</div>
+          <p class="fd-checklist-sub">{{ T "fd_prepare_sub" | safeHTML }}</p>
           {{ range .Params.checklist }}
           <div class="fd-check-item">
             <div class="fd-check-box"></div>
@@ -720,40 +692,40 @@ Thank you.</div>
   {{/* ── CONTACT ── */}}
   <div class="container">
     <section class="fd-section">
-      <div class="fd-section-label">Get In Touch</div>
-      <h2>Referral <em>Contacts</em></h2>
-      <p class="fd-section-intro">All referral channels go directly to the clinic team. WhatsApp is the fastest route for routine referrals. For urgent cases, call directly.</p>
+      <div class="fd-section-label">{{ T "fd_get_in_touch" | safeHTML }}</div>
+      <h2>{{ T "fd_contacts_h2" | safeHTML }}</h2>
+      <p class="fd-section-intro">{{ T "fd_contacts_intro" | safeHTML }}</p>
 
       <div class="fd-contact-layout">
         <div class="fd-contact-grid">
           <div class="fd-channel">
             <div class="fd-channel-icon">&#128172;</div>
-            <div class="fd-channel-label">WhatsApp (Preferred)</div>
+            <div class="fd-channel-label">{{ T "fd_wa_preferred" | safeHTML }}</div>
             <div class="fd-channel-value"><a href="https://wa.me/{{ .Params.whatsapp_number }}">+{{ .Params.whatsapp_number }}</a></div>
-            <div class="fd-channel-note">Fastest response. Routine &amp; urgent referrals.</div>
+            <div class="fd-channel-note">{{ T "fd_wa_note" | safeHTML }}</div>
           </div>
           <div class="fd-channel">
             <div class="fd-channel-icon">&#128222;</div>
-            <div class="fd-channel-label">Clinic Direct Line</div>
+            <div class="fd-channel-label">{{ T "fd_clinic_direct" | safeHTML }}</div>
             <div class="fd-channel-value"><a href="tel:{{ .Params.clinic_phone }}">{{ .Params.clinic_phone }}</a></div>
-            <div class="fd-channel-note">Ext {{ .Params.clinic_ext }}. Mon&ndash;Fri 9am&ndash;4pm, Sat 9am&ndash;12pm.</div>
+            <div class="fd-channel-note">Ext {{ .Params.clinic_ext }}.{{ T "fd_clinic_hours_note" | safeHTML }}</div>
           </div>
           <div class="fd-channel">
             <div class="fd-channel-icon">&#9993;</div>
-            <div class="fd-channel-label">Email</div>
+            <div class="fd-channel-label">{{ T "fd_email" | safeHTML }}</div>
             <div class="fd-channel-value"><a href="mailto:{{ .Site.Params.clinic_email }}">{{ .Site.Params.clinic_email }}</a></div>
-            <div class="fd-channel-note">For referral letters &amp; imaging reports.</div>
+            <div class="fd-channel-note">{{ T "fd_email_note" | safeHTML }}</div>
           </div>
           <div class="fd-channel">
             <div class="fd-channel-icon">&#127760;</div>
-            <div class="fd-channel-label">Online Booking</div>
+            <div class="fd-channel-label">{{ T "fd_online_booking" | safeHTML }}</div>
             <div class="fd-channel-value"><a href="{{ .Params.booking_url }}" target="_blank" rel="noopener">KPJ Health Portal</a></div>
-            <div class="fd-channel-note">Self-referral or patient-initiated booking.</div>
+            <div class="fd-channel-note">{{ T "fd_booking_note" | safeHTML }}</div>
           </div>
         </div>
 
         <div class="fd-hours-card">
-          <div class="fd-hours-heading">Clinic Hours</div>
+          <div class="fd-hours-heading">{{ T "fd_clinic_hours" | safeHTML }}</div>
           {{ range .Params.clinic_hours }}
           <div class="fd-hours-row">
             <span class="fd-hours-day">{{ .day }}</span>
@@ -768,8 +740,8 @@ Thank you.</div>
   {{/* ── WHY REFER ── */}}
   <div class="container">
     <section class="fd-section">
-      <div class="fd-section-label">For Your Confidence</div>
-      <h2>Why Colleagues <em>Refer</em> to Dr Nor Faizal</h2>
+      <div class="fd-section-label">{{ T "fd_confidence" | safeHTML }}</div>
+      <h2>{{ T "fd_why_h2" | safeHTML }}</h2>
 
       <div class="fd-why-grid">
         {{ range .Params.why_refer }}
@@ -786,7 +758,7 @@ Thank you.</div>
   {{- if .Content -}}
   <div class="container">
     <section class="fd-section">
-      <div class="fd-section-label">Additional Information</div>
+      <div class="fd-section-label">{{ T "fd_additional" | safeHTML }}</div>
       <div class="prose">
         {{- .Content -}}
       </div>
@@ -797,11 +769,11 @@ Thank you.</div>
 </div>{{/* end .fd-page */}}
 
 {{/* ── WHATSAPP FLOAT ── */}}
-<a href="https://wa.me/{{ .Params.whatsapp_number }}?text=Referral%20Enquiry%3A%20" class="fd-wa-float" target="_blank" rel="noopener" aria-label="WhatsApp referral enquiry">
+<a href="https://wa.me/{{ .Params.whatsapp_number }}?text={{ T "fd_wa_text" }}" class="fd-wa-float" target="_blank" rel="noopener" aria-label="{{ T "fd_wa_aria" | safeHTML }}">
   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
   </svg>
-  <span>Refer a Patient</span>
+  {{ T "fd_float" | safeHTML }}
 </a>
 
 <script>
@@ -809,10 +781,10 @@ function fdCopyTemplate() {
   const text = document.getElementById('fd-referral-template').innerText;
   navigator.clipboard.writeText(text).then(function() {
     const btn = document.getElementById('fd-copy-btn');
-    btn.innerHTML = '<span>✓</span> Copied';
+    btn.innerHTML = {{ T "fd_copied" | jsonify | safeJS }};
     btn.classList.add('copied');
     setTimeout(function() {
-      btn.innerHTML = '<span>📋</span> Copy Template';
+      btn.innerHTML = {{ T "fd_copy_js" | jsonify | safeJS }};
       btn.classList.remove('copied');
     }, 2500);
   });

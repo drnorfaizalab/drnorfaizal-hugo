@@ -23,3 +23,81 @@ appointment_title: "Ready to Consult?"
 appointment_desc: "Contact us to schedule an appointment."
 
 updated: "Updated"
+
+# for-doctors page
+fd_h1: "Referring a <em>Patient</em><br>to Dr Nor Faizal"
+fd_how_it_works: "How It Works ↓"
+fd_direct_contact: "Direct Referral Contact"
+fd_wa_fastest: "WhatsApp — fastest response"
+fd_clinic_line: "&mdash; clinic direct line"
+fd_letters_imaging: "Referral letters &amp; imaging"
+fd_wa_now: "&#128172;&nbsp; WhatsApp a Referral Now"
+fd_qualifications: "Qualifications"
+fd_scope: "Referral Scope"
+fd_cases_h2: "Cases <em>Accepted</em>"
+fd_cases_intro: "Dr Nor Faizal operates across three clinical domains. Complex and refractory cases are especially welcomed &mdash; the difficult cases are where subspecialty expertise matters most."
+fd_urgent_h3: "For Urgent Neurological Cases"
+fd_urgent_body: "If your patient presents with rapid neurological deterioration, new seizure with mass on imaging, cauda equina syndrome, or thunderclap headache &mdash; please refer directly to the Emergency Department at KPJ Tawakkal or contact the clinic immediately. Urgent cases are triaged and accommodated as a priority."
+fd_urgent_wa: "Urgent WhatsApp"
+fd_ae: "A&amp;E:"
+fd_process: "Referral Process"
+fd_how_h2: "How to <em>Refer</em>"
+fd_how_intro: "The referral process is designed to be as frictionless as possible. Most referrals are accommodated within a few days; urgent cases within 24&ndash;48 hours."
+fd_ready: "Ready-to-Use"
+fd_template_h2: "Referral <em>Template</em>"
+fd_template_intro: "Copy and adapt the template below for your WhatsApp message or referral letter. All fields are optional &mdash; a brief clinical summary is sufficient to initiate a referral."
+fd_template_header: "WhatsApp / Email Referral Template"
+fd_copy_btn: "<span>&#128203;</span> Copy Template"
+fd_prepare: "What to Prepare"
+fd_prepare_sub: "Documents to share with Dr Faizal before or at the consultation."
+fd_get_in_touch: "Get In Touch"
+fd_contacts_h2: "Referral <em>Contacts</em>"
+fd_contacts_intro: "All referral channels go directly to the clinic team. WhatsApp is the fastest route for routine referrals. For urgent cases, call directly."
+fd_wa_preferred: "WhatsApp (Preferred)"
+fd_wa_note: "Fastest response. Routine &amp; urgent referrals."
+fd_clinic_direct: "Clinic Direct Line"
+fd_clinic_hours_note: " Mon&ndash;Fri 9am&ndash;4pm, Sat 9am&ndash;12pm."
+fd_email: "Email"
+fd_email_note: "For referral letters &amp; imaging reports."
+fd_online_booking: "Online Booking"
+fd_booking_note: "Self-referral or patient-initiated booking."
+fd_clinic_hours: "Clinic Hours"
+fd_confidence: "For Your Confidence"
+fd_why_h2: "Why Colleagues <em>Refer</em> to Dr Nor Faizal"
+fd_additional: "Additional Information"
+fd_wa_aria: "WhatsApp referral enquiry"
+fd_float: "<span>Refer a Patient</span>"
+fd_template_text: |-
+  Dear Dr Faizal,
+
+  I would like to refer the following patient for your assessment:
+
+  Patient: [Name], [Age]y/o, [M/F]
+  Referring Doctor: Dr [Your Name], [Clinic/Hospital]
+
+  Working Diagnosis:
+  [e.g. Suspected glioma / Refractory trigeminal neuralgia / FBSS]
+
+  Clinical Summary:
+  [2–3 sentences: presenting complaint, duration,
+  relevant history, current management, reason for referral]
+
+  Investigations available:
+  ☐ MRI Brain / Spine (Date: ______)
+  ☐ CT Scan (Date: ______)
+  ☐ Histopathology report
+  ☐ Nerve conduction study
+  ☐ Other: ______
+
+  Urgency:
+  ☐ Routine (within 2 weeks)
+  ☐ Semi-urgent (within 1 week)
+  ☐ Urgent (within 48 hrs)
+
+  Contact for patient: [Phone number]
+
+  Thank you.
+fd_copied: "<span>✓</span> Copied"
+fd_copy_js: "<span>📋</span> Copy Template"
+fd_wa_text: "Referral Enquiry: "
+fd_wa_urgent_text: "URGENT Referral: "
