@@ -28,7 +28,7 @@
     </script>
     <script defer data-cfasync="false" src="{{ "/js/lazy-tracking.js" | relURL }}"></script>
     <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=2374840176361494&ev=PageView&noscript=1"
+      src="https://www.facebook.com/tr?id=2374840176361494&ev=PageView&noscript=1" alt=""
     /></noscript>
     {{ end }}
 
@@ -38,6 +38,9 @@
     {{ if .IsTranslated }}
         {{ range .AllTranslations }}
             <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+        {{ end }}
+        {{ range where .AllTranslations "Lang" "en" }}
+            <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
         {{ end }}
     {{ end }}
 

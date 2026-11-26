@@ -1,6 +1,6 @@
 ---
 title: "Hati-Hati Stroke Berdarah"
-description: "Risiko Maut Sekelip Masa"
+description: "Liputan Bernama bersama pakar bedah saraf Dr Nor Faizal Ahmad Bahuri tentang stroke berdarah, risikonya yang boleh membawa maut sekelip mata, dan pembedahan kecemasan."
 date: 2025-06-06
 type: "blog"
 categories: ["newspapers","surat khabar"]

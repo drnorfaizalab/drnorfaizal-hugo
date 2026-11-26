@@ -17,5 +17,6 @@ Allow: /
 
 # LLM-readable site summary: {{ .Site.BaseURL }}llms.txt
 
+Sitemap: {{ .Site.BaseURL }}sitemap.xml
 Sitemap: {{ .Site.BaseURL }}en/sitemap.xml
 Sitemap: {{ .Site.BaseURL }}ms/sitemap.xml

@@ -1,0 +1,4 @@
+{{- /* Templates already render the page title as the only <h1>. A "# " heading in Markdown becomes <h2> so each page keeps a single H1. */ -}}
+{{- $level := cond (eq .Level 1) 2 .Level -}}
+<h{{ $level }} id="{{ .Anchor }}"{{ with .Attributes.class }} class="{{ . }}"{{ end }}>{{ .Text }}</h{{ $level }}>
+{{- /**/ -}}
