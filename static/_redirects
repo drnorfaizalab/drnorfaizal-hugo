@@ -35,3 +35,26 @@
 /ms/category/kecemerlangan-perubatan/* /ms/category/peribadi/ 301
 /ms/category/personal /ms/category/peribadi/ 301
 /ms/category/personal/* /ms/category/peribadi/ 301
+
+# GA-reported 404s (2026-11-26)
+/ms/insights/perjalanan-oxford-saya /ms/insights/perjalanan-oxford-saya-mengapa-ketepatan-dalam-bedah-saraf-mengubah-segalanya/ 301
+/ms/insights/perjalanan-oxford-saya/ /ms/insights/perjalanan-oxford-saya-mengapa-ketepatan-dalam-bedah-saraf-mengubah-segalanya/ 301
+/ms/hubungi /ms/contact/ 301
+/ms/hubungi/ /ms/contact/ 301
+/hubungi /ms/contact/ 301
+/hubungi/ /ms/contact/ 301
+/bm/hubungi /ms/contact/ 301
+/bm/hubungi/ /ms/contact/ 301
+/ms/blog/pasien/* /ms/patients/:splat 301
+/ms/blog /ms/insights/ 301
+/ms/blog/* /ms/insights/ 301
+/blog/pasien/guides /patients/guides/ 301
+/blog/pasien/guides/* /patients/guides/:splat 301
+/blog/pasien /patients/ 301
+/blog/pasien/* /patients/:splat 301
+/blog /insights/ 301
+/blog/* /insights/ 301
+/bm/media /ms/about/media/ 301
+/bm/media/ /ms/about/media/ 301
+/bm /ms/ 301
+/bm/* /ms/:splat 301
