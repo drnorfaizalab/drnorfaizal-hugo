@@ -23,3 +23,81 @@ appointment_title: "Ingin Berunding?"
 appointment_desc: "Hubungi kami untuk menentukan temujanji."
 
 updated: "Dikemaskini"
+
+# for-doctors page
+fd_h1: "Merujuk <em>Pesakit</em><br>kepada Dr Nor Faizal"
+fd_how_it_works: "Cara Ia Berfungsi ↓"
+fd_direct_contact: "Hubungan Rujukan Terus"
+fd_wa_fastest: "WhatsApp — respons terpantas"
+fd_clinic_line: "&mdash; talian terus klinik"
+fd_letters_imaging: "Surat rujukan &amp; imej"
+fd_wa_now: "&#128172;&nbsp; Rujuk melalui WhatsApp Sekarang"
+fd_qualifications: "Kelayakan"
+fd_scope: "Skop Rujukan"
+fd_cases_h2: "Kes yang <em>Diterima</em>"
+fd_cases_intro: "Dr Nor Faizal berkhidmat dalam tiga bidang klinikal. Kes kompleks dan refraktori amat dialu-alukan &mdash; kes yang sukar itulah yang paling memerlukan kepakaran subkepakaran."
+fd_urgent_h3: "Untuk Kes Neurologi Segera"
+fd_urgent_body: "Jika pesakit anda mengalami kemerosotan neurologi yang pantas, sawan baharu dengan ketumbuhan pada imej, sindrom cauda equina, atau sakit kepala mendadak yang teruk (thunderclap headache) &mdash; sila rujuk terus ke Jabatan Kecemasan KPJ Tawakkal atau hubungi klinik dengan segera. Kes segera ditriaj dan diberi keutamaan."
+fd_urgent_wa: "WhatsApp Segera"
+fd_ae: "Kecemasan:"
+fd_process: "Proses Rujukan"
+fd_how_h2: "Cara <em>Merujuk</em>"
+fd_how_intro: "Proses rujukan direka semudah yang mungkin. Kebanyakan rujukan diatur dalam beberapa hari; kes segera dalam 24&ndash;48 jam."
+fd_ready: "Sedia Digunakan"
+fd_template_h2: "Templat <em>Rujukan</em>"
+fd_template_intro: "Salin dan ubah suai templat di bawah untuk mesej WhatsApp atau surat rujukan anda. Semua ruangan adalah pilihan &mdash; ringkasan klinikal yang pendek sudah memadai untuk memulakan rujukan."
+fd_template_header: "Templat Rujukan WhatsApp / E-mel"
+fd_copy_btn: "<span>&#128203;</span> Salin Templat"
+fd_prepare: "Apa yang Perlu Disediakan"
+fd_prepare_sub: "Dokumen untuk dikongsi dengan Dr Faizal sebelum atau semasa konsultasi."
+fd_get_in_touch: "Hubungi Kami"
+fd_contacts_h2: "<em>Hubungan</em> Rujukan"
+fd_contacts_intro: "Semua saluran rujukan terus kepada pasukan klinik. WhatsApp ialah cara terpantas untuk rujukan rutin. Untuk kes segera, sila telefon terus."
+fd_wa_preferred: "WhatsApp (Diutamakan)"
+fd_wa_note: "Respons terpantas. Rujukan rutin &amp; segera."
+fd_clinic_direct: "Talian Terus Klinik"
+fd_clinic_hours_note: " Isn&ndash;Jum 9 pagi&ndash;4 ptg, Sab 9 pagi&ndash;12 tgh hari."
+fd_email: "E-mel"
+fd_email_note: "Untuk surat rujukan &amp; laporan imej."
+fd_online_booking: "Tempahan Dalam Talian"
+fd_booking_note: "Rujukan sendiri atau tempahan oleh pesakit."
+fd_clinic_hours: "Waktu Klinik"
+fd_confidence: "Untuk Keyakinan Anda"
+fd_why_h2: "Mengapa Rakan Sejawat <em>Merujuk</em> kepada Dr Nor Faizal"
+fd_additional: "Maklumat Tambahan"
+fd_wa_aria: "Pertanyaan rujukan melalui WhatsApp"
+fd_float: "<span>Rujuk Pesakit</span>"
+fd_template_text: |-
+  Dr Faizal,
+
+  Saya ingin merujuk pesakit berikut untuk penilaian Dr:
+
+  Pesakit: [Nama], [Umur] tahun, [L/P]
+  Doktor yang merujuk: Dr [Nama Anda], [Klinik/Hospital]
+
+  Diagnosis kerja:
+  [cth. Disyaki glioma / Trigeminal neuralgia refraktori / FBSS]
+
+  Ringkasan klinikal:
+  [2–3 ayat: aduan utama, tempoh,
+  sejarah berkaitan, rawatan semasa, sebab rujukan]
+
+  Penyiasatan yang ada:
+  ☐ MRI Otak / Tulang Belakang (Tarikh: ______)
+  ☐ Imbasan CT (Tarikh: ______)
+  ☐ Laporan histopatologi
+  ☐ Kajian konduksi saraf
+  ☐ Lain-lain: ______
+
+  Kesegeraan:
+  ☐ Rutin (dalam 2 minggu)
+  ☐ Separa segera (dalam 1 minggu)
+  ☐ Segera (dalam 48 jam)
+
+  No. telefon pesakit: [Nombor telefon]
+
+  Terima kasih.
+fd_copied: "<span>✓</span> Disalin"
+fd_copy_js: "<span>📋</span> Salin Templat"
+fd_wa_text: "Pertanyaan Rujukan: "
+fd_wa_urgent_text: "RUJUKAN SEGERA: "
