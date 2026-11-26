@@ -1,7 +1,7 @@
 ---
 title: "Merujuk Pesakit | Dr Nor Faizal Ahmad Bahuri"
 seoTitle: "Rujukan Pakar Bedah Saraf KL | Dr Nor Faizal"
-description: "Panduan rujukan untuk doktor am dan pakar. Dr Nor Faizal menerima rujukan pembedahan tumor otak, intervensi kesakitan kompleks dan neuro-onkologi di KPJ Tawakkal, Kuala Lumpur."
+description: "Panduan rujukan untuk doktor am dan pakar. Dr Nor Faizal menerima rujukan tumor otak, intervensi kesakitan dan neuro-onkologi di KPJ Tawakkal, Kuala Lumpur."
 date: 2026-01-01
 lastmod: 2026-11-26
 draft: false
