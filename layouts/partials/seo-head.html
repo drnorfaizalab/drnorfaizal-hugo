@@ -6,19 +6,27 @@
 {{/* ── 1. TITLE ─────────────────────────────────────────────────── */}}
 {{ if .IsHome }}
   {{ $title := "Dr Nor Faizal | Neurosurgeon Kuala Lumpur | Brain Tumour & Pain Specialist" }}
+  {{ if eq .Lang "ms" }}{{ $title = "Dr Nor Faizal | Pakar Bedah Saraf Kuala Lumpur | Tumor Otak & Kesakitan" }}{{ end }}
   <title>{{ $title }}</title>
   <meta property="og:title" content="{{ $title }}" />
   <meta name="twitter:title" content="{{ $title }}" />
 {{ else }}
   {{ $pageTitle := .Params.seoTitle | default .Title }}
-  {{ $title := printf "%s | Dr Nor Faizal" $pageTitle }}
+  {{/* Brand suffix only when the name is not already in the title and it still fits (~60 chars before Google truncates) */}}
+  {{ $title := $pageTitle }}
+  {{ if and (not (strings.Contains $pageTitle "Dr Nor Faizal")) (le (len $pageTitle) 44) }}
+    {{ $title = printf "%s | Dr Nor Faizal" $pageTitle }}
+  {{ end }}
   <title>{{ $title }}</title>
   <meta property="og:title" content="{{ $title }}" />
   <meta name="twitter:title" content="{{ $title }}" />
 {{ end }}
 
 {{/* ── 2. META DESCRIPTION ─────────────────────────────────────── */}}
-{{ $desc := .Params.description | default .Site.Params.siteDescription | default .Site.Params.description }}
+{{/* Bahasa pages fall back to the Bahasa site description, not the English one */}}
+{{ $siteDesc := .Site.Params.siteDescription }}
+{{ if eq .Lang "ms" }}{{ $siteDesc = .Site.Params.description }}{{ end }}
+{{ $desc := .Params.description | default $siteDesc | default .Site.Params.description }}
 {{ if gt (len $desc) 160 }}{{ $desc = substr $desc 0 157 | printf "%s..." }}{{ end }}
 <meta name="description" content="{{ $desc }}" />
 <meta property="og:description" content="{{ $desc }}" />
@@ -43,6 +51,7 @@
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:site_name" content="{{ .Site.Params.siteName | default .Site.Params.author }}" />
 <meta property="og:locale" content="{{ if eq .Lang "ms" }}ms_MY{{ else }}en_MY{{ end }}" />
+{{ if .IsTranslated }}<meta property="og:locale:alternate" content="{{ if eq .Lang "ms" }}en_MY{{ else }}ms_MY{{ end }}" />{{ end }}
 
 {{ $ogImage := .Params.ogImage | default .Site.Params.ogImage }}
 {{ with $ogImage }}
@@ -59,6 +68,9 @@
 {{/* ── 7. ROBOTS ───────────────────────────────────────────────── */}}
 {{ if .Params.noindex }}
 <meta name="robots" content="noindex, nofollow" />
+{{ else if or (in (slice "taxonomy" "term") .Kind) (eq .Kind "404") }}
+{{/* Tag/category listings and 404: thin, near-duplicate pages. Keep out of the index, still pass link equity. */}}
+<meta name="robots" content="noindex, follow" />
 {{ else }}
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 {{ end }}

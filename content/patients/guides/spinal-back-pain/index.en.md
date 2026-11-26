@@ -1,6 +1,7 @@
 ---
 title: "Spinal & Back Pain Guide | From Symptoms to Specialist Care"
-description: "A patient guide to spinal conditions — herniated discs, spinal stenosis, spondylolisthesis, and when back pain requires neurosurgical evaluation."
+seoTitle: "Back Pain Patient Guide: When to See a Neurosurgeon"
+description: "Patient checklist for back and leg pain: what herniated discs, stenosis and spondylolisthesis mean, red-flag symptoms, and when to see a neurosurgeon in KL."
 date: 2025-03-10
 draft: false
 type: "page"
