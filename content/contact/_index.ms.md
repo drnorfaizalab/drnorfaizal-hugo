@@ -44,16 +44,10 @@ Hospital Pakar Tawakkal adalah hospital pakar yang kukuh di tengah-tengah Kuala 
 
 | Hari | Waktu | Hospital |
 |---|---|---|
-| Isnin | 9:00 PG – 5:00 PTG | Hospital Pakar Tawakkal |
-| Selasa (Pagi) | 9:00 PG – 12:00 TGH | Hospital Pakar Tawakkal |
-| Selasa (Petang) | 2:00 PTG – 5:00 PTG | Hospital Pakar Ampang Puteri |
-| Rabu | 9:00 PG – 5:00 PTG | Hospital Pakar Tawakkal |
-| Khamis (Pagi) | 9:00 PG – 12:00 TGH | Hospital Pakar Tawakkal |
-| Khamis (Petang) | 2:00 PTG – 5:00 PTG | Hospital Pakar Ampang Puteri |
-| Jumaat | 9:00 PG – 5:00 PTG | Hospital Pakar Tawakkal |
-| Sabtu | 9:00 PG – 1:00 TGH | Hospital Pakar Tawakkal |
-| Ahad | Ditutup | — |
-| Cuti Umum | Ditutup | — |
+| Isnin – Jumaat | 9:00 PG – 4:00 PTG | Hospital Pakar KPJ Tawakkal |
+| Sabtu | 9:00 PG – 12:00 TGH | Hospital Pakar KPJ Tawakkal |
+| Ahad & Cuti Umum | Ditutup | — |
+| Dengan temujanji | Sila hubungi untuk mengatur | Hospital Pakar KPJ Ampang Puteri |
 
 *Waktu klinik mungkin berubah-ubah. Sila hubungi terlebih dahulu untuk mengesahkan ketersediaan, terutama bagi temujanji hari Sabtu.*
 

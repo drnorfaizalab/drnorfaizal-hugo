@@ -101,3 +101,7 @@ fd_copied: "<span>✓</span> Disalin"
 fd_copy_js: "<span>📋</span> Salin Templat"
 fd_wa_text: "Pertanyaan Rujukan: "
 fd_wa_urgent_text: "RUJUKAN SEGERA: "
+
+# WhatsApp float
+wa_float_text: "Salam Dr Nor Faizal, saya ingin membuat temujanji."
+wa_float_aria: "WhatsApp Dr Nor Faizal"

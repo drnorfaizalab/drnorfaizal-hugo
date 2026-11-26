@@ -101,3 +101,7 @@ fd_copied: "<span>✓</span> Copied"
 fd_copy_js: "<span>📋</span> Copy Template"
 fd_wa_text: "Referral Enquiry: "
 fd_wa_urgent_text: "URGENT Referral: "
+
+# WhatsApp float
+wa_float_text: "Hello Dr Nor Faizal, I would like to make an appointment."
+wa_float_aria: "WhatsApp Dr Nor Faizal"
