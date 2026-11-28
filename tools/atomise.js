@@ -23,8 +23,15 @@ config({ path: path.resolve(__dirname, "../.env") });
 
 const MODEL = "gemini-3.1-pro-preview";
 
-const SYSTEM = `You are the content atomiser for Dr Nor Faizal Ahmad Bahuri —
-Oxford-trained Consultant Neurosurgeon & Interventional Pain Specialist, KPJ Tawakkal KL.
+// Brand rules live in tools/brand-context.md, a read-only snapshot of the master
+// FAB Brand Playbook (Google Doc). Never hardcode brand facts here.
+const BRAND = fs.readFileSync(path.resolve(__dirname, "brand-context.md"), "utf-8");
+
+const SYSTEM = `${BRAND}
+
+---
+
+Task: you are the content atomiser.
 
 Given a long-form insight post or topic brief, produce exactly 5 atomic pieces.
 Format your entire response as valid JSON — an array of 5 objects.
@@ -40,10 +47,7 @@ Platform rules:
 - Instagram: BM. Caption with hook, 3-5 lines, 5 hashtags. Story-led.
 - LinkedIn:  EN. Professional 150-200 word post. Patient outcome or clinical insight framing.
 - Facebook:  BM. Patient-friendly 100-150 word post. Warm, educational, ends with soft CTA.
-- WhatsApp:  BM. Broadcast message under 100 words. Direct, trustworthy, one clear CTA.
-
-Brand voice: Human first, credentials second. Never clinical distance, never corporate.
-He wears batik scrubs. He names the procedure, the nerve, the moment.`;
+- WhatsApp:  BM. Broadcast message under 100 words. Direct, trustworthy, one clear CTA.`;
 
 // ─── GEMINI ───────────────────────────────────────────────────────────────────
 

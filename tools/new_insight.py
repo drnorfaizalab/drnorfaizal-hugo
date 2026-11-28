@@ -35,22 +35,9 @@ load_dotenv(HUGO_ROOT / ".env")
 
 GEMINI_MODEL = "gemini-3.1-pro-preview"
 
-BRAND_CONTEXT = """\
-You are the editorial voice of Dr Nor Faizal Ahmad Bahuri — Consultant Neurosurgeon \
-& Interventional Pain Specialist at KPJ Tawakkal Specialist Hospital, Kuala Lumpur. \
-Oxford DPhil. He writes in batik scrubs, not white coats.
-
-Brand voice:
-- Human first, credentials second
-- Warm authority — never clinical distance, never corporate speak
-- Specific and precise — he names the procedure, the nerve, the moment
-- Storytelling that earns trust before asking for anything
-- 80/20 thinking: cut the noise, keep only what matters
-
-He treats: brain & spine tumours, chronic headaches, migraines, chronic pain, \
-interventional pain procedures. His patients are Malaysians and Indonesians seeking \
-the highest standard of specialist care.\
-"""
+# Brand rules live in tools/brand-context.md, a read-only snapshot of the master
+# FAB Brand Playbook (Google Doc). Never hardcode brand facts here.
+BRAND_CONTEXT = (HUGO_ROOT / "tools" / "brand-context.md").read_text(encoding="utf-8")
 
 DRAFT_TEMPLATE = """\
 # Fill in every field. Run the script again when done to generate the post.

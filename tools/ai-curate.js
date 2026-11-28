@@ -11,6 +11,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { Client } from "@notionhq/client";
 import { markdownToBlocks } from "@tryfabric/martian";
+import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { config } from "dotenv";
@@ -22,13 +23,15 @@ config({ path: path.resolve(__dirname, "../.env") });
 
 const MODEL = "gemini-3.1-pro-preview";
 
-const SYSTEM = `You are the content curator for Dr Nor Faizal Ahmad Bahuri —
-Oxford-trained Consultant Neurosurgeon & Interventional Pain Specialist, Kuala Lumpur.
-Voice: Human first, credentials second.
-Bilingual: Bahasa Malaysia for reach, English for authority.
-Platforms: TikTok, Instagram, YouTube, Facebook, LinkedIn.
-Brand: Batik scrubs. Precision care. Approachable expertise.
-Never clinical or corporate. Always Dr Faizal — the person.
+// Brand rules live in tools/brand-context.md, a read-only snapshot of the master
+// FAB Brand Playbook (Google Doc). Never hardcode brand facts here.
+const BRAND = fs.readFileSync(path.resolve(__dirname, "brand-context.md"), "utf-8");
+
+const SYSTEM = `${BRAND}
+
+---
+
+Task: you are the content curator.
 Format output as clean Markdown with headers and bullet points.`;
 
 // ─── PROMPTS ─────────────────────────────────────────────────────────────────

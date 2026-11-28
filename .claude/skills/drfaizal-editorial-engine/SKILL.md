@@ -23,7 +23,7 @@ Turns rough clinical notes, voice memos, or a topic into publish-ready bilingual
 4. **Handout / audit brief** — scannable, one page
 
 ### 2. Load the toolbox
-- [tools/brand-voice.md](tools/brand-voice.md) — identity, voice, banned phrases, bilingual rules
+- [../../../tools/brand-context.md](../../../tools/brand-context.md) — identity, voice, banned phrases, bilingual rules, palette (read-only snapshot of the master FAB Brand Playbook)
 - [tools/hugo-template.md](tools/hugo-template.md) — bundle layout, front matter, shortcodes, slugs
 - [tools/video-hooks.md](tools/video-hooks.md) — hook formulas, script skeleton, pacing
 
@@ -37,7 +37,7 @@ Turns rough clinical notes, voice memos, or a topic into publish-ready bilingual
 ### 4. Proof checklist (fix before output)
 - [ ] No placeholders (`[Topic]`, `TBD`, empty `""` fields)
 - [ ] Every technical term explained in plain language on first use
-- [ ] Human-first voice; zero banned phrases (see brand-voice.md)
+- [ ] Human-first voice; zero banned phrases (see tools/brand-context.md)
 - [ ] Bilingual parity: both files complete, same `date`, `slug`, `translationKey`, `image`, `youtube_id`; localised `title`, `description`, `tags`, `categories`, `keywords`, `faq_schema`
 - [ ] Clinically accurate; framed as public education, not individual diagnosis
 - [ ] No identifiable patient details (name, IC, face, date + location combinations) without documented consent
