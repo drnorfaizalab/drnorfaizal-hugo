@@ -5,17 +5,35 @@
 
 :root {
   /* Color Palette */
-  --primary: #002147;        /* Oxford Blue */
-  --secondary: #d4a574;      /* Warm gold */
-  --accent: #e63946;         /* Medical red */
-  --success: #2a9d8f;        /* Surgical teal */
-  --warning: #f4a261;        /* Caution orange */
-  --danger: #e63946;         /* Emergency red */
-  --light: #f8f9fa;          /* Off-white */
-  --dark: #0d1f3c;           /* Complementary deep navy */
-  --gray-200: #e9ecef;
-  --gray-400: #adb5bd;
-  --gray-600: #495057;
+  /* Brand palette: FAB Brand Playbook 2.2, taken from logo version D */
+  --navy: #182D52;           /* Logo Navy: headings, buttons, logo */
+  --oxford: #002147;         /* Oxford Blue: body text, footer, dark sections */
+  --gold: #B49A6A;           /* Batik Gold: lines, icons, highlights. Not for text on light backgrounds */
+  --gold-deep: #8B6F47;      /* Deep Gold: gold text at heading or button size */
+  --gold-ink: #765C3B;       /* Deep Gold, darkened to pass WCAG AA for small text on cream */
+  --mist: #B2C9D7;           /* Mist Blue: soft panels, info and red-flag boxes */
+  --cream: #F7F3EC;          /* Page background */
+  --white: #FFFFFF;          /* Cards, text on navy */
+
+  /* Roles */
+  --primary: var(--navy);
+  --secondary: var(--gold-deep);
+  --accent: var(--navy);     /* CTA colour; the old red accent is retired */
+  --success: var(--oxford);
+  --warning: var(--gold);
+  --danger: var(--navy);
+  --light: var(--cream);
+  --dark: var(--oxford);
+  --gray-200: #ECE6DA;       /* warm sand: alt sections, code, table hover */
+  --gray-400: #C9C0B0;       /* borders */
+  --gray-600: #4F5663;       /* muted text, AA on cream and sand */
+
+  /* Fallbacks used by page-scoped styles (for-doctors) */
+  --color-accent: var(--gold-ink);
+  --color-border: #E5DDCF;
+  --color-surface-alt: var(--gray-200);
+  --color-bg: var(--cream);
+  --color-ink: var(--oxford);
   
   /* Typography */
   --font-display: 'Playfair Display', serif;
@@ -53,13 +71,18 @@
 
 /* Dark Mode */
 html.dark-mode {
-  --primary: #c8a882;
-  --secondary: #8b6f47;
-  --light: #1a1a1a;
-  --dark: #f8f9fa;
-  --gray-200: #2d2d2d;
-  --gray-400: #555555;
-  --gray-600: #999999;
+  --primary: var(--mist);
+  --secondary: var(--gold);
+  --accent: var(--gold);
+  --light: #0B1628;
+  --dark: var(--cream);
+  --gray-200: #16233B;
+  --gray-400: #34425C;
+  --gray-600: #B9C2CF;
+  --color-accent: var(--gold);
+  --color-border: #2A3852;
+  --color-bg: #0B1628;
+  --color-ink: #000E22;
   --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -116,8 +139,10 @@ a {
 }
 
 a:hover {
-  color: var(--secondary);
+  color: var(--oxford);
   text-decoration: underline;
+  text-decoration-color: var(--gold);
+  text-underline-offset: 3px;
 }
 
 /* Links with underline animation */
@@ -133,7 +158,7 @@ a.link-underline::after {
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--secondary);
+  background: var(--gold);
   transition: width 0.3s ease;
 }
 
@@ -153,7 +178,7 @@ li {
 
 /* Blockquote */
 blockquote {
-  border-left: 4px solid var(--secondary);
+  border-left: 4px solid var(--gold);
   padding-left: var(--spacing-md);
   margin: var(--spacing-md) 0;
   font-style: italic;
@@ -221,8 +246,9 @@ pre code {
 }
 
 .btn-primary:hover {
-  background: var(--secondary);
-  border-color: var(--secondary);
+  background: var(--oxford);
+  border-color: var(--gold);
+  color: white;
   transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
 }
@@ -250,8 +276,27 @@ pre code {
 }
 
 .btn-cta:hover {
-  background: #c1121f;
-  box-shadow: 0 0 0 4px rgba(230, 57, 70, 0.2);
+  background: var(--oxford);
+  border-color: var(--gold);
+  color: white;
+  box-shadow: 0 0 0 4px rgba(180, 154, 106, 0.3);
+}
+
+/* On navy sections the CTA turns batik gold with Oxford Blue text (5.9:1) */
+.hero .btn-cta,
+.section-cta .btn-cta,
+footer .btn-cta {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--oxford);
+}
+
+.hero .btn-cta:hover,
+.section-cta .btn-cta:hover,
+footer .btn-cta:hover {
+  background: var(--cream);
+  border-color: var(--cream);
+  color: var(--oxford);
 }
 
 /* Appointment Button */
@@ -268,10 +313,10 @@ pre code {
 }
 
 .btn-appointment:hover {
-  background: #c1121f;
-  border-color: #c1121f;
+  background: var(--oxford);
+  border-color: var(--gold);
   color: white;
-  box-shadow: 0 0 0 4px rgba(230, 57, 70, 0.25);
+  box-shadow: 0 0 0 4px rgba(180, 154, 106, 0.3);
   transform: translateY(-2px);
 }
 
@@ -289,7 +334,7 @@ pre code {
   padding: var(--spacing-lg);
   box-shadow: var(--shadow-md);
   transition: var(--transition);
-  border-top: 4px solid var(--secondary);
+  border-top: 4px solid var(--gold);
   display: flex;
   flex-direction: column;
 }
@@ -325,21 +370,22 @@ pre code {
 }
 
 .alert-info {
-  background: #e7f3ff;
-  border-color: #2196f3;
-  color: #0c3e7a;
+  background: var(--mist);
+  border-color: var(--navy);
+  color: var(--oxford);
 }
 
 .alert-warning {
-  background: #fff3e0;
-  border-color: #ff9800;
-  color: #663c00;
+  background: var(--cream);
+  border-color: var(--gold);
+  color: var(--oxford);
 }
 
+/* Red-flag box: Mist Blue per the Playbook */
 .alert-danger {
-  background: #ffebee;
-  border-color: #e63946;
-  color: #7a0f1c;
+  background: var(--mist);
+  border-color: var(--oxford);
+  color: var(--oxford);
 }
 
 /* ==========================================================================
@@ -466,7 +512,7 @@ nav {
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--secondary);
+  background: var(--gold);
   transition: width 0.3s ease;
 }
 
@@ -539,7 +585,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, var(--primary) 0%, #003a7a 100%);
+  background: linear-gradient(135deg, var(--navy) 0%, var(--oxford) 100%);
   color: white;
   position: relative;
   overflow: hidden;
@@ -552,7 +598,7 @@ nav {
   right: 0;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(212, 165, 116, 0.1) 0%, transparent 100%);
+  background: radial-gradient(circle, rgba(180, 154, 106, 0.14) 0%, transparent 100%);
   border-radius: 50%;
 }
 
@@ -580,7 +626,7 @@ nav {
   object-fit: cover;
   object-position: top center;
   border-radius: 1rem;
-  border: 2px solid rgba(212, 165, 116, 0.5);
+  border: 2px solid rgba(180, 154, 106, 0.7);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
 }
 
@@ -618,17 +664,17 @@ nav {
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--secondary);
+  color: var(--cream);
   padding: 0.35rem 1rem;
-  border: 1.5px solid rgba(212, 165, 116, 0.45);
+  border: 1.5px solid var(--gold);
   border-radius: 2rem;
   text-decoration: none;
   transition: background 0.2s, color 0.2s;
 }
 
 .hero-specialty:hover {
-  background: rgba(212, 165, 116, 0.15);
-  color: #f5c88a;
+  background: rgba(180, 154, 106, 0.2);
+  color: white;
 }
 
 .hero-specialty-sep {
@@ -681,14 +727,14 @@ nav {
    ========================================================================== */
 
 footer {
-  background: var(--dark);
-  color: var(--light);
+  background: var(--oxford);
+  color: var(--cream);
   padding: var(--spacing-2xl) var(--spacing-md);
   margin-top: var(--spacing-2xl);
 }
 
 footer a {
-  color: var(--secondary);
+  color: var(--mist);
 }
 
 footer a:hover {
@@ -703,7 +749,7 @@ footer a:hover {
 }
 
 .footer-section h4 {
-  color: var(--secondary);
+  color: var(--gold);  /* gold on Oxford Blue is 5.9:1, AA */
   font-size: 1.125rem;
   margin-bottom: var(--spacing-md);
 }
@@ -744,7 +790,7 @@ footer a:hover {
 }
 
 .social-links a:hover {
-  background: var(--secondary);
+  background: var(--gold);
 }
 
 /* ==========================================================================
@@ -786,7 +832,7 @@ textarea:focus,
 select:focus {
   outline: none;
   border-color: var(--primary);
-  box-shadow: 0 0 0 3px rgba(26, 71, 42, 0.1);
+  box-shadow: 0 0 0 3px rgba(180, 154, 106, 0.35);
 }
 
 textarea {
@@ -808,9 +854,11 @@ textarea {
 .text-gray { color: var(--gray-600); }
 
 .bg-primary { background: var(--primary); color: white; }
-.bg-secondary { background: var(--secondary); }
+.bg-secondary { background: var(--secondary); color: white; }
 .bg-light { background: var(--light); }
-.bg-dark { background: var(--dark); color: white; }
+.bg-dark { background: var(--oxford); color: white; }
+.bg-mist { background: var(--mist); color: var(--oxford); }
+.bg-cream { background: var(--cream); }
 
 .m-0 { margin: 0; }
 .p-0 { padding: 0; }
@@ -912,7 +960,7 @@ article header .text-gray {
 .content th { background: var(--primary); color: white; padding: 0.75rem 1rem; text-align: left; font-family: var(--font-body); }
 .content td { padding: 0.75rem 1rem; border-bottom: 1px solid var(--gray-200); }
 .content tr:hover td { background: var(--gray-200); }
-.content blockquote { border-left: 4px solid var(--secondary); padding: 1rem 1.5rem; background: var(--gray-200); border-radius: 0 6px 6px 0; }
+.content blockquote { border-left: 4px solid var(--gold); padding: 1rem 1.5rem; background: var(--gray-200); border-radius: 0 6px 6px 0; }
 
 /* Print Styles */
 @media print {
@@ -1217,12 +1265,12 @@ html.dark-mode .social-embed-instagram-container {
   border-radius: 12px;
   padding: 2rem;
   box-shadow: var(--shadow-lg);
-  border-left: 5px solid var(--secondary);
+  border-left: 5px solid var(--gold);
   box-sizing: border-box;
 }
 
 .star-rating {
-  color: var(--secondary);
+  color: var(--gold);
   font-size: 1.5rem;
   letter-spacing: 0.1em;
   margin-bottom: 1rem;
@@ -1249,7 +1297,7 @@ html.dark-mode .social-embed-instagram-container {
 }
 
 .badge-review {
-  background: var(--success);
+  background: var(--oxford);
   font-size: 0.75rem;
   margin-left: 0.5rem;
 }
@@ -1259,7 +1307,7 @@ html.dark-mode .social-embed-instagram-container {
   top: 50%;
   transform: translateY(-50%);
   background: white;
-  border: 1px solid #ddd;
+  border: 1px solid var(--gray-400);
   border-radius: 50%;
   width: 2.25rem;
   height: 2.25rem;
@@ -1300,7 +1348,7 @@ html.dark-mode .social-embed-instagram-container {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #ccc;
+  background: var(--gray-400);
   border: none;
   cursor: pointer;
   padding: 0;
@@ -1352,7 +1400,7 @@ html.dark-mode .social-embed-instagram-container {
   display: flex;
   flex-direction: column;
   transition: var(--transition);
-  border-top: 3px solid var(--secondary);
+  border-top: 3px solid var(--gold);
 }
 
 .blog-preview-card:hover {
@@ -1403,7 +1451,7 @@ html.dark-mode .social-embed-instagram-container {
 }
 
 .blog-preview-link:hover {
-  color: var(--secondary);
+  color: var(--secondary);  /* 4.7:1 on white cards */
   text-decoration: none;
 }
 
@@ -1436,7 +1484,7 @@ html.dark-mode .social-embed-instagram-container {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: var(--shadow-lg);
-  border-top: 4px solid var(--secondary);
+  border-top: 4px solid var(--gold);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -1470,7 +1518,7 @@ html.dark-mode .social-embed-instagram-container {
    ========================================================================== */
 
 .follow-section {
-  background: var(--dark);
+  background: var(--oxford);
   padding: 4rem 1.5rem;
 }
 
@@ -1653,14 +1701,14 @@ html.dark-mode .social-embed-instagram-container {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: var(--secondary);
+  background: var(--gold);
   border: 2px solid var(--light);
-  box-shadow: 0 0 0 2px var(--secondary);
+  box-shadow: 0 0 0 2px var(--gold);
 }
 
 .timeline-item--current .timeline-dot::after {
-  background: var(--accent);
-  box-shadow: 0 0 0 2px var(--accent);
+  background: var(--navy);
+  box-shadow: 0 0 0 2px var(--navy);
 }
 
 .timeline-badge {
@@ -1670,12 +1718,12 @@ html.dark-mode .social-embed-instagram-container {
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--secondary);
+  color: var(--color-accent);
   margin-bottom: 0.2rem;
 }
 
 .timeline-item--current .timeline-badge {
-  color: var(--accent);
+  color: var(--primary);
 }
 
 .timeline-title {
@@ -1694,7 +1742,7 @@ html.dark-mode .social-embed-instagram-container {
 
 .timeline-detail {
   font-size: 0.8125rem;
-  color: var(--gray-400);
+  color: var(--gray-600);
   font-style: italic;
   margin-top: 0.2rem;
 }

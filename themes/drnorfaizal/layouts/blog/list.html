@@ -62,11 +62,11 @@
             </span>
             {{ end }}
           {{ else if $isGuide }}
-          <span class="badge" style="background:#e8f4e8; color:#2d6a2d; border:none;">{{ if eq $.Lang "ms" }}Panduan Pesakit{{ else }}Patient Guide{{ end }}</span>
+          <span class="badge" style="background:var(--mist); color:var(--oxford); border:none;">{{ if eq $.Lang "ms" }}Panduan Pesakit{{ else }}Patient Guide{{ end }}</span>
           {{ else }}
           {{ with .Params.categories }}{{ range first 1 . }}<span class="badge" style="display:inline-block;">{{ . | title }}</span>{{ end }}{{ end }}
           {{ end }}
-          {{ if .Params.pdf_available }}<span style="font-size:0.75rem; color:#666; padding:0.2rem 0.5rem; border:1px solid #ddd; border-radius:1rem;">PDF</span>{{ end }}
+          {{ if .Params.pdf_available }}<span style="font-size:0.75rem; color:var(--gray-600); padding:0.2rem 0.5rem; border:1px solid var(--gray-400); border-radius:1rem;">PDF</span>{{ end }}
         </div>
         <h3 class="card-title" style="font-size:1.1rem;">{{ .Title }}</h3>
         {{ with .Description }}<p class="text-gray" style="font-size:0.875rem;">{{ . | truncate 120 }}</p>{{ end }}
