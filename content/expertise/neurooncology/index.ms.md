@@ -1,7 +1,7 @@
 ---
 title: "Pakar Neuro-Onkologi Malaysia"
 seoTitle: "Pakar Neuro-Onkologi Malaysia | Pakar Bedah Tumor Otak KL"
-description: "Dr Nor Faizal Ahmad Bahuri — pakar bedah saraf neuro-onkologi terlatih Oxford di Hospital Pakar KPJ Tawakkal, Kuala Lumpur. Pakar dalam pembedahan tumor otak, glioblastoma, meningioma, metastasis otak, tumor saraf tunjang dan rawatan multimodal berpandukan molekul."
+description: "Dr Nor Faizal Ahmad Bahuri — pakar bedah saraf neuro-onkologi terlatih Oxford di Hospital Pakar Tawakkal, Kuala Lumpur. Pakar dalam pembedahan tumor otak, glioblastoma, meningioma, metastasis otak, tumor saraf tunjang dan rawatan multimodal berpandukan molekul."
 keywords:
   - neuro-onkologi Malaysia
   - pakar neuro-onkologi KL
@@ -21,7 +21,7 @@ faq_schema:
   - question: "Adakah neuro-onkologi berbeza daripada onkologi?"
     answer: "Ya. Ahli onkologi perubatan mengurus kemoterapi sistemik dan imunoterapi. Pakar neuro-onkologi mengkhusus dalam tumor sistem saraf pusat, yang berkelakuan berbeza, lebih sukar dicapai, dan bertindak balas terhadap rawatan secara berbeza daripada kanser lain. Neuro-onkologi pembedahan adalah cabang yang menguruskan akses pembedahan, reseksi, dan biopsi — asas yang menjadikan rawatan berikutnya mungkin."
   - question: "Adakah saya perlu berjumpa pakar neuro-onkologi dan pakar bedah saraf secara berasingan?"
-    answer: "Dalam sistem yang ideal, ya — dan begitulah ia berfungsi di KPJ Tawakkal. Saya menguruskan komponen pembedahan. Doktor neuro-onkologi menguruskan terapi adjuvant. Kami menyelaraskan melalui lembaga tumor dan komunikasi langsung supaya anda tidak perlu merapatkan jurang itu sendiri."
+    answer: "Dalam sistem yang ideal, ya — dan begitulah ia berfungsi di Tawakkal. Saya menguruskan komponen pembedahan. Doktor neuro-onkologi menguruskan terapi adjuvant. Kami menyelaraskan melalui lembaga tumor dan komunikasi langsung supaya anda tidak perlu merapatkan jurang itu sendiri."
   - question: "Tumor saya tidak boleh dioperasi. Adakah masih ada peranan untuk pembedahan?"
     answer: "Sering kali, ya. Walaupun untuk tumor di mana reseksi lengkap tidak dapat dicapai — glioma dalam, lesi batang otak, metastasis berganda — pembedahan dalam bentuk biopsi stereotaktik menyediakan diagnosis tisu yang membuka kunci kemoterapi sasaran, imunoterapi, atau pendaftaran ujian klinikal. Tanpa tisu, tiada rawatan sasaran."
   - question: "Apakah perbezaan antara tumor otak malignan dan benigna?"
@@ -34,11 +34,11 @@ faq_schema:
 
 # Neuro-Onkologi: Rawatan Tumor Otak & Saraf Tunjang di Malaysia
 
-**Ringkasnya:** Neuro-onkologi ialah rawatan tumor otak, saraf tunjang dan saraf berkaitan, termasuk glioma, meningioma, metastasis otak dan tumor saraf tunjang. Ia menggabungkan bedah saraf, onkologi perubatan, onkologi radiasi dan neuropatologi, dengan rawatan yang semakin dipandu oleh profil molekul tumor. Dr Nor Faizal Ahmad Bahuri, pakar perunding bedah saraf lulusan Oxford di KPJ Tawakkal Specialist Hospital, Kuala Lumpur, mengetuai rawatan pembedahan dalam pendekatan pelbagai disiplin ini.
+**Ringkasnya:** Neuro-onkologi ialah rawatan tumor otak, saraf tunjang dan saraf berkaitan, termasuk glioma, meningioma, metastasis otak dan tumor saraf tunjang. Ia menggabungkan bedah saraf, onkologi perubatan, onkologi radiasi dan neuropatologi, dengan rawatan yang semakin dipandu oleh profil molekul tumor. Dr Nor Faizal Ahmad Bahuri, pakar perunding bedah saraf lulusan Oxford di Tawakkal Specialist Hospital, Kuala Lumpur, mengetuai rawatan pembedahan dalam pendekatan pelbagai disiplin ini.
 
 Neuro-onkologi bukan sekadar pembedahan tumor otak. Ia adalah bidang yang menghubungkan pembedahan saraf, onkologi perubatan, onkologi radiasi, dan neuropatologi — menyatukan kepakaran ini untuk merawat seorang pesakit dengan satu diagnosis yang mengubah hidup mereka sekelip mata.
 
-Selama dua dekad, saya telah membina amalan klinikal yang berpusat pada persimpangan ini. DPhil saya di Universiti Oxford mengajar saya untuk berfikir dan bertindak di luar kotak surgeri dan onkologi. Latihan klinikal saya merangkumi neuro-onkologi bervolum tinggi di Pusat Perubatan Universiti Malaya — salah satu pusat pembedahan saraf tersibuk di Asia Tenggara — sehingga ke amalan pakar di Hospital Pakar KPJ Tawakkal, Kuala Lumpur.
+Selama dua dekad, saya telah membina amalan klinikal yang berpusat pada persimpangan ini. DPhil saya di Universiti Oxford mengajar saya untuk berfikir dan bertindak di luar kotak surgeri dan onkologi. Latihan klinikal saya merangkumi neuro-onkologi bervolum tinggi di Pusat Perubatan Universiti Malaya — salah satu pusat pembedahan saraf tersibuk di Asia Tenggara — sehingga ke amalan pakar di Hospital Pakar Tawakkal, Kuala Lumpur.
 
 Halaman ini menerangkan apa itu neuro-onkologi dalam praktis, apa maknanya bagi anda sebagai pesakit, dan bagaimana saya menanganinya.
 
@@ -95,7 +95,7 @@ Reseksi pembedahan meningkatkan kemandirian dan kualiti hidup bagi pesakit denga
 - Tumor primer yang tidak diketahui (untuk diagnosis tisu)
 - Histologi yang tahan radiasi (karsinoma sel renal, melanoma)
 
-Saya bekerjasama rapat dengan pasukan onkologi di KPJ Tawakkal untuk memastikan kawalan penyakit sistemik dan keputusan pembedahan dibuat bersama — bukan secara berasingan.
+Saya bekerjasama rapat dengan pasukan onkologi di Tawakkal untuk memastikan kawalan penyakit sistemik dan keputusan pembedahan dibuat bersama — bukan secara berasingan.
 
 ### Tumor Saraf Tunjang
 
@@ -154,7 +154,7 @@ Untuk tumor di lokasi dalam atau elouen di mana reseksi terbuka adalah tidak sel
 
 ## Lembaga Tumor Multidisiplin
 
-Diagnosis tumor otak memerlukan lebih daripada seorang pakar dan lebih daripada satu temujanji. Di KPJ Tawakkal, saya mengambil bahagian dalam ulasan lembaga tumor multidisiplin — di mana pembedahan saraf, onkologi, onkologi radiasi, dan neuropatologi mengkaji setiap kes bersama sebelum memuktamadkan pelan rawatan.
+Diagnosis tumor otak memerlukan lebih daripada seorang pakar dan lebih daripada satu temujanji. Di Tawakkal, saya mengambil bahagian dalam ulasan lembaga tumor multidisiplin — di mana pembedahan saraf, onkologi, onkologi radiasi, dan neuropatologi mengkaji setiap kes bersama sebelum memuktamadkan pelan rawatan.
 
 Ini penting kerana:
 - Keputusan pembedahan (apa yang dibuang, berapa banyak, bila) mempengaruhi pelan onkologi berikutnya
@@ -200,7 +200,7 @@ DPhil Oxford saya dalam neurosains bukan penyimpangan dari amalan klinikal. Ia a
 Ya. Ahli onkologi perubatan mengurus kemoterapi sistemik dan imunoterapi. Pakar neuro-onkologi mengkhusus dalam tumor sistem saraf pusat, yang berkelakuan berbeza, lebih sukar dicapai, dan bertindak balas terhadap rawatan secara berbeza daripada kanser lain. Neuro-onkologi pembedahan adalah cabang yang menguruskan akses pembedahan, reseksi, dan biopsi — asas yang menjadikan rawatan berikutnya mungkin.
 
 **S: Adakah saya perlu berjumpa pakar neuro-onkologi dan pakar bedah saraf secara berasingan?**
-Dalam sistem yang ideal, ya — dan begitulah ia berfungsi di KPJ Tawakkal. Saya menguruskan komponen pembedahan. Doktor neuro-onkologi menguruskan terapi adjuvant. Kami menyelaraskan melalui lembaga tumor dan komunikasi langsung supaya anda tidak perlu merapatkan jurang itu sendiri.
+Dalam sistem yang ideal, ya — dan begitulah ia berfungsi di Tawakkal. Saya menguruskan komponen pembedahan. Doktor neuro-onkologi menguruskan terapi adjuvant. Kami menyelaraskan melalui lembaga tumor dan komunikasi langsung supaya anda tidak perlu merapatkan jurang itu sendiri.
 
 **S: Tumor saya tidak boleh dioperasi. Adakah masih ada peranan untuk pembedahan?**
 Sering kali, ya. Walaupun untuk tumor di mana reseksi lengkap tidak dapat dicapai — glioma dalam, lesi batang otak, metastasis berganda — pembedahan dalam bentuk biopsi stereotaktik menyediakan diagnosis tisu yang membuka kunci kemoterapi sasaran, imunoterapi, atau pendaftaran ujian klinikal. Tanpa tisu, tiada rawatan sasaran.
@@ -221,10 +221,10 @@ Ya. Saya menggalakkannya. Untuk sebarang pembedahan tumor otak — elektif atau 
 Jika anda atau ahli keluarga telah menerima diagnosis tumor otak atau saraf tunjang — atau mempunyai pengimejan yang menimbulkan kebimbangan — hubungi klinik untuk mengatur konsultasi. Bawa MRI anda dalam CD atau USB. Saya mengkaji setiap imbasan secara peribadi sebelum kita bertemu.
 
 **WhatsApp klinik:** [+6011-3723 5061](https://wa.me/601137235061?text=Hai%2C%20saya%20ingin%20menempah%20konsultasi%20neuro-onkologi.)
-**Tempah dalam talian:** [Portal Temujanji KPJ Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Tempah dalam talian:** [Portal Temujanji Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Hubungi klinik:** +603-4026 7777 sambungan 5099
 
-*Hospital Pakar KPJ Tawakkal, Jalan Pahang Barat, Kuala Lumpur.*
+*Hospital Pakar Tawakkal, Jalan Pahang Barat, Kuala Lumpur.*
 
 ---
 

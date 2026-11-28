@@ -94,4 +94,4 @@ Median kelangsungan hidup dengan rawatan adalah 14 hingga 16 bulan, walaupun ia 
 
 ---
 
-Hubungi KPJ Tawakkal untuk mengatur konsultasi. Masa adalah penting.
+Hubungi Tawakkal untuk mengatur konsultasi. Masa adalah penting.

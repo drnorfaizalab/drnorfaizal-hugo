@@ -1,7 +1,7 @@
 ---
 title: "Trigeminal Neuralgia Treatment Malaysia"
 seoTitle: "Trigeminal Neuralgia Malaysia | MVD Surgery & RFA"
-description: "Trigeminal neuralgia treatment in Malaysia by Dr Nor Faizal — microvascular decompression (MVD), radiofrequency ablation, and nerve block at KPJ Tawakkal Specialist Hospital, Kuala Lumpur. Expert care for facial pain that has failed medication."
+description: "Trigeminal neuralgia treatment in Malaysia by Dr Nor Faizal — microvascular decompression (MVD), radiofrequency ablation, and nerve block at Tawakkal Specialist Hospital, Kuala Lumpur. Expert care for facial pain that has failed medication."
 keywords:
   - trigeminal neuralgia Malaysia
   - trigeminal neuralgia treatment KL
@@ -18,7 +18,7 @@ lastmod: 2026-11-25
 
 # Trigeminal Neuralgia: Treatment in Malaysia
 
-**In short:** Trigeminal neuralgia is sudden, severe, electric shock-like pain on one side of the face, lasting seconds and triggered by light touch, eating, speaking or brushing teeth. It is often caused by a blood vessel pressing on the trigeminal nerve. First-line treatment is medication, usually carbamazepine. When medication fails or causes side effects, options include microvascular decompression (MVD) surgery, radiofrequency ablation and nerve block. Dr Nor Faizal Ahmad Bahuri offers all of these at KPJ Tawakkal Specialist Hospital, Kuala Lumpur.
+**In short:** Trigeminal neuralgia is sudden, severe, electric shock-like pain on one side of the face, lasting seconds and triggered by light touch, eating, speaking or brushing teeth. It is often caused by a blood vessel pressing on the trigeminal nerve. First-line treatment is medication, usually carbamazepine. When medication fails or causes side effects, options include microvascular decompression (MVD) surgery, radiofrequency ablation and nerve block. Dr Nor Faizal Ahmad Bahuri offers all of these at Tawakkal Specialist Hospital, Kuala Lumpur.
 
 Trigeminal neuralgia has been called the "suicide disease" — not by clinicians as clinical terminology, but by the patients who have lived with it. The pain is unlike almost anything else in medicine: sudden, electric, triggered by the lightest touch, and utterly incapacitating.
 
@@ -98,7 +98,7 @@ The only treatment that addresses the underlying cause — moving the offending 
 
 MVD requires a posterior fossa craniotomy — a real operation with real risks (1–2% serious complication rate). The trade-off is the best long-term outcome of any available treatment.
 
-I perform MVD regularly at KPJ Tawakkal Specialist Hospital. Hospital stay is typically 3–4 days.
+I perform MVD regularly at Tawakkal Specialist Hospital. Hospital stay is typically 3–4 days.
 
 ### 4. Stereotactic Radiosurgery (Gamma Knife)
 Non-invasive, outpatient procedure delivering a precisely focused radiation dose to the trigeminal nerve root. No incision. Efficacy is slightly lower than MVD, and pain relief may be delayed by weeks. Best suited for patients who are not surgical candidates.
@@ -112,7 +112,7 @@ There is no single right answer for every TN patient. The decision between percu
 What I commit to: I will explain all the options clearly, give you my honest recommendation, and respect your choice.
 
 **WhatsApp the clinic:** [+6011-3723 5061](https://wa.me/601137235061?text=Hello%2C%20I%20would%20like%20a%20consultation%20for%20trigeminal%20neuralgia.)
-**Book online:** [KPJ Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Book online:** [Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Call the clinic:** +603-4026 7777 ext 5099
 
 ---

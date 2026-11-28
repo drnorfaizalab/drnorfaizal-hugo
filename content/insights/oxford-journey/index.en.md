@@ -42,7 +42,7 @@ The first lesson was restraint.
 
 The best surgical centres share a principle: operate only when necessary, but when you operate, commit fully to excellence. The Oxford surgeons I trained under were deeply suspicious of unnecessary intervention. They knew that every craniotomy carries risk — haemorrhage, oedema, infection, neurological deficit. Their restraint was not timidity. It was the discipline of surgeons who had seen enough outcomes to know that indications must be airtight before the first incision.
 
-I brought this home. At KPJ Tawakkal, some patients come expecting surgery and leave with a surveillance plan. Others come expecting surveillance and leave with a surgical date. Neither decision is default — both are deliberate.
+I brought this home. At Tawakkal, some patients come expecting surgery and leave with a surveillance plan. Others come expecting surveillance and leave with a surgical date. Neither decision is default — both are deliberate.
 
 ## Awake Craniotomy
 
@@ -52,7 +52,7 @@ The procedure demands a team and, above all, a prepared patient — not merely c
 
 Done well, patients routinely describe it as less frightening than they anticipated.
 
-At KPJ Tawakkal, awake craniotomy is now performed regularly for tumours in eloquent locations. For many patients, it is the difference between a surgery that removes the tumour and preserves function, and one that removes the tumour at the cost of speech, movement, or identity.
+At Tawakkal, awake craniotomy is now performed regularly for tumours in eloquent locations. For many patients, it is the difference between a surgery that removes the tumour and preserves function, and one that removes the tumour at the cost of speech, movement, or identity.
 
 ## Neuromonitoring
 
@@ -82,7 +82,7 @@ Oxford confirmed three words I now live by: **Discipline. Simplicity. Elegance.*
 
 You do not need to go to London or Singapore to receive care that meets global standards. You deserve that care here — close to your family, in your language, within a system you understand.
 
-My practice at KPJ Tawakkal is built on this conviction. Every protocol, every monitoring standard, every surgical decision is informed by training at one of the world's great neurosurgical institutions and by the commitment to bring those standards to every patient who walks through the door.
+My practice at Tawakkal is built on this conviction. Every protocol, every monitoring standard, every surgical decision is informed by training at one of the world's great neurosurgical institutions and by the commitment to bring those standards to every patient who walks through the door.
 
 Oxford taught me what excellence looks like. Malaysia is where I practice it.
 
@@ -102,6 +102,6 @@ Yes. The goal of bringing Oxford training, expertise, and standards home to Mala
 
 ---
 
-I am grateful to every mentor at the John Radcliffe Hospital, to every patient who trusted me, and to colleagues at KPJ Tawakkal who share this commitment.
+I am grateful to every mentor at the John Radcliffe Hospital, to every patient who trusted me, and to colleagues at Tawakkal who share this commitment.
 
-To discuss your neurological condition, contact KPJ Tawakkal Specialist Hospital to arrange a consultation.
+To discuss your neurological condition, contact Tawakkal Specialist Hospital to arrange a consultation.

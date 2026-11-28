@@ -1,7 +1,7 @@
 ---
 title: "Neuro-Oncology Specialist Malaysia"
 seoTitle: "Neuro-Oncology Specialist Malaysia | Brain Cancer Neurosurgeon KL"
-description: "Dr Nor Faizal Ahmad Bahuri — Oxford-trained neuro-oncology neurosurgeon at KPJ Tawakkal Specialist Hospital, Kuala Lumpur. Expert in brain tumour surgery, glioblastoma, meningioma, brain metastases, spinal tumours, and molecular-guided multimodal care."
+description: "Dr Nor Faizal Ahmad Bahuri — Oxford-trained neuro-oncology neurosurgeon at Tawakkal Specialist Hospital, Kuala Lumpur. Expert in brain tumour surgery, glioblastoma, meningioma, brain metastases, spinal tumours, and molecular-guided multimodal care."
 keywords:
   - neuro-oncology Malaysia
   - neurooncology specialist KL
@@ -21,7 +21,7 @@ faq_schema:
   - question: "Is neuro-oncology different from oncology?"
     answer: "Yes. Medical oncologists manage systemic chemotherapy and immunotherapy. Neuro-oncologists specialise in tumours of the central nervous system, which behave differently, are harder to reach, and respond to treatment differently from other cancers. Surgical neuro-oncology is the branch that manages surgical access, resection, and biopsy — the foundation that makes subsequent treatment possible."
   - question: "Do I need to see a neuro-oncologist and a neurosurgeon separately?"
-    answer: "In the ideal system, yes — and this is how it works at KPJ Tawakkal. I manage the surgical component. The neuro-oncology physician manages adjuvant therapy. We coordinate through tumour board and direct communication so you are not left to bridge the gap yourself."
+    answer: "In the ideal system, yes — and this is how it works at Tawakkal. I manage the surgical component. The neuro-oncology physician manages adjuvant therapy. We coordinate through tumour board and direct communication so you are not left to bridge the gap yourself."
   - question: "My tumour is inoperable. Is there still a role for surgery?"
     answer: "Often, yes. Even for tumours where complete resection is not achievable — deep gliomas, brainstem lesions, multiple metastases — surgery in the form of stereotactic biopsy provides the tissue diagnosis that unlocks targeted chemotherapy, immunotherapy, or clinical trial enrolment. No tissue, no targeted treatment."
   - question: "What is the difference between a malignant and a benign brain tumour?"
@@ -34,11 +34,11 @@ faq_schema:
 
 # Neuro-Oncology: Brain & Spinal Tumour Care in Malaysia
 
-**In short:** Neuro-oncology is the care of tumours of the brain, spinal cord and their nerves, including glioma, meningioma, brain metastases and spinal tumours. It brings neurosurgery, medical oncology, radiation oncology and neuropathology together, with treatment increasingly guided by the tumour's molecular profile. Dr Nor Faizal Ahmad Bahuri, an Oxford-trained consultant neurosurgeon at KPJ Tawakkal Specialist Hospital, Kuala Lumpur, leads surgical care within this multidisciplinary approach.
+**In short:** Neuro-oncology is the care of tumours of the brain, spinal cord and their nerves, including glioma, meningioma, brain metastases and spinal tumours. It brings neurosurgery, medical oncology, radiation oncology and neuropathology together, with treatment increasingly guided by the tumour's molecular profile. Dr Nor Faizal Ahmad Bahuri, an Oxford-trained consultant neurosurgeon at Tawakkal Specialist Hospital, Kuala Lumpur, leads surgical care within this multidisciplinary approach.
 
 Neuro-oncology is not simply brain tumour surgery. It is the discipline that sits at the intersection of neurosurgery, medical oncology, radiation oncology, and neuropathology — bringing these specialties together around a single patient with a single diagnosis that changes their life in an instant.
 
-I have spent the last two decades building a practice centred on this intersection. My DPhil at the University of Oxford taught me to think and act outside the box of surgery and oncology. My clinical training spans high-volume neuro-oncology at the University of Malaya Medical Centre — one of Southeast Asia's busiest neurosurgical centres — to focused specialist practice at KPJ Tawakkal Specialist Hospital in Kuala Lumpur.
+I have spent the last two decades building a practice centred on this intersection. My DPhil at the University of Oxford taught me to think and act outside the box of surgery and oncology. My clinical training spans high-volume neuro-oncology at the University of Malaya Medical Centre — one of Southeast Asia's busiest neurosurgical centres — to focused specialist practice at Tawakkal Specialist Hospital in Kuala Lumpur.
 
 This page explains what neuro-oncology means in practice, what it means for you as a patient, and how I approach it.
 
@@ -95,7 +95,7 @@ Surgical resection improves survival and quality of life in patients with:
 - Unknown primary (for tissue diagnosis)
 - Radiation-resistant histology (renal cell carcinoma, melanoma)
 
-I work closely with the oncology team at KPJ Tawakkal to ensure systemic disease control and surgical decisions are made together — not in isolation.
+I work closely with the oncology team at Tawakkal to ensure systemic disease control and surgical decisions are made together — not in isolation.
 
 ### Spinal Tumours
 
@@ -154,7 +154,7 @@ For tumours in deep or eloquent locations where open resection is unsafe: framel
 
 ## Multidisciplinary Tumour Board
 
-A brain tumour diagnosis requires more than one specialist and more than one appointment. At KPJ Tawakkal, I participate in multidisciplinary tumour board review — where neurosurgery, oncology, radiation oncology, and neuropathology review each case together before finalising a treatment plan.
+A brain tumour diagnosis requires more than one specialist and more than one appointment. At Tawakkal, I participate in multidisciplinary tumour board review — where neurosurgery, oncology, radiation oncology, and neuropathology review each case together before finalising a treatment plan.
 
 This matters because:
 - The surgical decision (what to remove, how much, when) affects the subsequent oncology plan
@@ -200,7 +200,7 @@ My Oxford DPhil in neuroscience was not a detour from clinical practice. It was 
 Yes. Medical oncologists manage systemic chemotherapy and immunotherapy. Neuro-oncologists specialise in tumours of the central nervous system, which behave differently, are harder to reach, and respond to treatment differently from other cancers. Surgical neuro-oncology is the branch that manages surgical access, resection, and biopsy — the foundation that makes subsequent treatment possible.
 
 **Q: Do I need to see a neuro-oncologist and a neurosurgeon separately?**
-In the ideal system, yes — and this is how it works at KPJ Tawakkal. I manage the surgical component. The neuro-oncology physician manages adjuvant therapy. We coordinate through tumour board and direct communication so you are not left to bridge the gap yourself.
+In the ideal system, yes — and this is how it works at Tawakkal. I manage the surgical component. The neuro-oncology physician manages adjuvant therapy. We coordinate through tumour board and direct communication so you are not left to bridge the gap yourself.
 
 **Q: My tumour is inoperable. Is there still a role for surgery?**
 Often, yes. Even for tumours where complete resection is not achievable — deep gliomas, brainstem lesions, multiple metastases — surgery in the form of stereotactic biopsy provides the tissue diagnosis that unlocks targeted chemotherapy, immunotherapy, or clinical trial enrolment. No tissue, no targeted treatment.
@@ -221,10 +221,10 @@ Yes. I encourage it. For any brain tumour surgery — elective or urgent — a s
 If you or a family member has received a brain or spinal tumour diagnosis — or has imaging that raises concern — contact the clinic to arrange a consultation. Bring your MRI on CD or USB. I review every scan personally before we meet.
 
 **WhatsApp the clinic:** [+6011-3723 5061](https://wa.me/601137235061?text=Hello%2C%20I%20would%20like%20to%20book%20a%20neuro-oncology%20consultation.)
-**Book online:** [KPJ Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Book online:** [Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Call the clinic:** +603-4026 7777 ext 5099
 
-*KPJ Tawakkal Specialist Hospital, Jalan Pahang Barat, Kuala Lumpur.*
+*Tawakkal Specialist Hospital, Jalan Pahang Barat, Kuala Lumpur.*
 
 ---
 

@@ -11,7 +11,7 @@ lastmod: 2026-11-25
 
 **Dr Nor Faizal Ahmad Bahuri**
 Pakar Bedah Saraf Perunding & Pakar Kesakitan Interventional
-Hospital Pakar KPJ Tawakkal, Kuala Lumpur
+Hospital Pakar Tawakkal, Kuala Lumpur
 
 *Disiplin · Kesederhanaan · Keindahan*
 
@@ -195,7 +195,7 @@ Ketersediaan temujanji berbeza-beza. Untuk konsultasi rutin, temujanji biasanya 
 
 **S: Apa yang berlaku jika saya memerlukan penjagaan kecemasan di luar waktu klinik?**
 
-Jika anda mengalami kecemasan perubatan di luar waktu klinik, pergi serta-merta ke **Jabatan Kecemasan di Hospital Pakar KPJ Tawakkal** atau kemudahan kecemasan yang terdekat, dan hubungi **999** jika perlu. Jangan tunggu temujanji klinik dalam keadaan kecemasan.
+Jika anda mengalami kecemasan perubatan di luar waktu klinik, pergi serta-merta ke **Jabatan Kecemasan di Hospital Pakar Tawakkal** atau kemudahan kecemasan yang terdekat, dan hubungi **999** jika perlu. Jangan tunggu temujanji klinik dalam keadaan kecemasan.
 
 ---
 
@@ -254,7 +254,7 @@ Kembali bekerja bergantung kepada sifat pekerjaan anda, jenis pembedahan yang di
 
 Menerima diagnosis tumor otak — atau menjalani mana-mana rawatan bedah saraf yang serius — adalah menuntut dari segi emosi dan psikologi bagi pesakit dan keluarga mereka. Dr Nor Faizal menggalakkan pesakit untuk mendapatkan sokongan melalui:
 
-- **Perkhidmatan kerja sosial dan kaunseling hospital** di KPJ Tawakkal
+- **Perkhidmatan kerja sosial dan kaunseling hospital** di Tawakkal
 - **Kumpulan sokongan pesakit kebangsaan** untuk pesakit tumor otak dan kanser di Malaysia
 - **Perkhidmatan penjagaan paliatif**, jika pengurusan gejala dan sokongan kualiti hidup adalah keutamaan
 - **Sokongan rakan sebaya** — berhubung dengan mereka yang mempunyai pengalaman hidup dengan diagnosis yang serupa

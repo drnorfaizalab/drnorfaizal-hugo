@@ -43,7 +43,7 @@ Pelajaran pertama ialah pengekangan diri.
 
 Pusat-pusat pembedahan terbaik berkongsi satu prinsip: bedah hanya apabila perlu, tetapi apabila membedah, komited sepenuhnya kepada kecemerlangan. Pakar bedah Oxford yang melatih saya sangat berhati-hati terhadap intervensi yang tidak perlu. Mereka tahu setiap kraniotomi membawa risiko — pendarahan, edema, jangkitan, defisit neurologi. Pengekangan mereka bukan ketakutan. Ia adalah disiplin pakar bedah yang telah melihat cukup banyak hasil rawatan untuk tahu bahawa indikasi mesti benar-benar jelas sebelum hirisan pertama dibuat.
 
-Saya bawa ini pulang. Di KPJ Tawakkal, sesetengah pesakit datang menjangka pembedahan dan pulang dengan pelan pemantauan. Yang lain datang menjangka pemantauan dan pulang dengan tarikh pembedahan. Tiada keputusan yang automatik — kedua-duanya adalah keputusan yang difikirkan dengan teliti.
+Saya bawa ini pulang. Di Tawakkal, sesetengah pesakit datang menjangka pembedahan dan pulang dengan pelan pemantauan. Yang lain datang menjangka pemantauan dan pulang dengan tarikh pembedahan. Tiada keputusan yang automatik — kedua-duanya adalah keputusan yang difikirkan dengan teliti.
 
 ## Kraniotomi Sedar (Awake Craniotomy)
 
@@ -53,7 +53,7 @@ Prosedur ini memerlukan satu pasukan dan, yang paling penting, seorang pesakit y
 
 Apabila dilakukan dengan baik, pesakit selalunya menggambarkannya sebagai kurang menakutkan berbanding jangkaan mereka.
 
-Di KPJ Tawakkal, kraniotomi sedar kini dilakukan secara berkala untuk tumor di lokasi yang penting. Bagi ramai pesakit, ia adalah pembeza antara pembedahan yang membuang tumor sambil mengekalkan fungsi, dan satu yang membuang tumor dengan kos pertuturan, pergerakan, atau identiti mereka.
+Di Tawakkal, kraniotomi sedar kini dilakukan secara berkala untuk tumor di lokasi yang penting. Bagi ramai pesakit, ia adalah pembeza antara pembedahan yang membuang tumor sambil mengekalkan fungsi, dan satu yang membuang tumor dengan kos pertuturan, pergerakan, atau identiti mereka.
 
 ## Neuromonitoring
 
@@ -83,7 +83,7 @@ Oxford mengesahkan tiga perkataan yang kini saya amalkan: **Disiplin. Kesederhan
 
 Anda tidak perlu ke London atau Singapura untuk mendapatkan penjagaan yang memenuhi standard global. Anda layak mendapat penjagaan itu di sini — dekat dengan keluarga anda, dalam bahasa anda, dalam sistem yang anda fahami.
 
-Amalan saya di KPJ Tawakkal dibina atas keyakinan ini. Setiap protokol, setiap standard pemantauan, setiap keputusan pembedahan dimaklumkan oleh latihan di salah sebuah institusi bedah saraf terhebat di dunia dan oleh komitmen untuk membawa standard tersebut kepada setiap pesakit yang datang.
+Amalan saya di Tawakkal dibina atas keyakinan ini. Setiap protokol, setiap standard pemantauan, setiap keputusan pembedahan dimaklumkan oleh latihan di salah sebuah institusi bedah saraf terhebat di dunia dan oleh komitmen untuk membawa standard tersebut kepada setiap pesakit yang datang.
 
 Oxford mengajar saya rupa kecemerlangan. Malaysia adalah tempat saya mengamalkannya.
 
@@ -103,6 +103,6 @@ Ya. Matlamat membawa latihan, kepakaran, dan standard Oxford pulang ke Malaysia 
 
 ---
 
-Saya bersyukur kepada setiap mentor di Hospital John Radcliffe, kepada setiap pesakit yang mempercayai saya, dan kepada rakan sekerja di KPJ Tawakkal yang berkongsi komitmen ini.
+Saya bersyukur kepada setiap mentor di Hospital John Radcliffe, kepada setiap pesakit yang mempercayai saya, dan kepada rakan sekerja di Tawakkal yang berkongsi komitmen ini.
 
-Untuk membincangkan keadaan neurologi anda, hubungi Hospital Pakar KPJ Tawakkal untuk mengatur konsultasi.
+Untuk membincangkan keadaan neurologi anda, hubungi Hospital Pakar Tawakkal untuk mengatur konsultasi.

@@ -1,6 +1,6 @@
 ---
 title: "Referring a Patient | Dr Nor Faizal Ahmad Bahuri"
-description: "Referral information for GPs and specialists. Dr Nor Faizal accepts referrals for brain tumour surgery, complex interventional pain, and neuro-oncology at KPJ Tawakkal Specialist Hospital, Kuala Lumpur."
+description: "Referral information for GPs and specialists. Dr Nor Faizal accepts referrals for brain tumour surgery, complex interventional pain, and neuro-oncology at Tawakkal Specialist Hospital, Kuala Lumpur."
 date: 2026-01-01
 lastmod: 2026-11-25
 draft: false
@@ -8,13 +8,13 @@ layout: "for-doctors"
 type: "for-doctors"
 
 # SEO
-keywords: ["neurosurgeon referral Malaysia", "brain tumour referral KL", "GP referral neurosurgeon", "refer patient KPJ Tawakkal", "interventional pain referral Malaysia"]
+keywords: ["neurosurgeon referral Malaysia", "brain tumour referral KL", "GP referral neurosurgeon", "refer patient Tawakkal", "interventional pain referral Malaysia"]
 canonical: "https://drnorfaizal.com/for-doctors/"
 robots: "index, follow"
 
 # Open Graph
 og_title: "Referring a Patient to Dr Nor Faizal | Neurosurgeon & Pain Specialist"
-og_description: "Referral information for GPs and specialists. Brain tumour surgery, interventional pain, and headache disorders. KPJ Tawakkal, Kuala Lumpur."
+og_description: "Referral information for GPs and specialists. Brain tumour surgery, interventional pain, and headache disorders. Tawakkal, Kuala Lumpur."
 og_type: "website"
 
 # Page-specific data used by the layout template
@@ -40,7 +40,7 @@ credentials:
     detail: "Bachelor of Medicine and Surgery"
   - degree: "18+"
     institution: "Years in Neurosurgery"
-    detail: "Consultant, KPJ Tawakkal Specialist Hospital"
+    detail: "Consultant, Tawakkal Specialist Hospital"
 
 specialties:
   - number: "01"
@@ -135,7 +135,7 @@ checklist:
   - title: "Your Referral Letter"
     detail: "Optional but appreciated. A brief WhatsApp summary is equally accepted."
   - title: "Panel / Insurance Details"
-    detail: "KPJ Tawakkal accepts a wide range of corporate panels and medical insurance."
+    detail: "Tawakkal accepts a wide range of corporate panels and medical insurance."
 
 why_refer:
   - title: "Dual Subspecialty Expertise"
@@ -157,7 +157,7 @@ show_appointment_button: true
 
 ## Referring a Patient to Dr Nor Faizal
 
-Dr Nor Faizal Ahmad Bahuri is a Consultant Neurosurgeon and Interventional Pain Specialist practising at KPJ Tawakkal Specialist Hospital, Kuala Lumpur. He accepts referrals from general practitioners, family physicians, and specialists across Malaysia and the region.
+Dr Nor Faizal Ahmad Bahuri is a Consultant Neurosurgeon and Interventional Pain Specialist practising at Tawakkal Specialist Hospital, Kuala Lumpur. He accepts referrals from general practitioners, family physicians, and specialists across Malaysia and the region.
 
 Referrals are welcomed for patients requiring brain and spinal tumour surgery, management of complex headache and facial pain disorders, and interventional pain management where conservative treatment has been insufficient.
 
@@ -202,7 +202,7 @@ Thank you.
 
 ## For Urgent Neurological Cases
 
-If your patient presents with **rapid neurological deterioration**, a **new seizure with mass on imaging**, **cauda equina syndrome**, or **thunderclap headache** — please refer directly to the Emergency Department at KPJ Tawakkal or contact the clinic immediately via WhatsApp. Urgent cases are triaged and accommodated as a priority.
+If your patient presents with **rapid neurological deterioration**, a **new seizure with mass on imaging**, **cauda equina syndrome**, or **thunderclap headache** — please refer directly to the Emergency Department at Tawakkal or contact the clinic immediately via WhatsApp. Urgent cases are triaged and accommodated as a priority.
 
 **A&E Direct Line:** +603 4026 7777  
 **WhatsApp (Urgent):** [+6011-3723 5061](https://wa.me/601137235061?text=URGENT%20Referral%3A%20)
@@ -211,9 +211,9 @@ If your patient presents with **rapid neurological deterioration**, a **new seiz
 
 ## Hospital Location
 
-**KPJ Tawakkal Specialist Hospital**  
+**Tawakkal Specialist Hospital**  
 Jalan Pahang, Kuala Lumpur, Wilayah Persekutuan.
 
-Accessible via MRR2, DUKE, and Lebuhraya KL-Karak. Multi-storey parking available. E-hailing: search "KPJ Tawakkal Specialist Hospital."
+Accessible via MRR2, DUKE, and Lebuhraya KL-Karak. Multi-storey parking available. E-hailing: search "Tawakkal Specialist Hospital."
 
-[Open in Google Maps →](https://maps.google.com/?q=KPJ+Tawakkal+Specialist+Hospital)
+[Open in Google Maps →](https://maps.google.com/?q=Tawakkal+Specialist+Hospital)

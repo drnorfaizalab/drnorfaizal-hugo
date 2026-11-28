@@ -1,7 +1,7 @@
 ---
 title: "Brain Tumour Surgery Malaysia"
 seoTitle: "Brain Tumour Surgery Malaysia | Neurosurgeon KL"
-description: "Expert brain tumour surgery in Malaysia by Dr Nor Faizal Ahmad Bahuri — Oxford-trained neurosurgeon at KPJ Tawakkal Specialist Hospital, Kuala Lumpur. Treating meningioma, glioma, glioblastoma, medulloblastoma and paediatric brain tumours."
+description: "Expert brain tumour surgery in Malaysia by Dr Nor Faizal Ahmad Bahuri — Oxford-trained neurosurgeon at Tawakkal Specialist Hospital, Kuala Lumpur. Treating meningioma, glioma, glioblastoma, medulloblastoma and paediatric brain tumours."
 keywords:
   - brain tumour surgery Malaysia
   - brain tumour surgeon Kuala Lumpur
@@ -25,13 +25,13 @@ faq_schema:
     answer: "It depends entirely on the tumour. A rapidly expanding GBM may warrant surgery within days. A small incidental meningioma can wait weeks for a thorough work-up and second opinion. I will tell you clearly which timeline applies to your situation."
   - question: "Does insurance cover brain tumour surgery in Malaysia?"
     answer: "Most major medical insurance plans in Malaysia cover surgical treatment of brain tumours. I recommend contacting your insurer before the consultation so we can plan accordingly. The clinic team can assist with pre-authorisation paperwork."
-  - question: "Is KPJ Tawakkal equipped for complex brain tumour surgery?"
-    answer: "Yes. KPJ Tawakkal Specialist Hospital is equipped with advanced MRI and CT imaging, dedicated neurosurgical theatres with intraoperative navigation, neuromonitoring capabilities, and a dedicated neurological ICU. Complex cases also have access to intraoperative MRI facilities through our specialist network."
+  - question: "Is Tawakkal equipped for complex brain tumour surgery?"
+    answer: "Yes. Tawakkal Specialist Hospital is equipped with advanced MRI and CT imaging, dedicated neurosurgical theatres with intraoperative navigation, neuromonitoring capabilities, and a dedicated neurological ICU. Complex cases also have access to intraoperative MRI facilities through our specialist network."
 ---
 
 # Brain Tumour Surgery in Malaysia
 
-**In short:** A brain tumour is an abnormal growth of cells in the brain or its coverings. It may be primary, starting in the brain (such as glioma, meningioma or medulloblastoma), or secondary, spreading from cancer elsewhere such as the lung or breast. Treatment depends on tumour type, grade and location, and usually combines surgery with radiotherapy and chemotherapy where needed. Dr Nor Faizal Ahmad Bahuri, an Oxford-trained consultant neurosurgeon at KPJ Tawakkal Specialist Hospital, Kuala Lumpur, treats adult and childhood brain tumours.
+**In short:** A brain tumour is an abnormal growth of cells in the brain or its coverings. It may be primary, starting in the brain (such as glioma, meningioma or medulloblastoma), or secondary, spreading from cancer elsewhere such as the lung or breast. Treatment depends on tumour type, grade and location, and usually combines surgery with radiotherapy and chemotherapy where needed. Dr Nor Faizal Ahmad Bahuri, an Oxford-trained consultant neurosurgeon at Tawakkal Specialist Hospital, Kuala Lumpur, treats adult and childhood brain tumours.
 
 A brain tumour diagnosis changes everything in an instant. As a neurosurgeon, I've sat across from hundreds of patients and families at that exact moment. What I've learned is this: **what happens in the next 72 hours — the decisions made, the specialist seen — matters enormously.**
 
@@ -163,7 +163,7 @@ Surgery is almost never the end of the story. What comes after depends on tumour
 | Medulloblastoma | Risk-stratified chemoradiation |
 | Brain Metastasis | Depends on primary cancer control and systemic disease |
 
-Multidisciplinary tumour board review is essential. I work closely with neuro-oncologists and radiation oncologists at KPJ Tawakkal to ensure every patient has a coordinated treatment plan, not just a surgical plan.
+Multidisciplinary tumour board review is essential. I work closely with neuro-oncologists and radiation oncologists at Tawakkal to ensure every patient has a coordinated treatment plan, not just a surgical plan.
 
 ---
 
@@ -187,7 +187,7 @@ My DPhil at the University of Oxford was not in a clinical specialty. It was in 
 
 What this means for you: I bring laboratory-level understanding of tumour biology to the operating theatre. When I decide how aggressively to resect a tumour, or whether to pursue molecular testing before committing to a surgical plan, that decision is informed by both clinical experience and deep scientific knowledge.
 
-**18+ years of neurosurgical practice.** Cases from University of Malaya Medical Centre (one of Southeast Asia's highest-volume neuro-oncology units) to private practice at KPJ Tawakkal Specialist Hospital.
+**18+ years of neurosurgical practice.** Cases from University of Malaya Medical Centre (one of Southeast Asia's highest-volume neuro-oncology units) to private practice at Tawakkal Specialist Hospital.
 
 ---
 
@@ -208,8 +208,8 @@ It depends entirely on the tumour. A rapidly expanding GBM may warrant surgery w
 **Q: Does insurance cover brain tumour surgery in Malaysia?**
 Most major medical insurance plans in Malaysia cover surgical treatment of brain tumours. I recommend contacting your insurer before the consultation so we can plan accordingly. The clinic team can assist with pre-authorisation paperwork.
 
-**Q: Is KPJ Tawakkal equipped for complex brain tumour surgery?**
-Yes. KPJ Tawakkal Specialist Hospital is equipped with advanced MRI and CT imaging, dedicated neurosurgical theatres with intraoperative navigation, neuromonitoring capabilities, and a dedicated neurological ICU. Complex cases also have access to intraoperative MRI facilities through our specialist network.
+**Q: Is Tawakkal equipped for complex brain tumour surgery?**
+Yes. Tawakkal Specialist Hospital is equipped with advanced MRI and CT imaging, dedicated neurosurgical theatres with intraoperative navigation, neuromonitoring capabilities, and a dedicated neurological ICU. Complex cases also have access to intraoperative MRI facilities through our specialist network.
 
 ---
 
@@ -220,10 +220,10 @@ If you or a family member has received a brain tumour diagnosis — or has sympt
 I review every MRI personally before seeing a patient. Come prepared with your scans on a CD or USB, your referral letter if you have one, and your questions. There are no foolish questions in my clinic.
 
 **WhatsApp the clinic:** [+6011-3723 5061](https://wa.me/601137235061?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation%20for%20brain%20tumour.)
-**Book online:** [KPJ Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Book online:** [Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Call the clinic:** +603-4026 7777 ext 5099
 
-*KPJ Tawakkal Specialist Hospital, Jalan Pahang Barat, Kuala Lumpur.*
+*Tawakkal Specialist Hospital, Jalan Pahang Barat, Kuala Lumpur.*
 
 ---
 

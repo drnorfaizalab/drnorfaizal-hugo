@@ -100,4 +100,4 @@ Recurrence depends on the "Simpson Grade" of the initial surgery. A Grade I rese
 
 A diagnosis is the beginning of a management plan, not a conclusion. If you or a loved one are facing this diagnosis, clarity is your strongest ally.
 
-**Book a consultation at KPJ Tawakkal Specialist Hospital to discuss your options with precision and care.**
+**Book a consultation at Tawakkal Specialist Hospital to discuss your options with precision and care.**

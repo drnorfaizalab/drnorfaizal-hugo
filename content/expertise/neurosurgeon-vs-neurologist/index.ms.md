@@ -17,7 +17,7 @@ lastmod: 2026-11-25
 
 # Pakar Bedah Saraf vs Pakar Neurologi: Doktor Mana Yang Anda Perlukan?
 
-**Ringkasnya:** Pakar neurologi mendiagnosis dan merawat penyakit sistem saraf dengan ubat dan rawatan bukan pembedahan. Pakar bedah saraf merawat keadaan yang mungkin memerlukan pembedahan atau prosedur, seperti tumor otak, saraf tulang belakang yang tertekan dan pendarahan otak. Di Malaysia, doktor am biasanya merujuk kebanyakan masalah saraf kepada pakar neurologi, dan merujuk terus kepada pakar bedah saraf apabila disyaki ada punca struktur seperti tumor, cakera atau pendarahan. Di hospital swasta anda boleh berjumpa mana-mana pakar secara terus; Dr Nor Faizal Ahmad Bahuri, pakar perunding bedah saraf di KPJ Tawakkal Specialist Hospital, Kuala Lumpur, akan merujuk anda semula jika keadaan anda lebih sesuai dirawat secara perubatan.
+**Ringkasnya:** Pakar neurologi mendiagnosis dan merawat penyakit sistem saraf dengan ubat dan rawatan bukan pembedahan. Pakar bedah saraf merawat keadaan yang mungkin memerlukan pembedahan atau prosedur, seperti tumor otak, saraf tulang belakang yang tertekan dan pendarahan otak. Di Malaysia, doktor am biasanya merujuk kebanyakan masalah saraf kepada pakar neurologi, dan merujuk terus kepada pakar bedah saraf apabila disyaki ada punca struktur seperti tumor, cakera atau pendarahan. Di hospital swasta anda boleh berjumpa mana-mana pakar secara terus; Dr Nor Faizal Ahmad Bahuri, pakar perunding bedah saraf di Tawakkal Specialist Hospital, Kuala Lumpur, akan merujuk anda semula jika keadaan anda lebih sesuai dirawat secara perubatan.
 
 Ini adalah soalan yang paling lazim saya terima daripada pesakit yang baru diberitahu mereka perlu "berjumpa pakar" untuk masalah otak atau saraf. Istilahnya yang hampir serupa boleh menimbulkan kekeliruan — dan kekeliruan ini penting, kerana berjumpa dengan pakar yang salah terlebih dahulu akan melambatkan rawatan yang betul.
 
@@ -105,7 +105,7 @@ Datang terus berjumpa pakar bedah saraf jika:
 Jika anda tidak pasti sama ada anda memerlukan pakar neurologi atau pakar bedah saraf — datang sahaja. Saya akan memberitahu anda dengan jujur semasa konsultasi sama ada keadaan anda berada dalam skop saya atau sama ada saya patut merujuk anda kepada rakan sekerja yang betul.
 
 **WhatsApp klinik:** [+6011-3723 5061](https://wa.me/601137235061?text=Salam%2C%20saya%20ingin%20membuat%20temujanji%20konsultasi.)
-**Tempah dalam talian:** [Portal Temujanji KPJ Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Tempah dalam talian:** [Portal Temujanji Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Hubungi klinik:** +603-4026 7777 samb. 5099
 
 ---

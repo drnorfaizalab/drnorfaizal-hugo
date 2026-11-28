@@ -1,7 +1,7 @@
 ---
 title: "Pembedahan Tumor Otak di Malaysia"
 seoTitle: "Pembedahan Tumor Otak Malaysia | Pakar Bedah Otak KL"
-description: "Pembedahan tumor otak oleh Dr Nor Faizal Ahmad Bahuri — pakar bedah neuro terlatih di Oxford, di Hospital Pakar KPJ Tawakkal, Kuala Lumpur. Merawat meningioma, glioma, glioblastoma, medulloblastoma dan tumor otak pediatrik."
+description: "Pembedahan tumor otak oleh Dr Nor Faizal Ahmad Bahuri — pakar bedah neuro terlatih di Oxford, di Hospital Pakar Tawakkal, Kuala Lumpur. Merawat meningioma, glioma, glioblastoma, medulloblastoma dan tumor otak pediatrik."
 keywords:
   - pembedahan tumor otak Malaysia
   - pakar bedah tumor otak Kuala Lumpur
@@ -25,13 +25,13 @@ faq_schema:
     answer: "Ia bergantung sepenuhnya pada jenis tumor. GBM yang membesar dengan cepat mungkin memerlukan pembedahan dalam beberapa hari. Meningioma kecil yang ditemui secara tidak sengaja boleh menunggu beberapa minggu untuk pemeriksaan lanjut dan pendapat kedua. Saya akan memberitahu anda dengan jelas garis masa yang mana terpakai untuk situasi anda."
   - question: "Adakah insurans menanggung kos pembedahan tumor otak di Malaysia?"
     answer: "Kebanyakan pelan insurans perubatan utama di Malaysia menanggung kos rawatan pembedahan tumor otak. Saya syorkan anda menghubungi syarikat insurans anda sebelum sesi konsultasi supaya kita boleh merancang dengan sewajarnya. Pasukan klinik boleh membantu dengan urusan kertas kerja pra-kelulusan."
-  - question: "Adakah KPJ Tawakkal dilengkapi untuk pembedahan tumor otak yang kompleks?"
-    answer: "Ya. Hospital Pakar KPJ Tawakkal dilengkapi dengan pengimejan MRI dan CT canggih, dewan bedah neuro khas dengan sistem navigasi intraoperatif, keupayaan pemantauan neuro, dan ICU neurologi yang khusus. Untuk kes-kes kompleks, kami juga mempunyai akses kepada kemudahan MRI intraoperatif melalui rangkaian pakar kami."
+  - question: "Adakah Tawakkal dilengkapi untuk pembedahan tumor otak yang kompleks?"
+    answer: "Ya. Hospital Pakar Tawakkal dilengkapi dengan pengimejan MRI dan CT canggih, dewan bedah neuro khas dengan sistem navigasi intraoperatif, keupayaan pemantauan neuro, dan ICU neurologi yang khusus. Untuk kes-kes kompleks, kami juga mempunyai akses kepada kemudahan MRI intraoperatif melalui rangkaian pakar kami."
 ---
 
 # Pembedahan Tumor Otak di Malaysia
 
-**Ringkasnya:** Tumor otak ialah pertumbuhan sel yang tidak normal di dalam otak atau lapisan yang menyelaputinya. Ia boleh bersifat primer, bermula di otak (seperti glioma, meningioma atau medulloblastoma), atau sekunder, merebak daripada kanser di bahagian lain seperti paru-paru atau payudara. Rawatan bergantung kepada jenis, gred dan lokasi tumor, dan biasanya menggabungkan pembedahan dengan radioterapi serta kemoterapi apabila perlu. Dr Nor Faizal Ahmad Bahuri, pakar perunding bedah saraf lulusan Oxford di KPJ Tawakkal Specialist Hospital, Kuala Lumpur, merawat tumor otak dewasa dan kanak-kanak.
+**Ringkasnya:** Tumor otak ialah pertumbuhan sel yang tidak normal di dalam otak atau lapisan yang menyelaputinya. Ia boleh bersifat primer, bermula di otak (seperti glioma, meningioma atau medulloblastoma), atau sekunder, merebak daripada kanser di bahagian lain seperti paru-paru atau payudara. Rawatan bergantung kepada jenis, gred dan lokasi tumor, dan biasanya menggabungkan pembedahan dengan radioterapi serta kemoterapi apabila perlu. Dr Nor Faizal Ahmad Bahuri, pakar perunding bedah saraf lulusan Oxford di Tawakkal Specialist Hospital, Kuala Lumpur, merawat tumor otak dewasa dan kanak-kanak.
 
 Diagnosis tumor otak boleh mengubah segalanya dalam sekelip mata. Sebagai pakar bedah neuro, saya telah duduk berhadapan dengan ratusan pesakit dan keluarga mereka pada saat yang genting ini. Apa yang saya pelajari adalah: **apa yang berlaku dalam tempoh 72 jam seterusnya — keputusan yang dibuat, pakar yang ditemui — adalah sangat penting.**
 
@@ -163,7 +163,7 @@ Pembedahan hampir tidak pernah menjadi penamat cerita. Apa yang menyusul bergant
 | Medulloblastoma | Kemoradiasi berstrata mengikut risiko |
 | Metastasis Otak | Bergantung pada kawalan kanser primer dan penyakit sistemik |
 
-Perbincangan dalam mesyuarat lembaga tumor pelbagai disiplin adalah sangat penting. Saya bekerjasama rapat dengan pakar neuro-onkologi dan onkologi radiasi di KPJ Tawakkal untuk memastikan setiap pesakit mempunyai pelan rawatan yang bersepadu, bukan sekadar pelan pembedahan.
+Perbincangan dalam mesyuarat lembaga tumor pelbagai disiplin adalah sangat penting. Saya bekerjasama rapat dengan pakar neuro-onkologi dan onkologi radiasi di Tawakkal untuk memastikan setiap pesakit mempunyai pelan rawatan yang bersepadu, bukan sekadar pelan pembedahan.
 
 ---
 
@@ -187,7 +187,7 @@ DPhil (PhD) saya di Universiti Oxford bukan dalam bidang kepakaran klinikal. Ia 
 
 Apa maknanya ini untuk anda: Saya membawa pemahaman biologi tumor pada peringkat makmal ke dalam dewan bedah. Apabila saya membuat keputusan tentang sejauh mana agresifnya saya perlu membuang tumor, atau sama ada untuk meneruskan ujian molekular sebelum merancang pembedahan, keputusan itu didasari oleh pengalaman klinikal dan pengetahuan saintifik yang mendalam.
 
-**18+ tahun pengalaman dalam amalan pembedahan neuro.** Merangkumi kes-kes dari Pusat Perubatan Universiti Malaya (salah satu unit neuro-onkologi paling sibuk di Asia Tenggara) sehinggalah ke amalan swasta di Hospital Pakar KPJ Tawakkal.
+**18+ tahun pengalaman dalam amalan pembedahan neuro.** Merangkumi kes-kes dari Pusat Perubatan Universiti Malaya (salah satu unit neuro-onkologi paling sibuk di Asia Tenggara) sehinggalah ke amalan swasta di Hospital Pakar Tawakkal.
 
 ---
 
@@ -208,8 +208,8 @@ Ia bergantung sepenuhnya pada jenis tumor. GBM yang membesar dengan cepat mungki
 **S: Adakah insurans menanggung kos pembedahan tumor otak di Malaysia?**
 Kebanyakan pelan insurans perubatan utama di Malaysia menanggung kos rawatan pembedahan tumor otak. Saya syorkan anda menghubungi syarikat insurans anda sebelum sesi konsultasi supaya kita boleh merancang dengan sewajarnya. Pasukan klinik boleh membantu dengan urusan kertas kerja pra-kelulusan.
 
-**S: Adakah KPJ Tawakkal dilengkapi untuk pembedahan tumor otak yang kompleks?**
-Ya. Hospital Pakar KPJ Tawakkal dilengkapi dengan pengimejan MRI dan CT canggih, dewan bedah neuro khas dengan sistem navigasi intraoperatif, keupayaan pemantauan neuro, dan ICU neurologi yang khusus. Untuk kes-kes kompleks, kami juga mempunyai akses kepada kemudahan MRI intraoperatif melalui rangkaian pakar kami.
+**S: Adakah Tawakkal dilengkapi untuk pembedahan tumor otak yang kompleks?**
+Ya. Hospital Pakar Tawakkal dilengkapi dengan pengimejan MRI dan CT canggih, dewan bedah neuro khas dengan sistem navigasi intraoperatif, keupayaan pemantauan neuro, dan ICU neurologi yang khusus. Untuk kes-kes kompleks, kami juga mempunyai akses kepada kemudahan MRI intraoperatif melalui rangkaian pakar kami.
 
 ---
 
@@ -220,10 +220,10 @@ Jika anda atau ahli keluarga telah menerima diagnosis tumor otak — atau mempun
 Saya meneliti setiap imbasan MRI secara peribadi sebelum berjumpa pesakit. Datanglah dengan membawa imbasan anda dalam bentuk CD atau USB, surat rujukan jika ada, dan senarai soalan anda. Tiada soalan yang dianggap remeh di klinik saya.
 
 **WhatsApp klinik:** [+6011-3723 5061](https://wa.me/601137235061?text=Salam%2C%20saya%20ingin%20membuat%20temujanji%20konsultasi%20berkenaan%20tumor%20otak.)
-**Tempah dalam talian:** [Portal Temujanji KPJ Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Tempah dalam talian:** [Portal Temujanji Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Hubungi klinik:** +603-4026 7777 samb. 5099
 
-*Hospital Pakar KPJ Tawakkal, Jalan Pahang Barat, Kuala Lumpur.*
+*Hospital Pakar Tawakkal, Jalan Pahang Barat, Kuala Lumpur.*
 
 ---
 

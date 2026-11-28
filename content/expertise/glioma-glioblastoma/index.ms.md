@@ -1,7 +1,7 @@
 ---
 title: "Rawatan Glioma & Glioblastoma di Malaysia"
 seoTitle: "Rawatan Glioma & Glioblastoma Malaysia | Pakar Bedah Saraf KL"
-description: "Pembedahan glioma dan glioblastoma di Malaysia oleh Dr Nor Faizal Ahmad Bahuri — pakar bedah saraf terlatih Oxford di KPJ Tawakkal KL. Rawatan untuk glioma gred rendah, glioma gred tinggi (GBM), astrocytoma dan glioma IDH-mutan."
+description: "Pembedahan glioma dan glioblastoma di Malaysia oleh Dr Nor Faizal Ahmad Bahuri — pakar bedah saraf terlatih Oxford di Tawakkal KL. Rawatan untuk glioma gred rendah, glioma gred tinggi (GBM), astrocytoma dan glioma IDH-mutan."
 keywords:
   - rawatan glioma Malaysia
   - pembedahan glioblastoma Malaysia
@@ -18,7 +18,7 @@ lastmod: 2026-11-25
 
 # Glioma & Glioblastoma: Rawatan di Malaysia
 
-**Ringkasnya:** Glioma ialah tumor yang berasal daripada sel glial (sel sokongan) otak. Glioma digredkan 1 hingga 4 mengikut klasifikasi WHO 2021, yang turut menggunakan penanda molekul seperti status mutasi IDH; glioblastoma (GBM) ialah bentuk gred 4 yang paling agresif. Rawatan biasanya bermula dengan pembuangan tumor secara maksimum dan selamat melalui pembedahan, diikuti radioterapi dan kemoterapi mengikut gred dan profil molekul. Dr Nor Faizal Ahmad Bahuri, pakar perunding bedah saraf lulusan Oxford di KPJ Tawakkal Specialist Hospital, Kuala Lumpur, merawat glioma gred rendah dan gred tinggi.
+**Ringkasnya:** Glioma ialah tumor yang berasal daripada sel glial (sel sokongan) otak. Glioma digredkan 1 hingga 4 mengikut klasifikasi WHO 2021, yang turut menggunakan penanda molekul seperti status mutasi IDH; glioblastoma (GBM) ialah bentuk gred 4 yang paling agresif. Rawatan biasanya bermula dengan pembuangan tumor secara maksimum dan selamat melalui pembedahan, diikuti radioterapi dan kemoterapi mengikut gred dan profil molekul. Dr Nor Faizal Ahmad Bahuri, pakar perunding bedah saraf lulusan Oxford di Tawakkal Specialist Hospital, Kuala Lumpur, merawat glioma gred rendah dan gred tinggi.
 
 Glioma adalah tumor paling kompleks yang saya rawat. Berbeza dengan meningioma, yang terletak di permukaan otak dan selalunya boleh dibuang sepenuhnya, glioma pula tumbuh *di dalam* tisu otak — menyusup di sepanjang laluan jirim putih, tanpa mengikut sempadan anatomi. Ini menjadikan tugas pakar bedah sangat berbeza.
 
@@ -117,7 +117,7 @@ Ini bukan keputusan yang mudah dan mesti dibuat secara individu. Umur, saiz tumo
 
 **MRI selepas pembedahan:** Dalam tempoh 24–48 jam untuk menilai tahap pembuangan tumor sebelum bengkak berlaku. Imbasan ini adalah penanda aras.
 
-**Serahan kepada onkologi:** Saya akan memperkenalkan anda secara peribadi kepada pasukan neuro-onkologi di KPJ Tawakkal untuk memulakan perancangan rawatan tambahan tanpa berlengah.
+**Serahan kepada onkologi:** Saya akan memperkenalkan anda secara peribadi kepada pasukan neuro-onkologi di Tawakkal untuk memulakan perancangan rawatan tambahan tanpa berlengah.
 
 **Pengimejan susulan:** MRI setiap 2–3 bulan untuk GBM. Setiap 6 bulan untuk glioma gred rendah yang stabil.
 
@@ -130,7 +130,7 @@ Ini bukan keputusan yang mudah dan mesti dibuat secara individu. Umur, saiz tumo
 Jika anda atau ahli keluarga telah didiagnosis dengan glioma — atau mempunyai simptom yang membimbangkan — hubungi klinik untuk mengatur sesi konsultasi dan penilaian imbasan MRI.
 
 **WhatsApp klinik:** [+6011-3723 5061](https://wa.me/601137235061?text=Salam%2C%20saya%20ingin%20mendapatkan%20konsultasi%20mengenai%20glioma.)
-**Tempah dalam talian:** [Portal Janji Temu KPJ Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Tempah dalam talian:** [Portal Janji Temu Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Hubungi klinik:** +603-4026 7777 samb. 5099
 
 ---

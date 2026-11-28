@@ -102,4 +102,4 @@ Your GP is the correct first point of contact for most pain. A specialist referr
 
 If your pain is unexplained, or if something simply feels wrong, seek a specialist evaluation. A thorough assessment can provide the clarity you need.
 
-Contact my clinic at KPJ Tawakkal Specialist Hospital to arrange a consultation.
+Contact my clinic at Tawakkal Specialist Hospital to arrange a consultation.

@@ -1,7 +1,7 @@
 ---
 title: "Paediatric Brain Tumour Malaysia"
 seoTitle: "Brain Tumour in Children Malaysia | Paediatric Neurosurgeon KL"
-description: "Expert paediatric brain tumour surgery in Malaysia by Dr Nor Faizal Ahmad Bahuri. Treating medulloblastoma, ependymoma, astrocytoma and other childhood brain tumours at KPJ Tawakkal Specialist Hospital, Kuala Lumpur."
+description: "Expert paediatric brain tumour surgery in Malaysia by Dr Nor Faizal Ahmad Bahuri. Treating medulloblastoma, ependymoma, astrocytoma and other childhood brain tumours at Tawakkal Specialist Hospital, Kuala Lumpur."
 keywords:
   - paediatric brain tumour Malaysia
   - brain tumour child Malaysia
@@ -19,7 +19,7 @@ lastmod: 2026-11-25
 
 # Brain Tumour in Children: A Malaysian Parent's Guide
 
-**In short:** Brain and spinal cord tumours are the second most common childhood cancer after leukaemia and the most common solid tumour in children. Common types include medulloblastoma, astrocytoma and ependymoma. Many are highly treatable: medulloblastoma survival exceeds 70–80% with modern surgery, radiotherapy and chemotherapy. Early diagnosis and surgery by an experienced neurosurgeon most influence outcome. Dr Nor Faizal Ahmad Bahuri treats childhood brain tumours at KPJ Tawakkal Specialist Hospital, Kuala Lumpur.
+**In short:** Brain and spinal cord tumours are the second most common childhood cancer after leukaemia and the most common solid tumour in children. Common types include medulloblastoma, astrocytoma and ependymoma. Many are highly treatable: medulloblastoma survival exceeds 70–80% with modern surgery, radiotherapy and chemotherapy. Early diagnosis and surgery by an experienced neurosurgeon most influence outcome. Dr Nor Faizal Ahmad Bahuri treats childhood brain tumours at Tawakkal Specialist Hospital, Kuala Lumpur.
 
 There is nothing that prepares you for hearing that your child has a brain tumour. In over 18 years of neurosurgical practice, I have seen what this moment does to families. The fear is absolute. The questions come faster than anyone can answer them.
 
@@ -145,7 +145,7 @@ Brain tumour treatment in children is never a single-doctor decision. Every case
 - **Paediatric Endocrinologist** — for hormone management
 - **Physiotherapy & Occupational Therapy** — for rehabilitation
 
-I coordinate with paediatric specialists at KPJ Tawakkal and through our referral network to ensure this coordinated care is in place for every child I operate on.
+I coordinate with paediatric specialists at Tawakkal and through our referral network to ensure this coordinated care is in place for every child I operate on.
 
 ---
 
@@ -184,10 +184,10 @@ Ask every question you have. Bring a notebook. Bring your partner, your parents,
 ## Book a Consultation
 
 **WhatsApp the clinic:** [+6011-3723 5061](https://wa.me/601137235061?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation%20for%20my%20child%27s%20brain%20tumour.)
-**Book online:** [KPJ Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Book online:** [Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Call the clinic:** +603-4026 7777 ext 5099
 
-*KPJ Tawakkal Specialist Hospital, Jalan Pahang Barat, Kuala Lumpur*
+*Tawakkal Specialist Hospital, Jalan Pahang Barat, Kuala Lumpur*
 
 For referring paediatricians and physicians: [GP & Specialist Referral Information →](/about/for-doctors/)
 

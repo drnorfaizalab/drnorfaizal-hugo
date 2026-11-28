@@ -1,7 +1,7 @@
 ---
 title: "Headache Specialist Kuala Lumpur"
 seoTitle: "Headache Specialist KL | Chronic Headache Doctor Malaysia"
-description: "Chronic headache and secondary headache treatment in Kuala Lumpur by Dr Nor Faizal Ahmad Bahuri — neurosurgeon and interventional pain specialist at KPJ Tawakkal. Know when your headache needs a neurosurgeon, not just a painkiller."
+description: "Chronic headache and secondary headache treatment in Kuala Lumpur by Dr Nor Faizal Ahmad Bahuri — neurosurgeon and interventional pain specialist at Tawakkal. Know when your headache needs a neurosurgeon, not just a painkiller."
 keywords:
   - headache specialist KL
   - headache doctor Malaysia
@@ -171,10 +171,10 @@ Contact the clinic directly. For urgent headache concerns with red flag features
 If your headache is worsening, has red flag features, or has not responded to treatment — bring your imaging if you have it. We will review it together and determine whether further investigation or a change in management is needed.
 
 **WhatsApp the clinic:** [+6011-3723 5061](https://wa.me/601137235061?text=Hello%2C%20I%20would%20like%20to%20book%20a%20headache%20consultation.)
-**Book online:** [KPJ Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Book online:** [Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Call the clinic:** +603-4026 7777 ext 5099
 
-*KPJ Tawakkal Specialist Hospital, Jalan Pahang Barat, Kuala Lumpur.*
+*Tawakkal Specialist Hospital, Jalan Pahang Barat, Kuala Lumpur.*
 
 ---
 

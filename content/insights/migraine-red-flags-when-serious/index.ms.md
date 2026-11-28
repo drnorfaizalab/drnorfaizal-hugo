@@ -94,4 +94,4 @@ Matlamat mengetahui bendera merah ini bukan untuk menimbulkan kebimbangan — te
 
 ---
 
-Jika corak sakit kepala anda telah berubah, atau jika mana-mana bendera merah ini terpakai kepada anda — atur konsultasi di Hospital Pakar KPJ Tawakkal. Penilaian menyeluruh menghilangkan ketidakpastian.
+Jika corak sakit kepala anda telah berubah, atau jika mana-mana bendera merah ini terpakai kepada anda — atur konsultasi di Hospital Pakar Tawakkal. Penilaian menyeluruh menghilangkan ketidakpastian.

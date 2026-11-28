@@ -12,7 +12,7 @@ lastmod: 2026-11-25
 **Bila Perlu Mendapatkan Bantuan — dan Seberapa Mendesak**
 
 *Dr Nor Faizal Ahmad Bahuri — Pakar Bedah Saraf Perunding & Pakar Kesakitan Interventional*
-Hospital Pakar KPJ Tawakkal, Kuala Lumpur
+Hospital Pakar Tawakkal, Kuala Lumpur
 
 ---
 
@@ -249,7 +249,7 @@ Jika anda tidak pasti tentang gejala anda, atau jika ada sesuatu yang terasa tid
 
 ## Buat Temujanji Bersama Dr Nor Faizal
 
-Dr Nor Faizal menerima pesakit di Hospital Pakar KPJ Tawakkal, Kuala Lumpur. Sama ada anda telah mengenal pasti gejala Tanda Merah yang memerlukan semakan segera, gejala Tanda Kuning yang memerlukan penilaian pakar, atau hanya ingin jaminan dan nasihat pakar tentang kesihatan neurologi anda — klinik ini ada untuk anda.
+Dr Nor Faizal menerima pesakit di Hospital Pakar Tawakkal, Kuala Lumpur. Sama ada anda telah mengenal pasti gejala Tanda Merah yang memerlukan semakan segera, gejala Tanda Kuning yang memerlukan penilaian pakar, atau hanya ingin jaminan dan nasihat pakar tentang kesihatan neurologi anda — klinik ini ada untuk anda.
 
 [Buat Temujanji](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri) | [Hubungi Klinik](/ms/contact/) | [Baca Soalan Lazim](/ms/patients/faq/)
 

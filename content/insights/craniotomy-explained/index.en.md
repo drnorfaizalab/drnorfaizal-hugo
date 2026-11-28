@@ -73,4 +73,4 @@ A craniotomy is the standard first step for most operations that need direct acc
 
 If this video raised questions about your own diagnosis or a loved one's, Dr Nor Faizal's team is here to help.
 
-[Book an appointment](/contact) at KPJ Tawakkal Specialist Hospital, Kuala Lumpur.
+[Book an appointment](/contact) at Tawakkal Specialist Hospital, Kuala Lumpur.

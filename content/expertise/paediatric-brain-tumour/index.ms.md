@@ -1,7 +1,7 @@
 ---
 title: "Tumor Otak Kanak-Kanak Malaysia"
 seoTitle: "Tumor Otak Kanak-Kanak Malaysia | Pakar Bedah Saraf Pediatrik KL"
-description: "Pembedahan tumor otak pediatrik oleh pakar, Dr Nor Faizal Ahmad Bahuri. Merawat medulloblastoma, ependymoma, astrocytoma dan tumor otak kanak-kanak lain di KPJ Tawakkal Specialist Hospital, Kuala Lumpur."
+description: "Pembedahan tumor otak pediatrik oleh pakar, Dr Nor Faizal Ahmad Bahuri. Merawat medulloblastoma, ependymoma, astrocytoma dan tumor otak kanak-kanak lain di Tawakkal Specialist Hospital, Kuala Lumpur."
 keywords:
   - tumor otak pediatrik Malaysia
   - tumor otak kanak-kanak Malaysia
@@ -19,7 +19,7 @@ lastmod: 2026-11-25
 
 # Tumor Otak Kanak-Kanak: Panduan untuk Ibu Bapa di Malaysia
 
-**Ringkasnya:** Tumor otak dan saraf tunjang ialah kanser kanak-kanak kedua paling lazim selepas leukemia, dan tumor pepejal paling lazim dalam kalangan kanak-kanak. Jenis yang biasa termasuk medulloblastoma, astrocytoma dan ependymoma. Banyak daripadanya boleh dirawat dengan baik: kadar kelangsungan hidup medulloblastoma melebihi 70–80% dengan pembedahan, radioterapi dan kemoterapi moden. Diagnosis awal dan pembedahan oleh pakar bedah saraf yang berpengalaman paling mempengaruhi hasil rawatan. Dr Nor Faizal Ahmad Bahuri merawat tumor otak kanak-kanak di KPJ Tawakkal Specialist Hospital, Kuala Lumpur.
+**Ringkasnya:** Tumor otak dan saraf tunjang ialah kanser kanak-kanak kedua paling lazim selepas leukemia, dan tumor pepejal paling lazim dalam kalangan kanak-kanak. Jenis yang biasa termasuk medulloblastoma, astrocytoma dan ependymoma. Banyak daripadanya boleh dirawat dengan baik: kadar kelangsungan hidup medulloblastoma melebihi 70–80% dengan pembedahan, radioterapi dan kemoterapi moden. Diagnosis awal dan pembedahan oleh pakar bedah saraf yang berpengalaman paling mempengaruhi hasil rawatan. Dr Nor Faizal Ahmad Bahuri merawat tumor otak kanak-kanak di Tawakkal Specialist Hospital, Kuala Lumpur.
 
 Tiada apa yang dapat menyediakan anda untuk saat mendengar anak anda menghidap tumor otak. Dalam lebih 18 tahun amalan pembedahan saraf, saya telah melihat kesan berita ini kepada keluarga. Ketakutan itu menyeluruh. Soalan-soalan datang lebih pantas daripada sesiapa pun yang boleh menjawabnya.
 
@@ -145,7 +145,7 @@ Rawatan tumor otak pada kanak-kanak bukan keputusan seorang doktor sahaja. Setia
 - **Pakar Endokrinologi Pediatrik** — untuk pengurusan hormon
 - **Fisioterapi & Terapi Carakerja** — untuk pemulihan
 
-Saya berkoordinasi dengan pakar-pakar pediatrik di KPJ Tawakkal dan melalui rangkaian rujukan kami untuk memastikan penjagaan bersepadu ini tersedia untuk setiap kanak-kanak yang saya bedah.
+Saya berkoordinasi dengan pakar-pakar pediatrik di Tawakkal dan melalui rangkaian rujukan kami untuk memastikan penjagaan bersepadu ini tersedia untuk setiap kanak-kanak yang saya bedah.
 
 ---
 
@@ -184,10 +184,10 @@ Tanya setiap soalan yang anda ada. Bawa buku nota. Bawa pasangan anda, ibu bapa 
 ## Tempah Konsultasi
 
 **WhatsApp klinik:** [+6011-3723 5061](https://wa.me/601137235061?text=Hello%2C%20saya%20ingin%20menempah%20konsultasi%20untuk%20tumor%20otak%20anak%20saya.)
-**Tempah janji temu online:** [Portal Janji Temu KPJ Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Tempah janji temu online:** [Portal Janji Temu Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Hubungi klinik:** +603-4026 7777 samb. 5099
 
-*Hospital Pakar KPJ Tawakkal, Jalan Pahang Barat, Kuala Lumpur*
+*Hospital Pakar Tawakkal, Jalan Pahang Barat, Kuala Lumpur*
 
 Untuk pakar pediatrik dan doktor yang merujuk: [Maklumat Rujukan GP & Pakar →](/about/for-doctors/)
 

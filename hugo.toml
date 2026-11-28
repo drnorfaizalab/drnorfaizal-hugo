@@ -22,7 +22,7 @@ theme = "drnorfaizal"
 
   # -- SEO Head partial params --
   siteName        = "Dr Nor Faizal Ahmad Bahuri"
-  siteDescription = "Oxford-trained Consultant Neurosurgeon and Interventional Pain Specialist at KPJ Tawakkal Specialist Hospital, Kuala Lumpur. Expert in brain tumour surgery, migraine, and chronic pain management."
+  siteDescription = "Oxford-trained Consultant Neurosurgeon and Interventional Pain Specialist at Tawakkal Specialist Hospital, Kuala Lumpur. Expert in brain tumour surgery, migraine, and chronic pain management."
   siteKeywords    = "neurosurgeon Malaysia, brain tumour surgeon KL, pakar bedah saraf Malaysia, brain surgeon Kuala Lumpur, interventional pain specialist Malaysia, migraine specialist KL, Dr Nor Faizal"
   ogImage         = "/images/og-default.jpg"
   ogType          = "website"
@@ -33,7 +33,7 @@ theme = "drnorfaizal"
   doctorName      = "Dr Nor Faizal Ahmad Bahuri"
   doctorTitle     = "Consultant Neurosurgeon & Interventional Pain Specialist"
   credentials     = "MBBS (Malaya), MS (Universiti Malaya), DPhil (Oxon)"
-  hospital        = "KPJ Tawakkal Specialist Hospital"
+  hospital        = "Tawakkal Specialist Hospital"
   hospitalAddress = "Jalan Pahang Barat, Pekeliling, 53000 Kuala Lumpur, Malaysia"
   bookingURL      = "https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri"
 
@@ -79,7 +79,7 @@ theme = "drnorfaizal"
 
     [languages.en.params]
       description = "Oxford-trained Consultant Neurosurgeon & Interventional Pain Specialist practising in Kuala Lumpur. Expert in brain tumours, spinal surgery, and chronic pain management."
-      defaultMetaDescription = "Expert neurosurgeon in brain & spinal tumour surgery, neurooncology, and interventional pain management. Oxford-trained. Practising at KPJ Tawakkal, Kuala Lumpur."
+      defaultMetaDescription = "Expert neurosurgeon in brain & spinal tumour surgery, neurooncology, and interventional pain management. Oxford-trained. Practising at Tawakkal, Kuala Lumpur."
       keywords = "neurosurgeon Malaysia, neurooncology, brain tumour surgery, spinal surgery, interventional pain management, chronic pain, Kuala Lumpur"
 
     [[languages.en.menus.main]]
@@ -119,7 +119,7 @@ theme = "drnorfaizal"
 
     [languages.ms.params]
       description = "Pakar Runding Bedah Saraf & Intervensi Kesakitan berkelayakan Oxford, berkhidmat di Kuala Lumpur. Pakar dalam pembedahan tumor otak, tulang belakang, dan pengurusan kesakitan kronik."
-      defaultMetaDescription = "Pakar bedah saraf dalam pembedahan tumor otak & tulang belakang, neuro-onkologi, dan intervensi kesakitan. Berkelayakan Oxford. Berkhidmat di KPJ Tawakkal, Kuala Lumpur."
+      defaultMetaDescription = "Pakar bedah saraf dalam pembedahan tumor otak & tulang belakang, neuro-onkologi, dan intervensi kesakitan. Berkelayakan Oxford. Berkhidmat di Tawakkal, Kuala Lumpur."
       keywords = "pakar bedah saraf Malaysia, neuro-onkologi, pembedahan tumor otak, pembedahan tulang belakang, intervensi kesakitan, kesakitan kronik, Kuala Lumpur"
 
     [[languages.ms.menus.main]]

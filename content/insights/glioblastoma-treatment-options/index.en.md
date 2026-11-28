@@ -91,4 +91,4 @@ Median survival with treatment is 14 to 16 months, though this varies by individ
 
 ---
 
-Contact KPJ Tawakkal to arrange a consultation. Timing matters.
+Contact Tawakkal to arrange a consultation. Timing matters.

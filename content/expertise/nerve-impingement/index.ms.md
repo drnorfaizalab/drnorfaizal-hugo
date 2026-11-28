@@ -1,7 +1,7 @@
 ---
 title: "Pakar Saraf Tersepit Malaysia"
 seoTitle: "Pakar Saraf Tersepit Malaysia | Rawatan Saraf Tersepit KL"
-description: "Rawatan saraf tersepit (nerve impingement) di Kuala Lumpur oleh Dr Nor Faizal Ahmad Bahuri — pakar bedah saraf dan pakar kesakitan intervensional di KPJ Tawakkal. Mampatan saraf serviks dan lumbar: bila perlu dirawat dan bagaimana."
+description: "Rawatan saraf tersepit (nerve impingement) di Kuala Lumpur oleh Dr Nor Faizal Ahmad Bahuri — pakar bedah saraf dan pakar kesakitan intervensional di Tawakkal. Mampatan saraf serviks dan lumbar: bila perlu dirawat dan bagaimana."
 keywords:
   - saraf tersepit Malaysia
   - saraf tersepit KL
@@ -36,7 +36,7 @@ lastmod: 2026-11-25
 
 # Pakar Saraf Tersepit di Malaysia
 
-**Ringkasnya:** Saraf tersepit (nerve impingement) ialah tekanan pada akar saraf tulang belakang, paling kerap akibat cakera tergelincir, taji tulang atau ligamen yang menebal di leher (serviks) atau pinggang (lumbar). Ia menyebabkan sakit menjalar, kebas, kesemutan atau kelemahan pada lengan atau kaki. Kebanyakan kes pulih dengan fisioterapi, ubat dan masa; sakit yang berterusan boleh dirawat dengan suntikan steroid epidural, dan pembedahan seperti mikrodiskektomi dipertimbangkan jika kelemahan semakin teruk atau sakit tidak berkurangan selepas 6–12 minggu rawatan. Hilang kawalan pundi kencing atau usus adalah kecemasan. Dr Nor Faizal Ahmad Bahuri, pakar bedah saraf di KPJ Tawakkal Specialist Hospital, Kuala Lumpur, menawarkan rawatan tanpa pembedahan dan pembedahan.
+**Ringkasnya:** Saraf tersepit (nerve impingement) ialah tekanan pada akar saraf tulang belakang, paling kerap akibat cakera tergelincir, taji tulang atau ligamen yang menebal di leher (serviks) atau pinggang (lumbar). Ia menyebabkan sakit menjalar, kebas, kesemutan atau kelemahan pada lengan atau kaki. Kebanyakan kes pulih dengan fisioterapi, ubat dan masa; sakit yang berterusan boleh dirawat dengan suntikan steroid epidural, dan pembedahan seperti mikrodiskektomi dipertimbangkan jika kelemahan semakin teruk atau sakit tidak berkurangan selepas 6–12 minggu rawatan. Hilang kawalan pundi kencing atau usus adalah kecemasan. Dr Nor Faizal Ahmad Bahuri, pakar bedah saraf di Tawakkal Specialist Hospital, Kuala Lumpur, menawarkan rawatan tanpa pembedahan dan pembedahan.
 
 Saraf tersepit — atau "nerve impingement" dalam bahasa Inggeris — adalah salah satu sebab paling kerap pesakit mencari rawatan pakar untuk sakit leher dan sakit pinggang. Kesakitan yang menembak, kebas yang menjalar ke lengan atau kaki, kelemahan yang menjadikan mengangkat benda mudah terasa tidak pasti — ini bukan gejala yang patut dipandang ringan atau diuruskan dengan ubat tahan sakit sahaja secara berterusan.
 
@@ -167,10 +167,10 @@ Bagi kebanyakan pesakit dengan gejala ringan hingga sederhana dan tiada defisit 
 Jika anda mengalami kesakitan yang menembak, kebas, atau kelemahan di lengan atau kaki anda — terutamanya jika ia semakin teruk — bawa MRI anda jika ada. Kita akan menyemaknya bersama dan menentukan laluan pengurusan yang betul untuk situasi khusus anda.
 
 **WhatsApp klinik:** [+6011-3723 5061](https://wa.me/601137235061?text=Hai%2C%20saya%20ingin%20menempah%20konsultasi%20untuk%20saraf%20tersepit.)
-**Tempah dalam talian:** [Portal Temujanji KPJ Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Tempah dalam talian:** [Portal Temujanji Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Hubungi klinik:** +603-4026 7777 sambungan 5099
 
-*Hospital Pakar KPJ Tawakkal, Jalan Pahang Barat, Kuala Lumpur.*
+*Hospital Pakar Tawakkal, Jalan Pahang Barat, Kuala Lumpur.*
 
 ---
 

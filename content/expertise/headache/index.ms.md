@@ -1,7 +1,7 @@
 ---
 title: "Pakar Sakit Kepala Kuala Lumpur"
 seoTitle: "Pakar Sakit Kepala KL | Rawatan Sakit Kepala Kronik Malaysia"
-description: "Rawatan sakit kepala kronik dan sakit kepala sekunder di Kuala Lumpur oleh Dr Nor Faizal Ahmad Bahuri — pakar bedah saraf dan pakar kesakitan intervensional di KPJ Tawakkal. Ketahui bila sakit kepala anda memerlukan pakar bedah saraf, bukan sekadar ubat tahan sakit."
+description: "Rawatan sakit kepala kronik dan sakit kepala sekunder di Kuala Lumpur oleh Dr Nor Faizal Ahmad Bahuri — pakar bedah saraf dan pakar kesakitan intervensional di Tawakkal. Ketahui bila sakit kepala anda memerlukan pakar bedah saraf, bukan sekadar ubat tahan sakit."
 keywords:
   - pakar sakit kepala KL
   - doktor sakit kepala Malaysia
@@ -153,10 +153,10 @@ Hubungi klinik secara langsung. Untuk kebimbangan sakit kepala mendesak dengan c
 Jika sakit kepala anda semakin teruk, mempunyai ciri-ciri bendera merah, atau tidak bertindak balas kepada rawatan — bawa pengimejan anda jika ada. Kita akan menyemaknya bersama dan menentukan sama ada siasatan lanjut atau perubahan dalam pengurusan diperlukan.
 
 **WhatsApp klinik:** [+6011-3723 5061](https://wa.me/601137235061?text=Hai%2C%20saya%20ingin%20menempah%20konsultasi%20sakit%20kepala.)
-**Tempah dalam talian:** [Portal Temujanji KPJ Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Tempah dalam talian:** [Portal Temujanji Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Hubungi klinik:** +603-4026 7777 sambungan 5099
 
-*Hospital Pakar KPJ Tawakkal, Jalan Pahang Barat, Kuala Lumpur.*
+*Hospital Pakar Tawakkal, Jalan Pahang Barat, Kuala Lumpur.*
 
 ---
 
