@@ -1,7 +1,7 @@
 ---
 title: "Meningioma Surgery Malaysia"
 seoTitle: "Meningioma Surgery Malaysia | Treatment & Recovery"
-description: "Meningioma surgery in Malaysia by Dr Nor Faizal — Oxford-trained neurosurgeon at KPJ Tawakkal Specialist Hospital, KL. Expert management of benign and atypical meningiomas, including skull base and sphenoid wing tumours."
+description: "Meningioma surgery in Malaysia by Dr Nor Faizal — Oxford-trained neurosurgeon at Tawakkal Specialist Hospital, KL. Expert management of benign and atypical meningiomas, including skull base and sphenoid wing tumours."
 keywords:
   - meningioma surgery Malaysia
   - meningioma treatment KL
@@ -24,7 +24,7 @@ faq_schema:
 
 # Meningioma: Treatment, Surgery & Recovery in Malaysia
 
-**In short:** A meningioma is a tumour arising from the meninges, the membranes covering the brain and spinal cord. It is the most common primary brain tumour in adults, and 80–85% are benign, slow-growing grade 1 tumours. Small tumours without symptoms can often be monitored with regular MRI; symptomatic or growing tumours are usually treated with surgery, sometimes followed by radiotherapy. Dr Nor Faizal Ahmad Bahuri, an Oxford-trained consultant neurosurgeon at KPJ Tawakkal Specialist Hospital, Kuala Lumpur, manages benign and atypical meningiomas, including skull base tumours.
+**In short:** A meningioma is a tumour arising from the meninges, the membranes covering the brain and spinal cord. It is the most common primary brain tumour in adults, and 80–85% are benign, slow-growing grade 1 tumours. Small tumours without symptoms can often be monitored with regular MRI; symptomatic or growing tumours are usually treated with surgery, sometimes followed by radiotherapy. Dr Nor Faizal Ahmad Bahuri, an Oxford-trained consultant neurosurgeon at Tawakkal Specialist Hospital, Kuala Lumpur, manages benign and atypical meningiomas, including skull base tumours.
 
 Meningioma is the most common primary brain tumour in adults — accounting for over 36% of all primary brain tumours. Most are benign. Most grow slowly. And when found early and managed well, most are curable.
 
@@ -144,7 +144,7 @@ Proximity to the cavernous sinus, superior sagittal sinus, or major cerebral ves
 ## Book a Consultation
 
 **WhatsApp the clinic:** [+6011-3723 5061](https://wa.me/601137235061?text=Hello%2C%20I%20would%20like%20a%20consultation%20regarding%20meningioma.)
-**Book online:** [KPJ Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Book online:** [Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Call the clinic:** +603-4026 7777 ext 5099
 
 ---

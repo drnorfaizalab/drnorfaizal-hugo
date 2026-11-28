@@ -1,7 +1,7 @@
 ---
 title: "Nerve Impingement Specialist Malaysia"
 seoTitle: "Nerve Impingement Specialist Malaysia | Pinched Nerve KL"
-description: "Nerve impingement (pinched nerve / saraf tersepit) treatment in Kuala Lumpur by Dr Nor Faizal Ahmad Bahuri — neurosurgeon and interventional pain specialist at KPJ Tawakkal. Cervical and lumbar nerve compression: when to treat and how."
+description: "Nerve impingement (pinched nerve / saraf tersepit) treatment in Kuala Lumpur by Dr Nor Faizal Ahmad Bahuri — neurosurgeon and interventional pain specialist at Tawakkal. Cervical and lumbar nerve compression: when to treat and how."
 keywords:
   - nerve impingement Malaysia
   - nerve impingement specialist KL
@@ -36,7 +36,7 @@ lastmod: 2026-11-25
 
 # Nerve Impingement (Saraf Tersepit) Specialist in Malaysia
 
-**In short:** Nerve impingement (saraf tersepit) is compression of a spinal nerve root, most often by a herniated disc, bone spur or thickened ligament in the neck (cervical) or lower back (lumbar). It causes shooting pain, numbness, tingling or weakness in the arm or leg. Most cases settle with physiotherapy, medication and time; persistent pain can be treated with epidural steroid injection, and surgery such as microdiscectomy is considered for progressive weakness or pain unresponsive to 6–12 weeks of treatment. Loss of bladder or bowel control is an emergency. Dr Nor Faizal Ahmad Bahuri, a neurosurgeon at KPJ Tawakkal Specialist Hospital, Kuala Lumpur, offers both non-surgical and surgical treatment.
+**In short:** Nerve impingement (saraf tersepit) is compression of a spinal nerve root, most often by a herniated disc, bone spur or thickened ligament in the neck (cervical) or lower back (lumbar). It causes shooting pain, numbness, tingling or weakness in the arm or leg. Most cases settle with physiotherapy, medication and time; persistent pain can be treated with epidural steroid injection, and surgery such as microdiscectomy is considered for progressive weakness or pain unresponsive to 6–12 weeks of treatment. Loss of bladder or bowel control is an emergency. Dr Nor Faizal Ahmad Bahuri, a neurosurgeon at Tawakkal Specialist Hospital, Kuala Lumpur, offers both non-surgical and surgical treatment.
 
 Nerve impingement — or "saraf tersepit" as it is commonly known in Malaysia — is one of the most frequent reasons patients seek specialist care for back and neck pain. The shooting pain, the numbness down the arm or leg, the weakness that makes lifting a glass feel uncertain — these are not symptoms to dismiss or simply manage with painkillers indefinitely.
 
@@ -190,10 +190,10 @@ For most patients with mild-to-moderate symptoms and no significant neurological
 If you are experiencing shooting pain, numbness, or weakness in your arm or leg — especially if it is getting worse — bring your MRI if you have one. We will review it together and determine the right management pathway for your specific situation.
 
 **WhatsApp the clinic:** [+6011-3723 5061](https://wa.me/601137235061?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation%20for%20nerve%20impingement.)
-**Book online:** [KPJ Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Book online:** [Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Call the clinic:** +603-4026 7777 ext 5099
 
-*KPJ Tawakkal Specialist Hospital, Jalan Pahang Barat, Kuala Lumpur.*
+*Tawakkal Specialist Hospital, Jalan Pahang Barat, Kuala Lumpur.*
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Rawatan Trigeminal Neuralgia di Malaysia"
 seoTitle: "Trigeminal Neuralgia Malaysia | Pembedahan MVD & RFA"
-description: "Rawatan trigeminal neuralgia di Malaysia oleh Dr Nor Faizal — dekompresi mikrovaskular (MVD), ablasi radiofrekuensi, dan nerve block di Hospital Pakar KPJ Tawakkal, Kuala Lumpur. Penjagaan pakar untuk sakit muka yang tidak berkesan dengan ubat."
+description: "Rawatan trigeminal neuralgia di Malaysia oleh Dr Nor Faizal — dekompresi mikrovaskular (MVD), ablasi radiofrekuensi, dan nerve block di Hospital Pakar Tawakkal, Kuala Lumpur. Penjagaan pakar untuk sakit muka yang tidak berkesan dengan ubat."
 keywords:
   - trigeminal neuralgia Malaysia
   - rawatan trigeminal neuralgia KL
@@ -18,7 +18,7 @@ lastmod: 2026-11-25
 
 # Trigeminal Neuralgia: Rawatan di Malaysia
 
-**Ringkasnya:** Trigeminal neuralgia ialah sakit muka sebelah yang tiba-tiba, teruk dan terasa seperti renjatan elektrik, berlangsung beberapa saat dan dicetuskan oleh sentuhan ringan, makan, bercakap atau memberus gigi. Ia sering disebabkan oleh salur darah yang menekan saraf trigeminal. Rawatan lini pertama ialah ubat, biasanya carbamazepine. Apabila ubat gagal atau menyebabkan kesan sampingan, pilihan rawatan termasuk pembedahan dekompresi mikrovaskular (MVD), ablasi radiofrekuensi dan blok saraf. Dr Nor Faizal Ahmad Bahuri menawarkan semua rawatan ini di KPJ Tawakkal Specialist Hospital, Kuala Lumpur.
+**Ringkasnya:** Trigeminal neuralgia ialah sakit muka sebelah yang tiba-tiba, teruk dan terasa seperti renjatan elektrik, berlangsung beberapa saat dan dicetuskan oleh sentuhan ringan, makan, bercakap atau memberus gigi. Ia sering disebabkan oleh salur darah yang menekan saraf trigeminal. Rawatan lini pertama ialah ubat, biasanya carbamazepine. Apabila ubat gagal atau menyebabkan kesan sampingan, pilihan rawatan termasuk pembedahan dekompresi mikrovaskular (MVD), ablasi radiofrekuensi dan blok saraf. Dr Nor Faizal Ahmad Bahuri menawarkan semua rawatan ini di Tawakkal Specialist Hospital, Kuala Lumpur.
 
 Trigeminal neuralgia pernah digelar "penyakit bunuh diri" — bukan sebagai istilah klinikal oleh doktor, tetapi oleh pesakit yang pernah melaluinya. Kesakitannya tidak seperti yang lain dalam bidang perubatan: ia datang secara tiba-tiba, seperti renjatan elektrik, dicetuskan oleh sentuhan paling ringan, dan boleh melumpuhkan sepenuhnya.
 
@@ -98,7 +98,7 @@ Satu-satunya rawatan yang menangani punca sebenar — mengalihkan salur darah ya
 
 MVD memerlukan kraniotomi fosa posterior — satu pembedahan sebenar dengan risiko yang nyata (kadar komplikasi serius 1–2%). Namun, ganjarannya adalah hasil jangka panjang terbaik berbanding rawatan lain yang ada.
 
-Saya kerap melakukan MVD di Hospital Pakar KPJ Tawakkal. Tempoh tinggal di hospital biasanya 3–4 hari.
+Saya kerap melakukan MVD di Hospital Pakar Tawakkal. Tempoh tinggal di hospital biasanya 3–4 hari.
 
 ### 4. Pembedahan Radio Stereotaktik (*Gamma Knife*)
 Prosedur bukan invasif untuk pesakit luar yang menghantar dos radiasi yang sangat fokus pada akar saraf trigeminal. Tiada hirisan. Keberkesanannya sedikit lebih rendah daripada MVD, dan kelegaan sakit mungkin tertangguh selama beberapa minggu. Paling sesuai untuk pesakit yang bukan calon pembedahan.
@@ -112,7 +112,7 @@ Tiada satu jawapan yang betul untuk setiap pesakit TN. Keputusan antara prosedur
 Komitmen saya: Saya akan menerangkan semua pilihan dengan jelas, memberikan cadangan jujur saya, dan menghormati pilihan anda.
 
 **WhatsApp klinik:** [+6011-3723 5061](https://wa.me/601137235061?text=Salam%2C%20saya%20ingin%20bertanya%20tentang%20rawatan%20trigeminal%20neuralgia.)
-**Tempah dalam talian:** [Portal Temujanji KPJ Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Tempah dalam talian:** [Portal Temujanji Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Hubungi klinik:** +603-4026 7777 samb. 5099
 
 ---

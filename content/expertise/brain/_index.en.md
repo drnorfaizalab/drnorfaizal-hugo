@@ -37,7 +37,7 @@ show_appointment_button: true
 # Neurooncology & Paediatric Neurosurgery
 
 Advanced brain and spinal tumour surgery. Specialist paediatric neurosurgical care. Precision neurooncology with minimally invasive techniques.
-Oxford-trained. KPJ Tawakkal Specialist Hospital, Kuala Lumpur.
+Oxford-trained. Tawakkal Specialist Hospital, Kuala Lumpur.
 
 ---
 

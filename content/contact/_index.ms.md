@@ -1,6 +1,6 @@
 ---
-title: "Hubungi Dr Nor Faizal | Hospital Pakar KPJ Tawakkal"
-description: "Maklumat hubungan klinik bedah saraf Dr Nor Faizal di Hospital Pakar KPJ Tawakkal, Kuala Lumpur. Telefon, WhatsApp, e-mel, dan panduan lokasi."
+title: "Hubungi Dr Nor Faizal | Hospital Pakar Tawakkal"
+description: "Maklumat hubungan klinik bedah saraf Dr Nor Faizal di Hospital Pakar Tawakkal, Kuala Lumpur. Telefon, WhatsApp, e-mel, dan panduan lokasi."
 draft: false
 type: "page"
 show_appointment_button: true
@@ -44,10 +44,10 @@ Hospital Pakar Tawakkal adalah hospital pakar yang kukuh di tengah-tengah Kuala 
 
 | Hari | Waktu | Hospital |
 |---|---|---|
-| Isnin – Jumaat | 9:00 PG – 4:00 PTG | Hospital Pakar KPJ Tawakkal |
-| Sabtu | 9:00 PG – 12:00 TGH | Hospital Pakar KPJ Tawakkal |
+| Isnin – Jumaat | 9:00 PG – 4:00 PTG | Hospital Pakar Tawakkal |
+| Sabtu | 9:00 PG – 12:00 TGH | Hospital Pakar Tawakkal |
 | Ahad & Cuti Umum | Ditutup | — |
-| Dengan temujanji | Sila hubungi untuk mengatur | Hospital Pakar KPJ Ampang Puteri |
+| Dengan temujanji | Sila hubungi untuk mengatur | Hospital Ampang Puteri |
 
 *Waktu klinik mungkin berubah-ubah. Sila hubungi terlebih dahulu untuk mengesahkan ketersediaan, terutama bagi temujanji hari Sabtu.*
 
@@ -58,21 +58,21 @@ Komitmen teater pembedahan dan tugas panggilan kecemasan mungkin kadang-kala mem
 ## Cara Sampai ke Klinik
 
 ### Dengan Kereta
-Hospital Pakar KPJ Tawakkal terletak di sepanjang Jalan Pahang, salah satu jalan utama Kuala Lumpur, mudah dicapai dari pusat bandar dan lebuh raya utama termasuk MRR2, Lebuhraya DUKE, dan Lebuhraya KL-Karak. Tempat letak kereta berbayar tersedia di dalam kawasan hospital dan kemudahan berbilang tingkat berdekatan.
+Hospital Pakar Tawakkal terletak di sepanjang Jalan Pahang, salah satu jalan utama Kuala Lumpur, mudah dicapai dari pusat bandar dan lebuh raya utama termasuk MRR2, Lebuhraya DUKE, dan Lebuhraya KL-Karak. Tempat letak kereta berbayar tersedia di dalam kawasan hospital dan kemudahan berbilang tingkat berdekatan.
 
 ### Dengan Pengangkutan Awam
 Hospital ini boleh dicapai dari beberapa hab transit Kuala Lumpur. Sambungan LRT dan bas terdekat di sepanjang koridor Jalan Pahang menyediakan akses dari pusat bandar, Chow Kit, dan kawasan sekitarnya. Sila rujuk perancang perjalanan Rapid KL atau Google Maps untuk laluan pengangkutan awam terkini dari lokasi anda.
 
 ### Dengan Teksi atau E-Hailing
-Hospital Pakar KPJ Tawakkal adalah destinasi yang diiktiraf untuk perkhidmatan Grab, AirAsia Ride, dan teksi konvensional di seluruh Kuala Lumpur. Masukkan sahaja "KPJ Tawakkal Specialist Hospital" sebagai destinasi anda.
+Hospital Pakar Tawakkal adalah destinasi yang diiktiraf untuk perkhidmatan Grab, AirAsia Ride, dan teksi konvensional di seluruh Kuala Lumpur. Masukkan sahaja "Tawakkal Specialist Hospital" sebagai destinasi anda.
 
 ---
 
 ## Peta
 
-*(Peta — Hospital Pakar KPJ Tawakkal, Jalan Pahang, Kuala Lumpur)*
+*(Peta — Hospital Pakar Tawakkal, Jalan Pahang, Kuala Lumpur)*
 
-[Lihat di Google Maps](https://maps.google.com/?q=KPJ+Tawakkal+Specialist+Hospital+Kuala+Lumpur)
+[Lihat di Google Maps](https://maps.google.com/?q=Tawakkal+Specialist+Hospital+Kuala+Lumpur)
 
 ---
 

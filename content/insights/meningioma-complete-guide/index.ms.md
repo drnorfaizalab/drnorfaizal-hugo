@@ -100,4 +100,4 @@ Risiko ia datang balik bergantung pada **'Simpson Grade'** pembedahan. Pembedaha
 
 Diagnosis adalah permulaan, bukan pengakhiran. Jika anda atau orang tersayang berdepan dengan diagnosis ini, kefahaman yang jelas adalah kekuatan anda.
 
-**Tempah konsultasi di Hospital Pakar KPJ Tawakkal untuk bincang pilihan rawatan anda dengan lebih lanjut.**
+**Tempah konsultasi di Hospital Pakar Tawakkal untuk bincang pilihan rawatan anda dengan lebih lanjut.**

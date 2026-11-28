@@ -1,7 +1,7 @@
 ---
-title: "Contact Dr Nor Faizal | KPJ Tawakkal Specialist Hospital"
+title: "Contact Dr Nor Faizal | Tawakkal Specialist Hospital"
 seoTitle: "Contact Neurosurgeon KL | Book Appointment Dr Nor Faizal"
-description: "Contact Dr Nor Faizal Ahmad Bahuri's neurosurgery clinic at KPJ Tawakkal Specialist Hospital, Kuala Lumpur. Phone, WhatsApp, email, and directions."
+description: "Contact Dr Nor Faizal Ahmad Bahuri's neurosurgery clinic at Tawakkal Specialist Hospital, Kuala Lumpur. Phone, WhatsApp, email, and directions."
 ogImage: "/images/og-contact.jpg"
 draft: false
 type: "page"
@@ -46,10 +46,10 @@ Tawakkal Specialist Hospital is a well-established specialist hospital in the he
 
 | Day | Hours | Hospital |
 |---|---|---|
-| Monday – Friday | 9:00 AM – 4:00 PM | KPJ Tawakkal Specialist Hospital |
-| Saturday | 9:00 AM – 12:00 PM | KPJ Tawakkal Specialist Hospital |
+| Monday – Friday | 9:00 AM – 4:00 PM | Tawakkal Specialist Hospital |
+| Saturday | 9:00 AM – 12:00 PM | Tawakkal Specialist Hospital |
 | Sunday & Public Holidays | Closed | — |
-| By appointment | Please call to arrange | KPJ Ampang Puteri Specialist Hospital |
+| By appointment | Please call to arrange | Ampang Puteri Hospital |
 
 *Clinic hours may vary. Please call ahead to confirm availability, particularly for Saturday appointments.*
 
@@ -60,21 +60,21 @@ Operating theatre and on-call commitments may occasionally affect clinic availab
 ## How to Reach the Clinic
 
 ### By Car
-KPJ Tawakkal Specialist Hospital is located along Jalan Pahang, one of Kuala Lumpur's major arterials, accessible from the city centre and major expressways including the MRR2, DUKE Highway, and KL-Karak Highway. Paid parking is available within the hospital compound and in adjacent multi-storey facilities.
+Tawakkal Specialist Hospital is located along Jalan Pahang, one of Kuala Lumpur's major arterials, accessible from the city centre and major expressways including the MRR2, DUKE Highway, and KL-Karak Highway. Paid parking is available within the hospital compound and in adjacent multi-storey facilities.
 
 ### By Public Transport
 The hospital is accessible from several Kuala Lumpur transit hubs. The nearest LRT and bus connections along the Jalan Pahang corridor provide access from the city centre, Chow Kit, and surrounding areas. Please consult the Rapid KL journey planner or Google Maps for the most current public transport routes from your location.
 
 ### By Taxi or E-Hailing
-KPJ Tawakkal Specialist Hospital is a recognised destination for Grab, AirAsia Ride, and conventional taxi services across Kuala Lumpur. Simply enter "KPJ Tawakkal Specialist Hospital" as your destination.
+Tawakkal Specialist Hospital is a recognised destination for Grab, AirAsia Ride, and conventional taxi services across Kuala Lumpur. Simply enter "Tawakkal Specialist Hospital" as your destination.
 
 ---
 
 ## Map
 
-*(Map embed — KPJ Tawakkal Specialist Hospital, Jalan Pahang, Kuala Lumpur)*
+*(Map embed — Tawakkal Specialist Hospital, Jalan Pahang, Kuala Lumpur)*
 
-[View on Google Maps](https://maps.google.com/?q=KPJ+Tawakkal+Specialist+Hospital+Kuala+Lumpur)
+[View on Google Maps](https://maps.google.com/?q=Tawakkal+Specialist+Hospital+Kuala+Lumpur)
 
 ---
 

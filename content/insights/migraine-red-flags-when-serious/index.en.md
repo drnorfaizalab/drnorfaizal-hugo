@@ -91,4 +91,4 @@ Most headaches are benign. The goal is not anxiety — it is appropriate action 
 
 ---
 
-If your headache pattern has changed, or if any red flags described here apply to you — arrange a consultation at KPJ Tawakkal Specialist Hospital. A thorough evaluation takes the uncertainty away.
+If your headache pattern has changed, or if any red flags described here apply to you — arrange a consultation at Tawakkal Specialist Hospital. A thorough evaluation takes the uncertainty away.

@@ -1,7 +1,7 @@
 ---
 title: "Chronic Back Pain Specialist Kuala Lumpur"
 seoTitle: "Chronic Back Pain Specialist KL | Interventional Pain Malaysia"
-description: "Chronic back pain and neuropathic pain treatment in Kuala Lumpur by Dr Nor Faizal — radiofrequency ablation, spinal cord stimulation, and nerve block at KPJ Tawakkal. Stop pain at its source without repeated surgery."
+description: "Chronic back pain and neuropathic pain treatment in Kuala Lumpur by Dr Nor Faizal — radiofrequency ablation, spinal cord stimulation, and nerve block at Tawakkal. Stop pain at its source without repeated surgery."
 keywords:
   - chronic back pain specialist KL
   - chronic back pain treatment Malaysia
@@ -29,7 +29,7 @@ faq_schema:
 
 # Chronic Back Pain: When Medication Isn't Enough
 
-**In short:** Chronic back pain is back pain lasting more than 3 months. Common sources are the facet joints, the intervertebral discs and compressed nerve roots. When physiotherapy and medication have failed, interventional procedures such as diagnostic nerve blocks, radiofrequency ablation and spinal cord stimulation target the pain source directly, often without open surgery. Dr Nor Faizal Ahmad Bahuri, a neurosurgeon and interventional pain specialist at KPJ Tawakkal Specialist Hospital, Kuala Lumpur, offers these treatments.
+**In short:** Chronic back pain is back pain lasting more than 3 months. Common sources are the facet joints, the intervertebral discs and compressed nerve roots. When physiotherapy and medication have failed, interventional procedures such as diagnostic nerve blocks, radiofrequency ablation and spinal cord stimulation target the pain source directly, often without open surgery. Dr Nor Faizal Ahmad Bahuri, a neurosurgeon and interventional pain specialist at Tawakkal Specialist Hospital, Kuala Lumpur, offers these treatments.
 
 Chronic back pain is Malaysia's most common disabling condition. Over 80% of adults will experience significant back pain at some point. For most, it resolves. For a significant minority — perhaps 10–15% — pain persists beyond 3 months, becomes the defining feature of daily life, and resists everything thrown at it: physiotherapy, NSAIDs, nerve blocks from the GP, even back surgery.
 
@@ -90,7 +90,7 @@ A small pulse generator (similar to a pacemaker) is implanted under the skin. Th
 
 **Results:** 50–70% of carefully selected patients achieve >50% pain reduction, with improved function and reduced opioid use. Evidence for SCS in FBSS is robust — it is endorsed by NICE (UK) and multiple international pain guidelines.
 
-I perform both trial lead placement and permanent SCS implant at KPJ Tawakkal Specialist Hospital.
+I perform both trial lead placement and permanent SCS implant at Tawakkal Specialist Hospital.
 
 ### Intrathecal Drug Delivery (Pain Pump)
 For patients with refractory cancer pain or severe neuropathic pain not controlled by systemic opioids, an intrathecal pump delivers medication directly to the cerebrospinal fluid at a fraction of the oral dose. Dramatically reduces systemic side effects.
@@ -135,7 +135,7 @@ Age alone is not a contraindication. The evaluation focuses on your pain phenoty
 Bring your MRI scans, a list of all treatments you've tried, and a pain diary if you have one. Tell me what you can no longer do because of your pain — that's the outcome we're working toward reversing.
 
 **WhatsApp the clinic:** [+6011-3723 5061](https://wa.me/601137235061?text=Hello%2C%20I%20would%20like%20a%20consultation%20for%20chronic%20back%20pain.)
-**Book online:** [KPJ Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Book online:** [Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Call the clinic:** +603-4026 7777 ext 5099
 
 ---

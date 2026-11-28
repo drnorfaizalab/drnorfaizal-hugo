@@ -74,4 +74,4 @@ Kraniotomi adalah langkah pertama standard bagi kebanyakan pembedahan yang memer
 
 Jika video ini menimbulkan persoalan tentang diagnosis anda sendiri atau orang tersayang, pasukan Dr Nor Faizal sedia membantu.
 
-[Buat janji temu](/ms/contact/) di KPJ Tawakkal Specialist Hospital, Kuala Lumpur.
+[Buat janji temu](/ms/contact/) di Tawakkal Specialist Hospital, Kuala Lumpur.

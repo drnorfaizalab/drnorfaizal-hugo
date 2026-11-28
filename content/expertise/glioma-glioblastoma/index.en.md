@@ -1,7 +1,7 @@
 ---
 title: "Glioma & Glioblastoma Treatment Malaysia"
 seoTitle: "Glioma & Glioblastoma Treatment Malaysia | Neurosurgeon KL"
-description: "Expert glioma and glioblastoma surgery in Malaysia by Dr Nor Faizal Ahmad Bahuri — Oxford-trained neurosurgeon at KPJ Tawakkal KL. Treatment for low-grade glioma, high-grade glioma (GBM), astrocytoma and IDH-mutant gliomas."
+description: "Expert glioma and glioblastoma surgery in Malaysia by Dr Nor Faizal Ahmad Bahuri — Oxford-trained neurosurgeon at Tawakkal KL. Treatment for low-grade glioma, high-grade glioma (GBM), astrocytoma and IDH-mutant gliomas."
 keywords:
   - glioma treatment Malaysia
   - glioblastoma surgery Malaysia
@@ -18,7 +18,7 @@ lastmod: 2026-11-25
 
 # Glioma & Glioblastoma: Treatment in Malaysia
 
-**In short:** A glioma is a tumour arising from the brain's glial (support) cells. Gliomas are graded 1 to 4 under the 2021 WHO classification, which also uses molecular markers such as IDH mutation status; glioblastoma (GBM) is the most aggressive, grade 4 form. Treatment usually starts with maximal safe surgical removal, followed by radiotherapy and chemotherapy depending on grade and molecular profile. Dr Nor Faizal Ahmad Bahuri, an Oxford-trained consultant neurosurgeon at KPJ Tawakkal Specialist Hospital, Kuala Lumpur, treats low-grade and high-grade gliomas.
+**In short:** A glioma is a tumour arising from the brain's glial (support) cells. Gliomas are graded 1 to 4 under the 2021 WHO classification, which also uses molecular markers such as IDH mutation status; glioblastoma (GBM) is the most aggressive, grade 4 form. Treatment usually starts with maximal safe surgical removal, followed by radiotherapy and chemotherapy depending on grade and molecular profile. Dr Nor Faizal Ahmad Bahuri, an Oxford-trained consultant neurosurgeon at Tawakkal Specialist Hospital, Kuala Lumpur, treats low-grade and high-grade gliomas.
 
 Gliomas are the most complex tumours I treat. Unlike meningiomas, which sit on the brain surface and can often be completely excised, gliomas grow *within* brain tissue — infiltrating along white matter tracts, respecting no anatomical boundary, making the surgeon's task fundamentally different.
 
@@ -117,7 +117,7 @@ This is not a straightforward decision and must be individualised. Age, tumour s
 
 **Post-operative MRI:** Within 24–48 hours to assess extent of resection before oedema develops. This is the benchmark scan.
 
-**Oncology handover:** I will personally introduce you to the neuro-oncology team at KPJ Tawakkal to begin adjuvant treatment planning without delay.
+**Oncology handover:** I will personally introduce you to the neuro-oncology team at Tawakkal to begin adjuvant treatment planning without delay.
 
 **Follow-up imaging:** MRI every 2–3 months for GBM. Every 6 months for stable low-grade glioma.
 
@@ -130,7 +130,7 @@ This is not a straightforward decision and must be individualised. Age, tumour s
 If you or a family member has been diagnosed with a glioma — or has symptoms that raise concern — contact the clinic to arrange a consultation and MRI review.
 
 **WhatsApp the clinic:** [+6011-3723 5061](https://wa.me/601137235061?text=Hello%2C%20I%20would%20like%20a%20consultation%20regarding%20glioma.)
-**Book online:** [KPJ Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Book online:** [Tawakkal Appointment Portal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Call the clinic:** +603-4026 7777 ext 5099
 
 ---

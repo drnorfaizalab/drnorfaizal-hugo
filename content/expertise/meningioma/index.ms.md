@@ -1,7 +1,7 @@
 ---
 title: "Pembedahan Meningioma di Malaysia"
 seoTitle: "Pembedahan Meningioma Malaysia | Rawatan & Pemulihan"
-description: "Pembedahan meningioma di Malaysia oleh Dr Nor Faizal — pakar bedah neuro dari Oxford di KPJ Tawakkal Specialist Hospital, KL. Pengurusan pakar untuk meningioma benigna dan atipikal, termasuk tumor pangkal tengkorak dan sayap sfenoid."
+description: "Pembedahan meningioma di Malaysia oleh Dr Nor Faizal — pakar bedah neuro dari Oxford di Tawakkal Specialist Hospital, KL. Pengurusan pakar untuk meningioma benigna dan atipikal, termasuk tumor pangkal tengkorak dan sayap sfenoid."
 keywords:
   - pembedahan meningioma Malaysia
   - rawatan meningioma KL
@@ -24,7 +24,7 @@ faq_schema:
 
 # Meningioma: Rawatan, Pembedahan & Pemulihan di Malaysia
 
-**Ringkasnya:** Meningioma ialah tumor yang berasal daripada meninges, iaitu selaput yang menyelubungi otak dan saraf tunjang. Ia merupakan tumor otak primer paling lazim dalam kalangan orang dewasa, dan 80–85% adalah tumor gred 1 yang benigna dan tumbuh perlahan. Tumor kecil tanpa gejala selalunya boleh dipantau dengan MRI berkala; tumor yang menyebabkan gejala atau semakin membesar biasanya dirawat dengan pembedahan, kadangkala diikuti radioterapi. Dr Nor Faizal Ahmad Bahuri, pakar perunding bedah saraf lulusan Oxford di KPJ Tawakkal Specialist Hospital, Kuala Lumpur, merawat meningioma benigna dan atipikal, termasuk tumor pangkal tengkorak.
+**Ringkasnya:** Meningioma ialah tumor yang berasal daripada meninges, iaitu selaput yang menyelubungi otak dan saraf tunjang. Ia merupakan tumor otak primer paling lazim dalam kalangan orang dewasa, dan 80–85% adalah tumor gred 1 yang benigna dan tumbuh perlahan. Tumor kecil tanpa gejala selalunya boleh dipantau dengan MRI berkala; tumor yang menyebabkan gejala atau semakin membesar biasanya dirawat dengan pembedahan, kadangkala diikuti radioterapi. Dr Nor Faizal Ahmad Bahuri, pakar perunding bedah saraf lulusan Oxford di Tawakkal Specialist Hospital, Kuala Lumpur, merawat meningioma benigna dan atipikal, termasuk tumor pangkal tengkorak.
 
 Meningioma adalah tumor otak primer yang paling lazim di kalangan orang dewasa — merangkumi lebih 36% daripada semua tumor otak primer. Kebanyakannya bersifat benigna (bukan kanser). Pertumbuhannya selalunya perlahan. Dan apabila dikesan awal dan diuruskan dengan baik, kebanyakannya boleh sembuh.
 
@@ -144,7 +144,7 @@ Kedekatan dengan sinus kavernosus, sinus sagital superior, atau salur darah sere
 ## Tempah Konsultasi
 
 **WhatsApp klinik:** [+6011-3723 5061](https://wa.me/601137235061?text=Salam%2C%20saya%20ingin%20mendapatkan%20konsultasi%20mengenai%20meningioma.)
-**Tempah dalam talian:** [Portal Temujanji KPJ Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Tempah dalam talian:** [Portal Temujanji Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Hubungi klinik:** +603-4026 7777 samb. 5099
 
 ---

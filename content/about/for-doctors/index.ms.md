@@ -1,7 +1,7 @@
 ---
 title: "Merujuk Pesakit | Dr Nor Faizal Ahmad Bahuri"
 seoTitle: "Rujukan Pakar Bedah Saraf KL | Dr Nor Faizal"
-description: "Panduan rujukan untuk doktor am dan pakar. Dr Nor Faizal menerima rujukan tumor otak, intervensi kesakitan dan neuro-onkologi di KPJ Tawakkal, Kuala Lumpur."
+description: "Panduan rujukan untuk doktor am dan pakar. Dr Nor Faizal menerima rujukan tumor otak, intervensi kesakitan dan neuro-onkologi di Tawakkal, Kuala Lumpur."
 date: 2026-01-01
 lastmod: 2026-11-26
 draft: false
@@ -9,13 +9,13 @@ layout: "for-doctors"
 type: "for-doctors"
 
 # SEO
-keywords: ["rujukan pakar bedah saraf Malaysia", "rujuk pesakit tumor otak KL", "rujukan doktor am pakar bedah saraf", "rujuk pesakit KPJ Tawakkal", "rujukan intervensi kesakitan Malaysia"]
+keywords: ["rujukan pakar bedah saraf Malaysia", "rujuk pesakit tumor otak KL", "rujukan doktor am pakar bedah saraf", "rujuk pesakit Tawakkal", "rujukan intervensi kesakitan Malaysia"]
 canonical: "https://drnorfaizal.com/for-doctors/"
 robots: "index, follow"
 
 # Open Graph
 og_title: "Merujuk Pesakit kepada Dr Nor Faizal | Pakar Bedah Saraf & Kesakitan"
-og_description: "Panduan rujukan untuk doktor am dan pakar. Pembedahan tumor otak, intervensi kesakitan, dan gangguan sakit kepala. KPJ Tawakkal, Kuala Lumpur."
+og_description: "Panduan rujukan untuk doktor am dan pakar. Pembedahan tumor otak, intervensi kesakitan, dan gangguan sakit kepala. Tawakkal, Kuala Lumpur."
 og_type: "website"
 
 # Page-specific data used by the layout template
@@ -41,7 +41,7 @@ credentials:
     detail: "Sarjana Muda Perubatan dan Pembedahan"
   - degree: "18+"
     institution: "Tahun dalam Bedah Saraf"
-    detail: "Pakar Runding, Hospital Pakar KPJ Tawakkal"
+    detail: "Pakar Runding, Hospital Pakar Tawakkal"
 
 specialties:
   - number: "01"
@@ -136,7 +136,7 @@ checklist:
   - title: "Surat Rujukan Anda"
     detail: "Pilihan, tetapi amat dihargai. Ringkasan melalui WhatsApp juga diterima."
   - title: "Butiran Panel / Insurans"
-    detail: "KPJ Tawakkal menerima pelbagai panel korporat dan insurans perubatan."
+    detail: "Tawakkal menerima pelbagai panel korporat dan insurans perubatan."
 
 why_refer:
   - title: "Dwi-Kepakaran"
@@ -158,7 +158,7 @@ show_appointment_button: true
 
 ## Merujuk Pesakit kepada Dr Nor Faizal
 
-Dr Nor Faizal Ahmad Bahuri ialah Pakar Runding Bedah Saraf dan Pakar Intervensi Kesakitan di Hospital Pakar KPJ Tawakkal, Kuala Lumpur. Beliau menerima rujukan daripada doktor am, pakar perubatan keluarga dan pakar dari seluruh Malaysia dan rantau ini.
+Dr Nor Faizal Ahmad Bahuri ialah Pakar Runding Bedah Saraf dan Pakar Intervensi Kesakitan di Hospital Pakar Tawakkal, Kuala Lumpur. Beliau menerima rujukan daripada doktor am, pakar perubatan keluarga dan pakar dari seluruh Malaysia dan rantau ini.
 
 Rujukan dialu-alukan untuk pesakit yang memerlukan pembedahan tumor otak dan tulang belakang, pengurusan gangguan sakit kepala dan sakit muka yang kompleks, serta intervensi kesakitan apabila rawatan konservatif tidak mencukupi.
 
@@ -203,7 +203,7 @@ Terima kasih.
 
 ## Untuk Kes Neurologi Segera
 
-Jika pesakit anda mengalami **kemerosotan neurologi yang pantas**, **sawan baharu dengan ketumbuhan pada imej**, **sindrom cauda equina**, atau **sakit kepala mendadak yang teruk (thunderclap headache)** — sila rujuk terus ke Jabatan Kecemasan KPJ Tawakkal atau hubungi klinik segera melalui WhatsApp. Kes segera ditriaj dan diberi keutamaan.
+Jika pesakit anda mengalami **kemerosotan neurologi yang pantas**, **sawan baharu dengan ketumbuhan pada imej**, **sindrom cauda equina**, atau **sakit kepala mendadak yang teruk (thunderclap headache)** — sila rujuk terus ke Jabatan Kecemasan Tawakkal atau hubungi klinik segera melalui WhatsApp. Kes segera ditriaj dan diberi keutamaan.
 
 **Talian Terus Kecemasan:** +603 4026 7777  
 **WhatsApp (Segera):** [+6011-3723 5061](https://wa.me/601137235061?text=RUJUKAN%20SEGERA%3A%20)
@@ -212,9 +212,9 @@ Jika pesakit anda mengalami **kemerosotan neurologi yang pantas**, **sawan bahar
 
 ## Lokasi Hospital
 
-**Hospital Pakar KPJ Tawakkal**  
+**Hospital Pakar Tawakkal**  
 Jalan Pahang, Kuala Lumpur, Wilayah Persekutuan.
 
-Boleh diakses melalui MRR2, DUKE dan Lebuhraya KL-Karak. Tempat letak kereta bertingkat disediakan. E-hailing: cari "KPJ Tawakkal Specialist Hospital."
+Boleh diakses melalui MRR2, DUKE dan Lebuhraya KL-Karak. Tempat letak kereta bertingkat disediakan. E-hailing: cari "Tawakkal Specialist Hospital."
 
-[Buka di Google Maps →](https://maps.google.com/?q=KPJ+Tawakkal+Specialist+Hospital)
+[Buka di Google Maps →](https://maps.google.com/?q=Tawakkal+Specialist+Hospital)

@@ -1,7 +1,7 @@
 ---
 title: "Pakar Sakit Belakang Kronik Kuala Lumpur"
 seoTitle: "Pakar Sakit Belakang Kronik KL | Rawatan Intervensi Kesakitan Malaysia"
-description: "Rawatan sakit belakang kronik dan sakit neuropatik di Kuala Lumpur oleh Dr Nor Faizal — ablasi radiofrekuensi, stimulasi saraf tunjang, dan blok saraf di KPJ Tawakkal. Hentikan kesakitan dari puncanya tanpa pembedahan berulang."
+description: "Rawatan sakit belakang kronik dan sakit neuropatik di Kuala Lumpur oleh Dr Nor Faizal — ablasi radiofrekuensi, stimulasi saraf tunjang, dan blok saraf di Tawakkal. Hentikan kesakitan dari puncanya tanpa pembedahan berulang."
 keywords:
   - pakar sakit belakang kronik KL
   - rawatan sakit belakang kronik Malaysia
@@ -29,7 +29,7 @@ faq_schema:
 
 # Sakit Belakang Kronik: Apabila Ubat-Ubatan Tidak Lagi Memadai
 
-**Ringkasnya:** Sakit belakang kronik ialah sakit belakang yang berlarutan lebih daripada 3 bulan. Punca biasa termasuk sendi facet, cakera tulang belakang dan akar saraf yang tertekan. Apabila fisioterapi dan ubat-ubatan gagal, prosedur intervensi seperti blok saraf diagnostik, ablasi radiofrekuensi dan stimulasi saraf tunjang merawat punca kesakitan secara terus, selalunya tanpa pembedahan terbuka. Dr Nor Faizal Ahmad Bahuri, pakar bedah saraf dan pakar kesakitan intervensi di KPJ Tawakkal Specialist Hospital, Kuala Lumpur, menawarkan rawatan ini.
+**Ringkasnya:** Sakit belakang kronik ialah sakit belakang yang berlarutan lebih daripada 3 bulan. Punca biasa termasuk sendi facet, cakera tulang belakang dan akar saraf yang tertekan. Apabila fisioterapi dan ubat-ubatan gagal, prosedur intervensi seperti blok saraf diagnostik, ablasi radiofrekuensi dan stimulasi saraf tunjang merawat punca kesakitan secara terus, selalunya tanpa pembedahan terbuka. Dr Nor Faizal Ahmad Bahuri, pakar bedah saraf dan pakar kesakitan intervensi di Tawakkal Specialist Hospital, Kuala Lumpur, menawarkan rawatan ini.
 
 Sakit belakang kronik adalah kondisi hilang upaya yang paling lazim di Malaysia. Lebih 80% orang dewasa akan mengalami sakit belakang yang signifikan pada satu ketika dalam hidup mereka. Bagi kebanyakan orang, ia akan pulih. Namun, bagi sebahagian kecil — mungkin 10–15% — kesakitan berterusan melebihi 3 bulan, menjadi penentu kehidupan seharian, dan tidak beransur pulih walau apa jua rawatan yang dicuba: fisioterapi, ubat NSAID, suntikan blok saraf daripada doktor biasa (GP), malah pembedahan tulang belakang.
 
@@ -90,7 +90,7 @@ Penjana denyut kecil (serupa dengan perentak jantung) diimplan di bawah kulit. W
 
 **Hasil:** 50–70% pesakit yang dipilih dengan teliti mencapai >50% pengurangan kesakitan, dengan fungsi yang lebih baik dan penggunaan opioid yang berkurangan. Bukti untuk SCS dalam FBSS adalah kukuh — ia disokong oleh NICE (UK) dan pelbagai garis panduan kesakitan antarabangsa.
 
-Saya melakukan kedua-dua penempatan wayar percubaan dan implan SCS kekal di Hospital Pakar KPJ Tawakkal.
+Saya melakukan kedua-dua penempatan wayar percubaan dan implan SCS kekal di Hospital Pakar Tawakkal.
 
 ### Terapi Ubat Intratekal (Pam Kesakitan)
 Bagi pesakit dengan sakit kanser yang sukar dirawat atau sakit neuropatik teruk yang tidak dapat dikawal oleh opioid sistemik, pam intratekal menghantar ubat terus ke cecair serebrospinal pada pecahan dos oral. Ini mengurangkan kesan sampingan sistemik secara dramatik.
@@ -135,7 +135,7 @@ Umur sahaja bukan kontraindikasi. Penilaian memberi tumpuan kepada fenotip kesak
 Bawa bersama imbasan MRI anda, senarai semua rawatan yang telah anda cuba, dan diari kesakitan jika ada. Beritahu saya apa yang anda tidak lagi boleh lakukan kerana kesakitan anda — itulah hasil yang kita sedang usahakan untuk pulihkan.
 
 **WhatsApp klinik:** [+6011-3723 5061](https://wa.me/601137235061?text=Hello%2C%20saya%20ingin%20membuat%20janji%20temu%20konsultasi%20untuk%20sakit%20belakang%20kronik.)
-**Tempah dalam talian:** [Portal Janji Temu KPJ Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
+**Tempah dalam talian:** [Portal Janji Temu Tawakkal](https://www.kpjhealth.com.my/dr-nor-faizal-ahmad-bahuri)
 **Hubungi klinik:** +603-4026 7777 samb. 5099
 
 ---

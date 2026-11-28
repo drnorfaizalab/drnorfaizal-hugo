@@ -102,4 +102,4 @@ Doktor keluarga (GP) anda adalah tempat rujukan pertama yang betul untuk kebanya
 
 Jika punca sakit anda masih menjadi tanda tanya, atau jika anda rasa ada sesuatu yang tidak kena, dapatkan penilaian pakar. Penilaian yang teliti boleh memberikan jawapan yang anda perlukan.
 
-Hubungi klinik saya di Hospital Pakar KPJ Tawakkal untuk mengatur konsultasi.
+Hubungi klinik saya di Hospital Pakar Tawakkal untuk mengatur konsultasi.

@@ -11,7 +11,7 @@ lastmod: 2026-11-25
 
 **Dr Nor Faizal Ahmad Bahuri**
 Consultant Neurosurgeon & Interventional Pain Specialist
-KPJ Tawakkal Specialist Hospital, Kuala Lumpur
+Tawakkal Specialist Hospital, Kuala Lumpur
 
 *Discipline · Simplicity · Elegance*
 
@@ -195,7 +195,7 @@ Appointment availability varies. For routine consultations, appointments can usu
 
 **Q: What happens if I need emergency care outside of clinic hours?**
 
-If you experience a medical emergency outside of clinic hours, proceed immediately to the **Emergency Department at KPJ Tawakkal Specialist Hospital** or your nearest emergency facility, and call **999** if necessary. Do not wait for a clinic appointment in an emergency situation.
+If you experience a medical emergency outside of clinic hours, proceed immediately to the **Emergency Department at Tawakkal Specialist Hospital** or your nearest emergency facility, and call **999** if necessary. Do not wait for a clinic appointment in an emergency situation.
 
 ---
 
@@ -254,7 +254,7 @@ Returning to work depends on the nature of your job, the type of surgery perform
 
 Receiving a brain tumor diagnosis — or undergoing any serious neurosurgical treatment — is emotionally and psychologically demanding for both patients and their families. Dr Nor Faizal encourages patients to seek support through:
 
-- **Hospital social work and counseling services** at KPJ Tawakkal
+- **Hospital social work and counseling services** at Tawakkal
 - **National patient support groups** for brain tumor and cancer patients in Malaysia
 - **Palliative care services**, if symptom management and quality-of-life support are priorities
 - **Peer support** — connecting with others who have lived experience with a similar diagnosis
