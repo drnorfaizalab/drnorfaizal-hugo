@@ -4,6 +4,11 @@ Personal-brand and patient-funnel site for Dr Nor Faizal Ahmad Bahuri (neurosurg
 
 This repo is PUBLIC. Never commit secrets, patient data or `.env`.
 
+## Brand
+
+- Single source of truth: the FAB Brand Playbook (Google Doc) https://docs.google.com/document/d/1xEVuVlg8qkIWh0xtmsBKpebxK9WGqv9HsFa7JTINTcU/edit. It overrides any brand, voice, colour or naming rule anywhere in this repo.
+- `tools/brand-context.md` is a read-only snapshot of that doc. Every Gemini tool and the editorial skill read it. Never edit it directly and never hardcode brand facts in a tool; change the Google Doc, then "sync brand" regenerates the snapshot.
+
 ## Build
 
 - Hugo 0.157.0 extended, the version set as `HUGO_VERSION` in Cloudflare Pages (Settings > Variables). Keep local builds on the same version. If `hugo` is missing, download that exact release.

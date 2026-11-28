@@ -58,7 +58,7 @@ CAPTION (IG/TikTok): hook line + 3–5 lines + 5 hashtags
 ## B-roll bank
 - OT footage (microscope, navigation screen, bone flap — no identifiable patient)
 - MRI/CT on lightbox or monitor (anonymised)
-- Dr Faizal in batik scrubs, clinic consult (actor/consented), walking KPJ Tawakkal corridor
+- Dr Faizal in batik scrubs, clinic consult (actor/consented), walking a Tawakkal Specialist Hospital corridor
 - Hand-drawn anatomy on whiteboard / iPad
 - Skull or spine model
 

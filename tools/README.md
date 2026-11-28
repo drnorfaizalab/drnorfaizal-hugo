@@ -32,7 +32,7 @@ Copy `.env.example` to `.env` in the project root and fill in:
 | `atomise.js` | Post or topic → 5 social pieces (TikTok, IG, LinkedIn, FB, WhatsApp) | Notion Raw Ideas Inbox, one entry each | `docs/atomise.md` |
 | `ai-compose.js` | Ad-hoc Gemini writing | Terminal + Notion Raw Ideas Inbox | below |
 | `ai-curate.js` | Daily or weekly content brief | New sub-page under Notion AI Curator Briefings | below |
-| `brand-context.md` | Shared brand voice | Read by `translate_content.py` | — |
+| `brand-context.md` | Brand rules: read-only snapshot of the master FAB Brand Playbook (Google Doc). Do not edit here | Read by every Gemini tool and the editorial skill | — |
 
 ## Commands
 
