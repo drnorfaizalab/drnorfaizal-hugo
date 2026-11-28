@@ -56,7 +56,7 @@ fd_contacts_intro: "All referral channels go directly to the clinic team. WhatsA
 fd_wa_preferred: "WhatsApp (Preferred)"
 fd_wa_note: "Fastest response. Routine &amp; urgent referrals."
 fd_clinic_direct: "Clinic Direct Line"
-fd_clinic_hours_note: " Mon&ndash;Fri 9am&ndash;4pm, Sat 9am&ndash;12pm."
+fd_clinic_hours_note: " Mon&ndash;Fri 9am&ndash;4pm, Sat 9am&ndash;12pm. Closed Sun &amp; public holidays."
 fd_email: "Email"
 fd_email_note: "For referral letters &amp; imaging reports."
 fd_online_booking: "Online Booking"
